@@ -5,12 +5,12 @@
 
 - Convert a PNM image file to XWD:
 
-`pnmtoxwd {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
+`pnmtoxwd {{path/to/input_file.pnm}} >{{path/to/output_file.xwd}}`
 
 - Produce the output in the DirectColor format:
 
-`pnmtoxwd {{[-d|-directcolor]}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
+`pnmtoxwd {{[-d|-directcolor]}} {{path/to/input_file.pnm}} >{{path/to/output_file.xwd}}`
 
 - Set the color depth of the output to b bits:
 
-`pnmtoxwd {{[-ps|-pseudodepth]}} {{b}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
+`pnmtoxwd {{[-ps|-pseudodepth]}} {{b}} {{path/to/input_file.pnm}} >{{path/to/output_file.xwd}}`

@@ -11,7 +11,7 @@
 
 `streamlit run {{nombre_del_proyecto}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `streamlit --help`
 

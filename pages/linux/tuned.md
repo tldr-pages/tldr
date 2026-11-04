@@ -22,7 +22,7 @@
 
 - Start the `tuned` daemon writing its process ID to a custom PID file:
 
-`sudo tuned {{[-P|--pid]}} {{path/to/pid_file.pid}}`
+`sudo tuned {{[-P|--pid]}} {{path/to/process_id_file.pid}}`
 
 - Start the `tuned` daemon with debugging messages:
 

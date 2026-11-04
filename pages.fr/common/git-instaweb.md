@@ -15,11 +15,11 @@
 
 `git instaweb --start {{[-p|--port]}} {{1234}}`
 
-- Utiliser un daemon HTTP spécifique :
+- Utilise un daemon HTTP spécifique :
 
 `git instaweb --start {{[-d|--httpd]}} {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
-- Lancer en même temps qu'un navigateur web :
+- Lance en même temps qu'un navigateur web :
 
 `git instaweb --start {{[-b|--browser]}}`
 

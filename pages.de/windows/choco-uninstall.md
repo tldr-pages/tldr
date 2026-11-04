@@ -13,11 +13,11 @@
 
 - Stimme allen Fragen automatisch zu:
 
-`choco uninstall {{paket}} --yes`
+`choco uninstall {{paket}} {{[-y|--yes]}}`
 
 - Deinstalliere auch alle Abhängigkeiten:
 
-`choco uninstall {{paket}} --remove-dependencies`
+`choco uninstall {{paket}} {{[-x|--remove-dependencies]}}`
 
 - Deinstalliere alle Pakete:
 

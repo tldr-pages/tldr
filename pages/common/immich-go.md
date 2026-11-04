@@ -1,6 +1,6 @@
 # immich-go
 
-> Immich-Go is an open-source tool designed to streamline uploading large photo collections to your self-hosted Immich server.
+> Open-source tool designed to streamline uploading large photo collections to your self-hosted Immich server.
 > See also: `immich`.
 > More information: <https://github.com/simulot/immich-go>.
 

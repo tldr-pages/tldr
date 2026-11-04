@@ -33,4 +33,4 @@
 
 - Exemplo de entrada do crontab, que executa um determinado script às 02:30 todas as sextas-feiras:
 
-`30 2 * * Fri {{/caminho/absoluto/para/script.sh}}`
+`30 2 * * Fri /{{caminho/absoluto/para/script.sh}}`

@@ -11,7 +11,7 @@
 
 `bun pm version {{9.0.1}}`
 
-- 시맨틱 버전 규칙(`major`, `minor`, `patch` 등)에 따라 버전 증가:
+- 시맨틱 버전 규칙에 따라 버전 증가:
 
 `bun pm version {{major|minor|patch|premajor|preminor|prepatch|prerelease}}`
 

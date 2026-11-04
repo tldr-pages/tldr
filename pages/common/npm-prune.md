@@ -12,7 +12,7 @@
 
 `npm prune --production`
 
-- Show what would be removed without making any changes:
+- Simulate pruning, showing what would be removed without making any changes:
 
 `npm prune --dry-run`
 

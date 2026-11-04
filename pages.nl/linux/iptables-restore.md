@@ -1,6 +1,6 @@
 # iptables-restore
 
-> Herstel de `iptables` IPv4 configuratie.
+> Herstel de `iptables` IPv4-configuratie.
 > Gebruik `ip6tables-restore` om hetzelfde te doen voor IPv6.
 > Meer informatie: <https://manned.org/iptables-restore>.
 

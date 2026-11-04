@@ -6,9 +6,9 @@
 
 - Voer een commando uit alsof de machine-architectuur `i686` is (handig voor het draaien van 32-bit applicaties op een 64-bit kernel):
 
-`setarch i686 {{opdracht}}`
+`setarch i686 {{commando}}`
 
-- Een shell uitvoeren met de `x86_64` architectuur:
+- Voer een shell uit met de `x86_64` architectuur:
 
 `setarch x86_64 {{bash}}`
 

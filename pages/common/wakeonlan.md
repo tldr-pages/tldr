@@ -11,7 +11,7 @@
 
 `wakeonlan {{01:02:03:04:05:06}} {{[-i|--ip]}} {{192.168.178.2}}`
 
-- Print the commands, but don't execute them (dry-run):
+- Simulate execution and print the commands without running them:
 
 `wakeonlan {{[-n|--dry-run]}} {{01:02:03:04:05:06}}`
 

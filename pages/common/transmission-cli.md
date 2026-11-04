@@ -1,7 +1,7 @@
 # transmission-cli
 
 > A lightweight, command-line BitTorrent client.
-> This tool has been deprecated, please see `transmission-remote`.
+> Note: This command is deprecated, use `transmission-remote` instead.
 > More information: <https://manned.org/transmission-cli>.
 
 - Download a specific torrent:

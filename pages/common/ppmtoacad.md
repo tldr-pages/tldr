@@ -5,12 +5,12 @@
 
 - Convert a PPM image to an AutoCAD slide:
 
-`ppmtoacad {{path/to/file.ppm}} > {{path/to/file.acad}}`
+`ppmtoacad {{path/to/file.ppm}} >{{path/to/file.acad}}`
 
 - Convert a PPM image to an AutoCAD binary database import file:
 
-`ppmtoacad {{[-d|-dxb]}} {{path/to/file.ppm}} > {{path/to/file.dxb}}`
+`ppmtoacad {{[-d|-dxb]}} {{path/to/file.ppm}} >{{path/to/file.dxb}}`
 
 - Restrict the colors in the output to 8 RGB shades:
 
-`ppmtoacad -8 {{path/to/file.ppm}} > {{path/to/file.dxb}}`
+`ppmtoacad -8 {{path/to/file.ppm}} >{{path/to/file.dxb}}`

@@ -1,16 +1,20 @@
 # modprobe
 
 > Add or remove modules from the Linux kernel.
-> See also: `kmod`.
+> See also: `lsmod`, `kmod`.
 > More information: <https://manned.org/modprobe>.
 
-- Pretend to load a module into the kernel, but don't actually do it:
+- Simulate loading a module into the kernel:
 
 `modprobe {{[-n|--dry-run]}} {{module_name}}`
 
 - Load a module into the kernel:
 
 `sudo modprobe {{module_name}}`
+
+- Load multiple modules:
+
+`sudo modprobe {{[-a|--all]}} {{module_name1 module_name2 ...}}`
 
 - Remove a module from the kernel:
 

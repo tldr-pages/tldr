@@ -13,11 +13,11 @@
 
 - Automatyczna akceptacja wszystkich monitów podczas deinstalacji pakietu:
 
-`choco uninstall {{pakiet}} --yes`
+`choco uninstall {{pakiet}} {{[-y|--yes]}}`
 
 - Odinstalowanie wszystkich zależności podczas procesu deinstalacji danego pakietu/pakietów:
 
-`choco uninstall {{pakiet}} --remove-dependencies`
+`choco uninstall {{pakiet}} {{[-x|--remove-dependencies]}}`
 
 - Odinstalowanie wszystkich pakietów:
 

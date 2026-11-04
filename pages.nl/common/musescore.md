@@ -1,10 +1,10 @@
 # musescore
 
-> MuseScore bladmuziek bewerker.
+> MuseScore bladmuziekbewerker.
 > Zie ook: `lilypond`.
 > Meer informatie: <https://handbook.musescore.org/appendix/command-line-usage>.
 
-- Stel de MP3 uitvoer bitsnelheid in kbit/s:
+- Stel de MP3-uitvoerbitsnelheid in kbit/s:
 
 `musescore {{[-b|--bitrate]}} {{bitsnelheid}}`
 
@@ -12,11 +12,11 @@
 
 `musescore {{[-d|--debug]}}`
 
-- Schakel experimentele funcies in, bijvoorbeeld lagen:
+- Schakel experimentele functies in, bijvoorbeeld lagen:
 
 `musescore {{[-e|--experimental]}}`
 
-- Exporteer het gegeven bestand naar het gegeven uitvoer bestand. Het bestandstype hangt af van de gegeven extentie:
+- Exporteer het gegeven bestand naar het gegeven uitvoerbestand. Het bestandstype hangt af van de gegeven extensie:
 
 `musescore {{[-o|--export-to]}} {{uitvoer_bestand}} {{invoer_bestand}}`
 
@@ -24,6 +24,6 @@
 
 `musescore --diff {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
-- Specificeer een MIDI invoer operaties bestand:
+- Specificeer een MIDI-importoperatiesbestand:
 
 `musescore {{[-M|--midi-operations]}} {{pad/naar/bestand}}`

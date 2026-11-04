@@ -25,12 +25,12 @@
 
 - Conferma automaticamente tutte le richieste:
 
-`choco install {{pacchetto}} --yes`
+`choco install {{pacchetto}} {{[-y|--yes]}}`
 
 - Specifica una fonte personalizzata per ricevere pacchetti:
 
-`choco install {{pacchetto}} --source {{url_fonte|alias}}`
+`choco install {{pacchetto}} {{[-s|--source]}} {{url_fonte|alias}}`
 
 - Fornisci un nome utente e una password per l'autenticazione:
 
-`choco install {{pacchetto}} --user {{nome_utente}} --password {{password}}`
+`choco install {{pacchetto}} {{[-u|--user]}} {{nome_utente}} {{[-p|--password]}} {{password}}`

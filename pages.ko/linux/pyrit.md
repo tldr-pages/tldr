@@ -13,11 +13,11 @@
 
 - [e]SSID 설정:
 
-`pyrit -e "{{essid}}" create_essid`
+`pyrit -e "{{extended_ssid}}" create_essid`
 
 - 특정 패킷 캡처 파일 [r]읽고 분석:
 
-`pyrit -r {{경로/대상/파일.cap|경로/대상/파일.pcap}} analyze`
+`pyrit -r {{경로/대상/파일}}.{{cap|pcap}} analyze`
 
 - 현재 데이터베이스에 비밀번호 [i]가져오기:
 

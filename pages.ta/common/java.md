@@ -13,16 +13,16 @@
 
 - ஒரு `.jar` நிரலை இயக்கவும்:
 
-`java -jar {{கோப்புபெயர்.jar}}`
+`java -jar {{கோப்புபெயர்}}.jar`
 
 - போர்ட் 5005 இல் இணைக்க காத்திருக்கும் பிழைத்திருத்தத்துடன் `.jar` நிரலை இயக்கவும்:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{கோப்புபெயர்.jar}}`
-
-- JDK, JRE மற்றும் HotSpot பதிப்புகளைக் காண்பி:
-
-`java -version`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{கோப்புபெயர்}}.jar`
 
 - ஜாவா கட்டளைக்கான பயன்பாட்டுத் தகவலைக் காண்பி:
 
 `java -help`
+
+- JDK, JRE மற்றும் HotSpot பதிப்புகளைக் காண்பி:
+
+`java -version`

@@ -9,11 +9,7 @@
 
 - 여러 키보드 레이아웃, 변형 및 전환 옵션 설정:
 
-`setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option {{'grp:alt_caps_toggle'}}`
-
-- 도움말 보기:
-
-`setxkbmap -help`
+`setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option '{{grp:alt_caps_toggle}}'`
 
 - 모든 레이아웃 나열:
 
@@ -26,3 +22,7 @@
 - 사용 가능한 전환 옵션 나열:
 
 `localectl list-x11-keymap-options | grep grp:`
+
+- 도움말 보기:
+
+`setxkbmap -help`

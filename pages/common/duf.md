@@ -1,6 +1,7 @@
 # duf
 
 > Disk Usage/Free Utility.
+> See also: `ncdu`, `df`.
 > More information: <https://github.com/muesli/duf#usage>.
 
 - List accessible devices:

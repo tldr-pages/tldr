@@ -1,7 +1,7 @@
 # chcon
 
 > Cambia el contexto de seguridad de SELinux de uno o varios archivos o directorios.
-> Vea también: `secon`, `restorecon`, `semanage-fcontext`.
+> Vea también: `secon`, `restorecon`, `semanage fcontext`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - Vea el contexto de seguridad de un archivo:

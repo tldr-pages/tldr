@@ -24,6 +24,6 @@
 
 `rm {{[-r|--recursive]}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Verwijder lege mappen (dit word beschouwd als de veilige methode):
+- Verwijder lege mappen (dit wordt beschouwd als de veilige methode):
 
 `rm {{[-d|--dir]}} {{pad/naar/map}}`

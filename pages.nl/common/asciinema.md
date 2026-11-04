@@ -1,6 +1,6 @@
 # asciinema
 
-> Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
+> Neem op en speel terminalsessies af, en deel ze optioneel op <https://asciinema.org>.
 > Zie ook: `terminalizer`, `agg`.
 > Meer informatie: <https://docs.asciinema.org/manual/cli/>.
 
@@ -12,11 +12,11 @@
 
 `asciinema {{[r|record]}} {{pad/naar/opname.cast}}`
 
-- Speel een terminal opname af vanaf een lokaal bestand:
+- Speel een terminalopname af vanaf een lokaal bestand:
 
 `asciinema {{[p|play]}} {{pad/naar/opname.cast}}`
 
-- Speel een terminal opname af vanaf asciinema.org:
+- Speel een terminalopname af vanaf <https://asciinema.org>:
 
 `asciinema {{[p|play]}} https://asciinema.org/a/{{cast_id}}`
 
@@ -28,7 +28,7 @@
 
 `asciinema {{[ca|cat]}} {{pad/naar/opname.cast}}`
 
-- Sla een lokaal opgeslagen terminal sessie op bij asciinema.org:
+- Upload een lokaal opgeslagen terminalsessie naar asciinema.org:
 
 `asciinema {{[u|upload]}} {{pad/naar/opname.cast}}`
 

@@ -15,4 +15,4 @@
 
 - Print only rows that match a `regex`:
 
-`git annotate -L :{{regexp}} {{path/to/file}}`
+`git annotate -L :{{regex}} {{path/to/file}}`

@@ -15,6 +15,6 @@
 
 `streamlit --help`
 
-- Toon versie:
+- Toon de versie:
 
 `streamlit --version`

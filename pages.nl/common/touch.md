@@ -3,7 +3,7 @@
 > Maak bestanden aan en stel toegang-/wijzigingstijden in.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
-- Maak specifieke bestanden aan:
+- Maak specifieke bestanden aan of werk hun tijdstempels bij als ze al bestaan:
 
 `touch {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 

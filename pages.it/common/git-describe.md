@@ -9,7 +9,7 @@
 
 - Crea un nome di 4 cifre per l'hash breve del commit:
 
-`git describe --abbrev={{4}}`
+`git describe --abbrev=4`
 
 - Genera un nome che includa anche il percorso di riferimento:
 

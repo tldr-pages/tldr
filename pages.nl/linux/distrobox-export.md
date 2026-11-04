@@ -4,7 +4,7 @@
 > Zie ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-export/>.
 
-- Exporteer een app van de container naar de host (het desktop pictogram verschijnt in de applicatielijst van uw hostsysteem):
+- Exporteer een app van de container naar de host (het bureaublad-item/pictogram verschijnt in de applicatielijst van uw hostsysteem):
 
 `distrobox-export {{[-a|--app]}} {{pakket}} {{[-ef|--extra-flags]}} "--foreground"`
 

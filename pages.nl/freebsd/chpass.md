@@ -1,12 +1,12 @@
 # chpass
 
-> Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
+> Gebruikersdatabase-informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 > Zie ook: `passwd`.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
-- Voeg toe of pas interactief de gebruikersdatabase informatie aan voor de huidige gebruiker:
+- Voeg toe of pas interactief de gebruikersdatabase-informatie aan voor de huidige gebruiker:
 
-`su -c chpass`
+`chpass`
 
 - Stel een specifieke login [s]hell in voor de huidige gebruiker:
 
@@ -16,7 +16,7 @@
 
 `chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
-- Pas de account v[e]rloop tijd aan (in seconden vanaf de epoch, UTC):
+- Pas de account-v[e]rlooptijd aan (in seconden vanaf de epoch, UTC):
 
 `su -c 'chpass -e {{tijd}} {{gebruikersnaam}}'`
 
@@ -24,10 +24,10 @@
 
 `su -c 'chpass -p {{gecodeerd_wachtwoord}} {{gebruikersnaam}}'`
 
-- Specificeer een [h]ostnaam of adres van een NIS server:
+- Specificeer de [h]ostnaam of het adres van een NIS-server om te bevragen:
 
 `su -c 'chpass -h {{hostnaam}} {{gebruikersnaam}}'`
 
-- Specificeer een specifiek [d]omein (standaard systeem domein naam):
+- Specificeer een specifiek NIS-[d]omein (standaard systeemdomeinnaam):
 
 `su -c 'chpass -d {{domein}} {{gebruikersnaam}}'`

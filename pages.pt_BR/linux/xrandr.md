@@ -13,19 +13,19 @@
 
 - Altera a resolução e frequência de atualização da DisplayPort 1 para 1920x1080, 60Hz:
 
-`xrandr --output {{DP1}} --mode {{1920x1080}} --rate {{60}}`
+`xrandr --output DP1 --mode 1920x1080 {{[-r|--rate]}} 60`
 
 - Define a resolução do HDMI2 para 1280x1024 e o coloca à direita de DP1:
 
-`xrandr --output {{HDMI2}} --mode {{1280x1024}} --right-of {{DP1}}`
+`xrandr --output HDMI2 --mode 1280x1024 --right-of DP1`
 
 - Desativa a saída VGA1:
 
-`xrandr --output {{VGA1}} --off`
+`xrandr --output VGA1 --off`
 
 - Define o brilho de LVDS1 como 50%:
 
-`xrandr --output {{LVDS1}} --brightness {{0.5}}`
+`xrandr --output LVDS1 --brightness 0.5`
 
 - Mostra o estado atual de qualquer servidor X:
 

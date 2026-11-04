@@ -11,7 +11,7 @@
 
 `rlwrap {{[-r|--remember]}} {{command}}`
 
-- Better prompt completion if prompts contain ANSI colour codes:
+- Improve prompt completion if prompts contain ANSI colour codes:
 
 `rlwrap {{[-A|--ansi-colour-aware]}} {{command}}`
 

@@ -1,9 +1,9 @@
 # ludusavi
 
-> Backup video game save data.
+> Back up video game save data.
 > More information: <https://github.com/mtkennerly/ludusavi/blob/master/docs/cli.md>.
 
-- Backup games:
+- Back up games:
 
 `ludusavi backup --path {{path/to/backup}}`
 

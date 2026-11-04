@@ -2,6 +2,7 @@
 
 > Affiche et concatène le contenu d'un ou plusieurs fichiers.
 > Un clone de `cat` avec mise en valeur de la syntaxe et intégration avec Git.
+> Voir aussi : `cat`.
 > Plus d'informations : <https://manned.org/bat>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
@@ -10,11 +11,11 @@
 
 - Concatène le contenu de plusieurs fichiers vers le fichier de destination :
 
-`bat {{fichier1}} {{fichier2}} > {{fichier_de_destination}}`
+`bat {{fichier1}} {{fichier2}} >{{fichier_de_destination}}`
 
 - Ajoute le contenu d'un ficher à la fin du fichier de destination :
 
-`bat {{fichier1}} {{fichier2}} >> {{fichier_de_destination}}`
+`bat {{fichier1}} {{fichier2}} >>{{fichier_de_destination}}`
 
 - Numérote toutes les lignes affichées :
 

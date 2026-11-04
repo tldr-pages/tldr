@@ -29,7 +29,7 @@
 
 - Display real-time events from containers streamed as valid JSON Lines:
 
-`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '\{\{json .\}\}'`
 
 - Display system-wide information:
 

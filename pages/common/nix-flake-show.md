@@ -7,11 +7,11 @@
 
 `nix flake show`
 
-- Show all the outputs of a flake on GitHub and print the output as a json on a single line:
+- Show all the outputs of a flake on GitHub and print the output as a JSON on a single line:
 
 `nix flake show {{github:owner/repo}} --json --no-pretty`
 
-- Show all the `legacyPackages` outputs of a flake on GitHub and print the output as a multi-line indented json:
+- Show all the `legacyPackages` outputs of a flake on GitHub and print the output as a multi-line indented JSON:
 
 `nix flake show {{github:owner/repo}} --json --pretty --legacy`
 

@@ -11,7 +11,7 @@
 
 `sui move {{subcommand}}`
 
-- Publish smart contracts, get object information, execute transactions and more:
+- Publish smart contracts, get object information, execute transactions, and more:
 
 `sui client {{subcommand}}`
 

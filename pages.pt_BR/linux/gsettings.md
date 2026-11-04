@@ -5,15 +5,15 @@
 
 - Define o valor de uma chave. Falha se a chave não existe ou o valor está fora do intervalo:
 
-`gsettings set {{org.exemplo.esquema}} {{chave-exemplo}} {{valor}}`
+`gsettings set {{org.exemplo.esquema}} {{chave_exemplo}} {{valor}}`
 
 - Imprime o valor de uma chave ou o padrão fornecido pelo esquema se a chave não foi definida no `dconf`:
 
-`gsettings get {{org.exemplo.esquema}} {{chave-exemplo}}`
+`gsettings get {{org.exemplo.esquema}} {{chave_exemplo}}`
 
 - Desfaz a definição de uma chave, para que o valor padrão do esquema seja usado:
 
-`gsettings reset {{org.exemplo.esquema}} {{chave-exemplo}}`
+`gsettings reset {{org.exemplo.esquema}} {{chave_exemplo}}`
 
 - Exibe todos os esquemas, chaves e valores (não realocáveis):
 
@@ -25,8 +25,8 @@
 
 - Exibe valores permitidos pelo esquema para uma chave (útil com chaves enumeráveis):
 
-`gsettings range {{org.exemplo.esquema}} {{chave-exemplo}}`
+`gsettings range {{org.exemplo.esquema}} {{chave_exemplo}}`
 
 - Exibe a descrição legível por humanos de uma chave:
 
-`gsettings describe {{org.exemplo.esquema}} {{chave-exemplo}}`
+`gsettings describe {{org.exemplo.esquema}} {{chave_exemplo}}`

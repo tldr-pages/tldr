@@ -1,6 +1,7 @@
 # basename
 
 > Rimuove le porzioni di directory iniziali da un percorso.
+> Vedi anche: `dirname`.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Mostra solo il nome del file da un percorso:

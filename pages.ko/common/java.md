@@ -13,16 +13,16 @@
 
 - `.jar` 프로그램 실행:
 
-`java -jar {{파일명.jar}}`
+`java -jar {{파일명}}.jar`
 
 - 포트 5005에서 연결 대기 상태로 디버그 모드에서 `.jar` 프로그램 실행:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{파일명.jar}}`
-
-- JDK, JRE 및 HotSpot 버전 표시:
-
-`java -version`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{파일명}}.jar`
 
 - 도움말 표시:
 
 `java -help`
+
+- JDK, JRE 및 HotSpot 버전 표시:
+
+`java -version`

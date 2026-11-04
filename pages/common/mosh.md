@@ -24,6 +24,6 @@
 
 `mosh -p {{124}} {{username}}@{{remote_host}}`
 
-- Usage when `mosh-server` binary is outside standard path:
+- Connect to a remote server when the `mosh-server` binary is outside the standard path:
 
 `mosh --server={{path/to/mosh-server}} {{remote_host}}`

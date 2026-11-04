@@ -8,7 +8,7 @@
 
 `nix registry pin {{nixpkgs}}`
 
-- Pin an entry to the latest version of the branch, or a particular reivision of a GitHub repository:
+- Pin an entry to the latest version of the branch, or a particular revision of a GitHub repository:
 
 `nix registry pin {{entry}} {{github:owner/repo/branch_or_revision}}`
 

@@ -25,7 +25,7 @@
 
 `xh {{[-d|--download]}} {{https://example.com}} {{[-o|--output]}} {{path/to/file}}`
 
-- Construct a request but do not send it (similar to a dry-run):
+- Simulate sending a request without actually sending it:
 
 `xh --offline {{get|delete|...}} {{https://example.com}}`
 

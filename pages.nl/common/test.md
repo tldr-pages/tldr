@@ -9,15 +9,15 @@
 
 `test "{{$MY_VAR}}" = "{{/bin/zsh}}"`
 
-- Test of een gegeven variabele leeg is:
+- Test of een gegeven variabele een lege ([z]) waarde heeft:
 
 `test -z "{{$GIT_BRANCH}}"`
 
-- Test of een bestand bestaat:
+- Test of een bestand ([f]) bestaat:
 
-`test -f "{{pad/naar/bestand_of_map}}"`
+`test -f "{{pad/naar/bestand}}"`
 
-- Test of een map niet bestaat:
+- Test of een map ([d]) niet bestaat:
 
 `test ! -d "{{pad/naar/map}}"`
 
@@ -28,3 +28,7 @@
 - Gebruik `test` in een conditioneel statement:
 
 `if test -f "{{pad/naar/bestand}}"; then echo "File exists"; else echo "File does not exist"; fi`
+
+- Toon de help:
+
+`help test`

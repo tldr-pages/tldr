@@ -1,6 +1,6 @@
 # systemctl
 
-> Beheer het systemd-systeem en de service manager.
+> Beheer systemd, de systeem- en servicemanager.
 > Sommige subcommando's zoals `disable`, `status`, `reboot` etc. hebben hun eigen documentatie.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
@@ -30,7 +30,7 @@
 
 - Toon alle service/socket/automount eenheden, waarbij wordt gefilterd op de actief/gefaald status:
 
-`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}`
 
 - Toon of bewerk de inhoud en het absolute pad van een eenheidsbestand:
 

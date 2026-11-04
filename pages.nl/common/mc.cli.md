@@ -1,12 +1,12 @@
 # mc
 
-> Minio Client voor objectopslag en bestandssystemen.
+> MinIO Client voor objectopslag en bestandssystemen.
 > Kan op sommige systemen `mc` of `mcli` heten.
 > Meer informatie: <https://minio.github.io/mc/>.
 
 - Voeg verbinding toe aan een S3-server:
 
-`mc alias set {{local}} {{http://localhost:9000}} {{toegangssleutel}} {{privésleutel}}`
+`mc alias set {{local}} {{http://localhost:9000}} {{toegangssleutel}} {{geheime_sleutel}}`
 
 - Maak een bucket aan:
 

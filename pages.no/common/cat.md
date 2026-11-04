@@ -9,8 +9,8 @@
 
 - Sammenføy flere filer til en målfil:
 
-`cat {{fil1 fil2 ...}} > {{målfil}}`
+`cat {{fil1 fil2 ...}} >{{målfil}}`
 
 - Legg til flere filer til målfilen:
 
-`cat {{fil1 fil2 ...}} >> {{målfil}}`
+`cat {{fil1 fil2 ...}} >>{{målfil}}`

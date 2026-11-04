@@ -19,6 +19,6 @@
 
 `bun {{[rm|remove]}} --no-save {{package_name}}`
 
-- Run the command without actually removing packages (simulate the removal):
+- Simulate running the command without actually removing packages:
 
 `bun {{[rm|remove]}} --dry-run {{package_name}}`

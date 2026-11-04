@@ -1,6 +1,6 @@
 # dotnet restore
 
-> Restores the dependencies and tools of a .NET project.
+> Restore the dependencies and tools of a .NET project.
 > More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restore dependencies for a .NET project or solution in the current directory:

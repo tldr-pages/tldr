@@ -1,6 +1,6 @@
 # rauc
 
-> Lightweight update client for Embedded Linux devices to create, inspect and install update bundles.
+> Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles.
 > More information: <https://manned.org/rauc>.
 
 - Display the current system status and slot overview:

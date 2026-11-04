@@ -2,6 +2,7 @@
 
 > Display simple help pages for command-line tools from the tldr-pages project.
 > Note: The `--language` and `--list` options are not required by the client specification, but most clients implement them.
+> See also: `cheatshh`, `cheat`, `navi`.
 > More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Print the tldr page for a specific command (hint: this is how you got here!):
@@ -28,10 +29,10 @@
 
 `tldr {{[-l|--list]}}`
 
+- Print the tldr page for a command and display short options:
+
+`tldr --short-options {{command}}`
+
 - Browse tldr pages in a terminal window (`fzf` must be available):
 
 `tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
-
-- Print the tldr page for a random command:
-
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

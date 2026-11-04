@@ -7,7 +7,7 @@
 
 `reload`
 
-- Reboot after `n` seconds:
+- Reboot after `n` minutes:
 
 `reload in {{n}}`
 

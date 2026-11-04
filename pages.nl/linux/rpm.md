@@ -1,7 +1,7 @@
 # rpm
 
 > RPM Package Manager.
-> Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Voor gelijkwaardige commando's in andere pakketmanagers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://rpm-software-management.github.io/rpm/man/rpm.8>.
 
 - Toon versie van het httpd-pakket:

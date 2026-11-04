@@ -19,11 +19,11 @@
 
 `prompt off`
 
-- [Interaktiotila] Lataa useita tiedostoja (glob-lauseke):
+- [Interaktiotila] Lataa useita tiedostoja (`glob`-lauseke):
 
 `mget {{*.png}}`
 
-- [Interaktiotila] Lähetä useita tiedostoja (glob-lauseke):
+- [Interaktiotila] Lähetä useita tiedostoja (`glob`-lauseke):
 
 `mput {{*.zip}}`
 

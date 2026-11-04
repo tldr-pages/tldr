@@ -9,12 +9,12 @@
 
 - Rewrite code in the current directory using patterns:
 
-`sg run --pattern '{{foo}}' --rewrite '{{bar}}' --lang {{python}}`
+`sg run --pattern '{{pattern}}' --rewrite '{{replacement}}' --lang {{python}}`
 
 - Visualize possible changes without applying them:
 
 `sg run --pattern '{{useState<number>($A)}}' --rewrite '{{useState($A)}}' --lang {{typescript}}`
 
-- Output results as JSON, extract information using `jq` and interactively view it using `jless`:
+- Output results as JSON, extract information using `jq`, and interactively view it using `jless`:
 
 `sg run --pattern '{{Some($A)}}' --rewrite '{{None}}' --json | jq '{{.[].replacement}}' | jless`

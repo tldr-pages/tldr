@@ -1,7 +1,7 @@
 # prowler aws
 
 > Assess AWS security best practices, perform audits, compliance checks, and generate reports.
-> See also: `prowler`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
+> See also: `prowler azure`, `prowler gcp`, `prowler kubernetes`, `prowler m365`, `prowler github`.
 > More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default set of checks on the AWS account:
@@ -10,7 +10,7 @@
 
 - Use a custom AWS profile and filter audited regions:
 
-`prowler aws {{[-p|--profile]}} {{custom-profile}} {{[-f|--filter-region]}} {{us-east-1 eu-south-2 ...}}`
+`prowler aws {{[-p|--profile]}} {{custom_profile}} {{[-f|--filter-region]}} {{us-east-1 eu-south-2 ...}}`
 
 - Run checks for selected AWS services:
 

@@ -26,7 +26,3 @@
 - Automatically configure an npm token in your global `.npmrc` file when you log in:
 
 `npm login`
-
-- Remove a token from the global configuration:
-
-`npm token revoke {{token_id}}`

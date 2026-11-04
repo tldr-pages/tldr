@@ -13,4 +13,4 @@
 
 - Check if systemd is used to start the Plasma session:
 
-`kreadconfig5 --file {{startkderc}} --group {{General}} --key {{systemdBoot}}`
+`kreadconfig5 --file {{startkderc}} --group {{General}} --key systemdBoot`

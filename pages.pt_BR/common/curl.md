@@ -19,15 +19,15 @@
 
 - Envia dados codificados por formulário (pedido POST do tipo `application/x-www-form-urlencoded`). Usa `--data @file_name` ou `--data @'-'` para ler da `stdin`:
 
-`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'nome=maria'}} {{http://example.com/formulario}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} '{{nome=maria}}' {{http://example.com/formulario}}`
 
 - Envia um pedido com um cabeçalho adicional, usando um método HTTP personalizado e por meio de um proxy (tal como BurpSuite), ignorando certificados autoassinados inseguros:
 
-`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} {{'Authorization: Bearer token'}} {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} '{{Authorization: Bearer token}}' {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
 - Envia dados no formato JSON, especificando o cabeçalho de tipo de conteúdo (content-type) apropriado:
 
-`curl {{[-d|--data]}} {{'{"nome":"maria"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/usuarios/1234}}`
+`curl {{[-d|--data]}} '{{{"nome":"maria"}}}' {{[-H|--header]}} '{{Content-Type: application/json}}' {{http://example.com/usuarios/1234}}`
 
 - Passa o certificado do cliente e chave para um recurso, pulando a validação do certificado:
 

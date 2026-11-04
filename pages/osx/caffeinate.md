@@ -17,7 +17,7 @@
 
 - Prevent from sleeping until a process with the specified PID completes:
 
-`caffeinate -w {{pid}}`
+`caffeinate -w {{process_id}}`
 
 - Prevent disk from sleeping (use `<Ctrl c>` to exit):
 

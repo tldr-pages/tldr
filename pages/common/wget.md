@@ -9,9 +9,9 @@
 
 `wget {{https://example.com/foo}}`
 
-- Download the contents of a URL to a file (named "bar" in this case):
+- Download the contents of a URL to a specific file:
 
-`wget {{[-O|--output-document]}} {{bar}} {{https://example.com/foo}}`
+`wget {{[-O|--output-document]}} {{path/to/file}} {{https://example.com/foo}}`
 
 - Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 

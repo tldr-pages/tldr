@@ -4,10 +4,10 @@
 > Nota: `frp` no es un comando, sino un conjunto de comandos.
 > Más información: <https://github.com/fatedier/frp#example-usage>.
 
-- Vea documentación de `frpc`, el componente cliente `frp`:
+- Vea la documentación de `frpc`, el componente cliente `frp`:
 
 `tldr frpc`
 
-- Vea documentación de `frps`, el componente servidor `frp`:
+- Vea la documentación de `frps`, el componente servidor `frp`:
 
 `tldr frps`

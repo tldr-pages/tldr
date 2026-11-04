@@ -15,6 +15,6 @@
 
 `ctop -i`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `ctop -h`

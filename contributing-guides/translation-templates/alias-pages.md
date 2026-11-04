@@ -20,6 +20,7 @@ The templates can be changed when necessary.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -36,8 +37,10 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
+[sw](#sw) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
@@ -69,7 +72,7 @@ The templates can be changed when necessary.
 
 > هذا الأمر هو اسم مستعار لـ `example`.
 
-- إعرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr example`
 ```
@@ -244,6 +247,20 @@ The templates can be changed when necessary.
 
 ---
 
+### he
+
+```markdown
+# example
+
+> פקודה זו היא שם חלופי לפקודה `example`.
+
+- הצגת התיעוד של הפקודה המקורית:
+
+`tldr example`
+```
+
+---
+
 ### hi
 
 ```markdown
@@ -251,7 +268,7 @@ The templates can be changed when necessary.
 
 > यह आदेश `example` का उपनाम है।
 
-- मूल आदेश के लिए दस्तावेज़ देखें:
+- मूल आदेश के लिए प्रलेखन देखें:
 
 `tldr example`
 ```
@@ -279,7 +296,7 @@ The templates can be changed when necessary.
 
 > Questo comando è un alias per `example`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr example`
 ```
@@ -307,7 +324,7 @@ The templates can be changed when necessary.
 
 > 이 명령은 `example`의 별칭입니다.
 
-- 자세한 내용은 원본 명령을 참고하세요:
+- 원래 명령의 문서 보기:
 
 `tldr example`
 ```
@@ -333,7 +350,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
+> ഈ കമാൻഡ് `example` എന്നതിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
@@ -468,6 +485,20 @@ The templates can be changed when necessary.
 
 ---
 
+### si
+
+```markdown
+# example
+
+> මෙම විධානය `example` සඳහා අන්වර්ථ නාමයක් වේ.
+
+- මුල් විධානය සඳහා ලේඛනය බලන්න:
+
+`tldr example`
+```
+
+---
+
 ### sr
 
 ```markdown
@@ -490,6 +521,20 @@ The templates can be changed when necessary.
 > Det här kommandot är ett alias för `example`.
 
 - Se dokumentationen för originalkommandot:
+
+`tldr example`
+```
+
+---
+
+### sw
+
+```markdown
+# example
+
+> Amri hii ni lakabu ya `example`.
+
+- Tazama nyaraka za amri asili:
 
 `tldr example`
 ```

@@ -10,19 +10,19 @@
 
 - 인터페이스를 block 영역으로 영구적으로 이동하여 모든 통신 차단:
 
-`firewall-cmd --permanent --zone={{block}} --change-interface={{enp1s0}}`
+`firewall-cmd --permanent --zone {{block}} --change-interface {{enp1s0}}`
 
 - 지정된 영역에서 서비스의 포트를 영구적으로 열기 (예: `public` 영역에서 포트 443):
 
-`firewall-cmd --permanent --zone={{public}} --add-service={{https}}`
+`firewall-cmd --permanent --zone {{public}} --add-service {{https}}`
 
 - 지정된 영역에서 서비스의 포트를 영구적으로 닫기 (예: `public` 영역에서 포트 80):
 
-`firewall-cmd --permanent --zone={{public}} --remove-service={{http}}`
+`firewall-cmd --permanent --zone {{public}} --remove-service {{http}}`
 
 - 지정된 영역에서 들어오는 패킷의 포트를 영구적으로 포워딩 (예: `public` 영역에서 포트 443을 8443으로):
 
-`firewall-cmd --permanent --zone={{public}} --add-rich-rule='rule family="{{ipv4|ipv6}}" forward-port port="{{443}}" protocol="{{udp|tcp}}" to-port="{{8443}}"'`
+`firewall-cmd --permanent --zone {{public}} --add-rich-rule 'rule family="{{ipv4|ipv6}}" forward-port port="{{443}}" protocol="{{udp|tcp}}" to-port="{{8443}}"'`
 
 - firewalld를 다시 로드하여 런타임 변경 사항을 제거하고 영구 구성을 즉시 적용:
 

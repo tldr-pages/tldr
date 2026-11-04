@@ -13,11 +13,11 @@
 
 - Buat kata sandi dengan panjang 16 karakter:
 
-`apg -m {{16}}`
+`apg -m 16`
 
 - Buat kata sandi dengan panjang ma[x]imum 16 karakter:
 
-`apg -x {{16}}`
+`apg -x 16`
 
 - Buat sebuah kata sandi yang tidak mengandung kata yang terkandung di dalam suatu berkas kamus:
 

@@ -2,6 +2,7 @@
 
 > Find patterns in files using extended `regex`es.
 > Note: This command is an alias of `grep --extended-regexp`.
+> See also: `regex`.
 > More information: <https://manned.org/egrep>.
 
 - Search for one or more repeated characters:

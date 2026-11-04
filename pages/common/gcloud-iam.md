@@ -1,7 +1,6 @@
 # gcloud iam
 
 > Configure Identity and Access Management (IAM) preferences and service accounts.
-> See also: `gcloud`.
 > More information: <https://docs.cloud.google.com/sdk/gcloud/reference/iam>.
 
 - List IAM grantable roles for a resource:

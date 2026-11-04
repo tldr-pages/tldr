@@ -15,6 +15,6 @@
 
 `systemd-path --suffix {{suffix_string}}`
 
-- Print a short version string and then exit:
+- Display version:
 
 `systemd-path --version`

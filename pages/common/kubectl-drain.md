@@ -32,6 +32,6 @@
 
 `kubectl drain {{node_name}} --timeout {{duration}}`
 
-- Preview the drain operation without actually evicting pods (dry run):
+- Simulate the drain operation without actually evicting pods:
 
 `kubectl drain {{node_name}} --dry-run={{none|server|client}}`

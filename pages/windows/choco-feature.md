@@ -9,8 +9,8 @@
 
 - Enable a feature:
 
-`choco feature enable --name {{name}}`
+`choco feature enable {{[-n|--name]}} {{name}}`
 
 - Disable a feature:
 
-`choco feature disable --name {{name}}`
+`choco feature disable {{[-n|--name]}} {{name}}`

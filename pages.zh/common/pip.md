@@ -21,12 +21,12 @@
 
 - 将已安装的包以 Requirements 的格式保存文件中：
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - 查看包的详细信息：
 
 `pip show {{包名}}`
 
-- 通过依赖文件（如 requirements.txt）来进行安装：
+- 通过依赖文件（如 `requirements.txt`）来进行安装：
 
 `pip install {{[-r|--requirement]}} {{requirements.txt}}`

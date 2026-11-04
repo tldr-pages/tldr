@@ -21,11 +21,11 @@
 
 - 파일 변경 감시:
 
-`sudo auditctl -a always,exit -F arch=b64 -F path={{/경로/대상/파일}} -F perm=wa`
+`sudo auditctl -a always,exit -F arch=b64 -F path=/{{경로/대상/파일}} -F perm=wa`
 
 - 디렉토리를 재귀적으로 변경 감시:
 
-`sudo auditctl -a always,exit -F arch=b64 -F dir={{/경로/대상/폴더/}} -F perm=wa`
+`sudo auditctl -a always,exit -F arch=b64 -F dir=/{{경로/대상/폴더}}/ -F perm=wa`
 
 - [h]도움말 표시:
 

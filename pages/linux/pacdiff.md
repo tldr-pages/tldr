@@ -1,13 +1,13 @@
 # pacdiff
 
-> Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`.
+> Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`.
 > More information: <https://manned.org/pacdiff>.
 
 - Review files that need maintenance in interactive mode:
 
 `pacdiff`
 
-- Use sudo and sudoedit to remove and merge files:
+- Use `sudo` and `sudoedit` to remove and merge files:
 
 `pacdiff {{[-s|--sudo]}}`
 

@@ -1,6 +1,6 @@
 # pip
 
-> Python package manager.
+> Python-Paketmanager.
 > Einige Unterbefehle wie `pip install` sind separat dokumentiert.
 > Weitere Informationen: <https://pip.pypa.io/en/stable/cli/pip/>.
 
@@ -22,7 +22,7 @@
 
 - Speichere eine Liste aller installierten Pakete in eine Datei:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Zeige Informationen über ein installiertes Paket an:
 

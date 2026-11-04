@@ -9,4 +9,4 @@
 
 - Muestra qué modificaciones se harían al hacer crecer la partición `n` en una imagen de disco:
 
-`growpart --dry-run {{/ruta/a/disco.img}} {{n}}`
+`growpart {{[-N|--dry-run]}} /{{ruta/a/disco.img}} {{n}}`

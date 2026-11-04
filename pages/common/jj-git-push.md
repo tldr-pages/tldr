@@ -3,7 +3,7 @@
 > Push to a Git remote.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-push>.
 
-- Push a bookmark to the given remote (defaults to `git.push` setting):
+- Push a bookmark to a given remote:
 
 `jj git push {{[-b|--bookmark]}} {{bookmark}} --remote {{remote}}`
 
@@ -27,6 +27,6 @@
 
 `jj git push {{[-c|--change]}} {{revset}}`
 
-- Push a revision with the given name:
+- Create a bookmark with a given name for a revision and push it to the remote:
 
 `jj git push --named {{name}}={{revision}}`

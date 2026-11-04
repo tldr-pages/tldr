@@ -3,7 +3,7 @@
 > Interactive shell for detailed information about running processes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/wmic>.
 
-- Fundamental grammar:
+- Run a command using the fundamental grammar:
 
 `wmic {{alias}} {{where_clause}} {{verb_clause}}`
 
@@ -25,8 +25,8 @@
 
 - Display specific fields for a specific process:
 
-`wmic process where processid={{pid}} get {{name,commandline}}`
+`wmic process where processid={{process_id}} get {{name,commandline}}`
 
 - Kill a process:
 
-`wmic process {{pid}} delete`
+`wmic process {{process_id}} delete`

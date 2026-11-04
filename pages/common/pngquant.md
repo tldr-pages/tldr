@@ -13,7 +13,7 @@
 
 - Try to compress a specific PNG with custom quality (skip if below the min value):
 
-`pngquant {{[-Q|--quality]}} {{0-100}} {{path/to/file.png}}`
+`pngquant {{[-Q|--quality]}} {{0..100}} {{path/to/file.png}}`
 
 - Compress a specific PNG with the number of colors reduced to 64:
 

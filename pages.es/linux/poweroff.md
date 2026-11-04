@@ -1,13 +1,14 @@
 # poweroff
 
 > Apaga el sistema.
+> Vea también: `shutdown`.
 > Más información: <https://manned.org/poweroff>.
 
 - Apaga el sistema:
 
 `poweroff`
 
-- Detén el sistema (igual que `halt`):
+- Detiene el sistema (igual que `halt`):
 
 `poweroff --halt`
 

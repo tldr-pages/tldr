@@ -9,7 +9,7 @@
 
 `systemd-repart`
 
-- View changes without applying:
+- Simulate repartitioning, showing the changes without applying them:
 
 `systemd-repart --dry-run yes`
 

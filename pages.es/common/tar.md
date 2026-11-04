@@ -18,11 +18,11 @@
 
 - E[x]trae un [f]ichero (comprimido) al directorio actual [v]erbosamente:
 
-`tar xvf {{ruta/a/fuente.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{ruta/a/fuente.tar.ext}}`
 
 - E[x]trae un [f]ichero (comprimido) al directorio de destino:
 
-`tar xf {{ruta/al/archivo_de_entrada.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{ruta/al/directorio}}`
+`tar xf {{ruta/al/archivo_de_entrada.tar.ext}} {{[-C|--directory]}} {{ruta/al/directorio}}`
 
 - Crea un archivo comprimido y lo escribe en una carpeta, utilizando la extensión del archivo para determinar automáticamente el programa de compresión:
 

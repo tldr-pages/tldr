@@ -30,4 +30,4 @@
 
 - Erstelle ein patch-Datei für Git bestehend aus den Unterschieden zweier Dateien und behandle fehlende Dateien als leer:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} >{{pfad/zu/diff.patch}}`

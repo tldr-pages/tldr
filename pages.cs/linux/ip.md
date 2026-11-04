@@ -30,8 +30,8 @@
 
 - Přidat/Smazat IP adresu k rozhraní:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{maska}} dev {{ethX}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{maska}} dev {{ethX}}`
 
 - Přidat výchozí cestu:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{ethX}}`

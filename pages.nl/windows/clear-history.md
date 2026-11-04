@@ -1,6 +1,6 @@
 # Clear-History
 
-> Verwijder vermeldingen uit de Powershell-sessie commandogeschiedenis.
+> Verwijder vermeldingen uit de PowerShell-sessie commandogeschiedenis.
 > Opmerking: `clhy` kan gebruikt worden als een alias voor `Clear-History`.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/clear-history>.
 
@@ -8,7 +8,7 @@
 
 `Clear-History`
 
-- Verwijder commando op exacte naam:
+- Verwijder een commando op specifieke naam:
 
 `Clear-History -CommandLine "{{commando}}"`
 
@@ -24,11 +24,11 @@
 
 `Clear-History -Id {{id1, id2, ...}}`
 
-- Verwijder opdrachten binnen een bereik van ID's:
+- Verwijder commando's binnen een bereik van ID's:
 
 `Clear-History -Id ({{start_id}}..{{eind_id}})`
 
-- Toon wat er verwijderd zou worden:
+- Simuleer het verwijderen van de geschiedenis en toon wat er verwijderd zou worden:
 
 `Clear-History -WhatIf`
 

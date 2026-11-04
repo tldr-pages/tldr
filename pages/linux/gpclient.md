@@ -23,10 +23,10 @@
 
 `gpclient connect --ignore-tls-errors {{vpn_gateway_url}}`
 
-- Display version:
-
-`gpclient --version`
-
 - Display help for any command:
 
 `gpclient help {{command}}`
+
+- Display version:
+
+`gpclient --version`

@@ -16,9 +16,9 @@
 
 `makepkg {{[-si|--syncdeps --install]}}`
 
-- Make a package, but skip checking the source's hashes:
+- Make a package, but skip checking the source's hashes, PGP signatures, and the `PKGBUILD` `check()` function:
 
-`makepkg --skipchecksums`
+`makepkg --skipchecksums --skippgpcheck --nocheck`
 
 - Clean up work directories after a successful build:
 
@@ -30,7 +30,7 @@
 
 - Generate and save the source information into `.SRCINFO`:
 
-`makepkg --printsrcinfo > .SRCINFO`
+`makepkg --printsrcinfo >.SRCINFO`
 
 - Download the source and install only the build dependencies for a program:
 

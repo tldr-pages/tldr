@@ -14,12 +14,12 @@
 
 - Decrypt a WPA/WPA2 encrypted capture file using the access point's [e]ssid and [p]assword:
 
-`airdecap-ng -e {{essid}} -p {{password}} {{path/to/capture.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{password}} {{path/to/capture.cap}}`
 
 - Decrypt a WPA/WPA2 encrypted capture file preserving the headers using the access point's [e]ssid and [p]assword:
 
-`airdecap-ng -l -e {{essid}} -p {{password}} {{path/to/capture.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{password}} {{path/to/capture.cap}}`
 
 - Decrypt a WPA/WPA2 encrypted capture file using the access point's [e]ssid and [p]assword and use its MAC address to filter:
 
-`airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{password}} {{path/to/capture.cap}}`
+`airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{password}} {{path/to/capture.cap}}`

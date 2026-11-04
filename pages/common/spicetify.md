@@ -7,7 +7,7 @@
 
 `spicetify`
 
-- Backup and preprocess Spotify application files:
+- Back up and preprocess Spotify application files:
 
 `spicetify backup`
 

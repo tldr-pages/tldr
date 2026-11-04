@@ -9,7 +9,7 @@
 
 - Toon de huidige datum in UTC, in het ISO 8601-formaat:
 
-`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%S%Z`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%SZ`
 
 - Toon de huidige datum als een Unix timestamp (seconden sinds de Unix-epoch):
 
@@ -25,7 +25,7 @@
 
 - Toon de huidige datum in het RFC-3339 formaat (`YYYY-MM-DD hh:mm:ss TZ`) en specificeer de precisie ervan:
 
-`date --rfc-3339 {{date|seconds|s}}`
+`date --rfc-3339 {{date|seconds|ns}}`
 
 - Stel de huidige datum in met het formaat `MMDDhhmmYYYY.ss` (`YYYY` en `.ss` zijn optioneel):
 

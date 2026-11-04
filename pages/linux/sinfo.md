@@ -20,7 +20,7 @@
 
 `sinfo {{[-t|--states]}} {{idle}}`
 
-- Summarise dead nodes:
+- Summarize dead nodes:
 
 `sinfo {{[-d|--dead]}}`
 

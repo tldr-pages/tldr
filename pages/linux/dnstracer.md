@@ -1,11 +1,11 @@
 # dnstracer
 
-> The dnstracer command determines where a DNS gets its information from.
+> Determine where a DNS gets its information from.
 > More information: <https://manned.org/dnstracer>.
 
 - Find out where your local DNS got the information on www.example.com:
 
-`dnstracer {{www.example.com}}`
+`dnstracer www.example.com`
 
 - Start with a [s]pecific DNS that you already know:
 
@@ -17,7 +17,7 @@
 
 - [r]etry each request 5 times on failure:
 
-`dnstracer -r {{5}} {{www.example.com}}`
+`dnstracer -r 5 {{www.example.com}}`
 
 - Display all steps during execution:
 

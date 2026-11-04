@@ -27,7 +27,7 @@
 
 - Usa um passo-a-passo interativo para um recurso da AWS:
 
-`aws dynamodb wizard {{nova-tabela}}`
+`aws dynamodb wizard {{nova_tabela}}`
 
 - Gera um arquivo esqueleo em JSON (útil para ser usado em infraestrutura como código):
 

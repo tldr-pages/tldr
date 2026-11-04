@@ -13,7 +13,7 @@
 
 - Change le format de sortie pour afficher l'utilisation CPU du conteneur en pourcentage :
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - Affiche les statistiques d'utilisation des ressources pour tous les conteneurs (y compris ceux qui ne sont pas en cours d'exécution) :
 

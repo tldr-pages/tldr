@@ -1,9 +1,9 @@
 # ugrep
 
-> Ultrasnelle bestandszoeker met interactive UI.
+> Ultrasnelle bestandszoeker met interactieve TUI.
 > Meer informatie: <https://github.com/Genivia/ugrep#man-page>.
 
-- Open een interactieve TUI om recursief bestanden te zoeken (`<Ctrl z>` voor hulp):
+- Open een interactieve TUI om recursief bestanden in de huidige map te zoeken (`<Ctrl z>` voor hulp):
 
 `ugrep {{[-Q|--query]}}`
 
@@ -23,14 +23,14 @@
 
 `ugrep {{[-Z|--fuzzy=]}}{{3}} "{{zoekpatroon}}"`
 
-- Zoek passende gecomprimeerde bestanden, zip en `.tar` archieven recursief in de huidige map:
+- Doorzoek ook gecomprimeerde bestanden, zip- en `.tar`-archieven recursief:
 
 `ugrep {{[-z|--decompress]}} "{{zoekpatroon}}"`
 
-- Zoek alleen naar bestanden met namen die overeenkomen met een specifieke glob patroon:
+- Zoek alleen naar bestanden met namen die overeenkomen met een specifiek `glob`-patroon:
 
 `ugrep {{[-g |--glob=]}}"{{glob_patroon}}" "{{zoekpatroon}}"`
 
-- Zoek alleen passende bestanden van het type C++ (gebruik `--type=list` voor een lijst van typenamen):
+- Zoek alleen passende bestanden van het type C++ (gebruik `--file-type=list` voor een lijst van typenamen):
 
 `ugrep {{[-t |--file-type=]}}cpp "{{zoekpatroon}}"`

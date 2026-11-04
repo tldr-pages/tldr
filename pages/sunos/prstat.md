@@ -3,11 +3,11 @@
 > Report active process statistics.
 > More information: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
-- Examine all processes and reports statistics sorted by CPU usage:
+- Examine all processes and report statistics sorted by CPU usage:
 
 `prstat`
 
-- Examine all processes and reports statistics sorted by memory usage:
+- Examine all processes and report statistics sorted by memory usage:
 
 `prstat -s rss`
 

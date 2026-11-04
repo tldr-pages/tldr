@@ -15,11 +15,11 @@
 
 - Spring naar een submap (kind) van de huidige map die het gegeven patroon bevat:
 
-`jc {{pattern}}`
+`jc {{patroon}}`
 
 - Open een map met het gegeven patroon in de bestandsbeheerder van het besturingssysteem:
 
-`jo {{pattern}}`
+`jo {{patroon}}`
 
 - Verwijder niet-bestaande mappen uit de `autojump` database:
 

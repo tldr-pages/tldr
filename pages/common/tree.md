@@ -23,11 +23,11 @@
 
 `tree -s -h --du`
 
-- Print files within the tree hierarchy, using a wildcard (glob) pattern, and pruning out directories that don't contain matching files:
+- Print files within the tree hierarchy, using a wildcard (`glob`) pattern, and pruning out directories that don't contain matching files:
 
 `tree -P '{{*.txt}}' --prune`
 
-- Print directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:
+- Print directories within the tree hierarchy, using the wildcard (`glob`) pattern, and pruning out directories that aren't ancestors of the wanted one:
 
 `tree -P {{directory_name}} --matchdirs --prune`
 

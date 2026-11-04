@@ -16,7 +16,7 @@
 
 `nix-instantiate --eval --xml {{[-E|--expr]}} {{expression}}`
 
-- Raw output, output of the function must be a string:
+- Evaluate an expression and print the raw output (the output of the function must be a string):
 
 `nix-instantiate --eval --raw {{[-E|--expr]}} {{expression}}`
 

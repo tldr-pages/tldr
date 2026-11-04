@@ -1,6 +1,6 @@
 # php
 
-> PHP command-line interface.
+> PHP-opdrachtregelinterface.
 > Meer informatie: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Parse en voer een PHP-script uit:
@@ -19,7 +19,7 @@
 
 `php {{[-r|--run]}} "{{code}}"`
 
-- Start een PHP ingebouwde webserver in de huidige map:
+- Start een ingebouwde PHP-webserver in de huidige map:
 
 `php {{[-S|--server]}} {{host}}:{{poort}}`
 

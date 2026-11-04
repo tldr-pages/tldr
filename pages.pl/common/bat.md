@@ -2,6 +2,7 @@
 
 > Wypisz i łącz pliki.
 > Klon `cat` z podświetlaniem składni i integracją z Gitem.
+> Zobacz także: `cat`.
 > Więcej informacji: <https://manned.org/bat>.
 
 - Wypisz zawartość pliku na standardowe wyjście:
@@ -10,11 +11,11 @@
 
 - Połącz kilka plików w plik docelowy:
 
-`bat {{plik1}} {{plik2}} > {{plik_docelowy}}`
+`bat {{plik1}} {{plik2}} >{{plik_docelowy}}`
 
 - Dodaj kilka plików do pliku docelowego:
 
-`bat {{plik1}} {{plik2}} >> {{plik_docelowy}}`
+`bat {{plik1}} {{plik2}} >>{{plik_docelowy}}`
 
 - Ponumeruj wszystkie linie:
 

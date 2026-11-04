@@ -2,6 +2,6 @@
 
 > Questo comando è un alias per `mc` (MinIO client).
 
-- Visualizza la documentazione per il comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr mc.cli`

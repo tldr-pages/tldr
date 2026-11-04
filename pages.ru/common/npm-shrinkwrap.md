@@ -2,7 +2,7 @@
 
 > Фиксировать зависимости пакета, создавая файл `npm-shrinkwrap.json`.
 > Аналогичен `package-lock.json`, но используется для опубликованных пакетов.
-> Больше информации: <https://docs.npmjs.com/cli/shrinkwrap/>.
+> Больше информации: <https://docs.npmjs.com/cli/v11/npm-shrinkwrap>.
 
 - Сгенерировать файл `npm-shrinkwrap.json` из текущего `package-lock.json`:
 

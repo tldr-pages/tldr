@@ -1,10 +1,10 @@
 # pw-cat
 
-> Speel en neem audio-bestanden op via PipeWrite.
+> Speel en neem audio-bestanden op via PipeWire.
 > Zie ook: `wpctl`, `pw-cli`.
 > Meer informatie: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
-- Speel een WAV bestand over de standaard target:
+- Speel een WAV-bestand af over de standaard target:
 
 `pw-cat {{[-p|--playback]}} {{pad/naar/bestand.wav}}`
 
@@ -16,11 +16,11 @@
 
 `pw-cat {{[-pd|--playback --dsd]}} {{pad/naar/bestand.dsf}}`
 
-- Speel een gecomprimeerde audiobestand af met passthrough (vereist FFmpeg-integratie):
+- Speel een gecomprimeerd audiobestand af met passthrough (vereist FFmpeg-integratie):
 
 `pw-cat {{[-po|--playback --encoded]}} {{pad/naar/bestand.ac3}}`
 
-- Speel een WAV bestand met een specifieke resampler kwaliteit (standaard 4):
+- Speel een WAV-bestand af met een specifieke resamplerkwaliteit (standaard 4):
 
 `pw-cat {{[-p|--playback]}} {{[-q|--quality]}} {{0..15}} {{pad/naar/bestand.wav}}`
 
@@ -28,10 +28,10 @@
 
 `pw-cat {{[-rm|--record --midi]}} {{pad/naar/bestand.mid}}`
 
-- Neem een sample recording op met een volume level van 125%:
+- Neem een voorbeeldopname op met een volume van 125%:
 
 `pw-cat {{[-r|--record]}} --volume {{1.25}} {{pad/naar/bestand.wav}}`
 
-- Neem een sample recording op met een andere sample rate:
+- Neem een voorbeeldopname op met een andere sample rate:
 
 `pw-cat {{[-r|--record]}} --rate {{6000}} {{pad/naar/bestand.wav}}`

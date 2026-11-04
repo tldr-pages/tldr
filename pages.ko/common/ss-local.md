@@ -1,7 +1,7 @@
 # ss-local
 
 > Shadowsocks 클라이언트를 SOCKS5 프록시로 실행.
-> 더 많은 정보: <https://github.com/shadowsocks/shadowsocks-libev/blob/master/doc/ss-local.asciidoc>.
+> 더 많은 정보: <https://manned.org/ss-local>.
 
 - 호스트, 서버 포트, 로컬 포트, 비밀번호 및 암호화 방법을 지정하여 Shadowsocks 프록시 실행:
 

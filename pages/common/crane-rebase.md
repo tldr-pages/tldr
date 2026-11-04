@@ -7,15 +7,15 @@
 
 `crane rebase`
 
-- New base image to insert:
+- Specify a new base image to insert:
 
 `crane rebase --new_base {{image_name}}`
 
-- Old base image to remove:
+- Specify an old base image to remove:
 
 `crane rebase --old_base {{image_name}}`
 
-- Tag to apply to rebased image:
+- Apply a tag to the rebased image:
 
 `crane rebase {{[-t|--tag]}} {{tag_name}}`
 

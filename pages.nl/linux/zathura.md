@@ -1,6 +1,6 @@
 # zathura
 
-> Een Vim-achtige modale bestandsviewer, met een geïntegreerde command-line.
+> Een Vim-achtige modale documentviewer, met een geïntegreerde command-line.
 > Zorg ervoor dat er een backend is geïnstalleerd (poppler, PostScript of DjVu).
 > Meer informatie: <https://pwmt.org/projects/zathura/>.
 
@@ -20,7 +20,7 @@
 
 `<Ctrl r>`
 
-- Zoek voor tekst met een string:
+- Zoek naar tekst met een opgegeven string:
 
 `</>{{string}}`
 

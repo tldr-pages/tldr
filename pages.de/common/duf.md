@@ -1,6 +1,7 @@
 # duf
 
 > Festplattennutzung/freie Verwendbarkeit.
+> Siehe auch: `ncdu`, `df`.
 > Weitere Informationen: <https://github.com/muesli/duf#usage>.
 
 - Liste zugängliche Geräte auf:

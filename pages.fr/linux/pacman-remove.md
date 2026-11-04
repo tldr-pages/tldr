@@ -1,7 +1,6 @@
 # pacman --remove
 
-> Supprimes des paquets.
-> Voir aussi : `pacman`.
+> Supprime des paquets.
 > Plus d'informations : <https://manned.org/pacman.8>.
 
 - Supprime un paquet et ses dépendances :

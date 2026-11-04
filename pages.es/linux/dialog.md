@@ -12,6 +12,6 @@
 
 `dialog --inputbox "{{Ingrese texto:}}" {{8}} {{40}} 2>{{salida.txt}}`
 
-- Solicitar al usuario una pregunta de sí/no:
+- Solicita al usuario una pregunta de sí/no:
 
 `dialog --yesno "{{¿Continuar?}}" {{7}} {{40}}`

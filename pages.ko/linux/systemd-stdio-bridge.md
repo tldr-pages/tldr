@@ -14,8 +14,8 @@
 
 - 특정 컨테이너 내에서 `stdin`/`stdout`을 로컬 시스템 버스로 전달:
 
-`systemd-stdio-bridge --machine={{mycontainer}}`
+`systemd-stdio-bridge {{[-M|--machine]}} {{mycontainer}}`
 
 - 사용자 지정 D-Bus 주소로 `stdin`/`stdout` 전달:
 
-`systemd-stdio-bridge --bus-path=unix:path={{/custom/dbus/socket}}`
+`systemd-stdio-bridge {{[-p|--bus-path]}} unix:path=/{{custom/dbus/socket}}`

@@ -3,15 +3,15 @@
 > Ajoute ou inspecte des notes d'objets.
 > Plus d'informations : <https://git-scm.com/docs/git-notes>.
 
-- Lister toutes les notes et leurs objets rattachés :
+- Liste toutes les notes et leurs objets rattachés :
 
 `git notes list`
 
-- Lister toutes les notes attachées à un objet donné :
+- Liste toutes les notes attachées à un objet donné :
 
 `git notes list {{objet}}`
 
-- Afficher les notes attachées à un objet donné :
+- Affiche les notes attachées à un objet donné :
 
 `git notes show {{objet}}`
 

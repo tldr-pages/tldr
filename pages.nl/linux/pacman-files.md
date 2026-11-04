@@ -1,7 +1,7 @@
 # pacman --files
 
-> Arch Linux pakketbeheer hulpprogramma.
-> Zie ook: `pacman`, `pkgfile`.
+> Raadpleeg de lokale bestandendatabase.
+> Zie ook: `pkgfile`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Werk de pakketdatabase bij:
@@ -12,9 +12,9 @@
 
 `pacman -F {{bestandsnaam}}`
 
-- Zoek het pakket dat een specifiek bestand ([F]) bezit, met behulp van een reguliere e[x]pressie:
+- Zoek het pakket dat een specifiek bestand ([F]) bezit, met behulp van een `rege[x]`:
 
-`pacman -Fx '{{reguliere_expressie}}'`
+`pacman -Fx '{{regex}}'`
 
 - Maak een lijst van alleen de pakketnamen:
 

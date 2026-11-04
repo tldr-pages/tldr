@@ -1,6 +1,7 @@
 # arp-scan
 
 > ARP 패킷을 호스트(IP 주소 또는 호스트 이름으로 지정)로 보내 로컬 네트워크를 검색합니다.
+> 관련 항목: `ip neighbor`.
 > 더 많은 정보: <https://github.com/royhills/arp-scan>.
 
 - 현재 로컬 네트워크 검색:

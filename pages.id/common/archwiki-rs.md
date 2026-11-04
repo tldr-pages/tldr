@@ -17,4 +17,4 @@
 
 - Unduh seluruh artikel dari situs ArchWiki ke dalam suatu direktori:
 
-`archwiki-rs local-wiki {{/jalan/menuju/wiki_lokal}} --format {{plain-text|markdown|html}}`
+`archwiki-rs local-wiki /{{jalan/menuju/wiki_lokal}} --format {{plain-text|markdown|html}}`

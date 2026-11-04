@@ -10,7 +10,7 @@
 
 - `settings`에서 ID 0의 메타데이터 표시:
 
-`pw-metadata {{[-n|--name]}} {{settings}} {{0}}`
+`pw-metadata {{[-n|--name]}} settings 0`
 
 - 사용 가능한 모든 메타데이터 객체 나열:
 
@@ -26,7 +26,7 @@
 
 - `settings`에서 `log.level`을 1로 설정:
 
-`pw-metadata {{[-n|--name]}} {{settings}} {{0}} {{log.level}} {{1}}`
+`pw-metadata {{[-n|--name]}} settings {{0}} log.level 1`
 
 - 도움말 표시:
 

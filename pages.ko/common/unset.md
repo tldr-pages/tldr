@@ -9,7 +9,7 @@
 
 - 변수 `foo`와 `bar` 제거:
 
-`unset -v {{foo}} {{bar}}`
+`unset -v {{foo bar ...}}`
 
 - 함수 `my_func` 제거:
 

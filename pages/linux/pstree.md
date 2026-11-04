@@ -21,8 +21,8 @@
 
 - Display children of a specified process:
 
-`pstree {{pid}}`
+`pstree {{process_id}}`
 
 - Display parents of a specified process:
 
-`pstree {{[-s|--show-parents]}} {{pid}}`
+`pstree {{[-s|--show-parents]}} {{process_id}}`

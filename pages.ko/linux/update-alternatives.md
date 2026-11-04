@@ -9,7 +9,7 @@
 
 - `java`에 대한 심볼릭 링크 구성:
 
-`sudo update-alternatives --config {{java}}`
+`sudo update-alternatives --config java`
 
 - 심볼릭 링크 제거:
 

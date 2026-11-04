@@ -1,6 +1,6 @@
 # nohup
 
-> Allows for a process to live when the terminal gets killed.
+> Allow for a process to live when the terminal gets killed.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - Run a process that can live beyond the terminal:
@@ -17,4 +17,4 @@
 
 - Run a process and write the output to a specific file:
 
-`nohup {{command}} {{argument1 argument2 ...}} > {{path/to/output_file}} &`
+`nohup {{command}} {{argument1 argument2 ...}} >{{path/to/output_file}} &`

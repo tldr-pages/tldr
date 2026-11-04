@@ -1,7 +1,7 @@
 # regex
 
 > Regular expressions (`regex`) হল টেক্সট ম্যাচ, অনুসন্ধান এবং ম্যানিপুলেট করতে ব্যবহৃত প্যাটার্ন।
-> দ্রষ্টব্য: `regex` কোনো কমান্ড নয়, বরং অন্যান্য কমান্ডের সাথে ব্যবহার করার জন্য সিনট্যাক্স।
+> আরও দেখুন: `egrep`, `glob`।
 > আরও তথ্য পাবেন: <https://cheatography.com/davechild/cheat-sheets/regular-expressions/>।
 
 - যেকোনো একটি ক্যারেক্টার ম্যাচ করুন:

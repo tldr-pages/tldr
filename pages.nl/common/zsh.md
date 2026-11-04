@@ -4,13 +4,13 @@
 > Zie ook: `bash`, `!`, `^`.
 > Meer informatie: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
-- Start een interactieve shell sessie:
+- Start een interactieve shellsessie:
 
 `zsh`
 
 - Voer specifieke [c]ommando's uit:
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh wordt uitgevoerd'}}"`
 
 - Voer een specifiek script uit:
 
@@ -22,13 +22,13 @@
 
 - Voer specifieke commando's uit van `stdin`:
 
-`{{echo Hello world}} | zsh`
+`{{echo "echo 'zsh wordt uitgevoerd'"}} | zsh`
 
 - Voer een specifiek script uit en toon elke opdracht in het script voordat deze wordt uitgevoerd:
 
 `zsh {{[-x|--xtrace]}} {{pad/naar/script.zsh}}`
 
-- Start een interactieve shell sessie in verbose modus en toon elke opdracht voordat deze wordt uitgevoerd:
+- Start een interactieve shellsessie in verbose modus en toon elke opdracht voordat deze wordt uitgevoerd:
 
 `zsh {{[-v|--verbose]}}`
 

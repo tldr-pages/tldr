@@ -28,7 +28,7 @@
 
 `rpcmap.py -auth-rpc {{domein}}/{{gebruikersnaam}}:{{wachtwoord}} {{stringbinding}}`
 
-- Authenticeren met NTLM hashes voor RPC:
+- Authenticeer met NTLM hashes voor RPC:
 
 `rpcmap.py -hashes-rpc {{LMHASH:NTHASH}} {{stringbinding}}`
 

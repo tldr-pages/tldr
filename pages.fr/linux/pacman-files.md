@@ -1,7 +1,7 @@
 # pacman --files
 
 > Interagis avec les bases de données de fichiers.
-> Voir aussi : `pacman`, `pkgfile`.
+> Voir aussi : `pkgfile`.
 > Plus d'informations : <https://manned.org/pacman.8>.
 
 - Mets à jour les bases de données des fichiers :
@@ -12,9 +12,9 @@
 
 `pacman -F {{fichier}}`
 
-- Trouve les paquets contenant un fichier spécifique en utilisant une expression régulière :
+- Trouve les paquets contenant un fichier spécifique en utilisant une `rege[x]` :
 
-`pacman -Fx '{{expression_reguliere}}'`
+`pacman -Fx '{{regex}}'`
 
 - Liste uniquement les noms de paquets :
 

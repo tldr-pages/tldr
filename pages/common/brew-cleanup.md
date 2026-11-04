@@ -11,7 +11,7 @@
 
 `brew cleanup {{formula|cask}}`
 
-- Show what would be removed, but do not actually remove anything:
+- Simulate the cleanup, showing what would be removed:
 
 `brew cleanup {{[-n|--dry-run]}}`
 

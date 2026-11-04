@@ -12,7 +12,7 @@
 
 `pgmhist {{[-me|-median]}} {{path/to/image.pgm}}`
 
-- Display four quartile grey value:
+- Display the four quartile grey values:
 
 `pgmhist {{[-qua|-quartile]}} {{path/to/image.pgm}}`
 

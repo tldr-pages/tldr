@@ -1,7 +1,7 @@
 # apport-bug
 
 > Reiche einen Fehlerbericht über Ubuntu ein.
-> Weitere Informationen: <https://wiki.ubuntu.com/Apport>.
+> Weitere Informationen: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - Reiche einen Fehlerbericht über das gesamte System ein:
 

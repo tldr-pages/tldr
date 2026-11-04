@@ -27,10 +27,10 @@
 
 `cal -A 3 -B 2 {{maand}}`
 
-- Toon een specifiek aantal maanden voor en na (Context) de opgegeven maand:
+- Toon een specifiek aantal maanden voor en na ([C]ontext) de opgegeven maand:
 
 `cal -C {{maanden}} {{maand}}`
 
-- Specificeer de startdag van de week (0: Zondag, 1: Maandag, ..., 6: Zaterdag):
+- Specificeer de start[d]ag van de week (0: zondag, 1: maandag, ..., 6: zaterdag):
 
 `cal -d {{0..6}}`

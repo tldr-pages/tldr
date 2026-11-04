@@ -1,18 +1,18 @@
 # bspc
 
-> Een tool om `bspwm` te besturen.
+> Configureer en bestuur `bspwm`, en beheer nodes, bureaubladen, monitors en meer.
 > Zie ook: `bspwm`.
 > Meer informatie: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - Definieer twee virtuele bureaubladen:
 
-`bspc monitor {{[-d|--reset-desktops]}} {{1}} {{2}}`
+`bspc monitor {{[-d|--reset-desktops]}} {{bureaublad_naam1}} {{bureaublad_naam2}}`
 
 - Focus op het gegeven bureaublad:
 
 `bspc desktop {{[-f|--focus]}} {{nummer}}`
 
-- Sluit de vensters die afgetakt zijn van de geselecteerde node:
+- Sluit de vensters die zich onder de geselecteerde node bevinden:
 
 `bspc node {{[-c|--close]}}`
 

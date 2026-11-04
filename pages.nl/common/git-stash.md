@@ -3,9 +3,9 @@
 > Sla lokale Git-wijzigingen op in een tijdelijke locatie.
 > Meer informatie: <https://git-scm.com/docs/git-stash>.
 
-- Sla huidige veranderingen op met een bericht, behalve nieuwe (niet-bijgehouden) bestanden:
+- Sla de huidige niet-gecommitte veranderingen op:
 
-`git stash push {{[-m|--message]}} {{stash_message}}`
+`git stash`
 
 - Sla huidige veranderingen op, inclusief nieuwe niet-bijgehouden bestanden:
 
@@ -15,21 +15,21 @@
 
 `git stash {{[-p|--patch]}}`
 
-- Toon alle stashes (toont stash-naam, gerelateerde branch en bericht):
+- Toon alle stashes:
 
 `git stash list`
 
-- Toon de wijzigingen als een patch tussen de stash (standaard is `stash@{0}`) en de commit van toen de stash voor het eerst werd aangemaakt:
+- Toon de wijzigingen als een patch tussen de stash en de commit van toen de stash voor het eerst werd aangemaakt:
 
-`git stash show {{[-p|--patch]}} {{stash@{0}}}`
+`git stash show {{[-p|--patch]}}`
 
-- Pas een stash toe (standaard is de recenste, genaamd `stash@{0}`):
+- Pas een stash toe en verwijder deze van de stash-lijst als het toepassen niet tot conflicten leidt:
 
-`git stash apply {{facultatieve_stash_naam_of_commit}}`
+`git stash pop`
 
-- Verwijder of pas een stash toe (standaard is `stash@{0}`) en verwijder deze uit de stash-lijst als het toepassen geen conflicten veroorzaakt:
+- Verwijder de recentste stash:
 
-`git stash pop {{facultatieve_stash_naam}}`
+`git stash drop`
 
 - Verwijder alle stashes:
 

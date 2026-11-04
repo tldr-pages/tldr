@@ -15,6 +15,6 @@
 
 `gpupdate /force`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `gpupdate /?`

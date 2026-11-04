@@ -25,4 +25,4 @@
 
 - Specify a unique session identifier to keep PlatformIO Home isolated from other instances and protected from 3rd party access:
 
-`pio home --session-id {{id}}`
+`pio home --session-id {{session_id}}`

@@ -18,7 +18,7 @@
 
 - Füge einen Text in eine Datei ein:
 
-`echo "{{Hallo Welt}}" >> {{datei.txt}}`
+`echo "{{Hallo Welt}}" >>{{datei.txt}}`
 
 - Ermögliche Interpretation von Fluchtsymbolen (backslash escape):
 

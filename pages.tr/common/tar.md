@@ -18,11 +18,11 @@
 
 - Sıkıştırılmış bir arşiv dosyasını geçerli dizine ayrıntılı şekilde çıkar:
 
-`tar xvf {{kaynak.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{kaynak.tar.ext}}`
 
 - Sıkıştırılmış bir arşiv dosyasını hedef dizine çıkar:
 
-`tar xf {{kaynak.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{dizin}}`
+`tar xf {{kaynak.tar.ext}} {{[-C|--directory]}} {{dizin}}`
 
 - Sıkıştırılmış bir arşiv oluştur ve sıkıştırma yöntemini seçmek için arşiv sonekini kullan:
 

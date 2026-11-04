@@ -1,6 +1,6 @@
 # abroot
 
-> Utility providing full immutability and atomicity by transacting between 2 root partition states (A⟺B).
+> Utility providing full immutability and atomicity by transacting between 2 root partition states (A<=>B).
 > Updates are performed using OCI images, to ensure that the system is always in a consistent state.
 > More information: <https://docs.vanillaos.org/docs/en/abroot-manpage>.
 
@@ -20,7 +20,7 @@
 
 `sudo abroot pkg apply`
 
-- Rollback your system to previous state:
+- Roll back your system to previous state:
 
 `sudo abroot rollback`
 

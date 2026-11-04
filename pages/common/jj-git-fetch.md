@@ -17,4 +17,4 @@
 
 - Fetch the latest changes from all remotes:
 
-`jj git fetch --all-remote`
+`jj git fetch --all-remotes`

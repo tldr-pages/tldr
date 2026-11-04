@@ -8,7 +8,7 @@
 
 `sudo dd status=progress if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}}`
 
-- Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
+- Kloon een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
 `sudo dd bs=4M conv=fsync if={{/dev/bron_schijf}} of={{/dev/doel_schijf}}`
 
@@ -16,7 +16,7 @@
 
 `dd bs={{100}} count={{1}} if=/dev/urandom of={{pad/naar/willekeurig_bestand}}`
 
-- Benchmark de sequentiële schrijfsnelheid van een schijf:
+- Benchmark de schrijfsnelheid van een schijf:
 
 `dd bs={{1M}} count={{1024}} if=/dev/zero of={{pad/naar/bestand_1GB}}`
 

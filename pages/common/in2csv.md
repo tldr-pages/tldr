@@ -10,7 +10,7 @@
 
 - Convert a DBF file to a CSV file:
 
-`in2csv {{data.dbf}} > {{data.csv}}`
+`in2csv {{data.dbf}} >{{data.csv}}`
 
 - Convert a specific sheet from an XLSX file to CSV:
 
@@ -18,4 +18,4 @@
 
 - Pipe a JSON file to in2csv:
 
-`cat {{data.json}} | in2csv {{[-f|--format]}} json > {{data.csv}}`
+`cat {{data.json}} | in2csv {{[-f|--format]}} json >{{data.csv}}`

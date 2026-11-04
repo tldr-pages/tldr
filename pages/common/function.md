@@ -1,6 +1,7 @@
 # function
 
 > Define a function.
+> See also: `declare`, `unset`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Shell-Functions>.
 
 - Define a function with the specified name:

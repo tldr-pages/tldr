@@ -13,8 +13,8 @@
 
 - Activate (focus) a pane:
 
-`wezterm cli activate-pane --pane-id {{id}}`
+`wezterm cli activate-pane --pane-id {{pane_id}}`
 
 - Kill a pane:
 
-`wezterm cli kill-pane --pane-id {{id}}`
+`wezterm cli kill-pane --pane-id {{pane_id}}`

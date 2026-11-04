@@ -1,6 +1,6 @@
 # rkhunter
 
-> Searches for rootkits and malware.
+> Search for rootkits and malware.
 > More information: <https://manned.org/rkhunter>.
 
 - Check a system for rootkits and malware:

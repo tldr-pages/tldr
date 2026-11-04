@@ -13,11 +13,11 @@
 
 - Compress a file using no compression and 4 processors:
 
-`pigz -0 {{[-p|--processes]}} {{4}} {{path/to/file}}`
+`pigz -0 {{[-p|--processes]}} 4 {{path/to/file}}`
 
-- Compress a directory using tar:
+- Compress a directory using `tar`:
 
-`tar cf - {{path/to/directory}} | pigz > {{path/to/file.tar.gz}}`
+`tar cf - {{path/to/directory}} | pigz >{{path/to/file.tar.gz}}`
 
 - Decompress a file:
 

@@ -1,6 +1,7 @@
 # as
 
-> Assembleur GNU portable. Principalement destiné pour assembler la sortie de `gcc` pour être utilisé par `ld`.
+> Assembleur GNU portable.
+> Principalement destiné pour assembler la sortie de `gcc` pour être utilisé par `ld`.
 > Plus d'informations : <https://manned.org/as>.
 
 - Assemble un fichier, en écrivant la sortie dans le fichier `a.out` :
@@ -17,4 +18,4 @@
 
 - Inclut un chemin donné à la liste des répertoires dans lesquels chercher les fichiers spécifiés dans les directives `.include` :
 
-`as -I {{chemin/vers/le/répertoire}} {{chemin/vers/fichier.s}}`
+`as -I {{chemin/vers/répertoire}} {{chemin/vers/fichier.s}}`

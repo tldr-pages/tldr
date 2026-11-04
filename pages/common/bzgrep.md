@@ -7,7 +7,7 @@
 
 `bzgrep "{{search_pattern}}" {{path/to/file}}`
 
-- Recursively search files in a bzip2 compressed `.tar` archive for a pattern:
+- Recursively search files in a `bzip2` compressed `.tar` archive for a pattern:
 
 `bzgrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/tar_file}}`
 

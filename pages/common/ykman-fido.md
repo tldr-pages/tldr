@@ -17,7 +17,7 @@
 
 - Delete a resident credential from the YubiKey:
 
-`ykman fido credentials delete {{id}}`
+`ykman fido credentials delete {{credential_id}}`
 
 - List fingerprints stored on the YubiKey (requires a key with a fingerprint sensor):
 

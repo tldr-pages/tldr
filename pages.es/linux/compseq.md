@@ -31,6 +31,6 @@
 
 `compseq -sequence {{ruta/al/proteoma_humano.fasta}} -word 3 {{ruta/al/archivo_de_salida.comp}} -nozero -calcfreq`
 
-- Muestra ayuda (utiliza `-help -verbose` para obtener más información sobre los calificadores asociados y generales):
+- Muestra la ayuda (utiliza `-help -verbose` para obtener más información sobre los calificadores asociados y generales):
 
 `compseq -help`

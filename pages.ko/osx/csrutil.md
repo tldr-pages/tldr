@@ -21,7 +21,7 @@
 
 - 허용된 NetBoot 소스 목록에 IPv4 주소 추가:
 
-`csrutil netboot add {{ip}}`
+`csrutil netboot add {{ip_address}}`
 
 - 시스템 무결성 보호 상태 초기화 및 NetBoot 목록 초기화:
 

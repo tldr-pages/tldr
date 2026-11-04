@@ -1,6 +1,6 @@
 # iverilog
 
-> Preprocesses and compiles Verilog HDL (IEEE-1364) code into executable programs for simulation.
+> Preprocess and compile Verilog HDL (IEEE-1364) code into executable programs for simulation.
 > More information: <https://manned.org/iverilog>.
 
 - Compile a source file into an executable:

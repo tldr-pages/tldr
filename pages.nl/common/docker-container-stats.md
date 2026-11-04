@@ -13,7 +13,7 @@
 
 - Wijzig het kolommenformaat om het CPU-gebruikspercentage van de container te tonen:
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - Toon statistieken voor alle containers (zowel draaiende als gestopte):
 

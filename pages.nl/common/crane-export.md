@@ -13,4 +13,4 @@
 
 - Lees de image vanuit `stdin`:
 
-`crane export - {{pad/naar/filenaam}}`
+`crane export - {{pad/naar/bestand}}`

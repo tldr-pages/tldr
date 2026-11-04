@@ -15,7 +15,7 @@
 
 `cal {{maand}} {{jaar}}`
 
-- Toon de volledige kalender voor het huidige jaar ([y]):
+- Toon een kalender voor het huidige jaar ([y]):
 
 `cal -y`
 
@@ -23,7 +23,7 @@
 
 `cal -j`
 
-- Gebruik [m]aandag als week start in plaats van zondag:
+- Gebruik [m]aandag als weekstart in plaats van zondag:
 
 `cal -m`
 

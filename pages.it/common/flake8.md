@@ -15,6 +15,6 @@
 
 `flake8 --ignore {{regola1,regola2}} {{percorso/del/file_o_directory}}`
 
-- Analizza ricorsivamente un file o una directory ma esclude i file che corrispondono a una sottostringa o a un glob:
+- Analizza ricorsivamente un file o una directory ma esclude i file che corrispondono a una sottostringa o a un `glob`:
 
 `flake8 --exclude {{sottostringa1,glob2}} {{percorso/del/file_o_directory}}`

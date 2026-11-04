@@ -13,11 +13,11 @@
 
 - Set [e]SSID:
 
-`pyrit -e "{{essid}}" create_essid`
+`pyrit -e "{{extended_ssid}}" create_essid`
 
 - [r]ead and analyze a specific packet capture file:
 
-`pyrit -r {{path/to/file.cap|path/to/file.pcap}} analyze`
+`pyrit -r {{path/to/file}}.{{cap|pcap}} analyze`
 
 - Read and [i]mport passwords to the current database:
 

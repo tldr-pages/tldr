@@ -7,7 +7,7 @@
 
 `babeld -c {{path/to/ports.conf}} -c {{path/to/filters.conf}} -c {{path/to/interfaces.conf}}`
 
-- [D]eamonize after startup:
+- [D]aemonize after startup:
 
 `babeld -D`
 

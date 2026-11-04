@@ -7,7 +7,7 @@
 
 `stat {{path/to/file}}`
 
-- Same as above but verbose (more similar to Linux's `stat`):
+- Show file properties verbosely (more similar to Linux's `stat`):
 
 `stat -x {{path/to/file}}`
 

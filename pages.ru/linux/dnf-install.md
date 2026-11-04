@@ -21,7 +21,7 @@
 
 - Добавить репозитории Extra Packages for Enterprise Linux (EPEL):
 
-`sudo dnf {{[in|install]}} https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{10}}.noarch.rpm`
+`sudo dnf {{[in|install]}} epel-release`
 
 - Добавить RPM-репозиторий Remi:
 

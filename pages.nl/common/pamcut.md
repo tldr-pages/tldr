@@ -1,17 +1,17 @@
 # pamcut
 
-> Snij een rechthoekig gebied uit van een Netpbm afbeelding.
+> Snij een rechthoekig gebied uit van een Netpbm-afbeelding.
 > Zie ook: `pamdice`, `pamcomp`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 
-- Verwijder het gespecificeerde nummer van kolommen/rijen van iedere zijde van de afbeelding:
+- Verwijder het gespecificeerde aantal kolommen/rijen van iedere zijde van de afbeelding:
 
-`pamcut {{[-cropl|-cropleft]}} {{waarde}} {{[-cropr|-cropright]}} {{waarde}} {{[-cropt|-croptop]}} {{waarde}} {{[-cropb|-cropbottom]}} {{waarde}} {{pad/naar/afbeelding.ppm}} > {{pad/naar/uitvoer.ppm}}`
+`pamcut {{[-cropl|-cropleft]}} {{waarde}} {{[-cropr|-cropright]}} {{waarde}} {{[-cropt|-croptop]}} {{waarde}} {{[-cropb|-cropbottom]}} {{waarde}} {{pad/naar/afbeelding.ppm}} >{{pad/naar/uitvoer.ppm}}`
 
 - Behoud alleen de kolommen tussen de gespecificeerde kolommen (inclusief de gespecificeerde):
 
-`pamcut {{[-l|-left]}} {{waarde}} {{[-ri|-right]}} {{waarde}} {{pad/naar/afbeelding.ppm}} > {{pad/naar/uitvoer.ppm}}`
+`pamcut {{[-l|-left]}} {{waarde}} {{[-ri|-right]}} {{waarde}} {{pad/naar/afbeelding.ppm}} >{{pad/naar/uitvoer.ppm}}`
 
-- Vul missende gebieden met zwarte pixels als de gespecificeerde rechthoek niet volledig ligt in de invoer-afbeelding:
+- Vul missende gebieden met zwarte pixels als de gespecificeerde rechthoek niet volledig ligt in de invoerafbeelding:
 
-`pamcut {{[-t|-top]}} {{waarde}} {{[-b|-bottom]}} {{waarde}} -pad {{pad/naar/afbeelding.ppm}} > {{pad/naar/uitvoer.ppm}}`
+`pamcut {{[-t|-top]}} {{waarde}} {{[-b|-bottom]}} {{waarde}} -pad {{pad/naar/afbeelding.ppm}} >{{pad/naar/uitvoer.ppm}}`

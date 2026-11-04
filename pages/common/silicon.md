@@ -12,6 +12,14 @@
 
 `silicon {{path/to/source_file}} {{[-o|--output]}} {{path/to/output_image}} {{[-l|--language]}} {{language|extension}}`
 
+- Do not generate window decorations in the image:
+
+`silicon {{path/to/source_file}} {{[-o|--output]}} {{path/to/output_image}} --no-window-controls`
+
 - Generate an image from `stdin`:
 
 `{{command}} | silicon {{[-o|--output]}} {{path/to/output_image}}`
+
+- Display help:
+
+`silicon {{[-h|--help]}}`

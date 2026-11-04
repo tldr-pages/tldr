@@ -5,7 +5,7 @@
 
 - Muestra todas las confirmaciones de la rama actual:
 
-`git rev-list {{HEAD}}`
+`git rev-list HEAD`
 
 - Imprime la última confirmación que cambió (agregó/editó/eliminó) un archivo específico en la rama actual:
 

@@ -11,11 +11,11 @@
 
 `reboot {{[-p|--poweroff]}}`
 
-- Houd het systeem (beëindigt alle processen en zet de CPU uit) (zelfde als `halt`):
+- Stop het systeem (beëindigt alle processen en zet de CPU uit) (zelfde als `halt`):
 
 `reboot --halt`
 
-- Herstart onmiddellijk zonder contact op te nemen met de systeembeheerder:
+- Herstart onmiddellijk zonder contact op te nemen met de system manager:
 
 `reboot {{[-f|--force]}}`
 

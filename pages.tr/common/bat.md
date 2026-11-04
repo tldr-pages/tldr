@@ -2,6 +2,7 @@
 
 > Dosyaları yazdır ve birleştir.
 > Sözdizimi vurgulama ve Git entegrasyonuna sahip bir `cat` klonu.
+> Ayrıca bakınız: `cat`.
 > Daha fazla bilgi için: <https://manned.org/bat>.
 
 - Bir dosyanın içeriğini standart çıktıya yazdır:
@@ -10,11 +11,11 @@
 
 - Birkaç dosyayı hedef dosyada birleştir:
 
-`bat {{dosya1}} {{dosya2}} > {{hedef_dosya}}`
+`bat {{dosya1}} {{dosya2}} >{{hedef_dosya}}`
 
 - Birkaç dosyayı hedef dosyaya ekle:
 
-`bat {{dosya1}} {{dosya2}} >> {{hedef_dosya}}`
+`bat {{dosya1}} {{dosya2}} >>{{hedef_dosya}}`
 
 - Tüm çıktı satırlarını numaralandır:
 

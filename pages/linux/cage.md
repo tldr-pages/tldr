@@ -20,6 +20,10 @@
 
 `cage -s {{application}}`
 
+- Run a specific file:
+
+`cage /{{path/to/file}}`
+
 - Display help:
 
 `cage -h`

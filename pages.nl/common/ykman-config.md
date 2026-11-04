@@ -1,6 +1,6 @@
 # ykman config
 
-> In- of uitschakelen van YubiKey applicaties.
+> In- of uitschakelen van YubiKey-applicaties.
 > Opmerking: je kan `ykman info` gebruiken om de huidige ingeschakelde applicaties te zien.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args>.
 

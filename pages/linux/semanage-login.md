@@ -1,7 +1,7 @@
-# semanage-login
+# semanage login
 
 > Manage SELinux login mappings between Linux users and SELinux users.
-> See also: `semanage`, `semanage-user`.
+> See also: `semanage user`.
 > More information: <https://manned.org/semanage-login>.
 
 - List all login mappings:

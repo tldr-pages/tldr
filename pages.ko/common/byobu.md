@@ -2,7 +2,7 @@
 
 > 윈도우 관리자이자 터미널 멀티플렉서.
 > 관련 항목: `tmux`, `screen`.
-> 더 많은 정보: <https://www.byobu.org/documentation>.
+> 더 많은 정보: <https://manned.org/byobu>.
 
 - 새로운 세션 시작:
 

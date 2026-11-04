@@ -15,10 +15,6 @@
 
 `query user`
 
-- Display all user sessions on a remote computer:
-
-`query session /server:{{hostname}}`
-
 - Display all running processes:
 
 `query process`

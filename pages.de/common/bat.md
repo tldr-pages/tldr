@@ -2,6 +2,7 @@
 
 > Ausgabe und Verkettung von einzelnen Dateien.
 > Ein `cat`-Ersatz mit Syntax-Hervorhebung und Git-Integration.
+> Siehe auch: `cat`.
 > Weitere Informationen: <https://manned.org/bat>.
 
 - Gib den Inhalt einer Datei in `stdout` aus:
@@ -10,11 +11,11 @@
 
 - Verkette mehrere Dateien zu einer Zieldatei:
 
-`bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/ziel_datei}}`
+`bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >{{pfad/zu/ziel_datei}}`
 
 - Hänge mehrere Dateien an eine Zieldatei an:
 
-`bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >> {{pfad/zu/ziel_datei}}`
+`bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >>{{pfad/zu/ziel_datei}}`
 
 - Nummeriere alle ausgegebenen Zeilen:
 

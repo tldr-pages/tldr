@@ -11,7 +11,7 @@
 
 `mcat {{[-t|--theme]}} {{테마_이름}} {{경로/대상/파일.md}}`
 
-- Display an image or video inline:
+- 이미지 또는 비디오를 인라인으로 표시:
 
 `mcat {{[-i|--output inline]}} {{경로/대상/파일}}`
 

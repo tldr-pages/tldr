@@ -1,7 +1,7 @@
 # dvdmaker
 
 > Create and burn video DVDs.
-> Note: This program has been deprecated.
+> Note: This command is deprecated.
 > More information: <https://learn.microsoft.com/previous-versions/windows/desktop/wmmdvdm/command-line-options-for-windows-dvd-maker>.
 
 - Launch Windows DVD Maker:

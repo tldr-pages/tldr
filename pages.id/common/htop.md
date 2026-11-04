@@ -1,6 +1,7 @@
 # htop
 
-> Tampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan.
+> Tampilkan informasi waktu nyata dinamis tentang proses yang berjalan.
+> Suatu program `top` yang lebih disempurnakan.
 > Lihat juga: `top`, `atop`, `glances`, `btop`, `btm`.
 > Informasi lebih lanjut: <https://manned.org/htop>.
 
@@ -24,14 +25,14 @@
 
 `htop {{[-d|--delay]}} {{50}}`
 
-- Lihat perintah interaktif saat menjalankan htop:
+- Matikan seluruh fitur pengubahan terhadap sistem dan proses:
 
-`<?>`
+`htop --readonly`
+
+- Lihat perintah interaktif saat menjalankan `htop`:
+
+`{{<F1>|<?>}}`
 
 - Alihkan tampilan menuju tab lain:
 
 `<Tab>`
-
-- Tampilkan bantuan:
-
-`htop {{[-h|--help]}}`

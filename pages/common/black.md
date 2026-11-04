@@ -16,7 +16,7 @@
 
 `black --check {{path/to/file_or_directory}}`
 
-- Show changes that would be made to a file or a directory without performing them (dry-run):
+- Simulate formatting a file or a directory and show the changes that would be made:
 
 `black --diff {{path/to/file_or_directory}}`
 

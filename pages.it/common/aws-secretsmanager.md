@@ -33,4 +33,4 @@
 
 - Ruota il segreto automaticamente ogni 30 giorni utilizzando una funzione Lambda:
 
-`aws secretsmanager rotate-secret --secret-id {{nome|arn}} --rotation-lambda-arn {{arn_della_funzione_lambda}} --rotation-rules AutomaticallyAfterDays={{30}}`
+`aws secretsmanager rotate-secret --secret-id {{nome|arn}} --rotation-lambda-arn {{arn_della_funzione_lambda}} --rotation-rules AutomaticallyAfterDays=30`

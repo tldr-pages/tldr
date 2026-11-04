@@ -1,7 +1,6 @@
 # vagrant box
 
 > Manage Vagrant boxes (virtual machine images).
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/box>.
 
 - List all installed boxes:

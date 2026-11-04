@@ -10,7 +10,7 @@
 
 - Execute specific [c]ommands:
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh is executed'}}"`
 
 - Execute a specific script:
 
@@ -22,7 +22,7 @@
 
 - Execute specific commands from `stdin`:
 
-`{{echo echo Hello world}} | zsh`
+`{{echo "echo 'zsh is executed'"}} | zsh`
 
 - Execute a specific script, printing each command in the script before executing it:
 

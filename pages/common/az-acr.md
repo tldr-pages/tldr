@@ -8,7 +8,7 @@
 
 `az acr create {{[-n|--name]}} {{registry_name}} {{[-g|--resource-group]}} {{resource_group}} --sku {{sku}}`
 
-- Login to a registry:
+- Log in to a registry:
 
 `az acr login {{[-n|--name]}} {{registry_name}}`
 

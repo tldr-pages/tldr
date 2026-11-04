@@ -1,14 +1,14 @@
 # hledger balance
 
 > A flexible, general purpose "summing" report that shows accounts with some kind of numeric data.
-> This can be balance changes per period, end balances, budget performance, unrealised capital gains, etc.
+> This can be balance changes per period, end balances, budget performance, unrealized capital gains, etc.
 > More information: <https://hledger.org/hledger.html#balance>.
 
 - Show the balance change in all accounts from all postings over all time:
 
 `hledger {{[bal|balance]}}`
 
-- Show the balance change in accounts whose name contains `expenses`, as a tree, summarising the top two levels only:
+- Show the balance change in accounts whose name contains `expenses`, as a tree, summarizing the top two levels only:
 
 `hledger {{[bal|balance]}} {{expenses}} {{[-t|--tree]}} {{[-2|--depth 2]}}`
 
@@ -16,7 +16,7 @@
 
 `hledger {{[bal|balance]}} {{expenses}} {{[-M|--monthly]}} {{[-T|--row-total]}} {{[-A|--average]}} {{[-S|--sort-amount]}} --budget`
 
-- Similar to the above, matching accounts by `Expense` type, as a two level tree without squashing boring accounts:
+- Show monthly totals, averages, and budget goals for accounts matching the `Expense` type, as a two level tree without squashing boring accounts:
 
 `hledger {{[bal|balance]}} type:{{X}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} --budget {{[-t|--tree]}} {{[-2|--depth 2]}} --no-elide`
 
@@ -24,7 +24,7 @@
 
 `hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
 
-- Similar to the above, also show zero balances, sort by total and summarise to three levels:
+- Show quarterly end balances in 2024 for asset and liability accounts, including zero balances, sorted by total, and summarized to three levels:
 
 `hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:{{2024}} type:{{AL}} {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
 
@@ -32,6 +32,6 @@
 
 `hledger {{[bal|balance]}} {{[-HVQ|--historical --market --quarterly]}} {{assets:investments}}`
 
-- Show unrealised capital gains/losses from market price changes in each quarter, for non-cryptocurrency investment assets:
+- Show unrealized capital gains/losses from market price changes in each quarter, for non-cryptocurrency investment assets:
 
 `hledger {{[bal|balance]}} --gain {{[-Q|--quarterly]}} {{assets:investments}} not:{{cryptocurrency}}`

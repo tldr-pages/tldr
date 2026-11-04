@@ -1,25 +1,25 @@
 # git send-email
 
-> Envoyer une collection de correctifs par email.
+> Envoie une collection de correctifs par email.
 > Les correctifs peuvent être spécifiés sous forme de fichiers, de directions ou de liste de révisions.
 > Plus d'informations : <https://git-scm.com/docs/git-send-email>.
 
-- Envoyer le dernier commit de la branche courante :
+- Envoie la dernière validation de la branche actuelle :
 
 `git send-email -1`
 
-- Envoyer un commit spécifique :
+- Envoie une validation spécifique :
 
-`git send-email -1 {{commit}}`
+`git send-email -1 {{validation}}`
 
-- Envoyer de multiples commits de la branche courante (ici : 10) :
+- Envoie de multiples validations de la branche actuelle (ici : 10) :
 
 `git send-email {{-10}}`
 
-- Envoyez un e-mail de présentation de la série de correctifs :
+- Envoie un e-mail de présentation de la série de correctifs :
 
-`git send-email -{{number of commits}} --compose`
+`git send-email -{{nombre_validations}} --compose`
 
-- Consultez et modifiez l'e-mail de chaque patch que vous êtes sur le point d'envoyer :
+- Consulte et modifie l'e-mail de chaque correctif qui va être envoyé :
 
-`git send-email -{{number of commits}} --annotate`
+`git send-email -{{nombre_validations}} --annotate`

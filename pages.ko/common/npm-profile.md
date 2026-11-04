@@ -12,7 +12,7 @@
 
 `npm profile get {{속성}}`
 
-- Set or update a profile property:
+- 프로필 속성 설정 또는 업데이트:
 
 `npm profile set {{속성}} {{값}}`
 

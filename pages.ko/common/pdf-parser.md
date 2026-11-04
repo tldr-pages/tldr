@@ -5,12 +5,12 @@
 
 - PDF 파일의 통계 표시:
 
-`pdf-parser --stats {{경로/대상/파일.pdf}}`
+`pdf-parser {{[-a|--stats]}} {{경로/대상/파일.pdf}}`
 
 - PDF 파일에서 `/Font` 유형의 객체 표시:
 
-`pdf-parser --type={{/Font}} {{경로/대상/파일.pdf}}`
+`pdf-parser {{[-t|--type]}} {{/Font}} {{경로/대상/파일.pdf}}`
 
 - 간접 객체에서 문자열 검색:
 
-`pdf-parser --search={{검색_문자열}} {{경로/대상/파일.pdf}}`
+`pdf-parser {{[-s|--search]}} {{검색_문자열}} {{경로/대상/파일.pdf}}`

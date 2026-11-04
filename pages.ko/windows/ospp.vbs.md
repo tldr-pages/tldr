@@ -2,6 +2,7 @@
 
 > Microsoft Office 제품의 볼륨 라이선스 버전을 설치, 활성화 및 관리합니다.
 > 참고: 이 명령어는 현재 볼륨 라이선스가 있는 Office 제품 버전을 덮어쓰거나 비활성화하거나 제거할 수 있으므로 주의하여 진행하세요.
+> 관련 항목: `gethelpcmd-officeactivationscenario`.
 > 더 많은 정보: <https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office>.
 
 - 제품 키 설치 (참고: 기존 키를 덮어씀):

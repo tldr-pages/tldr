@@ -17,4 +17,4 @@
 
 - Rimuovi una chiave API per una fonte:
 
-`choco apikey {{[-s|--source]}} "{{url_della_fonte}}" --remove`
+`choco apikey remove {{[-s|--source]}} "{{url_della_fonte}}"`

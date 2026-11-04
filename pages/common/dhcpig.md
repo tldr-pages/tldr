@@ -1,6 +1,6 @@
 # dhcpig
 
-> Initiates an advanced DHCP exhaustion attack and stress test.
+> Initiate an advanced DHCP exhaustion attack and stress test.
 > More information: <https://github.com/kamorin/DHCPig#usage>.
 
 - Exhaust all of the available DHCP addresses using the specified interface:

@@ -2,7 +2,6 @@
 
 > Download RPM packages from the DNF repositories.
 > Not default to `dnf` but supported via `dnf-plugins-core`.
-> See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/download.html>.
 
 - Download the latest version of a package to the current directory:

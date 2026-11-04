@@ -9,7 +9,7 @@
 
 - 하위 도메인 검색:
 
-`gobuster dns {{[-d|--domain]}} {{example.com}} {{[-w|--wordlist]}} {{경로/대상/파일}}`
+`gobuster dns {{[-do|--domain]}} {{example.com}} {{[-w|--wordlist]}} {{경로/대상/파일}}`
 
 - Amazon S3 버킷 검색:
 

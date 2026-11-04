@@ -1,21 +1,25 @@
 # git push
 
-> Pousse les commits vers un dépôt distant.
+> Pousse les validations vers un dépôt distant.
 > Plus d'informations : <https://git-scm.com/docs/git-push>.
 
-- Envoie les changements locaux dans la branche courante vers sa contrepartie distante :
+- Envoie les modifications locales dans la branche actuelle vers sa contrepartie distante :
 
 `git push`
 
-- Envoie les changements locaux d'une branche spécifique vers sa contrepartie distante :
+- Envoie les modifications locales d'une branche spécifique vers sa contrepartie distante :
 
-`git push {{nom_distant}} {{local_branch}}`
+`git push {{nom_distant}} {{branche_locale}}`
 
-- Publie la branche courante vers un dépôt distant, crée le nom de la branche distante :
+- Envoie les modifications d'une branche locale spécifique vers sa contrepartie distante et définit cette dernière comme cible par défaut pour les opérations push/pull de la branche locale :
 
-`git push {{nom_distant}} {{[-u|--set-upstream]}} {{branche_distante}}`
+`git push {{[-u|--set-upstream]}} {{nom_distant}} {{branche_locale}}`
 
-- Envoi les changements locaux sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
+- Envoie les modifications d'une branche locale spécifique vers une branche distante spécifique :
+
+`git push {{nom_distant}} {{branche_locale}}:{{branche_distante}}`
+
+- Envoie les modifications locales sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
 
 `git push --all {{nom_distant}}`
 
@@ -27,6 +31,6 @@
 
 `git push --prune {{nom_distant}}`
 
-- Publie les tags qui ne sont pas sur le dépôt distant :
+- Publie les étiquettes qui ne sont pas encore sur le dépôt distant :
 
 `git push --tags`

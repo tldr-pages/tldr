@@ -11,6 +11,6 @@
 
 `DIR /p`
 
-- Wide view:
+- List files in wide format:
 
 `DIR /w`

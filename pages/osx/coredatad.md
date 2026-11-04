@@ -1,6 +1,6 @@
 # coredatad
 
-> Schedules CloudKit operations for clients of NSPersistentCloudKitContainer.
+> Schedule CloudKit operations for clients of NSPersistentCloudKitContainer.
 > Note: It should not be invoked manually.
 > More information: <https://keith.github.io/xcode-man-pages/coredatad.8.html>.
 

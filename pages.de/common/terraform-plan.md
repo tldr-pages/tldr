@@ -29,4 +29,4 @@
 
 - Ausgabe eines Plans in eine separate Datei:
 
-`terraform plan -no-color > {{pfad/zu/datei}}`
+`terraform plan -no-color >{{pfad/zu/datei}}`

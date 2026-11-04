@@ -13,7 +13,7 @@
 
 - 구성([C]onfiguration) 명령어를 지정:
 
-`babeld -C {{'redistribute metric 256'}}`
+`babeld -C '{{redistribute metric 256}}'`
 
 - 작동할 인터페이스를 지정:
 

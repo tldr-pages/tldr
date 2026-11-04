@@ -15,7 +15,7 @@
 
 `cut -f 2,6 {{pad/naar/bestand}}`
 
-- Splits elke regel met het opgegeven scheidingsteken ([d]) en toon alles vanaf het tweede veld:
+- Splits elke regel met het opgegeven scheidingsteken ([d]) en toon alles vanaf het tweede veld ([f]):
 
 `{{commando}} | cut -d "{{scheidingsteken}}" -f 2-`
 

@@ -7,7 +7,7 @@
 
 `npm owner add {{gebruikersnaam}} {{pakket_naam}}`
 
-- Verwijder een gebruiker van de eigenaars-lijst van een pakket:
+- Verwijder een gebruiker van de eigenaarslijst van een pakket:
 
 `npm owner rm {{gebruikersnaam}} {{pakket_naam}}`
 

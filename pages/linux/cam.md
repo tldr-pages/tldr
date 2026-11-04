@@ -2,7 +2,7 @@
 
 > Frontend tool for `libcamera`.
 > See also: `v4l2-ctl`.
-> More information: <https://libcamera.org/docs.html>.
+> More information: <https://docs.libcamera.org/>.
 
 - List available cameras:
 

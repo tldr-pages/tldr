@@ -13,7 +13,7 @@
 
 - Construye todo el sitio en un directorio diferente:
 
-`zola build --output-dir {{ruta/al/directorio_resultado/}}`
+`zola build --output-dir {{ruta/al/directorio_resultado}}/`
 
 - Construye y sirve el sitio usando un servidor local (por defecto es `127.0.0.1:1111`):
 

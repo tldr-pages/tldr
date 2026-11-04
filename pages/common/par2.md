@@ -1,6 +1,6 @@
 # par2
 
-> File verification and repair using PAR 2.0 compatible parity archives (.par2 files).
+> File verification and repair using PAR 2.0 compatible parity archives (`.par2` files).
 > More information: <https://github.com/Parchive/par2cmdline/>.
 
 - Create a parity archive with a set percentage level of redundancy:

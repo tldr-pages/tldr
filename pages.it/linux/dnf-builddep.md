@@ -2,7 +2,6 @@
 
 > Installa le dipendenze per compilare un dato pacchetto.
 > Non predefinito in `dnf` ma supportato tramite `dnf-plugins-core`.
-> Vedi anche: `dnf`.
 > Maggiori informazioni: <https://dnf-plugins-core.readthedocs.io/en/latest/builddep.html>.
 
 - Installa le dipendenze per un dato pacchetto:

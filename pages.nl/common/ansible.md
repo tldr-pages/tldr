@@ -1,6 +1,6 @@
 # ansible
 
-> Beheer een groep van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen).
+> Beheer groepen van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen).
 > Sommige subcommando's zoals `galaxy` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.ansible.com/projects/ansible/latest/cli/ansible.html>.
 
@@ -12,11 +12,11 @@
 
 `ansible {{groep}} {{[-m|--module-name]}} ping`
 
-- Toon feiten van een groep met hosts, met gebruik van de installatie module:
+- Toon feiten van een groep met hosts, met gebruik van de setup module:
 
 `ansible {{groep}} {{[-m|--module-name]}} setup`
 
-- Voer een commando op een groep met hosts uit. met gebruik van de commando module met argumenten:
+- Voer een commando op een groep met hosts uit, met gebruik van de command module met argumenten:
 
 `ansible {{groep}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 
@@ -24,7 +24,7 @@
 
 `ansible {{groep}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 
-- Voer een commando uit met een aangepast inventaris bestand:
+- Voer een commando uit met een aangepast inventarisbestand:
 
 `ansible {{groep}} {{[-i|--inventory]}} {{inventaris_bestand}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 

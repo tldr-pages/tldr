@@ -17,15 +17,15 @@
 
 - 테이블에 항목 ㅊ두가:
 
-`aws dynamodb put-item --table-name {{테이블_이름}} --item '{{{"AttributeName": {"S": "value"}}}}'`
+`aws dynamodb put-item --table-name {{테이블_이름}} --item '{{{"AttributeName": {"S": "value"\}\}}}'`
 
 - 테이블에서 항목 검색:
 
-`aws dynamodb get-item --table-name {{테이블_이름}} --key '{{{"ID": {"N": "1"}}}}'`
+`aws dynamodb get-item --table-name {{테이블_이름}} --key '{{{"ID": {"N": "1"\}\}}}'`
 
 - 테이블의 항목 업데이트:
 
-`aws dynamodb update-item --table-name {{테이블_이름}} --key '{{{"ID": {"N": "1"}}}}' --update-expression "{{SET Name = :n}}" --expression-attribute-values '{{{":n": {"S": "Jane"}}}}'`
+`aws dynamodb update-item --table-name {{테이블_이름}} --key '{{{"ID": {"N": "1"\}\}}}' --update-expression "{{SET Name = :n}}" --expression-attribute-values '{{{":n": {"S": "Jane"\}\}}}'`
 
 - 테이블의 항목을 스캔:
 
@@ -33,4 +33,4 @@
 
 - 테이블에서 항목 제거:
 
-`aws dynamodb delete-item --table-name {{테이블_이름}} --key '{{{"ID": {"N": "1"}}}}'`
+`aws dynamodb delete-item --table-name {{테이블_이름}} --key '{{{"ID": {"N": "1"\}\}}}'`

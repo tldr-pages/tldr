@@ -23,3 +23,7 @@
 - Unmount all mounted filesystems (except the `proc` filesystem):
 
 `sudo umount {{[-a|--all]}}`
+
+- Detach a filesystem from the filesystem hierarchy and unmount it as soon as there are no references to it:
+
+`sudo umount {{[-l|--lazy]}} {{path/to/mounted_directory}}`

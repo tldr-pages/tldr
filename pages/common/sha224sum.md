@@ -9,7 +9,7 @@
 
 - Calculate and save the list of SHA224 checksums to a file:
 
-`sha224sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha224}}`
+`sha224sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.sha224}}`
 
 - Calculate a SHA224 checksum from `stdin`:
 

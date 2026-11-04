@@ -8,11 +8,11 @@
 
 `service --status-all`
 
-- Inicia/Para/Reinicia/Recarga servicio (_start_/_stop_ debería estar siempre disponible):
+- Inicia/Para/Reinicia/Recarga servicio (start/stop debería estar siempre disponible):
 
 `service {{nombre_de_servicio}} {{start|stop|restart|reload}}`
 
-- Hace un reinicio completo (ejecuta el script dos veces con _start_ y _stop_):
+- Hace un reinicio completo (ejecuta el script dos veces con start y stop):
 
 `service {{nombre_de_servicio}} --full-restart`
 

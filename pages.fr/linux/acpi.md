@@ -11,18 +11,18 @@
 
 `acpi {{[-t|--thermal]}}`
 
-- Afficher les informations sur le dispositif de refroidissement :
+- Affiche les informations sur le dispositif de refroidissement :
 
 `acpi {{[-c|--cooling]}}`
 
-- Afficher les informations sur le dispositif de refroidissement en Fahrenheit :
+- Affiche les informations sur le dispositif de refroidissement en Fahrenheit :
 
 `acpi {{[-tf|--thermal --fahrenheit]}}`
 
-- Afficher toutes les informations :
+- Affiche toutes les informations :
 
 `acpi {{[-V|--everything]}}`
 
-- Extraye les informations depuis `/proc` au lieu de `/sys` :
+- Extrait les informations depuis `/proc` au lieu de `/sys` :
 
 `acpi {{[-p|--proc]}}`

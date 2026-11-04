@@ -27,6 +27,6 @@
 
 `ansible-playbook {{playbook}} --start-at {{task_name}}`
 
-- Run tasks in a playbook without making any changes (dry-run):
+- Simulate running tasks in a playbook without making any changes:
 
 `ansible-playbook {{playbook}} {{[-C|--check]}} {{[-D|--diff]}}`

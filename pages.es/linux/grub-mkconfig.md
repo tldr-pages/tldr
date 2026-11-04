@@ -11,6 +11,6 @@
 
 `sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `grub-mkconfig {{[-h|--help]}}`

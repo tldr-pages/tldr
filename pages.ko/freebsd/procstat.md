@@ -1,7 +1,7 @@
 # procstat
 
 > FreeBSD에서 프로세스에 대한 상세 정보를 표시하는 도구.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?procstat>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=procstat>.
 
 - 특정 프로세스의 파일 디스크립터 출력:
 

@@ -7,7 +7,7 @@
 
 `git lfs install`
 
-- Houd bestanden bij die overeenkomen met een glob:
+- Houd bestanden bij die overeenkomen met een `glob`:
 
 `git lfs track '{{*.bin}}'`
 

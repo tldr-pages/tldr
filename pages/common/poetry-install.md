@@ -1,6 +1,6 @@
 # poetry install
 
-> Install all dependencies for a Python project as defined in the pyproject.toml file.
+> Install all dependencies for a Python project as defined in the `pyproject.toml` file.
 > More information: <https://python-poetry.org/docs/cli/#install>.
 
 - Install dependencies:
@@ -15,6 +15,6 @@
 
 `poetry install --without dev`
 
-- Install optional dependenciy groups:
+- Install optional dependency groups:
 
 `poetry install --with test,docs`

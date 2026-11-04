@@ -11,3 +11,7 @@
 - Smazat konkrétní vnořené adresáře rekurzivně:
 
 `rmdir {{[-p|--parents]}} {{cesta/k/adresari1 cesta/k/adresari2 ...}}`
+
+- Vyčistit adresář od prázdných adresářů:
+
+`rmdir *`

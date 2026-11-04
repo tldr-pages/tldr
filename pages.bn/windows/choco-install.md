@@ -25,12 +25,12 @@
 
 - সব প্রম্পট স্বয়ংক্রিয়ভাবে নিশ্চিত করুন:
 
-`choco install {{package}} --yes`
+`choco install {{package}} {{[-y|--yes]}}`
 
 - প্যাকেজ গ্রহণের জন্য একটি কাস্টম সোর্স নির্দিষ্ট করুন:
 
-`choco install {{package}} --source {{source_url|alias}}`
+`choco install {{package}} {{[-s|--source]}} {{source_url|alias}}`
 
 - অথেনটিকেশনের জন্য একটি ব্যবহারকারীর নাম এবং পাসওয়ার্ড দিন:
 
-`choco install {{package}} --user {{username}} --password {{password}}`
+`choco install {{package}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`

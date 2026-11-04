@@ -9,8 +9,8 @@
 
 - Generate a configuration script from the specified template; output to `stdout`:
 
-`autoconf {{template-file}}`
+`autoconf {{template_file}}`
 
 - Generate a configuration script from the specified template (even if the input file has not changed) and write the output to a file:
 
-`autoconf {{[-f|--force]}} {{[-o|--output]}} {{outfile}} {{template-file}}`
+`autoconf {{[-f|--force]}} {{[-o|--output]}} {{outfile}} {{template_file}}`

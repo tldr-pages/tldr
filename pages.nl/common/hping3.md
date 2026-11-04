@@ -1,7 +1,7 @@
 # hping3
 
-> Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en IP.
-> Dit kan het beste uitgevoerd worden met extra priveleges.
+> Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en raw IP.
+> Dit kan het beste uitgevoerd worden met extra privileges.
 > Zie ook: `masscan`, `naabu`, `nmap`, `rustscan`, `zmap`.
 > Meer informatie: <https://manned.org/hping3>.
 
@@ -9,7 +9,7 @@
 
 `hping3 {{[-1|--icmp]}} {{[-c|--count]}} 4 {{ip_of_hostnaam}}`
 
-- Ping een IP addres over UDP op poort 80:
+- Ping een IP adres over UDP op poort 80:
 
 `hping3 {{[-2|--udp]}} {{[-p|--destport]}} 80 {{[-S|--syn]}} {{ip_of_hostnaam}}`
 

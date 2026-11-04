@@ -1,13 +1,13 @@
 # androguard
 
-> Reverse engineering tool voor Android applicaties, geschreven in Python.
+> Reverse engineering tool voor Android-applicaties, geschreven in Python.
 > Meer informatie: <https://github.com/androguard/androguard>.
 
-- Toon Android app manifest:
+- Toon het manifest van de Android-app:
 
 `androguard axml {{pad/naar/app}}.apk`
 
-- Toon app metadata (versie en app ID):
+- Toon de metadata van de app (versie en app ID):
 
 `androguard apkid {{pad/naar/app}}.apk`
 

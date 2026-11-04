@@ -1,6 +1,7 @@
 # ip rule
 
 > IP routing policy database management.
+> See also: `ip route`.
 > More information: <https://manned.org/ip-rule>.
 
 - Display the routing policy:
@@ -29,8 +30,8 @@
 
 - Save all rules to a file:
 
-`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
+`ip {{[ru|rule]}} {{[s|save]}} >{{path/to/ip_rules.dat}}`
 
 - Restore all rules from a file:
 
-`sudo ip < {{path/to/ip_rules.dat}} {{[ru|rule]}} {{[r|restore]}}`
+`sudo ip <{{path/to/ip_rules.dat}} {{[ru|rule]}} {{[r|restore]}}`

@@ -23,10 +23,10 @@
 
 `gpclient connect --ignore-tls-errors {{vpn_게이트웨이_url}}`
 
-- 버전 표시:
-
-`gpclient --version`
-
 - 명령에 대한 도움말 표시:
 
 `gpclient help {{명령}}`
+
+- 버전 표시:
+
+`gpclient --version`

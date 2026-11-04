@@ -19,6 +19,10 @@
 
 `git remote set-url {{remote_name}} {{new_url}}`
 
+- Set push remote to be different from fetch remote:
+
+`git remote set-url {{remote_name}} {{new_url}} --push`
+
 - Show the URL of a remote:
 
 `git remote get-url {{remote_name}}`

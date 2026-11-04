@@ -29,4 +29,4 @@
 
 - Elimina todos los archivos con una ubicación original específica:
 
-`trash-rm {{/ruta/al/archivo_o_directorio}}`
+`trash-rm /{{ruta/al/archivo_o_directorio}}`

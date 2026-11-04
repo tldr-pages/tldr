@@ -8,7 +8,7 @@
 
 `npm init {{[-y|--yes]}}`
 
-- Unduh semua paket yang terdaftar sebagai ketergantungan/dependency dalam package.json:
+- Unduh semua paket yang terdaftar sebagai ketergantungan/dependency dalam `package.json`:
 
 `npm {{[i|install]}}`
 
@@ -16,7 +16,7 @@
 
 `npm {{[i|install]}} {{nama_modul}}@{{versi}}`
 
-- Unduh dan tambahkan paket ke daftar ketergantungan pengembangan (dev dependency) di package.json:
+- Unduh dan tambahkan paket ke daftar ketergantungan pengembangan (dev dependency) di `package.json`:
 
 `npm {{[i|install]}} {{nama_modul}} {{[-D|--save-dev]}}`
 

@@ -9,16 +9,16 @@
 
 - 파일 삭제:
 
-`bleachbit --shred {{경로/대상/파일}}`
+`bleachbit {{[-s|--shred]}} {{경로/대상/파일}}`
 
 - 사용 가능한 클리너 옵션 나열:
 
-`bleachbit --list-cleaners`
+`bleachbit {{[-l|--list-cleaners]}}`
 
 - 정리 작업을 실제로 수행하기 전에 삭제될 파일 및 변경 사항 미리 보기:
 
-`bleachbit --preview {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit {{[-p|--preview]}} --preset {{cleaner1.option1 cleaner2.option2 ...}}`
 
 - 정리 작업 수행 및 파일 삭제:
 
-`bleachbit --clean {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit {{[-c|--clean]}} --preset {{cleaner1.option1 cleaner2.option2 ...}}`

@@ -11,7 +11,7 @@
 
 `pw-link {{çıktı_port_ismi}} {{girdi_port_ismi}}`
 
-- Disconnect two ports:
+- İki portun bağlantısını kesin:
 
 `pw-link {{[-d|--disconnect]}} {{çıktı_port_ismi}} {{girdi_port_ismi}}`
 

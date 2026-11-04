@@ -5,8 +5,8 @@
 
 - Solicita un único valor al agente SNMP:
 
-`snmpget -v {{versión}} -c {{comunidad}} {{ip}} {{oid}}`
+`snmpget -v {{versión}} -c {{comunidad}} {{ip_address}} {{oid}}`
 
 - Muestra la ruta completa del identificador de objeto (OID):
 
-`snmpget -v {{versión}} -c {{comunidad}} -O f {{ip}} {{oid}}`
+`snmpget -v {{versión}} -c {{comunidad}} -O f {{ip_address}} {{oid}}`

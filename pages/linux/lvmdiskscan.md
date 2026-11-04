@@ -1,6 +1,7 @@
 # lvmdiskscan
 
-> Scan for devices that may be used as physical volumes by LVM (deprecated; prefer `pvs`).
+> Scan for devices that may be used as physical volumes by LVM.
+> Note: This command is deprecated, use `pvs` instead.
 > More information: <https://manned.org/lvmdiskscan>.
 
 - Scan all devices:

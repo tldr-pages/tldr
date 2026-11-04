@@ -18,7 +18,7 @@
 
 - Tambahkan isi pesan ke dalam suatu berkas teks:
 
-`echo "{{Halo Dunia}}" >> {{berkas.txt}}`
+`echo "{{Halo Dunia}}" >>{{berkas.txt}}`
 
 - Aktifkan fitur interpretasi penggunaan tanda garis miring terbalik sebagai penanda karakter khusus:
 
@@ -27,3 +27,7 @@
 - Cetak status keluar dari perintah terakhir yang dieksekusi (Catatan: Dalam Windows Command Prompt dan PowerShell, perintah yang setara adalah `echo %errorlevel%` dan `$lastexitcode`):
 
 `echo $?`
+
+- Teruskan suatu pesan teks menuju program lainnya menuju `stdin`:
+
+`echo "{{Halo Dunia}}" | {{program}}`

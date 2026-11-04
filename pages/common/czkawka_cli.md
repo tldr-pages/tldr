@@ -1,6 +1,6 @@
 # czkawka_cli
 
-> Find duplicates, empty folders, similar images and much more.
+> Find duplicates, empty folders, similar images, and much more.
 > More information: <https://github.com/qarmin/czkawka/blob/master/czkawka_cli/README.md>.
 
 - List duplicate in specific directories and write the results into a file:

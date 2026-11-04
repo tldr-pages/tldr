@@ -21,12 +21,12 @@
 
 - Confirm all prompts automatically:
 
-`choco upgrade {{package}} --yes`
+`choco upgrade {{package}} {{[-y|--yes]}}`
 
 - Specify a custom source to receive packages from:
 
-`choco upgrade {{package}} --source {{source_url|alias}}`
+`choco upgrade {{package}} {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 
-`choco upgrade {{package}} --user {{username}} --password {{password}}`
+`choco upgrade {{package}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`

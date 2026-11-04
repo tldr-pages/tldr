@@ -7,7 +7,7 @@
 
 `mkvpropedit {{[-d|--delete]}} title {{path/to/file.mkv}}`
 
-- Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impared:
+- Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impaired:
 
 `mkvpropedit {{path/to/file.mkv}} {{[-e|--edit]}} track:s3 {{[-s|--set]}} flag-hearing-impaired=1`
 

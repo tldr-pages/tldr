@@ -20,14 +20,14 @@
 
 `sudo aa-status --profiled`
 
-- Tampilkan jumlah kebijakan _enforce_ yang dimuat:
+- Tampilkan jumlah kebijakan enforce yang dimuat:
 
 `sudo aa-status --enforced`
 
-- Tampilkan jumlah kebijakan _non-enforce_ yang dimuat:
+- Tampilkan jumlah kebijakan non-enforce yang dimuat:
 
 `sudo aa-status --complaining`
 
-- Tampilkan jumlah kebijakan _enforce_ yang dimuat yang mematikan tugas:
+- Tampilkan jumlah kebijakan enforce yang dimuat yang mematikan tugas:
 
 `sudo aa-status --kill`

@@ -10,7 +10,7 @@
 
 - Search the history for a command, with 20 results:
 
-`mcfly search --results {{20}} "{{search_terms}}"`
+`mcfly search --results 20 "{{search_terms}}"`
 
 - Add a new command to the history:
 

@@ -6,7 +6,7 @@
 
 - Make WirePlumber start with the user session immediately (for systemd systems):
 
-`systemctl --user --now enable wireplumber`
+`systemctl enable wireplumber --user --now`
 
 - Run WirePlumber, after `pipewire` is started (for non-systemd systems):
 
@@ -14,12 +14,12 @@
 
 - Specify a different context configuration file:
 
-`wireplumber --config-file {{path/to/file}}`
+`wireplumber {{[-c|--config-file]}} {{path/to/file}}`
 
 - Display help:
 
-`wireplumber --help`
+`wireplumber {{[-h|--help]}}`
 
 - Display version:
 
-`wireplumber --version`
+`wireplumber {{[-v|--version]}}`

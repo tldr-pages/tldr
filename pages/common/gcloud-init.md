@@ -1,6 +1,6 @@
 # gcloud init
 
-> Launch an interactive workflow to setup `gcloud` or reinitialize configurations.
+> Launch an interactive workflow to set up `gcloud` or reinitialize configurations.
 > More information: <https://docs.cloud.google.com/sdk/gcloud/reference/init>.
 
 - Launch a "Getting Started" workflow:

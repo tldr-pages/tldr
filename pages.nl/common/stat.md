@@ -8,7 +8,7 @@
 
 `stat {{pad/naar/bestand}}`
 
-- Toon eigenschappen van een specifiek bestand zoals grootte, permissies, aanmaak- en toegangsdatums en meer zonder labels:
+- Toon eigenschappen van een specifiek bestand, waarbij alleen de ruwe resultaatgegevens zonder labels worden getoond:
 
 `stat {{[-t|--terse]}} {{pad/naar/bestand}}`
 

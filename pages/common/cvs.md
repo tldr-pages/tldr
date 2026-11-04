@@ -11,7 +11,7 @@
 
 `cvs import -m "{{message}}" {{project_name}} {{version}} {{vendor}}`
 
-- Checkout a project:
+- Check out a project:
 
 `cvs checkout {{project_name}}`
 

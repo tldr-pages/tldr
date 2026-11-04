@@ -13,7 +13,7 @@
 
 - Lis un JSON depuis une URL et évalue une expression JSONPath spécifique :
 
-`ajson '{{avg($..price)}}' '{{https://exemple.com/api/}}'`
+`ajson '{{avg($..price)}}' '{{https://example.com/api/}}'`
 
 - Lis un JSON simple et calcule une valeur :
 

@@ -14,8 +14,8 @@
 
 - Dump daemon-instellingen in JSON formaat:
 
-`transmission-daemon {{[-d|--dump-settings]}} > {{pad/naar/bestand.json}}`
+`transmission-daemon {{[-d|--dump-settings]}} >{{pad/naar/bestand.json}}`
 
-- Start met specifieke instellingen voor de web interface:
+- Start met specifieke instellingen voor de webinterface:
 
 `transmission-daemon {{[-t|--auth]}} {{[-u|--username]}} {{gebruikersnaam}} {{[-v|--password]}} {{wachtwoord}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`

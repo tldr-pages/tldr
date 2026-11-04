@@ -1,13 +1,14 @@
 # docker compose
 
 > Exécute et gère des applications au travers de plusieurs conteneurs Docker.
+> Certaines sous-commandes, telles que `up`, `down`, `logs`, `stop` disposent de leur propre documentation d’utilisation.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Liste tous les conteneurs en cours d'exécution :
 
 `docker compose ps`
 
-- Crée et démarre en arrière-plan tous les conteneurs décrits dans le fichier `docker-compose.yml` du répertoire courant :
+- Crée et démarre en arrière-plan tous les conteneurs décrits dans le fichier `docker-compose.yml` du répertoire actuel :
 
 `docker compose up {{[-d|--detach]}}`
 
@@ -17,7 +18,7 @@
 
 - Démarre tous les conteneurs en spécifiant un nom de projet et un fichier compose alternatif :
 
-`docker compose {{[-p|--project-name]}} {{nom_de_projet}} {{[-f|--file]}} {{chemin/vers/fichier}} up`
+`docker compose {{[-p|--project-name]}} {{nom_projet}} {{[-f|--file]}} {{chemin/vers/fichier}} up`
 
 - Arrête tous les conteneurs en cours d'exécution :
 
@@ -33,4 +34,4 @@
 
 - Affiche et suit la journalisation pour un conteneurs spécifique :
 
-`docker compose logs {{[-f|--follow]}} {{nom_container}}`
+`docker compose logs {{[-f|--follow]}} {{nom_conteneur}}`

@@ -22,4 +22,4 @@
 
 - Gunakan mode verbose, tampilkan proses pembangunan secara rinci:
 
-`arduino-builder -verbose {{true}}`
+`arduino-builder -verbose true`

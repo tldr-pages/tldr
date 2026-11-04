@@ -1,6 +1,7 @@
 # cat
 
 > Print and concatenate files.
+> See also: `bat`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Print the contents of a file to `stdout`:
@@ -9,15 +10,15 @@
 
 - Concatenate several files into an output file:
 
-`cat {{path/to/file1 path/to/file2 ...}} > {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >{{path/to/output_file}}`
 
 - Append several files to an output file:
 
-`cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >>{{path/to/output_file}}`
 
 - Write to a file interactively:
 
-`cat > {{path/to/file}}`
+`cat >{{path/to/file}}`
 
 - Number all output lines:
 
@@ -26,6 +27,10 @@
 - Display all characters, including tabs, line endings, and non-printing characters:
 
 `cat {{[-A|--show-all]}} {{path/to/file}}`
+
+- Omit repeating empty lines:
+
+`cat {{[-s|--squeeze-blank]}} {{path/to/file}}`
 
 - Pass file contents to another program through `stdin`:
 

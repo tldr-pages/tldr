@@ -20,6 +20,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -36,8 +37,10 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
+[sw](#sw) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
@@ -156,6 +159,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Plus d'informations : <https://example.com>.
+```
+
+---
+
+### he
+
+```markdown
+> למידע נוסף: <https://example.com>.
 ```
 
 ---
@@ -288,6 +299,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
+### si
+
+```markdown
+> වැඩිදුර තොරතුරු සඳහා: <https://example.com>.
+```
+
+---
+
 ### sr
 
 ```markdown
@@ -300,6 +319,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Mer information: <https://example.com>.
+```
+
+---
+
+### sw
+
+```markdown
+> Maelezo zaidi: <https://example.com>.
 ```
 
 ---

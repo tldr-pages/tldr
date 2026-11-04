@@ -7,10 +7,6 @@
 
 `plesk login`
 
-- 제품 버전 정보 표시:
-
-`plesk version`
-
 - 호스팅된 모든 도메인 나열:
 
 `plesk bin domain --list`
@@ -26,3 +22,7 @@
 - 기본 편집기로 Plesk 메인 구성 파일 열기:
 
 `plesk conf {{panel.ini}}`
+
+- 제품 버전 정보 표시:
+
+`plesk version`

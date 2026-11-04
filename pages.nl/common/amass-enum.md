@@ -11,7 +11,7 @@
 
 `amass enum -active -d {{domeinnaam}} -p {{80,443,8080}}`
 
-- Doe een brute force zoekopdracht op een sub[d]omein:
+- Doe een brute force zoekopdracht naar sub[d]omeinen:
 
 `amass enum -brute -d {{domeinnaam}}`
 
@@ -19,9 +19,9 @@
 
 `amass enum -o {{uitvoer_bestand}} -d {{domeinnaam}}`
 
-- Sla de resultaten op in een database en andere gedetailleerde output naar een map:
+- Sla de terminaluitvoer op in een bestand en andere gedetailleerde uitvoer in een map:
 
-`amass enum -o {{uitvoer_bestand}} -dir {{pad/naar/database_map}} -d {{domeinnaam}}`
+`amass enum -o {{uitvoer_bestand}} -dir {{pad/naar/map}} -d {{domeinnaam}}`
 
 - Toon alle beschikbare databronnen:
 

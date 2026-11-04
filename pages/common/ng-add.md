@@ -27,6 +27,6 @@
 
 `ng add {{package}} --verbose`
 
-- Perform a dry run without making any changes:
+- Simulate an addition without making any changes:
 
 `ng add {{package}} {{[-d|--dry-run]}}`

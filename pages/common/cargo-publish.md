@@ -4,11 +4,11 @@
 > Note: You have to add an authentication token using `cargo login` before publishing a package.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-publish.html>.
 
-- Perform checks, create a `.crate` file and upload it to the registry:
+- Perform checks, create a `.crate` file, and upload it to the registry:
 
 `cargo publish`
 
-- Perform checks, create a `.crate` file but don't upload it (equivalent of `cargo package`):
+- Simulate publishing, performing checks, and creating a `.crate` file without uploading it (equivalent of `cargo package`):
 
 `cargo publish {{[-n|--dry-run]}}`
 

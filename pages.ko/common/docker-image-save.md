@@ -5,7 +5,7 @@
 
 - 이미지를 `stdout`를 통해 `.tar` 아카이브로 저장:
 
-`docker {{[save|image save]}} {{이미지}}:{{태그}} > {{경로/대상/파일.tar}}`
+`docker {{[save|image save]}} {{이미지}}:{{태그}} >{{경로/대상/파일.tar}}`
 
 - 이미지를 `.tar` 아카이브로 저장:
 

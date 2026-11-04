@@ -12,6 +12,6 @@
 
 `Get-DedupProperties -FileSystemLabel 'Label'`
 
-- Get Data Dedpulication information of the drive using the input object:
+- Get Data Deduplication information of the drive using the input object:
 
 `Get-DedupProperties -InputObject $(Get-Volume -DriveLetter 'E')`

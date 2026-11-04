@@ -23,6 +23,6 @@
 
 `aws kendra describe-data-source --id {{data_source_id}}`
 
-- List search queries:
+- Get query suggestions:
 
-`aws kendra list-query-suggestions --index-id {{index_id}} --query-text {{query_text}}`
+`aws kendra get-query-suggestions --index-id {{index_id}} --query-text {{query_text}}`

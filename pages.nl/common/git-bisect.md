@@ -20,11 +20,11 @@
 
 `git bisect skip`
 
-- Staat een bisect-sessie en houd hierbij alleen rekening met commits die een bepaald bestand aanpassen:
+- Start een bisect-sessie en houd hierbij alleen rekening met commits die een bepaald bestand of een bepaalde map aanpassen:
 
 `git bisect start {{foutieve_commit}} {{schone_commit}} -- {{pad/naar/bestand_of_map}}`
 
-- Automatiseer het bisect-proces met behulp van een testscript dat met 0 afsluit voor "good" en niet-nul voor "bad":
+- Automatiseer het bisect-proces met behulp van een testscript dat afsluit via `exit` met 0 voor "good" en met een niet-nul exitcode voor "bad":
 
 `git bisect run {{pad/naar/testscript}} {{optionele_script_argumenten}}`
 

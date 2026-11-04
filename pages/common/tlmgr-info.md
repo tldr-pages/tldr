@@ -3,7 +3,7 @@
 > Show information about TeX Live packages.
 > More information: <https://www.tug.org/texlive/doc/tlmgr.html#info>.
 
-- List all available TeX Live packages, prefexing installed ones with `i`:
+- List all available TeX Live packages, prefixing installed ones with `i`:
 
 `tlmgr info`
 

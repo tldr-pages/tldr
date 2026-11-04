@@ -10,11 +10,11 @@
 
 - Save an image to `stdout`:
 
-`podman save {{image:tag}} > {{path/to/file.tar}}`
+`podman save {{image:tag}} >{{path/to/file.tar}}`
 
 - Save an image with compression:
 
-`podman save {{image:tag}} | {{[gzip|bzip2|xz|zstd|zstdchunked]}} > {{path/to/file.tar[.gz|.bz2|.xz|.zst|.zst]}}`
+`podman save {{image:tag}} | {{gzip|bzip2|xz|zstd|zstdchunked}} >{{path/to/file.tar.ext}}`
 
 - Transfer an image to remote system with on-the-fly compression and progress bar:
 

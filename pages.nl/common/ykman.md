@@ -8,7 +8,7 @@
 
 `ykman info`
 
-- Toon alle verbonden YubiKeys met een korte, een-regel beschrijving (inclusief het serienummer):
+- Toon alle verbonden YubiKeys met korte, eenregelige beschrijvingen (inclusief het serienummer):
 
 `ykman list`
 
@@ -16,14 +16,14 @@
 
 `tldr ykman config`
 
-- Bekijk de documentatie voor het beheren van de FIDO applicaties:
+- Bekijk de documentatie voor het beheren van de FIDO-applicaties:
 
 `tldr ykman fido`
 
-- Bekijk de documentatie voor het beheren van de OATH applicatie:
+- Bekijk de documentatie voor het beheren van de OATH-applicatie:
 
 `tldr ykman oath`
 
-- Bekijk de documentatie voor het beheren van de OpenPGP applicatie:
+- Bekijk de documentatie voor het beheren van de OpenPGP-applicatie:
 
 `tldr ykman openpgp`

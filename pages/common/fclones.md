@@ -11,17 +11,17 @@
 
 `fclones group --cache {{path/to/directory1 path/to/directory2 ...}}`
 
-- Search only the specified directory for duplicate files, skipping subdirectories and save the results into a file:
+- Search only the specified directory for duplicate files, skipping subdirectories, and save the results into a file:
 
-`fclones group {{path/to/directory}} --depth 1 > {{path/to/file.txt}}`
+`fclones group {{path/to/directory}} --depth 1 >{{path/to/file.txt}}`
 
 - Move the duplicate files in a TXT file to a different directory:
 
-`fclones < {{path/to/file.txt}} move {{path/to/target_directory}}`
+`fclones <{{path/to/file.txt}} move {{path/to/target_directory}}`
 
-- Perform a dry run for soft links in a TXT file without actually linking:
+- Simulate soft links in a TXT file without actually linking:
 
-`fclones < {{path/to/file.txt}} link --soft --dry-run 2 > /dev/null`
+`fclones <{{path/to/file.txt}} link --soft --dry-run 2 >/dev/null`
 
 - Delete the newest duplicates from the current directory without storing them in a file:
 

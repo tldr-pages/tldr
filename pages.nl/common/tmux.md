@@ -2,7 +2,7 @@
 
 > Terminal multiplexer.
 > Het maakt meerdere sessies met vensters, panes en meer mogelijk.
-> Zie ook: `zellij`, `screen`.
+> Zie ook: `zellij`, `screen`, `herdr`.
 > Meer informatie: <https://github.com/tmux/tmux>.
 
 - Start een nieuwe sessie:
@@ -17,19 +17,19 @@
 
 `tmux {{[ls|list-sessions]}}`
 
-- Koppel aan de meest recent gebruikte sessie:
+- Koppel aan een benoemde sessie (het [t]arget kan worden weggelaten om aan de meest recent gebruikte sessie te koppelen):
 
-`tmux {{[a|attach]}}`
+`tmux {{[a|attach]}} -t {{naam}}`
 
-- Koppel los van de huidige sessie (binnen een tmux sessie):
+- Koppel los van de huidige sessie (binnen een tmux-sessie):
 
 `<Ctrl b><d>`
 
-- Creëer een nieuwe venster (binnen een tmux sessie):
+- Creëer een nieuw venster (binnen een tmux-sessie):
 
 `<Ctrl b><c>`
 
-- Wissel tussen sessies en vensters (binnen een tmux sessie):
+- Wissel tussen sessies en vensters (binnen een tmux-sessie):
 
 `<Ctrl b><w>`
 

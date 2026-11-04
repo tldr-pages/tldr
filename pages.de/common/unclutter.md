@@ -5,4 +5,4 @@
 
 - Verstecke den Mauszeiger nach 3 Sekunden:
 
-`unclutter -idle {{3}}`
+`unclutter -idle 3`

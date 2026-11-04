@@ -15,6 +15,6 @@
 
 `networksetup -getairportnetwork {{en0}}`
 
-- 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：
+- 连接到给定的 Wi-Fi 网络：
 
 `networksetup -setairportnetwork {{en0}} {{ssid}} {{密码}}`

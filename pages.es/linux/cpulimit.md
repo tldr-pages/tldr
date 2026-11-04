@@ -5,7 +5,7 @@
 
 - Limita un proceso existente con PID 1234 para que solo use el 25% del CPU:
 
-`cpulimit {{[-p|--pid]}} {{1234}} {{[-l|--limit]}} {{25%}}`
+`cpulimit {{[-p|--pid]}} 1234 {{[-l|--limit]}} 25%`
 
 - Limita un programa existente por su nombre de ejecución:
 
@@ -13,11 +13,11 @@
 
 - Ejecuta un programa determinado y limita su uso a solo el 50% del CPU:
 
-`cpulimit {{[-l|--limit]}} {{50}} -- {{programa argumento1 argumento2 ...}}`
+`cpulimit {{[-l|--limit]}} 50 -- {{programa argumento1 argumento2 ...}}`
 
 - Ejecuta un programa, limita el uso del CPU a 50% y corre cpulimit en segundo plano:
 
-`cpulimit {{[-l|--limit]}} {{50}} {{[-b|--background]}} -- {{programa}}`
+`cpulimit {{[-l|--limit]}} 50 {{[-b|--background]}} -- {{programa}}`
 
 - Elimina su proceso si el uso del CPU del programa supera el 50%:
 
@@ -25,4 +25,4 @@
 
 - Regula su proceso y sus subprocesos para que ninguno supere el 25% del CPU:
 
-`cpulimit {{[-l|--limit]}} {{25}} {{[-m|--monitor-forks]}} -- {{programa}}`
+`cpulimit {{[-l|--limit]}} 25 {{[-m|--monitor-forks]}} -- {{programa}}`

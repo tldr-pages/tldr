@@ -12,7 +12,7 @@
 
 `pulumi plugin {{[-p|--project]}} {{[-j|--json]}}`
 
-- Install a plugin kind (e.g resource) with the latest version or a specific one:
+- Install a plugin kind (e.g. resource) with the latest version or a specific one:
 
 `pulumi plugin install {{kind}} {{name}} {{version}}`
 

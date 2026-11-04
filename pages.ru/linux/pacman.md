@@ -1,8 +1,8 @@
 # pacman
 
 > Утилита для управления пакетами в Arch Linux.
-> Смотрите также: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Для эквивалентных команд в других менеджерах пакетов смотрите <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Смотрите также: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Больше информации: <https://manned.org/pacman.8>.
 
 - [S]инхронизировать и обновить все пакеты:

@@ -3,34 +3,34 @@
 > Una herramienta para apagar, reiniciar o cerrar sesión en una máquina.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
-- Apagar la máquina actual:
+- Apaga la máquina actual:
 
 `shutdown /s`
 
-- Apagar la máquina actual forzando el cierre de todas las aplicaciones:
+- Apaga la máquina actual forzando el cierre de todas las aplicaciones:
 
 `shutdown /s /f`
 
-- Reiniciar la máquina actual inmediatamente:
+- Reinicia la máquina actual inmediatamente:
 
 `shutdown /r /t 0`
 
-- Hibernar la máquina actual:
+- Hiberna la máquina actual:
 
 `shutdown /h`
 
-- Cerrar sesión en la máquina actual:
+- Cierra sesión en la máquina actual:
 
 `shutdown /l`
 
-- Especificar un tiempo de espera en segundos antes de apagar:
+- Especifica un tiempo de espera en segundos antes de apagar:
 
 `shutdown /s /t {{8}}`
 
-- Abortan una secuencia de apagado cuyo tiempo de espera aún no ha expirado:
+- Aborta una secuencia de apagado cuyo tiempo de espera aún no ha expirado:
 
 `shutdown /a`
 
-- Apagar una máquina remota:
+- Apaga una máquina remota:
 
 `shutdown /m {{\\hostname}}`

@@ -3,7 +3,7 @@
 > Copy, synchronize, or move files and directories to and from many cloud services.
 > More information: <https://rclone.org/commands/rclone/>.
 
-- Launch an interactive menu to setup rclone:
+- Launch an interactive menu to set up rclone:
 
 `rclone config`
 
@@ -23,7 +23,7 @@
 
 `rclone sync {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Delete a remote file or directory (Note: `--dry-run` means test, remove it from the command to actually delete):
+- Simulate deleting a remote file or directory (remove `--dry-run` from the command to actually delete):
 
 `rclone {{[-n|--dry-run]}} delete {{remote_name}}:{{path/to/file_or_directory}}`
 

@@ -3,7 +3,7 @@
 > Ajoute des dépendences au manifeste `Cargo.toml` d'un projet Rust.
 > Plus d'informations : <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
 
-- Ajoute la dernière version d'une dépendance au projet courant :
+- Ajoute la dernière version d'une dépendance au projet actuel :
 
 `cargo add {{dépendance}}`
 

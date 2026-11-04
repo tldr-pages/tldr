@@ -12,10 +12,10 @@
 
 `hledger {{[is|incomestatement]}} {{[-M|--monthly]}}`
 
-- Show monthly revenues/expenses/totals, largest first, summarised to 2 levels:
+- Show monthly revenues/expenses/totals, largest first, summarized to 2 levels:
 
 `hledger {{[is|incomestatement]}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} {{[-2|--depth 2]}}`
 
-- Same as above, and generate HTML output in `is.html`:
+- Show monthly revenues/expenses/totals summarized to 2 levels, and generate HTML output in `is.html`:
 
 `hledger {{[is|incomestatement]}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} {{[-2|--depth 2]}} {{[-o|--output-file]}} is.html`

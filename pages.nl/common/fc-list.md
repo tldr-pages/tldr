@@ -15,7 +15,7 @@
 
 `fc-list | wc {{[-l|--lines]}}`
 
-- Toon geïnstalleerde lettertypen die een taal ondersteunen op basis van de landcode:
+- Toon geïnstalleerde lettertypen die een taal ondersteunen op basis van de localecode:
 
 `fc-list :lang={{jp}}`
 

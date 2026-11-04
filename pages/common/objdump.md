@@ -27,6 +27,6 @@
 
 `objdump {{[-t|--syms]}} {{path/to/binary}}`
 
-- Display a complete binary hex dump of all sections:
+- Display a complete binary hex dump of all [s]ections:
 
 `objdump {{[-s|--full-contents]}} {{path/to/binary}}`

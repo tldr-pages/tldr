@@ -11,11 +11,11 @@
 
 `whence -v "{{command}}"`
 
-- Same as above, except display content of shell functions instead of location (equivalent to `which` builtin):
+- Display type of `command`, with content of shell functions instead of location (equivalent to `which` builtin):
 
 `whence -c "{{command}}"`
 
-- Same as above, but show all occurrences on command path (equivalent to the `where` builtin):
+- Display type of `command`, with content of shell functions and all occurrences on command path (equivalent to the `where` builtin):
 
 `whence -ca "{{command}}"`
 

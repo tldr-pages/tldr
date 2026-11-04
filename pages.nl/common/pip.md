@@ -22,13 +22,13 @@
 
 - Sla geïnstalleerde pakketten op in een bestand:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Toon geïnstalleerde pakketten:
 
 `pip list`
 
-- Toon informatie over geïnstalleerde pakketten:
+- Toon informatie over een geïnstalleerd pakket:
 
 `pip show {{pakket}}`
 

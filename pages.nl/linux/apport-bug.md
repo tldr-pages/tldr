@@ -1,7 +1,7 @@
 # apport-bug
 
 > Dien een bugrapport in over Ubuntu.
-> Meer informatie: <https://wiki.ubuntu.com/Apport>.
+> Meer informatie: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - Meld een bug over het hele systeem:
 
@@ -13,8 +13,8 @@
 
 - Meld een bug over een specifiek uitvoerbaar bestand:
 
-`apport-bug {{pad/naar/executable}}`
+`apport-bug {{pad/naar/uitvoerbaar_bestand}}`
 
 - Meld een bug over een specifiek proces:
 
-`apport-bug {{pid}}`
+`apport-bug {{proces_id}}`

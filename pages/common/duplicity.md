@@ -5,17 +5,17 @@
 > Note: Depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
 > More information: <https://duplicity.gitlab.io/stable/duplicity.1.html#name>.
 
-- Backup a directory via FTPS to a remote machine, encrypting it with a password:
+- Back up a directory via FTPS to a remote machine, encrypting it with a password:
 
 `FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source_directory}} {{ftps://user@hostname/path/to/target_directory}}/`
 
-- Backup a directory to Amazon S3, doing a full backup every month:
+- Back up a directory to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than {{1M}} s3://{{bucket_name[/prefix]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{bucket_name/prefix}}`
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
-`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_directory}}`
+`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav://user@hostname:port/some_directory}}`
 
 - List the available backups:
 

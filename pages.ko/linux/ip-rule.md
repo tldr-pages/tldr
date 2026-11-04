@@ -1,6 +1,7 @@
 # ip rule
 
 > IP 라우팅 정책 데이터베이스 관리.
+> 관련 항목: `ip route`.
 > 더 많은 정보: <https://manned.org/ip-rule>.
 
 - 라우팅 정책 표시:
@@ -29,8 +30,8 @@
 
 - 모든 규칙을 파일에 저장:
 
-`ip {{[ru|rule]}} {{[s|save]}} > {{경로/대상/ip_규칙들.dat}}`
+`ip {{[ru|rule]}} {{[s|save]}} >{{경로/대상/ip_규칙들.dat}}`
 
 - 파일에서 모든 규칙 복원:
 
-`sudo ip {{[ru|rule]}} {{[r|restore]}} < {{경로/대상/ip_규칙들.dat}}`
+`sudo ip {{[ru|rule]}} {{[r|restore]}} <{{경로/대상/ip_규칙들.dat}}`

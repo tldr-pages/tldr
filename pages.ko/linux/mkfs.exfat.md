@@ -5,12 +5,12 @@
 
 - 장치 b의 파티션 1 (`sdb1`) 에 exfat 파일 시스템 생성:
 
-`mkfs.exfat {{/dev/sdb1}}`
+`sudo mkfs.exfat {{/dev/sdb1}}`
 
 - 볼륨 이름을 지정하여 파일 시스템 생성:
 
-`mkfs.exfat -n {{볼륨_이름}} {{/dev/sdb1}}`
+`sudo mkfs.exfat {{[-L|--volume-label]}} {{볼륨_이름}} {{/dev/sdXY}}`
 
 - 볼륨 ID를 지정하여 파일 시스템 생성:
 
-`mkfs.exfat -i {{볼륨_id}} {{/dev/sdb1}}`
+`sudo mkfs.exfat {{[-U|--volume-guid]}} {{볼륨_id}} {{/dev/sdXY}}`

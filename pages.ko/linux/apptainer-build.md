@@ -15,7 +15,7 @@
 
 `apptainer build {{경로/대상/이미지.sif}} library://{{user/collection/container}}:{{태그}}`
 
-- Build a writable sandbox directory instead of an image file:
+- 이미지 파일 대신 쓰기 가능한 샌드박스 디렉터리 생성:
 
 `apptainer build {{[-s|--sandbox]}} {{경로/대상/디렉토리}} docker://{{이미지}}:{{태그}}`
 

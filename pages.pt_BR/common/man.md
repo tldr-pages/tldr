@@ -10,11 +10,11 @@
 
 - Abre uma página de manua para um comando em um navegadore de internet (a variável de ambiente `$BROWSER` pode subistituir `=nome_do_navegador`):
 
-`man {{[-Hnome_do_navegador|--html=nome_do_navegador]}} {{command}}`
+`man {{[-H|--html=]}}{{nome_do_navegador}} {{command}}`
 
 - Exibe a página de manual de um comando da seção 7:
 
-`man {{7}} {{comando}}`
+`man 7 {{comando}}`
 
 - Lista todas as seções disponíveis para um comando:
 

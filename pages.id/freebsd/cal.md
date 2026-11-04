@@ -1,7 +1,7 @@
 # cal
 
 > Tampilkan kalender dengan menyorot tanggal saat ini.
-> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?query=cal>.
 
 - Tampilkan kalender untuk bulan saat ini:
 

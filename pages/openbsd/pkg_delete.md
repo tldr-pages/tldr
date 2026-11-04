@@ -12,6 +12,6 @@
 
 `pkg_delete -a {{package}}`
 
-- Dry-run deletion of a package:
+- Simulate deleting a package:
 
 `pkg_delete -n {{package}}`

@@ -31,6 +31,6 @@
 
 `tmt run {{[-a|--all]}} execute {{[-h|--how]}} {{tmt}} --interactive`
 
-- Use dry mode to see what actions would happen and use the highest verbosity:
+- Simulate a run to see what actions would happen with the highest verbosity:
 
 `tmt run {{[-n|--dry]}} {{[-vvv|--verbose --verbose --verbose]}}`

@@ -30,4 +30,4 @@
 
 - 5초 후 활성 창의 스크린샷 캡처:
 
-`i3-scrot --window {{5}}`
+`i3-scrot --window 5`

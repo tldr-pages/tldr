@@ -1,7 +1,7 @@
 # rename
 
 > Rename a file or group of files with a `regex`.
-> WARNING: This command will overwrite files without prompting unless the dry-run option is used.
+> WARNING: This command will overwrite files without prompting unless the `-n` option is used.
 > Note: This page refers to the Perl version, also known as `file-rename`.
 > More information: <https://manned.org/prename>.
 
@@ -9,7 +9,7 @@
 
 `rename 's/{{from}}/{{to}}/' {{*.txt}}`
 
-- Dry-run - display which changes would occur without performing them:
+- Simulate running the program without doing anything:
 
 `rename -n 's/{{from}}/{{to}}/' {{*.txt}}`
 

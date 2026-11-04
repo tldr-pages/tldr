@@ -9,9 +9,9 @@
 
 `awk '{print $5}' {{path/to/file}}`
 
-- Print the second column of the lines containing "foo" in a space-separated file:
+- Print the second column of the lines containing "string1" in a space-separated file:
 
-`awk '/{{foo}}/ {print $2}' {{path/to/file}}`
+`awk '/{{string1}}/ {print $2}' {{path/to/file}}`
 
 - Print the last column of each line in a file, using a comma (instead of space) as a field separator:
 
@@ -27,7 +27,7 @@
 
 - Print different values based on conditions:
 
-`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{path/to/file}}`
+`awk '{if ($1 == "string1") print "Exact match string1"; else if ($1 ~ "string2") print "Partial match string2"; else print "string3"}' {{path/to/file}}`
 
 - Print all the lines which the 10th column value is between a min and a max:
 

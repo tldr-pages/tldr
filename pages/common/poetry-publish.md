@@ -19,7 +19,7 @@
 
 `poetry publish {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
 
-- Perform a dry run to see what would be done without actually publishing:
+- Simulate publishing the current package without actually publishing it:
 
 `poetry publish --dry-run`
 

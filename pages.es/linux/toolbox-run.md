@@ -6,12 +6,12 @@
 
 - Ejecuta un comando dentro de un contenedor específico Toolbx:
 
-`toolbox run --container {{nombre_del_contenedor}} {{comando}}`
+`toolbox run {{[-c|--container]}} {{nombre_del_contenedor}} {{comando}}`
 
 - Ejecuta un comando dentro de un contenedor Toolbx para una liberación específica de una distribución:
 
-`toolbox run --distro {{distribución}} --release {{lanzamiento}} {{comando}}`
+`toolbox run {{[-d|--distro]}} {{distribución}} {{[-r|--release]}} {{lanzamiento}} {{comando}}`
 
 - Ejecuta `emacs` dentro de un contenedor Toolbx utilizando la imagen predeterminada de Fedora 39:
 
-`toolbox run --distro {{fedora}} --release {{f39}} {{emacs}}`
+`toolbox run {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} f{{39}} {{emacs}}`

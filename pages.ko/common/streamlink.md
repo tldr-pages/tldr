@@ -21,7 +21,7 @@
 
 - 스트림 시작 부분에서 특정 시간을 건너뜀. 라이브 스트림의 경우 스트림 끝에서부터 음수 오프셋(되감기):
 
-`streamlink --hls-start-offset {{[HH:]MM:SS}} {{example.com/stream}} {{best}}`
+`streamlink --hls-start-offset {{HH:MM:SS}} {{example.com/stream}} {{best}}`
 
 - 라이브 스트림의 시작 부분으로 건너뛰거나 가능한 한 뒤로 이동:
 

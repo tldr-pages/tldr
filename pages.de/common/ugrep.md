@@ -27,7 +27,7 @@
 
 `ugrep {{[-z|--decompress]}} "{{suchmuster}}"`
 
-- Suche nur in Dateien deren Dateinamen mit einem bestimmten glob-Muster übereinstimmen:
+- Suche nur in Dateien deren Dateinamen mit einem bestimmten `glob`-Muster übereinstimmen:
 
 `ugrep {{[-g |--glob=]}}"{{glob_muster}}" "{{suchmuster}}"`
 

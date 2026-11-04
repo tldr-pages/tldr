@@ -13,16 +13,16 @@
 
 - `.jar` プログラムを実行する:
 
-`java -jar {{filename.jar}}`
+`java -jar {{filename}}.jar`
 
 - `.jar` プログラムを、デバッグ待ちポート 5005 で実行する:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
-
-- JDK、JRE、HotSpot のバージョンを表示する:
-
-`java -version`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename}}.jar`
 
 - ヘルプを表示する:
 
 `java -help`
+
+- JDK、JRE、HotSpot のバージョンを表示する:
+
+`java -version`

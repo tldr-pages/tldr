@@ -7,7 +7,7 @@
 
 `meshlabserver -i {{input.stl}} -o {{output.obj}}`
 
-- Convert a WRL file to a OFF file, including the vertex and face normals in the output mesh:
+- Convert a WRL file to an OFF file, including the vertex and face normals in the output mesh:
 
 `meshlabserver -i {{input.wrl}} -o {{output.off}} -om vn fn`
 

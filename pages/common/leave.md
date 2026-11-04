@@ -2,7 +2,7 @@
 
 > Set a reminder for when it's time to leave.
 > To remove reminders use `kill $(pidof leave)`.
-> More information: <https://man.freebsd.org/cgi/man.cgi?leave>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?query=leave>.
 
 - Set a reminder at a given time:
 

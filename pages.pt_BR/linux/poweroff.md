@@ -1,6 +1,7 @@
 # poweroff
 
 > Desliga o sistema.
+> Veja também: `shutdown`.
 > Mais informações: <https://manned.org/poweroff>.
 
 - Desliga o sistema:

@@ -9,7 +9,7 @@
 
 - 删除变量 foo 和 bar：
 
-`unset -v {{foo}} {{bar}}`
+`unset -v {{foo bar ...}}`
 
 - 删除函数 my_func：
 

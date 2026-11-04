@@ -26,4 +26,4 @@
 
 - [D]eteksi adanya alamat IP duplikat dalam jaringan ini dengan mengirimkan permintaan ARP dengan jangka waktu habis (timeout) sebanyak 3 detik:
 
-`sudo arping -D -w {{3}} {{alamat_ip_untuk_diperiksa}}`
+`sudo arping -D -w 3 {{alamat_ip_untuk_diperiksa}}`

@@ -29,4 +29,4 @@
 
 - Belirtilen konumdaki tüm dosyaları sil:
 
-`trash-rm {{/detaylı/örnek/konum/dosya_veya_dizin}}`
+`trash-rm /{{detaylı/örnek/konum/dosya_veya_dizin}}`

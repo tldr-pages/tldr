@@ -1,6 +1,6 @@
 # xmlstarlet
 
-> A XML/XSLT toolkit.
+> An XML/XSLT toolkit.
 > Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 > More information: <https://xmlstar.sourceforge.net/docs.php>.
 
@@ -8,7 +8,7 @@
 
 `xmlstarlet format {{path/to/file.xml}}`
 
-- XML document can also be piped from `stdin`:
+- Format an XML document piped from `stdin`:
 
 `{{cat path/to/file.xml}} | xmlstarlet format`
 

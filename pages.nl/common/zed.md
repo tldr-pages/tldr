@@ -1,6 +1,6 @@
 # zed
 
-> Tekstverwerker ontworpen om snel, efficiënt en handig te zijn.
+> Tekstbewerker ontworpen om snel, efficiënt en handig te zijn.
 > Meer informatie: <https://zed.dev/docs/reference/cli>.
 
 - Open specifieke paden in Zed:
@@ -19,6 +19,6 @@
 
 `zed {{pad/naar/bestand}}:{{regelnummer}}:{{kolomnummer}}`
 
-- Toon een diff in Zed voor twee versies van een bestand:
+- Open een diff-tab in Zed voor twee versies van een bestand:
 
 `zed --diff {{pad/naar/oud_bestand}} {{pad/naar/nieuw_bestand}}`

@@ -7,7 +7,7 @@
 
 `protector {{branches_regex}} -repos {{organization/repository}}`
 
-- Use the dry run to see what would be protected (can also be used for freeing):
+- Simulate what would be protected without actually doing it:
 
 `protector -dry-run {{branches_regex}} -repos {{organization/repository}}`
 

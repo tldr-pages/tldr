@@ -24,6 +24,6 @@
 
 `aws s3 rm s3://{{bucket}}/{{path/to/file}}`
 
-- Preview changes only:
+- Simulate a command without making any changes:
 
 `aws s3 {{any_command}} --dryrun`

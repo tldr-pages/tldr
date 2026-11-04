@@ -9,7 +9,7 @@
 
 - Toon issues toegewezen aan een specifieke gebruiker:
 
-`jira issue {{[ls|list]}} {{[-a|--assignee]}} "{{email_of_gebruikersnaam}}"`
+`jira issue {{[ls|list]}} {{[-a|--assignee]}} "{{email_of_weergavenaam}}"`
 
 - Toon issues met hoge prioriteit die zijn toegewezen aan mij:
 

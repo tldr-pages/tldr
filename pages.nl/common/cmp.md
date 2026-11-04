@@ -11,7 +11,7 @@
 
 `cmp {{[-b|--print-bytes]}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
-- Toon de byte nummers en waardes van ieder verschil:
+- Toon de bytenummers en waardes van ieder verschil:
 
 `cmp {{[-l|--verbose]}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 

@@ -8,7 +8,7 @@
 
 `git grep "{{search_string}}"`
 
-- Search for a string in files matching a glob pattern in the current `HEAD`:
+- Search for a string in files matching a `glob` pattern in the current `HEAD`:
 
 `git grep "{{search_string}}" -- "{{*.ext}}"`
 

@@ -21,7 +21,7 @@
 
 - Focus Tofu's attention on only a subset of resources:
 
-`tofu plan -target {{resource_type.resource_name[instance index]}}`
+`tofu plan -target {{resource_type.resource_name}}`
 
 - Output a plan as JSON:
 
@@ -29,4 +29,4 @@
 
 - Write a plan to a specific file:
 
-`tofu plan -no-color > {{path/to/file}}`
+`tofu plan -no-color >{{path/to/file}}`

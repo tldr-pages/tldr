@@ -9,7 +9,7 @@
 
 - Mostra un nom [m]asculí o [f]emení aleatori i una direcció:
 
-`rig -{{m|f}}`
+`rig {{-m|-f}}`
 
 - Fa servir arxius de dades d'un directori específic (per defecte és `/usr/share/rig`):
 

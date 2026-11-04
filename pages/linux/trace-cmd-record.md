@@ -26,4 +26,4 @@
 
 - Record a trace from a specific process ID:
 
-`sudo trace-cmd record -P {{pid}}`
+`sudo trace-cmd record -P {{process_id}}`

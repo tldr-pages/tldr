@@ -1,6 +1,6 @@
 # clamdscan
 
-> Een command-line virus scanner die gebruik maakt van de ClamAV Daemon.
+> Een command-line virusscanner die gebruikmaakt van de ClamAV Daemon.
 > Meer informatie: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
 
 - Scan een bestand of map op kwetsbaarheden:
@@ -15,7 +15,7 @@
 
 `clamdscan --infected`
 
-- Sla het scan rapport op in een log bestand:
+- Sla het scanrapport op in een logbestand:
 
 `clamdscan --log {{pad/naar/log_bestand}}`
 

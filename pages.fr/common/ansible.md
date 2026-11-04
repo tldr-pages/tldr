@@ -4,7 +4,7 @@
 > Certaines commandes comme `ansible galaxy` ont leur propre documentation.
 > Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible.html>.
 
-- Lister les hôtes appartenant à un groupe :
+- Liste les hôtes appartenant à un groupe :
 
 `ansible {{groupe}} --list-hosts`
 
@@ -12,22 +12,22 @@
 
 `ansible {{groupe}} {{[-m|--module-name]}} ping`
 
-- Afficher des informations sur un groupe d'hôtes en invoquant le [m]odule "setup" :
+- Affiche des informations sur un groupe d'hôtes en invoquant le [m]odule "setup" :
 
 `ansible {{groupe}} {{[-m|--module-name]}} setup`
 
-- Exécuter une commande sur un groupe d'hôtes en invoquant le [m]odule "command" avec en paramètre (a) cette commande :
+- Exécute une commande sur un groupe d'hôtes en invoquant le [m]odule "command" avec en paramètre (a) cette commande :
 
 `ansible {{groupe}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
-- Exécuter une commande avec des droits administrateur :
+- Exécute une commande avec des droits administrateur :
 
 `ansible {{groupe}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
-- Exécuter une commande en utilisant un fichier d'inventaire personnalisé :
+- Exécute une commande en utilisant un fichier d'inventaire personnalisé :
 
 `ansible {{groupe}} {{[-i|--inventory]}} {{fichier_d'inventaire}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
-- Lister les groupes d'un inventaire :
+- Liste les groupes d'un inventaire :
 
 `ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`

@@ -13,11 +13,11 @@
 
 - Affiche pendant combien de temps un utilisateur particulier a été connecté, en heures :
 
-`ac {{[-p|--individual-totals]}} {{nom_d_utilisateur}}`
+`ac {{[-p|--individual-totals]}} {{nom_utilisateur}}`
 
 - Affiche pendant combien de temps un utilisateur particulier a été connecté, en heures par jour (avec le total) :
 
-`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{nom_d_utilisateur}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{nom_utilisateur}}`
 
 - Affiche des détails supplémentaires :
 

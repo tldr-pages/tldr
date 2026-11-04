@@ -16,14 +16,14 @@
 
 `Invoke-WebRequest -Method Post -Body @{ name='bob' } {{http://example.com/form}}`
 
-- Stuur een request met een extra header, door gebruik te maken van een aangepast HTTP methode:
+- Stuur een request met een extra header, door gebruik te maken van een aangepaste HTTP-methode:
 
 `Invoke-WebRequest -Headers {{@{ X-My-Header = '123' }}} -Method {{PUT}} {{http://example.com}}`
 
-- Stuur gegevens in JSON formaat en specificieer de juiste content-type header:
+- Stuur gegevens in JSON formaat en specificeer de juiste content-type header:
 
 `Invoke-WebRequest -Body '{{{"name":"bob"}}}' -ContentType 'application/json' {{http://example.com/users/1234}}`
 
-- Stuur een gebruikersnaam en wachtwoord voor een server authenticatie:
+- Stuur een gebruikersnaam en wachtwoord voor serverauthenticatie:
 
 `Invoke-WebRequest -Headers @{ Authorization = "Basic "+ [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("myusername:mypassword")) } {{http://example.com}}`

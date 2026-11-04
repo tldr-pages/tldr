@@ -9,12 +9,12 @@
 
 - Stuur data naar een benoemde pipe en stuur het commando naar de achtergrond:
 
-`echo "{{Hello World}}" > {{pad/naar/pipe}} &`
+`echo "{{Hello World}}" >{{pad/naar/pipe}} &`
 
-- Ontvang data van benoemde pipe:
+- Ontvang data van een benoemde pipe:
 
 `cat {{pad/naar/pipe}}`
 
-- Deel je terminal sessie in real-time:
+- Deel je terminalsessie in real-time:
 
 `mkfifo {{pad/naar/pipe}}; script {{[-f|--flush]}} {{pad/naar/pipe}}`

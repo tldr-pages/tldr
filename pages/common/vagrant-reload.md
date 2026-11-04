@@ -2,7 +2,6 @@
 
 > Equivalent of running `halt` followed by `up`.
 > A reload is usually required for changes in a Vagrantfile to take effect.
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/reload>.
 
 - Reload the currently running machine:

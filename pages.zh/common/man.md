@@ -10,11 +10,11 @@
 
 - 在浏览器中打开一条命令的使用手册分页 (`$BROWSER` 环境变量可以替换 `=browser_name`)：
 
-`man {{[-Hbrowser_name|--html=browser_name]}} {{command}}`
+`man {{[-H|--html=]}}{{browser_name}} {{command}}`
 
 - 从第七章节展示一条命令的使用手册分页：
 
-`man {{7}} {{command}}`
+`man 7 {{command}}`
 
 - 列表展示一条命令的所有可用章节：
 

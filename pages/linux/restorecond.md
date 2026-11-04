@@ -2,7 +2,7 @@
 
 > Daemon that monitors file creation and automatically restores SELinux contexts.
 > Useful for directories where files are frequently created with incorrect contexts.
-> See also: `restorecon`, `semanage-fcontext`.
+> See also: `restorecon`, `semanage fcontext`.
 > More information: <https://manned.org/restorecond>.
 
 - Start the `restorecond` daemon:

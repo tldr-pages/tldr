@@ -5,7 +5,7 @@
 
 - Encrypt a file:
 
-`sops -e {{path/to/file.json}} > {{path/to/file.enc.json}}`
+`sops -e {{path/to/file.json}} >{{path/to/file.enc.json}}`
 
 - Decrypt a file to `stdout`:
 

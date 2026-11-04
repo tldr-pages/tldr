@@ -23,11 +23,11 @@
 
 `tree -s -h --du`
 
-- Visa filer i trädstrukturen som matchar ett jokerteckenmönster (glob), och uteslut kataloger som inte innehåller några matchande filer:
+- Visa filer i trädstrukturen som matchar ett jokerteckenmönster (`glob`), och uteslut kataloger som inte innehåller några matchande filer:
 
 `tree -P '{{*.txt}}' --prune`
 
-- Visa kataloger i trädstrukturen som matchar ett jokerteckenmönster (glob), och uteslut kataloger som inte ligger i sökvägen till den önskade katalogen:
+- Visa kataloger i trädstrukturen som matchar ett jokerteckenmönster (`glob`), och uteslut kataloger som inte ligger i sökvägen till den önskade katalogen:
 
 `tree -P {{katalog_namn}} --matchdirs --prune`
 

@@ -3,13 +3,13 @@
 > Muestra información actualizada sobre la red.
 > Más información: <https://keith.github.io/xcode-man-pages/nettop.1.html>.
 
-- Monitoriza los sockets TCP y UDP de todas las interfaces:
+- Supervisa sockets TCP y UDP de todas las interfaces:
 
 `nettop`
 
-- Monitoriza sockets TCP desde interfaces Loopback:
+- Supervisa sockets TCP de las interfaces de bucle invertido:
 
-`nettop -m {{tcp}} -t {{loopback}}`
+`nettop -m tcp -t loopback`
 
 - Supervisa un proceso específico:
 
@@ -19,18 +19,18 @@
 
 `nettop -P`
 
-- Imprime 10 muestras de información de red:
+- Muestra 10 muestras de información de red:
 
-`nettop -l {{10}}`
+`nettop -l 10`
 
-- Monitoriza los cambios cada 5 segundos:
+- Supervisa los cambios cada 5 segundos:
 
-`nettop -d -s {{5}}`
+`nettop -d -s 5`
 
-- Mientras se ejecuta nettop, lista los comandos interactivos:
+- Mientras se ejecuta nettop, muestra los comandos interactivos:
 
 `<h>`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `nettop -h`

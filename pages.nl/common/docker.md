@@ -1,10 +1,10 @@
 # docker
 
-> Beheer Docker containers en images.
-> Sommige subcommando's zoals `run` hebben hun eigen documentatie.
+> Beheer Docker-containers en -images.
+> Sommige subcommando's zoals `container`, `image`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/>.
 
-- Toon alle Docker containers (actief en gestopte):
+- Toon alle Docker-containers (actief en gestopt):
 
 `docker {{[ps|container ls]}} {{[-a|--all]}}`
 
@@ -28,10 +28,10 @@
 
 `docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{container_naam}} {{sh}}`
 
-- Verwijder een gestopte container:
+- Verwijder gestopte containers:
 
-`docker {{[rm|container rm]}} {{container_naam}}`
+`docker {{[rm|container rm]}} {{container1 container2 ...}}`
 
-- Vang en volg de logs van een container:
+- Toon de logs van een container en volg deze:
 
 `docker {{[logs|container logs]}} {{[-f|--follow]}} {{container_naam}}`

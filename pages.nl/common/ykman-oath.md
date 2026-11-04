@@ -1,22 +1,22 @@
 # ykman oath
 
-> Beheer de OATH YubiKey applicatie.
+> Beheer de OATH YubiKey-applicatie.
 > Een `keyword` kan onderdeel zijn van de naam of van de indiener.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html>.
 
-- Toon algemene informatie over de OATH applicatie:
+- Toon algemene informatie over de OATH-applicatie:
 
 `ykman oath info`
 
-- Verander het wachtwoord dat de OATH accounts beschermd (voeg `--clear` toe om het te verwijderen):
+- Verander het wachtwoord dat de OATH accounts beschermt (voeg `--clear` toe om het te verwijderen):
 
 `ykman oath access change`
 
-- Voeg een nieuw account toe (`--issuer` is optioneel):
+- Voeg een nieuw account toe (de indiener is optioneel):
 
 `ykman oath accounts add {{[-i|--issuer]}} {{indiener}} {{naam}}`
 
-- Toon alle accounts (met hun indiener):
+- Toon alle accounts (met hun indieners):
 
 `ykman oath accounts list`
 

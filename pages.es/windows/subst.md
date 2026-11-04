@@ -3,14 +3,14 @@
 > Asocia una ruta con una letra de unidad virtual.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/subst>.
 
-- Listar asociaciones activas:
+- Lista asociaciones activas:
 
 `subst`
 
-- Agregar una asociación:
+- Agrega una asociación:
 
 `subst {{Z:}} {{C:\Python2.7}}`
 
-- Eliminar una asociación:
+- Elimina una asociación:
 
 `subst {{Z:}} /d`

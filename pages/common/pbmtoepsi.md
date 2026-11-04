@@ -5,16 +5,16 @@
 
 - Convert a PBM image to an encapsulated PostScript style preview bitmap:
 
-`pbmtoepsi {{path/to/image.pbm}} > {{path/to/output.bmp}}`
+`pbmtoepsi {{path/to/image.pbm}} >{{path/to/output.bmp}}`
 
 - Produce a quadratic output image with the specified resolution:
 
-`pbmtoepsi {{[-d|-dpi]}} {{144}} {{path/to/image.pbm}} > {{path/to/output.bmp}}`
+`pbmtoepsi {{[-d|-dpi]}} {{144}} {{path/to/image.pbm}} >{{path/to/output.bmp}}`
 
 - Produce an output image with the specified horizontal and vertical resolution:
 
-`pbmtoepsi {{[-d|-dpi]}} {{72x144}} {{path/to/image.pbm}} > {{path/to/output.bmp}}`
+`pbmtoepsi {{[-d|-dpi]}} {{72x144}} {{path/to/image.pbm}} >{{path/to/output.bmp}}`
 
 - Only create a boundary box:
 
-`pbmtoepsi {{[-b|-bbonly]}} {{path/to/image.pbm}} > {{path/to/output.bmp}}`
+`pbmtoepsi {{[-b|-bbonly]}} {{path/to/image.pbm}} >{{path/to/output.bmp}}`

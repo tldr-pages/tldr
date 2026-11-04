@@ -30,8 +30,8 @@
 
 - 向接口添加/删除 IP 地址：
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{interface}}`
 
 - 添加默认路由：
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{interface}}`

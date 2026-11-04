@@ -9,7 +9,7 @@
 
 - 배터리 아이콘을 표시하고 업데이트 간격을 20초로 설정:
 
-`cbatticon {{[-u|--update-interval]}} {{20}}`
+`cbatticon {{[-u|--update-interval]}} 20`
 
 - 사용 가능한 아이콘 유형 나열:
 

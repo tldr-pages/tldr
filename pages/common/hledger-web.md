@@ -7,7 +7,7 @@
 
 `hledger-web`
 
-- As above but with a specified file, and allow editing of existing data:
+- Start the web app with a specific file, and allow editing of existing data:
 
 `hledger-web {{[-f|--file]}} {{path/to/file.journal}} --allow edit`
 

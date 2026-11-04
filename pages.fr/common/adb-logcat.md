@@ -7,9 +7,9 @@
 
 `adb logcat`
 
-- Affiche les logs qui correspond à une expression régulière :
+- Affiche les logs qui correspond à une `reg[e]x` :
 
-`adb logcat -e {{expression_régulière}}`
+`adb logcat -e {{regex}}`
 
 - Affiche les logs pour un tag donné, dans un mode spécifique ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent) :
 

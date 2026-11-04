@@ -8,7 +8,7 @@
 
 `tldr wget {{[-p|--platform]}} common`
 
-- Bekijk de documentatie van het PowerShell's `Invoke-WebRequest` commando:
+- Bekijk de documentatie van PowerShell's `Invoke-WebRequest` commando:
 
 `tldr invoke-webrequest`
 

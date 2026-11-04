@@ -2,7 +2,7 @@
 
 > Run a new shell with a different SELinux role.
 > Allows users to switch to a different SELinux security context.
-> See also: `runcon`, `semanage-user`.
+> See also: `runcon`, `semanage user`.
 > More information: <https://manned.org/newrole>.
 
 - Start a new shell with a specific SELinux role:

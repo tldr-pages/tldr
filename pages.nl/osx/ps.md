@@ -17,7 +17,7 @@
 
 - Verkrijg de parent PID van een proces:
 
-`ps -o ppid= -p {{pid}}`
+`ps -o ppid= -p {{proces_id}}`
 
 - Sorteer processen op geheugengebruik:
 

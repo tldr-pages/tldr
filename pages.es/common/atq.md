@@ -9,7 +9,7 @@
 
 - Muestra trabajos de la 'a' [q]ueue (las colas tienen nombres de caracteres individuales):
 
-`atq -q {{a}}`
+`atq -q a`
 
 - Muestra trabajos de todos los usuarios (ejecuta como superusuario):
 

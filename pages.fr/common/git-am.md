@@ -1,17 +1,21 @@
 # git am
 
-> Appliquer des fichiers de "patch" Git. Utile lorsque l'on reçoit des commits par email.
+> Applique des fichiers de "correctif" Git et crée une validation. Utile lorsque l'on reçoit des validations par email.
 > Voir aussi : `git format-patch`.
 > Plus d'informations : <https://git-scm.com/docs/git-am>.
 
-- Appliquer un fichier de patch :
+- Applique et valide un fichier de correctif local :
 
 `git am {{chemin/vers/fichier.patch}}`
 
-- Annuler l'application d'un fichier de patch :
+- Applique et valide un fichier de correctif distant :
+
+`curl {{[-L|--location]}} {{https://example.com/fichier.patch}} | git am`
+
+- Annule l'application d'un fichier de correctif :
 
 `git am --abort`
 
-- Appliquer autant de fichiers de correctif que possible, en enregistrant les morceaux échoués pour rejeter le fichier :
+- Applique autant que possible un fichier de correctif, en enregistrant les morceaux qui échouent dans des fichiers de rejet :
 
 `git am --reject {{chemin/vers/fichier.patch}}`

@@ -6,4 +6,4 @@
 
 - Cerca pacchetti utilizzando un indice di pacchetti personalizzato:
 
-`pip search {{[-i|--index]}} {{esempio.com}} {{query}}`
+`pip search {{[-i|--index]}} {{example.com}} {{query}}`

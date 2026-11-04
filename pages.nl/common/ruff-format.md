@@ -1,7 +1,7 @@
 # ruff format
 
 > Een extreem snelle Python code formatter.
-> Als geen bestanden of mappen zijn gespecificeerd, wordt de huidige map gebruikt.
+> Als geen bestanden of mappen zijn gespecificeerd, wordt standaard de huidige map gebruikt.
 > Meer informatie: <https://docs.astral.sh/ruff/formatter/>.
 
 - Formatteer opgegeven bestanden of mappen in-place:

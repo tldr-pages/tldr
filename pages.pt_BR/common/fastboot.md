@@ -1,6 +1,6 @@
 # fastboot
 
-> Se comunica com dispositivos Android conectados quando iniciados no modo _fastboot_ (o único lugar em que `adb` não funciona).
+> Se comunica com dispositivos Android conectados quando iniciados no modo fastboot (o único lugar em que `adb` não funciona).
 > Mais informações: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Desbloqueia o bootloader:
@@ -19,7 +19,7 @@
 
 `fastboot flash {{arquivo.img}}`
 
-- Flasheia uma imagem de _recovery_ customizada:
+- Flasheia uma imagem de recovery customizada:
 
 `fastboot flash recovery {{arquivo.img}}`
 

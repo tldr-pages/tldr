@@ -9,7 +9,7 @@
 
 - Utilise un répertoire personnalisé si `$TMPDIR` n'est pas défini (la valeur par défaut dépend de la plateforme, mais est habituellement `/tmp`) :
 
-`mktemp -p {{/chemin/vers/reptemp}}`
+`mktemp -p /{{chemin/vers/reptemp}}`
 
 - Utilise un modèle de chemin personnalisé (les `X` sont remplacés par des caractères alphanumériques aléatoires) :
 

@@ -6,7 +6,7 @@
 
 - Set a specific login shell for the current user interactively:
 
-`doas chpass`
+`chpass`
 
 - Set a specific login [s]hell for the current user:
 

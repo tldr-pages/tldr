@@ -17,4 +17,4 @@
 
 - 모든 ArchWiki 페이지의 로컬 복사본을 특정 디렉터리로 다운로드:
 
-`archwiki-rs local-wiki {{/경로/대상/로컬_위키}} --format {{plain-text|markdown|html}}`
+`archwiki-rs local-wiki /{{경로/대상/로컬_위키}} --format {{plain-text|markdown|html}}`

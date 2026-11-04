@@ -15,4 +15,4 @@
 
 - Afișează doar rândurile care se potrivesc cu un `regex`:
 
-`git annotate -L :{{regexp}} {{cale/către/fișier}}`
+`git annotate -L :{{regex}} {{cale/către/fișier}}`

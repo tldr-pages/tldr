@@ -5,28 +5,28 @@
 
 - Search for packages from the AUR:
 
-`aura {{[-As|--aursync --search]}} {{keyword|regex}}`
+`aura -As {{keyword|regex}}`
 
 - Install a package from the AUR:
 
-`aura {{[-A|--aursync]}} {{package}}`
+`aura -A {{package}}`
 
 - Update all AUR packages in a verbose mode and remove all make dependencies:
 
-`aura {{[-Akua|--aursync --diff --sysupgrade --delmakedeps]}}`
+`aura -Akua`
 
 - Install a package from the official repositories:
 
-`aura {{[-S|--sync]}} {{package}}`
+`aura -S {{package}}`
 
 - Synchronize and update all packages from the official repositories:
 
-`aura {{[-Syu|--sync --refresh --sysupgrade]}}`
+`aura -Syu`
 
 - Remove a package and its dependencies:
 
-`aura {{[-Rsu|--remove --recursive --unneeded]}} {{package}}`
+`aura -Rsu {{package}}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
-`aura {{[-Oj|--orphans --abandon]}}`
+`aura -Oj`

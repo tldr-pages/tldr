@@ -8,11 +8,11 @@
 
 `amass {{intel|enum}} {{options}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `amass -help`
 
-- Muestra ayuda sobre un subcomando de Amass:
+- Muestra la ayuda sobre un subcomando de Amass:
 
 `amass {{intel|enum}} -help`
 

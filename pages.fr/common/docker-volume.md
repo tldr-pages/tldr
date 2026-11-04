@@ -1,36 +1,36 @@
 # docker volume
 
-> Gérer les volumes de Docker.
+> Gére les volumes de Docker.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/volume/>.
 
-- Créer un volume :
+- Crée un volume :
 
 `docker volume create {{nom_du_volume}}`
 
-- Créer un volume avec une étiquette spécifique :
+- Crée un volume avec une étiquette spécifique :
 
-`docker volume create --label {{étiuette}} {{nom_du_volume}}`
+`docker volume create --label {{étiquette}} {{nom_du_volume}}`
 
-- Créer un volume `tmpfs` avec une taille de 100 Mo et un uid de 1000 :
+- Crée un volume `tmpfs` avec une taille de 100 Mo et un uid de 1000 :
 
 `docker volume create {{[-o|--opt]}} {{type}}={{tmpfs}} {{[-o|--opt]}} {{device}}={{tmpfs}} {{[-o|--opt]}} {{o}}={{size=100m,uid=1000}} {{nom_du_volume}}`
 
-- Lister tous les volumes :
+- Liste tous les volumes :
 
 `docker volume ls`
 
-- Supprimer un volume :
+- Supprime un volume :
 
 `docker volume rm {{nom_du_volume}}`
 
-- Afficher des informations sur un volume :
+- Affiche des informations sur un volume :
 
 `docker volume inspect {{nom_du_volume}}`
 
-- Supprimer tous les volumes locaux non utilisés :
+- Supprime tous les volumes locaux non utilisés :
 
 `docker volume prune`
 
-- Afficher l'aide pour une sous-commande :
+- Affiche l'aide pour une sous-commande :
 
 `docker volume {{sous_commande}} --help`

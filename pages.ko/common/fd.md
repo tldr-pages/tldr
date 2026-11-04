@@ -22,9 +22,9 @@
 
 - 검색에 무시되거나 숨겨진 파일을 포함:
 
-`fd "{{regex}}" {{[-H|--hidden]}} {{[-I|--no-ignore]}}`
+`fd "{{regex}}" {{[-HI|--hidden --no-ignore]}}`
 
-- 특정 glob 패턴과 일치하는 파일을 제외:
+- 특정 `glob` 패턴과 일치하는 파일을 제외:
 
 `fd "{{regex}}" {{[-E|--exclude]}} {{glob}}`
 

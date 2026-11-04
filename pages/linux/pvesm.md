@@ -11,17 +11,21 @@
 
 `pvesm {{[l|list]}} {{storage_name}}`
 
+- View the path of a stored file:
+
+`pvesm {{[pa|path]}} {{storage_name}}:{{content_type}}/{{file_name}}`
+
 - Add a directory storage:
 
-`pvesm add {{[d|dir]}} {{storage_name}} --path {{path/to/directory}}`
+`pvesm {{[ad|add]}} dir {{storage_name}} --path {{path/to/directory}}`
 
 - Set a storage to contain specific content:
 
-`pvesm set {{storage_name}} --content {{iso,images,backup,vztmpl,...}}`
+`pvesm {{[se|set]}} {{storage_name}} --content {{iso,images,backup,vztmpl,rootdir,snippets,import}}`
 
 - Delete a file from storage:
 
-`pvesm free {{local:iso/archlinux-2025.08.01-x86_64.iso}}`
+`pvesm {{[f|free]}} {{local:iso/archlinux-2025.08.01-x86_64.iso}}`
 
 - Remove a storage:
 

@@ -6,7 +6,7 @@
 
 - Interaktywnie ustaw określoną powłokę logowania dla bieżącego użytkownika:
 
-`doas chpass`
+`chpass`
 
 - Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:
 

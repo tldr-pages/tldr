@@ -8,6 +8,6 @@
 
 `pnmquantall {{n_colors}} {{path/to/input1.pnm path/to/input2.pnm ...}}`
 
-- Save the quantised images to files named the same as the input files, but with the specified extension appended:
+- Save the quantized images to files named the same as the input files, but with the specified extension appended:
 
 `pnmquantall {{[-e|-ext]}} {{extension}} {{n_colors}} {{path/to/input1.pnm path/to/input2.pnm ...}}`

@@ -25,7 +25,7 @@
 
 - Start a terminal with the specified Wayland app id (default: `foot`):
 
-`foot {{[-a|--app-id]}} {{id}}`
+`foot {{[-a|--app-id]}} {{app_id}}`
 
 - Check for errors in the configuration file:
 

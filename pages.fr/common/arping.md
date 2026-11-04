@@ -26,4 +26,4 @@
 
 - Détecte les adresses IP dupliquées dans le réseau en envoyant les requêtes ARP avec une expiration de 3 secondes :
 
-`sudo arping -D -w {{3}} {{ip_à_vérifier}}`
+`sudo arping -D -w 3 {{ip_à_vérifier}}`

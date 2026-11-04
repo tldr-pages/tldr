@@ -9,7 +9,7 @@
 
 - APF 공유 또는 SMB 공유를 백업 대상으로 설정:
 
-`sudo tmutil setdestination "{{프로토콜://사용자[:비밀번호]@호스트/공유}}"`
+`sudo tmutil setdestination "{{프로토콜://사용자:비밀번호@호스트/공유}}"`
 
 - 주어진 대상을 목적지 목록에 추가:
 

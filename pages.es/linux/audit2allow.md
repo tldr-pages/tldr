@@ -9,7 +9,7 @@
 
 `audit2allow {{[-a|--all]}}`
 
-- Mostrar todos los mensajes generados desde el último arranque:
+- Muestra todos los mensajes generados desde el último arranque:
 
 `audit2allow {{[-b|--boot]}}`
 

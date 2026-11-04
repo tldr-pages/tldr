@@ -12,6 +12,6 @@
 
 `systemctl enable {{유닛}} --now`
 
-- Enable a user unit to run on login:
+- 로그인 시 실행되도록 사용자 유닛 활성화:
 
 `systemctl enable {{유닛}} --user`

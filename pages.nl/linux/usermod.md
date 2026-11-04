@@ -10,7 +10,7 @@
 
 - Verander een gebruikers-ID:
 
-`sudo usermod {{[-u|--uid]}} {{id}} {{gebruikersnaam}}`
+`sudo usermod {{[-u|--uid]}} {{gebruiker_id}} {{gebruikersnaam}}`
 
 - Verander een gebruikersshell:
 
@@ -24,7 +24,7 @@
 
 `sudo usermod {{[-rG|--remove --groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
 
-- Verander een gebruikers thuismap:
+- Verander een gebruikersthuismap:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{pad/naar/nieuwe_thuismap}} {{gebruikersnaam}}`
 

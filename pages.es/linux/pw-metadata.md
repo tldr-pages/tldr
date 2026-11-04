@@ -10,7 +10,7 @@
 
 - Muestra metadatos con el identificador 0 en `settings`:
 
-`pw-metadata {{[-n|--name]}} {{settings}} {{0}}`
+`pw-metadata {{[-n|--name]}} settings 0`
 
 - Lista todos los objetos de metadatos disponibles:
 
@@ -26,8 +26,8 @@
 
 - Ajusta `log.level` a 1 en `settings`:
 
-`pw-metadata {{[-n|--name]}} {{settings}} {{0}} {{log.level}} {{1}}`
+`pw-metadata {{[-n|--name]}} settings {{0}} log.level 1`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `pw-metadata {{[-h|--help]}}`

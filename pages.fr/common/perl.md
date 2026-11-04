@@ -30,8 +30,8 @@
 
 - Lancer une expression de recherche et remplacement sur un fichier, en sauvegardant le résultat dans un autre fichier :
 
-`perl -p0e 's/{{recherche}}/{{remplacement}}/g' {{fichier_entrée}} > {{fichier_sortie}}`
+`perl -p0e 's/{{recherche}}/{{remplacement}}/g' {{fichier_entrée}} >{{fichier_sortie}}`
 
-- Lancer une expression régulière (`regex`) sur `stdin`, en affichant le premier groupe capturé pour chaque ligne :
+- Lancer une `regex` sur `stdin`, en affichant le premier groupe capturé pour chaque ligne :
 
 `cat {{fichier_entrée}} | perl -nle 'if (/{{regex}}/) { print "$1"; last;}'`

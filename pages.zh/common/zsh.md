@@ -10,7 +10,7 @@
 
 - 执行指定的命令：
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo '已执行zsh命令'}}"`
 
 - 执行指定的脚本：
 
@@ -22,7 +22,7 @@
 
 - 执行来自 `stdin` 的命令：
 
-`{{echo Hello world}} | zsh`
+`{{echo "echo '已执行zsh命令'"}} | zsh`
 
 - 执行指定的脚本，并打印出每一个将要执行的命令：
 
@@ -32,6 +32,6 @@
 
 `zsh --verbose`
 
-- 在 `zsh` 里执行指定的命令，但禁用 glob 模式：
+- 在 `zsh` 里执行指定的命令，但禁用 `glob` 模式：
 
 `noglob {{命令}}`

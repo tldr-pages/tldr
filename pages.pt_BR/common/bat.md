@@ -2,6 +2,7 @@
 
 > Imprime e concatena arquivos.
 > Um clone do `cat` com realce de sintaxe e integração com Git.
+> Veja também: `cat`.
 > Mais informações: <https://manned.org/bat>.
 
 - Imprime o conteúdo formatado de um arquivo para a saída padrão (`stdout`):
@@ -10,7 +11,7 @@
 
 - Concatena o conteúdo de vários arquivos em um arquivo destino:
 
-`bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} > {{/caminho/para/arquivo_destino}}`
+`bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} >{{/caminho/para/arquivo_destino}}`
 
 - Remove estilizacão e desabilita páginação:
 

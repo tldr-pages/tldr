@@ -11,7 +11,7 @@
 
 `uv self update {{0.4.0}}`
 
-- Check for available `uv` updates without installing:
+- Simulate an update, checking for available `uv` updates without installing them:
 
 `uv self update --dry-run`
 

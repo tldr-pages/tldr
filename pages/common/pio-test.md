@@ -11,11 +11,11 @@
 
 `pio test {{[-e|--environment]}} {{environment1}} {{[-e|--environment]}} {{environment2}}`
 
-- Run only tests whose name matches a specific glob pattern:
+- Run only tests whose name matches a specific `glob` pattern:
 
 `pio test {{[-f|--filter]}} "{{pattern}}"`
 
-- Ignore tests whose name matches a specific glob pattern:
+- Ignore tests whose name matches a specific `glob` pattern:
 
 `pio test {{[-i|--ignore]}} "{{pattern}}"`
 

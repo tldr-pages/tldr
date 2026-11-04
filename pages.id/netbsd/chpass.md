@@ -6,7 +6,7 @@
 
 - Tentukan syel masuk secara spesifik untuk pengguna saat ini secara interaktif:
 
-`su -c chpass`
+`chpass`
 
 - Tentukan [s]yel masuk secara spesifik untuk pengguna saat ini:
 

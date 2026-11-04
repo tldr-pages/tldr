@@ -7,10 +7,10 @@
 
 `nix flake info`
 
-- Show flake metadata from GitHub as a json on a single line:
+- Show flake metadata from GitHub as a JSON on a single line:
 
 `nix flake info {{github:owner/repo}} --json --no-pretty`
 
-- Show flake metadata from Github as a multi-line indented json:
+- Show flake metadata from GitHub as a multi-line indented JSON:
 
 `nix flake info {{github:owner/repo}} --json --pretty`

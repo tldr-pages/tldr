@@ -5,7 +5,7 @@
 
 - Read a PNM image as input and produce a JPEG/JFIF/EXIF image as output:
 
-`pnmtojpeg {{path/to/file.pnm}} > {{path/to/file.jpg}}`
+`pnmtojpeg {{path/to/file.pnm}} >{{path/to/file.jpg}}`
 
 - Display version:
 

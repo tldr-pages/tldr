@@ -23,7 +23,7 @@
 
 `git branch {{branch_naam}} {{commit_hash}}`
 
-- Hernoem een branch (je moet eerst wisselen naar een andere branch):
+- Hernoem een branch:
 
 `git branch {{[-m|--move]}} {{oude_branch_naam}} {{nieuwe_branch_naam}}`
 

@@ -1,17 +1,17 @@
 # pio system
 
-> Gemengde systeem commando's voor PlatformIO.
+> Gemengde systeemcommando's voor PlatformIO.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/system/>.
 
-- Installeer shell completion voor de huidige shell (ondersteund Bash, fish, Zsh en PowerShell):
+- Installeer shell completion voor de huidige shell (ondersteunt Bash, fish, Zsh en PowerShell):
 
 `pio system completion install`
 
-- Deinstalleer shell completion voor de huidige shell:
+- Deïnstalleer shell completion voor de huidige shell:
 
 `pio system completion uninstall`
 
-- Toon systeem-wijde PlatformIO informatie:
+- Toon systeemwijde PlatformIO informatie:
 
 `pio system info`
 

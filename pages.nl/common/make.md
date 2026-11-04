@@ -10,7 +10,7 @@
 
 - Roep een specifiek doel aan:
 
-`make {{doel}}`
+`make {{install|check|clean|uninstall|...}}`
 
 - Roep een specifiek doel aan en voer 4 taken tegelijk uit in parallel:
 

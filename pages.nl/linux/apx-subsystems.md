@@ -16,7 +16,7 @@
 
 `apx subsystems reset {{[-n|--name]}} {{string}}`
 
-- [f]orceer een reset van een specifiek subsysteem:
+- Forceer een reset van een specifiek subsysteem:
 
 `apx subsystems reset {{[-n|--name]}} {{string}} {{[-f|--force]}}`
 
@@ -24,6 +24,6 @@
 
 `apx subsystems rm {{[-n|--name]}} {{string}}`
 
-- [f]orceer het verwijderen van een specifiek subsysteem:
+- Forceer het verwijderen van een specifiek subsysteem:
 
 `apx subsystems rm {{[-n|--name]}} {{string}} {{[-f|--force]}}`

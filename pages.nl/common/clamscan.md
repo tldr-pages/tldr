@@ -1,6 +1,6 @@
 # clamscan
 
-> Een command-line virus scanner.
+> Een command-line virusscanner.
 > Meer informatie: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - Scan een bestand op kwetsbaarheden:
@@ -15,7 +15,7 @@
 
 `{{commando}} | clamscan -`
 
-- Specificeer een virus database bestand of map van bestanden:
+- Specificeer een virusdatabasebestand of map van bestanden:
 
 `clamscan {{[-d|--database]}} {{pad/naar/database_bestand_of_map}}`
 
@@ -23,13 +23,13 @@
 
 `clamscan {{[-i|--infected]}}`
 
-- Sla het scan rapport op in een log bestand:
+- Sla het scanrapport op in een logbestand:
 
 `clamscan {{[-l|--log]}} {{pad/naar/log_bestand}}`
 
 - Verplaats geïnfecteerde bestanden naar een specifieke map:
 
-`clamscan --move {{pad/naar/quarantine_map}}`
+`clamscan --move {{pad/naar/quarantaine_map}}`
 
 - Verwijder geïnfecteerde bestanden:
 

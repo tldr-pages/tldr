@@ -23,14 +23,14 @@
 
 `wsl --export {{distribución}} {{ruta\a\archivo_de_distribucion.tar}}`
 
-- Importar una distribución de un archivo `.tar`:
+- Importa una distribución de un archivo `.tar`:
 
 `wsl --import {{distribución}} {{ruta\a\ubicacion_de_instalacion}} {{ruta\a\archivo_de_distribucion.tar}}`
 
-- Cambiar la versión de wsl usada para la distribución especificada:
+- Cambia la versión de wsl usada para la distribución especificada:
 
 `wsl --set-version {{distribución}} {{versión}}`
 
-- Apagar el Subsistema de Windows para Linux:
+- Apaga el Subsistema de Windows para Linux:
 
 `wsl --shutdown`

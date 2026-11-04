@@ -6,7 +6,7 @@
 
 - Escribe el contenido del portapapeles en un archivo:
 
-`pbpaste > {{ruta/al/archivo}}`
+`pbpaste >{{ruta/al/archivo}}`
 
 - Utiliza el contenido del portapapeles como entrada de un comando:
 

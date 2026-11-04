@@ -16,7 +16,7 @@
 
 `rg {{normal_ifade}} {{dizin_alt_kümesi}}`
 
-- Bir glob ile eşleşen dosyalarda normal bir ifade ara (örn: `README.*`):
+- Bir `glob` ile eşleşen dosyalarda normal bir ifade ara (örn: `README.*`):
 
 `rg {{normal_ifade}} --glob {{glob}}`
 

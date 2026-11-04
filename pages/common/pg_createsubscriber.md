@@ -7,7 +7,7 @@
 
 `pg_createsubscriber {{[-d|--database]}} {{dbname}} {{[-D|--pgdata]}} {{path/to/data}} {{[-P|--publisher-server]}} {{connstr}}`
 
-- Perform a dry run without modifying the target directory:
+- Simulate converting a physical replica to a logical replica without modifying the target directory:
 
 `pg_createsubscriber {{[-n|--dry-run]}} {{[-d|--database]}} {{dbname}} {{[-D|--pgdata]}} {{path/to/data}} {{[-P|--publisher-server]}} {{connstr}}`
 

@@ -1,20 +1,20 @@
 # procstat
 
 > Geef gedetailleerde informatie weer over processen in FreeBSD.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?procstat>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=procstat>.
 
-- Bestandsdescriptors van een specifiek proces weergeven:
+- Geef bestandsdescriptors van een specifiek proces weer:
 
-`procstat fds {{pid}}`
+`procstat fds {{proces_id}}`
 
 - Toon virtuele geheugentoewijzingen van een proces:
 
-`procstat vm {{pid}}`
+`procstat vm {{proces_id}}`
 
 - Geef procesargumenten weer:
 
-`procstat arguments {{pid}}`
+`procstat arguments {{proces_id}}`
 
-- Toon bron limieten van een proces:
+- Toon bronlimieten van een proces:
 
-`procstat rlimit {{pid}}`
+`procstat rlimit {{proces_id}}`

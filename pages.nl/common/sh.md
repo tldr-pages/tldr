@@ -4,7 +4,7 @@
 > Zie ook: `!`, `^`.
 > Meer informatie: <https://manned.org/sh>.
 
-- Start een interactieve shell sessie:
+- Start een interactieve shellsessie:
 
 `sh`
 

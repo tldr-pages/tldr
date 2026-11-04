@@ -5,7 +5,7 @@
 
 - 다른 인코딩 방식으로 사진 촬영:
 
-`rpicam-still {{[-e|--encoding]}} {{bmp|png|rgb|yuv420}} {{[-o|--output]}} {{경로/대상/파일.[bmp|png|rgb|yuv420]}}`
+`rpicam-still {{[-e|--encoding]}} {{bmp|png|rgb|yuv420}} {{[-o|--output]}} {{경로/대상/파일.ext}}`
 
 - RAW 이미지 촬영:
 

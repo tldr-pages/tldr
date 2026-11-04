@@ -2,6 +2,7 @@
 
 > Print and concatenate files.
 > A `cat` clone with syntax highlighting and Git integration.
+> See also: `cat`.
 > More information: <https://manned.org/bat>.
 
 - Pretty print the contents of one or more files to `stdout`:
@@ -10,7 +11,7 @@
 
 - Concatenate several files into the target file:
 
-`bat {{path/to/file1 path/to/file2 ...}} > {{path/to/target_file}}`
+`bat {{path/to/file1 path/to/file2 ...}} >{{path/to/target_file}}`
 
 - Remove decorations and disable paging:
 

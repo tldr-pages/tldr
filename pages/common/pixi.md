@@ -23,10 +23,10 @@
 
 `pixi task {{command}}`
 
-- Display help:
-
-`pixi {{command}} --help`
-
 - Clean environment and task cache:
 
 `pixi clean`
+
+- Display help:
+
+`pixi {{command}} --help`

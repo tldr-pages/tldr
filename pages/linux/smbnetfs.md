@@ -5,4 +5,4 @@
 
 - Make shares available at `mountpoint`:
 
-`smbnetfs {{mountpoint}}`
+`smbnetfs {{path/to/mount_point}}`

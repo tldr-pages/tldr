@@ -25,8 +25,12 @@
 
 - Verkrijg de parent PID van een proces:
 
-`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{pid}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{proces_id}}`
 
 - Sorteer processen op geheugengebruik:
 
-`ps --sort size`
+`ps {{[k|--sort]}} size`
+
+- Toon threads van een specifiek proces:
+
+`ps -L {{[-p|--pid]}} {{proces_id}}`

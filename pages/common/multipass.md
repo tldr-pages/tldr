@@ -1,13 +1,13 @@
 # multipass
 
 > Manage Ubuntu virtual machines using native hypervisors.
-> More information: <https://documentation.ubuntu.com/multipass/latest/reference/command-line-interface/>.
+> More information: <https://canonical.com/multipass/docs/latest/reference/command-line-interface/>.
 
 - List the aliases that can be used to launch an instance:
 
 `multipass find`
 
-- Launch a new instance, set its name and use a cloud-init configuration file:
+- Launch a new instance, set its name, and use a cloud-init configuration file:
 
 `multipass launch {{[-n|--name]}} {{instance_name}} --cloud-init {{configuration_file}}`
 

@@ -1,12 +1,12 @@
 # chpass
 
-> Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
+> Gebruikersdatabase-informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 > Zie ook: `passwd`.
 > Meer informatie: <https://man.netbsd.org/chpass.1>.
 
 - Stel interactief een specifieke login shell in voor de huidige gebruiker:
 
-`su -c chpass`
+`chpass`
 
 - Stel een specifieke login [s]hell in voor de huidige gebruiker:
 
@@ -16,14 +16,14 @@
 
 `chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
-- Specificeer een gebruikersdatabase entry in het `passwd` bestandsformaat:
+- Specificeer een gebruikersdatabasevermelding in het `passwd` bestandsformaat:
 
-`su -c 'chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:uid:gid:...}} -s {{pad/naar/bestand}}' {{gebruikersnaam}}`
+`su -c 'chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:gebruiker_id:groep_id:...}} -s {{pad/naar/shell}}' {{gebruikersnaam}}`
 
-- Pas alleen het lokale wachtwoord bestand aan:
+- Pas alleen het [l]okale wachtwoordbestand aan:
 
 `su -c 'chpass -l -s {{pad/naar/shell}}' {{gebruikersnaam}}`
 
-- Pas geforceerd een database [y]P wachtwoord database entry aan:
+- Pas geforceerd een database [y]P wachtwoord databasevermelding aan:
 
 `su -c 'chpass -y -s {{pad/naar/shell}}' {{gebruikersnaam}}`

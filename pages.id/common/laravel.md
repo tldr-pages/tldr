@@ -11,7 +11,7 @@
 
 `laravel new {{nama}} --dev`
 
-- Overwrite if the directory already exists:
+- Paksa tulis (overwrite) direktori proyek dengan berkas-berkas Laravel baru:
 
 `laravel new {{nama}} --force`
 

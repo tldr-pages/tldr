@@ -1,7 +1,7 @@
 # choco
 
-> De Chocolatey pakket manager.
-> Sommige subcommando's zoals `install`, `upgrade`, `pin` hebben hun eigen documentatie.
+> De Chocolatey pakketmanager.
+> Sommige subcommando's zoals `install`, `upgrade`, `pin`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Installeer een pakket:
@@ -20,11 +20,11 @@
 
 `choco uninstall {{pakket_naam}} {{[-y|--yes]}}`
 
-- Zoek voor pakketten op naam of sleutelwoord:
+- Zoek naar pakketten op naam of sleutelwoord:
 
 `choco search {{query}}`
 
-- Toon alle geïnstalleerde pakketten:
+- Toon alle op de machine geïnstalleerde pakketten:
 
 `choco list`
 

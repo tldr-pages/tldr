@@ -7,10 +7,10 @@
 
 `pio update`
 
-- Update alleen kern pakketten (sla platformen en bibliotheken over):
+- Update alleen kernpakketten (sla platformen en bibliotheken over):
 
 `pio update --core-packages`
 
-- Controleer voor nieuwe versies van pakketten, platformen en bibliotheken, maar update ze niet:
+- Controleer op nieuwe versies van pakketten, platformen en bibliotheken, maar update ze niet:
 
 `pio update --dry-run`

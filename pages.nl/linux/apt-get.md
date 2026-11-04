@@ -9,17 +9,17 @@
 
 `sudo apt-get update`
 
-- Installeer specifieke pakketten of werk ze bij naar de nieuwste beschikbare versies:
+- Installeer een pakket, of werk het bij naar de nieuwste beschikbare versie:
 
-`sudo apt-get install {{pakket1 pakket2 ...}}`
+`sudo apt-get install {{pakket}}`
 
-- Verwijder specifieke pakketten:
+- Verwijder een pakket:
 
-`sudo apt-get remove {{pakket1 pakket2 ...}}`
+`sudo apt-get remove {{pakket}}`
 
-- Verwijder specifieke pakketten en hun configuratiebestanden:
+- Verwijder een pakket en zijn configuratiebestanden:
 
-`sudo apt-get purge {{pakket1 pakket2 ...}}`
+`sudo apt-get purge {{pakket}}`
 
 - Upgrade alle geïnstalleerde pakketten naar hun nieuwste beschikbare versies:
 

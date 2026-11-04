@@ -2,12 +2,12 @@
 
 > Fill a drive out with `.h2w` files to test its real capacity.
 > See also: `f3read`, `f3probe`, `f3fix`.
-> More information: <https://oss.digirati.com.br/f3/>.
+> More information: <https://fight-flash-fraud.readthedocs.io/en/stable/usage.html>.
 
 - Write test files to a given directory, filling the drive:
 
-`f3write {{path/to/mount_point}}`
+`sudo f3write {{path/to/mount_point}}`
 
 - Limit the write speed:
 
-`f3write --max-write-rate={{kb_per_second}} {{path/to/mount_point}}`
+`sudo f3write {{[-w|--max-write-rate]}} {{kb_per_second}} {{path/to/mount_point}}`

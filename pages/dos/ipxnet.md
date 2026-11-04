@@ -11,7 +11,7 @@
 
 `IPXNET startserver {{19900}}`
 
-- Connect client to server IP:
+- Connect as a client to a server IP:
 
 `IPXNET connect {{192.168.2.100}}`
 

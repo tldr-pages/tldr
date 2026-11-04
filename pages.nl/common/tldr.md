@@ -2,6 +2,7 @@
 
 > Toon simpele hulppagina's voor command-line programma's uit het tldr-pages project.
 > Opmerking: De opties `--language` en `--list` zijn niet vereist door de clientspecificatie, maar de meeste clients implementeren ze wel.
+> Zie ook: `cheatshh`, `cheat`, `navi`.
 > Meer informatie: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Toon de tldr-pagina voor een specifiek commando (hint: dit is hoe je hier bent gekomen!):
@@ -28,10 +29,10 @@
 
 `tldr {{[-l|--list]}}`
 
+- Toon de tldr-pagina voor een commando en toon korte opties:
+
+`tldr --short-options {{commando}}`
+
 - Blader door tldr-pagina's in een terminalvenster (`fzf` moet beschikbaar zijn):
 
 `tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
-
-- Toon de tldr-pagina voor een willekeurig commando:
-
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

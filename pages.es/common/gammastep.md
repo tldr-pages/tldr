@@ -1,6 +1,7 @@
 # gammastep
 
 > Ajusta la temperatura del color de la pantalla según la hora del día.
+> Vea también: `redshift`.
 > Más información: <https://manned.org/gammastep>.
 
 - Activa Gammastep con una [t]emperatura específica durante el día (por ejemplo, 5700k) y por la noche (por ejemplo, 3600k):

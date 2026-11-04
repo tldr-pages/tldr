@@ -11,10 +11,10 @@
 
 `java -jar {{nazwapliku.jar}}`
 
-- Wyświetl wersje JDK, JRE i HotSpot:
-
-`java -version`
-
 - Wyświetl informacje o użyciu polecenia java:
 
 `java -help`
+
+- Wyświetl wersje JDK, JRE i HotSpot:
+
+`java -version`

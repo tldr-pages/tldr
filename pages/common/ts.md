@@ -15,6 +15,6 @@
 
 `{{command}} | ts -i "{{%H:%M:%.S}}"`
 
-- Convert existing timestamps in a text file (eg. a log file) into [r]elative format:
+- Convert existing timestamps in a text file (e.g. a log file) into [r]elative format:
 
 `cat {{path/to/file}} | ts -r`

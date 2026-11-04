@@ -12,6 +12,10 @@
 
 `IFS="{{:}}"`
 
+- Specify what character to use for word splitting with `read`:
+
+`IFS={{:}} read {{variable1 variable2 ...}}`
+
 - Reset `$IFS` to default:
 
 `IFS=$' \t\n'`

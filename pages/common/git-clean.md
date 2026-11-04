@@ -7,7 +7,7 @@
 
 `git clean {{[-i|--interactive]}}`
 
-- Show which files would be deleted without actually deleting them:
+- Simulate the cleanup, showing which files would be deleted:
 
 `git clean {{[-n|--dry-run]}}`
 
@@ -19,7 +19,7 @@
 
 `git clean {{[-f|--force]}} -d`
 
-- Delete only untracked files matching specific paths or glob patterns:
+- Delete only untracked files matching specific paths or `glob` patterns:
 
 `git clean {{[-f|--force]}} -- {{path/to/directory}} '{{*.ext}}'`
 

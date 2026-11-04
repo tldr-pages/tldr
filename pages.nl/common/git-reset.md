@@ -16,7 +16,7 @@
 
 `git reset {{[-p|--patch]}} {{pad/naar/bestand}}`
 
-- Maak de laatste commit ongedaan, waarbij de wijzigingen (en alle andere ongecommitte wijzigingen) in de bestandssysteem blijven:
+- Maak de laatste commit ongedaan, waarbij de wijzigingen (en alle andere ongecommitte wijzigingen) in het bestandssysteem blijven:
 
 `git reset HEAD~`
 
@@ -28,6 +28,6 @@
 
 `git reset --hard`
 
-- Herstel de repository naar een bepaalde commit, waarbij gecommitte, toegevoegde en niet-gecommite wijzigingen sindsdien worden verwijderd:
+- Herstel de repository naar een bepaalde commit, waarbij gecommitte, toegevoegde en niet-gecommitte wijzigingen sindsdien worden verwijderd:
 
 `git reset --hard {{commit}}`

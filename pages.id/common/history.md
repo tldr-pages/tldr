@@ -9,7 +9,7 @@
 
 - Tampilkan 20 perintah tugas terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
 
-`history {{20}}`
+`history 20`
 
 - Tampilkan riwayat dengan format tanggal dan waktu tertentu (hanya tersedia dalam Zsh):
 
@@ -26,3 +26,11 @@
 - Hapus entri riwayat pada offset tertentu:
 
 `history -d {{offset}}`
+
+- [s]impan sebuah baris perintah sebagai entri riwayat baru tanpa menjalankannya:
+
+`history -s {{perintah}}`
+
+- Jalankan sebuah perintah tanpa memasukkan ke dalam riwayat, dengan membubuhkan karakter spasi pada awal baris:
+
+`<Space>{{perintah}}`

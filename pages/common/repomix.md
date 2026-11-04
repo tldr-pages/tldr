@@ -1,6 +1,6 @@
 # repomix
 
-> Pack a Github repository into an AI-friendly file.
+> Pack a GitHub repository into an AI-friendly file.
 > More information: <https://github.com/yamadashy/repomix>.
 
 - Output custom format:
@@ -9,7 +9,7 @@
 
 - Send output to `stdout`:
 
-`repomix --stdout > {{path/to/file}}`
+`repomix --stdout >{{path/to/file}}`
 
 - Send output to `stdout`, then pipe into another program:
 

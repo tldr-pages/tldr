@@ -21,7 +21,7 @@
 
 - Set collection buffer size in kibibyte words:
 
-`sudo haveged {{[-b|--buffer]}} {{buffersizeinKW}}`
+`sudo haveged {{[-b|--buffer]}} {{buffer_size_in_kw}}`
 
 - Insert a command to an already running `haveged` process or daemon:
 
@@ -29,7 +29,7 @@
 
 - Set cache size in kibibyte words:
 
-`sudo haveged {{[-d|--data]}} {{cachesizeinKW}}`
+`sudo haveged {{[-d|--data]}} {{cache_size_in_kw}}`
 
 - Set number of bytes to write to the output file:
 

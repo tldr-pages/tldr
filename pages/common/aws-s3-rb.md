@@ -7,6 +7,6 @@
 
 `aws s3 rb s3://{{bucket_name}}`
 
-- Force delete an S3 bucket and its non-versioned objects (will crash if versioned objects are present):
+- Force delete an S3 bucket and its unversioned objects (will fail if versioned objects are present):
 
 `aws s3 rb s3://{{bucket_name}} --force`

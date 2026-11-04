@@ -13,7 +13,7 @@
 
 - Attach to a running process by its PID:
 
-`frida {{[-p|--attach-pid]}} {{pid}}`
+`frida {{[-p|--attach-pid]}} {{process_id}}`
 
 - Load a JavaScript script into a process:
 

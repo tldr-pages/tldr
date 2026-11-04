@@ -1,37 +1,38 @@
 # slmgr.vbs
 
-> Installeer, activeer en beheer Windows licenties.
-> Dit commando kan uw huidige Windows licentie overschrijven, deactiveren en/of verwijderen. Ga met voorzichtigheid verder.
+> Installeer, activeer en beheer Windows-licenties.
+> Gebruik `cscript` om dit programma als CLI uit te voeren, of `wscript` voor een GUI.
+> Opmerking: dit commando kan uw huidige Windows-licentie overschrijven, deactiveren en/of verwijderen, ga dus met voorzichtigheid verder.
 > Meer informatie: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
-- Toon de huidige Windows [l]icentie [i]nformatie:
+- Toon ([d]) de huidige Windows-[l]icentie-[i]nformatie:
 
-`slmgr.vbs /dli`
+`cscript slmgr.vbs /dli`
 
-- Toon de installatie [i]D voor het huidige apparaat. Nuttig voor offline licentie activatie:
+- Toon ([d]) de ins[t]allatie-[i]D voor het huidige apparaat. Nuttig voor offline licentieactivatie:
 
-`slmgr.vbs /dti`
+`cscript slmgr.vbs /dti`
 
-- Toon de verloopdatum en -tijd van de huidige licentie:
+- Toon de verloopdatum ([xpr]) en -tijd van de huidige licentie:
 
-`slmgr.vbs /xpr`
+`cscript slmgr.vbs /xpr`
 
-- [i]nstalleer een nieuwe Windows licentie [p]roduct sleutel. Vereist beheerdersrechten en zal de bestaande licentie overschrijven:
+- [i]nstalleer een nieuwe [p]roductsleutel ([k]) voor een Windows-licentie. Vereist beheerdersrechten en zal de bestaande licentie overschrijven:
 
-`slmgr.vbs /ipk {{product_sleutel}}`
+`cscript slmgr.vbs /ipk {{product_sleutel}}`
 
-- [a]c[t]iveer de Windows product licentie [o]nline. Vereist beheerdersrechten:
+- [a]c[t]iveer de Windows-productlicentie [o]nline. Vereist beheerdersrechten:
 
-`slmgr.vbs /ato`
+`cscript slmgr.vbs /ato`
 
-- [a]c[t]iveer de Windows [p]roduct licentie offline. Vereist beheerdersrechten een bevestigings ID verstrekt door Microsoft Product Activation Center:
+- [a]c[t]iveer de Windows-[p]roductlicentie offline. Vereist beheerdersrechten en een bevestigings-ID verstrekt door Microsoft Product Activation Center:
 
-`slmgr.vbs /atp {{bevestigings_id}}`
+`cscript slmgr.vbs /atp {{bevestigings_id}}`
 
-- Wis de huidige licentie [p]roduct sleutel van het Windows register. Dit zal de huidige licentie niet deactiveren of verwijderen, maar voorkomt dat de sleutel in de toekomst wordt gestolen door kwaadaardige programma's:
+- Wis ([c]) de [p]roductsleutel ([ky]) van de huidige licentie uit het Windows-register. Dit zal de huidige licentie niet deactiveren of verwijderen, maar voorkomt dat de sleutel in de toekomst wordt gestolen door kwaadaardige programma's:
 
-`slmgr.vbs /cpky`
+`cscript slmgr.vbs /cpky`
 
-- Deinstalleer de huidigie licentie (door zijn [p]roduct sleutel):
+- Deïnstalleer ([u]) de huidige licentie (door zijn [p]roductsleutel ([k])):
 
-`slmgr.vbs /upk`
+`cscript slmgr.vbs /upk`

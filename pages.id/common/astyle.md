@@ -1,7 +1,7 @@
 # astyle
 
 > Program indenter, formatter, dan beautifier untuk berkas kode bahasa pemrograman C, C++, C#, dan Java.
-> Setelah dijalankan, berkas asli akan disalin menuju nama berkas yang ditambahkan dengan akhiran ".orig".
+> Setelah dijalankan, berkas asli akan disalin menuju nama berkas yang ditambahkan dengan akhiran `.orig`.
 > Informasi lebih lanjut: <https://manned.org/astyle>.
 
 - Terapkan pengayaan penulisan 4 karakter spasi per indent tanpa mengubah format kode:

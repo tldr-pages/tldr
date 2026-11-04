@@ -15,4 +15,4 @@
 
 - Perform deauthentication attack on a specific BSSID (list BSSIDs using `sudo airodump-ng wifi_interface`):
 
-`sudo mdk4 {{wifi_interface}} d -B {{bssid}}`
+`sudo mdk4 {{wifi_interface}} d -B {{basic_ssid}}`

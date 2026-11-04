@@ -1,6 +1,6 @@
 # bugreportz
 
-> Genereer een gezipt Android bugrapport.
+> Genereer een gezipt Android-bugrapport.
 > Dit commando kan alleen worden gebruikt via `adb shell`.
 > Meer informatie: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
@@ -12,7 +12,7 @@
 
 `bugreportz -p`
 
-- Schrijf de inhoud van een Android bugrapport naar `stdout`:
+- Schrijf de inhoud van een Android-bugrapport naar `stdout`:
 
 `bugreportz -s`
 

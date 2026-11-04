@@ -9,7 +9,7 @@
 
 - Renderiza un diagrama en un formato determinado (p.ej. `png`, `pdf`, `svg`, `txt`):
 
-`plantuml -t {{formato}} {{diagrama.puml}}`
+`plantuml {{[-f|--format]}} {{formato}} {{diagrama.puml}}`
 
 - Renderiza todos los diagramas de un directorio:
 
@@ -17,20 +17,20 @@
 
 - Renderiza un diagrama al directorio de salida:
 
-`plantuml -o {{ruta/a/salida}} {{diagrama.puml}}`
+`plantuml {{[-o|--output-dir]}} {{ruta/a/salida}} {{diagrama.puml}}`
 
 - Renderiza un diagrama sin almacenar el código fuente del diagrama (Nota: Se almacena por defecto cuando no se especifica la opción `-nometadata`):
 
-`plantuml -nometadata {{diagrama.png}} > {{diagrama.puml}}`
+`plantuml -nometadata {{diagrama.png}} >{{diagrama.puml}}`
 
 - Recupera la fuente de los metadatos de un diagrama `plantuml`:
 
-`plantuml -metadata {{diagrama.png}} > {{diagrama.puml}}`
+`plantuml -metadata {{diagrama.png}} >{{diagrama.puml}}`
 
 - Renderiza un diagrama con el archivo de configuración:
 
-`plantuml -config {{config.cfg}} {{diagrama.puml}}`
+`plantuml --config {{config.cfg}} {{diagrama.puml}}`
 
 - Muestra la ayuda:
 
-`plantuml -help`
+`plantuml {{[-h|--help]}}`

@@ -1,13 +1,13 @@
 # luanti
 
-> Sandbox-game met oneindige wereld.
+> Sandbox-game met blokken en een oneindige wereld.
 > Meer informatie: <https://manned.org/luanti>.
 
-- Start Luanti in client-modus:
+- Start Luanti in clientmodus:
 
 `luanti`
 
-- Toon gedownloade game-modes:
+- Toon gedownloade gamemodussen:
 
 `luanti --gameid list`
 

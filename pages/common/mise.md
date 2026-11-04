@@ -1,6 +1,6 @@
 # mise
 
-> Manage language runtimes like Node.js, Python, Ruby, Go, Java, etc and various tools.
+> Manage language runtimes like Node.js, Python, Ruby, Go, Java, etc. and various tools.
 > More information: <https://mise.jdx.dev/cli/>.
 
 - List all available plugins:
