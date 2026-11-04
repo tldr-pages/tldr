@@ -26,7 +26,7 @@
 
 - Unmount a working container:
 
-`buildah unmount {{container}}`
+`buildah umount {{container}}`
 
 - Commit a working container as a new image:
 
