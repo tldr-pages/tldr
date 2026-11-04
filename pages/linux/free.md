@@ -9,7 +9,6 @@
 
 - Display memory in bytes/KiB/MiB/GiB (power of 1024):
 
-
 `free -{{b|k|m|g}}`
 
 - Display memory in the most appropriate human-readable units (KiB/MiB/GiB etc):
