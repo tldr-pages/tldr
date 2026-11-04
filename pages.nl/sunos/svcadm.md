@@ -7,7 +7,7 @@
 
 `svcadm enable {{service_naam}}`
 
-- Schakel een service in de servicedatabase uit:
+- Schakel een service uit:
 
 `svcadm disable {{service_naam}}`
 

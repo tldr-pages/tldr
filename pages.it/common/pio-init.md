@@ -2,6 +2,6 @@
 
 > Questo comando è un alias per `pio project init`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr pio project`

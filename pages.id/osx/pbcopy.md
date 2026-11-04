@@ -5,7 +5,7 @@
 
 - Menempatkan konten file pada papan klip:
 
-`pbcopy < {{file}}`
+`pbcopy <{{file}}`
 
 - Menempatkan hasil perintah pada papan klip:
 

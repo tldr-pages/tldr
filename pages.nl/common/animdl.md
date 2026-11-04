@@ -10,7 +10,7 @@
 
 - Download een specifieke anime door een reeks afleveringen te specificeren:
 
-`animdl download "{{anime_titel}}" {{[-r|--range]}} {{start_aflevering}}-{{end_aflevering}}`
+`animdl download "{{anime_titel}}" {{[-r|--range]}} {{start_aflevering}}-{{eind_aflevering}}`
 
 - Download een specifieke anime door een downloadmap op te geven:
 

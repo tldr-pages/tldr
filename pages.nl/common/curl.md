@@ -13,11 +13,11 @@
 
 `curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
-- Download een bestand en sla de [U]itvoer op onder de bestandsnaam zoals aangegeven door de URL:
+- Download een bestand en sla de uitvoer op onder de bestandsnaam zoals aangegeven door de URL:
 
 `curl {{[-O|--remote-name]}} {{https://example.com/filename.zip}}`
 
-- Stuur form-encoded [g]egevens (POST-verzoek van het type `application/x-www-form-urlencoded`). Gebruik `--data @file_name` of `--data @'-'` om van `stdin` te lezen:
+- Stuur form-encoded gegevens (POST-verzoek van het type `application/x-www-form-urlencoded`). Gebruik `--data @file_name` of `--data @'-'` om van `stdin` te lezen:
 
 `curl {{[-X|--request]}} POST {{[-d|--data]}} '{{name=bob}}' {{http://example.com/form}}`
 

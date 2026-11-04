@@ -8,7 +8,7 @@
 
 `hexdump {{pad/naar/bestand}}`
 
-- Toon de invoer offset in hexadecimaal en zijn ASCII representatie in twee kolommen:
+- Toon de invoeroffset in hexadecimaal en zijn ASCII-representatie in twee kolommen:
 
 `hexdump {{[-C|--canonical]}} {{pad/naar/bestand}}`
 

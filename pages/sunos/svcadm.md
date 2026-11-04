@@ -15,7 +15,7 @@
 
 `svcadm restart {{service_name}}`
 
-- Command service to re-read configuration files:
+- Make a service re-read its configuration files:
 
 `svcadm refresh {{service_name}}`
 

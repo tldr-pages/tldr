@@ -23,11 +23,11 @@
 
 `tree -s -h --du`
 
-- Stampa i file all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le directory che non contengono file corrispondenti alla ricerca:
+- Stampa i file all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (`glob` pattern) per escludere le directory che non contengono file corrispondenti alla ricerca:
 
 `tree -P '{{*.txt}}' --prune`
 
-- Stampa le directory all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le directory che non sono progenitori di quelle desiderate:
+- Stampa le directory all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (`glob` pattern) per escludere le directory che non sono progenitori di quelle desiderate:
 
 `tree -P {{nomi_di_directory}} --matchdirs --prune`
 

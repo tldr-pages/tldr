@@ -9,12 +9,12 @@
 
 - Generate a 10 characters long password:
 
-`makepasswd --chars {{10}}`
+`makepasswd --chars 10`
 
 - Generate a 5 to 10 characters long password:
 
-`makepasswd --minchars {{5}} --maxchars {{10}}`
+`makepasswd --minchars 5 --maxchars 10`
 
-- Generate a password containing only the characters "b", "a", or "r":
+- Generate a password containing only the specified characters:
 
-`makepasswd --string {{bar}}`
+`makepasswd --string {{characters}}`

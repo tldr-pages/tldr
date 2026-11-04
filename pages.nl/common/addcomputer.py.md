@@ -16,7 +16,7 @@
 
 `addcomputer.py -delete -computer-name {{COMPUTER_NAAM$}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}`
 
-- Voeg een computer toe met behulp van Kerberos authenticatie:
+- Voeg een computer toe met behulp van Kerberos-authenticatie:
 
 `addcomputer.py -k -no-pass {{domein}}/{{gebruikersnaam}}@{{hostnaam}}`
 

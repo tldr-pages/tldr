@@ -7,17 +7,17 @@
 
 `logcat`
 
-- Schrijf systeemlogs naar een bestand:
+- Schrijf systeemlogs naar een bestand ([f]):
 
 `logcat -f {{pad/naar/bestand}}`
 
-- Toon lijnen die overeenkomen met een reguliere expressie:
+- Toon lijnen die overeenkomen met een `regex`:
 
-`logcat --regex {{reguliere_expressie}}`
+`logcat --regex {{regex}}`
 
 - Toon logs voor een specifieke PID:
 
-`logcat --pid {{pid}}`
+`logcat --pid {{proces_id}}`
 
 - Toon logs voor een proces van een specifiek pakket:
 

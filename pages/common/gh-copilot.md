@@ -1,7 +1,7 @@
 # gh copilot
 
 > Interact with GitHub Copilot.
-> Note: Deprecated in favor of `copilot`.
+> Note: This command is deprecated, use `copilot` instead.
 > More information: <https://github.com/github/gh-copilot#usage>.
 
 - Suggest a command, given a description:
@@ -18,11 +18,11 @@
 
 - Generate shell-specific aliases for Bash:
 
-`echo 'eval "$(gh copilot alias -- bash)"' >> ~/.bashrc`
+`echo 'eval "$(gh copilot alias -- bash)"' >>~/.bashrc`
 
 - Generate shell-specific aliases for Zsh:
 
-`echo 'eval "$(gh copilot alias -- zsh)"' >> ~/.zshrc`
+`echo 'eval "$(gh copilot alias -- zsh)"' >>~/.zshrc`
 
 - Configure options:
 

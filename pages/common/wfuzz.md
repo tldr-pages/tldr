@@ -3,7 +3,7 @@
 > A web application bruteforcer.
 > More information: <https://wfuzz.readthedocs.io/en/latest/user/basicusage.html>.
 
-- Directory and file bruteforce using the specified [w]ordlist and also [p]roxying the traffic:
+- Brute force directories and files using the specified [w]ordlist and also [p]roxy the traffic:
 
 `wfuzz -w {{path/to/file}} -p {{127.0.0.1:8080:HTTP}} {{http://example.com/FUZZ}}`
 

@@ -13,7 +13,7 @@
 
 - Altera o formato das colunas para exibir o uso da CPU em porcentagem:
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - Exibe estatísticas para todos os containers (tanto em execução como parados):
 

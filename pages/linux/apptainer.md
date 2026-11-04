@@ -1,7 +1,7 @@
 # apptainer
 
 > Manage containers for HPC and scientific computing.
-> Some subcommands such as `build`, `pull`, and `push` have their own usage documentation.
+> Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation.
 > More information: <https://apptainer.org/docs/user/main/cli.html>.
 
 - Download a container from Docker Hub:

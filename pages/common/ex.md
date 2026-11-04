@@ -1,7 +1,7 @@
 # ex
 
 > Text editor.
-> See also: `vim`.
+> This command is an alias of `vim -e`.
 > More information: <https://www.vim.org/>.
 
 - Open a file:

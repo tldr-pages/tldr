@@ -12,11 +12,11 @@
 
 `New-Item -ItemType Directory {{ruta\al\directorio}}`
 
-- Escribir un nuevo archivo de texto con el contenido especificado:
+- Escribe un nuevo archivo de texto con el contenido especificado:
 
 `New-Item {{ruta\al\archivo}} -Value {{contenido}}`
 
-- Escribir el mismo archivo de texto en múltiples ubicaciones:
+- Escribe el mismo archivo de texto en múltiples ubicaciones:
 
 `New-Item {{ruta\al\archivo1 , ruta\al\archivo2 , ...}} -Value {{contenido}}`
 
@@ -26,8 +26,8 @@
 
 - Crea una nueva entrada de registro en blanco (en REG_SZ, usar `New-ItemProperty` o `Set-ItemProperty` para ajustar el tipo de valor):
 
-`New-Item {{ruta\al\clave_de_registro}}`
+`New-Item {{ruta\a\la\clave_de_registro}}`
 
 - Crea una nueva entrada de registro en blanco con un valor especificado:
 
-`New-Item {{ruta\al\clave_de_registro}} -Value {{valor}}`
+`New-Item {{ruta\a\la\clave_de_registro}} -Value {{valor}}`

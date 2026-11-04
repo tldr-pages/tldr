@@ -1,7 +1,6 @@
 # magick montage
 
 > Coloca imágenes en una cuadrícula personalizable.
-> Vea también: `magick`.
 > Más información: <https://imagemagick.org/script/montage.php>.
 
 - Coloca imágenes en una cuadrícula, redimensionando automáticamente las imágenes más grandes que el tamaño de la celda de la cuadrícula:

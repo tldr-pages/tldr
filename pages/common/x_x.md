@@ -5,11 +5,11 @@
 
 - View an XLSX or CSV file:
 
-`x_x {{file.xlsx|file.csv}}`
+`x_x {{file}}.{{xlsx|csv}}`
 
 - View an XLSX or CSV file, using the first row as table headers:
 
-`x_x {{[-h|--heading]}} {{0}} {{file.xlsx|file.csv}}`
+`x_x {{[-h|--heading]}} {{0}} {{file}}.{{xlsx|csv}}`
 
 - View a CSV file with unconventional delimiters:
 

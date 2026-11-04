@@ -23,7 +23,7 @@
 
 `git diff --stat {{validation}}`
 
-- Affiche un résumé des créations de fichiers, renommages ou changements de mode depuis une validation donnée:
+- Affiche un résumé des créations de fichiers, renommages ou changements de mode depuis une validation donnée :
 
 `git diff --summary {{validation}}`
 

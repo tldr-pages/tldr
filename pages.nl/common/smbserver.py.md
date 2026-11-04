@@ -4,7 +4,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Stel een basis SMB share in:
+- Stel een basis SMB-share in:
 
 `smbserver.py {{share_naam}} {{pad/naar/share}}`
 

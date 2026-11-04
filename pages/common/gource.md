@@ -1,6 +1,6 @@
 # gource
 
-> Renders an animated tree diagram of Git, SVN, Mercurial, and Bazaar repositories.
+> Render an animated tree diagram of Git, SVN, Mercurial, and Bazaar repositories.
 > It shows files and directories being created, modified, or removed over time.
 > More information: <https://manned.org/gource>.
 

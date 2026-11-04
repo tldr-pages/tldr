@@ -15,7 +15,7 @@
 
 `uv lock --check-exists`
 
-- Preview what would be locked without writing the lockfile:
+- Simulate locking, showing what would be locked without writing the lockfile:
 
 `uv lock --dry-run`
 

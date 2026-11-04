@@ -11,7 +11,7 @@
 
 `export -n {{VARIABELE}}`
 
-- Exporteer een functie naar child-processen:
+- Exporteer een [f]unctie naar child-processen:
 
 `export -f {{FUNCTIE_NAAM}}`
 
@@ -19,6 +19,6 @@
 
 `export PATH=$PATH:{{pad/om/toe_te_voegen}}`
 
-- Toon een lijst van actieve geëxporteerde variabelen in shell-opdrachtvorm:
+- Toon ([p]) een lijst van actieve geëxporteerde variabelen in shell-opdrachtvorm:
 
 `export -p`

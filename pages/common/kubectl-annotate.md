@@ -1,6 +1,6 @@
 # kubectl annotate
 
-> Annotates Kubernetes resources.
+> Annotate Kubernetes resources.
 > More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_annotate/>.
 
 - Annotate a pod:

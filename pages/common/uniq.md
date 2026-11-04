@@ -17,6 +17,10 @@
 
 `sort {{path/to/file}} | uniq {{[-d|--repeated]}}`
 
+- Display each line once without case sensitivity:
+
+`sort {{path/to/file}} | uniq {{[-i|--ignore-case]}}`
+
 - Display number of occurrences of each line along with that line:
 
 `sort {{path/to/file}} | uniq {{[-c|--count]}}`

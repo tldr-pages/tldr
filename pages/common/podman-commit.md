@@ -11,7 +11,7 @@
 
 `podman commit {{[-c|--change]}} "ENV {{name}}={{value}}" {{container}} {{image}}:{{tag}}`
 
-- Apply `LABEL`, `ENTRYPOINT` and `CMD` instruction to the created image:
+- Apply `LABEL`, `ENTRYPOINT`, and `CMD` instruction to the created image:
 
 `podman commit {{[-c|--change]}} CMD={{command}} {{[-c|--change]}} ENTRYPOINT={{command}} {{[-c|--change]}} "LABEL {{key}}={{value}}" {{container}} {{image}}:{{tag}}`
 

@@ -1,6 +1,6 @@
 # glob
 
-> Los patrones glob (`glob`) son patrones que se utilizan para buscar coincidencias en texto.
+> Los patrones `glob` son patrones que se utilizan para buscar coincidencias en texto.
 > Nota: `glob` no es un comando, sino una sintaxis que se utiliza junto con otros comandos o con el shell.
 > Vea también: `regex`.
 > Más información: <https://en.wikipedia.org/wiki/Glob_(programming)>.

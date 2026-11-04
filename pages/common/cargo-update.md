@@ -7,7 +7,7 @@
 
 `cargo update`
 
-- Display what would be updated, but don't actually write the lockfile:
+- Simulate an update, displaying what would be updated without writing the lockfile:
 
 `cargo update {{[-n|--dry-run]}}`
 

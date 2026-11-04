@@ -19,6 +19,7 @@ This file contains the translation templates of this notice.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -160,10 +161,18 @@ This file contains the translation templates of this notice.
 
 ---
 
+### he
+
+```markdown
+> לחלק מפקודות המשנה, כגון `example`, יש תיעוד שימוש נפרד.
+```
+
+---
+
 ### hi
 
 ```markdown
-> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं।
+> कुछ उप-आदेशों, जैसे कि `example`, के अपने उपयोग प्रलेखन हैं।
 ```
 
 ---

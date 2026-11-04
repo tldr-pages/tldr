@@ -28,7 +28,7 @@
 
 `ping -O {{host}}`
 
-- Ping een host met een specifiek aantal ([c]) pings, timeout om te [W]achten voor elk antwoord, en totale wachttijd voor de gehele ping-uitvoering:
+- Ping een host met een specifiek aantal ([c]) pings, timeout om te [W]achten voor elk antwoord, en totale [w]achttijd voor de gehele ping-uitvoering:
 
 `ping -c {{aantal}} -W {{seconden}} -w {{seconden}} {{host}}`
 

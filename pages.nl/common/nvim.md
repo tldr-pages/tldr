@@ -1,7 +1,7 @@
 # nvim
 
-> Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbiedt voor verschillende soorten tekstmanipulatie.
-> Op `<i>` drukken in de normale modus, gaat naar de invoer modus. `<Esc>` of `<Ctrl c>` gaat terug naar de normale modus, die geen reguliere tekstinvoer accepteert.
+> Neovim, een programmeurstekstbewerker gebaseerd op Vim, welke verschillende modi aanbiedt voor verschillende soorten tekstmanipulatie.
+> Op `<i>` drukken in de normale modus, gaat naar de invoermodus. `<Esc>` of `<Ctrl c>` gaat terug naar de normale modus, die geen reguliere tekstinvoer accepteert.
 > Zie ook: `vim`, `vimtutor`, `vimdiff`.
 > Meer informatie: <https://neovim.io/>.
 
@@ -25,9 +25,9 @@
 
 `<Esc></>{{zoek_patroon}}<Enter>`
 
-- Voer een reguliere expressie vervanging uit in het volledige bestand:
+- Voer een `regex` vervanging uit in het volledige bestand:
 
-`<Esc><:>%s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`<Esc><:>%s/{{regex}}/{{vervanging}}/g<Enter>`
 
 - Ga naar de normale modus, sla (write) het bestand op en sluit af:
 

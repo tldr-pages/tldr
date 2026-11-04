@@ -27,6 +27,6 @@
 
 `rabbitmqctl clear_permissions {{[-p|--vhost]}} {{vhost}} {{nombre_de_usuario}}`
 
-- Asignar una o más etiquetas (por ejemplo, administrador) a un usuario:
+- Asigna una o más etiquetas (por ejemplo, administrador) a un usuario:
 
 `rabbitmqctl set_user_tags {{nombre_de_usuario}} {{etiqueta1 etiqueta2 ...}}`

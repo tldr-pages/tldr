@@ -11,6 +11,6 @@
 
 `git-sizer -v`
 
-- İlave seçenekleri gör:
+- Yardımı görüntüle:
 
 `git-sizer -h`

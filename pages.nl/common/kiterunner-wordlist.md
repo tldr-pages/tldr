@@ -1,14 +1,14 @@
 # kiterunner wordlist
 
-> Een contextuele webscanner voor het beheren van wordlists die gebruikt worden in API en web endpoint discovery.
-> Het `wordlist` subcommando zorgt voor het opsommen en opslaan van wordlists in `~/.cache/kiterunner`.
+> Een contextuele webscanner voor het beheren van woordenlijsten die gebruikt worden bij het ontdekken van API-paden en webeindpunten.
+> Het `wordlist` subcommando zorgt voor het opsommen en opslaan van woordenlijsten in `~/.cache/kiterunner`.
 > Meer informatie: <https://github.com/assetnote/kiterunner#usage>.
 
 - Maak een lijst van alle in de cache opgeslagen en beschikbare Assetnote woordenlijsten:
 
 `kiterunner wordlist list`
 
-- Geef woordenlijsten met JSON uitvoer weer:
+- Geef woordenlijsten met JSON-uitvoer weer:
 
 `kiterunner wordlist list {{[-o|--output]}} {{json}}`
 

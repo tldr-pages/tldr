@@ -1,7 +1,7 @@
 # siege
 
 > HTTP 부하 테스트 및 벤치마킹 도구.
-> 더 많은 정보: <https://www.joedog.org/siege-manual/>.
+> 더 많은 정보: <https://www.joedog.org/siege/manual/>.
 
 - 기본 설정으로 URL 테스트:
 

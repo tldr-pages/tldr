@@ -1,7 +1,7 @@
 # jj
 
 > Jujutsu 버전 관리 시스템.
-> `log`, `desc`, `new`, `git` 등 일부 하위 명령은 각각 별도의 사용 문서를 제공.
+> `log`, `describe`, `new`, `git` 등 일부 하위 명령은 각각 별도의 사용 문서를 제공.
 > 더 많은 정보: <https://docs.jj-vcs.dev/latest/cli-reference/>.
 
 - 지정한 revset의 revision 설명 업데이트 (예: `B::D`, `A..D`, `B|C|D` 등):

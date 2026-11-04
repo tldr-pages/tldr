@@ -9,11 +9,11 @@
 
 - RAM에 일시 중지하고 10초 후에 기상:
 
-`sudo rtcwake {{[-m|--mode]}} mem {{[-s|--seconds]}} {{10}}`
+`sudo rtcwake {{[-m|--mode]}} mem {{[-s|--seconds]}} 10`
 
 - 디스크에 일시 중지(더 높은 전력 절약)하고 15분 후에 기상:
 
-`sudo rtcwake {{[-m|--mode]}} disk --date +{{15}}min`
+`sudo rtcwake {{[-m|--mode]}} disk --date +15min`
 
 - 시스템을 동결(램에 일시 중지보다 더 효율적이며 Linux 커널 버전 3.9 이상 필요)하고 지정된 날짜와 시간에 기상:
 

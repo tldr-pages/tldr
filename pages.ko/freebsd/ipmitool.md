@@ -1,7 +1,7 @@
 # ipmitool
 
 > Intelligent Platform Management Interface (IPMI)와 상호작용하기 위한 도구.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?ipmitool>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=ipmitool>.
 
 - 로컬 연결을 위해 IPMI 커널 모듈 로드:
 

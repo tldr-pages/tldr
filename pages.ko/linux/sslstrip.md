@@ -10,15 +10,15 @@
 
 - 포트 8080에서 HTTPS POST 트래픽만 로깅:
 
-`sslstrip --listen={{8080}}`
+`sslstrip --listen=8080`
 
 - 포트 8080에서 서버와 주고받는 모든 SSL 트래픽 로깅:
 
-`sslstrip --ssl --listen={{8080}}`
+`sslstrip --ssl --listen=8080`
 
 - 포트 8080에서 서버와 주고받는 모든 SSL 및 HTTP 트래픽 로깅:
 
-`sslstrip --listen={{8080}} --all`
+`sslstrip --listen=8080 --all`
 
 - 로그를 저장할 파일 경로 지정:
 

@@ -5,7 +5,7 @@
 
 - Limit an existing process with PID 1234 to only use 25% of the CPU:
 
-`cpulimit {{[-p|--pid]}} {{1234}} {{[-l|--limit]}} {{25%}}`
+`cpulimit {{[-p|--pid]}} 1234 {{[-l|--limit]}} 25%`
 
 - Limit an existing program by its executable name:
 
@@ -13,11 +13,11 @@
 
 - Launch a given program and limit it to only use 50% of the CPU:
 
-`cpulimit {{[-l|--limit]}} {{50}} -- {{program argument1 argument2 ...}}`
+`cpulimit {{[-l|--limit]}} 50 -- {{program argument1 argument2 ...}}`
 
 - Launch a program, limit its CPU usage to 50% and run cpulimit in the background:
 
-`cpulimit {{[-l|--limit]}} {{50}} {{[-b|--background]}} -- {{program}}`
+`cpulimit {{[-l|--limit]}} 50 {{[-b|--background]}} -- {{program}}`
 
 - Kill its process if the program's CPU usage goes over 50%:
 
@@ -25,4 +25,4 @@
 
 - Throttle both it and its child processes so that none go about 25% CPU:
 
-`cpulimit {{[-l|--limit]}} {{25}} {{[-m|--monitor-forks]}} -- {{program}}`
+`cpulimit {{[-l|--limit]}} 25 {{[-m|--monitor-forks]}} -- {{program}}`

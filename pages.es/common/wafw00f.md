@@ -15,13 +15,13 @@
 
 `wafw00f {{[-p|--proxy]}} {{http://localhost:8080}} {{https://www.example.com}}`
 
-- Probar un producto WAF específico (ejecutar `wafw00f --list` para obtener una lista de todos los WAF compatibles):
+- Prueba un producto WAF específico (ejecutar `wafw00f --list` para obtener una lista de todos los WAF compatibles):
 
 `wafw00f {{[-t|--test]}} {{Cloudflare|Cloudfront|Fastly|ZScaler|...}} {{https://www.example.com}}`
 
-- Pasar encabezados personalizados desde un archivo:
+- Pasa encabezados personalizados desde un archivo:
 
-`wafw00f {{[-H|--headers]}} {{path/to/headers.txt}} {{https://www.example.com}}`
+`wafw00f {{[-H|--headers]}} {{ruta/a/cabeceras.txt}} {{https://www.example.com}}`
 
 - Lee las entradas de destino desde un archivo y muestra una salida detallada (varias `v` para más detalles):
 

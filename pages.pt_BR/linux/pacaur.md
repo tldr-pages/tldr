@@ -21,7 +21,7 @@
 
 - Pesquisa o banco de dados de pacotes para uma palavra-chave (inclui o AUR):
 
-`pacaur -Ss {{palavra-chave}}`
+`pacaur -Ss {{palavra_chave}}`
 
 - Lista todos os pacotes atualmente instalados (inclui pacotes do AUR):
 

@@ -1,6 +1,6 @@
 # svcs
 
-> Répertorier les informations sur les services en cours d'exécution.
+> Répertorie les informations sur les services en cours d'exécution.
 > Plus d'informations : <https://www.unix.com/man-page/sunos/1/svcs>.
 
 - Liste tous les services en cours d'exécution :
@@ -13,12 +13,12 @@
 
 - Répertorie les informations sur un service :
 
-`svcs apache`
+`svcs {{apache}}`
 
 - Affiche l'emplacement du fichier journal de service :
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - Affiche la fin d'un fichier journal de service :
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

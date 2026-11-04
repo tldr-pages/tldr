@@ -1,14 +1,14 @@
 # killall
 
 > Verstuur een kill-signaal naar alle instanties van een proces op naam (moet exact overeenkomen).
-> Alle signalen behalve SIGKILL en SIGSTOP kunnen door het proces worden onderschept, waardoor een nette afsluiting mogelijk is.
+> Alle signalen behalve `SIGKILL` en `SIGSTOP` kunnen door het proces worden onderschept, waardoor een nette afsluiting mogelijk is.
 > Meer informatie: <https://manned.org/killall>.
 
-- Beëindig een proces met behulp van het standaard SIGTERM (terminate) signaal:
+- Beëindig een proces met behulp van het standaard `SIGTERM` (terminate) signaal:
 
 `killall {{proces_naam}}`
 
-- Toon beschikbare signaalnamen (te gebruiken zonder het 'SIG'-voorvoegsel):
+- Toon beschikbare signaalnamen (te gebruiken zonder het `SIG`-voorvoegsel):
 
 `killall {{[-l|--list]}}`
 
@@ -16,7 +16,7 @@
 
 `killall {{[-i|--interactive]}} {{proces_naam}}`
 
-- Beëindig een proces met het SIGINT (interrupt) signaal, hetzelfde signaal dat wordt verzonden door `<Ctrl c>` in te drukken:
+- Beëindig een proces met het `SIGINT` (interrupt) signaal, hetzelfde signaal dat wordt verzonden door `<Ctrl c>` in te drukken:
 
 `killall {{[-2|-SIGINT]}} {{proces_naam}}`
 

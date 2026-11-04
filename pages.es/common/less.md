@@ -23,7 +23,7 @@
 
 `<?>{{algo}}`
 
-- Seguir la salida del archivo actualmente abierto:
+- Sigue la salida del archivo actualmente abierto:
 
 `<F>`
 

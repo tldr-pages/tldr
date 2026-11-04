@@ -1,6 +1,6 @@
 # bun install
 
-> Installeer JavaScript afhankelijkheden voor een project vanuit `package.json`.
+> Installeer JavaScript-afhankelijkheden voor een project vanuit `package.json`.
 > Meer informatie: <https://bun.com/docs/pm/cli/install>.
 
 - Installeer alle afhankelijkheden vermeld in `package.json`:

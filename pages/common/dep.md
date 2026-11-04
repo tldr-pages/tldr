@@ -12,7 +12,7 @@
 
 `dep deploy {{hostname}}`
 
-- Rollback to the previous working release:
+- Roll back to the previous working release:
 
 `dep rollback`
 

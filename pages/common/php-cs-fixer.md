@@ -11,7 +11,7 @@
 
 `php-cs-fixer fix {{path/to/directory}}`
 
-- Execute code style linting without applying changes:
+- Simulate fixing code style, reporting issues without applying changes:
 
 `php-cs-fixer fix --dry-run`
 

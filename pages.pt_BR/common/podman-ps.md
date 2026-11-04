@@ -33,4 +33,4 @@
 
 - Filtra contêineres que montam um volume específico ou têm um volume montado em um caminho específico:
 
-`podman ps {{[-f|--filter]}} "volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`podman ps {{[-f|--filter]}} "volume={{caminho/para/diretório}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

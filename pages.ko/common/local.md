@@ -24,6 +24,6 @@
 
 `local -r {{변수}}="{{값}}"`
 
-- Display help:
+- 도움말 표시:
 
 `local --help`

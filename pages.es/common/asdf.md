@@ -27,6 +27,6 @@
 
 `asdf set {{nombre}} {{versión}}`
 
-- Ver la versión actual utilizada por un paquete:
+- Vea la versión actual utilizada por un paquete:
 
 `asdf current {{nombre}}`

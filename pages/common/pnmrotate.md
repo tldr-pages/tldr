@@ -5,12 +5,12 @@
 
 - Rotate a PNM image by some angle (measured in degrees, counter-clockwise):
 
-`pnmrotate {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmrotate {{angle}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Specify the background color exposed by rotating the input image:
 
-`pnmrotate {{[-b|-background]}} {{color}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmrotate {{[-b|-background]}} {{color}} {{angle}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Disable anti-aliasing, improving performance but decreasing quality:
 
-`pnmrotate {{[-n|-noantialias]}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmrotate {{[-n|-noantialias]}} {{angle}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`

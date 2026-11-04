@@ -1,7 +1,7 @@
 # resticprofile schedule
 
 > 백업 작업을 예약 및 백그라운드 실행.
-> 관련 항목: `restic`, `resticprofile`, `resticprofile-unschedule`.
+> 관련 항목: `restic`, `resticprofile unschedule`.
 > 더 많은 정보: <https://creativeprojects.github.io/resticprofile/schedules/configuration/index.html>.
 
 - 기본 프로필의 백업 스케줄 설정:

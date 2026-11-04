@@ -3,11 +3,11 @@
 > Voer GitHub-acties lokaal uit met behulp van Docker.
 > Meer informatie: <https://manned.org/act>.
 
-- Maak een lijst van de beschikbare acties:
+- Maak een lijst van de beschikbare jobs:
 
 `act {{[-l|--list]}}`
 
-- Voer de standaard evenement uit:
+- Voer het standaardevenement uit:
 
 `act`
 
@@ -19,7 +19,7 @@
 
 `act {{[-j|--job]}} {{job_id}}`
 
-- Voer de acties [n]iet daadwerkelijk uit (d.w.z. een dry-run):
+- Voer de acties niet daadwerkelijk uit (d.w.z. een dry-ru[n]):
 
 `act {{[-n|--dryrun]}}`
 
@@ -27,6 +27,6 @@
 
 `act {{[-v|--verbose]}}`
 
-- Voer een specifieke workflow uit:
+- Voer een specifieke workflow uit met het push-evenement:
 
 `act push {{[-W|--workflows]}} {{pad/naar/workflow}}`

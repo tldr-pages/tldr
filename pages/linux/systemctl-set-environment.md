@@ -5,12 +5,12 @@
 
 - Set a single environment variable:
 
-`systemctl set-environment {{var value}}`
+`systemctl set-environment {{variable}} {{value}}`
 
 - Set multiple environment variables at once:
 
-`systemctl set-environment {{var1 value1 var2 value2 ...}}`
+`systemctl set-environment {{variable1 value1 variable2 value2 ...}}`
 
 - Set an environment variable for the user service manager:
 
-`systemctl set-environment {{var value}} --user`
+`systemctl set-environment {{variable}} {{value}} --user`

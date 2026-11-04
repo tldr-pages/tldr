@@ -13,13 +13,13 @@
 
 - Extrae un fotograma de un archivo GIF:
 
-`gifsicle {{ruta/a/archivo_entrada.gif}} '#{{0}}' > {{ruta/a/primer_fotograma.gif}}`
+`gifsicle {{ruta/a/archivo_entrada.gif}} '#{{0}}' >{{ruta/a/primer_fotograma.gif}}`
 
 - Crea una animación GIF a partir de GIF seleccionados:
 
-`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} > {{ruta/a/archivo_salida.gif}}`
+`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} >{{ruta/a/archivo_salida.gif}}`
 
-- Reducir el tamaño del archivo utilizando compresión con pérdida:
+- Reduce el tamaño del archivo utilizando compresión con pérdida:
 
 `gifsicle {{[-b|--batch]}} {{ruta/a/archivo_entrada.gif}} {{[-O|--optimize=]}}3 --lossy={{100}} {{[-k|--colors]}} {{16}} {{[-f|--dither]}}`
 

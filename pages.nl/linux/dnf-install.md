@@ -15,7 +15,7 @@
 
 `sudo dnf {{[in|install]}} {{https://example.com/pakket.rpm}}`
 
-- Voeg de Fedora non-free pakketten repository toe:
+- Voeg de Fedora non-free-pakketrepository toe:
 
 `sudo dnf {{[in|install]}} https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
 

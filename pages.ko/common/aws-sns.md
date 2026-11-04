@@ -17,7 +17,7 @@
 
 - 특정 주제 또는 전화번호에 대한 메시지를 게시하고, 메시지 ID를 표시:
 
-`aws sns publish {{--topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"||--phone-number +1-555-555-0100}} --message file://{{경로/대상/파일}}`
+`aws sns publish {{--topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"|--phone-number +1-555-555-0100}} --message file://{{경로/대상/파일}}`
 
 - 해당 주제에서 특정 ARN이 있는 구독을 삭제:
 

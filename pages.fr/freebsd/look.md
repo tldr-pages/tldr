@@ -2,7 +2,7 @@
 
 > Affiche les lignes commençant par un préfixe dans un fichier trié.
 > Voir aussi : `grep`, `sort`.
-> Plus d'informations : <https://man.freebsd.org/cgi/man.cgi?look>.
+> Plus d'informations : <https://man.freebsd.org/cgi/man.cgi?query=look>.
 
 - Recherche les lignes commençant par un préfixe spécifique dans un fichier spécifique :
 

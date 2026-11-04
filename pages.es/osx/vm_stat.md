@@ -9,4 +9,4 @@
 
 - Muestra informes cada 2 segundos durante 5 veces:
 
-`vm_stat -c {{5}} {{2}}`
+`vm_stat -c 5 2`

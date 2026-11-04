@@ -5,7 +5,7 @@
 
 - Mevcut dizinde yeni modül başlat:
 
-`go mod init {{modülİsmi}}`
+`go mod init {{modül_ismi}}`
 
 - Modülleri yerel önbelleğe yükle:
 

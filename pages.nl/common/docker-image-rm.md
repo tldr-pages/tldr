@@ -11,7 +11,7 @@
 
 `docker {{[rmi|image rm]}} {{[-f|--force]}} {{image}}`
 
-- Verwijder een image zonder ongemerkte ouders te verwijderen:
+- Verwijder een image zonder niet getagde ouders te verwijderen:
 
 `docker {{[rmi|image rm]}} --no-prune {{image}}`
 

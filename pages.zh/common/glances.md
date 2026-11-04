@@ -24,7 +24,7 @@
 
 `glances {{[-s|--server]}} --password`
 
-- 退出Glances：
+- 退出 Glances：
 
 `<q>`
 

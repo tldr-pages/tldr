@@ -1,7 +1,6 @@
 # vagrant box
 
 > Vagrant box (가상 머신 이미지)를 관리.
-> 관련 항목: `vagrant`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/box>.
 
 - 모든 설치된 box 목록 표시:

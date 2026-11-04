@@ -1,7 +1,7 @@
 # vagrant halt
 
 > Vagrant가 관리하는 실행 중인 machine 종료.
-> 관련 항목: `vagrant`, `vagrant box`, `vagrant plugin`, `vagrant validate`.
+> 관련 항목: `vagrant box`, `vagrant plugin`, `vagrant validate`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/halt>.
 
 - 현재 실행 중인 Vagrant machine을 정상 종료 (gracefully):

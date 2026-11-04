@@ -24,7 +24,7 @@
 
 `tar xf {{pad/naar/bron.tar.ext}} {{[-C|--directory]}} {{pad/naar/map}}`
 
-- [c]reëer een gecomprimeerd archief en schrijf het naar een bestand ([f]), gebruikmakend van de bestandsnaam extensie om [a]utomatisch het compressieprogramma te bepalen:
+- [c]reëer een gecomprimeerd archief en schrijf het naar een bestand ([f]), gebruikmakend van de bestandsextensie om [a]utomatisch het compressieprogramma te bepalen:
 
 `tar caf {{pad/naar/doel.tar.xz}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 

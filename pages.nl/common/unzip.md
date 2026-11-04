@@ -16,7 +16,7 @@
 
 `unzip -c {{pad/naar/archief1.zip pad/naar/archief2.zip ...}}`
 
-- Extraheer een archief dat gemaakt is op Windows, die bestanden bevat met niet-ASCII (bijv. Chinese of Japanse tekens) bestandsnamen:
+- Extraheer een archief dat gemaakt is op Windows, dat bestanden bevat met niet-ASCII (bijv. Chinese of Japanse tekens) bestandsnamen:
 
 `unzip -O {{gbk}} {{pad/naar/archief1.zip pad/naar/archief2.zip ...}}`
 

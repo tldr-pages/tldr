@@ -13,4 +13,8 @@
 
 - Vytvořit adresáře s konkrétním oprávněním:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{cests/k/adresari1 cesta/k/adresari2 ...}}`
+`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{cesta/k/adresari1 cesta/k/adresari2 ...}}`
+
+- Vytvořit několik vnořených adresářů rekurzivně:
+
+`mkdir {{[-p|--parents]}} {{cesta/k/{a,b}/{x,y,z}/{h,i,j}}}`

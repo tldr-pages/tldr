@@ -3,7 +3,7 @@
 > 시스템이 처리할 수 있는 동시 사용자 수를 결정하는 부하 테스트 도구.
 > 더 많은 정보: <https://docs.locust.io/en/stable/configuration.html#configuration>.
 
-- locustfile.py를 사용하여 "example.com"에 웹 인터페이스로 부하 테스트:
+- `locustfile.py`를 사용하여 "example.com"에 웹 인터페이스로 부하 테스트:
 
 `locust --host={{http://example.com}}`
 

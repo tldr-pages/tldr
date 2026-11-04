@@ -6,7 +6,7 @@
 
 - Define a impressora padrão:
 
-`lpoptions -d {{impressora[/instância]}}`
+`lpoptions -d {{impressora}}/{{instância}}`
 
 - Lista opções específicas de uma impressora:
 

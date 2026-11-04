@@ -8,7 +8,7 @@
 
 `byobu`
 
-- Configuration and help:
+- Open the configuration and help menu:
 
 `byobu-config`
 

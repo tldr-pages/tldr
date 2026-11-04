@@ -15,6 +15,6 @@
 
 `mr status`
 
-- Checkout all repositories to the latest version:
+- Check out all repositories to the latest version:
 
 `mr checkout`

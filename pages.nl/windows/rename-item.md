@@ -1,6 +1,6 @@
 # Rename-Item
 
-> Powershell commando om een item te hernoemen.
+> PowerShell commando om een item te hernoemen.
 > Opmerking: `ren` en `rni` kunnen beiden gebruikt worden als een alias voor `Rename-Item`.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/rename-item>.
 

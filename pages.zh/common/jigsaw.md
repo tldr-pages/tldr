@@ -15,7 +15,7 @@
 
 `jigsaw build`
 
-- 从 "build_local" 目录预览网站：
+- 从 `build_local` 目录预览网站：
 
 `jigsaw serve`
 
@@ -23,6 +23,6 @@
 
 `jigsaw build production`
 
-- 从 "build_production" 目录预览网站：
+- 从 `build_production` 目录预览网站：
 
 `jigsaw serve {{build_production}}`

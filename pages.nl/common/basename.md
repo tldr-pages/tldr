@@ -10,7 +10,7 @@
 
 - Toon alleen de meest rechtse mapnaam van een pad:
 
-`basename {{pad/naar/map/}}`
+`basename {{pad/naar/map}}`
 
 - Toon alleen de bestandsnaam van een pad met een suffix verwijderd:
 

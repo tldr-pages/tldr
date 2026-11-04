@@ -1,10 +1,10 @@
 # ack
 
-> Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars.
+> Een zoektool zoals `grep`, geoptimaliseerd voor ontwikkelaars.
 > Zie ook: `rg`.
 > Meer informatie: <https://beyondgrep.com/documentation/>.
 
-- Zoek recursief naar bestanden met een tekenreeks of reguliere expressie in de huidige map:
+- Zoek recursief naar bestanden met een tekenreeks of `regex` in de huidige map:
 
 `ack "{{zoekpatroon}}"`
 

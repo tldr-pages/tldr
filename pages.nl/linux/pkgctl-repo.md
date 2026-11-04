@@ -11,7 +11,7 @@
 
 `pkgctl repo clone --protocol https {{pkgname}}`
 
-- Maak een nieuwe GitLab pakketrepository en kloon deze na het aanmaken (vereist geldige GitLab API authenticatie):
+- Maak een nieuwe GitLab-pakketrepository en kloon deze na het aanmaken (vereist geldige GitLab-API authenticatie):
 
 `pkgctl repo create {{pkgbase}}`
 

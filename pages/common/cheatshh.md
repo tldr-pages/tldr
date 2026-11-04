@@ -2,6 +2,7 @@
 
 > CLI cheatsheet with customized descriptions, tldr, and groups, to look into for your reference.
 > Press `<Enter>` to a command to copy it to your clipboard and exit.
+> See also: `tldr`, `cheat`, `navi`.
 > More information: <https://github.com/AnirudhG07/cheatshh/blob/main/docs/man/cheatshh.1>.
 
 - Add a new command to the cheatsheet:

@@ -1,6 +1,6 @@
 # look
 
-> Toon regels die beginnen met een prefix in een gesorteerd bestand.
+> Toon regels die beginnen met een prefix in een bestand.
 > Opmerking: de regels in het bestand moeten gesorteerd zijn.
 > Zie ook: `grep`, `sort`.
 > Meer informatie: <https://manned.org/look>.

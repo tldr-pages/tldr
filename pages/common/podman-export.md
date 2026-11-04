@@ -10,4 +10,4 @@
 
 - Export a container's filesystem to `stdout`:
 
-`podman export {{container_name_or_id}} > {{path/to/file.tar}}`
+`podman export {{container_name_or_id}} >{{path/to/file.tar}}`

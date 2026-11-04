@@ -3,7 +3,7 @@
 > Voer shell-opdrachten uit op een aangesloten Android-apparaat of -emulator.
 > Meer informatie: <https://developer.android.com/tools/adb>.
 
-- Start een interactieve shell op een emulator of device:
+- Start een externe interactieve shell op een emulator of apparaat:
 
 `adb shell`
 

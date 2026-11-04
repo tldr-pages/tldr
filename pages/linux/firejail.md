@@ -23,7 +23,7 @@
 
 `firejail --netstats`
 
-- Shutdown a running sandbox:
+- Shut down a running sandbox:
 
 `firejail --shutdown={{7777}}`
 

@@ -9,7 +9,7 @@
 
 - Rimuove l'IP specificato dalla lista ban del servizio jail:
 
-`fail2ban-client set {{jail}} unbanip {{ip}}`
+`fail2ban-client set {{jail}} unbanip {{ip_address}}`
 
 - Verifica che il server fail2ban sia attivo:
 

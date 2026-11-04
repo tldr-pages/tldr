@@ -19,6 +19,6 @@
 
 `couchdb -k`
 
-- Shutdown the background process:
+- Shut down the background process:
 
 `couchdb -d`

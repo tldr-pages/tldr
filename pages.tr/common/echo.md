@@ -18,7 +18,7 @@
 
 - Dosyaya mesaj ekle:
 
-`echo "{{Merhaba Dünya}}" >> {{dosya.txt}}`
+`echo "{{Merhaba Dünya}}" >>{{dosya.txt}}`
 
 - Ters eğik çizgi kaçış karakterlerinin (özel karakterlerin) yorumlanmasını etkinleştir:
 

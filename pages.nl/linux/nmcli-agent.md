@@ -3,11 +3,11 @@
 > Draai `nmcli` als een NetworkManager secret/polkit agent.
 > Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#agent>.
 
-- Registeer `nmcli` als een secret agent en luister naar geheime verzoeken:
+- Registreer `nmcli` als een secret agent en luister naar geheime verzoeken:
 
 `nmcli {{[a|agent]}} {{[s|secret]}}`
 
-- Registreer `nmcli` als een polkit agent en luister naar autorisatie verzoeken:
+- Registreer `nmcli` als een polkit agent en luister naar autorisatieverzoeken:
 
 `nmcli {{[a|agent]}} {{[p|polkit]}}`
 

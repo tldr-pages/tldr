@@ -2,6 +2,7 @@
 
 > Toon simpele hulppagina's voor command-line programma's uit het tldr-pages project.
 > Opmerking: De opties `--language` en `--list` zijn niet vereist door de clientspecificatie, maar de meeste clients implementeren ze wel.
+> Zie ook: `cheatshh`, `cheat`, `navi`.
 > Meer informatie: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Toon de tldr-pagina voor een specifiek commando (hint: dit is hoe je hier bent gekomen!):

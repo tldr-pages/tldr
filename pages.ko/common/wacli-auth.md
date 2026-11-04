@@ -1,7 +1,7 @@
 # wacli auth
 
 > QR 코드를 통해 wacli를 WhatsApp에 인증.
-> 관련 항목: `wacli sync`, `wacli doctor`.
+> 관련 항목: `wacli sync`.
 > 더 많은 정보: <https://wacli.sh/auth.html>.
 
 - 인증 절차 시작:

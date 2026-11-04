@@ -11,7 +11,7 @@
 
 `docker {{[pull|image pull]}} {{[-q|--quiet]}} {{image}}:{{tag}}`
 
-- Download alle tags van een specifiek Docker image:
+- Download alle tags van een specifiek Docker-image:
 
 `docker {{[pull|image pull]}} {{[-a|--all-tags]}} {{image}}`
 

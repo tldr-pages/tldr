@@ -15,7 +15,7 @@
 
 `git stash {{[-p|--patch]}}`
 
-- Toon alle stashes (toont stash-naam, gerelateerde branch en bericht):
+- Toon alle stashes:
 
 `git stash list`
 
@@ -23,11 +23,11 @@
 
 `git stash show {{[-p|--patch]}}`
 
-- Pas een stash toe en verwijder deze van de stash-lijst als het toepassen niet tot conflicten lijdt:
+- Pas een stash toe en verwijder deze van de stash-lijst als het toepassen niet tot conflicten leidt:
 
 `git stash pop`
 
-- Verwijder de recenste stash:
+- Verwijder de recentste stash:
 
 `git stash drop`
 

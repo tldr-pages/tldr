@@ -12,7 +12,7 @@
 
 `kubectl run {{nginx-dev}} --image nginx --env "{{TEST_VAR}}={{testing}}"`
 
-- Show API calls that would be made to create an `nginx` container:
+- Simulate creating an `nginx` container, showing the API calls that would be made:
 
 `kubectl run {{nginx-dev}} --image nginx --dry-run={{none|server|client}}`
 

@@ -21,7 +21,7 @@
 
 - Convert CSV to JSON, performing calculations, and display those calculations:
 
-`mlr --icsv --ojson put '${{newField1}} = ${{oldFieldA}}/${{oldFieldB}}' {{example.csv}}`
+`mlr --icsv --ojson put '${{new_field1}} = ${{old_field_a}}/${{old_field_b}}' {{example.csv}}`
 
 - Receive JSON and format the output as vertical JSON:
 
@@ -29,4 +29,4 @@
 
 - Filter lines of a compressed CSV file treating numbers as [S]trings:
 
-`mlr --prepipe 'gunzip' {{[-c|--csv]}} filter {{[-S|--infer-none]}} '${{fieldName}} =~ "{{regex}}"' {{example.csv.gz}}`
+`mlr --prepipe 'gunzip' {{[-c|--csv]}} filter {{[-S|--infer-none]}} '${{field_name}} =~ "{{regex}}"' {{example.csv.gz}}`

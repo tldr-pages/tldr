@@ -1,7 +1,7 @@
 # prowler github
 
 > GitHub 계정, 저장소 및 조직의 보안 모범 사례를 점검.
-> 관련 항목: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`.
+> 관련 항목: `prowler aws`, `prowler azure`, `prowler gcp`, `prowler kubernetes`, `prowler m365`.
 > 더 많은 정보: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - 기본 GitHub 보안 검사 실행:

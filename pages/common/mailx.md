@@ -13,7 +13,7 @@
 
 - Send mail with content read from a file:
 
-`mailx < {{content.txt}} {{[-s|--subject]}} "{{subject}}" {{to_addr}}`
+`mailx <{{content.txt}} {{[-s|--subject]}} "{{subject}}" {{to_addr}}`
 
 - Send mail to a recipient and CC to another address:
 

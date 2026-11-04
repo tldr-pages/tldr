@@ -8,7 +8,7 @@
 
 - 启用 `nix` 命令（这是一个实验性功能）：
 
-`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' >~/.config/nix/nix.conf`
 
 - 根据名称或描述在 nixpkgs 中搜索软件包：
 

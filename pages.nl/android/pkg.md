@@ -7,7 +7,7 @@
 
 `pkg {{[up|upgrade]}}`
 
-- Toon geïnstalleerde pakketten:
+- Toon momenteel geïnstalleerde pakketten:
 
 `pkg {{[list-i|list-installed]}}`
 

@@ -20,7 +20,7 @@
 
 `ssh {{username}}@{{remote_host}} -t {{command}} {{command_arguments}}`
 
-- SSH tunneling: [D]ynamic port forwarding (SOCKS proxy on `localhost:1080`):
+- SSH tunneling: Use [D]ynamic port forwarding (SOCKS proxy on `localhost:1080`):
 
 `ssh {{username}}@{{remote_host}} -D {{1080}}`
 

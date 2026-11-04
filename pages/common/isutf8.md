@@ -19,6 +19,6 @@
 
 `isutf8 {{[-l|--list]}} {{path/to/file1 path/to/file2 ...}}`
 
-- Same as `--list` but inverted, i.e., only print the names of the files containing valid UTF-8:
+- Only print the names of the files containing valid UTF-8 (the inverse of `--list`):
 
 `isutf8 {{[-i|--invert]}} {{path/to/file1 path/to/file2 ...}}`

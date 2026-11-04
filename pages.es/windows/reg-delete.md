@@ -15,6 +15,6 @@
 
 `reg delete {{nombre_clave}} /va`
 
-- [f]orzar (sin un aviso) la eliminación de todos [a] los [v]alores recursivamente bajo una clave:
+- [f]orza (sin un aviso) la eliminación de todos [a] los [v]alores recursivamente bajo una clave:
 
 `reg delete {{nombre_clave}} /f /va`

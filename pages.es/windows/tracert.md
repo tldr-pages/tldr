@@ -5,23 +5,23 @@
 
 - Rastrea una ruta:
 
-`tracert {{ip}}`
+`tracert {{ip_address}}`
 
 - Evita que `tracert` resuelva direcciones IP a nombres de host:
 
-`tracert /d {{ip}}`
+`tracert /d {{ip_address}}`
 
 - Obliga a que `tracert` use solo IPv4:
 
-`tracert /4 {{ip}}`
+`tracert /4 {{ip_address}}`
 
 - Obliga a que `tracert` use solo IPv6:
 
-`tracert /6 {{ip}}`
+`tracert /6 {{ip_address}}`
 
 - Especifica el número máximo de saltos en la búsqueda del destino:
 
-`tracert /h {{max_saltos}} {{ip}}`
+`tracert /h {{max_saltos}} {{ip_address}}`
 
 - Muestra la ayuda:
 

@@ -22,7 +22,7 @@
 
 - Include libraries located at a different path than the source file:
 
-`clang++ {{path/to/source.cpp}} {{[-o|--output]}} {{path/to/output_executable}} -I{{path/to/header_path}} -L{{path/to/library_path}} -l{{path/to/library_name}}`
+`clang++ {{path/to/source.cpp}} {{[-o|--output]}} {{path/to/output_executable}} -I{{path/to/headers}} -L{{path/to/library}} -l{{path/to/library_name}}`
 
 - Compile source code into LLVM Intermediate Representation (IR):
 

@@ -1,6 +1,7 @@
 # ip rule
 
 > IP yönlendirme politikası veri tabanı yönetimi.
+> Ayrıca bakınız: `ip route`.
 > Daha fazla bilgi için: <https://manned.org/ip-rule>.
 
 - Yönlendirme politikasını göster:
@@ -29,8 +30,8 @@
 
 - Tüm kuralları bir dosyaya kaydet:
 
-`ip {{[ru|rule]}} {{[s|save]}} > {{ip_kuralları.dat/dosyasının/yolu}}`
+`ip {{[ru|rule]}} {{[s|save]}} >{{ip_kuralları.dat/dosyasının/yolu}}`
 
 - Tüm kuralları bir dosyadan geri yükle:
 
-`sudo ip {{[ru|rule]}} {{[r|restore]}} < {{ip_kuralları.dat/dosyasının/yolu}}`
+`sudo ip {{[ru|rule]}} {{[r|restore]}} <{{ip_kuralları.dat/dosyasının/yolu}}`

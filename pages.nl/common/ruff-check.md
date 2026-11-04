@@ -1,7 +1,7 @@
 # ruff check
 
 > Een extreem snelle Python linter. `check` is het standaard commando - het kan overal weggelaten worden.
-> Als geen bestanden of mappen zijn gespecificeerd, wordt de huidige map gebruikt.
+> Als geen bestanden of mappen zijn gespecificeerd, wordt standaard de huidige map gebruikt.
 > Meer informatie: <https://docs.astral.sh/ruff/linter/>.
 
 - Voer de linter uit op de opgegeven bestanden of mappen:
@@ -16,7 +16,7 @@
 
 `ruff check --watch`
 
-- Zet alleen de gespecificeerde regels (of alle regels) aan en negeer het configuratie bestand:
+- Zet alleen de gespecificeerde regels (of alle regels) aan en negeer het configuratiebestand:
 
 `ruff check --select {{ALL|regelcode1,regelcode2,...}}`
 

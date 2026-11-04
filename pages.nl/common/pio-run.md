@@ -1,13 +1,13 @@
 # pio run
 
-> Voer PlatformIO project doelen uit.
+> Voer PlatformIO projectdoelen uit.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/cmd_run.html>.
 
-- Toon alle beschikbare project doelen:
+- Toon alle beschikbare projectdoelen:
 
 `pio run --list-targets`
 
-- Toon alle beschikbare project doelen voor een specifieke omgeving:
+- Toon alle beschikbare projectdoelen voor een specifieke omgeving:
 
 `pio run --list-targets {{[-e|--environment]}} {{omgeving}}`
 

@@ -15,7 +15,7 @@
 
 `uv version --bump {{major|minor|patch}}`
 
-- Preview version changes without writing to `pyproject.toml`:
+- Simulate a version bump without writing to `pyproject.toml`:
 
 `uv version --bump {{patch}} --dry-run`
 

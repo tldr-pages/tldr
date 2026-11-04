@@ -7,7 +7,7 @@
 
 `koji build {{target}} {{path/to/src.rpm}}`
 
-- Build a package from a SCM (Source Code Management) URL:
+- Build a package from an SCM (Source Code Management) URL:
 
 `koji build {{target}} {{git+https://src.fedoraproject.org/rpms/vim.git#e847a50297a216229050bf4db3d06a139104e7cf}}`
 

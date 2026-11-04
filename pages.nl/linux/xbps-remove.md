@@ -12,7 +12,7 @@
 
 `xbps-remove {{[-R|--recursive]}} {{pakket}}`
 
-- Verwijder verweesde pakketten (geïnstalleerd als afhankelijkheden, maar niet langer vereist door een pakket):
+- Verwijder weespakketten (geïnstalleerd als afhankelijkheden, maar niet langer vereist door een pakket):
 
 `xbps-remove {{[-o|--remove-orphans]}}`
 

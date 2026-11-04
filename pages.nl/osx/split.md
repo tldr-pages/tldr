@@ -7,7 +7,7 @@
 
 `split -l 10 {{pad/naar/bestand}}`
 
-- Split een bestand op een reguliere expressie. De overeenkomende regel zal de eerste regel van het volgende uitvoerbestand zijn:
+- Split een bestand op basis van een `regex`. De overeenkomende regel zal de eerste regel van het volgende uitvoerbestand zijn:
 
 `split -p {{cat|^[dh]og}} {{pad/naar/bestand}}`
 

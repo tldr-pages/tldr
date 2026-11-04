@@ -1,6 +1,6 @@
 # qm disk
 
-> Beheer schijf images.
+> Beheer schijfimages.
 > Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_disk_import>.
 
 - Voeg `n` gigabytes toe aan een virtuele schijf:
@@ -17,9 +17,9 @@
 
 - Importeer een VMDK/`.qcow2`/raw schijfimage met een specifieke opslagnaam:
 
-`qm {{[di|disk]}} {{[i|import]}} {{100}} {{pad/naar/schijf}} {{opslagnaam}} --format {{qcow2|raw|vmdk}}`
+`qm {{[di|disk]}} {{[i|import]}} {{100}} {{pad/naar/schijf}} {{opslag_naam}} --format {{qcow2|raw|vmdk}}`
 
-- Scan alle opslag opnieuw en update schijfgroottes en ongebruikte schijf images:
+- Scan alle opslag opnieuw en update schijfgroottes en ongebruikte schijfimages:
 
 `qm {{[di|disk]}} {{[resc|rescan]}}`
 

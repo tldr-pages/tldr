@@ -19,6 +19,6 @@
 
 `qm {{[lists|listsnapshot]}} {{100}}`
 
-- Rollback the state of a specific VM to a specified snapshot:
+- Roll back the state of a specific VM to a specified snapshot:
 
 `qm {{[ro|rollback]}} {{100}} {{snapshot_name}}`

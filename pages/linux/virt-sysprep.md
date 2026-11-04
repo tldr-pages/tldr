@@ -17,7 +17,7 @@
 
 `sudo virt-sysprep {{[-a|--add]}} {{path/to/image.qcow2}}`
 
-- Specify a virtual machine by its name and run all enabled operations but don't actually apply the changes:
+- Simulate running all enabled operations on a virtual machine specified by its name:
 
 `sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} {{[-n|--dry-run]}}`
 

@@ -8,6 +8,6 @@
 
 `fg`
 
-- Traer un trabajo específico al primer plano (ejecute `jobs` para encontrar el número del trabajo):
+- Trae un trabajo específico al primer plano (ejecute `jobs` para encontrar el número del trabajo):
 
 `fg %{{numero_de_trabajo}}`

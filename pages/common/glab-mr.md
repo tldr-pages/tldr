@@ -14,7 +14,7 @@
 
 - Check out a merge request of a specific repo:
 
-`glab {{[co|mr checkout]}} {{mr_number}} {{[-R|--repo]}} {{repo-owner}}/{{repository}}`
+`glab {{[co|mr checkout]}} {{mr_number}} {{[-R|--repo]}} {{repo_owner}}/{{repository}}`
 
 - View the changes made in the merge request:
 

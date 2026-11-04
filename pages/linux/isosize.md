@@ -11,6 +11,6 @@
 
 `isosize {{[-x|--sectors]}} {{path/to/file.iso}}`
 
-- Display the size of an ISO file divided by a given number (only usable when --sectors is not given):
+- Display the size of an ISO file divided by a given number (only usable when `--sectors` is not given):
 
 `isosize {{[-d|--divisor]}} {{number}} {{path/to/file.iso}}`

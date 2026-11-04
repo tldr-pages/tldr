@@ -5,7 +5,7 @@
 
 - Convert JPEG/JFIF image to a PPM or PGM image:
 
-`jpegtopnm {{path/to/file.jpg}} > {{path/to/file.pnm}}`
+`jpegtopnm {{path/to/file.jpg}} >{{path/to/file.pnm}}`
 
 - Display version:
 

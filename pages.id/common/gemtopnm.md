@@ -5,7 +5,7 @@
 
 - Ubah suatu berkas gambar GEM menjadi gambar PNM:
 
-`gemtopnm {{jalan/menuju/berkas.img}} > {{path/menuju/output.pnm}}`
+`gemtopnm {{jalan/menuju/berkas.img}} >{{path/menuju/output.pnm}}`
 
 - Tampilkan deskripsi isi dari suatu berkas gambar GEM:
 

@@ -30,4 +30,4 @@
 
 - Capture a screenshot of the active window after a delay of 5 seconds:
 
-`i3-scrot --window {{5}}`
+`i3-scrot --window 5`

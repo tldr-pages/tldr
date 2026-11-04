@@ -14,7 +14,7 @@
 
 - Craque la clé du fichier de capture en utilisant la liste de mots et le [e]ssid du point d'accès :
 
-`aircrack-ng -w {{chemin/vers/liste.txt}} -e {{essid}} {{chemin/vers/capture.cap}}`
+`aircrack-ng -w {{chemin/vers/liste.txt}} -e {{extended_ssid}} {{chemin/vers/capture.cap}}`
 
 - Craque la clé du fichier de capture à l'aide de la liste de mots et de l'adresse MAC du point d'accès :
 

@@ -15,7 +15,7 @@
 
 `magick montage {{pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg ...}} -geometry {{640x480+0+0}} {{pad/naar/montage.jpg}}`
 
-- Beperk het aantal rijen en kolommen in het raster, waardoor invoerafbeeldingen over meerdere output-montages worden verdeeld:
+- Beperk het aantal rijen en kolommen in het raster, waardoor invoerafbeeldingen over meerdere uitvoermontages worden verdeeld:
 
 `magick montage {{pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg ...}} -geometry {{+0+0}} -tile {{2x3}} {{montage_%d.jpg}}`
 

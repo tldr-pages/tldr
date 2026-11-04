@@ -7,7 +7,7 @@
 
 `bun pm pack`
 
-- Run all steps without writing the tarball to disk:
+- Simulate packing, running all steps without writing the tarball to disk:
 
 `bun pm pack --dry-run`
 

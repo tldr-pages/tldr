@@ -5,12 +5,12 @@
 
 - `Ppmcirc` 타입의 색상환 생성:
 
-`ppmwheel {{지름}} > {{경로/대상/출력파일.ppm}}`
+`ppmwheel {{지름}} >{{경로/대상/출력파일.ppm}}`
 
 - `Hue-value` 타입의 색상환 생성:
 
-`ppmwheel {{[-huev|-huevalue]}} {{지름}} > {{경로/대상/출력파일.ppm}}`
+`ppmwheel {{[-huev|-huevalue]}} {{지름}} >{{경로/대상/출력파일.ppm}}`
 
 - `Hue-saturation` 타입의 색상환 생성:
 
-`ppmwheel {{[-hues|-huesaturation]}} {{지름}} > {{경로/대상/출력파일.ppm}}`
+`ppmwheel {{[-hues|-huesaturation]}} {{지름}} >{{경로/대상/출력파일.ppm}}`

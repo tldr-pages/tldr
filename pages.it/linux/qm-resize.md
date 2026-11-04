@@ -2,6 +2,6 @@
 
 > Questo comando è un alias per `qm disk resize`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr qm disk`

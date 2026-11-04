@@ -8,7 +8,7 @@
 
 `Start-Service -Name {{service_name}}`
 
-- Display information without starting a service:
+- Simulate starting a service, displaying what would happen:
 
 `Start-Service -DisplayName *{{name}}* -WhatIf`
 

@@ -22,11 +22,11 @@
 
 - Toon de compressieverhouding voor elk verwerkt bestand met gedetailleerde informatie:
 
-`bzip2 {{[-v|--verbose]}} {{pad/naar/gecomprimeerd_bestand.bz2}}`
+`bzip2 {{[-v|--verbose]}} {{pad/naar/gecomprimeerde_bestanden.bz2}}`
 
 - Decomprimeer een bestand en overschrijf bestaande bestanden:
 
-`bzip2 {{[-f|--force]}} {{pad/naar/gecomprimeerd_bestanden.bz2}}`
+`bzip2 {{[-f|--force]}} {{pad/naar/gecomprimeerd_bestand.bz2}}`
 
 - Toon de help:
 

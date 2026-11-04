@@ -1,7 +1,7 @@
 # cal
 
 > 현재 날짜가 강조된 달력을 표시합니다.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=cal>.
 
 - 현재 월의 달력 표시:
 

@@ -12,7 +12,7 @@
 
 `git mr {{mr_number}} {{remote}}`
 
-- Checkout a merge request from its URL:
+- Check out a merge request from its URL:
 
 `git mr {{url}}`
 

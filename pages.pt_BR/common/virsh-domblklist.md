@@ -1,7 +1,6 @@
 # virsh domblklist
 
 > Listar informações sobre dispositivos de bloco associados a uma máquina virtual.
-> Veja também: `virsh`.
 > Mais informações: <https://manned.org/virsh>.
 
 - Lista o nome do destino e o caminho da origem dos dispositivos de bloco:

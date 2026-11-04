@@ -7,7 +7,7 @@
 
 `git clean {{[-i|--interactive]}}`
 
-- Show which files would be deleted without actually deleting them:
+- Simulate the cleanup, showing which files would be deleted:
 
 `git clean {{[-n|--dry-run]}}`
 

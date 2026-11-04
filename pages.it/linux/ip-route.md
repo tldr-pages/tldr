@@ -1,7 +1,7 @@
 # ip route
 
 > Sottocomando di gestione della tabella di routing IP.
-> Vedi anche: `routel`.
+> Vedi anche: `routel`, `ip rule`.
 > Maggiori informazioni: <https://manned.org/ip-route>.
 
 - Mostra la tabella di routing `main`:

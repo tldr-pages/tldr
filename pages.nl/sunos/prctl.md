@@ -5,12 +5,12 @@
 
 - Bekijk de proceslimieten en -rechten:
 
-`prctl {{pid}}`
+`prctl {{proces_id}}`
 
 - Bekijk de proceslimieten en -rechten in een machineleesbaar formaat:
 
-`prctl -P {{pid}}`
+`prctl -P {{proces_id}}`
 
 - Verkrijg een specifieke limiet voor een lopend proces:
 
-`prctl -n process.max-file-descriptor {{pid}}`
+`prctl -n process.max-file-descriptor {{proces_id}}`

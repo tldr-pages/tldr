@@ -16,7 +16,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{path/to/output.gif}}`
 
-- Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
+- Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc.) into a video or GIF:
 
 `ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 

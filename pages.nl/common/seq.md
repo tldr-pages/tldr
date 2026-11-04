@@ -15,6 +15,10 @@
 
 `seq 5 3 20`
 
+- Toon een omgekeerde reeks van 10 tot 1:
+
+`seq 10 -1 1`
+
 - Scheid de uitvoer met een spatie in plaats van een nieuwe regel:
 
 `seq {{[-s|--separator]}} " " {{5 3 20}}`

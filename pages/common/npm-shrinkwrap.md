@@ -1,10 +1,10 @@
 # npm shrinkwrap
 
-> Lock down the dependencies of a package, creating a `npm-shrinkwrap.json` file.
+> Lock down the dependencies of a package, creating an `npm-shrinkwrap.json` file.
 > Similar to `package-lock.json` but intended for published packages.
 > More information: <https://docs.npmjs.com/cli/v11/npm-shrinkwrap>.
 
-- Generate a `npm-shrinkwrap.json` file from the current `package-lock.json`:
+- Generate an `npm-shrinkwrap.json` file from the current `package-lock.json`:
 
 `npm shrinkwrap`
 

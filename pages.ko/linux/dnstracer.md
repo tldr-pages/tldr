@@ -5,7 +5,7 @@
 
 - 로컬 DNS가 www.example.com에 대한 정보를 어디서 얻었는지 확인:
 
-`dnstracer {{www.example.com}}`
+`dnstracer www.example.com`
 
 - 이미 알고 있는 특정 DNS에서 시작:
 
@@ -17,7 +17,7 @@
 
 - 실패 시 각 요청을 5번 재시도:
 
-`dnstracer -r {{5}} {{www.example.com}}`
+`dnstracer -r 5 {{www.example.com}}`
 
 - 실행 중 모든 단계 표시:
 

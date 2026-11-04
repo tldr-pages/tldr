@@ -15,6 +15,6 @@
 
 `lipo {{pad/naar/binary_bestand}} -detailed_info`
 
-- Pak een bestand met één architectuur uit uit een universeel bestand:
+- Pak een bestand met één architectuur van een universeel bestand uit:
 
 `lipo {{pad/naar/binary_bestand}} -thin {{arm64e}} -output {{pad/naar/binary_bestand.arm64e}}`

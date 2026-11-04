@@ -11,7 +11,7 @@
 
 `git add {{[-A|--all]}}`
 
-- Voeg alle bestanden toe in de huidige map:
+- Voeg recursief alle bestanden toe, beginnend vanuit de huidige map:
 
 `git add .`
 

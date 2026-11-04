@@ -25,4 +25,4 @@
 
 - Настроить формат вывода:
 
-`docker search {{[-f|--format]}} "{{.Name}}: {{.Description}}" {{ключевое_слово}}`
+`docker search {{[-f|--format]}} "\{\{.Name\}\}: \{\{.Description\}\}" {{ключевое_слово}}`

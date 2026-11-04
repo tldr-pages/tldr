@@ -1,7 +1,7 @@
 # fzf
 
 > Komut satırı belirsiz bulucu.
-> Sk'ya benzer.
+> Ayrıca bakınız: `sk`.
 > Daha fazla bilgi için: <https://github.com/junegunn/fzf#usage>.
 
 - Belirtilen dizindeki tüm dosyalarda `fzf`'yi başlat:
@@ -14,7 +14,7 @@
 
 - `<Shift Tab>` ile birden çok dosya seç ve bir dosyaya yaz:
 
-`find {{dosya/yolu/dizin}} -type f | fzf {{[-m|--multi]}} > {{dosya/yolu/dosya}}`
+`find {{dosya/yolu/dizin}} -type f | fzf {{[-m|--multi]}} >{{dosya/yolu/dosya}}`
 
 - `fzf`'yi belirli bir sorgu ile başlat:
 

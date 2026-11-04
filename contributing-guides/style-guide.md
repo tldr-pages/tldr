@@ -303,18 +303,28 @@ When linking pages to websites that have locale settings like the Microsoft Lear
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 ```
 
+- If the listed subcommands are not all the subcommands that have their own page, end the list with `etc.`. If every subcommand with its own page is listed, omit `etc.` and join the last item with `and` instead:
+
+```md
+> Some subcommands such as `append` and `filter` have their own usage documentation.
+> Some subcommands such as `delete`, `list`, and `set` have their own usage documentation.
+```
+
 #### Heading order
 
 The heading should adhere to the following order:
 
 ```md
-> Short description of the functionality.
-> Further clarification of the functionality.
+> Short description of the functionality written in imperative mood.
+> Further clarification of the functionality written in present tense.
 > Note: Any note for the usage.
-> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> Part of the Example suite.
+> Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
 > See also: `command`.
 > More information: <https://example.com>.
 ```
+
+A `Part of` line is equivalent to a `See also` line, but goes before the subcommands line when both are present.
 
 ## Example descriptions
 
@@ -358,9 +368,11 @@ Try to keep the following order:
 - Options with arguments
 - Output redirection to a file
 
-For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
+For example: `systemctl <input_file.txt status pipewire --user >output_file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to align them vertically.
+
+Prefer omitting the space after redirection operators (`<input`, `>output`) to treat them as a single unit.
 
 If the command does multiple things, try to keep the chronological order in which things happen.
 
@@ -405,6 +417,7 @@ In general, placeholders should make it as intuitive as possible to figure out h
 - For any reference to paths of files or directories, use the format `{{path/to/placeholder}}`, except when the location is implicit.
 - When the path cannot be relative and has to start at the root of the filesystem, prefix it with a slash outside the placeholder, such as `get /{{path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`.
+- Use the `{{path/to/mount_point}}` placeholder for the directory a filesystem is mounted on, instead of variants like `{{mountpoint}}` or `{{mount_point}}`. Hardcoded paths such as `/mnt` are only acceptable when the page describes a workflow that depends on them, like installing a system.
 
 #### Extensions
 
@@ -733,3 +746,11 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 *Writing prepositions is optional*
 
   However, if the line of a command example exceeds the [maximum length](https://github.com/tldr-pages/tldr/blob/main/.markdownlint.json#L5), choose the word `identificador` or `id` and use it across all placeholders in the page.
+
+### Hebrew-Specific Rules
+
+- Hebrew program descriptions should be short and should not address the reader. Example descriptions should use verbal nouns (שם פעולה).
+  For example, use `הצגת הקבצים` rather than `הצג את הקבצים` or `הציגו את הקבצים`.
+- Do not translate placeholders. Following the existing [rule for right-to-left languages](translation-templates/common-arguments.md), keep them in English to prevent text from being displayed in the wrong order.
+  For example, use `{{path/to/file}}` rather than `{{נתיב/אל/קובץ}}`.
+- For the full set of Hebrew-specific conventions, see [`style-guide.he.md`](style-guide.he.md).

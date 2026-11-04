@@ -8,29 +8,29 @@
 
 `tldr remove-item`
 
-- Verwijder een of meer, door spatie gescheiden, bestanden of patronen:
+- Verwijder een of meer bestanden of patronen:
 
-`del {{file_pattern1 file_pattern2 ...}}`
+`del {{bestand_patroon1 bestand_patroon2 ...}}`
 
 - Vraag om bevestiging voordat elk bestand wordt verwijderd:
 
-`del {{file_pattern}} /p`
+`del {{bestand_patroon}} /p`
 
 - Forceer de verwijdering van alleen-lezen bestanden:
 
-`del {{file_pattern}} /f`
+`del {{bestand_patroon}} /f`
 
 - Verwijder de bestand(en) recursief uit alle submappen:
 
-`del {{file_pattern}} /s`
+`del {{bestand_patroon}} /s`
 
 - Vraag niet om bevestiging voor het verwijderen van bestanden gebaseerd op een globale wildcard:
 
-`del {{file_pattern}} /q`
+`del {{bestand_patroon}} /q`
 
-- Verwijder bestanden op basis van opgegeven kenmerken:
+- Verwijder bestanden op basis van opgegeven attributen:
 
-`del {{file_pattern}} /a {{attribute}}`
+`del {{bestand_patroon}} /a {{attribuut}}`
 
 - Toon de help en beschikbare attributen:
 

@@ -1,9 +1,9 @@
 # jira open
 
-> Open een Jira issue of project in de browser.
+> Open een Jira-issue of -project in de browser.
 > Meer informatie: <https://github.com/ankitpokhrel/jira-cli#other-commands>.
 
-- Open het Jira project in de browser en toon de URL:
+- Open het Jira-project in de browser en toon de URL:
 
 `jira open`
 

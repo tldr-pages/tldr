@@ -9,4 +9,4 @@
 
 - Отформатировать вывод с использованием Go-шаблона:
 
-`docker buildx ls --format "{{.NAME}}: {{.DriverEndpoint}}"`
+`docker buildx ls --format "\{\{.NAME\}\}: \{\{.DriverEndpoint\}\}"`

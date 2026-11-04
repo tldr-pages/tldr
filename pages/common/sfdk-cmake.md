@@ -21,8 +21,8 @@
 
 - Run cmake build in current directory with extra cmake arguments:
 
-`sfdk cmake --build . {{cmake-arguments}}`
+`sfdk cmake --build . {{cmake_arguments}}`
 
 - Run cmake build in current directory with extra build tool arguments:
 
-`sfdk cmake --build . -- {{build-tool-arguments}}`
+`sfdk cmake --build . -- {{build_tool_arguments}}`

@@ -1,7 +1,7 @@
 # prowler kubernetes
 
 > Kubernetes 클러스터의 보안 모범 사례와 구성 설정을 점검.
-> 관련 항목: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-m365`, `prowler-github`.
+> 관련 항목: `prowler aws`, `prowler azure`, `prowler gcp`, `prowler m365`, `prowler github`.
 > 더 많은 정보: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - 기본 kubeconfig를 사용해 기본 보안 검사 실행:

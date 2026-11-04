@@ -13,7 +13,7 @@
 
 - Konteyner'in CPU kullanım yüzdesini göstermek için sütun formatını değiştir:
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - Tüm (çalışan veya durmuş) konteynerler için istatistikleri görüntüle:
 

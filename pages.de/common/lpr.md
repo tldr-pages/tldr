@@ -10,7 +10,7 @@
 
 - Drucke 2 Kopien einer Datei:
 
-`lpr -# {{2}} {{pfad/zu/datei}}`
+`lpr -# 2 {{pfad/zu/datei}}`
 
 - Drucke eine Datei mit einem bestimmten Drucker:
 

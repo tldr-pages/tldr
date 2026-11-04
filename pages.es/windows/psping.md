@@ -17,7 +17,7 @@
 
 - Hace ping al objetivo a través de TCP 50 veces y produce un histograma de los resultados:
 
-`psping {{nombre_del_host}}:{{puerto}} -q -n {{50}} -h`
+`psping {{nombre_del_host}}:{{puerto}} -q -n 50 -h`
 
 - Muestra la ayuda:
 

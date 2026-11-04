@@ -1,6 +1,6 @@
 # mongoimport
 
-> Imports content from a JSON, CSV, or TSV file into a MongoDB database.
+> Import content from a JSON, CSV, or TSV file into a MongoDB database.
 > More information: <https://www.mongodb.com/docs/database-tools/mongoimport/>.
 
 - Import a JSON file into a specific collection:

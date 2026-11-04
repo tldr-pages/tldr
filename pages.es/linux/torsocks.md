@@ -26,4 +26,4 @@
 
 - Se conecta a un proxy Tor que se ejecuta en una dirección y un puerto específico:
 
-`torsocks {{[-a|--address]}} {{ip}} {{[-P|--port]}} {{puerto}} {{comando}}`
+`torsocks {{[-a|--address]}} {{ip_address}} {{[-P|--port]}} {{puerto}} {{comando}}`

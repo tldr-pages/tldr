@@ -6,9 +6,9 @@
 
 - Maak een gerichte grafiek acyclisch door enkele randen om te keren:
 
-`acyclic {{pad/naar/invoer.gv}} > {{pad/naar/uitvoer.gv}}`
+`acyclic {{pad/naar/invoer.gv}} >{{pad/naar/uitvoer.gv}}`
 
-- Afdrukken als een grafiek acyclisch is, een cyclus heeft of ongericht is en geen uitvoergrafiek produceert:
+- Print of een grafiek acyclisch is, een cyclus heeft of ongericht is, zonder een uitvoergrafiek te produceren:
 
 `acyclic -v -n {{pad/naar/invoer.gv}}`
 

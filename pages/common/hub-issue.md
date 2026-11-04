@@ -1,6 +1,6 @@
 # hub issue
 
-> Manage Github issues.
+> Manage GitHub issues.
 > More information: <https://hub.github.com/hub-issue.1.html>.
 
 - List the last 10 issues with the `bug` label:

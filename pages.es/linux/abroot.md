@@ -1,6 +1,6 @@
 # abroot
 
-> Utilidad que proporciona completa inmutabilidad y atomicidad mediante transacciones entre 2 estados de partición de la raíz (A⟺B).
+> Utilidad que proporciona completa inmutabilidad y atomicidad mediante transacciones entre 2 estados de partición de la raíz (A<=>B).
 > Las actualizaciones se realizan utilizando imágenes OCI, para asegurar que el sistema está siempre en un estado consistente.
 > Más información: <https://docs.vanillaos.org/docs/en/abroot-manpage>.
 

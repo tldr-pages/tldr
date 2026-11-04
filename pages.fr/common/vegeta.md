@@ -6,7 +6,7 @@
 
 - Lance une attaque d'une durée de 30 secondes :
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration=30s`
 
 - Lance une attaque sur un serveur avec un certificat HTTPS auto-signé :
 
@@ -14,7 +14,7 @@
 
 - Lance une attaque avec un taux de 10 demandes par seconde :
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} -rate={{10}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} -rate=10`
 
 - Lance une attaque et affiche un rapport :
 
@@ -22,7 +22,7 @@
 
 - Lance une attaque et reporte les résultats sur un graphique (latence en fonction du temps) :
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} | vegeta plot > {{chemin/au/results.html}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} | vegeta plot >{{chemin/au/results.html}}`
 
 - Lance une attaque contre plusieurs URL à partir d'un fichier :
 

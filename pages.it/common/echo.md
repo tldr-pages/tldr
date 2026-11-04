@@ -18,7 +18,7 @@
 
 - Aggiungi un messaggio in coda ad un file:
 
-`echo "{{Hello World}}" >> {{file.txt}}`
+`echo "{{Hello World}}" >>{{file.txt}}`
 
 - Abilita l'interpretazione delle sequenze di escape con il backslash (caratteri speciali):
 

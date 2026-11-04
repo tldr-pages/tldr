@@ -4,11 +4,11 @@
 > Zie ook: `podman save`, `podman import`.
 > Meer informatie: <https://docs.podman.io/en/latest/markdown/podman-load.1.html>.
 
-- Laad een image vanuit een tar-bestand:
+- Laad een image vanuit een `.tar`-bestand:
 
 `podman load {{[-i|--input]}} {{pad/naar/bestand.tar}}`
 
-- Laad een image vanuit een gecomprimeerd tar-bestand:
+- Laad een image vanuit een gecomprimeerd `.tar`-bestand:
 
 `podman load {{[-i|--input]}} {{pad/naar/bestand.tar.ext}}`
 
@@ -18,4 +18,4 @@
 
 - Laad een image van `stdin`:
 
-`podman < {{pad/naar/bestand.tar}} load`
+`podman <{{pad/naar/bestand.tar}} load`

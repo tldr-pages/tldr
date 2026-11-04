@@ -1,6 +1,6 @@
 # Wait-Process
 
-> Waits for the processes to be stopped before accepting more input.
+> Wait for the processes to be stopped before accepting more input.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/wait-process>.
 

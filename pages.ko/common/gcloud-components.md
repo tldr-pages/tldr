@@ -1,7 +1,6 @@
 # gcloud components
 
 > Google Cloud CLI 컴포넌트 관리.
-> 관련 항목: `gcloud`.
 > 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/components>.
 
 - 설치 가능한 컴포넌트 목록 표시:

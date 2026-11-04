@@ -1,7 +1,7 @@
 # moviemk
 
 > Create and edit videos.
-> Note: This program has been deprecated.
+> Note: This command is deprecated.
 > More information: <https://learn.microsoft.com/previous-versions/windows/desktop/wmmdvdm/command-line-options-for-windows-movie-maker>.
 
 - Launch Windows Movie Maker:

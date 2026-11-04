@@ -8,7 +8,7 @@
 
 `sudo dd status=progress if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}}`
 
-- Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
+- Kloon een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
 `sudo dd bs=4M conv=fsync if={{/dev/bron_schijf}} of={{/dev/doel_schijf}}`
 

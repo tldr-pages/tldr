@@ -15,7 +15,7 @@
 
 `pio project init {{[-b|--board]}} {{ATmega328P|uno|...}}`
 
-- Initialiseer een nieuw PlatformIO gebaseerd project, met een of meerdere gespecificeerde project opties:
+- Initialiseer een nieuw PlatformIO gebaseerd project, met een of meerdere gespecificeerde projectopties:
 
 `pio project init {{[-O|--project-option]}} "{{optie}}={{waarde}}" {{[-O|--project-option]}} "{{optie}}={{waarde}}"`
 

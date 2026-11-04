@@ -7,7 +7,7 @@
 
 `nmcli {{[d|device]}}`
 
-- Toon alle beschikbare WiFi-toegangspunten:
+- Toon alle beschikbare Wi-Fi-toegangspunten:
 
 `nmcli {{[d|device]}} {{[w|wifi]}}`
 

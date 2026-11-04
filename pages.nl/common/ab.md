@@ -15,14 +15,14 @@
 
 `ab -n 100 -T {{application/json}} -p {{pad/naar/bestand.json}} {{url}}`
 
-- Gebruik HTTP Keep Alive, d.w.z. voer meerdere verzoeken uit binnen één HTTP-sessie:
+- Gebruik HTTP [k]eep-Alive, d.w.z. voer meerdere verzoeken uit binnen één HTTP-sessie:
 
 `ab -k {{url}}`
 
-- Stel het maximale aantal seconden in dat je wil besteden aan benchmarking:
+- Stel het maximale aantal seconden ([t]imeout) in dat je wilt besteden aan benchmarking (standaard 30):
 
 `ab -t {{60}} {{url}}`
 
-- Schrijf de resultaten naar een CSV bestand:
+- Schrijf de resultaten naar een CSV-bestand:
 
 `ab -e {{pad/naar/bestand.csv}}`

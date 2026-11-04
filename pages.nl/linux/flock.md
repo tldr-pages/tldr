@@ -1,6 +1,6 @@
 # flock
 
-> Beheer bestandslocks van shell scripts.
+> Beheer bestandslocks van shell-scripts.
 > Het kan gebruikt worden om ervoor te zorgen dat slechts één instantie van een commando draait.
 > Meer informatie: <https://manned.org/flock>.
 
@@ -8,11 +8,11 @@
 
 `flock {{pad/naar/lock.lock}} {{commando}}`
 
-- Voer een opdracht uit met een bestandslock, of sluit het programma af als de lock momenteel actief is (met foutcode 1):
+- Voer een opdracht uit met een bestandslock, of sluit het programma af als de lock momenteel wordt vastgehouden (met foutcode 1):
 
 `flock {{[-n|--nonblock]}} {{pad/naar/lock.lock}} {{commando}}`
 
-- Voer een opdracht uit met een bestandslock, of sluit af met een specifieke foutcode als de lock momenteel actief is:
+- Voer een opdracht uit met een bestandslock, of sluit af met een specifieke foutcode als de lock momenteel wordt vastgehouden:
 
 `flock {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{123}} {{pad/naar/lock.lock}} {{commando}}`
 
@@ -20,6 +20,6 @@
 
 `flock {{[-w|--timeout]}} 10 {{pad/naar/lock.lock}} {{commando}}`
 
-- Maak een back-up van een aantal bestanden, wacht tot het vorige `tar`-commando klaar is als deze nog wordt uitgevoerd en houd dezelfde bestandslock vast (kan gebruikt worden in een `cron` job die periodiek wordt uitgevoerd):
+- Maak een back-up van een aantal bestanden, wacht tot het vorige `tar`-commando klaar is als dit elders nog wordt uitgevoerd en dezelfde bestandslock vasthoudt (kan gebruikt worden in een `cron` job die vaak wordt uitgevoerd):
 
 `flock {{pad/naar/backup.lock}} {{tar -cvf pad/naar/backup.tar pad/naar/data/}}`

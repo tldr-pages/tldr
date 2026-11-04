@@ -17,7 +17,7 @@
 
 - Envía el contenido del portapapeles a un archivo:
 
-`xsel {{[-ob|--output --clipboard]}} > {{ruta/al/archivo}}`
+`xsel {{[-ob|--output --clipboard]}} >{{ruta/al/archivo}}`
 
 - Limpia el portapapeles:
 

@@ -11,10 +11,10 @@
 
 `chfn {{[-o|--office]}} {{nieuw_kantoornummer}} {{gebruikersnaam}}`
 
-- Werk het "Kantoor Telefoonnummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
+- Werk het "Kantoortelefoonnummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
 
 `chfn {{[-p|--office-phone]}} {{nieuw_kantoor_telefoonnummer}} {{gebruikersnaam}}`
 
-- Werk het "Thuis Telefoonnummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
+- Werk het "Thuistelefoonnummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
 
 `chfn {{[-h|--home-phone]}} {{nieuw_thuis_telefoonnummer}} {{gebruikersnaam}}`

@@ -4,7 +4,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Maak verbinding met een SMB server met gebruikersnaam en wachtwoord:
+- Maak verbinding met een SMB-server met gebruikersnaam en wachtwoord:
 
 `smbclient.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
@@ -18,7 +18,7 @@
 
 - Maak verbinding door een domeincontroller-IP op te geven:
 
-`smbclient.py -dc-ip {{domein_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
+`smbclient.py -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
 - Maak verbinding met een specifiek doel-IP in plaats van NetBIOS-naam:
 

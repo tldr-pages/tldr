@@ -24,7 +24,7 @@
 
 `fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{string|regex}}"`
 
-- Excluye archivos que coincidan con un patrón glob específico:
+- Excluye archivos que coincidan con un patrón `glob` específico:
 
 `fd {{string}} {{[-E|--exclude]}} {{glob}}`
 

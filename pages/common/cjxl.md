@@ -8,6 +8,10 @@
 
 `cjxl {{path/to/image.ext}} {{path/to/output}}.jxl`
 
+- Convert a JPEG to JPEG XL without losing data:
+
+`cjxl {{path/to/image}}.jpg {{path/to/output}}.jxl`
+
 - Convert with a specific effort level ('1' - fastest but worst results, '10' - slowest but best results, '7' - default):
 
 `cjxl {{[-e|--effort]}} {{1..10}} {{path/to/image.ext}} {{path/to/output}}.jxl`
@@ -19,6 +23,10 @@
 - Convert a JPEG to a JPEG XL with specific lossy quality:
 
 `cjxl {{[-q|--quality]}} {{0..100}} {{[-j|--lossless_jpeg]}} 0 {{path/to/image.jpeg}} {{path/to/output}}.jxl`
+
+- Adjust decoding speed at the expense of filesize:
+
+`cjxl --faster_decoding {{0..4}} {{path/to/image.ext}} {{path/to/output}}.jxl`
 
 - Display an extremely detailed help:
 

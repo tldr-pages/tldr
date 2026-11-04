@@ -21,7 +21,7 @@
 
 - 지정한 일부 리소스만 대상으로 Tofu 실행 계획 생성:
 
-`tofu plan -target {{리소스_타입.리소스_이름[인스턴스_인덱스]}}`
+`tofu plan -target {{리소스_타입.리소스_이름}}`
 
 - 실행 계획을 JSON 형식으로 출력:
 
@@ -29,4 +29,4 @@
 
 - 실행 계획을 색상 코드 없이 지정한 파일에 저장:
 
-`tofu plan -no-color > {{path/to/file}}`
+`tofu plan -no-color >{{path/to/file}}`
