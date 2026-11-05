@@ -6,7 +6,7 @@
 
 - Initialisiere ein lokales Repository:
 
-`borg init {{pfad/zu/repo_verzeichnis}}`
+`borg init {{[-e|--encryption]}} {{repokey|keyfile|none|...}} {{pfad/zu/repo_verzeichnis}}`
 
 - Sichere ein Verzeichnis in das Repository und erstelle ein Archiv mit dem Namen "Montag":
 
