@@ -18,4 +18,4 @@
 
 - Display version:
 
-`grafana --version`
+`grafana {{[-v|--version]}}`
