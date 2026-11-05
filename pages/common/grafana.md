@@ -6,7 +6,7 @@
 
 - Display help:
 
-`grafana --help`
+`grafana {{[-h|--help]}}`
 
 - Display version:
 
