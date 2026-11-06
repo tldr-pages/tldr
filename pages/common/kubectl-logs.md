@@ -25,7 +25,7 @@
 
 - Show the 10 most recent logs in a pod:
 
-`kubectl logs --tail {{10}} {{pod_name}}`
+`kubectl logs --tail 10 {{pod_name}}`
 
 - Show all pod logs for a given deployment:
 
