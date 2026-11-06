@@ -18,8 +18,8 @@
 
 - Terapkan indentasi kustom menggunakan karakter spasi. Pilih jumlah antara 2 dan 20 karakter:
 
-`astyle {{[-s|--indent=spaces=]}}{{jumlah_karakter_spasi}} {{jalan/menuju/berkas}}`
+`astyle {{[-s|--indent=spaces=]}}{{2..20}} {{jalan/menuju/berkas}}`
 
 - Terapkan indentasi kustom menggunakan karakter tab. Pilih jumlah antara 2 dan 20 karakter:
 
-`astyle {{[-t|--indent=tab=]}}{{jumlah_karakter_tab}} {{jalan/menuju/berkas}}`
+`astyle {{[-t|--indent=tab=]}}{{2..20}} {{jalan/menuju/berkas}}`

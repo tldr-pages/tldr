@@ -9,7 +9,7 @@
 
 - Belirli bir seviyede oyuna başla (dokuz resmi seviye vardır):
 
-`pacman4console --level={{seviye_numarasi}}`
+`pacman4console --level={{1..9}}`
 
 - pacman4console seviye editörünü başlat, belirli bir metin dosyasına kaydet:
 

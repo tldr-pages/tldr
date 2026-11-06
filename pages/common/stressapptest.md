@@ -13,4 +13,4 @@
 
 - Test specifying the verbosity level, where 0=lowest, 20=highest, 8=default:
 
-`stressapptest -M {{memory}} -v {{level}}`
+`stressapptest -M {{memory}} -v {{0..20}}`

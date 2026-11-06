@@ -13,7 +13,7 @@
 
 - Set the color of the clock using a color code (0-7):
 
-`tty-clock -C {{color_number}}`
+`tty-clock -C {{0..7}}`
 
 - Use a custom date format (strftime format):
 
