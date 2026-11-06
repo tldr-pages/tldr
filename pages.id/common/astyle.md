@@ -22,4 +22,4 @@
 
 - Terapkan indentasi kustom menggunakan karakter tab. Pilih jumlah antara 2 dan 20 karakter:
 
-`astyle {{[-t|--indent=tab=]}}{{jumlah_karakter_tab}} {{jalan/menuju/berkas}}`
+`astyle {{[-t|--indent=tab=]}}{{2..20}} {{jalan/menuju/berkas}}`
