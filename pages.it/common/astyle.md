@@ -22,4 +22,4 @@
 
 - Applica un'indentazione personalizzata utilizzando tab. Scegli tra 2 e 20 tab:
 
-`astyle {{[-t|--indent=tab=]}}{{numero_tab}} {{percorso/del/file}}`
+`astyle {{[-t|--indent=tab=]}}{{2..20}} {{percorso/del/file}}`
