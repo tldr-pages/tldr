@@ -27,7 +27,7 @@
 
 - Create new workspace (inside a herdr session):
 
-`<Ctrl b><Shift n>`
+`<Ctrl b><N>`
 
 - Create new tab (inside a herdr session):
 
