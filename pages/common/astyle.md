@@ -22,4 +22,4 @@
 
 - Apply a custom indent using tabs. Choose between 2 and 20 tabs:
 
-`astyle {{[-t|--indent=tab=]}}{{number_of_tabs}} {{path/to/file}}`
+`astyle {{[-t|--indent=tab=]}}{{2..20}} {{path/to/file}}`
