@@ -17,4 +17,4 @@
 
 - Unmount an image using the standard FUSE unmount utility:
 
-`fusermount3 -u {{path/to/mount_point}}`
+`fusermount -u {{path/to/mount_point}}`
