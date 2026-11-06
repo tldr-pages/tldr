@@ -14,20 +14,20 @@
 
 - 기본 편집기로 캐시에서 "4번째" 일치 항목 열기:
 
-`vgrep --show {{4}}`
+`vgrep {{[-s|--show]}} {{4}}`
 
 - 캐시에서 각 일치 항목에 대해 "3" 줄의 컨텍스트 표시:
 
-`vgrep --show=context{{3}}`
+`vgrep {{[-s|--show]}} {{[c|context]}}{{3}}`
 
 - 트리 내 각 디렉토리에 대한 일치 항목 수 표시:
 
-`vgrep --show=tree`
+`vgrep {{[-s|--show]}} {{[t|tree]}}`
 
 - 트리 내 각 파일에 대한 일치 항목 수 표시:
 
-`vgrep --show=files`
+`vgrep {{[-s|--show]}} {{[f|files]}}`
 
 - 캐시된 일치 항목과 함께 대화형 셸 시작:
 
-`vgrep --interactive`
+`vgrep {{[-i|--interactive]}}`

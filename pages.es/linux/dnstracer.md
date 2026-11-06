@@ -5,7 +5,7 @@
 
 - Averigua de dónde obtuvo tu servidor DNS local la información sobre www.example.com:
 
-`dnstracer {{www.example.com}}`
+`dnstracer www.example.com`
 
 - Empieza con un DNS específico que ya conozcas:
 
@@ -17,7 +17,7 @@
 
 - Vuelve a intentar cada solicitud 5 veces en caso de fallo:
 
-`dnstracer -r {{5}} {{www.example.com}}`
+`dnstracer -r 5 {{www.example.com}}`
 
 - Muestra todos los pasos durante la ejecución:
 

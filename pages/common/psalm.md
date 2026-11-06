@@ -29,4 +29,4 @@
 
 - Analyze a project in parallel with 4 threads:
 
-`psalm --threads {{4}}`
+`psalm --threads 4`

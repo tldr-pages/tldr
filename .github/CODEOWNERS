@@ -6,6 +6,7 @@
 /pages.fa/ @MrMw3
 /pages.fi/ @Managor
 /pages.fr/ @nicokosi @noraj @Raizo62 @open-source-learner
+/pages.he/ @emmanuel-ferdman
 /pages.hi/ @kbdharun @debghs
 /pages.id/ @reinhart1010
 /pages.it/ @Magrid0 @SpikeTheDragon40k
@@ -38,6 +39,7 @@
 /contributing-guides/*.fa.md @MrMw3
 /contributing-guides/*.fi.md @Managor
 /contributing-guides/*.fr.md @nicokosi @noraj @Raizo62 @open-source-learner
+/contributing-guides/*.he.md @emmanuel-ferdman
 /contributing-guides/*.hi.md @kbdharun @debghs
 /contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @Magrid0 @SpikeTheDragon40k
