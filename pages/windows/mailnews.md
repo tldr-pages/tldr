@@ -1,4 +1,4 @@
-# outlook-express
+# mailnews
 
 > This command is an alias of `msimn`.
 

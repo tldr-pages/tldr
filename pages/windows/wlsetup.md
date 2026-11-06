@@ -18,8 +18,8 @@
 
 - Save the installation logs to a specific directory:
 
-`wlsetup /log: "{{path\to\directory}}"`
+`wlsetup /log:"{{path\to\directory}}"`
 
 - Enable verbose logging and save to a specific directory:
 
-`wlsetup /verbose /log: "{{path\to\directory}}"`
+`wlsetup /verbose /log:"{{path\to\directory}}"`
