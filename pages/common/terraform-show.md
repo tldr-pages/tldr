@@ -25,4 +25,4 @@
 
 - Write to a file without color codes:
 
-`terraform show -no-color > {{path/to/file}}`
+`terraform show -no-color >{{path/to/file}}`

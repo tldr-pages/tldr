@@ -9,7 +9,7 @@
 
 - Собрать Kustomization и сохранить манифесты в файл:
 
-`flux build kustomization {{имя}} --path {{путь/к/kustomization}} > {{путь/к/manifests.yaml}}`
+`flux build kustomization {{имя}} --path {{путь/к/kustomization}} >{{путь/к/manifests.yaml}}`
 
 - Собрать Kustomization и передать результат напрямую в `kubectl`:
 

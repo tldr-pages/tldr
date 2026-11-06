@@ -5,15 +5,15 @@
 
 - Avvia un server Minecraft e genera un mondo se non esiste:
 
-`java -jar {{percorso/del/server.jar}} --nogui`
+`java -jar {{percorso/del/server}}.jar --nogui`
 
 - Imposta il quantitativo minimo e massimo di memoria che il server può avere (Nota: Impostare gli stessi valori previene lag causati da heap scaling):
 
-`java -Xms{{1024M}} -Xmx{{2048M}} -jar {{percorso/del/server.jar}} --nogui`
+`java -Xms{{1024M}} -Xmx{{2048M}} -jar {{percorso/del/server}}.jar --nogui`
 
 - Avvia un server con una GUI:
 
-`java -jar {{percorso/del/server.jar}}`
+`java -jar {{percorso/del/server}}.jar`
 
 - Spegne il server:
 

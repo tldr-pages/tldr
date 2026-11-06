@@ -5,4 +5,4 @@
 
 - Convert a Gould scanner file to a PPM image:
 
-`gouldtoppm {{path/to/file.gould}} > {{path/to/output.ppm}}`
+`gouldtoppm {{path/to/file.gould}} >{{path/to/output.ppm}}`

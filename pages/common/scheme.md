@@ -9,7 +9,7 @@
 
 - Run a scheme program (with no REPL output):
 
-`scheme < {{script.scm}} --quiet`
+`scheme <{{script.scm}} --quiet`
 
 - Load a scheme program into the REPL:
 

@@ -23,4 +23,4 @@
 
 - Format output using printf-like format string:
 
-`hexdump -e '{{element_format .. end_format}}' {{path/to/file}}`
+`hexdump -e '{{element_format}} .. {{end_format}}' {{path/to/file}}`

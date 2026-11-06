@@ -9,7 +9,7 @@
 
 - Create a new default config:
 
-`conky {{[-C|--print-config]}} > ~/.conkyrc`
+`conky {{[-C|--print-config]}} >~/.conkyrc`
 
 - Launch Conky with a given configuration file:
 

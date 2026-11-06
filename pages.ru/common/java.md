@@ -13,11 +13,11 @@
 
 - Выполнить `.jar`-программу:
 
-`java -jar {{имя_файла.jar}}`
+`java -jar {{имя_файла}}.jar`
 
 - Выполнить `.jar`-программу с отладкой, ожидающей подключения на порту 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{имя_файла.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{имя_файла}}.jar`
 
 - Показать справку:
 

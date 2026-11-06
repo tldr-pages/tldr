@@ -5,7 +5,7 @@
 
 - Save an image by redirecting `stdout` to a `.tar` archive:
 
-`docker {{[save|image save]}} {{image}}:{{tag}} > {{path/to/file.tar}}`
+`docker {{[save|image save]}} {{image}}:{{tag}} >{{path/to/file.tar}}`
 
 - Save an image to a `.tar` archive:
 

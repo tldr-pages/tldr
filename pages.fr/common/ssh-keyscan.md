@@ -17,4 +17,4 @@
 
 - Met à jour manuellement le fichier `known_hosts` des hôtes connus avec l'empreinte d'une :
 
-`ssh-keyscan -H {{hote_distant}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{hote_distant}} >>~/.ssh/known_hosts`
