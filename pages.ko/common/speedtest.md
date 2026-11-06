@@ -30,4 +30,4 @@
 
 - 특정 `speedtest.net` 서버로 속도 테스트 실행:
 
-`speedtest {{[-s|--server-id]}}  {{서버_id}}`
+`speedtest {{[-s|--server-id]}} {{서버_id}}`
