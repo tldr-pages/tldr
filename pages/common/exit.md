@@ -9,4 +9,4 @@
 
 - Exit with a specific exit status:
 
-`exit {{exit_code}}`
+`exit {{0..255}}`
