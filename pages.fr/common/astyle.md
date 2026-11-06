@@ -22,4 +22,4 @@
 
 - Applique une indentation personnalisé avec des tabulations. Choisi entre 2 et 20 tabulations :
 
-`astyle {{[-t|--indent=tab=]}}{{nombre_de_tabulations}} {{chemin/vers/fichier}}`
+`astyle {{[-t|--indent=tab=]}}{{2..20}} {{chemin/vers/fichier}}`
