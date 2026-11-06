@@ -11,7 +11,7 @@
 
 - Get list of supported commands and settings subdirectories of a specific settings directory:
 
-`{{/ip/route}} print`
+`{{/ip/route}} <F1>`
 
 - Filter out the list by commands and subdirectories starting with a specific query prefix:
 
