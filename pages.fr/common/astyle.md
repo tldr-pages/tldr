@@ -18,7 +18,7 @@
 
 - Applique une indentation personnalisé avec des espaces. Choisi entre 2 et 20 espaces :
 
-`astyle {{[-s|--indent=spaces=]}}{{nombre_d_espaces}} {{chemin/vers/fichier}}`
+`astyle {{[-s|--indent=spaces=]}}{{2..20}} {{chemin/vers/fichier}}`
 
 - Applique une indentation personnalisé avec des tabulations. Choisi entre 2 et 20 tabulations :
 
