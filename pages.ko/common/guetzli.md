@@ -13,4 +13,4 @@
 
 - 원하는 시각적 품질 (84-100)로 JPEG를 압축:
 
-`guetzli --quality {{품질_값}} {{입력.jpg}} {{출력.jpg}}`
+`guetzli --quality {{84..100}} {{입력.jpg}} {{출력.jpg}}`

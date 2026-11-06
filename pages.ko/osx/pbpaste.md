@@ -10,4 +10,4 @@
 
 - 클립보드의 내용을 명령어의 입력으로 사용:
 
-`pbpaste | grep foo`
+`pbpaste | {{grep foo}}`
