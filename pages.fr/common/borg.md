@@ -6,7 +6,7 @@
 
 - Initialise un dépôt local :
 
-`borg init {{/chemin/vers/repertoire_du_depot}}`
+`borg init {{[-e|--encryption]}} {{repokey|keyfile|none|...}} {{/chemin/vers/repertoire_du_depot}}`
 
 - Sauvegarde un répertoire dans le dépôt en créant une archive appelée "Lundi" :
 

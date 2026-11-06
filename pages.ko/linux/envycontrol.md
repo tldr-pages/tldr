@@ -5,15 +5,15 @@
 
 - 다른 GPU 모드로 전환:
 
-`sudo envycontrol -s {{nvidia|integrated|hybrid}}`
+`sudo envycontrol {{[-s|--switch]}} {{nvidia|integrated|hybrid}}`
 
 - 디스플레이 관리자 수동 지정:
 
-`envycontrol --dm`
+`envycontrol --dm {{gdm|gdm3|sddm|lightdm}}`
 
 - 현재 GPU 모드 확인:
 
-`sudo envycontrol --query`
+`sudo envycontrol {{[-q|--query]}}`
 
 - 설정 초기화:
 
@@ -21,8 +21,8 @@
 
 - 도움말 표시:
 
-`envycontrol --help`
+`envycontrol {{[-h|--help]}}`
 
 - 버전 표시:
 
-`envycontrol --version`
+`envycontrol {{[-v|--version]}}`
