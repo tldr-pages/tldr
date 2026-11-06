@@ -18,7 +18,7 @@
 
 - Applica un'indentazione personalizzata utilizzando spazi. Scegli tra 2 e 20 spazi:
 
-`astyle {{[-s|--indent=spaces=]}}{{numero_spazi}} {{percorso/del/file}}`
+`astyle {{[-s|--indent=spaces=]}}{{2..20}} {{percorso/del/file}}`
 
 - Applica un'indentazione personalizzata utilizzando tab. Scegli tra 2 e 20 tab:
 
