@@ -9,4 +9,4 @@
 
 - Sale con un estado de salida específico:
 
-`exit {{estado_de_salida}}`
+`exit {{0..255}}`
