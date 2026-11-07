@@ -7,7 +7,7 @@
 
 `alembic init {{chemin/vers/répertoire}}`
 
-- Créé un script de migration avec génération automatique :
+- Crée un script de migration avec génération automatique :
 
 `alembic revision --autogenerate -m "{{message}}"`
 
