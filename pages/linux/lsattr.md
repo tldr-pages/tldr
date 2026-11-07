@@ -10,7 +10,7 @@
 
 - List the attributes of files in a particular path:
 
-`lsattr {{path}}`
+`lsattr {{path/to/file_or_directory}}`
 
 - List file attributes recursively in the current and subsequent directories:
 

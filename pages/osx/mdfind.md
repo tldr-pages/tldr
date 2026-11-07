@@ -13,4 +13,4 @@
 
 - Find a file containing a string, in a given directory:
 
-`mdfind -onlyin {{directory}} "{{query}}"`
+`mdfind -onlyin {{path/to/directory}} "{{query}}"`
