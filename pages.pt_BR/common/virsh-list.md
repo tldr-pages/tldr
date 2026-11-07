@@ -1,7 +1,6 @@
 # virsh list
 
 > Liste o ID, nome e estado das máquinas virtuais.
-> Veja também: `virsh`.
 > Mais informações: <https://manned.org/virsh>.
 
 - Lista informações sobre máquinas virtuais em execução:

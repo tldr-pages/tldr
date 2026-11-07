@@ -5,7 +5,7 @@
 
 - Set display brightness to 50%:
 
-`blight set {{50}} {{[-r|--relative]}}`
+`blight set 50 {{[-r|--relative]}}`
 
 - Show current display brightness:
 

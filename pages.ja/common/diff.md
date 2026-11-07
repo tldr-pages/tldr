@@ -30,7 +30,7 @@
 
 - 2つのテキストファイルの差分からGit用のパッチファイルを作成します。存在しないファイルは空ファイルとして扱います:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{old_file}} {{new_file}} > {{diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{old_file}} {{new_file}} >{{diff.patch}}`
 
 - ファイルを比較し、出力を色分けして表示する:
 

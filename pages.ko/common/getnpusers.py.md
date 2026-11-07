@@ -22,4 +22,4 @@
 
 - 추가 분석을 위해 출력을 파일로 저장:
 
-`GetNPUsers.py {{도메인}}/ -usersfile {{경로/대상/사용자_목록}} -dc-ip {{도메인_컨트롤러_ip}} -request > {{경로/대상/출력파일.txt}}`
+`GetNPUsers.py {{도메인}}/ -usersfile {{경로/대상/사용자_목록}} -dc-ip {{도메인_컨트롤러_ip}} -request >{{경로/대상/출력파일.txt}}`

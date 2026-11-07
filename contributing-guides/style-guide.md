@@ -746,3 +746,11 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 *Writing prepositions is optional*
 
   However, if the line of a command example exceeds the [maximum length](https://github.com/tldr-pages/tldr/blob/main/.markdownlint.json#L5), choose the word `identificador` or `id` and use it across all placeholders in the page.
+
+### Hebrew-Specific Rules
+
+- Hebrew program descriptions should be short and should not address the reader. Example descriptions should use verbal nouns (שם פעולה).
+  For example, use `הצגת הקבצים` rather than `הצג את הקבצים` or `הציגו את הקבצים`.
+- Do not translate placeholders. Following the existing [rule for right-to-left languages](translation-templates/common-arguments.md), keep them in English to prevent text from being displayed in the wrong order.
+  For example, use `{{path/to/file}}` rather than `{{נתיב/אל/קובץ}}`.
+- For the full set of Hebrew-specific conventions, see [`style-guide.he.md`](style-guide.he.md).

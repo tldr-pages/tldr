@@ -5,4 +5,4 @@
 
 - Encode h264 video:
 
-`gst-launch-1.0 {{source}} ! vulkanupload ! vulkanh264enc ! h264parse ! {{sink}}`
+`gst-launch-1.0 {{videotestsrc}} ! vulkanupload ! vulkanh264enc ! h264parse ! {{filesink location=path/to/file.h264}}`

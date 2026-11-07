@@ -14,7 +14,7 @@
 
 - `adb` 연결 통해 화면을 캡처하고 로컬 파일로 저장:
 
-`adb shell screencap -p > {{경로/대상/이미지.png}}`
+`adb shell screencap -p >{{경로/대상/이미지.png}}`
 
 - 도움말 표시:
 

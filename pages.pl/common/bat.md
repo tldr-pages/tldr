@@ -11,11 +11,11 @@
 
 - Połącz kilka plików w plik docelowy:
 
-`bat {{plik1}} {{plik2}} > {{plik_docelowy}}`
+`bat {{plik1}} {{plik2}} >{{plik_docelowy}}`
 
 - Dodaj kilka plików do pliku docelowego:
 
-`bat {{plik1}} {{plik2}} >> {{plik_docelowy}}`
+`bat {{plik1}} {{plik2}} >>{{plik_docelowy}}`
 
 - Ponumeruj wszystkie linie:
 

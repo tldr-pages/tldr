@@ -9,7 +9,7 @@
 
 - Listen on port 8080 on localhost:
 
-`uvicorn --host {{localhost}} --port {{8080}} {{import.path:app_object}}`
+`uvicorn --host localhost --port 8080 {{import.path:app_object}}`
 
 - Turn on live reload:
 
@@ -17,7 +17,7 @@
 
 - Use 4 worker processes for handling requests:
 
-`uvicorn --workers {{4}} {{import.path:app_object}}`
+`uvicorn --workers 4 {{import.path:app_object}}`
 
 - Run app over HTTPS:
 

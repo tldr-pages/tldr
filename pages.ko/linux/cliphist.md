@@ -18,7 +18,7 @@
 
 - 지정한 ID의 클립보드 기록 삭제:
 
-`cliphist delete {{아이디}}`
+`echo {{아이디}} | cliphist delete`
 
 - 현재 클립보드 내용을 수동으로 저장:
 

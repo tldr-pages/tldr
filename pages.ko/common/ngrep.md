@@ -13,7 +13,7 @@
 
 - 인터페이스 eth0의 포트 22를 지나는 트래픽 캡처:
 
-`ngrep -d {{eth0}} port {{22}}`
+`ngrep -d {{eth0}} port 22`
 
 - 특정 호스트로부터 또는 특정 호스트로 가는 트래픽 캡처:
 
@@ -21,4 +21,4 @@
 
 - 인터페이스 eth0의 'User-Agent:' 키워드 필터링:
 
-`ngrep -d {{eth0}} '{{User-Agent:}}'`
+`ngrep -d eth0 '{{User-Agent:}}'`

@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Pilih warna latar depan dan belakang menggunakan kode warna heksadesimal (`1-9,a-f`):
+- Pilih warna latar depan dan belakang menggunakan kode warna heksadesimal (`0-9,a-f`):
 
 `color {{kode_warna_latar_depan}}{{kode_warna_latar_belakang}}`

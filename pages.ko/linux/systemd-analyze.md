@@ -14,11 +14,11 @@
 
 - 각 시스템 서비스가 시작된 시간을 보여주는 SVG 파일 생성, 초기화에 소요된 시간을 강조 표시:
 
-`systemd-analyze plot > {{경로/대상/file.svg}}`
+`systemd-analyze plot >{{경로/대상/file.svg}}`
 
 - 의존성 그래프를 그려 SVG 파일로 변환:
 
-`systemd-analyze dot | dot -T{{svg}} > {{경로/대상/file.svg}}`
+`systemd-analyze dot | dot -T{{svg}} >{{경로/대상/file.svg}}`
 
 - 실행 중인 유닛의 보안 점수 표시:
 

@@ -9,7 +9,7 @@
 
 - 특정 단계에서 게임 시작 (총 9개의 공식 단계가 있음):
 
-`pacman4console --level={{단계_번호}}`
+`pacman4console --level={{1..9}}`
 
 - 지정된 텍스트 파일에 저장하면서 pacman4console 레벨 편집기 시작:
 

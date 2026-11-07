@@ -9,11 +9,11 @@
 
 - Reemplaza una aplicación por otra en el dock del usuario actual:
 
-`dockutil --add {{ruta/a/la/aplicación}} --replacing '{{etiqueta_de_elemento_del_dock}}'`
+`dockutil --add /{{ruta/a/la/aplicación}} --replacing '{{etiqueta_de_elemento_del_dock}}'`
 
 - Añade un directorio con opciones de visualización y lo muestra como un icono de carpeta o pila:
 
-`dockutil --add {{/ruta/al/directorio}} --view {{grill|fan|list|auto}} --display {{folder|stack}}`
+`dockutil --add /{{ruta/al/directorio}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
 - Añade la URL de un elemento del dock después de otro elemento:
 

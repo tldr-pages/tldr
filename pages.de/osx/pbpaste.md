@@ -5,7 +5,7 @@
 
 - Schreibe den Inhalt der Zwischenablage in eine Datei:
 
-`pbpaste > {{datei}}`
+`pbpaste >{{datei}}`
 
 - Benutze die Zwischenablage als Eingabe für andere Kommandos:
 

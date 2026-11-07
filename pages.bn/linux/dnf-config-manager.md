@@ -2,7 +2,6 @@
 
 > Fedora ভিত্তিক সিস্টেমে DNF কনফিগারেশন অপশন এবং রিপোজিটরি পরিচালনা করুন।
 > `dnf` এর জন্য ডিফল্ট নয় তবে `dnf-plugins-core` এর মাধ্যমে সমর্থিত।
-> আরও দেখুন: `dnf`।
 > আরও তথ্য পাবেন: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>।
 
 - একটি URL থেকে একটি রিপোজিটরি যোগ করুন (এবং চালু করুন):

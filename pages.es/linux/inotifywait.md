@@ -22,11 +22,11 @@
 
 - Vigila un archivo en busca de cambios, cerrándose cuando no se produzca ningún evento durante 30 segundos:
 
-`inotifywait {{[-m|--monitor]}} {{[-t|--timeout]}} {{30}} {{ruta/al/archivo}}`
+`inotifywait {{[-m|--monitor]}} {{[-t|--timeout]}} 30 {{ruta/al/archivo}}`
 
 - Vigila un archivo solo en busca de eventos de modificación:
 
-`inotifywait {{[-e|--event]}} {{modify}} {{ruta/al/archivo}}`
+`inotifywait {{[-e|--event]}} modify {{ruta/al/archivo}}`
 
 - Vigila un archivo mostrando solo los eventos, sin mensajes de estado:
 
@@ -34,4 +34,4 @@
 
 - Ejecuta un comando cuando se accede a un archivo:
 
-`inotifywait {{[-e|--event]}} {{access}} {{ruta/al/archivo}} && {{command}}`
+`inotifywait {{[-e|--event]}} access {{ruta/al/archivo}} && {{command}}`

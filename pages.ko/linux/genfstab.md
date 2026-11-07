@@ -13,7 +13,7 @@
 
 - 일반적으로 fstab 파일을 생성하는 방법, 루트 권한 필요:
 
-`genfstab -U {{/mnt}} >> {{/mnt/etc/fstab}}`
+`genfstab -U {{/mnt}} >>{{/mnt/etc/fstab}}`
 
 - 볼륨을 fstab 파일에 추가하여 자동으로 마운트:
 

@@ -1,7 +1,6 @@
 # pacman --query
 
 > Narzędzie do zarządzania pakietami w Arch Linuksie.
-> Zobacz także: `pacman`.
 > Więcej informacji: <https://manned.org/pacman.8>.
 
 - Wyświetl zainstalowane pakiety i ich wersje:

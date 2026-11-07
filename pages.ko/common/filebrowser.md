@@ -15,7 +15,7 @@
 
 `filebrowser {{[-a|--address]}} {{host}} {{[-p|--port]}} {{port}} {{[-r|--root]}} {{경로/대상/디렉터리}}`
 
-- 설정 파일과 데이터베이스 위치를 지정 (기본값: 현재 디렉터리의  `filebrowser.db`파일):
+- 설정 파일과 데이터베이스 위치를 지정 (기본값: 현재 디렉터리의 `filebrowser.db`파일):
 
 `filebrowser {{[-c|--config]}} {{경로/대상/파일}} {{[-d|--database]}} {{경로/대상/데이터베이스.db}} {{[-r|--root]}} {{경로/대상/디렉터리}}`
 

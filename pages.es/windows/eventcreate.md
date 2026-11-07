@@ -6,7 +6,7 @@
 
 - Crea un nuevo evento con un ID dado (1-1000) en el registro:
 
-`eventcreate /t {{success|error|warning|information}} /id {{id}} /d "{{mensaje}}"`
+`eventcreate /t {{success|error|warning|information}} /id {{1..1000}} /d "{{mensaje}}"`
 
 - Crea un evento en un registro de eventos específico:
 

@@ -1,7 +1,6 @@
 # linode-cli account
 
 > Linode 계정 관리.
-> 관련 항목: `linode-cli`.
 > 더 많은 정보: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-account-management>.
 
 - 계정 보기:

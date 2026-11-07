@@ -8,7 +8,7 @@
 
 - Habilita el comando `nix`:
 
-`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' >~/.config/nix/nix.conf`
 
 - Busca un paquete en nixpkgs usando su nombre o descripción:
 
