@@ -4,7 +4,7 @@
 > ראה גם: `printf`.
 > למידע נוסף: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
-- הדפסת הודעת טקסט (הערה: המרכאות אופציונליות):
+- הדפסת הודעת טкסט (הערה: המרכאות אופציונליות):
 
 `echo "{{שלום עולם}}"`
 
