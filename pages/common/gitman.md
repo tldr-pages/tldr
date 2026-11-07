@@ -16,7 +16,11 @@
 
 `gitman update`
 
-- Display the current status and location of all installed dependencies:
+- Update a specific dependency and all its nested dependencies:
+
+`gitman update {{[-a|--all]}} {{dependency_name}}`
+
+- Display the current version of each installed dependency:
 
 `gitman list`
 
@@ -28,6 +32,6 @@
 
 `gitman show {{dependency_name}}`
 
-- Uninstall all dependencies managed by Gitman:
+- Uninstall all installed dependencies:
 
 `gitman uninstall`
