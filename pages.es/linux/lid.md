@@ -5,6 +5,6 @@
 > En Fedora y Arch Linux, `lid` es otro programa. Vea `tldr libuser-lid`.
 > Más información: <https://www.gnu.org/software/idutils/>.
 
-- Ve documentación de `libuser-lid`:
+- Visualiza la documentación de `libuser-lid`:
 
 `tldr libuser-lid`
