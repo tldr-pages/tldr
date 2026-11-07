@@ -10,7 +10,7 @@
 
 - Capture traffic on port 80 (HTTP) of a specific host:
 
-`sudo tcpick {{[-i|--interface]}} {{eth0}} {{[-C|--colors]}} -h {{192.168.1.100}} -p {{80}}`
+`sudo tcpick {{[-i|--interface]}} {{eth0}} {{[-C|--colors]}} -h {{192.168.1.100}} -p 80`
 
 - Display help:
 

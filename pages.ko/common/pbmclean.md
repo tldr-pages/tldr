@@ -5,12 +5,12 @@
 
 - 고립된 검은색 및 흰색 픽셀을 제거하여 PBM 이미지 정리:
 
-`pbmclean {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`
+`pbmclean {{경로/대상/이미지.pbm}} >{{경로/대상/출력.pbm}}`
 
 - 검은색/흰색 픽셀만 정리:
 
-`pbmclean -{{black|white}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`
+`pbmclean -{{black|white}} {{경로/대상/이미지.pbm}} >{{경로/대상/출력.pbm}}`
 
 - 고립되지 않은 픽셀로 간주되기 위한 최소한의 동일 색상 이웃 픽셀 수 지정:
 
-`pbmclean {{[-m|-minneighbors]}} {{3}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`
+`pbmclean {{[-m|-minneighbors]}} {{3}} {{경로/대상/이미지.pbm}} >{{경로/대상/출력.pbm}}`

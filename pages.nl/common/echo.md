@@ -18,7 +18,7 @@
 
 - Voeg een bericht aan een bestand toe:
 
-`echo "{{Hallo Wereld}}" >> {{bestand.txt}}`
+`echo "{{Hallo Wereld}}" >>{{bestand.txt}}`
 
 - Schakel interpretatie van backslash-escapes (speciale tekens) in:
 

@@ -11,7 +11,7 @@
 
 - Consulta todos los registros DNS (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR, CAA):
 
-`dnsx <<< {{example.com}} -recon {{[-re|-resp]}}`
+`dnsx <<<{{example.com}} -recon {{[-re|-resp]}}`
 
 - Consulta un tipo específico de registro DNS:
 

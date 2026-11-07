@@ -13,11 +13,11 @@
 
 - Ejecuta un programa `.jar`:
 
-`java -jar {{nombrearchivo.jar}}`
+`java -jar {{nombrearchivo}}.jar`
 
 - Ejecuta un programa `.jar` con depuración en espera de conexión en el puerto 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nombrearchivo.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nombrearchivo}}.jar`
 
 - Muestra la ayuda:
 

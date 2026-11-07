@@ -10,7 +10,7 @@
 
 - Read a PBM file as input and save an ASCII output into a file:
 
-`pbmtoascii {{path/to/input_file.pbm}} > {{path/to/output_file}}`
+`pbmtoascii {{path/to/input_file.pbm}} >{{path/to/output_file}}`
 
 - Read a PBM file as input while setting the pixel mapping (defaults to 1x2):
 

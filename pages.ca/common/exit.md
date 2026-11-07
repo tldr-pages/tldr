@@ -9,4 +9,4 @@
 
 - Surt amb un estat de sortida específic:
 
-`exit {{codi_de_sortida}}`
+`exit {{0..255}}`

@@ -10,16 +10,16 @@
 
 - 지정된 형식으로 컴파일:
 
-`lilypond --formats={{형식_덤프}} {{경로/대상/파일}}`
+`lilypond {{[-f|--format]}} {{형식_덤프}} {{경로/대상/파일}}`
 
 - 진행 상태 업데이트를 생략하고 지정된 파일을 컴파일:
 
-`lilypond -s {{경로/대상/파일}}`
+`lilypond {{[-s|--silent]}} {{경로/대상/파일}}`
 
 - 지정된 파일을 컴파일하고 출력 파일 이름 지정:
 
-`lilypond --output={{경로/대상/출력_파일}} {{경로/대상/입력_파일}}`
+`lilypond {{[-o|--output]}} {{경로/대상/출력_파일}} {{경로/대상/입력_파일}}`
 
 - lilypond의 현재 버전 확인:
 
-`lilypond --version`
+`lilypond {{[-v|--version]}}`

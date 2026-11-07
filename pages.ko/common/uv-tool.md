@@ -11,6 +11,10 @@
 
 `uv tool install {{패키지}}`
 
+- Git 저장소의 특정 태그에서 설치:
+
+`uv tool install "git+{{저장소_URL}}@{{v1.2.3}}"`
+
 - 설치된 Python 패키지 업그레이드:
 
 `uv tool upgrade {{패키지}}`

@@ -13,11 +13,11 @@
 
 - Stuur een bestand:
 
-`airpaste < {{pad/naar/bestand}}`
+`airpaste <{{pad/naar/bestand}}`
 
 - Ontvang een bestand:
 
-`airpaste > {{pad/naar/bestand}}`
+`airpaste >{{pad/naar/bestand}}`
 
 - Maak of word lid van een kanaal:
 

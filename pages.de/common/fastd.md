@@ -11,7 +11,7 @@
 
 - Starte einen Schicht-3-VPN mit einer MTU von 1400 und lade den Rest der Konfigurationsparameter aus einer Datei:
 
-`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} {{1400}} {{[-c|--config]}} {{pfad/zu/fastd.conf}}`
+`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} 1400 {{[-c|--config]}} {{pfad/zu/fastd.conf}}`
 
 - Validiere eine Konfigurationsdatei:
 

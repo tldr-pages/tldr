@@ -3,11 +3,11 @@
 > Muestra o establece la fecha del sistema.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
 
-- Muestra la fecha actual del sistema y solicitar ingresar una nueva fecha (dejar vacío para mantener sin cambios):
+- Muestra la fecha actual del sistema y solicita ingresar una nueva fecha (dejar vacío para mantener sin cambios):
 
 `date`
 
-- Muestra la fecha actual del sistema sin solicitar una nueva fecha:
+- Muestra la fecha actual del sistema sin solicita una nueva fecha:
 
 `date /t`
 

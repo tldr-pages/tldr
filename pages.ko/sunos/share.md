@@ -21,4 +21,4 @@
 
 - `/etc/dfs/dfstab`에 추가하여 영구적으로 공유 설정:
 
-`echo "share -F nfs -o rw /{{경로/대상/디렉터리}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{경로/대상/디렉터리}}" >>/etc/dfs/dfstab`

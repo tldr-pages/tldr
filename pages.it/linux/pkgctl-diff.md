@@ -1,7 +1,6 @@
 # pkgctl diff
 
 > Confronta file di pacchetti usando diverse modalità.
-> Vedi anche: `pkgctl`.
 > Maggiori informazioni: <https://manned.org/pkgctl-diff>.
 
 - Confronta file di pacchetti in modalità lista contenuti tar (predefinita):

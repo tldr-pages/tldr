@@ -22,7 +22,7 @@
 
 - حفظ قائمة الحزم المثبتة في ملف:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - عرض معلومات عن حزمة مثبتة:
 

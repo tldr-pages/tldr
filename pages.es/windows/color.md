@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Establece el primer plano y el fondo de la consola a un color específico utilizando números hexadecimales (`1-9,a-f`):
+- Establece el primer plano y el fondo de la consola a un color específico utilizando números hexadecimales (`0-9,a-f`):
 
 `color {{código_de_primer_plano}}{{código_de_fondo}}`

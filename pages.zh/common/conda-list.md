@@ -21,4 +21,4 @@
 
 - 保存包列表，以供以后使用：
 
-`conda list {{[-e|--export]}} > {{路径/到/包列表.txt}}`
+`conda list {{[-e|--export]}} >{{路径/到/包列表.txt}}`

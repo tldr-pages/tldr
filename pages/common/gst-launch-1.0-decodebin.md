@@ -5,4 +5,4 @@
 
 - Decode data to raw format:
 
-`gst-launch-1.0 {{source}} ! decodebin ! {{sink}}`
+`gst-launch-1.0 {{videotestsrc}} ! decodebin ! {{fakesink}}`

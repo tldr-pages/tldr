@@ -5,7 +5,7 @@
 
 - Baca data ASCII sebagai input dan hasilkan gambar PGM dengan nilai piksel yang merupakan perkiraan "kecerahan" karakter ASCII:
 
-`asciitopgm {{jalan/menuju/input}} > {{jalan/menuju/output.pgm}}`
+`asciitopgm {{jalan/menuju/input}} >{{jalan/menuju/output.pgm}}`
 
 - Tampilkan informasi versi:
 

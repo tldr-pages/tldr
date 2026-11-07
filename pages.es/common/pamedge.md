@@ -5,4 +5,4 @@
 
 - Detecta bordes en una imagen Netpbm:
 
-`pamedge {{ruta/a/entrada.pam}} > {{ruta/a/salida.pam}}`
+`pamedge {{ruta/a/entrada.pam}} >{{ruta/a/salida.pam}}`

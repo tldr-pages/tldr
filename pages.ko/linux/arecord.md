@@ -9,7 +9,7 @@
 
 - "CD" 품질로 10초 동안 고정된 길이로 녹음:
 
-`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} {{10}} {{경로/대상/파일.wav}}`
+`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} 10 {{경로/대상/파일.wav}}`
 
 - 녹음하여 MP3로 저장 (완료 시 `<Ctrl c>`로 종료):
 

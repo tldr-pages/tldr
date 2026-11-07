@@ -5,4 +5,4 @@
 
 - QOI 이미지를 Netpbm으로 변환:
 
-`qoitopam {{경로/대상/이미지.qoi}} > {{경로/대상/출력.pnm}}`
+`qoitopam {{경로/대상/이미지.qoi}} >{{경로/대상/출력.pnm}}`

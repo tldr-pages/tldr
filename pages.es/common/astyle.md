@@ -18,8 +18,8 @@
 
 - Aplica una sangría personalizada utilizando espacios. Elige entre 2 y 20 espacios:
 
-`astyle {{[-s|--indent=spaces=]}}{{número_de_espacios}} {{ruta/al/archivo}}`
+`astyle {{[-s|--indent=spaces=]}}{{2..20}} {{ruta/al/archivo}}`
 
 - Aplica una sangría personalizada utilizando tabuladores. Elige entre 2 y 20 tabulaciones:
 
-`astyle {{[-t|--indent=tab=]}}{{número_de_pestañas}} {{ruta/al/archivo}}`
+`astyle {{[-t|--indent=tab=]}}{{2..20}} {{ruta/al/archivo}}`

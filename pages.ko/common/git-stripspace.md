@@ -13,4 +13,4 @@
 
 - 파일의 모든 줄을 Git 주석으로 변환:
 
-`git < {{경로/대상/파일}} stripspace {{[-c|--comment-lines]}}`
+`git <{{경로/대상/파일}} stripspace {{[-c|--comment-lines]}}`

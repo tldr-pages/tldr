@@ -18,11 +18,11 @@
 
 - Display the output with 10 columns of one octet (byte) each:
 
-`xxd {{[-c|-cols]}} {{10}} {{input_file}}`
+`xxd {{[-c|-cols]}} 10 {{input_file}}`
 
 - Display output only up to a length of 32 bytes:
 
-`xxd {{[-l|-len]}} {{32}} {{input_file}}`
+`xxd {{[-l|-len]}} 32 {{input_file}}`
 
 - Display the output in plain mode, without any gaps between the columns:
 

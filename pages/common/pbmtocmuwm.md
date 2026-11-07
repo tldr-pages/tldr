@@ -6,4 +6,4 @@
 
 - Convert a PBM image to a CMU window manager bitmap:
 
-`pbmtocmuwm {{path/to/image.pbm}} > {{path/to/output.bmp}}`
+`pbmtocmuwm {{path/to/image.pbm}} >{{path/to/output.bmp}}`

@@ -11,7 +11,7 @@
 
 - Specificeer het uitvoerbestand:
 
-`lex -t {{analyzer.l}} > {{analyzer.c}}`
+`lex -t {{analyzer.l}} >{{analyzer.c}}`
 
 - Compileer een C-bestand dat door Lex is gegenereerd:
 

@@ -5,8 +5,8 @@
 
 - 직사각형 투영 세계지도를 Mercator 투영으로 변환:
 
-`pnmmercator {{경로/대상/이미지.pnm}} > {{경로/대상/출력파일.pnm}}`
+`pnmmercator {{경로/대상/이미지.pnm}} >{{경로/대상/출력파일.pnm}}`
 
 - Mercator 투영 세계지도를 직사각형 투영으로 변환:
 
-`pnmmercator {{[-i|-inverse]}} {{경로/대상/이미지.pnm}} > {{경로/대상/출력파일.pnm}}`
+`pnmmercator {{[-i|-inverse]}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력파일.pnm}}`

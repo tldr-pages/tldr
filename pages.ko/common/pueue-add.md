@@ -21,7 +21,7 @@
 
 - 명령 추가 및 9번과 12번 명령이 성공적으로 완료된 후 시작:
 
-`pueue add {{[-a|--after]}} {{9}} {{12}} {{[-g|--group]}} "{{토렌트}}" -- {{transmission-cli torrent_file.torrent}}`
+`pueue add {{[-a|--after]}} 9 12 {{[-g|--group]}} "{{토렌트}}" -- {{transmission-cli torrent_file.torrent}}`
 
 - 일정 시간 후 레이블을 붙여 명령 추가, 유효한 날짜 형식에 대해서는 `pueue enqueue` 참고:
 

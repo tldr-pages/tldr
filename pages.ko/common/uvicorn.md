@@ -9,7 +9,7 @@
 
 - localhost에서 포트 8080으로 수신 대기:
 
-`uvicorn --host {{localhost}} --port {{8080}} {{임포트.경로:앱_객체}}`
+`uvicorn --host localhost --port 8080 {{임포트.경로:앱_객체}}`
 
 - 라이브 리로드 활성화:
 
@@ -17,7 +17,7 @@
 
 - 요청을 처리하기 위해 4개의 워커 프로세스 사용:
 
-`uvicorn --workers {{4}} {{임포트.경로:앱_객체}}`
+`uvicorn --workers 4 {{임포트.경로:앱_객체}}`
 
 - HTTPS를 통해 앱 실행:
 

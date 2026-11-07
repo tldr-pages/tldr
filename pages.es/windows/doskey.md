@@ -25,7 +25,7 @@
 
 - Guarda macros en un archivo para portabilidad:
 
-`doskey /macros > {{ruta\al\archivo_macinit}}`
+`doskey /macros >{{ruta\al\archivo_macinit}}`
 
 - Carga macros desde un archivo:
 

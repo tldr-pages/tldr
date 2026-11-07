@@ -17,7 +17,7 @@
 
 - Format code from `stdin` and output to `stdout`:
 
-`stylua - < {{path/to/file.lua}}`
+`stylua - <{{path/to/file.lua}}`
 
 - Format a file or directory using spaces and preferring single quotes:
 

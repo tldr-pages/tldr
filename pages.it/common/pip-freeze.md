@@ -9,7 +9,7 @@
 
 - Scrivi i pacchetti installati nel file `requirements.txt`:
 
-`pip freeze > requirements.txt`
+`pip freeze >requirements.txt`
 
 - Elenca i pacchetti installati in un ambiente virtuale, escludendo i pacchetti installati globalmente:
 
