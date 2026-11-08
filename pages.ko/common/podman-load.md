@@ -18,4 +18,4 @@
 
 - `stdin`에서 이미지 불러오기:
 
-`podman < {{경로/대상/파일.tar}} load`
+`podman <{{경로/대상/파일.tar}} load`

@@ -5,7 +5,7 @@
 
 - 디스플레이 밝기를 50%로 설정:
 
-`blight set {{50}} {{[-r|--relative]}}`
+`blight set 50 {{[-r|--relative]}}`
 
 - 현재 디스플레이 밝기 표시:
 

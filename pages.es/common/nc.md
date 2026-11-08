@@ -5,11 +5,11 @@
 
 - Inicia un escuchador en un puerto TCP y le envía un archivo:
 
-`nc < {{nombre_de_archivo}} -l -p {{puerto}}`
+`nc <{{nombre_de_archivo}} -l -p {{puerto}}`
 
 - Conecta a un escuchador en un puerto y recibe un archivo de él:
 
-`nc {{host}} {{puerto}} > {{nombre_de_archivo_por_recibir}}`
+`nc {{host}} {{puerto}} >{{nombre_de_archivo_por_recibir}}`
 
 - Escanea los puertos TCP abiertos en un host:
 

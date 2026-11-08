@@ -29,4 +29,4 @@
 
 - Escribe un plan en un archivo específico:
 
-`tofu plan -no-color > {{ruta/al/archivo}}`
+`tofu plan -no-color >{{ruta/al/archivo}}`

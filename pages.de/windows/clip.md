@@ -9,7 +9,7 @@
 
 - Kopiere den Inhalt einer Datei in die Windows Zwischenablage:
 
-`clip < {{pfad/zu/datei.txt}}`
+`clip <{{pfad/zu/datei.txt}}`
 
 - Kopiere Text mit einem nachfolgenden Zeilenumbruch in die Windows Zwischenablage:
 

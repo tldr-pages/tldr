@@ -5,8 +5,8 @@
 
 - Convert a PBM image to an X11 XBM file:
 
-`pbmtoxbm {{path/to/input_file.pbm}} > {{path/to/output_file.xbm}}`
+`pbmtoxbm {{path/to/input_file.pbm}} >{{path/to/output_file.xbm}}`
 
 - Explicitly specify whether an X11 or X10 bitmap should be generated:
 
-`pbmtoxbm -{{x11|x10}} {{path/to/input_file.pbm}} > {{path/to/output_file.xbm}}`
+`pbmtoxbm -{{x11|x10}} {{path/to/input_file.pbm}} >{{path/to/output_file.xbm}}`

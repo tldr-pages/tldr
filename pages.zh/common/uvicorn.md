@@ -9,7 +9,7 @@
 
 - 在本地主机上监听端口 8080：
 
-`uvicorn --host {{localhost}} --port {{8080}} {{导入路径:应用对象}}`
+`uvicorn --host localhost --port 8080 {{导入路径:应用对象}}`
 
 - 启用实时重新加载：
 
@@ -17,7 +17,7 @@
 
 - 使用 4 个工作进程处理请求：
 
-`uvicorn --workers {{4}} {{导入路径:应用对象}}`
+`uvicorn --workers 4 {{导入路径:应用对象}}`
 
 - 通过 HTTPS 运行应用：
 

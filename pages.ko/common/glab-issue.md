@@ -17,7 +17,7 @@
 
 - `bug` 라벨이 있는 최근 10개 문제를 나열:
 
-`glab issue list {{[-P|--per-page]}} {{10}} {{[-l|--label]}} "{{bug}}"`
+`glab issue list {{[-P|--per-page]}} 10 {{[-l|--label]}} "{{bug}}"`
 
 - 특정 사용자가 작성한 닫힌 이슈를 나열:
 

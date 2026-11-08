@@ -6,4 +6,4 @@
 
 - Convert an MGR bitmap into a PBM file:
 
-`mgrtopbm {{path/to/image.mgr}} > {{path/to/output.pbm}}`
+`mgrtopbm {{path/to/image.mgr}} >{{path/to/output.pbm}}`

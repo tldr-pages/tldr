@@ -1,7 +1,6 @@
 # vagrant port
 
 > 게스트 머신과 호스트 간 포트 매핑을 표시.
-> 관련 항목: `vagrant`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/port>.
 
 - 현재 디렉터리에서 실행중인 machine의 모든 포트 매핑 표시:

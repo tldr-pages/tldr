@@ -17,7 +17,7 @@
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`shasum --algorithm 256 {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha256}}`
+`shasum --algorithm 256 {{path/to/file1 path/to/file2 ...}} >{{path/to/file.sha256}}`
 
 - Read a file of SHA checksums and filenames and verify all files have matching checksums (the algorithm will be automatically detected):
 

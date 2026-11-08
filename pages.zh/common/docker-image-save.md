@@ -5,7 +5,7 @@
 
 - 通过将 `stdout` 重定向到 `.tar` 归档文件来保存镜像：
 
-`docker {{[save|image save]}} {{镜像}}:{{标签}} > {{路径/到/文件.tar}}`
+`docker {{[save|image save]}} {{镜像}}:{{标签}} >{{路径/到/文件.tar}}`
 
 - 将镜像保存到 `.tar` 归档文件：
 

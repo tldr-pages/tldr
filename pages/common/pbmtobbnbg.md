@@ -5,8 +5,8 @@
 
 - Convert a PBM image to a BitGraph terminal Display Pixel Data sequence:
 
-`pbmtobbnbg < {{path/to/image.pbm}} > {{path/to/output.dpd}}`
+`pbmtobbnbg <{{path/to/image.pbm}} >{{path/to/output.dpd}}`
 
 - Specify the rasterop:
 
-`pbmtobbnbg < {{path/to/image.pbm}} {{3}} > {{path/to/output.dpd}}`
+`pbmtobbnbg <{{path/to/image.pbm}} {{3}} >{{path/to/output.dpd}}`

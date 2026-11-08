@@ -6,4 +6,4 @@
 
 - Convierte una imagen PPM en una imagen Atari Degas PI1:
 
-`ppmtopi1 {{ruta/a/imagen.ppm}} > {{ruta/a/imagen_salida.pi1}}`
+`ppmtopi1 {{ruta/a/imagen.ppm}} >{{ruta/a/imagen_salida.pi1}}`

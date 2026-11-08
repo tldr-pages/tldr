@@ -9,4 +9,4 @@
 
 - Keluar dengan kode status keluar khusus:
 
-`exit {{exit_code}}`
+`exit {{0..255}}`

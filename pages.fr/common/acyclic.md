@@ -6,7 +6,7 @@
 
 - Construit un graphe orienté acyclique en inversant quelques sommets :
 
-`acyclic {{chemin/vers/entrée.gv}} > {{chemin/vers/sortie.gv}}`
+`acyclic {{chemin/vers/entrée.gv}} >{{chemin/vers/sortie.gv}}`
 
 - Affiche si un graphe est acyclique, possède une boucle ou est non-dirigé, ne produit pas de graphe en sortie :
 

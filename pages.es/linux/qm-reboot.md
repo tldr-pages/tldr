@@ -9,4 +9,4 @@
 
 - Reinicia una máquina virtual después de esperar por lo menos 10 segundos:
 
-`qm {{[reb|reboot]}} {{100}} --timeout {{10}}`
+`qm {{[reb|reboot]}} {{100}} --timeout 10`

@@ -6,7 +6,7 @@
 
 - Belirtilen porttaki girdiyi dinle ve belirtilen dosyaya yaz:
 
-`ncat {{[-l|--listen]}} {{port}} > {{dosya/yolu}}`
+`ncat {{[-l|--listen]}} {{port}} >{{dosya/yolu}}`
 
 - Çoklu bağlantıları kabul et ve ncat'i bağlantılar kapandıktan sonra da açık tut:
 
@@ -14,7 +14,7 @@
 
 - Belirtilen dosyanın çıktısını al ve belirtilen bilgisayardaki belirtilen porta yaz:
 
-`ncat < {{dosya/yolu}} {{bilgisayar}} {{port}}`
+`ncat <{{dosya/yolu}} {{bilgisayar}} {{port}}`
 
 - Trafik içeriğinin tespit edilmesini önleyerek şifreli bir kanalda çoklu bağlantıları kabul edin:
 

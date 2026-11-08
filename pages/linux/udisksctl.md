@@ -16,7 +16,7 @@
 
 `udisksctl info {{[-b|--block-device]}} {{/dev/sdXN}}`
 
-- Mount a device partition and prints the mount point:
+- Mount a device partition and print the mount point:
 
 `udisksctl mount {{[-b|--block-device]}} {{/dev/sdXN}}`
 

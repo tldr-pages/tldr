@@ -30,4 +30,4 @@
 
 - 소스 정보를 `.SRCINFO`에 생성하고 저장:
 
-`makepkg --printsrcinfo > .SRCINFO`
+`makepkg --printsrcinfo >.SRCINFO`

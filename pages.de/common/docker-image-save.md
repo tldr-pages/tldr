@@ -5,7 +5,7 @@
 
 - Speichere ein Image über die Standardausgabe in ein `.tar`-Archiv:
 
-`docker {{[save|image save]}} {{image}}:{{tag}} > {{pfad/zu/datei.tar}}`
+`docker {{[save|image save]}} {{image}}:{{tag}} >{{pfad/zu/datei.tar}}`
 
 - Speichere ein Image in ein `.tar`-Archiv:
 

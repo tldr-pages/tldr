@@ -14,7 +14,7 @@
 
 - JSON 형식의 보안 보고서 생성:
 
-`pnpm audit --json > {{경로/대상/audit-report.json}}`
+`pnpm audit --json >{{경로/대상/audit-report.json}}`
 
 - [D]ev 의존성만 감사:
 

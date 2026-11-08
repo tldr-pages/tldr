@@ -9,4 +9,4 @@
 
 - Passe die Nachricht für Benutzer mit Login-Shell `nologin` an:
 
-`echo "{{nachricht}}" > /etc/nologin.txt`
+`echo "{{nachricht}}" >/etc/nologin.txt`

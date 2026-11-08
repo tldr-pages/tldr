@@ -9,7 +9,7 @@
 
 - Set a secret from a file for the current repository:
 
-`gh < {{path/to/file}} secret set {{name}}`
+`gh <{{path/to/file}} secret set {{name}}`
 
 - Set a secret for a specific repository:
 

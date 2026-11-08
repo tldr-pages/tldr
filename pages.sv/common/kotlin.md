@@ -5,7 +5,7 @@
 
 - Kör en jar fil:
 
-`kotlin {{filnamn.jar}}`
+`kotlin {{filnamn}}.jar`
 
 - Visa Kotlin och JVM version:
 

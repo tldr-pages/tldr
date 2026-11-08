@@ -1,6 +1,7 @@
 # arp-scan
 
 > Envoie des paquets ARP à des hôtes (spécifié via des adresses IP ou des noms de domaines) pour scanner le réseau local.
+> Voir aussi : `ip neighbor`.
 > Plus d'informations : <https://github.com/royhills/arp-scan>.
 
 - Scanne le réseau local actuel :

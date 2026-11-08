@@ -33,4 +33,4 @@
 
 - 지정된 버킷에서 Amazon S3 버킷 정책 다운로드:
 
-`aws s3api get-bucket-policy --bucket {{버킷_이름}} --query Policy --output {{json|table|text|yaml|yaml-stream}} > {{경로/대상/버킷_정책}}`
+`aws s3api get-bucket-policy --bucket {{버킷_이름}} --query Policy --output {{json|table|text|yaml|yaml-stream}} >{{경로/대상/버킷_정책}}`

@@ -13,7 +13,7 @@
 
 - 사용자가 액세스할 수 있는 모든 AWS 계정을 나열:
 
-`aws sso list-accounts`
+`aws sso list-accounts --access-token {{토큰}}`
 
 - 특정 AWS 계정에 대해 사용자가 액세스할 수 있는 모든 역할을 나열:
 

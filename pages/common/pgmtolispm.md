@@ -6,4 +6,4 @@
 
 - Convert the specified PGM image to Lisp Machine format:
 
-`pgmtolispm {{path/to/input.pgm}} > {{path/to/output.lispm}}`
+`pgmtolispm {{path/to/input.pgm}} >{{path/to/output.lispm}}`

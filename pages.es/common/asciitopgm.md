@@ -5,7 +5,7 @@
 
 - Lee los datos ASCII como entrada y produce una imagen PGM con valores de píxel aproximando al "brillo" de los caracteres ASCII:
 
-`asciitopgm {{ruta/al/archivo_de_entrada}} > {{ruta/al/archivo_de_salida.pgm}}`
+`asciitopgm {{ruta/al/archivo_de_entrada}} >{{ruta/al/archivo_de_salida.pgm}}`
 
 - Muestra la versión:
 

@@ -13,4 +13,4 @@
 
 - Compress a JPEG with the desired visual quality (84-100):
 
-`guetzli --quality {{quality_value}} {{input.jpg}} {{output.jpg}}`
+`guetzli --quality {{84..100}} {{input.jpg}} {{output.jpg}}`

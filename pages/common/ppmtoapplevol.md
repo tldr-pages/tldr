@@ -5,4 +5,4 @@
 
 - Convert a PPM image into an Apple volume label image:
 
-`ppmtoapplevol {{path/to/image.ppm}} > {{path/to/output}}`
+`ppmtoapplevol {{path/to/image.ppm}} >{{path/to/output}}`

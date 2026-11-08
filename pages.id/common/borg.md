@@ -6,7 +6,7 @@
 
 - Inisialisasikan suatu repositori (atau repositori lokal):
 
-`borg init {{jalan/menuju/direktori_repo}}`
+`borg init {{[-e|--encryption]}} {{repokey|keyfile|none|...}} {{jalan/menuju/direktori_repo}}`
 
 - Cadangkan suatu direktori ke dalam repositori dengan nama arsip "Senin":
 
