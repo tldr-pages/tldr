@@ -25,4 +25,4 @@
 
 - Busca archivos más antiguos que 5 días:
 
-`forfiles /d +{{5}}`
+`forfiles /d +5`
