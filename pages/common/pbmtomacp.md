@@ -6,8 +6,8 @@
 
 - Convert a PBM image to a MACP file:
 
-`pbmtomacp {{path/to/image.pbm}} > {{path/to/output.macp}}`
+`pbmtomacp {{path/to/image.pbm}} >{{path/to/output.macp}}`
 
 - Do not compress the output file:
 
-`pbmtomacp {{[-n|-norle]}} {{path/to/image.pbm}} > {{path/to/output.macp}}`
+`pbmtomacp {{[-n|-norle]}} {{path/to/image.pbm}} >{{path/to/output.macp}}`

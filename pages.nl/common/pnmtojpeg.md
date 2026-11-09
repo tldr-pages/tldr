@@ -5,7 +5,7 @@
 
 - Lees een PNM-afbeelding als invoer en produceer een JPEG/JFIF/EXIF-afbeelding als uitvoer:
 
-`pnmtojpeg {{pad/naar/bestand.pnm}} > {{pad/naar/bestand.jpg}}`
+`pnmtojpeg {{pad/naar/bestand.pnm}} >{{pad/naar/bestand.jpg}}`
 
 - Toon de versie:
 

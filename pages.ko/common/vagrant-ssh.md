@@ -1,7 +1,6 @@
 # vagrant ssh
 
 > 실행 중인 Vagrant machine애 SSH로 접속.
-> 관련 항목: `vagrant`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/ssh>.
 
 - 현재 디렉터리에서 실행 중인 machine에 SSH로 접속:

@@ -6,16 +6,16 @@
 
 - Kraak de sleutel uit het opnamebestand met behulp van de [w]oordenlijst:
 
-`aircrack-ng -w {{pad/naar/woordenlijst.txt}} {{pad/naar/pakketbestand.cap}}`
+`aircrack-ng -w {{pad/naar/woordenlijst.txt}} {{pad/naar/opnamebestand.cap}}`
 
 - Kraak de sleutel met behulp van meerdere CPU-threads uit het opnamebestand met behulp van de [w]oordenlijst:
 
-`aircrack-ng -p {{nummer}} -w {{pad/naar/woordenlijst.txt}} {{pad/naar/pakketbestand.cap}}`
+`aircrack-ng -p {{nummer}} -w {{pad/naar/woordenlijst.txt}} {{pad/naar/opnamebestand.cap}}`
 
 - Kraak de sleutel uit het opnamebestand met behulp van de [w]oordenlijst en de [e]ssid van het toegangspunt:
 
-`aircrack-ng -w {{pad/naar/woordenlijst.txt}} -e {{extended_ssid}} {{pad/naar/pakketbestand.cap}}`
+`aircrack-ng -w {{pad/naar/woordenlijst.txt}} -e {{extended_ssid}} {{pad/naar/opnamebestand.cap}}`
 
 - Kraak de sleutel uit het opnamebestand met behulp van de [w]oordenlijst en het MAC-adres van het toegangspunt:
 
-`aircrack-ng -w {{pad/naar/woordenlijst.txt}} --bssid {{mac}} {{pad/naar/pakketbestand.cap}}`
+`aircrack-ng -w {{pad/naar/woordenlijst.txt}} --bssid {{mac}} {{pad/naar/opnamebestand.cap}}`

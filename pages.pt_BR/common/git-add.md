@@ -21,7 +21,7 @@
 
 - Adiciona arquivos ignorados:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{caminho/para/arquivo}}`
 
 - Interativamente adiciona partes dos arquivo:
 

@@ -14,15 +14,15 @@
 
 - Render the 10th frame of an animation as a single image, saved to an existing directory (absolute path):
 
-`blender {{[-b|--background]}} {{path/to/file.blend}} {{[-o|--render-output]}} /{{path/to/output_directory}} {{[-f|--render-frame]}} {{10}}`
+`blender {{[-b|--background]}} {{path/to/file.blend}} {{[-o|--render-output]}} /{{path/to/output_directory}} {{[-f|--render-frame]}} 10`
 
 - Render the second last frame in an animation as a JPEG image, saved to an existing directory (relative path):
 
-`blender {{[-b|--background]}} {{path/to/file.blend}} {{[-o|--render-output]}} //{{output_directory}} {{[-f|--render-frame]}} {{JPEG}} {{[-f|--render-frame]}} {{-2}}`
+`blender {{[-b|--background]}} {{path/to/file.blend}} {{[-o|--render-output]}} //{{output_directory}} {{[-f|--render-frame]}} JPEG {{[-f|--render-frame]}} -2`
 
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 
-`blender {{[-b|--background]}} {{path/to/file.blend}} {{[-S|--scene]}} {{scene_name}} {{[-s|--frame-start]}} {{10}} {{[-e|--frame-end]}} {{500}} {{[-a|--render-anim]}}`
+`blender {{[-b|--background]}} {{path/to/file.blend}} {{[-S|--scene]}} {{scene_name}} {{[-s|--frame-start]}} 10 {{[-e|--frame-end]}} 500 {{[-a|--render-anim]}}`
 
 - Render an animation at a specific resolution, by passing a Python expression:
 

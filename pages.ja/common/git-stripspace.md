@@ -13,4 +13,4 @@
 
 - ファイル内のすべての行をGitコメントに変換する:
 
-`git < {{ディレクトリ/サブディレクトリ/ファイル}} stripspace {{[-c|--comment-lines]}}`
+`git <{{ディレクトリ/サブディレクトリ/ファイル}} stripspace {{[-c|--comment-lines]}}`

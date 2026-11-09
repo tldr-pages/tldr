@@ -5,7 +5,7 @@
 
 - Convertit une image d'entrée au format PBM, PGM ou PPM, peut importe le type d'entrée :
 
-`anytopnm {{chemin/vers/entrée}} > {{chemin/vers/sortie.pnm}}`
+`anytopnm {{chemin/vers/entrée}} >{{chemin/vers/sortie.pnm}}`
 
 - Affiche la version :
 

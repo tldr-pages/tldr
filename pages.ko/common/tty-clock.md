@@ -13,7 +13,7 @@
 
 - 색상 코드 (0-7)를 사용해 시계 색상 설정:
 
-`tty-clock -C {{color_number}}`
+`tty-clock -C {{0..7}}`
 
 - 사용자 지정 날짜 형식 (strftime 형식) 사용:
 

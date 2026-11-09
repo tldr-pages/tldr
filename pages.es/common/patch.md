@@ -6,20 +6,20 @@
 
 - Aplica un parche usando un archivo diff (los nombres de archivo deben incluirse en el archivo diff):
 
-`patch < {{parche.diff}}`
+`patch <{{parche.diff}}`
 
 - Aplica un parche a un archivo específico:
 
-`patch < {{parche.diff}} {{ruta/al/archivo}}`
+`patch <{{parche.diff}} {{ruta/al/archivo}}`
 
 - Emparcha un archivo escribiendo el resultado a un archivo diferente:
 
-`patch < {{parche.diff}} {{ruta/al/archivo_de_entrada}} {{[-o|--output]}} {{ruta/al/archivo_resultado}}`
+`patch <{{parche.diff}} {{ruta/al/archivo_de_entrada}} {{[-o|--output]}} {{ruta/al/archivo_resultado}}`
 
 - Aplica un parche al directorio actual:
 
-`patch < {{parche.diff}} {{[-p|--strip]}} 1`
+`patch <{{parche.diff}} {{[-p|--strip]}} 1`
 
 - Aplica el reverso de un parche:
 
-`patch < {{parche.diff}} {{[-R|--reverse]}}`
+`patch <{{parche.diff}} {{[-R|--reverse]}}`

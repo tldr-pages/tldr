@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Imposta il primo piano e lo sfondo della console su un colore specifico utilizzando numeri esadecimali (`1-9,a-f`):
+- Imposta il primo piano e lo sfondo della console su un colore specifico utilizzando numeri esadecimali (`0-9,a-f`):
 
 `color {{codice_primo_piano}}{{codice_sfondo}}`

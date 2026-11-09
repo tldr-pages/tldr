@@ -16,7 +16,7 @@
 
 `asciinema {{[p|play]}} {{pad/naar/opname.cast}}`
 
-- Speel een terminalopname af vanaf asciinema.org:
+- Speel een terminalopname af vanaf <https://asciinema.org>:
 
 `asciinema {{[p|play]}} https://asciinema.org/a/{{cast_id}}`
 
@@ -28,7 +28,7 @@
 
 `asciinema {{[ca|cat]}} {{pad/naar/opname.cast}}`
 
-- Sla een lokaal opgeslagen terminalsessie op bij asciinema.org:
+- Upload een lokaal opgeslagen terminalsessie naar asciinema.org:
 
 `asciinema {{[u|upload]}} {{pad/naar/opname.cast}}`
 

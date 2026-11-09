@@ -13,12 +13,12 @@
 
 - Daftar informasi tentang sebuah servis:
 
-`svcs apache`
+`svcs {{apache}}`
 
 - Tampilkan lokasi dari berkas catatan servis:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - Tampilkan isi akhir suatu berkas log servis:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

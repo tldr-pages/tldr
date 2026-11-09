@@ -17,7 +17,7 @@
 
 - 여러 값을 여러 변수에 할당:
 
-`read {{_ 변수1 _ 변수2}} <<< "{{The surname is Bond}}"`
+`read {{_ 변수1 _ 변수2}} <<<"{{The surname is Bond}}"`
 
 - 백슬래시(`\`)를 이스케이프 문자로 사용하지 않음:
 
@@ -33,4 +33,4 @@
 
 - `stdin`을 읽고 각 줄에 대해 작업 수행:
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{/dev/stdin|경로/대상/파일|...}}`
+`while read line; do {{echo|ls|rm|...}} "$line"; done <{{/dev/stdin|경로/대상/파일|...}}`

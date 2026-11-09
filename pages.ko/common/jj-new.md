@@ -17,4 +17,4 @@
 
 - 지정한 리비전의 앞과 뒤에 새 빈 변경 생성:
 
-`jj new {{[-B|--insert-before]}} {{revsets}} {{[-A|--insert-after]}} {{revsets}}`
+`jj new {{[-A|--insert-after]}} {{revsets}} {{[-B|--insert-before]}} {{revsets}}`

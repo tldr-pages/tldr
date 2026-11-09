@@ -28,7 +28,7 @@
 
 `dnf {{[ls|list]}} --installed`
 
-- Vind welke pakketten voorzien in een bepaald commando:
+- Vind welke pakketten een bepaald commando leveren:
 
 `dnf provides {{commando}}`
 

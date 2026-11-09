@@ -13,7 +13,7 @@
 
 - Execute a command when a signal is received:
 
-`trap 'echo "Caught signal {{SIGHUP}}"' {{[HUP|SIGHUP]}}`
+`trap 'echo "Caught signal {{SIGHUP}}"' {{[1|SIGHUP]}}`
 
 - Remove commands:
 
@@ -21,7 +21,15 @@
 
 - Ignore a signal:
 
-`trap '' {{[INT|SIGINT]}}`
+`trap '' {{[2|SIGINT]}}`
+
+- Execute a command when the current shell exits:
+
+`trap '{{echo "Initiating cleanup"}}' EXIT`
+
+- Execute a command before every single command:
+
+`trap '{{echo "Debug output"}}' DEBUG`
 
 - Display help:
 

@@ -14,7 +14,7 @@
 
 - Cattura uno screenshot e salvalo tramite una connessione `adb`:
 
-`adb shell screencap -p > {{percorso/del/file.png}}`
+`adb shell screencap -p >{{percorso/del/file.png}}`
 
 - Mostra l'aiuto:
 

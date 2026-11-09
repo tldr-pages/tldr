@@ -4,7 +4,7 @@
 > May be named `mc` or `mcli` on some systems.
 > More information: <https://minio.github.io/mc/>.
 
-- Add connection to a S3 server:
+- Add connection to an S3 server:
 
 `mc alias set {{local}} {{http://localhost:9000}} {{access_key}} {{secret_key}}`
 

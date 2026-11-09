@@ -19,6 +19,7 @@ This file contains the translation templates of this label.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -75,7 +76,7 @@ This file contains the translation templates of this label.
 ### bn
 
 ```markdown
-> নোট: এই কমান্ডটি অবচিত (deprecated), এর পরিবর্তে `example` ব্যবহার করুন।.
+> নোট: এই কমান্ডটি অবচিত (deprecated), এর পরিবর্তে `example` ব্যবহার করুন।
 ```
 
 ---
@@ -156,6 +157,14 @@ This file contains the translation templates of this label.
 
 ```markdown
 > Remarque : Cette commande est obsolète, utiliser `example` à la place.
+```
+
+---
+
+### he
+
+```markdown
+> הערה: השימוש בפקודה זו אינו מומלץ עוד; יש להשתמש בפקודה `example` במקומה.
 ```
 
 ---

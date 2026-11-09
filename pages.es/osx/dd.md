@@ -25,4 +25,4 @@
 
 - Comprueba el progreso de una operación `dd` en curso (ejecuta este comando desde otro intérprete de comandos):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill {{[-30|-SIGUSR1]}} $(pgrep ^dd)`

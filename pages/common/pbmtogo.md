@@ -5,4 +5,4 @@
 
 - Convert a PBM image to a compressed GraphOn graphic:
 
-`pbmtogo {{path/to/image.pbm}} > {{path/to/output.go}}`
+`pbmtogo {{path/to/image.pbm}} >{{path/to/output.go}}`

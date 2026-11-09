@@ -8,7 +8,7 @@
 
 `cdrecord --devices`
 
-- Neem een audio-only schijf op ("branden"):
+- Neem een schijf met alleen audio op ("branden"):
 
 `cdrecord dev={{/dev/optisch_station}} -audio {{track*.cdaudio}}`
 

@@ -6,7 +6,7 @@
 
 - Inizializza una repository (locale):
 
-`borg init {{/percorso/del/repo_o_directory}}`
+`borg init {{[-e|--encryption]}} {{repokey|keyfile|none|...}} {{/percorso/del/repo_o_directory}}`
 
 - Esegui il backup di una directory nella repository, creando un archivio chiamato "Lunedi":
 

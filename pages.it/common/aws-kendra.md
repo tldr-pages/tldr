@@ -25,4 +25,4 @@
 
 - Elenca i suggerimenti di query di ricerca:
 
-`aws kendra list-query-suggestions --index-id {{id_indice}} --query-text {{testo_query}}`
+`aws kendra get-query-suggestions --index-id {{id_indice}} --query-text {{testo_query}}`

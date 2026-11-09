@@ -6,7 +6,7 @@
 
 - Listen for input on the specified port and write it to the specified file:
 
-`ncat {{[-l|--listen]}} {{port}} > {{path/to/file}}`
+`ncat {{[-l|--listen]}} {{port}} >{{path/to/file}}`
 
 - Accept multiple connections and keep ncat open after they have been closed:
 
@@ -14,7 +14,7 @@
 
 - Write output of specified file to the specified host on the specified port:
 
-`ncat < {{path/to/file}} {{address}} {{port}}`
+`ncat <{{path/to/file}} {{address}} {{port}}`
 
 - Accept multiple incoming connections on an encrypted channel evading detection of traffic content:
 

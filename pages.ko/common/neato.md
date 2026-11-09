@@ -18,7 +18,7 @@
 
 - `stdin`과 `stdout`을 사용하여 GIF 이미지 렌더링:
 
-`echo "{{graph {this -- that} }}" | neato -T {{gif}} > {{경로/대상/이미지.gif}}`
+`echo "{{graph {this -- that} }}" | neato -T {{gif}} >{{경로/대상/이미지.gif}}`
 
 - 도움말 표시:
 

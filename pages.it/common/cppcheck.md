@@ -6,7 +6,7 @@
 
 - Controlla la directory corrente ricorsivamente, mostrando il progresso a schermo e loggando i messaggi di errore in un file:
 
-`cppcheck . 2> cppcheck.log`
+`cppcheck . 2>cppcheck.log`
 
 - Controlla una determinata directory ricorsivamente, senza stampare informazioni sul progresso:
 

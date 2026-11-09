@@ -13,11 +13,11 @@
 
 - 运行一个 `.jar` 程序：
 
-`java -jar {{文件名.jar}}`
+`java -jar {{文件名}}.jar`
 
 - 运行一个 `.jar` 程序并且在端口 5005 等待调试器：
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{文件名.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{文件名}}.jar`
 
 - 显示帮助：
 

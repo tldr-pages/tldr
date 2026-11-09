@@ -1,7 +1,7 @@
 # fmtutil
 
 > Manage TeX formats and Metafont bases.
-> More information: <https://manned.org/fmtutil-sys>.
+> More information: <https://manned.org/fmtutil>.
 
 - Recreate all format files:
 
@@ -22,3 +22,11 @@
 - Recreate a specific format:
 
 `fmtutil --byfmt {{format}}`
+
+- Recreate all system format files:
+
+`fmtutil --sys --all`
+
+- Recreate all user format files:
+
+`fmtutil --user --all`

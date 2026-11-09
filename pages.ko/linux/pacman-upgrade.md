@@ -1,7 +1,6 @@
 # pacman --upgrade
 
 > Arch Linux 패키지 관리 도구.
-> 관련 항목: `pacman`.
 > 더 많은 정보: <https://manned.org/pacman.8>.
 
 - 파일에서 하나 이상의 패키지 설치:

@@ -8,7 +8,7 @@
 
 `asciinema {{[a|auth]}}`
 
-- Crée un nouvel enregistrement et l'enregistre dans un fichier local (finir avec `Ctrl d` ou taper `exit`):
+- Crée un nouvel enregistrement et l'enregistre dans un fichier local (finir avec `<Ctrl d>` ou taper `exit`) :
 
 `asciinema {{[r|record]}} {{chemin/vers/enregistrement.cast}}`
 

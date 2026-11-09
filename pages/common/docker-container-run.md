@@ -21,7 +21,7 @@
 
 - Run command in a new container with bind mounted volumes:
 
-`docker {{[run|container run]}} {{[-v|--volume]}} /{{path/to/host_path}}:/{{path/to/container_path}} {{image}} {{command}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{path/to/host_directory}}:/{{path/to/container_directory}} {{image}} {{command}}`
 
 - Run command in a new container with published ports:
 

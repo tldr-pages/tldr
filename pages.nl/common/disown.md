@@ -16,6 +16,6 @@
 
 `disown -a`
 
-- Behoud de job (ontkoppel deze niet), maar markeer deze zodat er geen toekomstige SIGHUP wordt ontvangen bij het afsluiten van de shell (alleen Bash):
+- Behoud de job (ontkoppel deze niet), maar markeer deze zodat er geen toekomstige `SIGHUP` wordt ontvangen bij het afsluiten van de shell (alleen Bash):
 
 `disown -h %{{job_number}}`

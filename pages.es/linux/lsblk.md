@@ -11,7 +11,7 @@
 
 `lsblk {{[-a|--all]}}`
 
-- Muestra la columna SIZE en bytes en lugar de en un formato legible por humanos:
+- Muestra la columna SIZE en bytes en lugar de un formato legible por humanos:
 
 `lsblk {{[-b|--bytes]}}`
 

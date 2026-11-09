@@ -33,4 +33,4 @@
 
 - Sign a package for self-hosting:
 
-`web-ext sign --api-key {{api_key}} --api-secret {{api_secret}}`
+`web-ext sign --channel unlisted --api-key {{api_key}} --api-secret {{api_secret}}`

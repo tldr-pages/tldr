@@ -1,7 +1,7 @@
 # tox
 
 > 여러 Python 버전에서 Python 테스트를 자동화.
-> tox.ini를 사용하여 환경 및 테스트 명령을 구성하세요.
+> `tox.ini`를 사용하여 환경 및 테스트 명령을 구성하세요.
 > 더 많은 정보: <https://github.com/tox-dev/tox>.
 
 - 모든 테스트 환경에서 테스트 실행:

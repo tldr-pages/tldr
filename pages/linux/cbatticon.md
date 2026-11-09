@@ -9,7 +9,7 @@
 
 - Show the battery icon and set the update interval to 20 seconds:
 
-`cbatticon {{[-u|--update-interval]}} {{20}}`
+`cbatticon {{[-u|--update-interval]}} 20`
 
 - List available icon types:
 

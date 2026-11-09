@@ -11,7 +11,7 @@
 
 `vulkaninfo --summary`
 
-- Make a HTML document of the full Vulkan information:
+- Make an HTML document of the full Vulkan information:
 
 `vulkaninfo --html`
 
