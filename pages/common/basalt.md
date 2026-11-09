@@ -7,10 +7,6 @@
 
 `basalt`
 
-- Open Basalt with a specific Obsidian vault:
-
-`basalt {{path/to/vault}}`
-
 - Open a specific note file:
 
 `basalt {{path/to/note.md}}`
