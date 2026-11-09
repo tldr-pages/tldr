@@ -21,7 +21,7 @@
 
 - 模糊搜索文件，允许模式中多达 3 个额外、缺失或不匹配的字符：
 
-`ugrep {{[-Z|--fuzzy=]}}{{3}} "{{search_pattern}}"`
+`ugrep {{[-Z|--fuzzy=]}}3 "{{search_pattern}}"`
 
 - 也递归搜索压缩文件、Zip 和 `.tar` 存档：
 

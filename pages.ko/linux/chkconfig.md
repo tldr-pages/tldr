@@ -17,7 +17,7 @@
 
 - 실행 레벨 2, 3, 4, 5에서 부팅 시 서비스 활성화:
 
-`chkconfig --level {{2345}} {{sshd}} on`
+`chkconfig --level 2345 {{sshd}} on`
 
 - 부팅 시 서비스 비활성화:
 
@@ -25,4 +25,4 @@
 
 - 실행 레벨 3에서 부팅 시 서비스 비활성화:
 
-`chkconfig --level {{3}} {{ntpd}} off`
+`chkconfig --level 3 {{ntpd}} off`

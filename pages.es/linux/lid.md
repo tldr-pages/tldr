@@ -1,10 +1,11 @@
 # lid
 
-> NOTA: Esta página es actualmente una de redirección. Si está familiarizado con este programa, por favor abra una solicitud de extracción.
-> Consulta la base de datos de identificadores y reporta los resultados.
-> En Fedora y Arch Linux, `lid` es otro programa. Vea `tldr libuser-lid`.
-> Más información: <https://www.gnu.org/software/idutils/>.
+> `lid` puede referirse a varios comandos con el mismo nombre.
 
-- Ve documentación de `libuser-lid`:
+- Consulta la documentación de la herramienta `libuser`:
 
-`tldr libuser-lid`
+`tldr lid.libuser`
+
+- Consulta la documentación de la herramienta `idutils`:
+
+`tldr lid.idutils`
