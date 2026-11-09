@@ -27,6 +27,6 @@
 
 `apptainer inspect --all {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer inspect {{[-h|--help]}}`

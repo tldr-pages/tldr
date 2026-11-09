@@ -27,6 +27,6 @@
 
 `box verify {{percorso/del/file_phar}}`
 
-- Mostra tutti i comandi ed opzioni disponibili:
+- Mostra l'aiuto:
 
 `box help`

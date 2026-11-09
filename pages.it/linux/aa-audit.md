@@ -27,6 +27,6 @@
 
 `sudo aa-audit {{[-r|--remove]}} {{nome_profilo}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-audit {{[-h|--help]}}`

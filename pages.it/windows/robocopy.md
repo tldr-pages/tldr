@@ -28,6 +28,6 @@
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /Z /R:5 /W:15`
 
-- Mostra l'aiuto dettagliato:
+- Mostra l'aiuto:
 
 `robocopy /?`

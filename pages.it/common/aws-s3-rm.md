@@ -19,6 +19,6 @@
 
 `aws s3 rm s3://{{nome_bucket}} --recursive`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws s3 rm help`

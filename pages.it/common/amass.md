@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- Controlla la versione:
+- Mostra la versione:
 
 `amass -version`

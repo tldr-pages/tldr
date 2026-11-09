@@ -7,6 +7,6 @@
 
 `koji taginfo {{tag1 tag2 ...}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji taginfo {{[-h|--help]}}`

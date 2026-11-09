@@ -7,6 +7,6 @@
 
 `sudo lxc-stop {{nome_container}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-stop {{[-?|--help]}}`

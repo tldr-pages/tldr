@@ -15,6 +15,6 @@
 
 `pw-mon {{[-N|--color]}} {{never|always|auto}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-mon {{[-h|--help]}}`

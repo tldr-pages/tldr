@@ -27,10 +27,10 @@
 
 `grub-mkrescue --output {{grub.iso}} -- {{-volid}} {{volume_name}} {{path/to/source}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `grub-mkrescue {{[-?|--help]}}`
 
-- Mostra versione:
+- Mostra la versione:
 
 `grub-mkrescue --version`

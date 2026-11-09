@@ -31,6 +31,6 @@
 
 `sudo lvmdevices --check`
 
-- Visualizza la versione:
+- Mostra la versione:
 
 `lvmdevices --version`

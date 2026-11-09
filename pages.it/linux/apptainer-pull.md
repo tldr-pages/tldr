@@ -32,6 +32,6 @@
 
 `apptainer pull --disable-cache {{path/to/immagine.sif}} docker://{{immagine}}:{{tag}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer pull {{[-h|--help]}}`

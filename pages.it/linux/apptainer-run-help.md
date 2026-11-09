@@ -12,6 +12,6 @@
 
 `apptainer run-help --app {{nome_app}} {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer run-help {{[-h|--help]}}`

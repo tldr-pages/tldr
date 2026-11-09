@@ -33,6 +33,6 @@
 
 `apptainer run --nv {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer run {{[-h|--help]}}`

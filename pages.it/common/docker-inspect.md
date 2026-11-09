@@ -27,6 +27,6 @@
 
 `docker inspect {{[-f|--format]}} '\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{nome_container}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `docker inspect`

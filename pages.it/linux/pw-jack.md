@@ -15,6 +15,6 @@
 
 `pw-jack -r {{nome_istanza_remota}} {{comando}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-jack -h`
