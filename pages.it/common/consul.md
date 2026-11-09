@@ -12,6 +12,6 @@
 
 `consul {{sottocomando}} --help`
 
-- Controlla la versione di Consul:
+- Mostra la versione:
 
 `consul --version`
