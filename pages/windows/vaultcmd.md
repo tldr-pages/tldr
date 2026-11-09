@@ -1,7 +1,7 @@
 # vaultcmd
 
 > Manage and interact with Windows Credential Manager vaults.
-> More information: <https://learn.microsoft.com/windows/security/identity-protection/credential-manager>.
+> More information: <https://support.microsoft.com/windows/security/credential-manager-in-windows>.
 
 - List all currently loaded vaults and their GUIDs:
 
