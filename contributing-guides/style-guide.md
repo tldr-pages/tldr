@@ -117,7 +117,6 @@ Example:
 - View documentation for the original command:
 
 `tldr vim`
-
 ```
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
@@ -181,7 +180,7 @@ For instance, instead of `Listing all files:`, use the following:
 ```md
 - List all files:
 
- `ls`
+`ls`
 ```
 
 ### Serial Comma
@@ -490,7 +489,7 @@ When documenting PowerShell commands, please take note of the following naming c
 - The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
 - The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
 
 Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
 
