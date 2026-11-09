@@ -1,7 +1,7 @@
 # mold
 
 > GNU `ld`를 대체할 수 있는 더 빠른 최신 링커.
-> 같이 보기: `ld`.
+> 관련 항목: `ld`.
 > 더 많은 정보: <https://github.com/rui314/mold/blob/main/docs/mold.md>.
 
 - `ld` 대신 `mold`를 사용하여 `make`, `ninja`, `cargo`와 같은 빌드 명령 실행:
