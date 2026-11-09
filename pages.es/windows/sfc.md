@@ -27,6 +27,6 @@
 
 `sfc /offwindir={{ruta\al\directorio}}`
 
-- Muestra información sobre el uso del comando:
+- Muestra la ayuda:
 
 `sfc`
