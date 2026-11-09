@@ -31,6 +31,6 @@
 
 `babel {{chemin/vers/fichier_entrée}} --presets {{pré-configurations}}`
 
-- Affiche toutes les options disponibles :
+- Affiche l'aide :
 
 `babel --help`
