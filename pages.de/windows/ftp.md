@@ -31,6 +31,6 @@
 
 `mdelete {{*.txt}}`
 
-- Ausführliche Hilfe anzeigen:
+- Zeige Hilfe an:
 
 `ftp --help`

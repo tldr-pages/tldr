@@ -28,6 +28,6 @@
 
 `robocopy {{pfad/zu/quelle}} {{pfad/zu/ziel}} /Z /R:5 /W:15`
 
-- Gibt detaillierte Nutzungshinweise aus:
+- Zeige Hilfe an:
 
 `robocopy /?`
