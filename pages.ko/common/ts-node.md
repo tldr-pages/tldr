@@ -23,6 +23,6 @@
 
 `ts-node {{[-T|--transpileOnly]}} {{경로/대상/파일.ts}}`
 
-- TS-Node 도움말 표시:
+- 도움말 표시:
 
 `ts-node {{[-h|--help]}}`

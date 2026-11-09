@@ -32,6 +32,6 @@
 
 `wait4x {{하위명령어}} --help`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `wait4x version`

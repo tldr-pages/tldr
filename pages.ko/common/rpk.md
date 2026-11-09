@@ -31,6 +31,6 @@
 
 `rpk group describe {{그룹_이름}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `rpk version`
