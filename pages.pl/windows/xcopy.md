@@ -31,6 +31,6 @@
 
 `xcopy {{ścieżka/do/pliku_lub_katalogu}} {{ścieżka/do/miejsca_przeznaczenia}} /y`
 
-- Wyświetl szczegółowe informacje dotyczące polecenia:
+- Wyświetl pomoc:
 
 `xcopy /?`
