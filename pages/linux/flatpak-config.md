@@ -3,7 +3,7 @@
 > Manage configuration for Flatpak.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-config>.
 
-- Display all Flatpak configuration settings:
+- List all configuration settings:
 
 `flatpak config --list`
 
@@ -19,6 +19,6 @@
 
 `flatpak config --unset {{key}}`
 
-- Display system-wide configuration settings instead of per-user:
+- List system-wide configuration settings instead of per-user:
 
 `flatpak config --system --list`
