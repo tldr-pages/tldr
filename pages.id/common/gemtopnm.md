@@ -11,6 +11,6 @@
 
 `gemtopnm {{[-d|-debug]}} {{path/menuju/berkas.img}}`
 
-- Tampilkan informasi versi:
+- Tampilkan versi:
 
 `gemtopnm -version`

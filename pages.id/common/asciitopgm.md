@@ -7,6 +7,6 @@
 
 `asciitopgm {{jalan/menuju/input}} >{{jalan/menuju/output.pgm}}`
 
-- Tampilkan informasi versi:
+- Tampilkan versi:
 
 `asciitopgm {{[-v|-version]}}`

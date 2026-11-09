@@ -19,10 +19,10 @@
 
 `goku --dry-run-all`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `goku --help`
 
-- Tampilkan informasi versi:
+- Tampilkan versi:
 
 `goku --version`

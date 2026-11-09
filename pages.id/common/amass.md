@@ -8,7 +8,7 @@
 
 `amass {{intel|enum}} {{opsi}}`
 
-- Tampilkan informasi bantuan umum:
+- Tampilkan bantuan:
 
 `amass -help`
 
@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- Tampilkan informasi versi:
+- Tampilkan versi:
 
 `amass -version`

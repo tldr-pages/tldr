@@ -24,6 +24,6 @@
 
 `ruby -I {{jalan/menuju/direktori_pustaka}} -r {{nama_pustaka_yang_dikecualikan}} {{jalan/menuju/direktori_bin/nama_berkas_bin}}`
 
-- Tampilkan [v]ersi Ruby saat ini:
+- Tampilkan versi:
 
 `ruby {{[-v|--version]}}`

@@ -25,6 +25,6 @@
 
 `fastd --show-key {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
 
-- Tampilkan versi program:
+- Tampilkan versi:
 
 `fastd {{[-v|--version]}}`
