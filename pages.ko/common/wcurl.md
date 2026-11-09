@@ -1,7 +1,7 @@
 # wcurl
 
 > 파일을 쉽게 다운로드할 수 있는 간단한 `curl` 래퍼.
-> 같이 보기: `wget`, `curl`.
+> 관련 항목: `wget`, `curl`.
 > 더 많은 정보: <https://curl.se/wcurl/manual.html>.
 
 - URL의 내용을 URL이 나타내는 파일(이 경우 `index.html`)로 다운로드:
