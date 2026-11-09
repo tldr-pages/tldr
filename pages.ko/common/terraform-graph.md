@@ -10,7 +10,7 @@
 
 - 그래프를 생성하고 GraphViz를 사용하여 PNG 파일로 렌더링:
 
-`terraform graph | dot -Tpng > {{경로/대상/그래프.png}}`
+`terraform graph | dot -Tpng >{{경로/대상/그래프.png}}`
 
 - 저장된 계획 파일에서 그래프 생성:
 
