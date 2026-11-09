@@ -15,6 +15,6 @@
 
 `javap -help`
 
-- 显示版本信息：
+- 显示版本：
 
 `javap -version`

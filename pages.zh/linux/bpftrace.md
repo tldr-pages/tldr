@@ -23,6 +23,6 @@
 
 `sudo bpftrace -d -e '{{单行程序}}'`
 
-- 显示 版本：
+- 显示版本：
 
 `bpftrace {{[-V|--version]}}`

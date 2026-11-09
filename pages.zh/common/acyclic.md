@@ -12,6 +12,6 @@
 
 `acyclic -v -n {{路径/到/输入.gv}}`
 
-- 显示 `acyclic` 的帮助：
+- 显示帮助：
 
 `acyclic -?`

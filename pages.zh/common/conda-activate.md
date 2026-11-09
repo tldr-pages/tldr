@@ -20,6 +20,6 @@
 
 `conda activate --no-stack myenv`
 
-- 展示帮助：
+- 显示帮助：
 
 `conda activate {{[-h|--help]}}`
