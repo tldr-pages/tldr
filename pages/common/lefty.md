@@ -8,7 +8,7 @@
 
 `lefty {{path/to/file.lefty}}`
 
-- Read a program from standard input:
+- Read a program from `stdin`:
 
 `lefty -`
 
