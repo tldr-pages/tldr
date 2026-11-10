@@ -1,7 +1,7 @@
 # ufw reject
 
 > Reject traffic through the firewall.
-> Similar to ufw deny, but sends a rejection response instead of silently dropping packets.
+> Similar to `ufw deny`, but sends a rejection response instead of silently dropping packets.
 > More information: <https://manned.org/ufw>.
 
 - Reject all traffic on a port:
