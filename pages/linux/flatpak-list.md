@@ -1,7 +1,6 @@
 # flatpak list
 
 > List installed flatpak applications and runtimes.
-> See also: `flatpak`, `flatpak info`, `flatpak install`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-list>.
 
 - List all installed applications and runtimes:

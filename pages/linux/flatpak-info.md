@@ -1,7 +1,6 @@
 # flatpak info
 
 > Show information about an installed flatpak application or runtime.
-> See also: `flatpak`, `flatpak list`, `flatpak remote-info`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-info>.
 
 - Show information about an installed application or runtime:

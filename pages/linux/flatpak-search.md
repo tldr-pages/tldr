@@ -1,7 +1,6 @@
 # flatpak search
 
 > Search for flatpak applications and runtimes in configured remotes.
-> See also: `flatpak`, `flatpak install`, `flatpak remote-info`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-search>.
 
 - Search for an application or runtime:

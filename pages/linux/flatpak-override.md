@@ -2,7 +2,6 @@
 
 > Override the runtime permissions of flatpak applications.
 > Note: Without `--user`, the default system-wide installation is changed. Without an application, the override applies to all applications.
-> See also: `flatpak`, `flatpak run`, `flatpak info`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override>.
 
 - Show the overrides of an application:
