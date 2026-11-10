@@ -24,6 +24,6 @@
 
 `git annex get {{cale/către/fișier_sau_director}}`
 
-- Afișare ajutor:
+- Afișare ghid de ajutor:
 
 `git annex help`
