@@ -31,6 +31,6 @@
 
 `babel {{path/to/input_file}} --presets {{presets}}`
 
-- 사용 가능한 모든 옵션 출력:
+- 도움말 표시:
 
 `babel --help`

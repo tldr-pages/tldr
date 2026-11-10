@@ -20,6 +20,6 @@
 
 `echo "{{digraph {this -> that} }}" | dot -T {{gif}} >{{경로/대상/이미지.gif}}`
 
-- 도움말을 표시:
+- 도움말 표시:
 
 `dot -?`

@@ -23,6 +23,6 @@
 
 `flite -voice {{file://경로/대상/파일이름.flitevox|url}} -f {{경로/대상/파일.txt}} -o {{츨력파일.wav}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `flite --version`

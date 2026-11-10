@@ -19,6 +19,6 @@
 
 `travis init`
 
-- 클라이언트 버전 표시:
+- 버전 표시:
 
 `travis version`

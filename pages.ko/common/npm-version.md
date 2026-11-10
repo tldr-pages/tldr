@@ -3,7 +3,7 @@
 > Node 패키지의 버전을 증가시킵니다.
 > 더 많은 정보: <https://docs.npmjs.com/cli/npm-version/>.
 
-- 현재 버전 확인:
+- 버전 표시:
 
 `npm version`
 

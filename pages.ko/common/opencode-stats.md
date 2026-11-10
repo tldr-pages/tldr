@@ -27,6 +27,6 @@
 
 `opencode stats --tools {{10}}`
 
-- 도움말 출력:
+- 도움말 표시:
 
 `opencode stats {{[-h|--help]}}`
