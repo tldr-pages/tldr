@@ -20,10 +20,10 @@
 
 `toolbox help {{sottocomando}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `toolbox {{[-h|--help]}}`
 
-- Mostra versione:
+- Mostra la versione:
 
 `toolbox --version`

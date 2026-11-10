@@ -27,10 +27,10 @@
 
 `grub-mount {{[-v|--verbose]}} {{image}} {{/mnt}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `grub-mount {{[-?|--help]}}`
 
-- Mostra versione:
+- Mostra la versione:
 
 `grub-mount --version`

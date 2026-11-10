@@ -20,6 +20,6 @@
 
 `pw-cli {{[-m|--monitor]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-cli {{[h|help]}}`

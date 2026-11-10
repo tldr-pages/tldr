@@ -15,6 +15,6 @@
 
 `koji resubmit {{id_attivita}} --quiet`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji resubmit {{[-h|--help]}}`

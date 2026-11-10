@@ -32,6 +32,6 @@
 
 `apptainer verify {{[-j|--json]}} {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer verify {{[-h|--help]}}`

@@ -11,6 +11,6 @@
 
 `plasma-apply-desktoptheme {{default}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `plasma-apply-desktoptheme --help`

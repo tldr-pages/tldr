@@ -16,7 +16,7 @@
 
 `bugreportz -s`
 
-- Mostra la guida:
+- Mostra l'aiuto:
 
 `bugreportz -h`
 

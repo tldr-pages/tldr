@@ -19,6 +19,6 @@
 
 `koji download-build {{RPM}} --rpm`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji download-build {{[-h|--help]}}`

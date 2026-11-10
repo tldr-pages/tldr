@@ -24,6 +24,6 @@
 
 `dnf config-manager --setopt={{option}}={{value}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `dnf config-manager --help-cmd`
