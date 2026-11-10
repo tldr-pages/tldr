@@ -1,7 +1,7 @@
 # flatpak history
 
 > Show historical changes to Flatpak installations on the system.
-> See also: `journalctl`
+> See also: `journalctl`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-history>.
 
 - Display all Flatpak history entries:
