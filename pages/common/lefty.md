@@ -24,7 +24,7 @@
 
 `lefty -el {{level}} {{path/to/file.lefty}}`
 
-- Display version information:
+- Display version:
 
 `lefty -v`
 
