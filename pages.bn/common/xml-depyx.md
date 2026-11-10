@@ -11,6 +11,6 @@
 
 `cat {{path/to/input.pyx}} | xml {{[p2x|depyx]}} >{{path/to/output.xml}}`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `xml {{[p2x|depyx]}} --help`
