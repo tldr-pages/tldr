@@ -21,7 +21,7 @@
 
 - Generate an RSA private key:
 
-`botan keygen --algo=RSA --params=2048 > {{path/to/private_key.pem}}`
+`botan keygen --algo=RSA --params=2048 >{{path/to/private_key.pem}}`
 
 - Print 16 random bytes:
 
