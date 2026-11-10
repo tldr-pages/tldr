@@ -28,6 +28,6 @@
 
 `lefty -v`
 
-- Display usage information:
+- Display help:
 
 `lefty -?`
