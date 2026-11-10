@@ -1,6 +1,6 @@
 # trackfetch
 
-> Скачивать песни из текстового файла как файлы MP3, M4A или Opus с тегами, используя метаданные Spotify и звук из YouTube.
+> Скачать песни из текстового файла как файлы MP3, M4A или Opus с тегами, используя метаданные Spotify и звук из YouTube.
 > Требуются `yt-dlp`, `ffmpeg` и client ID и client secret от Spotify (файл конфигурации или `SPOTIFY_CLIENT_ID` и `SPOTIFY_CLIENT_SECRET`).
 > Больше информации: <https://github.com/ByteMe6/trackfetch#usage>.
 
@@ -20,7 +20,7 @@
 
 `trackfetch {{"Artist - Title"}} {{"Another Artist - Another Title"}}`
 
-- Называть файлы только названием песни вместо `Исполнитель - Название`:
+- Назвать файлы только названием песни вместо `Исполнитель - Название`:
 
 `trackfetch {{path/to/songs.txt}} --title-only`
 
