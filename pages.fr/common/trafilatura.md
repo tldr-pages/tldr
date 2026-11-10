@@ -32,6 +32,6 @@
 
 `trafilatura {{[-u|--URL]}} {{url}} --with-comments`
 
-- Affiche l'aide pour plus d'options :
+- Affiche l'aide :
 
 `trafilatura {{[-h|--help]}}`
