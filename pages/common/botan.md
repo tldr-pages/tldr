@@ -1,6 +1,6 @@
 # botan
 
-> Cryptography toolkit providing hashing, encryption, key generation, and more.
+> Provide cryptographic operations including hashing, encryption, and key generation.
 > More information: <https://botan.randombit.net/handbook/cli.html>.
 
 - Compute the digest of a file with a specific algorithm:
@@ -21,7 +21,7 @@
 
 - Generate an RSA private key:
 
-`botan keygen --algo=RSA --params=2048 >{{path/to/private_key.pem}}`
+`botan keygen --algo=RSA --params=2048 > {{path/to/private_key.pem}}`
 
 - Print 16 random bytes:
 
