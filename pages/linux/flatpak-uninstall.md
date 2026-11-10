@@ -1,7 +1,7 @@
 # flatpak uninstall
 
 > Uninstall flatpak applications and runtimes.
-> See also: `flatpak`, `flatpak install`, `flatpak update`.
+> See also: `flatpak install`, `flatpak update`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-uninstall>.
 
 - Uninstall an application or runtime:
