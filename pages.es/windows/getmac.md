@@ -23,6 +23,6 @@
 
 `getmac /v`
 
-- Muestra información de uso detallada:
+- Muestra la ayuda:
 
 `getmac /?`
