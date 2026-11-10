@@ -35,7 +35,3 @@
 - Retry the songs that failed in a previous run:
 
 `cut {{[-d|--delimiter]}} '|' {{[-f|--fields]}} 1 {{path/to/directory}}/failed.txt > {{path/to/retry.txt}} && trackfetch {{path/to/retry.txt}} {{[-o|--output]}} {{path/to/directory}}`
-
-- Display help:
-
-`trackfetch {{[-h|--help]}}`
