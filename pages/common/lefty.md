@@ -12,15 +12,15 @@
 
 `lefty -`
 
-- Execute an expression:
+- Execute an [e]xpression:
 
 `lefty -e '{{expression}}'`
 
-- Exit after processing the input file:
+- E[x]it after processing the input file:
 
 `lefty -x {{path/to/file.lefty}}`
 
-- Set the error reporting level (`0` through `5`):
+- Set the [e]rror reporting [l]evel (`0` through `5`):
 
 `lefty -el {{level}} {{path/to/file.lefty}}`
 
