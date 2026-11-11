@@ -11,6 +11,6 @@
 
 `bmptopnm {{[-verb|-verbose]}} {{caminho/para/arquivo.bmp}}`
 
-- Versão de exibição:
+- Mostra versão:
 
 `bmptopnm {{[-v|-version]}}`

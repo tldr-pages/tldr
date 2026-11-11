@@ -32,6 +32,6 @@
 
 `clang++ {{caminho/para/arquivo_fonte.cpp}} -O{{1|2|3|fast}} {{[-o|--output]}} {{caminho/para/executável_resultante}}`
 
-- Exibe a versão:
+- Mostra versão:
 
 `clang++ --version`

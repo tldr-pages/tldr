@@ -3,7 +3,7 @@
 > Exibe ajuda sobre o AWS CLI.
 > Mais informações: <https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-help.html>.
 
-- Exibe a ajuda:
+- Mostra ajuda:
 
 `aws help`
 

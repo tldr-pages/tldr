@@ -16,6 +16,6 @@
 
 `dunstify "{{Título}}" "{{Mensagem}}" {{[-r|--replace]}} {{123}}`
 
-- Mostra opções de ajuda:
+- Mostra ajuda:
 
 `dunstify {{[-?|--help]}}`
