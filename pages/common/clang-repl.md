@@ -7,6 +7,10 @@
 
 `clang-repl`
 
+- Run C++ from a file:
+
+`clang-repl '#include "{{test.cpp}}"'`
+
 - Run C++ code directly from the command line:
 
 `clang-repl {{'#include <iostream>' 'std::cout << "test\n";' ...}}`
@@ -19,7 +23,7 @@
 
 `%undo`
 
-- [Interacive] Link a dynamic library:
+- [Interactive] Link a dynamic library:
 
 `%lib {{library.so.1}}`
 
