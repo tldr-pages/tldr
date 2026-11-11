@@ -17,7 +17,7 @@
 
 - Show specific columns for each result:
 
-`flatpak search --columns {{name,application,version}} "{{text}}"`
+`flatpak search --columns {{name,application,version,...}} "{{text}}"`
 
 - Show all available columns for each result:
 
