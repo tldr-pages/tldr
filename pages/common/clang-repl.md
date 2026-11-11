@@ -13,7 +13,7 @@
 
 - Run C++ code directly from the command line:
 
-`clang-repl {{'#include <iostream>' 'std::cout << "test\n";' ...}}`
+`clang-repl '{{#include <iostream>}}' '{{std::cout << "test\n";}}' '{{...}}'`
 
 - [Interactive] Evaluate a value:
 
