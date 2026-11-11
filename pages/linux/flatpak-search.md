@@ -14,4 +14,3 @@
 - Show specific columns for each result:
 
 `flatpak search --columns {{name,application,version,...}} "{{text}}"`
-
