@@ -13,4 +13,4 @@
 
 - Starte eine bestimmte virtuelle Maschine mit einem Timeout (Zeitabschaltung) nach 60 Sekunden:
 
-`qm start {{100}} --timeout {{60}}`
+`qm start {{100}} --timeout 60`

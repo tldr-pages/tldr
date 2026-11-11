@@ -32,6 +32,6 @@
 
 `apptainer exec --nv {{path/to/immagine.sif}} {{comando}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer exec {{[-h|--help]}}`

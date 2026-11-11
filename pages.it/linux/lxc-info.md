@@ -7,6 +7,6 @@
 
 `sudo lxc-info {{nome_container}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-info {{[-?|--help]}}`

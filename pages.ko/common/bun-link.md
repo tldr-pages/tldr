@@ -20,6 +20,6 @@
 
 `bun link --dry-run`
 
-- 도움말 출력:
+- 도움말 표시:
 
 `bun link {{[-h|--help]}}`

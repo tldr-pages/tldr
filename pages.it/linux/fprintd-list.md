@@ -11,6 +11,6 @@
 
 `fprintd-list {{username1 username2 ...}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `fprintd-list`

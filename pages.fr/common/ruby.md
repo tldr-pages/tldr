@@ -24,6 +24,6 @@
 
 `ruby -I {{chemin/vers/répertoire_bibliothèque}} -r {{nom_chargement_bibliothèque}} {{chemin/vers/répertoire_bin/nom_bin}}`
 
-- Affiche la version de Ruby utilisée :
+- Affiche la version :
 
 `ruby {{[-v|--version]}}`

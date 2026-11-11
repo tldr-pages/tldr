@@ -25,4 +25,4 @@
 
 - 클러스터 2만 그리기 (기본적으로는, 모든 클러스터가 그려짐):
 
-`gvmap -highlight={{2}} {{그래프.gv}} -o {{output.xdot}}`
+`gvmap -highlight=2 {{그래프.gv}} -o {{output.xdot}}`

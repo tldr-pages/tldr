@@ -28,6 +28,6 @@
 
 `tidy-viewer {{[-h|--help]}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `tidy-viewer {{[-V|--version]}}`

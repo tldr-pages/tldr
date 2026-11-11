@@ -11,6 +11,6 @@
 
 `sudo aa-mergeprof {{[-d|--dir]}} /{{path/to/profiles}} {{file1 file2 ...}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-mergeprof {{[-h|--help]}}`

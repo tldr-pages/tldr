@@ -13,4 +13,4 @@
 
 - Démarre une machine virtuelle spécifique avec un délai d'attente de 60 secondes :
 
-`qm start {{100}} --timeout {{60}}`
+`qm start {{100}} --timeout 60`

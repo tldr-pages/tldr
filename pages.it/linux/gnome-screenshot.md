@@ -31,6 +31,6 @@
 
 `gnome-screenshot {{[-d|--delay]}} {{10}} {{[-c|--clipboard]}}`
 
-- Mostra versione:
+- Mostra la versione:
 
 `gnome-screenshot --version`

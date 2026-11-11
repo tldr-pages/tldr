@@ -27,6 +27,6 @@
 
 `gnome-extensions help {{subcommand}}`
 
-- Mostra versione:
+- Mostra la versione:
 
 `gnome-extensions version`

@@ -19,12 +19,12 @@
 
 - `udp` 프로토콜을 사용하여 네트워크 경로 추적:
 
-`sudo trip {{example.com}} --protocol {{udp}}`
+`sudo trip {{example.com}} --protocol udp`
 
 - `tcp` 경로 추적에 사용자 지정 대상 포트 `443` 사용:
 
-`sudo trip {{example.com}} --protocol {{tcp}} --target-port {{443}}`
+`sudo trip {{example.com}} --protocol tcp --target-port 443`
 
 - `udp` 경로 추적에 사용자 지정 소스 포트 `5000` 사용:
 
-`sudo trip {{example.com}} --protocol {{udp}} --source-port {{5000}}`
+`sudo trip {{example.com}} --protocol udp --source-port 5000`

@@ -32,6 +32,6 @@
 
 `<Super f>`
 
-- Visualizza la guida:
+- Mostra l'aiuto:
 
 `gamescope --help`

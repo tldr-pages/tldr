@@ -31,6 +31,6 @@
 
 `gmssl zuc -d -in {{경로/대상/파일.zuc}}`
 
-- 버전 정보 출력:
+- 버전 표시:
 
 `gmssl version`

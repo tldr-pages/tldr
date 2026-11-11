@@ -12,10 +12,10 @@
 
 `grub-script-check {{[-v|--verbose]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `grub-script-check --help`
 
-- Mostra versione:
+- Mostra la versione:
 
 `grub-script-check --version`

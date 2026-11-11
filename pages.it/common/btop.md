@@ -29,6 +29,6 @@
 
 `<q>`
 
-- Mostra l’aiuto:
+- Mostra l'aiuto:
 
 `btop {{[-h|--help]}}`

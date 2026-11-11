@@ -15,6 +15,6 @@
 
 `gpupdate /force`
 
-- Visa detaljerad användningsinformation:
+- Visa hjälpen:
 
 `gpupdate /?`

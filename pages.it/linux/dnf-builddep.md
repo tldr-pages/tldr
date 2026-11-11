@@ -24,6 +24,6 @@
 
 `dnf builddep --srpm {{argument}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `dnf builddep --help-cmd`

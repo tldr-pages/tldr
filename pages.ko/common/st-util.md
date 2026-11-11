@@ -5,7 +5,7 @@
 
 - 포트 4500에서 GDB 서버 실행:
 
-`st-util {{[-p|--listen_port]}} {{4500}}`
+`st-util {{[-p|--listen_port]}} 4500`
 
 - GDB 서버에 연결:
 

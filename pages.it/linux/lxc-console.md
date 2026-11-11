@@ -15,6 +15,6 @@
 
 `<Ctrl a><q>`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-console {{[-?|--help]}}`

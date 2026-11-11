@@ -19,6 +19,6 @@
 
 `sudo aa-logprof {{[-m|--logmark]}} "{{testo_marcatore_log}}"`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-logprof {{[-h|--help]}}`

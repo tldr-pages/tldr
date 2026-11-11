@@ -20,6 +20,6 @@
 
 `sudo aa-update-browser -u '' {{path/to/profile}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-update-browser -h`

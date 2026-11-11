@@ -7,6 +7,6 @@
 
 `cockpit-tls --port {{port}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `cockpit-tls --help`

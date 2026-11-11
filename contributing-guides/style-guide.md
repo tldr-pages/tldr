@@ -117,7 +117,6 @@ Example:
 - View documentation for the original command:
 
 `tldr vim`
-
 ```
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
@@ -181,7 +180,7 @@ For instance, instead of `Listing all files:`, use the following:
 ```md
 - List all files:
 
- `ls`
+`ls`
 ```
 
 ### Serial Comma
@@ -452,7 +451,7 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 - Single character example: `<a>`.
 - Special keys are to be written with [`PascalCase`](https://www.theserverside.com/definition/Pascal-case): `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<ArrowKeys>`, `<PageUp>`, `<F5>`, `<F12>`, `<LeftClick>`, `<MiddleClick>`, ...
 - Special keys can be translated if they have culturally relevant translations.
-- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
+- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. The distinction being if the shift is required or if using Caps Lock achieves the same results. Otherwise always mark characters in lowercase.
 - Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
 - When writing simultaneous keypresses, keep the following order: `<Ctrl Super Windows Alt AltGr Shift everything_else>`.
 - Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Esc><u>`, `<Ctrl k><Ctrl s>`, `<Enter><~><.>`, `<d><o>`.
@@ -490,7 +489,7 @@ When documenting PowerShell commands, please take note of the following naming c
 - The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
 - The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
 
 Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
 
