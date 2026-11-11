@@ -1,6 +1,6 @@
 # clang-repl
 
-> REPL (Read-Evaluate-Print-Loop) loop for C++.
+> Interactive REPL (Read-Evaluate-Print-Loop) environment for C++.
 > More information: <https://clang.llvm.org/docs/ClangRepl.html#clang-repl-usage>.
 
 - Run the C++ REPL:
