@@ -27,10 +27,10 @@
 
 `%lib {{library.so.1}}`
 
+- [Interactive] Exit the environment:
+
+`{{%quit|<Ctrl c>}}`
+
 - [Interactive] Display help:
 
 `%help`
-
-- Display help:
-
-`clang-repl --help`
