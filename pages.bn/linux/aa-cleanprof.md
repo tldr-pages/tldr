@@ -23,6 +23,6 @@
 
 `sudo aa-cleanprof --no-reload {{প্রোফাইলের_নাম}}`
 
-- সহায়তা (help) প্রদর্শন করতে:
+- সাহায্য প্রদর্শন:
 
 `aa-cleanprof {{[-h|--help]}}`

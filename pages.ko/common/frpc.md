@@ -24,6 +24,6 @@
 
 `frpc completion {{bash|fish|powershell|zsh}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `frpc {{[-v|--version]}}`

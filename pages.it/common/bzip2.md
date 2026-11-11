@@ -28,6 +28,6 @@
 
 `bzip2 {{[-f|--force]}} {{percorso/al/file_compresso.bz2}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `bzip2 {{[-h|--help]}}`

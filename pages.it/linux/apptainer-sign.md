@@ -24,6 +24,6 @@
 
 `apptainer sign {{[-i|--sif-id]}} {{id_oggetto}} {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer sign {{[-h|--help]}}`

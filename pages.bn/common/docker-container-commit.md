@@ -27,6 +27,6 @@
 
 `docker {{[commit|container commit]}} {{[-p|--pause]}} false {{container}} {{image}}:{{tag}}`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `docker {{[commit|container commit]}} --help`

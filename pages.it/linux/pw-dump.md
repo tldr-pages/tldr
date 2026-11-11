@@ -24,6 +24,6 @@
 
 `pw-dump {{[-C|--color]}} {{never|always|auto}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-dump {{[-h|--help]}}`

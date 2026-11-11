@@ -24,6 +24,6 @@
 
 `afinfo --warnings {{ruta/al/archivo}}`
 
-- Muestra ayuda para un uso completo:
+- Muestra la ayuda:
 
 `afinfo --help`

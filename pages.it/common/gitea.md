@@ -20,7 +20,7 @@
 
 `gitea {{admin}} --help`
 
-- Mostra l’aiuto:
+- Mostra l'aiuto:
 
 `gitea help`
 

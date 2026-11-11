@@ -15,10 +15,10 @@
 
 `daps {{[-d|--docconfig]}} {{caminho/para/arquivo.xml}} html --single`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `daps {{[-h|--help]}}`
 
-- Exibe versão:
+- Mostra versão:
 
 `daps --version`

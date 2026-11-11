@@ -11,6 +11,6 @@
 
 `plasma-apply-colorscheme {{BreezeLight}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `plasma-apply-colorscheme --help`

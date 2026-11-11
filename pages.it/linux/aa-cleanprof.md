@@ -23,6 +23,6 @@
 
 `sudo aa-cleanprof --no-reload {{nome_profilo}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-cleanprof {{[-h|--help]}}`

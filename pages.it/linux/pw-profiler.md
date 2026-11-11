@@ -15,6 +15,6 @@
 
 `pw-profiler {{[-r|--remote]}} {{nome_remoto}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-profiler {{[-h|--help]}}`

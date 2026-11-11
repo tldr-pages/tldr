@@ -24,7 +24,7 @@
 
 `assimp info {{percorso/del/file}}`
 
-- Elenca tutti i sottocomandi disponibili (detti "verbs"):
+- Mostra l'aiuto:
 
 `assimp help`
 
