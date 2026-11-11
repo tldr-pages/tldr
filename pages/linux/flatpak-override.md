@@ -22,7 +22,7 @@
 
 - Set an environment variable for an application:
 
-`flatpak override --env {{VAR}}={{value}} {{com.example.app}}`
+`flatpak override --env {{VARIABLE}}={{value}} {{com.example.app}}`
 
 - Apply an override for the current user only:
 
