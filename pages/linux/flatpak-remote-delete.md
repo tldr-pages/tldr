@@ -1,6 +1,6 @@
 # flatpak remote-delete
 
-> Remove a remote repository from the flatpak configuration.
+> Remove a remote repository from the Flatpak configuration.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-remote-delete>.
 
 - Remove a remote repository:

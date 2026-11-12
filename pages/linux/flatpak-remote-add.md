@@ -1,6 +1,6 @@
 # flatpak remote-add
 
-> Add a remote repository to the flatpak configuration.
+> Add a remote repository to the Flatpak configuration.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-remote-add>.
 
 - Add a remote repository:
