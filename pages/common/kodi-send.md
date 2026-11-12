@@ -3,7 +3,7 @@
 > Send actions to Kodi.
 > More information: <https://kodi.wiki/view/List_of_built-in_functions>.
 
-- Send a navigation events:
+- Send a navigation event:
 
 `kodi-send {{[-a|--action]}} {{Up|Down|Left|Right|Select|Back|ContextMenu|...}}`
 
