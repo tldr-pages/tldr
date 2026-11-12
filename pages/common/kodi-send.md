@@ -13,7 +13,7 @@
 
 - Control the media player:
 
-`kodi-send {{[-a|--action]}} "PlayerControl({{Play|Stop|Forward|Rewind|...)"`
+`kodi-send {{[-a|--action]}} "PlayerControl({{Play|Stop|Forward|Rewind|...}})"`
 
 - Send keyboard key presses:
 
