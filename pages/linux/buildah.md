@@ -2,7 +2,7 @@
 
 > Build OCI container images without a container daemon.
 > Works without root and is commonly used together with `podman`.
-> More information: <https://github.com/containers/buildah/blob/main/docs/buildah.1.md>.
+> More information: <https://github.com/podman-container-tools/buildah/blob/main/docs/buildah.1.md>.
 
 - Create a working container from an image:
 
