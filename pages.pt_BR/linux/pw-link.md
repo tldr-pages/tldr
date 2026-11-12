@@ -19,6 +19,6 @@
 
 `pw-link {{[-lI|--links --id]}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `pw-link {{[-h|--help]}}`

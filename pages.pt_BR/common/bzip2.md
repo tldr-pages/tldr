@@ -28,6 +28,6 @@
 
 `bzip2 {{[-f|--force]}} {{caminho/para/arquivo_compactado.bz2}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `bzip2 {{[-h|--help]}}`

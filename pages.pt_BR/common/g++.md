@@ -32,6 +32,6 @@
 
 `g++ {{caminho/para/fonte.cpp}} -O{{1|2|3|fast}} {{[-o|--output]}} {{caminho/para/executavel_de_saída}}`
 
-- Exibe versão:
+- Mostra versão:
 
 `g++ --version`

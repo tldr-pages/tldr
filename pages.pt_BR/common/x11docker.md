@@ -20,6 +20,6 @@
 
 `x11docker {{[-d|--desktop]}} {{[-g|--gpu]}} --init={{systemd}} {{x11docker/kde-plasma}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `x11docker --help`

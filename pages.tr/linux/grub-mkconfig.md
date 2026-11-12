@@ -11,6 +11,6 @@
 
 `sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}`
 
-- Yardımı görüntüleyin:
+- Yardımı görüntüle:
 
 `grub-mkconfig {{[-h|--help]}}`

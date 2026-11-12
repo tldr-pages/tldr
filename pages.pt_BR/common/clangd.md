@@ -4,7 +4,7 @@
 > Deve ser usado por meio de um plugin do editor em vez de ser invocado diretamente.
 > Mais informações: <https://manned.org/clangd-22>.
 
-- Exibe as opções disponíveis:
+- Mostra ajuda:
 
 `clangd --help`
 
@@ -12,6 +12,6 @@
 
 `clangd --help-list`
 
-- Exibe a versão:
+- Mostra versão:
 
 `clangd --version`
