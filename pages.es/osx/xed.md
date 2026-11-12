@@ -13,4 +13,4 @@
 
 - Abre un archivo en Xcode y salta a la línea número 75:
 
-`xed --line 75 {{nombre_archivo}}`
+`xed --line 75 {{ruta/al/archivo}}`

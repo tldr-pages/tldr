@@ -5,11 +5,11 @@
 
 - Ordena aleatoriamente las líneas de un fichero y muestra el resultado:
 
-`shuf {{nombre_archivo}}`
+`shuf {{ruta/al/archivo}}`
 
 - Sólo muestra las 5 primeras entradas del resultado:
 
-`shuf --head-count=5 {{nombre_archivo}}`
+`shuf --head-count=5 {{ruta/al/archivo}}`
 
 - Escribe el resultado en otro archivo:
 

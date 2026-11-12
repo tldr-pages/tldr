@@ -29,8 +29,8 @@
 
 - Descarta los cambios no marcados de un archivo específico:
 
-`git checkout {{nombre_del_archivo}}`
+`git checkout {{ruta/al/archivo}}`
 
 - Reemplaza un archivo en el directorio actual con la versión de este en la confirmación de una rama específica:
 
-`git checkout {{nombre_de_la_rama}} -- {{nombre_del_archivo}}`
+`git checkout {{nombre_de_la_rama}} -- {{ruta/al/archivo}}`

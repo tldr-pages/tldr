@@ -6,7 +6,7 @@
 
 - Abre un archivo:
 
-`zathura {{ruta_al_archivo}}`
+`zathura {{ruta/al/archivo}}`
 
 - Navegue izquierda/arriba/abajo/derecha:
 

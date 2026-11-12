@@ -13,11 +13,11 @@
 
 - Une el campo3 del archivo1 con el campo1 del archivo2:
 
-`join -1 {{3}} -2 {{1}} {{ruta/al/fichero1}} {{ruta/al/archivo2}}`
+`join -1 {{3}} -2 {{1}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Produce una línea por cada línea no emparejable del fichero1:
 
-`join -a {{1}} {{ruta/al/fichero1}} {{ruta/al/archivo2}}`
+`join -a {{1}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Une un fichero desde `stdin`:
 
