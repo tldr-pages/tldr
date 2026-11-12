@@ -15,6 +15,6 @@
 
 `flatpak remote-modify --enable {{remote_name}}`
 
-- Modify a remote repository in the per-user configuration:
+- Disable a remote repository in the per-user configuration:
 
 `flatpak remote-modify {{[-u|--user]}} --disable {{remote_name}}`
