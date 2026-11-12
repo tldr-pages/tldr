@@ -5,16 +5,16 @@
 
 - Exibe informações sobre um determinado arquivo:
 
-`GetFileInfo {{caminho/para/nome_do_arquivo}}`
+`GetFileInfo {{caminho/para/arquivo}}`
 
 - Exibe a data e hora em que um determinado arquivo foi criado:
 
-`GetFileInfo -d {{caminho/para/nome_do_arquivo}}`
+`GetFileInfo -d {{caminho/para/arquivo}}`
 
 - Exibe a data e hora em que um determinado arquivo foi modificado pela última vez:
 
-`GetFileInfo -m {{caminho/para/nome_do_arquivo}}`
+`GetFileInfo -m {{caminho/para/arquivo}}`
 
 - Exibe o criador de um determinado arquivo:
 
-`GetFileInfo -c {{caminho/para/nome_do_arquivo}}`
+`GetFileInfo -c {{caminho/para/arquivo}}`

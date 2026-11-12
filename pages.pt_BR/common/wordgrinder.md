@@ -9,7 +9,7 @@
 
 - Abre um arquivo específico:
 
-`wordgrinder {{nome_do_arquivo}}`
+`wordgrinder {{caminho/para/arquivo}}`
 
 - Mostra o menu:
 

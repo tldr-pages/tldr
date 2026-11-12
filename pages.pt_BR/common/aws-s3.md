@@ -18,11 +18,11 @@
 
 - Sincroniza arquivos e diretórios excluindo algo:
 
-`aws s3 sync {{caminho/para/arquivos}} s3://{{nome_do_bucket}} --exclude {{arquivo/não/sincronizado}} --exclude {{caminho/não/sincronizado}}/*`
+`aws s3 sync {{caminho/para/arquivos}} s3://{{nome_do_bucket}} --exclude {{caminho/para/arquivo}} --exclude {{caminho/não/sincronizado}}/*`
 
 - Remove arquivo do bucket:
 
-`aws s3 rm s3://{{nome_do_bucket}}/{{caminho/do/arquivo}}`
+`aws s3 rm s3://{{nome_do_bucket}}/{{caminho/para/arquivo}}`
 
 - Somente exibe a prévia das mudanças:
 
