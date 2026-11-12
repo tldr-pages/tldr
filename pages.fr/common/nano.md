@@ -18,8 +18,8 @@
 
 - Indente les nouvelles lignes à la même indentation que les lignes précédentes :
 
-`nano {{[-i|--autoindent]}} {{fichier}}`
+`nano {{[-i|--autoindent]}} {{chemin/vers/fichier}}`
 
 - Avant la modification, sauvegarde le fichier actuel sous le format `nom_du_fichier_actuel~` :
 
-`nano {{[-B|--backup]}} {{fichier}}`
+`nano {{[-B|--backup]}} {{chemin/vers/fichier}}`
