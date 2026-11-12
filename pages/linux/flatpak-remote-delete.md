@@ -15,6 +15,6 @@
 
 `flatpak remote-delete --system {{remote_name}}`
 
-- Remove a remote repository even if installed applications or runtimes still use it:
+- Force the removal of a remote repository currently in use:
 
 `flatpak remote-delete --force {{remote_name}}`
