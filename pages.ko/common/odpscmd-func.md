@@ -3,7 +3,7 @@
 > ODPS (Open Data Processing Service)에서 함수 관리.
 > 더 많은 정보: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
-- 현재 프로젝트의 함수 표시:
+- [대화형] 현재 프로젝트의 함수 표시:
 
 `list functions;`
 

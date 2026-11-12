@@ -19,15 +19,15 @@
 
 `ftp -s:{{ruta\al\archivo}} {{host}}`
 
-- Descarga múltiples archivos (expresión `glob`):
+- [Interactivo] Descarga múltiples archivos (expresión `glob`):
 
 `mget {{*.png}}`
 
-- Sube múltiples archivos (expresión `glob`):
+- [Interactivo] Sube múltiples archivos (expresión `glob`):
 
 `mput {{*.zip}}`
 
-- Elimina múltiples archivos en el servidor remoto:
+- [Interactivo] Elimina múltiples archivos en el servidor remoto:
 
 `mdelete {{*.txt}}`
 

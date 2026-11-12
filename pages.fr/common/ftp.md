@@ -11,23 +11,23 @@
 
 `ftp {{adresse_ip}} {{port}}`
 
-- Passe en mode de transfert binaire (médias, fichiers compressés, etc) :
+- [Interactif] Passe en mode de transfert binaire (médias, fichiers compressés, etc) :
 
 `binary`
 
-- Transfère plusieurs fichiers sans demander de confirmation pour chaque :
+- [Interactif] Transfère plusieurs fichiers sans demander de confirmation pour chaque :
 
 `prompt off`
 
-- Télécharge plusieurs fichiers :
+- [Interactif] Télécharge plusieurs fichiers :
 
 `mget {{*.png}}`
 
-- Téléverse plusieurs fichiers :
+- [Interactif] Téléverse plusieurs fichiers :
 
 `mput {{*.zip}}`
 
-- Supprime plusieurs fichiers sur le serveur distant :
+- [Interactif] Supprime plusieurs fichiers sur le serveur distant :
 
 `mdelete {{*.txt}}`
 

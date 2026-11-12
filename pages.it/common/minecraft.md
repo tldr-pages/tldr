@@ -15,6 +15,6 @@
 
 `java -jar {{percorso/del/server}}.jar`
 
-- Spegne il server:
+- [Interattivo] Spegne il server:
 
 `stop`

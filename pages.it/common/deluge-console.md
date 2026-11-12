@@ -15,7 +15,7 @@
 
 `add {{url|magnet|percorso/del/file}}`
 
-- Mostra informazioni su tutti i torrent:
+- [Interattivo] Mostra informazioni su tutti i torrent:
 
 `info`
 
