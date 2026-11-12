@@ -7,10 +7,6 @@
 
 `stellar contract build`
 
-- Optimize a compiled WebAssembly smart contract binary:
-
-`stellar contract optimize --wasm {{path/to/contract.wasm}}`
-
 - Generate a new keypair identity and fund it on the Stellar testnet:
 
 `stellar keys generate {{identity_name}} {{[-n|--network]}} testnet --fund`
