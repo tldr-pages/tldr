@@ -31,6 +31,6 @@
 
 `mdelete {{*.txt}}`
 
-- Cambia el nombre de un archivo en el servidor remoto:
+- [Interactivo] Cambia el nombre de un archivo en el servidor remoto:
 
 `rename {{nombre_archivo_original}} {{nuevo_nombre_archivo}}`
