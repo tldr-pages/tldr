@@ -24,7 +24,7 @@
 
 `assimp info {{chemin/vers/fichier}}`
 
-- Liste toutes les sous-commandes supportées ("mots") :
+- Affiche l'aide :
 
 `assimp help`
 

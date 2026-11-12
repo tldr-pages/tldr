@@ -15,6 +15,6 @@
 
 `docker {{[start|container start]}} {{konteyner1 konteyner2 ...}}`
 
-- Yardım göster:
+- Yardımı görüntüle:
 
 `docker {{[start|container start]}} --help`

@@ -19,6 +19,6 @@
 
 `cockpit-ws --no-tls`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `cockpit-ws --help`

@@ -25,7 +25,7 @@
 
 - Muestra los 10 registros más recientes de un pod:
 
-`kubectl logs --tail {{10}} {{nombre_del_pod}}`
+`kubectl logs --tail 10 {{nombre_del_pod}}`
 
 - Muestra todos los registros de un pod para un despliegue determinado:
 

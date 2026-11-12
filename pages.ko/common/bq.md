@@ -5,7 +5,7 @@
 
 - 표준 SQL을 사용하여 BigQuery 테이블에 대해 쿼리를 실행하고, `--dry_run` 플래그를 추가해 쿼리에서 읽은 바이트 수를 추정:
 
-`bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM {{데이터셋_이름}}.{{테이블_이름}}'`
+`bq query --nouse_legacy_sql --dry_run 'SELECT COUNT(*) FROM {{데이터셋_이름}}.{{테이블_이름}}'`
 
 - 매개변수화된 쿼리 실행:
 
@@ -27,6 +27,6 @@
 
 `bq cp {{데이터셋}}.{{오래된_테이블}} {{데이터셋}}.{{새로운_테이블}}`
 
-- 버전 정보 표시:
+- 도움말 표시:
 
 `bq help`

@@ -5,4 +5,4 @@
 
 - Verberg de muiscursor na 3 seconden:
 
-`unclutter -idle {{3}}`
+`unclutter -idle 3`

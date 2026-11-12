@@ -23,6 +23,6 @@
 
 `ghdl -s {{fichier.vhdl}}`
 
-- Affiche l'aide générale :
+- Affiche l'aide :
 
 `ghdl --help`

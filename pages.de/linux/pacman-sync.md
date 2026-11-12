@@ -1,7 +1,6 @@
 # pacman --sync
 
 > Arch Linux Paketverwaltungs-Werkzeug.
-> Siehe auch: `pacman`.
 > Weitere Informationen: <https://manned.org/pacman.8>.
 
 - Installiere ein neues Paket:

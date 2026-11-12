@@ -24,6 +24,6 @@
 
 `iwctl station {{station}} connect {{nom_du_réseau}}`
 
-- Affiche l'aide générale :
+- Affiche l'aide :
 
 `iwctl {{[-h|--help]}}`

@@ -7,6 +7,6 @@
 
 `sudo lxc-destroy {{nome_container}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-destroy {{[-?|--help]}}`

@@ -16,10 +16,10 @@
 
 `bugreportz -s`
 
-- ヘルプを表示します:
+- ヘルプを表示する:
 
 `bugreportz -h`
 
-- バージョンを表示します:
+- バージョンを表示:
 
 `bugreportz -v`

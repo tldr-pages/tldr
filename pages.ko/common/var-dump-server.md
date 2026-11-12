@@ -10,7 +10,7 @@
 
 - 데이터를 HTML 파일로 덤프:
 
-`var-dump-server --format=html > {{경로/대상/파일.html}}`
+`var-dump-server --format=html >{{경로/대상/파일.html}}`
 
 - 특정 주소와 포트에서 서버 수신 대기:
 

@@ -20,6 +20,6 @@
 
 `lilypond {{[-o|--output]}} {{경로/대상/출력_파일}} {{경로/대상/입력_파일}}`
 
-- lilypond의 현재 버전 확인:
+- 버전 표시:
 
 `lilypond {{[-v|--version]}}`

@@ -15,6 +15,6 @@
 
 `plasma-apply-lookandfeel --platform offscreen`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `plasma-apply-lookandfeel --help`

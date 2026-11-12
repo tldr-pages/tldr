@@ -11,7 +11,7 @@
 
 - Jalankan suatu layanan VPN Layer 3 dengan MTU sebesar 1400, dengan konfigurasi lainnya yang diatur dalam suatu berkas:
 
-`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} {{1400}} {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
+`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} 1400 {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
 
 - Lakukan validasi terhadap suatu berkas konfigurasi:
 

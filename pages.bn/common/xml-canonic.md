@@ -5,16 +5,16 @@
 
 - কমেন্ট সংরক্ষণ করে একটি XML ডকুমেন্টকে ক্যানোনিকাল তৈরি করুন:
 
-`xml {{[c14n|canonic]}} {{path/to/input.xml|uri}} > {{path/to/output.xml}}`
+`xml {{[c14n|canonic]}} {{path/to/input.xml|uri}} >{{path/to/output.xml}}`
 
 - কমেন্ট সরিয়ে একটি XML ডকুমেন্টকে ক্যানোনিকাল তৈরি করুন:
 
-`xml {{[c14n|canonic]}} --without-comments {{path/to/input.xml|uri}} > {{path/to/output.xml}}`
+`xml {{[c14n|canonic]}} --without-comments {{path/to/input.xml|uri}} >{{path/to/output.xml}}`
 
 - কমেন্ট সংরক্ষণ করে, একটি ফাইল থেকে XPATH ব্যবহার করে XML এক্সক্লুসিভ ক্যানোনিকাল তৈরি করুন:
 
 `xml {{[c14n|canonic]}} --exc-with-comments {{path/to/input.xml|uri}} {{path/to/c14n.xpath}}`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `xml {{[c14n|canonic]}} --help`

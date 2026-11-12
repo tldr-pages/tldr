@@ -4,7 +4,7 @@
 > 현재 체크아웃된 커밋과 비교하여 변경된, 추가된 및 삭제된 파일을 나열합니다.
 > 더 많은 정보: <https://git-scm.com/docs/git-status>.
 
-- 커밋할 파일로 아직 추가되지 않은 변경된 파일 보기:
+- 추적되지 않는 파일과 아직 스테이징하지 않은 변경 파일 보기:
 
 `git status`
 
@@ -12,13 +12,17 @@
 
 `git status {{[-s|--short]}}`
 
-- 스테이징 영역과 작업 디렉토리의 변경 사항에 대한 [v]erbose 정보 표시:
-
-`git status {{[-vv|--verbose --verbose]}}`
-
 - [s]hort 형식으로 출력하면서 [b]ranch 정보 표시:
 
 `git status {{[-sb|--short --branch]}}`
+
+- 스테이징된 파일의 변경 사항 표시 (`git diff --cached`와 유사):
+
+`git status {{[-v|--verbose]}}`
+
+- 추적 중인 모든 파일의 변경 사항 표시 (`git diff HEAD`와 유사):
+
+`git status {{[-vv|--verbose --verbose]}}`
 
 - 현재 숨겨둔 엔트리의 수 표시:
 

@@ -12,6 +12,6 @@
 
 `acyclic -v -n {{chemin/vers/entrée.gv}}`
 
-- Affiche l'aide d' `acyclic` :
+- Affiche l'aide :
 
 `acyclic -?`

@@ -11,6 +11,6 @@
 
 `gnome-calculator --solve {{2^5 * 2 + 5}}`
 
-- Exibe a versão:
+- Mostra versão:
 
 `gnome-calculator --version`

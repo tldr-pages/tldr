@@ -31,6 +31,6 @@
 
 `apptainer build {{[-f|--fakeroot]}} {{path/to/immagine.sif}} {{path/to/definizione.def}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer build {{[-h|--help]}}`

@@ -1,7 +1,6 @@
 # gcloud feedback
 
 > Google Cloud 팀에게 피드백 제공.
-> 관련 항목: `gcloud`.
 > 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/feedback>.
 
 - `gcloud` 팀에게 피드백 제공:

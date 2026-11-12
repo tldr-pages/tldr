@@ -4,11 +4,11 @@
 > Alcuni comandi aggiuntivi, come `commit`, hanno la propria documentazione.
 > Maggiori informazioni: <https://git-scm.com/docs/git>.
 
-- Controlla la versione di Git:
+- Mostra la versione:
 
 `git --version`
 
-- Mostra informazioni di aiuto generali:
+- Mostra l'aiuto:
 
 `git --help`
 

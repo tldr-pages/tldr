@@ -20,6 +20,6 @@
 
 `bun link --dry-run`
 
-- Mostra l'help:
+- Mostra l'aiuto:
 
 `bun link {{[-h|--help]}}`

@@ -7,6 +7,6 @@
 
 `btrfs {{[v|version]}} --help`
 
-- btrfs-progs 버전 표시:
+- 버전 표시:
 
 `btrfs {{[v|version]}}`

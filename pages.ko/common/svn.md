@@ -21,7 +21,7 @@
 
 - 마지막 10개 리비전의 변경 사항을 표시하고 각 리비전에 수정된 파일 표시:
 
-`svn log {{[-vl|--verbose --limit]}} {{10}}`
+`svn log {{[-vl|--verbose --limit]}} 10`
 
 - 도움말 표시:
 

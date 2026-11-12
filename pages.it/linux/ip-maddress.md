@@ -19,6 +19,6 @@
 
 `sudo ip {{[m|maddress]}} {{[d|delete]}} {{33:33:00:00:00:02}} dev {{ethX}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `ip {{[m|maddress]}} {{[h|help]}}`

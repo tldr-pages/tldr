@@ -17,4 +17,4 @@
 
 - 호환성 파손 점검 결과를 Markdown으로 출력:
 
-`roave-backward-compatibility-check --format=markdown > {{결과.md}}`
+`roave-backward-compatibility-check --format=markdown >{{결과.md}}`

@@ -9,7 +9,7 @@
 
 - Servis yapılandırma dosyalarını belirtilen dosyaya yazılacak şekilde dışa aktar:
 
-`svccfg export {{servisismi}} > {{smf.xml}}`
+`svccfg export {{servisismi}} >{{smf.xml}}`
 
 - Dosyadan servis yapılandırmalarını içe aktar/güncelle:
 

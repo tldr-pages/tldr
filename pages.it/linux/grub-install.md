@@ -23,6 +23,6 @@
 
 `sudo grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --modules "{{part_gpt part_msdos}}"`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `grub-install {{[-?|--help]}}`

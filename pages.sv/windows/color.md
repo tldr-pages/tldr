@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Ställ in vilken färg bakgrunden och texten ska ha med hjälp av hexadecimala tal (`1-9,a-f`):
+- Ställ in vilken färg bakgrunden och texten ska ha med hjälp av hexadecimala tal (`0-9,a-f`):
 
 `color {{tal_textfärg}}{{tal_bakgrundsfärg}}`

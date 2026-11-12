@@ -19,6 +19,6 @@
 
 `fprintd-enroll {{[-f|--finger]}} {{finger_name}} {{username}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `fprintd-enroll --help`

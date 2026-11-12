@@ -17,4 +17,4 @@
 
 - 의존성 정보를 파일로 저장:
 
-`gradle dependencies > {{경로/대상/의존성.txt}}`
+`gradle dependencies >{{경로/대상/의존성.txt}}`

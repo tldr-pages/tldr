@@ -11,7 +11,7 @@
 
 `plasmashell --replace & disown`
 
-- 명령줄 옵션에 대한 도움말 표시:
+- 도움말 표시:
 
 `plasmashell {{[-h|--help]}}`
 

@@ -15,6 +15,6 @@
 
 `sudo aa-unconfined --paranoid`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-unconfined {{[-h|--help]}}`

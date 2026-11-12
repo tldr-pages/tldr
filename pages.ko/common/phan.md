@@ -9,7 +9,7 @@
 
 - 특정 레벨을 사용하여 Phan 구성 파일 생성 (1이 가장 엄격하고 5가 가장 덜 엄격함):
 
-`phan --init --init-level {{레벨}}`
+`phan --init --init-level {{1..5}}`
 
 - 현재 디렉터리 분석:
 

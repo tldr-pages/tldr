@@ -19,6 +19,6 @@
 
 `git gc --quiet`
 
-- Tam kullanım için yardım göster:
+- Yardımı görüntüle:
 
 `git gc --help`

@@ -1,7 +1,6 @@
 # semanage port
 
 > 지속적인 SELinux 포트 정의를 관리합니다.
-> 관련 항목: `semanage`.
 > 더 많은 정보: <https://manned.org/semanage-port>.
 
 - 모든 포트 레이블 규칙 나열:

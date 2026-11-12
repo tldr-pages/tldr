@@ -13,11 +13,11 @@
 
 - Bash 자동 완성 스크립트를 `~/.bashrc`에 추가:
 
-`kubectl completion bash >> ~/.bashrc`
+`kubectl completion bash >>~/.bashrc`
 
 - Zsh 자동 완성 스크립트를 `fpath` 디렉터리에 저장:
 
-`kubectl completion zsh > "${fpath[1]}/_kubectl"`
+`kubectl completion zsh >"${fpath[1]}/_kubectl"`
 
 - fish 자동 완성을 현재 쉘 세션에 로드:
 
@@ -25,7 +25,7 @@
 
 - fish 자동완성을 영구적으로 저장:
 
-`kubectl completion fish > ~/.config/fish/completions/kubectl.fish`
+`kubectl completion fish >~/.config/fish/completions/kubectl.fish`
 
 - PowerShell 자동 완성을 현재 세션에 로드:
 
@@ -33,4 +33,4 @@
 
 - PowerShell 자동완성을 영구 저장:
 
-`kubectl completion powershell >> $PROFILE`
+`kubectl completion powershell >>$PROFILE`

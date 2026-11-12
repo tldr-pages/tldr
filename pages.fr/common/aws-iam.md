@@ -31,6 +31,6 @@
 
 `aws iam list-access-keys --user-name {{nom_utilisateur}}`
 
-- Affiche la page d'aide pour `aws iam` (avec toutes les commandes iam disponibles) :
+- Affiche l'aide :
 
 `aws iam help`
