@@ -14,7 +14,7 @@
 
 - Expose a local file or directory:
 
-`tailscale serve {{path/to/file_or_directory}}`
+`tailscale serve /{{path/to/file_or_directory}}`
 
 - Expose a local server on a specific HTTPS port:
 
