@@ -13,7 +13,7 @@
 
 - Download a file from a URL to a local destination in one step:
 
-`bitsadmin /transfer {{job_name}} {{https://example.com/file.zip}} {{C:\path\to\destination_file.zip}}`
+`bitsadmin /transfer {{job_name}} {{https://example.com/file.zip}} {{C}}:{{path\to\destination_file.zip}}`
 
 - Create a new download job:
 
@@ -21,7 +21,7 @@
 
 - Add a file to an existing job:
 
-`bitsadmin /addfile {{job_name}} {{https://example.com/file.zip}} {{C:\path\to\destination_file.zip}}`
+`bitsadmin /addfile {{job_name}} {{https://example.com/file.zip}} {{C}}:{{path\to\destination_file.zip}}`
 
 - Resume a paused or suspended job:
 
