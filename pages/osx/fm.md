@@ -21,7 +21,7 @@
 
 - Generate a JSON schema for an object with a string and an integer property:
 
-`fm schema object --name {{Person}} --string {{name}} --int {{age}} > {{path/to/schema.json}}`
+`fm schema object --name {{Person}} --string {{name}} --int {{age}} >{{path/to/schema.json}}`
 
 - Generate a JSON response that conforms to a schema:
 
