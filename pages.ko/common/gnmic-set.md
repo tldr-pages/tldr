@@ -9,11 +9,11 @@
 
 - JSON 파일의 내용과 일치하도록 경로 값을 업데이트:
 
-`gnmic {{[-a|--address]}} {{아이피:포트}} set --update-path {{경로}} --update-file {{파일경로}}`
+`gnmic {{[-a|--address]}} {{아이피:포트}} set --update-path {{경로}} --update-file {{경로/대상/파일}}`
 
 - JSON 파일의 내용과 일치하도록 경로 값을 변경:
 
-`gnmic {{[-a|--address]}} {{아이피:포트}} set --replace-path {{경로}} --replace-file {{파일경로}}`
+`gnmic {{[-a|--address]}} {{아이피:포트}} set --replace-path {{경로}} --replace-file {{경로/대상/파일}}`
 
 - 주어진 경로에서 노드를 삭제:
 
