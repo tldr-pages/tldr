@@ -17,7 +17,7 @@
 
 - Cifra un file plaintext esistente sul posto usando un file password:
 
-`ansible-vault encrypt --vault-password-file {{percorso/al/password_file}} {{percorso/al/file}}`
+`ansible-vault encrypt --vault-password-file {{percorso/al/password_file}} {{percorso/del/file}}`
 
 - Cifra una stringa usando il formato stringa crittografata di Ansible con prompt interattivi:
 

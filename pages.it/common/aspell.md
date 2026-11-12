@@ -5,11 +5,11 @@
 
 - Controllare l'ortografia di un singolo file:
 
-`aspell check {{percorso/al/file}}`
+`aspell check {{percorso/del/file}}`
 
 - Elencare le parole errate da `stdin`:
 
-`cat {{percorso/al/file}} | aspell list`
+`cat {{percorso/del/file}} | aspell list`
 
 - Mostrare i dizionari linguistici disponibili:
 
@@ -21,4 +21,4 @@
 
 - Elencare le parole errate da `stdin` e ignorare le parole presenti nella lista personale:
 
-`cat {{percorso/al/file}} | aspell --personal {{lista_parole_personali.pws}} list`
+`cat {{percorso/del/file}} | aspell --personal {{lista_parole_personali.pws}} list`

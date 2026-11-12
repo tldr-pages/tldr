@@ -5,8 +5,8 @@
 
 - Trova l'indice del primo byte e della prima riga differente tra due file:
 
-`cmp {{file1}} {{file2}}`
+`cmp {{percorso/del/file1}} {{percorso/del/file2}}`
 
 - Trova ogni coppia di byte differenti ed il relativo indice:
 
-`cmp {{[-l|--verbose]}} {{file1}} {{file2}}`
+`cmp {{[-l|--verbose]}} {{percorso/del/file1}} {{percorso/del/file2}}`

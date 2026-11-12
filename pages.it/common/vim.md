@@ -7,7 +7,7 @@
 
 - Apri un file in vim:
 
-`vim {{file}}`
+`vim {{percorso/del/file}}`
 
 - Annulla l'ultima operazione:
 

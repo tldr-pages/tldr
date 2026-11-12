@@ -9,7 +9,7 @@
 
 - Specifica il nome del file output:
 
-`csc /out:{{percorso/del/nome_file_output}} {{percorso/del/file_input.cs}}`
+`csc /out:{{percorso/del/file}} {{percorso/del/file_input.cs}}`
 
 - Compila in una libreria `.dll` invece che in un eseguibile:
 

@@ -6,7 +6,7 @@
 
 - Avvia emacs in modalità console (senza finestra X):
 
-`emacs {{[-nw|--no-window-system]}}`
+`emacs {{percorso/del/file}}`
 
 - Apri un file in emacs:
 
