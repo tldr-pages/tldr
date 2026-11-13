@@ -24,6 +24,6 @@
 
 `gum format {{[-t|--type]}} {{emoji}} "{{:smile: :heart: hola}}"`
 
-- Solicita texto de varias líneas interactivamente y escribir en `datos.txt`:
+- Solicita texto de varias líneas interactivamente y escribirlo en `datos.txt`:
 
 `gum write >{{datos.txt}}`
