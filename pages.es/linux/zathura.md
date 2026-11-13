@@ -12,7 +12,7 @@
 
 `{{<h>|<j>|<k>|<l>|<Flechas>}}`
 
-- Gire:
+- Gira:
 
 `<r>`
 
