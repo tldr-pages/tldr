@@ -7,10 +7,10 @@
 
 `st-util {{[-p|--listen_port]}} 4500`
 
-- GDB 서버에 연결:
+- [대화형] GDB 서버에 연결:
 
 `target extended-remote {{localhost}}:{{4500}}`
 
-- 장치에 펌웨어 쓰기:
+- [대화형] 장치에 펌웨어 쓰기:
 
 `load {{firmware.elf}}`

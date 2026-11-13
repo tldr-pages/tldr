@@ -11,7 +11,7 @@
 
 `telnet {{ip_주소}} {{포트}}`
 
-- Telnet 세션 종료:
+- [대화형] Telnet 세션 종료:
 
 `quit`
 
