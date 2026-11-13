@@ -30,4 +30,4 @@
 
 - [Interativo] Substitui a string com um substituto específico em todas as linhas:
 
-`,s/{{regex}}/{{substituto}}/g<Enter>`
+`,s/{{regex}}/{{substituto}}/g`
