@@ -12,10 +12,6 @@
 
 `mimikatz "privilege::debug"`
 
-- Elenca le sessioni di accesso disponibili:
-
-`mimikatz "sekurlsa::logonpasswords"`
-
 - Esegui il dump di password in chiaro, hash NTLM e ticket Kerberos dalla memoria:
 
 `mimikatz "sekurlsa::logonpasswords"`
@@ -32,6 +28,6 @@
 
 `mimikatz "kerberos::list /export"`
 
-- Esci da mimikatz:
+- [Interactive] Esci da mimikatz:
 
 `exit`

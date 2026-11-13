@@ -7,15 +7,15 @@
 
 `yacas`
 
-- `yacas` 세션에서 문 실행:
+- [대화형] `yacas` 세션에서 문 실행:
 
 `{{Integrate(x)Cos(x)}};`
 
-- `yacas` 세션에서 예시 표시:
+- [대화형] `yacas` 세션에서 예시 표시:
 
 `Example();`
 
-- `yacas` 세션 종료:
+- [대화형] `yacas` 세션 종료:
 
 `quit`
 

@@ -17,7 +17,7 @@
 
 - 대회에 파일 제출:
 
-`kaggle {{[c|competitions]}} submit {{대회_이름}} {{[-f|--file]}} {{path/to/file}} {{[-m|--message]}} "{{메시지}}"`
+`kaggle {{[c|competitions]}} submit {{대회_이름}} {{[-f|--file]}} {{경로/대상/파일}} {{[-m|--message]}} "{{메시지}}"`
 
 - 리더보드 표시 또는 다운로드:
 

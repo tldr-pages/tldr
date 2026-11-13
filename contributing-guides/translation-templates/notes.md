@@ -340,7 +340,7 @@ This file contains the translation templates of this label.
 ### tr
 
 ```markdown
-> Not: This command is deprecated, use `example` instead.
+> Not: Bu komut kullanımdan kaldırıldı, bunun yerine `example` kullan.
 ```
 
 ---

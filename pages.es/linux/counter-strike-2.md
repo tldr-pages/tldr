@@ -15,6 +15,6 @@
 
 `{{ruta/a}}/cs2 -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
 
-- Apaga el servidor:
+- [Interactivo] Apaga el servidor:
 
 `quit`
