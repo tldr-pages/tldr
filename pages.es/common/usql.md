@@ -9,11 +9,11 @@
 
 - Ejecuta comandos desde un archivo:
 
-`usql --file={{ruta/al/query.sql}}`
+`usql {{[-f|--file]}} {{ruta/al/query.sql}}`
 
 - Ejecuta un comando SQL específico:
 
-`usql --command="{{comando_sql}}"`
+`usql {{[-c|--command]}} "{{comando_sql}}"`
 
 - [Interactivo] Ejecuta un comando SQL en el intérprete de comandos de `usql`:
 
