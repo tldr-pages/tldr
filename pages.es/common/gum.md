@@ -6,7 +6,7 @@
 
 - Ofrece varias opciones para elegir una y la imprime en `stdout`:
 
-`gum choose "{{opción_1}}" "{{opción_2}}" "{{opción_3}}"`
+`gum choose {{"opción_1" "opción_2" ...}}`
 
 - Muestra una entrada de texto interactiva para que el usuario introduzca una cadena con un texto indicativo (placeholder) específico:
 
