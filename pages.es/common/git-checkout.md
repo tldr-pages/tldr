@@ -31,6 +31,6 @@
 
 `git checkout {{ruta/al/archivo}}`
 
-- Reemplaza un archivo en el directorio actual con la versión de este en la confirmación de una rama específica:
+- Reemplaza un archivo en el directorio actual con la versión de éste en la confirmación de una rama específica:
 
 `git checkout {{nombre_de_la_rama}} -- {{ruta/al/archivo}}`
