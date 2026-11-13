@@ -18,7 +18,7 @@
 
 - 명령이 실행되는 동안 텍스트와 함께 스피너를 표시:
 
-`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" -- {{명령어}}`
+`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" {{명령어}}`
 
 - 이모티콘을 포함하도록 텍스트 형식을 지정:
 
