@@ -9,11 +9,11 @@
 
 - 파일에서 명령 실행:
 
-`usql --file={{경로/대상/query.sql}}`
+`usql {{[-f|--file]}} {{경로/대상/query.sql}}`
 
 - 특정 SQL 명령 실행:
 
-`usql --command="{{sql_명령}}"`
+`usql {{[-c|--command]}} "{{sql_명령}}"`
 
 - [대화형] `usql` 프롬프트에서 SQL 명령 실행:
 
