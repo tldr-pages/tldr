@@ -46,6 +46,7 @@ The templates can be changed when necessary.
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -605,6 +606,20 @@ The templates can be changed when necessary.
 > Ushbu buyruq taxallus `example`.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
+
+`tldr example`
+```
+
+---
+
+### vi
+
+```markdown
+# example
+
+> Lệnh này là bí danh của `example`.
+
+- Xem tài liệu của lệnh gốc:
 
 `tldr example`
 ```

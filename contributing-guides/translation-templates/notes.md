@@ -44,6 +44,7 @@ This file contains the translation templates of this label.
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -357,6 +358,14 @@ This file contains the translation templates of this label.
 
 ```markdown
 > Note: This command is deprecated, use `example` instead.
+```
+
+---
+
+### vi
+
+```markdown
+> Lưu ý: Lệnh này đã lỗi thời, hãy dùng `example` thay thế.
 ```
 
 ---
