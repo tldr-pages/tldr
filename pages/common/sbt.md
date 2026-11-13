@@ -29,7 +29,7 @@
 
 - Use a specific jar file as the sbt launcher:
 
-`sbt -sbt-jar {{path}}`
+`sbt -sbt-jar {{path/to/sbt-launch.jar}}`
 
 - Display help:
 

@@ -13,4 +13,4 @@
 
 - Search for artifacts within the given repository and directory:
 
-`jf rt search --recursive {{repository_name}}/{{path}}/`
+`jf rt search --recursive {{repository_name}}/{{path/to/directory}}/`
