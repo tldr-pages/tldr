@@ -18,7 +18,7 @@
 
 - Muestra un spinner con un texto acompañante mientras se ejecuta una orden:
 
-`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{cargando...}}" -- {{orden}}`
+`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{cargando...}}" {{orden}}`
 
 - Formatea texto para incluir emojis:
 
