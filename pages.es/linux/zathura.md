@@ -20,7 +20,7 @@
 
 `<Ctrl r>`
 
-- Busque texto en base a una cadena:
+- Busca texto en base a una cadena:
 
 `</>{{cadena}}`
 
