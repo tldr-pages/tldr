@@ -28,10 +28,10 @@
 
 `ed {{ruta/al/archivo}}`
 
-- Reemplaza una cadena con un reemplazo específico para todas las líneas:
+- [Interactivo] Reemplaza una cadena con un reemplazo específico para todas las líneas:
 
 `,s/{{regex}}/{{replacement}}/g<Enter>`
 
-- Sale de `ed`:
+- [Interactivo] Sale de `ed`:
 
-`q<Enter>`
+`q`
