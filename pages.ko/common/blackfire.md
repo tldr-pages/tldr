@@ -29,7 +29,7 @@
 
 - 프로파일러 파일을 Blackfire 웹 서비스에 업로드:
 
-`blackfire upload {{파일/의/경로}}`
+`blackfire upload {{경로/대상/파일}}`
 
 - Blackfire 웹 서비스에서 프로필 상태 확인:
 

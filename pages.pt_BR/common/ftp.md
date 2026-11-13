@@ -11,26 +11,26 @@
 
 `ftp {{endereço_ip}} {{porta}}`
 
-- Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):
+- [Interativo] Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):
 
 `binary`
 
-- Transfere vários arquivos sem solicitar confirmação em cada arquivo:
+- [Interativo] Transfere vários arquivos sem solicitar confirmação em cada arquivo:
 
 `prompt off`
 
-- Baixa vários arquivos (expressão `glob`):
+- [Interativo] Baixa vários arquivos (expressão `glob`):
 
 `mget {{*.png}}`
 
-- Carrega vários arquivos (expressão `glob`):
+- [Interativo] Carrega vários arquivos (expressão `glob`):
 
 `mput {{*.zip}}`
 
-- Exclui vários arquivos do servidor remoto:
+- [Interativo] Exclui vários arquivos do servidor remoto:
 
 `mdelete {{*.txt}}`
 
-- Renomeia um arquivo no servidor remoto:
+- [Interativo] Renomeia um arquivo no servidor remoto:
 
 `rename {{nome_do_arquivo_original}} {{novo_nome_do_arquivo}}`

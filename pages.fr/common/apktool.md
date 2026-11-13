@@ -5,7 +5,7 @@
 
 - Décode un fichier APK :
 
-`apktool d {{fichier}}.apk`
+`apktool d {{chemin/vers/fichier}}.apk`
 
 - Construit un fichier APK depuis un répertoire :
 
