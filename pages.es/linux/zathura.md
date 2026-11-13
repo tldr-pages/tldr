@@ -8,7 +8,7 @@
 
 `zathura {{ruta/al/archivo}}`
 
-- Navegue izquierda/arriba/abajo/derecha:
+- Navega izquierda/arriba/abajo/derecha:
 
 `{{<h>|<j>|<k>|<l>|<Flechas>}}`
 
