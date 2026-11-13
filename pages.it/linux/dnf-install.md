@@ -9,7 +9,7 @@
 
 - Installa un pacchetto da un file locale:
 
-`sudo dnf {{[in|install]}} {{path/to/file}}`
+`sudo dnf {{[in|install]}} {{percorso/del/file}}`
 
 - Installa un pacchetto da internet:
 

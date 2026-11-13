@@ -9,7 +9,7 @@
 
 - Cerca i pacchetti che contengono il file o percorso specificato:
 
-`apt-file {{[find|search]}} {{percorso/al/file}}`
+`apt-file {{[find|search]}} {{percorso/del/file}}`
 
 - Elenca i contenuti di un pacchetto specifico:
 

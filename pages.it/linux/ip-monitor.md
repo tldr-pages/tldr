@@ -13,4 +13,4 @@
 
 - Riproduce un file di eventi (può essere generato con `rtmon`):
 
-`ip {{[mo|monitor]}} {{[f|file]}} {{path/to/file}}`
+`ip {{[mo|monitor]}} {{[f|file]}} {{percorso/del/file}}`

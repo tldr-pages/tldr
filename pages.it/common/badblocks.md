@@ -22,7 +22,7 @@
 
 - In modalità distruttiva, [s]alva i blocchi trovati in un file:
 
-`sudo badblocks -o {{percorso/al/file}} -w {{/dev/sdX}}`
+`sudo badblocks -o {{percorso/del/file}} -w {{/dev/sdX}}`
 
 - Usa modalità distruttiva con velocità migliorata: dimensione blocco 4K e [c]ount blocchi 64K:
 

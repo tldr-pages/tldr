@@ -5,7 +5,7 @@
 
 - Esegue un file JavaScript:
 
-`node {{percorso/al/file}}`
+`node {{percorso/del/file}}`
 
 - Avvia una REPL (shell interattiva):
 

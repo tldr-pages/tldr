@@ -6,7 +6,7 @@
 
 - Mostra solo il nome del file da un percorso:
 
-`basename {{percorso/al/file}}`
+`basename {{percorso/del/file}}`
 
 - Mostra solo il nome della directory più a destra da un percorso:
 
@@ -14,4 +14,4 @@
 
 - Mostra solo il nome del file da un percorso, rimuovendo un suffisso:
 
-`basename {{percorso/al/file}} {{suffisso}}`
+`basename {{percorso/del/file}} {{suffisso}}`

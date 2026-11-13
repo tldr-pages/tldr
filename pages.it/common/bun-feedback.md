@@ -9,7 +9,7 @@
 
 - Invia uno o più file come feedback:
 
-`bun feedback {{percorso/al/file1 percorso/al/file2 ...}}`
+`bun feedback {{percorso/del/file1 percorso/del/file2 ...}}`
 
 - Invia feedback con un indirizzo email allegato:
 

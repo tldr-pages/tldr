@@ -6,7 +6,7 @@
 
 - Rimuovi spazi ed altri caratteri indesiderabili dal nome di un file:
 
-`detox {{file}}`
+`detox {{percorso/del/file}}`
 
 - Mostra come detox rinominerebbe tutti i file in una directory ricorsivamente:
 

@@ -6,11 +6,11 @@
 
 - Fornisce una descrizione del tipo di file specificato. Funziona anche con file senza estensione:
 
-`file {{nome_file}}`
+`file {{percorso/del/file}}`
 
 - Controlla dentro un file zip e determina il tipo dei file in esso contenuti:
 
-`file {{[-z|--uncompress]}} {{foo.zip}}`
+`file {{[-z|--uncompress]}} {{percorso/del/file}}`
 
 - Permette a `file` di leggere file speciali o di dispositivo:
 
@@ -18,8 +18,8 @@
 
 - Non si limita al primo tipo di file trovato; continua a leggere il file fino alla fine:
 
-`file {{[-k|--keep-going]}} {{nome_file}}`
+`file {{[-k|--keep-going]}} {{percorso/del/file}}`
 
 - Determina il tipo MIME di un file:
 
-`file {{[-i|--mime]}} {{nome_file}}`
+`file {{[-i|--mime]}} {{percorso/del/file}}`

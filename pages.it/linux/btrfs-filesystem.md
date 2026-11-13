@@ -13,7 +13,7 @@
 
 - Deframmenta un singolo file su un filesystem btrfs (evita durante l'esecuzione di un agente di deduplicazione):
 
-`sudo btrfs {{[f|filesystem]}} {{[de|defragment]}} {{[-v|--verbose]}} {{percorso/al/file}}`
+`sudo btrfs {{[f|filesystem]}} {{[de|defragment]}} {{[-v|--verbose]}} {{percorso/del/file}}`
 
 - Deframmenta una directory ricorsivamente (non attraversa i confini dei sottovolumi):
 
