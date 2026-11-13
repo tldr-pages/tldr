@@ -9,7 +9,7 @@
 
 - Utilise le contenu d'un fichier comme entrée du presse-papiers :
 
-`cat {{fichier}} | xsel {{[-ib|--input --clipboard]}}`
+`cat {{chemin/vers/fichier}} | xsel {{[-ib|--input --clipboard]}}`
 
 - Affiche le contenu du presse-papiers dans le terminal (équivalent à `<Ctrl v>`) :
 
@@ -17,7 +17,7 @@
 
 - Sortie du contenu du presse-papiers dans un fichier :
 
-`xsel {{[-ob|--output --clipboard]}} >{{fichier}}`
+`xsel {{[-ob|--output --clipboard]}} >{{chemin/vers/fichier}}`
 
 - Efface le presse-papiers :
 

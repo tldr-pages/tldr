@@ -9,11 +9,11 @@
 
 - Fuzionează un fișier specific:
 
-`git merge-index git-merge-one-file -- {{path/to/file}}`
+`git merge-index git-merge-one-file -- {{cale/către/fișier}}`
 
 - Fuzionează mai multe fișiere, continuând în caz de erori:
 
-`git merge-index -o git-merge-one-file -- {{path/to/file1 path/to/file2 ...}}`
+`git merge-index -o git-merge-one-file -- {{cale/către/fișier1 cale/către/fișier2 ...}}`
 
 - Fuzionează în tăcere toate fișierele cu un program personalizat:
 

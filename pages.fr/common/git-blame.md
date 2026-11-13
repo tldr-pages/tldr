@@ -5,8 +5,8 @@
 
 - Affiche le hash de commit et le nom de l auteur en face de chaque ligne :
 
-`git blame {{file}}`
+`git blame {{chemin/vers/fichier}}`
 
 - Affiche le hash de commit le nom et l email de l auteur en face de chaque ligne :
 
-`git blame {{[-e|--show-email]}} {{file}}`
+`git blame {{[-e|--show-email]}} {{chemin/vers/fichier}}`

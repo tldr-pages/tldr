@@ -13,7 +13,7 @@
 
 - 이미지 생성/업로드:
 
-`openstack image create --file {{path/to/file}} {{--private|--shared|--all}} {{이미지_아이디}}`
+`openstack image create --file {{경로/대상/파일}} {{--private|--shared|--all}} {{이미지_아이디}}`
 
 - 이미지 삭제:
 

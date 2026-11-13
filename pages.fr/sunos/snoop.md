@@ -10,11 +10,11 @@
 
 - Enregistre les paquets capturés dans un fichier au lieu de les afficher :
 
-`snoop -o {{nom_de_fichier}}`
+`snoop -o {{chemin/vers/fichier}}`
 
 - Affiche le résumé détaillé de la couche de protocole des paquets d'un fichier :
 
-`snoop -V -i {{nom_de_fichier}}`
+`snoop -V -i {{chemin/vers/fichier}}`
 
 - Capture les paquets réseau provenant d'un nom d'hôte et accède à un port donné :
 

@@ -13,4 +13,4 @@
 
 - `stdin`에서 이미지 읽기:
 
-`crane export - {{경로/대상/파일이름}}`
+`crane export - {{경로/대상/파일}}`
