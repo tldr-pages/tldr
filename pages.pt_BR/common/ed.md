@@ -28,6 +28,6 @@
 
 `ed {{caminho/para/arquivo}}`
 
-- Substitui a string com um substituto específico em todas as linhas:
+- [Interativo] Substitui a string com um substituto específico em todas as linhas:
 
-`,s/{{regular_expression}}/{{substituto}}/g<Enter>`
+`,s/{{regex}}/{{substituto}}/g<Enter>`
