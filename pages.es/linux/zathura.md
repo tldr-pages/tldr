@@ -24,7 +24,7 @@
 
 `</>{{cadena}}`
 
-- Cree/elimine marcadores:
+- Crea/elimina marcadores:
 
 `<:>{{bmark|bdelete}} {{nombre_marcador}}<Enter>`
 
