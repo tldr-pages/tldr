@@ -9,11 +9,11 @@
 
 - 从文件中执行命令：
 
-`usql --file={{路径/到/文件.sql}}`
+`usql {{[-f|--file]}} {{路径/到/文件.sql}}`
 
 - 执行一个特定的 SQL 命令：
 
-`usql --command="{{sql命令}}"`
+`usql {{[-c|--command]}} "{{sql命令}}"`
 
 - [交互式] 在 `usql` 提示符下运行一个 SQL 命令：
 
