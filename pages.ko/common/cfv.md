@@ -9,7 +9,7 @@
 
 - 체크섬 파일([f]ile)을 사용해 테스트([T]est) 상세 출력([v]erbosely), 잘못된 파일 이름 변경(re[n]ame), 검증되지 않은([u]nverified) 파일 표시:
 
-`cfv -Tvnu -f {{path/to/file}}`
+`cfv -Tvnu -f {{경로/대상/파일}}`
 
 - 선택한 파일들에 대해 특정 타입([t]ype)의 체크섬 파일 생성([C]reate):
 
