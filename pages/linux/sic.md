@@ -16,14 +16,14 @@
 
 `sic -h {{host}} -n {{nickname}} -k {{password}}`
 
-- Join a channel:
+- [Interactive] Join a channel:
 
-`:j #{{channel}}<Enter>`
+`:j #{{channel}}`
 
-- Send a message to a channel or user:
+- [Interactive] Send a message to a channel or user:
 
-`:m #{{channel|user}}<Enter>`
+`:m #{{channel|user}}`
 
-- Set default channel or user:
+- [Interactive] Set default channel or user:
 
-`:s #{{channel|user}}<Enter>`
+`:s #{{channel|user}}`
