@@ -6,7 +6,7 @@
 
 - Ofrece varias opciones para elegir una y la imprime en `stdout`:
 
-`gum choose "{{opción_1}}" "{{opción_2}}" "{{opción_3}}"`
+`gum choose {{"opción_1" "opción_2" ...}}`
 
 - Muestra una entrada de texto interactiva para que el usuario introduzca una cadena con un texto indicativo (placeholder) específico:
 
@@ -18,12 +18,12 @@
 
 - Muestra un spinner con un texto acompañante mientras se ejecuta una orden:
 
-`gum spin --spinner {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{cargando...}}" -- {{orden}}`
+`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{cargando...}}" {{orden}}`
 
 - Formatea texto para incluir emojis:
 
-`gum format -t {{emoji}} "{{:smile: :heart: hola}}"`
+`gum format {{[-t|--type]}} {{emoji}} "{{:smile: :heart: hola}}"`
 
-- Solicita texto de varias líneas interactivamente (`<Ctrl d>` para salvar) y escribir en `datos.txt`:
+- Solicita texto de varias líneas interactivamente y escribirlo en `datos.txt`:
 
 `gum write >{{datos.txt}}`
