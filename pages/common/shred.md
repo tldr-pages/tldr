@@ -30,4 +30,3 @@
 - Overwrite a file using a specific source of random data:
 
 `shred --random-source={{/dev/urandom}} {{path/to/file}}`
-
