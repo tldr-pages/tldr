@@ -32,6 +32,6 @@
 
 `trackfetch {{path/to/songs.txt}} --delay {{3}}`
 
-- Повторить попытку для песен, которые не скачались в прошлый раз:
+- Повторить попытку для песен, которые не удались при предыдущем запуске:
 
 `cut {{[-d|--delimiter]}} '|' {{[-f|--fields]}} 1 {{path/to/directory}}/failed.txt > {{path/to/retry.txt}} && trackfetch {{path/to/retry.txt}} {{[-o|--output]}} {{path/to/directory}}`
