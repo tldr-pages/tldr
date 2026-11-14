@@ -7,6 +7,6 @@
 
 `vigr`
 
-- Wyświetlenie wersji:
+- Wyświetl wersję:
 
 `vigr {{[-V|--version]}}`
