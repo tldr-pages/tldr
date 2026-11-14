@@ -11,7 +11,7 @@
 
 - Baixa o conteúdo de uma URL para o arquivo (nomeado como "bar" neste caso):
 
-`wget {{[-O|--output-document]}} {{bar}} {{https://example.com/foo}}`
+`wget {{[-O|--output-document]}} {{caminho/para/arquivo}} {{https://example.com/foo}}`
 
 - Baixa uma única página web e todo os seus recursos com intervalos de 3 segundos entre requisições (scripts, stylesheets, imagens, etc.):
 

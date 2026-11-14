@@ -5,7 +5,7 @@
 
 - Codifica um arquivo:
 
-`base64 {{[-i|--input]}} {{arquivo}}`
+`base64 {{[-i|--input]}} {{caminho/para/arquivo}}`
 
 - Decodifica um arquivo:
 

@@ -33,4 +33,4 @@
 
 - Compara diferentes arquivos da branch atual com outra branch:
 
-`git diff {{branch}}:{{caminho/para/arquivo2}} {{caminho/para/arquivo}}`
+`git diff {{branch}}:{{caminho/para/arquivo2}} {{caminho/para/arquivo1}}`
