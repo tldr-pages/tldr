@@ -4,9 +4,13 @@
 > See also: `git branch`.
 > More information: <https://hub.github.com>.
 
-- Show the name of the currently active branch:
+- List local branches, marking the current branch with an asterisk:
 
 `hub branch`
+
+- Show the name of the currently active branch:
+
+`hub branch --show-current`
 
 - Create a new branch:
 
