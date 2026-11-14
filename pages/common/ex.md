@@ -8,26 +8,26 @@
 
 `ex {{path/to/file}}`
 
-- Save and Quit:
+- [Interactive] Save and Quit:
 
-`wq<Enter>`
+`wq`
 
-- Undo the last operation:
+- [Interactive] Undo the last operation:
 
-`undo<Enter>`
+`undo`
 
-- Search for a pattern in the file:
+- [Interactive] Search for a pattern in the file:
 
-`/{{search_pattern}}<Enter>`
+`/{{search_pattern}}`
 
-- Perform a `regex` substitution in the whole file:
+- [Interactive] Perform a `regex` substitution in the whole file:
 
-`%s/{{regex}}/{{replacement}}/g<Enter>`
+`%s/{{regex}}/{{replacement}}/g`
 
-- Insert text:
+- [Interactive] Insert text:
 
 `i<Enter>{{text}}<Ctrl c>`
 
-- Switch to Vim:
+- [Interactive] Switch to Vim:
 
-`visual<Enter>`
+`visual`
