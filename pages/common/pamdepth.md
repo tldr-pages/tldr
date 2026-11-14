@@ -5,4 +5,4 @@
 
 - Read a PBM image, set its maxval, and save it to a file:
 
-`pamdepth {{maxval}} {{path/to/image.pbm}} > {{path/to/file.pbm}}`
+`pamdepth {{maxval}} {{path/to/image.pbm}} >{{path/to/file.pbm}}`

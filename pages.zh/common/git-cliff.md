@@ -5,7 +5,7 @@
 
 - 从 Git 仓库所有提交生成变更日志并保存到 `CHANGELOG.md`：
 
-`git cliff > {{CHANGELOG.md}}`
+`git cliff >{{CHANGELOG.md}}`
 
 - 从最新标签之后的提交生成变更日志并输出到标准输出：
 

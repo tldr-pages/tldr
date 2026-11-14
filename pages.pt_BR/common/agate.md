@@ -11,6 +11,6 @@
 
 `agate {{caminho/para/arquivo}}`
 
-- Exibe opções de ajuda:
+- Mostra ajuda:
 
 `agate {{[-h|--help]}}`

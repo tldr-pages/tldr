@@ -5,12 +5,12 @@
 
 - Convert a PNM image to an SGI image:
 
-`pnmtosgi {{path/to/input.pnm}} > {{path/to/output.sgi}}`
+`pnmtosgi {{path/to/input.pnm}} >{{path/to/output.sgi}}`
 
 - Disable or enable compression:
 
-`pnmtosgi -{{verbatim|rle}} {{path/to/input.pnm}} > {{path/to/output.sgi}}`
+`pnmtosgi -{{verbatim|rle}} {{path/to/input.pnm}} >{{path/to/output.sgi}}`
 
 - Write the specified string into the SGI image header's `imagename` field:
 
-`pnmtosgi {{[-i|-imagename]}} {{string}} {{path/to/input.pnm}} > {{path/to/output.sgi}}`
+`pnmtosgi {{[-i|-imagename]}} {{string}} {{path/to/input.pnm}} >{{path/to/output.sgi}}`

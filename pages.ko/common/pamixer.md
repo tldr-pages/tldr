@@ -9,7 +9,7 @@
 
 - 기본 싱크의 볼륨을 75%로 설정:
 
-`pamixer --set-volume {{75}}`
+`pamixer --set-volume 75`
 
 - 기본이 아닌 싱크 음소거 전환:
 
@@ -17,11 +17,11 @@
 
 - 기본 싱크의 볼륨을 5% 증가:
 
-`pamixer {{[-i|--increase]}} {{5}}`
+`pamixer {{[-i|--increase]}} 5`
 
 - 소스의 볼륨을 5% 감소:
 
-`pamixer {{[-d|--decrease]}} {{5}} --source {{id}}`
+`pamixer {{[-d|--decrease]}} 5 --source {{id}}`
 
 - 100% 이상으로 볼륨을 증가, 감소 또는 설정하기 위해 부스트 허용 옵션 사용:
 

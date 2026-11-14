@@ -12,6 +12,6 @@
 
 `apm remove {{nom_du_paquet}}`
 
-- Mets à jour un paquet ou un thème :
+- Met à jour un paquet ou un thème :
 
 `apm upgrade {{nom_du_paquet}}`

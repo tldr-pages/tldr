@@ -5,4 +5,4 @@
 
 - Load and decode data from the internet:
 
-`gst-launch-1.0 uridecodebin uri={{https://example.com/path/to/file}} ! {{sink}}`
+`gst-launch-1.0 uridecodebin uri={{https://example.com/path/to/file}} ! {{autovideosink}}`

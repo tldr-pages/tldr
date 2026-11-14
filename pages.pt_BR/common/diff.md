@@ -30,7 +30,7 @@
 
 - Cria um arquivo patch para o Git a partir das diferenças entre dois arquivos, tratando arquivos ausentes como vazios:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{arquivo_antigo}} {{arquivo_novo}} > {{diferenca.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{arquivo_antigo}} {{arquivo_novo}} >{{diferenca.patch}}`
 
 - Compara arquivos, mostra a saída em cores e tenta fortemente encontrar um conjunto menor de alterações:
 

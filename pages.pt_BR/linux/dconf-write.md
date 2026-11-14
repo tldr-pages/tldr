@@ -1,7 +1,6 @@
 # dconf write
 
 > Escreve valores de chave nos bancos de dados dconf.
-> Veja também: `dconf`.
 > Mais informações: <https://manned.org/dconf>.
 
 - Escreve um valor de chave específico:

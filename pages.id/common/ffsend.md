@@ -21,4 +21,4 @@
 
 - Unggah dan atur unggahan supaya hanya dapat diunduh sebanyak 4 kali:
 
-`ffsend upload {{jalan/menuju/berkas}} {{[-d|--downloads]}} {{4}}`
+`ffsend upload {{jalan/menuju/berkas}} {{[-d|--downloads]}} 4`

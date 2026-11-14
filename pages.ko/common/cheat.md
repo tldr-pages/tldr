@@ -1,6 +1,7 @@
 # cheat
 
 > 대화형 치트 시트를 생성하고 봅니다.
+> 관련 항목: `tldr`, `cheatshh`, `navi`.
 > 더 많은 정보: <https://github.com/cheat/cheat/blob/master/doc/cheat.1.md>.
 
 - 명령어 사용법의 예를 보여줌:
@@ -19,6 +20,6 @@
 
 `cheat {{[-s|--search]}} {{명령어}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `cheat {{[-v|--version]}}`

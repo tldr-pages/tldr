@@ -1,7 +1,6 @@
 # vagrant snapshot
 
 > Vagrant machine의 snapshot을 관리.
-> 관련 항목: `vagrant`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/snapshot>.
 
 - machine의 현재 상태를 snapshot으로 저장 (실행 또는 중지 상태 모두 가능):

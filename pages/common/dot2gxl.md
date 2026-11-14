@@ -9,8 +9,8 @@
 
 - Convert DOT to GXL based on `.dot` input extension:
 
-`dot2gxl {{path/to/input_file.dot}} > {{path/to/output_file.gxl}}`
+`dot2gxl {{path/to/input_file.dot}} >{{path/to/output_file.gxl}}`
 
 - Convert GXL to DOT based on `.gxl` input extension:
 
-`dot2gxl {{path/to/input_file.gxl}} > {{path/to/output_file.dot}}`
+`dot2gxl {{path/to/input_file.gxl}} >{{path/to/output_file.dot}}`

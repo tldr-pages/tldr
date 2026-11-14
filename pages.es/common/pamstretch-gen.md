@@ -6,4 +6,4 @@
 
 - Amplía una imagen PAM en el factor decimal especificado:
 
-`pamstretch-gen {{n}} {{ruta/a/imagen.pam}} > {{ruta/a/salida.pam}}`
+`pamstretch-gen {{n}} {{ruta/a/imagen.pam}} >{{ruta/a/salida.pam}}`

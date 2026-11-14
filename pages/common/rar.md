@@ -25,4 +25,4 @@
 
 - Use a specific compression level (0-5):
 
-`rar a -m{{compression_level}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
+`rar a -m{{0..5}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`

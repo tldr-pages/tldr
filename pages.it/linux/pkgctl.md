@@ -27,6 +27,6 @@
 
 `tldr pkgctl repo`
 
-- Mostra versione:
+- Mostra la versione:
 
 `pkgctl version`

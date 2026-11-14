@@ -7,6 +7,6 @@
 
 `pw-v4l2 {{programma}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-v4l2 -h`

@@ -10,7 +10,7 @@
 
 - Panonun içeriğini bir dosyaya yaz:
 
-`wl-paste > {{dosya/yolu}}`
+`wl-paste >{{dosya/yolu}}`
 
 - Panonun içeriğini bir komuta aktar:
 

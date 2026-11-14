@@ -5,7 +5,7 @@
 
 - Lees een PNM-afbeelding als invoer en produceer een PNG-afbeelding als uitvoer:
 
-`pnmtopng {{pad/naar/bestand.pnm}} > {{pad/naar/bestand.png}}`
+`pnmtopng {{pad/naar/bestand.pnm}} >{{pad/naar/bestand.png}}`
 
 - Toon de versie:
 

@@ -21,7 +21,7 @@
 
 - Permite al usuario elegir entre varios elementos y guarda el seleccionado en un archivo:
 
-`echo -e "{{rojo}}\n{{verde}}\n{{azul}}" | fuzzel {{[-d|--dmenu]}} > {{color.txt}}`
+`echo -e "{{rojo}}\n{{verde}}\n{{azul}}" | fuzzel {{[-d|--dmenu]}} >{{color.txt}}`
 
 - Restablece el recuento de aplicaciones utilizadas (directorio de caché por defecto: `$XDG_CACHE_HOME/fuzzel`):
 

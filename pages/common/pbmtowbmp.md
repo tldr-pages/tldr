@@ -5,4 +5,4 @@
 
 - Convert a PBM image to a WBMP file:
 
-`pbmtowbmp {{path/to/input_file.pbm}} > {{path/to/output_file.wbmp}}`
+`pbmtowbmp {{path/to/input_file.pbm}} >{{path/to/output_file.wbmp}}`

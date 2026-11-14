@@ -34,4 +34,4 @@
 
 - 추가 사전 프롬프트 입력으로 파일 삽입:
 
-`tgpt < {{경로/대상/파일}} --provider {{blackboxai}} "{{프롬프트}}"`
+`tgpt <{{경로/대상/파일}} --provider {{blackboxai}} "{{프롬프트}}"`

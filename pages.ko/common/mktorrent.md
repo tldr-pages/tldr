@@ -5,11 +5,11 @@
 
 - 조각 크기를 2^21 KB로 설정하여 토렌트 생성:
 
-`mktorrent {{[-a|--announce]}} {{트래커_발표_url}} {{[-l|--piece-length]}} {{21}} {{[-o|--output]}} {{경로/대상/예시.torrent}} {{경로/대상/파일_또는_폴더}}`
+`mktorrent {{[-a|--announce]}} {{트래커_발표_url}} {{[-l|--piece-length]}} 21 {{[-o|--output]}} {{경로/대상/예시.torrent}} {{경로/대상/파일_또는_폴더}}`
 
 - 조각 크기를 2^21 KB로 설정하여 개인 토렌트 생성:
 
-`mktorrent {{[-p|--private]}} {{[-a|--announce]}} {{트래커_발표_url}} {{[-l|--piece-length]}} {{21}} {{[-o|--output]}} {{경로/대상/예시.torrent}} {{경로/대상/파일_또는_폴더}}`
+`mktorrent {{[-p|--private]}} {{[-a|--announce]}} {{트래커_발표_url}} {{[-l|--piece-length]}} 21 {{[-o|--output]}} {{경로/대상/예시.torrent}} {{경로/대상/파일_또는_폴더}}`
 
 - 주석이 포함된 토렌트 생성:
 

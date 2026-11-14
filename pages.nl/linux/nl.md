@@ -1,7 +1,7 @@
 # nl
 
 > Voorzie regels van een nummer uit een bestand of van `stdin`.
-> Meer informatie: <https://manned.org/nl>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/nl-invocation.html>.
 
 - Voorzie niet-lege regels in een bestand van een nummer:
 

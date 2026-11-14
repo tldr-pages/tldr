@@ -24,6 +24,6 @@
 
 `koji {{sottocomando}} {{[-h|--help]}}`
 
-- Mostra versione:
+- Mostra la versione:
 
 `koji version`

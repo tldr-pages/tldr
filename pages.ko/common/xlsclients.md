@@ -27,6 +27,6 @@
 
 `xlsclients -display {{원격_호스트}}:0`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `xlsclients -version`

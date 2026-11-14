@@ -5,8 +5,8 @@
 
 - Scale video to fit the capabilities of both input and output:
 
-`gst-launch-1.0 {{input}} ! videoscale ! {{output}}`
+`gst-launch-1.0 {{videotestsrc}} ! videoscale ! {{autovideosink}}`
 
 - Scale video to an arbitrary resolution:
 
-`gst-launch-1.0 {{input}} ! videoscale ! video/x-raw,width={{width}},height={{height}} ! {{output}}`
+`gst-launch-1.0 {{videotestsrc}} ! videoscale ! video/x-raw,width={{width}},height={{height}} ! {{autovideosink}}`

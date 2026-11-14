@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van SHA256 checksums op in een bestand:
 
-`sha256sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.sha256}}`
+`sha256sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.sha256}}`
 
 - Bereken een SHA256 checksum van `stdin`:
 

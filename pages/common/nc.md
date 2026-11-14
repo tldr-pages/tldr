@@ -5,11 +5,11 @@
 
 - Start a [l]istener on the specified TCP [p]ort and send a file into it:
 
-`nc < {{filename}} -l -p {{port}}`
+`nc <{{filename}} -l -p {{port}}`
 
 - Connect to a target listener on the specified port and receive a file from it:
 
-`nc {{host}} {{port}} > {{received_filename}}`
+`nc {{host}} {{port}} >{{received_filename}}`
 
 - Scan the open TCP ports of a specified host:
 

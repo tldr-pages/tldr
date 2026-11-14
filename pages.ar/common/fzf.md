@@ -1,7 +1,7 @@
 # fzf
 
 > أداة بحث تقريبي (fuzzy) لسطر الأوامر.
-> مشابهة لـ `sk`.
+> انظر أيضًا: `sk`.
 > لمزيد من التفاصيل: <https://github.com/junegunn/fzf#usage>.
 
 - تشغيل `fzf` على جميع الملفات داخل المجلد المحدد:
@@ -14,7 +14,7 @@
 
 - تحديد ملفات متعددة باستخدام `<Shift Tab>` وكتابتها إلى ملف:
 
-`find {{path/to/directory}} -type f | fzf {{[-m|--multi]}} > {{path/to/file}}`
+`find {{path/to/directory}} -type f | fzf {{[-m|--multi]}} >{{path/to/file}}`
 
 - تشغيل `fzf` مع نص بحثي محدد:
 

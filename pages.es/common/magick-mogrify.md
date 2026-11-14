@@ -2,7 +2,6 @@
 
 > Realiza operaciones en múltiples imágenes, como redimensionar, recortar, voltear y añadir efectos.
 > Los cambios se aplican directamente al archivo original.
-> Vea también: `magick`.
 > Más información: <https://imagemagick.org/script/mogrify.php>.
 
 - Redimensiona todas las imágenes JPEG en el directorio al 50% de su tamaño inicial:

@@ -29,4 +29,4 @@
 
 - 4개의 스레드로 병렬 프로젝트 분석:
 
-`psalm --threads {{4}}`
+`psalm --threads 4`

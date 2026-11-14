@@ -23,6 +23,6 @@
 
 `fprintd-verify --g-fatal-warnings`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `fprintd-verify {{[-h|--help]}}`

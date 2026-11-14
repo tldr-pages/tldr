@@ -5,4 +5,4 @@
 
 - コミットハッシュIDを抽出するか、何も出力せずリターンコード1で終了する:
 
-`git < {{ディレクトリ/サブディレクトリ/archive.tar}} get-tar-commit-id`
+`git <{{ディレクトリ/サブディレクトリ/archive.tar}} get-tar-commit-id`

@@ -9,7 +9,7 @@
 
 - Crée un nom avec une empreinte de validation de 4 caractères :
 
-`git describe --abbrev={{4}}`
+`git describe --abbrev=4`
 
 - Génère un nom avec le chemin complet de l'étiquette :
 

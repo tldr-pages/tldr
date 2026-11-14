@@ -7,6 +7,6 @@
 
 `jira project {{[ls|list]}}`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `jira project {{[-h|--help]}}`

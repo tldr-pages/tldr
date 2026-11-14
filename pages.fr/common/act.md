@@ -1,25 +1,25 @@
 # act
 
-> Execute des GitHub Actions en local avec Docker.
+> Exécute des GitHub Actions en local avec Docker.
 > Plus d'informations : <https://manned.org/act>.
 
 - [l]iste les jobs disponibles :
 
 `act {{[-l|--list]}}`
 
-- Execute l'événement par défault :
+- Exécute l'événement par défault :
 
 `act`
 
-- Execute un événement spécifique :
+- Exécute un événement spécifique :
 
 `act {{type_d_événement}}`
 
-- Execute un [j]ob spécifique :
+- Exécute un [j]ob spécifique :
 
 `act {{[-j|--job]}} {{id_job}}`
 
-- Ne pas lancer les actions maintenant (e.g un essai) :
+- Ne lance pas les actions maintenant (e.g un essai) :
 
 `act {{[-n|--dryrun]}}`
 
@@ -27,6 +27,6 @@
 
 `act {{[-v|--verbose]}}`
 
-- Execute un [W]orkflow en particulier, avec l'événement push :
+- Exécute un [W]orkflow en particulier, avec l'événement push :
 
 `act push {{[-W|--workflows]}} {{path/to/workflow}}`

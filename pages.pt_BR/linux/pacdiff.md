@@ -23,6 +23,6 @@
 
 `pacdiff {{[-l|--locate]}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `pacdiff {{[-h|--help]}}`

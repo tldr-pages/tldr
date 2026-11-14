@@ -5,16 +5,16 @@
 
 - 0.1초마다 위치가 변경되는 정이십면체의 와이어프레임 표시:
 
-`ico -sleep {{0.1}}`
+`ico -sleep 0.1`
 
 - 빨간 면과 파란 배경의 실체 정이십면체 표시:
 
-`ico -faces -noedges -colors {{red}} -bg {{blue}}`
+`ico -faces -noedges -colors red -bg blue`
 
 - 크기 100x100의 큐브 와이어프레임을 프레임마다 +1+2씩 이동하며 표시:
 
-`ico -obj {{큐브}} -size {{100x100}} -delta {{+1+2}}`
+`ico -obj cube -size 100x100 -delta +1+2`
 
 - 5개의 스레드를 사용하여 선 너비 10의 반전된 정이십면체 와이어프레임 표시:
 
-`ico -i -lw {{10}} -threads {{5}}`
+`ico -i -lw 10 -threads 5`

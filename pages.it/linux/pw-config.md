@@ -27,6 +27,6 @@
 
 `pw-config {{[-n|--name]}} pipewire.conf {{[-r|--recurse]}} merge context.modules`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-config {{[-h|--help]}}`

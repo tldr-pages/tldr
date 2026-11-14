@@ -31,6 +31,6 @@
 
 `babel {{percorso/del/file_input}} --presets {{preset}}`
 
-- Mostra tutte le opzioni disponibili:
+- Mostra l'aiuto:
 
 `babel --help`

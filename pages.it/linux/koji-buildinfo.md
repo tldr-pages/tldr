@@ -11,6 +11,6 @@
 
 `koji buildinfo {{BuildID_or_NVR1 BuildID_or_NRV2 ...}} --changelog`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji buildinfo {{[-h|--help]}}`

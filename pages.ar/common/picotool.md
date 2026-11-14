@@ -27,6 +27,6 @@
 
 `picotool help`
 
-- عرض إصدار الأداة:
+- عرض الإصدار:
 
 `picotool version`

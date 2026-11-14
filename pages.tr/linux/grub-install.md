@@ -23,6 +23,6 @@
 
 `sudo grub-install --target {{x86_64-efi}} --efi-directory {{efi/dizin/yolu}} --modules "{{part_gpt part_msdos}}"`
 
-- Yardımı görüntüleyin:
+- Yardımı görüntüle:
 
 `grub-install {{[-?|--help]}}`

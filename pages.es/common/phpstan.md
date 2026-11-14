@@ -13,7 +13,7 @@
 
 - Analiza usando un nivel de regla específico (0-10, más alto es más estricto):
 
-`phpstan analyse {{ruta/al/directorio}} {{[-l|--level]}} {{nivel}}`
+`phpstan analyse {{ruta/al/directorio}} {{[-l|--level]}} {{1..10}}`
 
 - Especifica un archivo de carga automática para cargar antes de analizar:
 

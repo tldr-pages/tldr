@@ -5,7 +5,7 @@
 
 - Generate the `/etc/fstab` file using volume UUIDs during an Arch Linux installation (requires root permissions):
 
-`genfstab -U {{/mnt}} >> {{/mnt/etc/fstab}}`
+`genfstab -U {{/mnt}} >>{{/mnt/etc/fstab}}`
 
 - Display fstab-compatible output based on volume labels:
 

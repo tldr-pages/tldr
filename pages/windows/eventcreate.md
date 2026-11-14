@@ -6,7 +6,7 @@
 
 - Create a new event with a given ID (1-1000) in the log:
 
-`eventcreate /t {{success|error|warning|information}} /id {{event_id}} /d "{{message}}"`
+`eventcreate /t {{success|error|warning|information}} /id {{1..1000}} /d "{{message}}"`
 
 - Create an event in a specific event log:
 

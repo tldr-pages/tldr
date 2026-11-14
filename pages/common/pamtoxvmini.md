@@ -5,4 +5,4 @@
 
 - Convert a PAM image to an XV thumbnail picture:
 
-`pamtoxvmini {{path/to/input_file.pam}} > {{path/to/output_file}}`
+`pamtoxvmini {{path/to/input_file.pam}} >{{path/to/output_file}}`
