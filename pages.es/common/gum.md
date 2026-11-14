@@ -26,4 +26,4 @@
 
 - Solicita texto de varias líneas interactivamente y escribirlo en `datos.txt`:
 
-`gum write >{{datos.txt}}`
+`gum write >{{ruta/al/archivo}}`
