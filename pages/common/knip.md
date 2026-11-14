@@ -7,18 +7,14 @@
 
 `knip`
 
-- Run analysis in production mode (ignoring test and development files):
+- Run analysis in production mode, checking only production entry points and dependencies:
 
 `knip --production`
 
-- Check only for unused dependencies:
-
-`knip --dependencies`
-
-- Check only for unused exports:
-
-`knip --exports`
-
-- Automatically remove unused exports and dependencies where possible:
+- Automatically remove unused exports and dependencies where safe:
 
 `knip --fix`
+
+- Analyze a specific workspace in a monorepo:
+
+`knip --workspace {{packages/app}}`
