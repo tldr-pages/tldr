@@ -27,3 +27,7 @@
 - Split a file above the first line matching a `regex` pattern:
 
 `csplit {{path/to/file}} /{{regex}}/`
+
+- Split a file before every line matching a regex and use a custom prefix:
+
+`csplit {{[-f|--prefix]}} {{prefix}} {{path/to/file}} '/{{regex}}/' '{*}'`
