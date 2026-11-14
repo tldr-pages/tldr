@@ -7,7 +7,7 @@
 
 `units`
 
-- List all units containing a specific string in interactive mode:
+- [Interactive] List all units containing a specific string:
 
 `search {{string}}`
 
