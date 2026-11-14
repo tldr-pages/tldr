@@ -28,6 +28,6 @@
 
 `csplit {{path/to/file}} /{{regex}}/`
 
-- Split a file before every line matching a regex and use a custom prefix:
+- Split a file before each of the first 100 lines matching a `regex` and use a custom prefix:
 
-`csplit {{[-f|--prefix]}} {{prefix}} {{path/to/file}} '/{{regex}}/' '{*}'`
+`csplit {{[-f|--prefix]}} {{prefix}} {{path/to/file}} '/{{regex}}/' '{99}'`
