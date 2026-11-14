@@ -19,15 +19,15 @@
 
 `ftp -s:{{percorso\to\file}} {{host}}`
 
-- Carica file (espressione `glob`):
+- [Interattivo] Carica file (espressione `glob`):
 
 `mget {{*.png}}`
 
-- Carica file (espressione `glob`):
+- [Interattivo] Carica file (espressione `glob`):
 
 `mput {{*.zip}}`
 
-- Cancella file sul server remoto:
+- [Interattivo] Cancella file sul server remoto:
 
 `mdelete {{*.txt}}`
 

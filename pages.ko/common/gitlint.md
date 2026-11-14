@@ -21,7 +21,7 @@
 
 - commit-msg가 포함된 파일의 경로 표시:
 
-`gitlint --msg-filename {{경로/대상/파일이름}}`
+`gitlint --msg-filename {{경로/대상/파일}}`
 
 - 로컬 저장소에서 단계적 커밋 메타 정보를 읽음:
 
