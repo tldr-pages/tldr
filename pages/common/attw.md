@@ -1,20 +1,20 @@
 # attw
 
-> Are The Types Wrong: analyze npm package contents to detect TypeScript module resolution issues.
+> Check TypeScript type definitions of an npm package for module resolution issues across bundlers and Node.js.
 > More information: <https://github.com/arethetypeswrong/arethetypeswrong.github.io>.
 
-- Pack the current directory and check its TypeScript types across all resolution modes:
+- Pack the current directory and check its TypeScript types:
 
-`attw --pack .`
+`attw --pack`
 
-- Check a published npm package tarball:
+- Check an already-packed tarball file:
 
 `attw {{path/to/package.tgz}}`
 
-- Output the analysis results in a specific format:
+- Check a specific module resolution profile only:
 
-`attw --pack . --format {{table|table-flipped|ascii|json}}`
+`attw --pack --profile {{node16|esm-only|strict}}`
 
-- Run checks using a specific configuration profile:
+- Output the analysis results in JSON format:
 
-`attw --pack . --profile {{strict|node16|esm-only}}`
+`attw --pack --format {{json}}`
