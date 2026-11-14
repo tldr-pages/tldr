@@ -31,6 +31,6 @@
 
 `aws iam list-access-keys --user-name {{benutzername}}`
 
-- Zeige die AWS IAM Hilfeseite (beinhaltet auch Hinweise für alle Unterbefehle):
+- Zeige Hilfe an:
 
 `aws iam help`

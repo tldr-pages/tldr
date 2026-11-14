@@ -27,6 +27,6 @@
 
 `hyprctl keyword {{keyword}} {{value}}`
 
-- Zeige die Version:
+- Zeige Version an:
 
 `hyprctl version`
