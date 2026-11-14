@@ -18,7 +18,7 @@
 
 - Open a new browser tab:
 
-`<Shift t>`
+`<T>`
 
 - Display your browser history:
 
