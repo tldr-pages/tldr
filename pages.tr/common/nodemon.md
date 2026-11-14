@@ -7,7 +7,7 @@
 
 `nodemon {{dosya/yolu/dosya.js}}`
 
-- Nodemon'u el ile yeniden başlatır (not: bu işlem için nodemon zaten aktif olmalıdır):
+- [Etkileşimli] Nodemon'u el ile yeniden başlatır:
 
 `rs`
 
