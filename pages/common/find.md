@@ -35,3 +35,7 @@
 - Search for either empty files or directories and delete them verbosely:
 
 `find {{path/to/directory}} -type {{f|d}} -empty -delete -print`
+
+- Find files modified in the last 30 minutes:
+
+`find {{path/to/directory}} -mmin {{-30}}`
