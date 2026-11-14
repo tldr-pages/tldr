@@ -15,3 +15,7 @@
 - Print just a first line to `stdout`:
 
 `{{command}} | sed -n '1p'`
+
+- Print the last line:
+
+`{{command}} | sed -n '$p'`
