@@ -12,7 +12,7 @@
 
 `rustup doc {{std::fs|usize|fn|...}}`
 
-- Открыть книгу «Язык программирования Rust»:
+- Открыть книгу The Rust Programming Language:
 
 `rustup doc --book`
 
