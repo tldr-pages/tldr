@@ -2,7 +2,7 @@
 
 > List terminal types and their descriptions from the terminfo database.
 > See also: `infocmp`, `tic`.
-> More information: <https://invisible-island.net/ncurses/man/toe.1m.html>.
+> More information: <https://manned.org/toe>.
 
 - List entries from the first terminal database directory found:
 
