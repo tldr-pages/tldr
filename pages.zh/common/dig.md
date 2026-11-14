@@ -1,7 +1,7 @@
 # dig
 
 > DNS 查询工具。
-> 另请参阅：`resolvectl`、`nslookup`、`host`。
+> 另请参阅：`resolvectl`, `nslookup`, `host`。
 > 更多信息：<https://manned.org/dig>。
 
 - 查询与某主机名关联的 IP 地址（A 记录）：
