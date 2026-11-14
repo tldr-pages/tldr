@@ -7,26 +7,26 @@
 
 `diskpart`
 
-- List all disks:
+- [Interactive] List all disks:
 
 `list disk`
 
-- Select a volume:
+- [Interactive] Select a volume:
 
 `select volume {{volume}}`
 
-- Assign a drive letter to the selected volume:
+- [Interactive] Assign a drive letter to the selected volume:
 
 `assign letter {{letter}}`
 
-- Create a new partition:
+- [Interactive] Create a new partition:
 
 `create partition primary`
 
-- Activate the selected volume:
+- [Interactive] Activate the selected volume:
 
 `active`
 
-- Exit diskpart:
+- [Interactive] Exit diskpart:
 
 `exit`
