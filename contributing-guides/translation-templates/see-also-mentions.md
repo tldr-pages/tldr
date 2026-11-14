@@ -46,6 +46,7 @@ This file contains the translation templates of this notice.
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -359,6 +360,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > Shuningdek qarang: `example`.
+```
+
+---
+
+### vi
+
+```markdown
+> Xem thêm: `example`.
 ```
 
 ---
