@@ -8,14 +8,14 @@
 
 `git repl`
 
-- Run a Git command while in the interactive Git shell:
+- [Interactive] Run a Git command while in the interactive Git shell:
 
 `{{git_subcommand}} {{command_arguments}}`
 
-- Run an external (non-Git) command while in the interactive Git shell:
+- [Interactive] Run an external (non-Git) command while in the interactive Git shell:
 
 `!{{command}} {{command_arguments}}`
 
-- Exit the interactive Git shell (or press `<Ctrl d>`):
+- [Interactive] Exit the interactive Git shell (or press `<Ctrl d>`):
 
 `exit`
