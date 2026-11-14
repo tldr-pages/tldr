@@ -12,6 +12,6 @@
 
 `unflatten {{路径/到/输入.gv}} | dot -T {{png}} {{路径/到/输出.png}}`
 
-- 显示 `unflatten` 的帮助：
+- 显示帮助：
 
 `unflatten -?`

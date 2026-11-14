@@ -20,6 +20,6 @@
 
 `aurvote {{[-c|--check]}} {{package1 package2 ...}}`
 
-- 查看 `aurvote` 的帮助信息：
+- 显示帮助：
 
 `aurvote {{[-h|--help]}}`

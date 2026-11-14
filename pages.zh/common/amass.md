@@ -8,7 +8,7 @@
 
 `amass {{intel|enum}} {{options}}`
 
-- 展示帮助信息：
+- 显示帮助：
 
 `amass -help`
 
@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- 查看 Amass 版本：
+- 显示版本：
 
 `amass -version`
