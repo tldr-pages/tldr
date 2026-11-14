@@ -31,6 +31,6 @@
 
 `xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /y`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `xcopy /?`

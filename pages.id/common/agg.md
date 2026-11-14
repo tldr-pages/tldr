@@ -15,6 +15,6 @@
 
 `agg --font-size 24 {{jalan/menuju/demo.cast}} {{jalan/menuju/demo.gif}}`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `agg {{[-h|--help]}}`

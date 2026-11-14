@@ -23,6 +23,6 @@
 
 `aider {{jalan/menuju/berkas}} --update-docs`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `aider --help`

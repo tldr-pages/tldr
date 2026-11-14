@@ -19,7 +19,7 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nama_berkas}}.jar`
 
-- Tampilkan informasi penggunaan untuk perintah java:
+- Tampilkan bantuan:
 
 `java -help`
 
