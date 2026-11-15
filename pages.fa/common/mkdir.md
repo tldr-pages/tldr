@@ -13,4 +13,4 @@
 
 - ساخت پوشه با مجوز های خاص:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{path/to/directory1 path/to/directory2 ...}}`

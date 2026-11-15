@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{pad/naar/video.mp4}} -vn {{pad/naar/geluid.mp3}}`
 
-- Transcodeer een FLAC-bestand naar Red Book CD-formaat (44100kHz, 16bit):
+- Transcodeer een FLAC-bestand naar Red Book CD-formaat (44100Hz, 16bit):
 
 `ffmpeg -i {{pad/naar/input_geluid.flac}} -ar 44100 -sample_fmt s16 {{pad/naar/output_geluid.wav}}`
 
