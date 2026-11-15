@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{경로/대상/비디오.mp4}} -vn {{경로/대상/소리.mp3}}`
 
-- FLAC 파일을 Red Book CD 형식 (44100kHz, 16bit)으로 트랜스코딩:
+- FLAC 파일을 Red Book CD 형식 (44100Hz, 16bit)으로 트랜스코딩:
 
 `ffmpeg -i {{경로/대상/입력_소리.flac}} -ar 44100 -sample_fmt s16 {{경로/대상/출력_소리.wav}}`
 

@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
-- FLAC ファイルを Red Book CD フォーマット（44100kHz、16bit）にトランスコード:
+- FLAC ファイルを Red Book CD フォーマット（44100Hz、16bit）にトランスコード:
 
 `ffmpeg -i {{path/to/input_audio.flac}} -ar 44100 -sample_fmt s16 {{path/to/output_audio.wav}}`
 
