@@ -18,7 +18,7 @@
 
 - Numaralı görüntüleri (`kare_1.jpg`, `kare_2.jpg` vb.) bir video ya da GIF olarak birleştir:
 
-`ffmpeg -i {{yol/kare_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{yol/kare_%d.jpg}} {{video.mpg|video.gif}}`
 
 - Bir videoyu mm:ss başlangıç zamanından mm2:ss2 bitiş zamanına kadar kırp (sonuna kadar kırpmak için `-to` seçeneğini kaldır):
 
