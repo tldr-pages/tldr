@@ -18,7 +18,7 @@
 
 - 将编号图像（如 `frame_1.jpg`、`frame_2.jpg` 等）合成为视频或 GIF：
 
-`ffmpeg -i {{路径/到/frame_%d.jpg}} -f image2 {{video.mpg | video.gif}}`
+`ffmpeg -f image2 -i {{路径/到/frame_%d.jpg}} {{video.mpg | video.gif}}`
 
 - 从给定的开始时间 mm:ss 到结束时间 mm2:ss2 裁剪视频（省略 `-to` 参数表示裁剪至末尾）：
 
