@@ -18,4 +18,4 @@
 
 - Run a specific command in an existing process's namespace by referencing procfs:
 
-`nsenter {{[-p|--pid=]}}/proc/{{process_id}}/pid/net -- {{command}} {{command_arguments}}`
+`nsenter {{[-p|--pid=]}}/proc/{{process_id}}/ns/net -- {{command}} {{command_arguments}}`
