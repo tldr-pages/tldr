@@ -1,7 +1,7 @@
 # microk8s
 
 > Lightweight Kubernetes distribution packaged as a snap.
-> More information: <https://microk8s.io/docs>.
+> More information: <https://canonical.com/microk8s/docs/command-reference>.
 
 - Show the status of the cluster:
 
