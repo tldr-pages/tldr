@@ -14,4 +14,4 @@
 
 - Crea directorios con permisos específicos:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
