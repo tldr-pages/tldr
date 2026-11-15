@@ -4,30 +4,34 @@
 > Bu konfigürasyonlar lokal (mevcut depo için) veya evrensel (mevcut kullanıcı için) olabilir.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-config>.
 
-- Yalnızca (mevcut depodaki `.git/config`'de saklanan) yerel konfigürasyon kayıtlarını sırala:
+- İsmini veya e-postanı evrensel olarak belirle (bu bilgi bir depoya commit'lemek için gereklidir ve tüm commit'lere eklenir):
 
-`git config {{[-l|--list]}} --local`
+`git config --global {{user.name|user.email}} "{{Adınız Soyadınız|eposta@ornek.com}}"`
 
-- Yalnızca (bilgisayardaki `~/.gitconfig`'de saklanan) evrensel konfigürasyon kayıtlarını sırala:
+- Lokal, evrensel veya sistem konfigürasyon kayıtlarını sırala ve bulundukları dosyayı göster:
 
-`git config {{[-l|--list]}} --global`
+`git config --{{local|global|system}} {{[-l|--list]}} --show-origin`
+
+- Belirtilen bir konfigürasyon kaydının evrensel değerini belirle (bu örnekte bir takma ad):
+
+`git config --global {{alias.unstage}} "reset HEAD --"`
 
 - Belirtilen bir konfigürasyon kaydının değerini öğren:
 
-`git config alias.unstage`
+`git config {{alias.unstage}}`
 
-- Belirtilen bir konfigürasyon kaydının evrensel değerini belirle:
+- Bir takma adı kullan:
 
-`git config --global alias.unstage "reset HEAD --"`
+`git {{unstage}}`
 
 - Evrensel bir konfigürasyon kaydını varsayılan değerine geri al:
 
-`git config --global --unset alias.unstage`
+`git config --global --unset {{alias.unstage}}`
 
-- Mevcut depodaki Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:
+- Mevcut depodaki Git konfigürasyonunu (`.git/config`) varsayılan metin düzenleyici ile düzenle:
 
 `git config {{[-e|--edit]}}`
 
-- Evrensel Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:
+- Evrensel Git konfigürasyonunu (varsayılan olarak `~/.gitconfig`, böyle bir dosya varsa `$XDG_CONFIG_HOME/git/config`) varsayılan metin düzenleyici ile düzenle:
 
 `git config --global {{[-e|--edit]}}`
