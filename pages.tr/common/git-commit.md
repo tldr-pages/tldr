@@ -29,7 +29,7 @@
 
 - Yalnızca belirtilmiş (halihazırda sahnelenmiş) dosyaları commit'le:
 
-`git commit {{örnek/dosya1 örnek/dosya2 ...}}`
+`git commit {{yol/dosya1 yol/dosya2 ...}}`
 
 - Belirtilen mesaj ve açıklama ile bir commit oluştur:
 
