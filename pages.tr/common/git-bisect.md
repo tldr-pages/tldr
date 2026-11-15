@@ -12,11 +12,11 @@
 
 `git bisect {{good|bad}}`
 
-- `git bisect` sorunlu commit'i saptadıktan sonra, ikiye bölme işlemini bitir ve depoyu bahsi geçen commit'den önceki dala geçir:
+- İkiye bölme işlemini bitir ve önceki dala geri dön:
 
 `git bisect reset`
 
-- İkiye bölme işlemi sırasında bir commit'i atla:
+- İkiye bölme işlemi sırasında bir commit'i atla (ör. başka bir sorun yüzünden testleri geçemeyen bir commit):
 
 `git bisect skip`
 
