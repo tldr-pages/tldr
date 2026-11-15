@@ -8,18 +8,30 @@
 
 `man {{komut}}`
 
-- Sayfanın 7. bölümündeki bir komut için man sayfasını görüntüle:
+- Bir komutun man sayfasını tarayıcıda aç (`$BROWSER` ayarlıysa `=tarayıcı_adı` atlanabilir):
 
-`man {{7}} {{komut}}`
+`man {{[-H|--html=]}}{{tarayıcı_adı}} {{komut}}`
 
-- Mansayfaları için aratılan yolu göster:
+- Bir komut için man sayfasını 7. bölümden görüntüle:
 
-`man --path`
+`man 7 {{komut}}`
 
-- Mansayfasını göstermek yerine mansayfasının konumunu göster:
+- Bir komut için kullanılabilir tüm bölümleri listele:
 
-`man -w {{komut}}`
+`man {{[-f|--whatis]}} {{komut}}`
 
-- Belirtilen ifadeyi içeren mansayfalarını ara:
+- Man sayfaları için aranan yolu göster:
 
-`man -k "{{aranan_ifade}}"`
+`man {{[-w|--path]}}`
+
+- Man sayfasını göstermek yerine man sayfasının konumunu göster:
+
+`man {{[-w|--where]}} {{komut}}`
+
+- Man sayfasını belirli bir yerel ayarla (locale) görüntüle:
+
+`man {{[-L|--locale]}} {{yerel_ayar}} {{komut}}`
+
+- Belirtilen ifadeyi içeren man sayfalarını ara:
+
+`man {{[-k|--apropos]}} "{{aranan_ifade}}"`
