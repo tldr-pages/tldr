@@ -5,15 +5,15 @@
 
 - Codifica un file:
 
-`base64 {{percoso/del/file}}`
+`base64 {{percorso/del/file}}`
 
 - Avvolgi l'output codificato a una larghezza specifica (`0` disabilita l'avvolgimento):
 
-`base64 {{[-w|--wrap]}} {{0|76|...}} {{percoso/del/file}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{percorso/del/file}}`
 
 - Decodifica un file:
 
-`base64 {{[-d|--decode]}} {{percoso/del/file}}`
+`base64 {{[-d|--decode]}} {{percorso/del/file}}`
 
 - Codifica da `stdin`:
 
