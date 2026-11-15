@@ -19,3 +19,19 @@
 - İkiye bölme işlemi sırasında bir commit'i atla:
 
 `git bisect skip`
+
+- Yalnızca belirli bir dosyayı veya dizini değiştiren commit'leri dikkate alarak ikiye bölme işlemini başlat:
+
+`git bisect start {{kötü_commit}} {{iyi_commit}} -- {{yol/dosya_veya_dizin}}`
+
+- İkiye bölme işlemini, "iyi" için 0, "kötü" için sıfırdan farklı bir çıkış kodu döndüren bir test betiği kullanarak otomatikleştir:
+
+`git bisect run {{yol/test_betiği}} {{isteğe_bağlı_betik_argümanları}}`
+
+- Şu ana kadar yapılanların kaydını göster:
+
+`git bisect log`
+
+- Kontrol edilecek kalan aday commit'leri göster:
+
+`git bisect visualize`
