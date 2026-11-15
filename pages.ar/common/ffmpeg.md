@@ -18,7 +18,7 @@
 
 - دمج صور مرقمة (`frame_1.jpg`، `frame_2.jpg`، ...) في فيديو أو GIF:
 
-`ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{path/to/frame_%d.jpg}} {{video.mpg|video.gif}}`
 
 - قص مقطع فيديو من وقت بداية mm:ss إلى وقت نهاية mm2:ss2 (تجاهل -to للقص حتى النهاية):
 

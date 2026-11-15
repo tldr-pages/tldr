@@ -18,7 +18,7 @@
 
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 
-`ffmpeg -i {{caminho/para/quadro_%d.jpg}} -f image2 {{vídeo.mpg|vídeo.gif}}`
+`ffmpeg -f image2 -i {{caminho/para/quadro_%d.jpg}} {{vídeo.mpg|vídeo.gif}}`
 
 - Corta um vídeo de um dado tempo inicial mm:ss até um tempo final mm2:ss2 (omita a opção -to para cortar o vídeo até o final):
 
