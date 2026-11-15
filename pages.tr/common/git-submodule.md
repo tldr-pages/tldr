@@ -17,7 +17,7 @@
 
 - Bir Git deposunu alt modül olarak belirtilen dizinde ekle:
 
-`git submodule add {{depo_url'si}} {{dizin/konumu}}`
+`git submodule add {{depo_url'si}} {{yol/dizin}}`
 
 - Tüm alt modülleri son commit'lerine güncelle:
 
