@@ -6,8 +6,8 @@
 
 - Transform an image to strips that can be cut out and glues onto a sphere:
 
-`ppmglobe {{number_of_strips}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`ppmglobe {{number_of_strips}} {{path/to/image.ppm}} >{{path/to/output.ppm}}`
 
 - Use the specified color for the areas between the strips:
 
-`ppmglobe {{[-b|-background]}} {{red}} {{number_of_strips}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`ppmglobe {{[-b|-background]}} {{red}} {{number_of_strips}} {{path/to/image.ppm}} >{{path/to/output.ppm}}`

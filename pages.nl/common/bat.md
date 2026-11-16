@@ -5,13 +5,13 @@
 > Zie ook: `cat`.
 > Meer informatie: <https://manned.org/bat>.
 
-- Toon de inhoud van een of meerdere bestanden in `stdout`:
+- Print de inhoud van een of meerdere bestanden met opmaak naar `stdout`:
 
 `bat {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Voeg verschillende bestanden samen in het doelbestand:
 
-`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/doelbestand}}`
+`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/doelbestand}}`
 
 - Verwijder decoraties en schakel paging uit:
 

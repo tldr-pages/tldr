@@ -5,4 +5,4 @@
 
 - Converteer een PBM afbeelding naar een Sun icon:
 
-`pbmtosunicon {{pad/naar/invoer.pbm}} > {{pad/naar/uitvoer.ico}}`
+`pbmtosunicon {{pad/naar/invoer.pbm}} >{{pad/naar/uitvoer.ico}}`

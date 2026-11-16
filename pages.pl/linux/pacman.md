@@ -1,8 +1,8 @@
 # pacman
 
 > Narzędzie do zarządzania pakietami w Arch Linuksie.
-> Zobacz także: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Odpowiednie polecenia dla innych menedżerów pakietów: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Zobacz także: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Więcej informacji: <https://manned.org/pacman.8>.
 
 - Zsynchronizuj i zaktualizuj wszystkie pakiety:

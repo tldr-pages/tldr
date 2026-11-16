@@ -6,4 +6,4 @@
 
 - Dim the specified PPM image by dimfactor:
 
-`ppmdim {{0.6}} {{path/to/input.ppm}} > {{path/to/output.ppm}}`
+`ppmdim {{0.6}} {{path/to/input.ppm}} >{{path/to/output.ppm}}`

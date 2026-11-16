@@ -6,7 +6,7 @@
 
 - Start Arthas:
 
-`java -jar {{path/to/arthas-boot.jar}}`
+`java -jar {{path/to/arthas-boot}}.jar`
 
 - Reconnect Arthas (default port used by Arthas is 3658):
 

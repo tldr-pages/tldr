@@ -23,6 +23,6 @@
 
 `localectl list-x11-keymap-options | grep grp:`
 
-- 도움말 보기:
+- 도움말 표시:
 
 `setxkbmap -help`

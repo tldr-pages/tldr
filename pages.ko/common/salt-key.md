@@ -1,7 +1,7 @@
 # salt-key
 
 > Salt 마스터에서 Salt 미니언 키를 관리.
-> 루트 사용자로 또는 sudo와 함께 Salt 마스터에서 실행해야 함.
+> 루트 사용자로 또는 `sudo`와 함께 Salt 마스터에서 실행해야 함.
 > 더 많은 정보: <https://docs.saltproject.io/en/latest/ref/cli/salt-key.html>.
 
 - 수락된, 수락되지 않은 및 거부된 모든 미니언 키 나열:

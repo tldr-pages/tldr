@@ -29,7 +29,7 @@
 
 - Averigua a qué paquete pertenece un archivo:
 
-`opkg search {{ruta/al/archivo}}`
+`opkg search /{{ruta/al/archivo}}`
 
 - Lista todos los archivos de un paquete:
 

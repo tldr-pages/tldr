@@ -6,12 +6,12 @@
 
 - Merge each row in an image with its two neighbors:
 
-`pammixinterlace {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`pammixinterlace {{path/to/image.ppm}} >{{path/to/output.ppm}}`
 
 - Use the specified filtering mechanism:
 
-`pammixinterlace {{[-f|-filter]}} {{linear|fir|ffmpeg}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`pammixinterlace {{[-f|-filter]}} {{linear|fir|ffmpeg}} {{path/to/image.ppm}} >{{path/to/output.ppm}}`
 
 - Turn on adaptive filtering mode, i.e., only modify pixels that are obviously part of a comb pattern:
 
-`pammixinterlace {{[-a|-adaptive]}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`pammixinterlace {{[-a|-adaptive]}} {{path/to/image.ppm}} >{{path/to/output.ppm}}`

@@ -8,10 +8,10 @@
 
 `mesg`
 
-- Sta geen berichten toe van het write-commando:
+- Sta geen berichten toe van het `write`-commando:
 
 `mesg n`
 
-- Sta berichten toe van het write-commando:
+- Sta berichten toe van het `write`-commando:
 
 `mesg y`

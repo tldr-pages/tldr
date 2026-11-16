@@ -9,7 +9,7 @@
 
 - Alternatively, add feeds manually:
 
-`echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
+`echo {{http://example.com/path/to/feed}} >>"${HOME}/.newsboat/urls"`
 
 - Start Newsboat and refresh all feeds on startup:
 

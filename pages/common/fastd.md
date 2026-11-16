@@ -11,7 +11,7 @@
 
 - Start a Layer 3 VPN with an MTU of 1400, loading the rest of the configuration parameters from a file:
 
-`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} {{1400}} {{[-c|--config]}} {{path/to/fastd.conf}}`
+`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} 1400 {{[-c|--config]}} {{path/to/fastd.conf}}`
 
 - Validate a configuration file:
 

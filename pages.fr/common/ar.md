@@ -1,10 +1,10 @@
 # ar
 
-> Crée, modifie et extrais depuis des archives (`.a`, `.so`, `.o`).
+> Crée, modifie et extrait depuis des archives (`.a`, `.so`, `.o`).
 > Voir aussi : `tar`.
 > Plus d'informations : <https://manned.org/ar>.
 
-- E[x]trais tous les éléments depuis une archive :
+- E[x]trait tous les éléments depuis une archive :
 
 `ar x {{chemin/vers/archive.a}}`
 

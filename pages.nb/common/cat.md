@@ -9,16 +9,16 @@
 
 - Slå sammen flere filer til en utdatafil:
 
-`cat {{sti/til/fil1 sti/til/fil2 ...}} > {{sti/til/utdatafil}}`
+`cat {{sti/til/fil1 sti/til/fil2 ...}} >{{sti/til/utdatafil}}`
 
 - Legg flere filer til på slutten av en utdatafil:
 
-`cat {{sti/til/fil1 sti/til/fil2 ...}} >> {{sti/til/utdatafil}}`
+`cat {{sti/til/fil1 sti/til/fil2 ...}} >>{{sti/til/utdatafil}}`
 
 - Kopier innholdet i en fil til en utdatafil uten bufring:
 
-`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
+`cat -u {{/dev/tty12}} >{{/dev/tty13}}`
 
 - Skriv `stdin` til en fil:
 
-`cat - > {{sti/til/fil}}`
+`cat - >{{sti/til/fil}}`

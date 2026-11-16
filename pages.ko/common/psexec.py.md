@@ -1,6 +1,6 @@
 # psexec.py
 
-> `RemComSvc`를 사용해 원격  Windows 시스템에서 명령을 실행하며, PsExec과 유사한 기능을 제공.
+> `RemComSvc`를 사용해 원격 Windows 시스템에서 명령을 실행하며, PsExec과 유사한 기능을 제공.
 > Impacket 도구 모음의 일부.
 > 더 많은 정보: <https://github.com/fortra/impacket>.
 

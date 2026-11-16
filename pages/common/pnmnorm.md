@@ -6,16 +6,16 @@
 
 - Force the brightest pixels to be white, the darkest pixels to be black, and spread out the ones in between linearly:
 
-`pnmnorm {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmnorm {{path/to/image.pnm}} >{{path/to/output.pnm}}`
 
 - Force the brightest pixels to be white, the darkest pixels to be black, and spread out the ones in between quadratically such that pixels with a brightness of `n` become 50 % bright:
 
-`pnmnorm {{[-midv|-midvalue]}} {{n}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmnorm {{[-midv|-midvalue]}} {{n}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`
 
 - Keep the pixels' hue, only modify the brightness:
 
-`pnmnorm {{[-k|-keephues]}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmnorm {{[-k|-keephues]}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`
 
 - Specify a method to calculate a pixel's brightness:
 
-`pnmnorm -{{luminosity|colorvalue|saturation}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmnorm -{{luminosity|colorvalue|saturation}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`

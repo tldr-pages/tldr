@@ -13,4 +13,4 @@
 
 - Bir dosyadaki tüm satırları Git yorumlarına çevir:
 
-`git < {{örnek/dosya}} stripspace {{[-c|--comment-lines]}}`
+`git <{{örnek/dosya}} stripspace {{[-c|--comment-lines]}}`

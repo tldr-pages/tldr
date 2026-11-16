@@ -1,6 +1,7 @@
 # du
 
 > Utilizzo del disco: stima e riassumi lo spazio utilizzato da file e directory.
+> Vedi anche: `ncdu`.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Elenca le dimensioni di una directory ed ogni sotto-directory, nell'unità specificata (B/KiB/MiB):

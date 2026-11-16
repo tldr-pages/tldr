@@ -16,7 +16,7 @@
 
 `assimp export {{input_file.stl}} {{output_file.obj}}`
 
-- Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters):
+- Convert a file using custom parameters (the `dox_cmd.h` file in assimp's source code lists available parameters):
 
 `assimp export {{input_file.stl}} {{output_file.obj}} {{parameters}}`
 

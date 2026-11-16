@@ -22,4 +22,4 @@
 
 - Find files whose contents match the `regex`, up to 2 directories deep:
 
-`pt --depth={{2}} -e '{{^ba[rz]*$}}'`
+`pt --depth=2 -e '{{^ba[rz]*$}}'`

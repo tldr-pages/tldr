@@ -15,10 +15,10 @@
 
 `cups-config --datadir`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `cups-config --help`
 
-- Exibe a versão do CUPS:
+- Mostra versão:
 
 `cups-config --version`

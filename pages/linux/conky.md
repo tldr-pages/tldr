@@ -9,7 +9,7 @@
 
 - Create a new default config:
 
-`conky {{[-C|--print-config]}} > ~/.conkyrc`
+`conky {{[-C|--print-config]}} >~/.conkyrc`
 
 - Launch Conky with a given configuration file:
 
@@ -25,4 +25,4 @@
 
 - Pause for 5 seconds at startup before launching:
 
-`conky {{[-p|--pause]}} {{5}}`
+`conky {{[-p|--pause]}} 5`

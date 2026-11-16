@@ -6,7 +6,7 @@
 
 - 启动 arthas：
 
-`java -jar {{路径/到/arthas-boot.jar}}`
+`java -jar {{路径/到/arthas-boot}}.jar`
 
 - 重连 arthas （默认 3658 端口）：
 

@@ -5,8 +5,8 @@
 
 - RAST 이미지를 PNM 파일로 변환:
 
-`rasttopnm {{경로/대상/입력.rast}} > {{경로/대상/출력.pnm}}`
+`rasttopnm {{경로/대상/입력.rast}} >{{경로/대상/출력.pnm}}`
 
 - 색상 값이 있는 경우 래스터의 색상 맵 인덱스를 사용:
 
-`rasttopnm {{[-i|-index]}} {{경로/대상/입력.rast}} > {{경로/대상/출력.pnm}}`
+`rasttopnm {{[-i|-index]}} {{경로/대상/입력.rast}} >{{경로/대상/출력.pnm}}`

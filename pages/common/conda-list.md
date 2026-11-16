@@ -21,4 +21,4 @@
 
 - Save packages for future use:
 
-`conda list {{[-e|--export]}} > {{path/to/package-list.txt}}`
+`conda list {{[-e|--export]}} >{{path/to/package-list.txt}}`

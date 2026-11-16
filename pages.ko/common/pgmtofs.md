@@ -6,4 +6,4 @@
 
 - 지정된 PGM 이미지를 Usenix FaceSaver 형식으로 변환:
 
-`pgmtofs {{경로/대상/입력.pgm}} > {{경로/대상/출력.fs}}`
+`pgmtofs {{경로/대상/입력.pgm}} >{{경로/대상/출력.fs}}`

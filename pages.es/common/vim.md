@@ -21,7 +21,7 @@
 
 `{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
-- Deshaz la última operación:
+- Deshace la última operación:
 
 `<Esc><u>`
 

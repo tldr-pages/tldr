@@ -117,7 +117,6 @@ Example:
 - View documentation for the original command:
 
 `tldr vim`
-
 ```
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
@@ -181,7 +180,7 @@ For instance, instead of `Listing all files:`, use the following:
 ```md
 - List all files:
 
- `ls`
+`ls`
 ```
 
 ### Serial Comma
@@ -315,8 +314,8 @@ When linking pages to websites that have locale settings like the Microsoft Lear
 The heading should adhere to the following order:
 
 ```md
-> Short description of the functionality.
-> Further clarification of the functionality.
+> Short description of the functionality written in imperative mood.
+> Further clarification of the functionality written in present tense.
 > Note: Any note for the usage.
 > Part of the Example suite.
 > Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
@@ -368,9 +367,11 @@ Try to keep the following order:
 - Options with arguments
 - Output redirection to a file
 
-For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
+For example: `systemctl <input_file.txt status pipewire --user >output_file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to align them vertically.
+
+Prefer omitting the space after redirection operators (`<input`, `>output`) to treat them as a single unit.
 
 If the command does multiple things, try to keep the chronological order in which things happen.
 
@@ -450,7 +451,7 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 - Single character example: `<a>`.
 - Special keys are to be written with [`PascalCase`](https://www.theserverside.com/definition/Pascal-case): `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<ArrowKeys>`, `<PageUp>`, `<F5>`, `<F12>`, `<LeftClick>`, `<MiddleClick>`, ...
 - Special keys can be translated if they have culturally relevant translations.
-- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
+- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. The distinction being if the shift is required or if using Caps Lock achieves the same results. Otherwise always mark characters in lowercase.
 - Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
 - When writing simultaneous keypresses, keep the following order: `<Ctrl Super Windows Alt AltGr Shift everything_else>`.
 - Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Esc><u>`, `<Ctrl k><Ctrl s>`, `<Enter><~><.>`, `<d><o>`.
@@ -488,7 +489,7 @@ When documenting PowerShell commands, please take note of the following naming c
 - The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
 - The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
 
 Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
 
@@ -744,3 +745,11 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 *Writing prepositions is optional*
 
   However, if the line of a command example exceeds the [maximum length](https://github.com/tldr-pages/tldr/blob/main/.markdownlint.json#L5), choose the word `identificador` or `id` and use it across all placeholders in the page.
+
+### Hebrew-Specific Rules
+
+- Hebrew program descriptions should be short and should not address the reader. Example descriptions should use verbal nouns (שם פעולה).
+  For example, use `הצגת הקבצים` rather than `הצג את הקבצים` or `הציגו את הקבצים`.
+- Do not translate placeholders. Following the existing [rule for right-to-left languages](translation-templates/common-arguments.md), keep them in English to prevent text from being displayed in the wrong order.
+  For example, use `{{path/to/file}}` rather than `{{נתיב/אל/קובץ}}`.
+- For the full set of Hebrew-specific conventions, see [`style-guide.he.md`](style-guide.he.md).

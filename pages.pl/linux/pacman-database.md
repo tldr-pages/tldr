@@ -2,7 +2,6 @@
 
 > Operuj na bazie danych pakietów Arch Linuksa.
 > Modyfikuj niektóre atrybuty zainstalowanych pakietów.
-> Zobacz także: `pacman`.
 > Więcej informacji: <https://manned.org/pacman.8>.
 
 - Oznacz pakiet jako pośrednio zainstalowany (zależność):

@@ -12,7 +12,7 @@
 
 `bspc desktop {{[-f|--focus]}} {{nummer}}`
 
-- Sluit de vensters die afgetakt zijn van de geselecteerde node:
+- Sluit de vensters die zich onder de geselecteerde node bevinden:
 
 `bspc node {{[-c|--close]}}`
 

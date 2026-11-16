@@ -26,7 +26,7 @@
 
 - List files in an archive and send the output through a pager:
 
-`atool {{[-l|--list]}} {{[-p|--pager]}} {{large_archive.tar.bz2}}`
+`atool {{[-l|--list]}} {{[-p|--page]}} {{large_archive.tar.bz2}}`
 
 - Extract multiple archives at once (each to its own subdirectory if needed):
 

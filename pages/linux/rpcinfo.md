@@ -17,8 +17,8 @@
 
 - Display list of entries of given service name (mountd) and version number (2) on a remote nfs share:
 
-`rpcinfo -l {{remote_nfs_server_ip}} {{mountd}} {{2}}`
+`rpcinfo -l {{remote_nfs_server_ip}} mountd 2`
 
 - Delete the registration for version 1 of the mountd service for all transports:
 
-`rpcinfo -d {{mountd}} {{1}}`
+`rpcinfo -d mountd 1`

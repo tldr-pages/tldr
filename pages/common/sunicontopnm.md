@@ -5,4 +5,4 @@
 
 - Convert a Sun icon into a Netpbm image:
 
-`sunicontopnm {{path/to/input.ico}} > {{path/to/output.pbm}}`
+`sunicontopnm {{path/to/input.ico}} >{{path/to/output.pbm}}`

@@ -11,6 +11,6 @@
 
 `plasma-apply-cursortheme {{breeze_cursors}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `plasma-apply-cursortheme --help`

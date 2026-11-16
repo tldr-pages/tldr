@@ -5,7 +5,7 @@
 
 - Jalankan suatu perintah kueri terhadap suatu tabel BigQuery dalam format SQL dasar, tambahkan opsi `--dry_run` untuk menaksir jumlah bita yang akan dibaca pada proses eksekusi:
 
-`bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM {{NAMA_DATASET}}.{{NAMA_TABEL}}'`
+`bq query --nouse_legacy_sql --dry_run 'SELECT COUNT(*) FROM {{NAMA_DATASET}}.{{NAMA_TABEL}}'`
 
 - Jalankan suatu perintah kueri dengan kumpulan parameter:
 

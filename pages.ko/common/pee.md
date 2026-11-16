@@ -12,6 +12,6 @@
 
 `pee cat {{명령1 명령2 ...}}`
 
-- SIGPIPE 및 쓰기 오류 발생 시 즉시 종료:
+- `SIGPIPE` 및 쓰기 오류 발생 시 즉시 종료:
 
 `pee --no-ignore-sigpipe --no-ignore-write-errors {{명령1 명령2 ...}}`

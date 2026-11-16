@@ -8,7 +8,7 @@
 
 `twopi -T {{png}} -O {{path/to/input.gv}}`
 
-- Render a SVG image with the specified output filename (lowercase -o):
+- Render an SVG image with the specified output filename (lowercase -o):
 
 `twopi -T {{svg}} -o {{path/to/image.svg}} {{path/to/input.gv}}`
 
@@ -18,7 +18,7 @@
 
 - Render a GIF image using `stdin` and `stdout`:
 
-`echo "{{digraph {this -> that} }}" | twopi -T {{gif}} > {{path/to/image.gif}}`
+`echo "{{digraph {this -> that} }}" | twopi -T {{gif}} >{{path/to/image.gif}}`
 
 - Display help:
 

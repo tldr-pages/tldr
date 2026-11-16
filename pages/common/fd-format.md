@@ -21,7 +21,7 @@
 
 - Prepend a `{` and append a `}` to the results:
 
-`fd --format "\{\{{}\}\}"`
+`fd --format "\{\{ {} \}\}"`
 
 - Prepend text to the results:
 

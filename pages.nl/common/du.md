@@ -1,6 +1,7 @@
 # du
 
 > Schijfgebruik: schat en vat ruimtegebruik van bestanden en mappen samen.
+> Zie ook: `ncdu`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Toon de grootte van een map en mogelijke submappen, met een gegeven eenheid (B/KiB/MiB):

@@ -6,7 +6,7 @@
 
 - 30자 폭 디스플레이의 형식 출력으로 포맷 정하기:
 
-`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} {{30}}`
+`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} 30`
 
 - 열 자동 분할 및 자동 정렬을 표 형식으로 분할:
 

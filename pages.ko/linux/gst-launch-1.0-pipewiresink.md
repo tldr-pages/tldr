@@ -9,4 +9,4 @@
 
 - PipeWire 노드 이름 지정:
 
-`gst-launch-1.0 {{소스파일}} ! pipewiresink client-name={{노드_이름}}`
+`gst-launch-1.0 {{소스파일}} ! pipewiresink mode=provide client-name={{노드_이름}}`

@@ -29,4 +29,4 @@
 
 - Guarda la raíz de confianza de los certificados de firma en un archivo para la verificación sin conexión:
 
-`gh {{[at|attestation]}} trusted-root > {{ruta/a/trusted_root.jsonl}}`
+`gh {{[at|attestation]}} trusted-root >{{ruta/a/trusted_root.jsonl}}`

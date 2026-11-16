@@ -17,4 +17,4 @@
 
 - Voer een proces uit en schrijf de uitvoer naar een specifiek bestand:
 
-`nohup {{commando}} {{argument1 argument2 ...}} > {{pad/naar/uitvoer_bestand}} &`
+`nohup {{commando}} {{argument1 argument2 ...}} >{{pad/naar/uitvoer_bestand}} &`

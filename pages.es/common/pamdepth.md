@@ -5,4 +5,4 @@
 
 - Lee una imagen PBM, fija su valor máximo y la guarda en un archivo:
 
-`pamdepth {{valor_máximo}} {{ruta/a/la/imagen.pbm}} > {{ruta/al/archivo.pbm}}`
+`pamdepth {{valor_máximo}} {{ruta/a/la/imagen.pbm}} >{{ruta/al/archivo.pbm}}`

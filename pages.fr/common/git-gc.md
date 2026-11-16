@@ -19,6 +19,6 @@
 
 `git gc --quiet`
 
-- Affiche le manuel :
+- Affiche l'aide :
 
 `git gc --help`

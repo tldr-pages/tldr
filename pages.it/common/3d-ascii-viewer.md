@@ -23,6 +23,6 @@
 
 `3d-ascii-viewer --interactive {{percorso/del/modello}}.obj`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `3d-ascii-viewer --help`

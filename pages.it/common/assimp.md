@@ -16,7 +16,7 @@
 
 `assimp export {{file_input.stl}} {{file_output.obj}}`
 
-- Converti un file utilizzando parametri personalizzati (il file dox_cmd.h nel source code di assimp contiene una lista di parametri disponibili):
+- Converti un file utilizzando parametri personalizzati (il file `dox_cmd.h` nel source code di assimp contiene una lista di parametri disponibili):
 
 `assimp export {{file_input.stl}} {{file_output.obj}} {{parametri}}`
 
@@ -24,7 +24,7 @@
 
 `assimp info {{percorso/del/file}}`
 
-- Elenca tutti i sottocomandi disponibili (detti "verbs"):
+- Mostra l'aiuto:
 
 `assimp help`
 

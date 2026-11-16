@@ -11,6 +11,10 @@
 
 `uv tool install {{pakket}}`
 
+- Installeer vanuit een specifieke git-repo op een specifieke tag:
+
+`uv tool install "git+{{repo_url}}@{{v1.2.3}}"`
+
 - Upgrade een geïnstalleerd Python-pakket:
 
 `uv tool upgrade {{pakket}}`

@@ -3,7 +3,7 @@
 > Terminal sessiemanager.
 > Meer informatie: <https://manned.org/abduco>.
 
-- Toon alle sessies:
+- Toon sessies:
 
 `abduco`
 

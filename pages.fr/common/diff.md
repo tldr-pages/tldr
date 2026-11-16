@@ -30,4 +30,4 @@
 
 - Crée un fichier patch des différences entre deux fichiers texte pour Git, en traitant les fichiers inexistants comme fichiers vides :
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{ancien_fichier}} {{nouveau_fichier}} > {{diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{ancien_fichier}} {{nouveau_fichier}} >{{diff.patch}}`

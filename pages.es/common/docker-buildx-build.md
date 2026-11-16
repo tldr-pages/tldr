@@ -27,10 +27,10 @@
 
 `docker buildx build --load {{[-t|--tag]}} {{image:tag}} .`
 
-- Compila para varias plataformas y la envsubirla a un registro:
+- Compila para varias plataformas y la envía a un registro:
 
 `docker buildx build --platform {{linux/amd64,linux/arm64}} --push {{[-t|--tag]}} {{registry.example.com/image:tag}} .`
 
-- Compilar una etapa específica a partir de un Dockerfile de varias etapas:
+- Compila una etapa específica a partir de un Dockerfile de varias etapas:
 
 `docker buildx build --target {{nombre_etapa}} {{[-t|--tag]}} {{image:tag}} .`

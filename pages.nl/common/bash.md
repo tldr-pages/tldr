@@ -20,7 +20,7 @@
 
 `bash {{pad/naar/script.sh}}`
 
-- Voer commando's van bestand uit ([x]), en print alle uitgevoerde commando's naar de terminal:
+- Voer commando's van bestand uit ([x]), en print elk commando voordat het wordt uitgevoerd:
 
 `bash -x {{pad/naar/script.sh}}`
 

@@ -17,7 +17,7 @@
 
 - 구성 파일을 사용하여 클러스터를 생성하고, 나중에까지 노드 그룹 생성을 건너뜀:
 
-`eksctl create cluster --config-file=<path> --without-nodegroup`
+`eksctl create cluster --config-file={{경로/대상/파일}} --without-nodegroup`
 
 - 클러스터 삭제:
 

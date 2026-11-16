@@ -5,4 +5,4 @@
 
 - Convert a QRT file to a PPM image:
 
-`qrttoppm {{path/to/file.qrt}} > {{path/to/image.ppm}}`
+`qrttoppm {{path/to/file.qrt}} >{{path/to/image.ppm}}`

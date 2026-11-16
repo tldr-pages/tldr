@@ -5,4 +5,4 @@
 
 - Invert the colors or greyscale values in a PNM image:
 
-`pnminvert {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnminvert {{path/to/input.pnm}} >{{path/to/output.pnm}}`

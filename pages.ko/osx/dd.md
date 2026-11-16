@@ -25,4 +25,4 @@
 
 - 진행 중인 `dd` 작업의 진행률 확인 (다른 셸에서 이 명령 실행):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill {{[-30|-SIGUSR1]}} $(pgrep ^dd)`

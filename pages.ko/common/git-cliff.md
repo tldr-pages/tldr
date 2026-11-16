@@ -5,7 +5,7 @@
 
 - Git 저장소의 모든 커밋으로부터 changelog 생성 후 `CHANGELOG.md`에 저장:
 
-`git cliff > {{CHANGELOG.md}}`
+`git cliff >{{CHANGELOG.md}}`
 
 - 최신 태그 이후의 커밋으로 changelog 생성 후 `stdout`에 출력:
 

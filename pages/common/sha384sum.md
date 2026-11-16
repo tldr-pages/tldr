@@ -9,7 +9,7 @@
 
 - Calculate and save the list of SHA384 checksums to a file:
 
-`sha384sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha384}}`
+`sha384sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.sha384}}`
 
 - Calculate a SHA384 checksum from `stdin`:
 

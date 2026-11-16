@@ -18,7 +18,7 @@
 
 - Executa um arquivo de script específico e imprime o resultado na `stdout`:
 
-`{{comando}} | sed {{-f|--file}} {{caminho/para/script.sed}}`
+`{{comando}} | sed {{[-f|--file]}} {{caminho/para/script.sed}}`
 
 - Imprime apenas uma primeira linha na `stdout`:
 

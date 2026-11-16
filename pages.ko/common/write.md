@@ -9,10 +9,10 @@
 
 `write {{사용자_명}} {{터미널_id}}`
 
-- 터미널 `/dev/tty/5`에서 "testuser"에게 메시지 전송:
+- 터미널 `/dev/tty5`에서 "testuser"에게 메시지 전송:
 
-`write {{testuser}} {{tty/5}}`
+`write testuser tty5`
 
 - 의사 터미널 `/dev/pts/5`에서 "johndoe"에게 메시지 전송:
 
-`write {{johndoe}} {{pts/5}}`
+`write johndoe pts/5`

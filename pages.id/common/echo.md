@@ -18,7 +18,7 @@
 
 - Tambahkan isi pesan ke dalam suatu berkas teks:
 
-`echo "{{Halo Dunia}}" >> {{berkas.txt}}`
+`echo "{{Halo Dunia}}" >>{{berkas.txt}}`
 
 - Aktifkan fitur interpretasi penggunaan tanda garis miring terbalik sebagai penanda karakter khusus:
 

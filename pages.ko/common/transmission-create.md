@@ -20,6 +20,6 @@
 
 `transmission-create {{[-o|--outfile]}} {{경로/대상/example.torrent}} {{[-t|--tracker]}} {{트래커_url1}} {{[-t|--tracker]}} {{트래커_url2}} {{경로/대상/파일_또는_폴더}}`
 
-- 도움말 페이지 표시:
+- 도움말 표시:
 
 `transmission-create {{[-h|--help]}}`

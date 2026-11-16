@@ -9,7 +9,7 @@
 
 - Display information about a volume's filesystem:
 
-`fsutil fsInfo volumeInfo {{drive_letter|volume_path}}`
+`fsutil fsInfo volumeInfo {{drive_letter|path/to/volume}}`
 
 - Display the current state of the filesystem auto-repair for all volumes:
 
@@ -21,4 +21,4 @@
 
 - Set the dirty bit state of a volume:
 
-`fsutil dirty set {{drive_letter|volume_path}}`
+`fsutil dirty set {{drive_letter|path/to/volume}}`

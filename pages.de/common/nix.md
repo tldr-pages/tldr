@@ -8,7 +8,7 @@
 
 - Aktiviere den `nix` Befehl:
 
-`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' >~/.config/nix/nix.conf`
 
 - Suche ein Paket in nixpkgs nach Namen oder Beschreibung:
 

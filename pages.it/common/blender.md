@@ -14,15 +14,15 @@
 
 - Renderizza il decimo frame di un'animazione come singola immagine, salvandolo in una directory esistente (percorso assoluto):
 
-`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} /{{percorso/della/directory_output}} {{[-f|--render-frame]}} {{10}}`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} /{{percorso/della/directory_output}} {{[-f|--render-frame]}} 10`
 
 - Renderizza il penultimo frame di un'animazione come immagine JPEG, salvandolo in una directory esistente (path relativa al file):
 
-`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} //{{directory_output}} {{[-f|--render-frame]}} {{JPEG}} {{[-f|--render-frame]}} {{-2}}`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} //{{directory_output}} {{[-f|--render-frame]}} JPEG {{[-f|--render-frame]}} -2`
 
 - Renderizza l'animazione di una specifica scena, dal frame 10 al 500:
 
-`blender {{[-b|--background]}} {{nome_file.blend}} {{[-S|--scene]}} {{nome_scena}} {{[-s|--frame-start]}} {{10}} {{[-e|--frame-end]}} {{500}} {{[-a|--render-anim]}}`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-S|--scene]}} {{nome_scena}} {{[-s|--frame-start]}} 10 {{[-e|--frame-end]}} 500 {{[-a|--render-anim]}}`
 
 - Renderizza un'animazione ad una specifica risoluzione, attraverso l'utilizzo di uno script python:
 

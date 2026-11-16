@@ -5,12 +5,12 @@
 
 - Convert a PPM file to an HP LaserJet PCL 5 Color file:
 
-`ppmtolj {{path/to/input.ppm}} > {{path/to/output.lj}}`
+`ppmtolj {{path/to/input.ppm}} >{{path/to/output.lj}}`
 
 - Apply a gamma correction using the specified gamma value:
 
-`ppmtolj {{[-g|-gamma]}} {{gamma}} {{path/to/input.ppm}} > {{path/to/output.lj}}`
+`ppmtolj {{[-g|-gamma]}} {{gamma}} {{path/to/input.ppm}} >{{path/to/output.lj}}`
 
 - Specify the required resolution:
 
-`ppmtolj {{[-r|-resolution]}} {{75|100|150|300|600}} {{path/to/input.ppm}} > {{path/to/output.lj}}`
+`ppmtolj {{[-r|-resolution]}} {{75|100|150|300|600}} {{path/to/input.ppm}} >{{path/to/output.lj}}`

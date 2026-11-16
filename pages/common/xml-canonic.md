@@ -5,11 +5,11 @@
 
 - Make an XML document canonical, preserving comments:
 
-`xml {{[c14n|canonic]}} {{path/to/input.xml|uri}} > {{path/to/output.xml}}`
+`xml {{[c14n|canonic]}} {{path/to/input.xml|uri}} >{{path/to/output.xml}}`
 
 - Make an XML document canonical, removing comments:
 
-`xml {{[c14n|canonic]}} --without-comments {{path/to/input.xml|uri}} > {{path/to/output.xml}}`
+`xml {{[c14n|canonic]}} --without-comments {{path/to/input.xml|uri}} >{{path/to/output.xml}}`
 
 - Make XML exclusively canonical, using an XPATH from a file, preserving comments:
 

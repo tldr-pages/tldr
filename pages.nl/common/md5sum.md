@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van MD5 checksums op in een bestand:
 
-`md5sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.md5}}`
+`md5sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.md5}}`
 
 - Bereken een MD5 checksum van `stdin`:
 

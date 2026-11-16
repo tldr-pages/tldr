@@ -1,7 +1,6 @@
 # pacman --deptest
 
 > Comprueba cada dependencia especificada y devuelve una lista de las dependencias que no están satisfechas actualmente en el sistema.
-> Vea también: `pacman`.
 > Más información: <https://manned.org/pacman.8>.
 
 - Muestra los nombres de los paquetes de las dependencias que no están instaladas:

@@ -10,7 +10,7 @@
 
 - DBF 파일을 CSV 파일로 변환:
 
-`in2csv {{data.dbf}} > {{data.csv}}`
+`in2csv {{data.dbf}} >{{data.csv}}`
 
 - 특정 시트를 XLSX 파일에서 CSV로 변환:
 
@@ -18,4 +18,4 @@
 
 - JSON 파일을 in2csv로 파이프:
 
-`cat {{data.json}} | in2csv {{[-f|--format]}} json > {{data.csv}}`
+`cat {{data.json}} | in2csv {{[-f|--format]}} json >{{data.csv}}`

@@ -14,4 +14,4 @@
 
 - Agrega 90 minutos al reloj del sistema:
 
-`$90mins = New-TimeSpan -Minutes {{90}}; Set-Date -Adjust $90mins`
+`$90mins = New-TimeSpan -Minutes 90; Set-Date -Adjust $90mins`

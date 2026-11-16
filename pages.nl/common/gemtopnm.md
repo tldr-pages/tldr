@@ -5,7 +5,7 @@
 
 - Converteer een GEM-afbeelding naar een PNM-afbeelding:
 
-`gemtopnm {{pad/naar/bestand.img}} > {{pad/naar/uitvoer.pnm}}`
+`gemtopnm {{pad/naar/bestand.img}} >{{pad/naar/uitvoer.pnm}}`
 
 - Beschrijf de inhoud van een gespecificeerde GEM-afbeelding:
 

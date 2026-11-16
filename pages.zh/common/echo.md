@@ -18,7 +18,7 @@
 
 - 向文件添加信息：
 
-`echo "{{Hello World}}" >> {{file.txt}}`
+`echo "{{Hello World}}" >>{{file.txt}}`
 
 - 启用反斜杠转义的解释（特殊字符）：
 

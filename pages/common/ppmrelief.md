@@ -5,4 +5,4 @@
 
 - Produce a relief of the specified PPM image:
 
-`ppmrelief {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmrelief {{path/to/input_file.ppm}} >{{path/to/output_file.ppm}}`

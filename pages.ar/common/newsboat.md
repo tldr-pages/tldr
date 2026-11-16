@@ -9,7 +9,7 @@
 
 - إضافة روابط الخلاصات يدوياً:
 
-`echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
+`echo {{http://example.com/path/to/feed}} >>"${HOME}/.newsboat/urls"`
 
 - إبدأ newsboat وقم بتحديث كل الخلاصات عند بدء التشغيل:
 

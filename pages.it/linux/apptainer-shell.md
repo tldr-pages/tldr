@@ -32,6 +32,6 @@
 
 `apptainer shell {{[-s|--shell]}} {{path/to/shell}} {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer shell {{[-h|--help]}}`

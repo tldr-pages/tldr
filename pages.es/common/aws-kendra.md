@@ -25,4 +25,4 @@
 
 - Lista consultas de búsqueda:
 
-`aws kendra list-query-suggestions --index-id {{id_índice}} --query-text {{texto_consulta}}`
+`aws kendra get-query-suggestions --index-id {{id_índice}} --query-text {{texto_consulta}}`

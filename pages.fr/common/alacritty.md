@@ -19,6 +19,6 @@
 
 `alacritty --config-file {{chemin/vers/config.toml}}`
 
-- Lance avec la mise à jour en live dès que la configuration est modifiée ( peu également être activé par défaut dans `alacritty.toml`) :
+- Lance avec la mise à jour en live dès que la configuration est modifiée (peut également être activé par défaut dans `alacritty.toml`) :
 
 `alacritty --live-config-reload --config-file {{chemin/vers/config.toml}}`

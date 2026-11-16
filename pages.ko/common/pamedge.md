@@ -5,4 +5,4 @@
 
 - Netpbm 이미지에서 에지 감지 수행:
 
-`pamedge {{경로/대상/input.pam}} > {{경로/대상/output.pam}}`
+`pamedge {{경로/대상/input.pam}} >{{경로/대상/output.pam}}`

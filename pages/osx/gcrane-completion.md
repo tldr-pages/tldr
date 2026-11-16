@@ -22,15 +22,15 @@
 
 - Load completions for every new session (Bash):
 
-`gcrane completion bash > $(brew --prefix)/etc/bash_completion.d/gcrane`
+`gcrane completion bash >$(brew --prefix)/etc/bash_completion.d/gcrane`
 
 - Load completions for every new session (Zsh):
 
-`gcrane completion zsh > $(brew --prefix)/share/zsh/site-functions/_gcrane`
+`gcrane completion zsh >$(brew --prefix)/share/zsh/site-functions/_gcrane`
 
 - Load completions for every new session (fish):
 
-`gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
+`gcrane completion fish >~/.config/fish/completions/gcrane.fish`
 
 - Display help:
 

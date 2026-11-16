@@ -7,7 +7,7 @@
 
 `pacdiff`
 
-- Usa sudo e sudoedit para remover e mesclar arquivos:
+- Usa `sudo` e `sudoedit` para remover e mesclar arquivos:
 
 `pacdiff {{[-s|--sudo]}}`
 
@@ -23,6 +23,6 @@
 
 `pacdiff {{[-l|--locate]}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `pacdiff {{[-h|--help]}}`

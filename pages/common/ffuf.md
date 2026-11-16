@@ -28,6 +28,6 @@
 
 `ffuf -w {{path/to/keys:KEY}} -w {{path/to/values:VALUE}} -mode {{pitchfork|clusterbomb}} -u {{https://example.com/id?KEY=VALUE}} -ac`
 
-- Proxy requests through a HTTP MITM pro[x]y (such as Burp Suite or `mitmproxy`):
+- Proxy requests through an HTTP MITM pro[x]y (such as Burp Suite or `mitmproxy`):
 
 `ffuf -w {{path/to/wordlist}} -x {{http://127.0.0.1:8080}} -u {{https://example.com/FUZZ}}`

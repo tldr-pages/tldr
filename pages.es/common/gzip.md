@@ -21,15 +21,15 @@
 
 - Comprime un archivo, especificando el nombre del archivo de salida:
 
-`gzip {{[-c|--stdout]}} {{ruta/al/archivo}} > {{ruta/al/archivo_comprimido.gz}}`
+`gzip {{[-c|--stdout]}} {{ruta/al/archivo}} >{{ruta/al/archivo_comprimido.gz}}`
 
 - Descomprime un archivo `gzip` especificando el nombre del archivo de salida:
 
-`gzip {{[-cd|--stdout --decompress]}} {{ruta/al/archivo.gz}} > {{ruta/al/archivo_descomprimido}}`
+`gzip {{[-cd|--stdout --decompress]}} {{ruta/al/archivo.gz}} >{{ruta/al/archivo_descomprimido}}`
 
 - Especificando el nivel de compresión. 1 es el más rápido (compresión baja), 9 es el más lento (compresión alta) y 6 es el valor predeterminado:
 
-`gzip -{{1..9}} {{[-c|--stdout]}} {{ruta/al/archivo}} > {{ruta/al/archivo_comprimido.gz}}`
+`gzip -{{1..9}} {{[-c|--stdout]}} {{ruta/al/archivo}} >{{ruta/al/archivo_comprimido.gz}}`
 
 - Muestra el contenido de un archivo comprimido:
 

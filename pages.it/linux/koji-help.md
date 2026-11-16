@@ -11,6 +11,6 @@
 
 `koji help {{categoria}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji help {{[-h|--help]}}`

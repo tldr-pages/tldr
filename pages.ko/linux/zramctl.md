@@ -14,11 +14,11 @@
 
 - 정확히 2개의 장치로 zram 활성화:
 
-`sudo modprobe zram num_devices={{2}}`
+`sudo modprobe zram num_devices=2`
 
 - 다음 사용 가능한 zram 장치를 찾아 LZ4 압축을 사용하여 2GB 가상 드라이브로 초기화:
 
-`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} {{2GB}} {{[-a|--algorithm]}} {{lz4}}`
+`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} 2GB {{[-a|--algorithm]}} lz4`
 
 - 현재 초기화된 장치 나열:
 

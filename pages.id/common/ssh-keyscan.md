@@ -17,4 +17,4 @@
 
 - Perbarui berkas/fail `known_hosts` SSH secara manual dengan sidik jari (fingerprint) dari host yang diberikan:
 
-`ssh-keyscan -H {{nama_host}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{nama_host}} >>~/.ssh/known_hosts`

@@ -8,10 +8,10 @@
 
 `mesg`
 
-- Disallow receiving messages from the write command:
+- Disallow receiving messages from the `write` command:
 
 `mesg n`
 
-- Allow receiving messages from the write command:
+- Allow receiving messages from the `write` command:
 
 `mesg y`

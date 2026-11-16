@@ -21,7 +21,7 @@
 
 - 이름이 `file_name`과 일치하는 파일에서 `string`을 찾음:
 
-`ag string {{[-G|--file-search-regex]}} file_name`
+`ag string {{[-G|--file-search-regex]}} {{file_name}}`
 
 - 내용이 `regex`와 일치하는 파일을 찾음:
 

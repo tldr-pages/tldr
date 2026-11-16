@@ -9,7 +9,7 @@
 
 - 다운로드 속도를 20 MiB/s로 제한하고 5개의 스레드로 다운로드:
 
-`isisdl --download-rate {{20}} --max-num-threads {{5}}`
+`isisdl --download-rate 20 --max-num-threads 5`
 
 - 초기 설정 마법사 실행:
 

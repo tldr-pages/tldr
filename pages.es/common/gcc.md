@@ -32,6 +32,6 @@
 
 `gcc {{ruta/a/la/fuente.c}} -O{{1|2|3|fast}} {{[-o|--output]}} {{ruta/al/ejecutable}}`
 
-- Versión de visualización:
+- Muestra la versión:
 
 `gcc --version`

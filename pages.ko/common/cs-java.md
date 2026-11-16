@@ -9,7 +9,7 @@
 
 - coursier를 사용하여 사용자 정의 속성으로 특정 Java 버전을 호출:
 
-`cs java --jvm {{jvm_이름}}:{{jvm_버전}} -Xmx32m -X{{다른_jvm_옵션}} -jar {{경로/대상/jar_이름.jar}}`
+`cs java --jvm {{jvm_이름}}:{{jvm_버전}} -Xmx32m -X{{다른_jvm_옵션}} -jar {{경로/대상/jar_이름}}.jar`
 
 - coursier 기본 인덱스에 사용 가능한 모든 JVM을 나열:
 

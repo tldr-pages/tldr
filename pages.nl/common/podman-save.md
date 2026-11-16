@@ -10,11 +10,11 @@
 
 - Sla een image op in `stdout`:
 
-`podman save {{image:tag}} > {{pad/naar/bestand.tar}}`
+`podman save {{image:tag}} >{{pad/naar/bestand.tar}}`
 
 - Sla een image op met compressie:
 
-`podman save {{image:tag}} | {{gzip|bzip2|xz|zstd|zstdchunked}} > {{pad/naar/bestand.tar.ext}}`
+`podman save {{image:tag}} | {{gzip|bzip2|xz|zstd|zstdchunked}} >{{pad/naar/bestand.tar.ext}}`
 
 - Zet een image over naar een systeem op afstand met on-the-fly compressie en voortgangsbalk:
 

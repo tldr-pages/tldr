@@ -5,4 +5,4 @@
 
 - Convert the pixel format to be compatible with the output:
 
-`gst-launch-1.0 {{source}} ! videoconvert ! {{sink}}`
+`gst-launch-1.0 {{videotestsrc}} ! videoconvert ! {{autovideosink}}`

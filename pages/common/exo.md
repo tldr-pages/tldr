@@ -12,7 +12,7 @@
 
 `exo completion {{zsh}}`
 
-- List all of the available zones and output them as json:
+- List all of the available zones and output them as JSON:
 
 `exo zone {{[-O|--output-format]}} {{json}}`
 

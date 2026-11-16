@@ -18,7 +18,7 @@
 
 - Clone a Git repo, only fetching the 10 most recent commits:
 
-`jj git clone --depth {{10}} {{source}}`
+`jj git clone --depth 10 {{source}}`
 
 - Clone colocating the Jujutsu repo with the Git repo (allowing the use of both `jj` and `git` commands in the same directory):
 

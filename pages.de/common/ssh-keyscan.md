@@ -17,4 +17,4 @@
 
 - Aktualisiere die `known_hosts` SSH Datei mit dem Fingerabdruck eines bestimmten Servers:
 
-`ssh-keyscan -H {{server}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{server}} >>~/.ssh/known_hosts`

@@ -20,6 +20,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -158,6 +159,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Plus d'informations : <https://example.com>.
+```
+
+---
+
+### he
+
+```markdown
+> למידע נוסף: <https://example.com>.
 ```
 
 ---

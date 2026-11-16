@@ -17,7 +17,7 @@
 
 - Use systemd to start the Plasma session when available:
 
-`kwriteconfig5 --file {{startkderc}} --group {{General}} --key {{systemdBoot}} {{true}}`
+`kwriteconfig5 --file {{startkderc}} --group {{General}} --key systemdBoot {{true}}`
 
 - Hide the title bar when a window is maximized (like Ubuntu):
 

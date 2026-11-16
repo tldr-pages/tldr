@@ -6,7 +6,7 @@
 
 - Arthas를 시작:
 
-`java -jar {{경로/대상/arthas-boot.jar}}`
+`java -jar {{경로/대상/arthas-boot}}.jar`
 
 - Arthas에 다시 연결 (Arthas의 기본 포트는 3658):
 

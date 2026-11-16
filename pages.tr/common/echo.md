@@ -18,7 +18,7 @@
 
 - Dosyaya mesaj ekle:
 
-`echo "{{Merhaba Dünya}}" >> {{dosya.txt}}`
+`echo "{{Merhaba Dünya}}" >>{{dosya.txt}}`
 
 - Ters eğik çizgi kaçış karakterlerinin (özel karakterlerin) yorumlanmasını etkinleştir:
 
@@ -27,3 +27,7 @@
 - En son çalıştırılan komutun çıkış durumunu yazdır (Not: Windows Komut İstemi ve PowerShell’de eşdeğer komutlar sırasıyla `echo %errorlevel%` ve `$lastexitcode`'dur):
 
 `echo $?`
+
+- Metni `stdin` aracılığıyla başka bir programa aktar:
+
+`echo "{{Merhaba Dünya}}" | {{program}}`

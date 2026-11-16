@@ -25,8 +25,8 @@
 
 - Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
 
-`mysql < {{path/to/backup.sql}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{database_name}}`
+`mysql <{{path/to/backup.sql}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{database_name}}`
 
 - Restore all databases from a backup (user will be prompted for a password):
 
-`mysql < {{path/to/backup.sql}} {{[-u|--user]}} {{user}} {{[-p|--password]}}`
+`mysql <{{path/to/backup.sql}} {{[-u|--user]}} {{user}} {{[-p|--password]}}`

@@ -21,4 +21,4 @@
 
 - Upload a file and allow 4 downloads:
 
-`ffsend upload {{path/to/file}} {{[-d|--downloads]}} {{4}}`
+`ffsend upload {{path/to/file}} {{[-d|--downloads]}} 4`

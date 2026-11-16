@@ -9,11 +9,11 @@
 
 - Record inputs to a tape file:
 
-`vhs record > {{path/to/file.tape}}`
+`vhs record >{{path/to/file.tape}}`
 
 - Record inputs to a tape file using a specific shell:
 
-`vhs record {{[-s|--shell]}} {{shell}} > {{path/to/file.tape}}`
+`vhs record {{[-s|--shell]}} {{shell}} >{{path/to/file.tape}}`
 
 - Stop recording:
 

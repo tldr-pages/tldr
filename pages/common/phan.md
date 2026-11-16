@@ -9,7 +9,7 @@
 
 - Generate a Phan configuration file using a specific level (1 being strictest to 5 being the least strict):
 
-`phan --init --init-level {{level}}`
+`phan --init --init-level {{1..5}}`
 
 - Analyze the current directory:
 
