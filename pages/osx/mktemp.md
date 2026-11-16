@@ -7,9 +7,9 @@
 
 `mktemp`
 
-- Use a custom directory (defaults to the output of `getconf DARWIN_USER_TEMP_DIR`, or `/tmp`):
+- Create a temporary file in a specific existing directory:
 
-`mktemp --tmpdir /{{path/to/temporary_directory}}`
+`mktemp --tmpdir="{{path/to/temporary_directory}}"`
 
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 
@@ -22,3 +22,7 @@
 - Create an empty temporary directory and print its absolute path:
 
 `mktemp --directory`
+
+- Create a temporary directory inside a specific existing directory:
+
+`mktemp --directory --tmpdir="{{path/to/temporary_directory}}"`
