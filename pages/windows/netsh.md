@@ -24,7 +24,7 @@
 
 `netsh trace show interfaces`
 
-- [Interactive] Exit the shell:
+- Exit the shell:
 
 `exit`
 
