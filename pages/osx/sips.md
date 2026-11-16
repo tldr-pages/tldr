@@ -4,21 +4,21 @@
 > Raster/Query images and ColorSync ICC Profiles.
 > More information: <https://keith.github.io/xcode-man-pages/sips.1.html>.
 
-- Specify an output directory so that originals do not get modified:
+- Resize an image and save it to a separate file, preserving the original:
 
-`sips --out {{path/to/output_directory}}`
+`sips --resampleWidth {{960}} {{path/to/image.png}} --out {{path/to/output.png}}`
 
-- Resample image at specified size, Image aspect ratio may be altered:
+- Resample an image to a specified height and width, possibly changing its aspect ratio:
 
-`sips --resampleHeightWidth {{1920}} {{300}} {{image_file.ext}}`
+`sips --resampleHeightWidth {{1920}} {{300}} {{path/to/image.ext}}`
 
-- Resample image so height and width aren't greater than specified size (notice the capital Z):
+- Resample an image so neither dimension exceeds the specified size, preserving its aspect ratio:
 
-`sips --resampleHeightWidthMax {{1920}} {{300}} {{image_file.ext}}`
+`sips --resampleHeightWidthMax {{1920}} {{path/to/image.ext}}`
 
-- Resample all images in a directory to fit a width of 960px (honoring aspect ratio):
+- Resample all PNG images in a directory in-place to a width of 960 pixels, preserving their aspect ratios:
 
-`sips --resampleWidth {{960}} {{path/to/images}}`
+`sips --resampleWidth 960 {{path/to/directory}}/*.png`
 
 - Convert an image from CMYK to RGB:
 
