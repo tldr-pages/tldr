@@ -1,6 +1,7 @@
 # terraform test
 
 > Execute integration and unit tests for Terraform configurations.
+> Note: Tests can create real infrastructure and incur costs.
 > More information: <https://developer.hashicorp.com/terraform/cli/commands/test>.
 
 - Run all tests in the current module:
@@ -23,6 +24,6 @@
 
 `terraform test -junit-xml={{path/to/results.xml}}`
 
-- Display verbose execution logs during test execution:
+- Display the plan or state for each test run:
 
 `terraform test -verbose`
