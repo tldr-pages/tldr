@@ -12,7 +12,7 @@
 
 `shopt -s {{option_name}}`
 
-- Set extended shell globbing:
+- Enable extended shell globbing:
 
 `shopt -s extglob`
 
