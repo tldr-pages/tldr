@@ -9,4 +9,4 @@
 
 - `foo` 브랜치의 v0.1 릴리스와 로컬 `bar` 브랜치 간의 변경 사항을 요약한 요청서 생성:
 
-`git request-pull {{v0.1}} {{https://example.com/project}} {{foo:bar}}`
+`git request-pull {{v0.1}} {{https://example.com/project}} {{foo}}:{{bar}}`

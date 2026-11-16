@@ -23,6 +23,6 @@
 
 `sudo lxc-ls {{[-f|--fancy]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-ls {{[-?|--help]}}`

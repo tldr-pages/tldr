@@ -8,7 +8,7 @@
 
 `amass {{intel|enum}} {{opties}}`
 
-- Toon de generieke helppagina:
+- Toon de help:
 
 `amass -help`
 
@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- Toon de huidige versie:
+- Toon de versie:
 
 `amass -version`

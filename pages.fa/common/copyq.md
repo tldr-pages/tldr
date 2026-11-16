@@ -25,8 +25,8 @@
 
 - رونوشت محتوای یک فایل در کلیپ بورد:
 
-`copyq < {{path/to/file.txt}} copy`
+`copyq <{{path/to/file.txt}} copy`
 
 - رونوشت یک عکس با فرمت JPEG در کلیپ بورد:
 
-`copyq < {{path/to/image.jpg}} copy image/jpeg`
+`copyq <{{path/to/image.jpg}} copy image/jpeg`

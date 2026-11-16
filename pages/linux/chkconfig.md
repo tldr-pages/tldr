@@ -17,7 +17,7 @@
 
 - Enable service at boot for runlevels 2, 3, 4, and 5:
 
-`chkconfig --level {{2345}} {{sshd}} on`
+`chkconfig --level 2345 {{sshd}} on`
 
 - Disable service at boot:
 
@@ -25,4 +25,4 @@
 
 - Disable service at boot for runlevel 3:
 
-`chkconfig --level {{3}} {{ntpd}} off`
+`chkconfig --level 3 {{ntpd}} off`

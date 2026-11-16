@@ -14,11 +14,11 @@
 
 - Włączenie zram z dokładnie 2 urządzeniami:
 
-`sudo modprobe zram num_devices={{2}}`
+`sudo modprobe zram num_devices=2`
 
 - Znalezienie i inicjalizacja następnego wolnego urządzenia zram jako 2 GB napęd wirtualny z użyciem kompresji LZ4:
 
-`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} {{2GB}} {{[-a|--algorithm]}} {{lz4}}`
+`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} 2GB {{[-a|--algorithm]}} lz4`
 
 - Wyświetlenie aktualnie zainicjalizowanych urządzeń:
 

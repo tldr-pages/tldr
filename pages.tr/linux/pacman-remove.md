@@ -1,7 +1,6 @@
 # pacman --remove
 
 > Arch Linux paket yönetim aracı.
-> Ayrıca bakınız: `pacman`.
 > Daha fazla bilgi için: <https://manned.org/pacman.8>.
 
 - Bir paket ve bağlılıklarını sil:

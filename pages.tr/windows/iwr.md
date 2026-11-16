@@ -2,6 +2,6 @@
 
 > Bu komut `invoke-webrequest` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr invoke-webrequest`

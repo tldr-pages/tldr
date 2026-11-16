@@ -2,6 +2,7 @@
 
 > Wyświetl proste strony pomocy dla narzędzi wiersza poleceń z projektu tldr-pages.
 > Uwaga: opcje `--language` i `--list` nie są wymagane przez specyfikację, ale większość klientów je implementuje.
+> Zobacz także: `cheatshh`, `cheat`, `navi`.
 > Więcej informacji: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Wyświetl stronę tldr dla podanej komendy (wskazówka: w ten sposób tu trafiłeś/aś!):

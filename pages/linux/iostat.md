@@ -13,7 +13,7 @@
 
 - Display CPU statistics:
 
-`iostat {{[-c|--compact]}}`
+`iostat -c`
 
 - Display disk statistics with disk names (including LVM):
 
@@ -21,8 +21,8 @@
 
 - Display extended disk statistics with disk names for device "sda":
 
-`iostat -xN {{sda}}`
+`iostat -xN sda`
 
 - Display incremental reports of CPU and disk statistics every 2 seconds:
 
-`iostat {{2}}`
+`iostat 2`

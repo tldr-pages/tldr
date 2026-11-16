@@ -10,7 +10,7 @@
 
 - `stdin` 및 `stdout`을 사용하여 그래프를 반환:
 
-`cat {{입력.gv}} | gv2gxl > {{출력.gxl}}`
+`cat {{입력.gv}} | gv2gxl >{{출력.gxl}}`
 
 - 도움말 표시:
 

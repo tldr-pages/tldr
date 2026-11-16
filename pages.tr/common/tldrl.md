@@ -1,7 +1,7 @@
 # tldrl
 
-> `tldr-lint` komutunun aynısı.
+> Bu komut `tldr-lint` için bir takma addır.
 
-- Orijinal komut için yardım sayfasını göster:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr tldr-lint`

@@ -9,4 +9,4 @@
 
 - `foo` ブランチ上のv0.1リリースとローカルの `bar` ブランチの間の変更を要約するリクエストを生成する:
 
-`git request-pull {{v0.1}} {{https://example.com/project}} {{foo:bar}}`
+`git request-pull {{v0.1}} {{https://example.com/project}} {{foo}}:{{bar}}`

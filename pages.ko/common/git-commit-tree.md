@@ -10,7 +10,7 @@
 
 - 지정된 파일의 내용을 커밋 메시지로 사용하여 커밋 객체 생성 (`stdin`의 경우 `-` 사용):
 
-`git commit-tree {{tree}} -F {{path/to/file}}`
+`git commit-tree {{tree}} -F {{경로/대상/파일}}`
 
 - GPG 키로 인증된 커밋 객체 생성:
 

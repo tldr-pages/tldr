@@ -13,11 +13,11 @@
 
 - 옛날 랩 320kbps MP3 파일 찾기:
 
-`fselect path from {{경로/대상/디렉토리}} where genre = {{Rap}} and bitrate = {{320}} and mp3_year lt {{2000}}`
+`fselect path from {{경로/대상/디렉토리}} where genre = Rap and bitrate = 320 and mp3_year lt 2000`
 
 - 처음 5개 결과만 선택하고 JSON으로 출력:
 
-`fselect size, path from {{경로/대상/디렉토리}} limit {{5}} into json`
+`fselect size, path from {{경로/대상/디렉토리}} limit 5 into json`
 
 - SQL 집계 함수를 사용하여, 디렉터리에 있는 파일의 최소, 최대 및 평균 크기를 계산:
 

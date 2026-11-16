@@ -13,7 +13,7 @@
 
 - Her bir satıra tekabül edecek şekilde `stdin`'den yolisimleri kullan:
 
-`git < {{örnek/dosya_sırası}} check-ignore --stdin`
+`git <{{örnek/dosya_sırası}} check-ignore --stdin`
 
 - İndeksi kontrol etme:
 

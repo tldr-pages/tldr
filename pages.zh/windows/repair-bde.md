@@ -31,6 +31,6 @@
 
 `repair-bde {{C:}} -LogFile {{文件的路径}}`
 
-- 显示所有可用的选项：
+- 显示帮助：
 
 `repair-bde /?`

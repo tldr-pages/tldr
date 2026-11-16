@@ -5,4 +5,4 @@
 
 - SBIG CCDOPS 이미지 파일을 PGM으로 변환:
 
-`sbigtopgm {{경로/대상/입력_파일.sbig}} > {{경로/대상/출력.pgm}}`
+`sbigtopgm {{경로/대상/입력_파일.sbig}} >{{경로/대상/출력.pgm}}`

@@ -2,6 +2,7 @@
 
 > Muestra páginas de ayuda simples para herramientas de línea de comandos del proyecto tldr-pages.
 > Nota: las opciones `--language` y `--list` no son requeridas por la especificación del cliente, pero la mayoría de los mismos las implementan.
+> Vea también: `cheatshh`, `cheat`, `navi`.
 > Más información: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Imprime la página tldr para un comando específico (pista: ¡así es como has llegado hasta aquí!):

@@ -1,7 +1,7 @@
 # tldr
 
 > 顯示來自 tldr-pages 專案的命令列工具的簡單幫助頁面。
-> 注意：`--language` 和 `--list` 選項並非用戶端規範所必需，但大多數用戶端都實作了它們。
+> 另請參閱：`cheatshh`, `cheat`, `navi`。
 > 更多資訊：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
 
 - 列印指定命令的 tldr 頁面（提示：這就是你來到這裡的方式！）：

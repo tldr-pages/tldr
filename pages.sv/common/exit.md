@@ -9,4 +9,4 @@
 
 - Avsluta shell med den angivna utgångskoden:
 
-`exit {{utgångskoden}}`
+`exit {{0..255}}`

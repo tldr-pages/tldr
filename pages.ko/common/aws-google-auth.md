@@ -15,6 +15,6 @@
 
 `aws-google-auth {{[-u|--username]}} {{example@example.com}} {{[-I|--idp-id]}} {{$GOOGLE_IDP_ID}} {{[-S|--sp-id]}} {{$GOOGLE_SP_ID}} {{[-d|--duration]}} {{3600}} {{[-a|--ask-role]}} --resolve-aliases`
 
-- 도움말 정보 보기:
+- 도움말 표시:
 
 `aws-google-auth {{[-h|--help]}}`

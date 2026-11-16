@@ -22,15 +22,15 @@
 
 - 매 새로운 세션에서 자동 완성 로드 (bash):
 
-`gcrane completion bash > $(brew --prefix)/etc/bash_completion.d/gcrane`
+`gcrane completion bash >$(brew --prefix)/etc/bash_completion.d/gcrane`
 
 - 매 새로운 세션에서 자동 완성 로드 (zsh):
 
-`gcrane completion zsh > $(brew --prefix)/share/zsh/site-functions/_gcrane`
+`gcrane completion zsh >$(brew --prefix)/share/zsh/site-functions/_gcrane`
 
 - 매 새로운 세션에서 자동 완성 로드 (fish):
 
-`gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
+`gcrane completion fish >~/.config/fish/completions/gcrane.fish`
 
 - 도움말 표시:
 

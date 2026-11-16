@@ -1,6 +1,7 @@
 # arp-scan
 
 > Kirim paket ARP menuju kumpulan alamat IP atau host untuk memindai suatu jaringan komputer lokal.
+> Lihat juga: `ip neighbor`.
 > Informasi lebih lanjut: <https://github.com/royhills/arp-scan>.
 
 - Pindai jaringan lokal yang terhubung saat ini:

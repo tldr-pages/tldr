@@ -16,6 +16,6 @@
 
 `lvmdump -d {{percorso/della/directory}}`
 
-- Visualizza la guida:
+- Mostra l'aiuto:
 
 `lvmdump -h`

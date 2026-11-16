@@ -15,6 +15,6 @@
 
 `sudo lxc-create {{[-n|--name]}} {{nome_container}} {{[-t|--template]}} download -- {{[-d|--dist]}} {{nome_distro}} {{[-r|--release]}} {{versione_release}} {{[-a|--arch]}} {{architettura}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-create {{[-?|--help]}}`

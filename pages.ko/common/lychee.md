@@ -9,7 +9,7 @@
 
 - 오류 유형의 세부 분류 표시:
 
-`lychee --format detailed {{https://example.com}}`
+`lychee {{[-f|--format]}} {{compact|detailed|json|junit|markdown}} {{https://example.com}}`
 
 - DDOS 보호를 방지하기 위해 연결 수 제한:
 
@@ -21,4 +21,4 @@
 
 - 도움말 표시:
 
-`lychee --help`
+`lychee {{[-h|--help]}}`

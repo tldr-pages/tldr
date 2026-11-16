@@ -1,7 +1,6 @@
 # pacman --query
 
 > Consulta la base de datos local de paquetes.
-> Vea también: `pacman`.
 > Más información: <https://manned.org/pacman.8>.
 
 - [C]onsulta la base de datos local de paquetes y muestra los paquetes instalados y sus versiones:

@@ -14,4 +14,4 @@
 
 - Compress a file with a specified compression level. 0=Fastest (Worst), 9=Slowest (Best):
 
-`zlib-flate <{{path/to/input_file}} -compress={{compression_level}} >{{path/to/compressed.zlib}}`
+`zlib-flate <{{path/to/input_file}} -compress={{0..9}} >{{path/to/compressed.zlib}}`

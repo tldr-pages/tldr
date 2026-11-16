@@ -21,7 +21,7 @@
 
 - Dodaj również ignorowane pliki:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{ścieżka/do/pliku}}`
 
 - Dodawaj części plików interaktywnie:
 

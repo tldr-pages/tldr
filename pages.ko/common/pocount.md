@@ -13,4 +13,4 @@
 
 - 여러 파일의 번역 진행 상황을 CSV 파일로 생성:
 
-`pocount --csv {{translation_*.ts}} > {{경로/대상/번역_진행상황.csv}}`
+`pocount --csv {{translation_*.ts}} >{{경로/대상/번역_진행상황.csv}}`

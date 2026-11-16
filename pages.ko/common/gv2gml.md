@@ -10,7 +10,7 @@
 
 - `stdin` 및 `stdout` 사용하여 그래프를 변환:
 
-`cat {{입력.gv}} | gv2gml > {{출력.gml}}`
+`cat {{입력.gv}} | gv2gml >{{출력.gml}}`
 
 - 도움말 표시:
 

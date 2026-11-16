@@ -5,7 +5,7 @@
 
 - استبدال جميع تكرارات حرف معين في ملف وطباعة النتيجة:
 
-`tr < {{path/to/file}} {{find_character}} {{replace_character}}`
+`tr <{{path/to/file}} {{find_character}} {{replace_character}}`
 
 - استبدال جميع تكرارات حرف معين من ناتج أمر آخر:
 
@@ -13,20 +13,20 @@
 
 - تعيين كل حرف من المجموعة الأولى إلى الحرف المقابل في المجموعة الثانية:
 
-`tr < {{path/to/file}} '{{abcd}}' '{{jkmn}}'`
+`tr <{{path/to/file}} '{{abcd}}' '{{jkmn}}'`
 
 - حذف جميع تكرارات مجموعة الأحرف المحددة من المدخلات:
 
-`tr < {{path/to/file}} {{[-d|--delete]}} '{{input_characters}}'`
+`tr <{{path/to/file}} {{[-d|--delete]}} '{{input_characters}}'`
 
 - ضغط سلسلة من الأحرف المتطابقة إلى حرف واحد:
 
-`tr < {{path/to/file}} {{[-s|--squeeze-repeats]}} '{{input_characters}}'`
+`tr <{{path/to/file}} {{[-s|--squeeze-repeats]}} '{{input_characters}}'`
 
 - تحويل محتويات ملف إلى أحرف كبيرة (Upper-case):
 
-`tr < {{path/to/file}} "[:lower:]" "[:upper:]"`
+`tr <{{path/to/file}} "[:lower:]" "[:upper:]"`
 
 - إزالة الأحرف غير القابلة للطباعة من ملف:
 
-`tr < {{path/to/file}} {{[-cd|--complement --delete]}} "[:print:]"`
+`tr <{{path/to/file}} {{[-cd|--complement --delete]}} "[:print:]"`

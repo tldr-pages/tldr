@@ -9,7 +9,7 @@
 
 - Format an HTML document, indenting with 4 spaces:
 
-`xml {{[fo|format]}} {{[-H|--html]}} {{[-s|--indent-spaces]}} {{4}} {{path/to/input.html|uri}} >{{path/to/output.html}}`
+`xml {{[fo|format]}} {{[-H|--html]}} {{[-s|--indent-spaces]}} 4 {{path/to/input.html|uri}} >{{path/to/output.html}}`
 
 - Recover parsable parts of a malformed XML document, without indenting:
 

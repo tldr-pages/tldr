@@ -20,7 +20,7 @@
 
 `sq verify --signer-file {{path/to/signer.asc}} --signature-file {{경로/대상/파일.sig}} {{경로/대상/파일}}`
 
-- 인증서 파일을 사용하여 포함된 평문(cleartext)  서명 검증:
+- 인증서 파일을 사용하여 포함된 평문(cleartext) 서명 검증:
 
 `sq verify --signer-file {{path/to/signer.asc}} --cleartext {{경로/대상/파일}}`
 

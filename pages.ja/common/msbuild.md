@@ -27,6 +27,6 @@
 
 `msbuild {{path/to/project_file}} /detailedsummary`
 
-- ヘルプを表示:
+- ヘルプを表示する:
 
 `msbuild /help`

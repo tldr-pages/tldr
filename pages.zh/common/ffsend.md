@@ -21,4 +21,4 @@
 
 - 上传文件并允许下载 4 次：
 
-`ffsend upload {{路径/到/文件}} {{[-d|--downloads]}} {{4}}`
+`ffsend upload {{路径/到/文件}} {{[-d|--downloads]}} 4`

@@ -25,4 +25,4 @@
 
 - 색상 코드 없이 결과를 파일에 저장:
 
-`terraform show -no-color > {{경로/대상/파일}}`
+`terraform show -no-color >{{경로/대상/파일}}`

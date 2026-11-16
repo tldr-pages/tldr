@@ -11,6 +11,6 @@
 
 `fusermount -z {{경로/대상/마운트_포인트}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `fusermount --version`

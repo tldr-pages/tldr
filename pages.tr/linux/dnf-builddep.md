@@ -2,7 +2,6 @@
 
 > Belirli bir paketi derlemek için gerekli bağımlılıkları kurmak için kullanılır.
 > Varsayılan olarak `dnf` ile gelmez, `dnf-plugins-core` ile desteklenir.
-> Ayrıca bakınız: `dnf`.
 > Daha fazla bilgi için: <https://dnf-plugins-core.readthedocs.io/en/latest/builddep.html>.
 
 - Belirli bir paket için bağımlılıkları kur:

@@ -11,6 +11,6 @@
 
 `pw-reserve {{[-n|--name]}} {{audioN}} {{[-m|--monitor]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-reserve {{[-h|--help]}}`

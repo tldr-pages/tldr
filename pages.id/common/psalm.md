@@ -29,4 +29,4 @@
 
 - Periksa suatu proyek secara paralel denan 4 thread pemrosesan:
 
-`psalm --threads {{4}}`
+`psalm --threads 4`

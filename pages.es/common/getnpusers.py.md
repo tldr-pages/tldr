@@ -22,4 +22,4 @@
 
 - Guarda la salida en un archivo para su posterior análisis:
 
-`GetNPUsers.py {{dominio}}/ -usersfile {{ruta/a/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}} -request > {{ruta/a/salida.txt}}`
+`GetNPUsers.py {{dominio}}/ -usersfile {{ruta/a/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}} -request >{{ruta/a/salida.txt}}`

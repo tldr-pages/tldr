@@ -20,6 +20,6 @@
 
 `apptainer push {{[-D|--description]}} "{{descrizione}}" {{path/to/immagine.sif}} library://{{utente/collezione/container}}:{{tag}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer push {{[-h|--help]}}`

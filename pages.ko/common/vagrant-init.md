@@ -1,7 +1,6 @@
 # vagrant init
 
 > `Vagrantfile`을 생성하여 현재 디렉터리에 Vagrant 환경을 초기화.
-> 관련 항목: `vagrant`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/init>.
 
 - `Vagrantfile` 생성:

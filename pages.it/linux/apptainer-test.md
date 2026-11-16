@@ -24,6 +24,6 @@
 
 `apptainer test --app {{nome_app}} {{path/to/immagine.sif}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer test {{[-h|--help]}}`

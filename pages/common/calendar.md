@@ -9,11 +9,11 @@
 
 - Look [A]head, showing events for the next 30 days:
 
-`calendar -A {{30}}`
+`calendar -A 30`
 
 - Look [B]ack, showing events for the previous 7 days:
 
-`calendar -B {{7}}`
+`calendar -B 7`
 
 - Show events from a custom calendar [f]ile:
 

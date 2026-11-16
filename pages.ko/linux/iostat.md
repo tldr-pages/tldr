@@ -21,8 +21,8 @@
 
 - 장치 "sda"에 대한 디스크 이름을 포함한 확장 디스크 통계 표시:
 
-`iostat -xN {{sda}}`
+`iostat -xN sda`
 
 - 2초마다 CPU 및 디스크 통계의 증분 보고서 표시:
 
-`iostat {{2}}`
+`iostat 2`

@@ -21,7 +21,7 @@
 
 - Añade también los archivos ignorados:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{ruta/al/archivo}}`
 
 - Añade interactivamente partes de archivos al área de preparación (staging):
 

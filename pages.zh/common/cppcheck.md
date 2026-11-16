@@ -6,7 +6,7 @@
 
 - 递归检查当前目录，在屏幕上显示进度，并将错误信息记录到文件：
 
-`cppcheck . 2> cppcheck.log`
+`cppcheck . 2>cppcheck.log`
 
 - 递归检查指定目录，不打印进度信息：
 

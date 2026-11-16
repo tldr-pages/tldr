@@ -5,7 +5,7 @@
 
 - JPEG/JFIF 이미지를 PPM 또는 PGM 이미지로 변환:
 
-`jpegtopnm {{경로/대상/파일.jpg}} > {{경로/대상/파일.pnm}}`
+`jpegtopnm {{경로/대상/파일.jpg}} >{{경로/대상/파일.pnm}}`
 
 - 버전 표시:
 

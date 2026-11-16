@@ -10,7 +10,7 @@
 
 - 특정 호스트의 포트 80(HTTP) 트래픽 캡처:
 
-`sudo tcpick {{[-i|--interface]}} {{eth0}} {{[-C|--colors]}} -h {{192.168.1.100}} -p {{80}}`
+`sudo tcpick {{[-i|--interface]}} {{eth0}} {{[-C|--colors]}} -h {{192.168.1.100}} -p 80`
 
 - 도움말 표시:
 

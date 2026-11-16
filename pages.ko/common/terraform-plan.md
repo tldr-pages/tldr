@@ -29,4 +29,4 @@
 
 - 특정 파일에 계획 기록:
 
-`terraform plan -no-color > {{경로/대상/파일}}`
+`terraform plan -no-color >{{경로/대상/파일}}`

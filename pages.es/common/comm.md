@@ -17,7 +17,7 @@
 
 - Obtiene las líneas que solo se encuentran en el primer fichero, guardando el resultado en un tercer fichero:
 
-`comm -23 {{fichero1}} {{fichero2}} > {{solo_fichero1}}`
+`comm -23 {{fichero1}} {{fichero2}} >{{solo_fichero1}}`
 
 - Imprime las líneas solo encontradas en el segundo fichero, cuando los ficheros no están ordenados:
 

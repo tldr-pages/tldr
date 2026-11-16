@@ -24,6 +24,6 @@
 
 `afinfo --warnings {{percorso/del/file}}`
 
-- Mostra la pagina di aiuto:
+- Mostra l'aiuto:
 
 `afinfo --help`

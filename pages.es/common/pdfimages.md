@@ -9,7 +9,7 @@
 
 - Extrae imágenes de las páginas 3 a 5:
 
-`pdfimages -f {{3}} -l {{5}} {{ruta/al/archivo.pdf}} {{prefijo_nombre_archivo}}`
+`pdfimages -f 3 -l 5 {{ruta/al/archivo.pdf}} {{prefijo_nombre_archivo}}`
 
 - Extrae imágenes de un archivo PDF e incluye el número de página en los nombres de los archivos de salida:
 

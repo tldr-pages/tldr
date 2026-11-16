@@ -12,6 +12,6 @@
 
 `pio {{subcommand}} {{[-h|--help]}}`
 
-- Versión de visualización:
+- Muestra la versión:
 
 `pio --version`

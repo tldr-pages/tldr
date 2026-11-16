@@ -1,7 +1,7 @@
 # modprobe
 
 > Añade o elimina módulos del núcleo Linux.
-> Vea también: `kmod`.
+> Vea también: `lsmod`, `kmod`.
 > Más información: <https://manned.org/modprobe>.
 
 - Finge cargar un módulo en el kernel, pero no lo hace realmente:

@@ -24,7 +24,7 @@
 
 `assimp info {{ruta/al/archivo}}`
 
-- Lista todos los subcomandos ("verbs") soportados:
+- Muestra la ayuda:
 
 `assimp help`
 

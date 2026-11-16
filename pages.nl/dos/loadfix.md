@@ -9,7 +9,7 @@
 
 - Laad met een aangepaste KB-vermindering (1-1024):
 
-`LOADFIX -{{32}} {{programma}}`
+`LOADFIX -{{1..1024}} {{programma}}`
 
 - Maak al het eerder toegewezen geheugen vrij:
 

@@ -1,7 +1,7 @@
 # unity
 
 > Unity Editors, 프로젝트 및 모듈을 설치하고 관리하는 도구.
-> 더 많은 정보: <https://docs.unity.com/en-us/unity-cli/unity-cli-reference>.
+> 더 많은 정보: <https://docs.unity.com/unity-cli/unity-cli-reference>.
 
 - 지정한 버전의 Unity Editor 설치:
 

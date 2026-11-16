@@ -17,7 +17,7 @@
 
 - 将多个数据依次赋值给多个变量：
 
-`read {{_ 变量1 _ 变量2}} <<< "{{The surname is Bond}}"`
+`read {{_ 变量1 _ 变量2}} <<<"{{The surname is Bond}}"`
 
 - 读取键盘输入的数据赋值给变量，不对`\`进行转义：
 
@@ -33,4 +33,4 @@
 
 - 从标准输入读取每一行进行操作：
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{标准输入|路径/到/文件|...}}`
+`while read line; do {{echo|ls|rm|...}} "$line"; done <{{标准输入|路径/到/文件|...}}`

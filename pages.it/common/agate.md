@@ -11,6 +11,6 @@
 
 `agate {{percorso/del/file}}`
 
-- Mostra informazioni di aiuto:
+- Mostra l'aiuto:
 
 `agate {{[-h|--help]}}`

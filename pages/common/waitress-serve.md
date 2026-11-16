@@ -9,7 +9,7 @@
 
 - Listen on port 8080 on localhost:
 
-`waitress-serve --listen={{localhost}}:{{8080}} {{import.path:wsgi_func}}`
+`waitress-serve --listen=localhost:8080 {{import.path:wsgi_func}}`
 
 - Start waitress on a Unix socket:
 
@@ -17,7 +17,7 @@
 
 - Use 4 threads to process requests:
 
-`waitress-serve --threads={{4}} {{import.path:wsgifunc}}`
+`waitress-serve --threads=4 {{import.path:wsgifunc}}`
 
 - Call a factory method that returns a WSGI object:
 
@@ -25,4 +25,4 @@
 
 - Use the HTTPS URL scheme:
 
-`waitress-serve --url-scheme={{https}} {{import.path:wsgi_func}}`
+`waitress-serve --url-scheme=https {{import.path:wsgi_func}}`
