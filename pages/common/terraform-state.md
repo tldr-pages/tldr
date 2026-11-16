@@ -19,10 +19,10 @@
 
 `terraform state rm {{resource_type.resource_name}}`
 
-- Download and output the current remote state to `stdout`:
+- Download and output the current state to `stdout`:
 
 `terraform state pull`
 
-- Upload a local state file to the remote backend:
+- Upload a local state file to the configured backend:
 
 `terraform state push {{path/to/state.json}}`
