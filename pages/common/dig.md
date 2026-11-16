@@ -8,6 +8,10 @@
 
 `dig +short {{example.com}}`
 
+- Look up the IPv6(s) associated with a hostname (AAAA records):
+
+`dig +short -t AAAA {{example.com}}`
+
 - Get a detailed answer for a given domain (A records):
 
 `dig +noall +answer {{example.com}}`
