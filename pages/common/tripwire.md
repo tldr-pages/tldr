@@ -21,5 +21,5 @@
 `sudo tripwire {{[-m p|--update-policy]}} {{path/to/policy.txt}}`
 
 - Display help:
-  
+
 `tripwire --help`
