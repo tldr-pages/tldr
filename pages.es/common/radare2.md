@@ -15,14 +15,14 @@
 
 `radare2 -i {{ruta/a/script.r2}} {{ruta/al/binario}}`
 
-- Muestra texto de ayuda para cualquier comando en la CLI interactiva:
+- [Interactivo] Muestra texto de ayuda para cualquier comando en la CLI interactiva:
 
 `{{radare2_comando}}?`
 
-- Ejecuta un comando desde la CLI interactiva:
+- [Interactivo] Ejecuta un comando desde la CLI interactiva:
 
 `!{{shell_comando}}`
 
-- Vierte los bytes crudos del bloque actual a un archivo:
+- [Interactivo] Vierte los bytes crudos del bloque actual a un archivo:
 
 `pr >{{ruta/al/archivo.bin}}`

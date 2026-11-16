@@ -13,7 +13,7 @@
 
 - Specify the WAL file directory:
 
-`pg_waldump {{start_segment}} {{end_segment}} {{[-p|--path]}} {{path}}`
+`pg_waldump {{start_segment}} {{end_segment}} {{[-p|--path]}} {{path/to/directory}}`
 
 - Follow new WAL entries as they arrive:
 

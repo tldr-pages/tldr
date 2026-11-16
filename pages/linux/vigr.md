@@ -5,7 +5,7 @@
 
 - Edit the group file:
 
-`vigr`
+`sudo vigr`
 
 - Display version:
 
