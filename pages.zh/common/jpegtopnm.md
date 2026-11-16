@@ -7,6 +7,6 @@
 
 `jpegtopnm {{路径/到/文件.jpg}} >{{路径/到/文件.pnm}}`
 
-- 显示版本信息：
+- 显示版本：
 
 `jpegtopnm {{[-v|-version]}}`
