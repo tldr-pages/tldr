@@ -21,7 +21,7 @@
 
 - Run an entry point with custom parameters:
 
-`mlflow run . --entry-point {{train}} --parameter {{learning_rate=0.001}} --parameter {{epochs=20}}`
+`mlflow run . --entry-point {{name}} --parameter {{learning_rate=0.001}} --parameter {{epochs=20}}`
 
 - Download all artifacts from a run:
 

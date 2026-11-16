@@ -21,7 +21,7 @@
 
 - Exécute un point d’entrée avec des paramètres personnalisés :
 
-`mlflow run . --entry-point {{train}} --parameter {{learning_rate=0.001}} --parameter {{epochs=20}}`
+`mlflow run . --entry-point {{nom}} --parameter {{learning_rate=0.001}} --parameter {{epochs=20}}`
 
 - Télécharge tous les artefacts d’une exécution :
 
@@ -29,4 +29,4 @@
 
 - Démarre un serveur d’inférence pour un modèle enregistré dans une exécution :
 
-`mlflow models serve --model-uri runs:/{{id_exécution}}/{{model}} --port {{5001}}`
+`mlflow models serve --model-uri runs:/{{id_exécution}}/{{modèle}} --port {{5001}}`
