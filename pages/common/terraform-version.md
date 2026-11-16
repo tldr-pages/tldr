@@ -1,6 +1,6 @@
 # terraform version
 
-> Show the current Terraform version and check for updates.
+> Show the current Terraform version, installed providers, and available updates.
 > More information: <https://developer.hashicorp.com/terraform/cli/commands/version>.
 
 - Show the current Terraform version:
