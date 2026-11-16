@@ -21,11 +21,11 @@
 
 - Add a new credential to a vault:
 
-`vaultcmd /addcreds:{{vault_name|vault_guid}} /credtype:{{schema_guid}} /identity:{{identity}} /authenticator:{{authenticator}} /resource:{{resource}}`
+`vaultcmd /addcreds:{{vault_name|vault_guid}} /credtype:{{schema_name|schema_guid}} /identity:{{identity}} /authenticator:{{authenticator}} /resource:{{resource}}`
 
 - Delete a credential from a vault:
 
-`vaultcmd /deletecreds:{{vault_name|vault_guid}} /credtype:{{schema_guid}} /identity:{{identity}}`
+`vaultcmd /deletecreds:{{vault_name|vault_guid}} /credtype:{{schema_name|schema_guid}} /identity:{{identity}} /resource:{{resource}}`
 
 - Synchronize credentials across vaults:
 
