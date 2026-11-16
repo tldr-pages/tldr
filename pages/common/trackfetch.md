@@ -1,6 +1,6 @@
 # trackfetch
 
-> Download songs from a text file or straight from the command line as tagged MP3, M4A, or Opus files, using configurable metadata sources and YouTube audio.
+> Download songs listed in a text file or passed as arguments, saving them as tagged MP3, M4A, or Opus files using configurable metadata sources and YouTube audio.
 > Requires `yt-dlp`, `ffmpeg`, and `deno`. Spotify is optional and only used when selected (via `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` or a config file).
 > More information: <https://github.com/ByteMe6/trackfetch#usage>.
 
