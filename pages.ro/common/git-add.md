@@ -21,7 +21,7 @@
 
 - Adaugă și fișierele ignorate:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{cale/către/fișier}}`
 
 - Adaugă părți din fișiere în mod interactiv:
 

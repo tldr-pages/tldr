@@ -6,8 +6,8 @@
 
 - 지정한 스크립트를 실행하여 PPM 이미지에 그리기:
 
-`ppmdraw -script '{{setpos 50 50; text_here "hello!"; }}' {{경로/대상/이미지.pnm}} > {{경로/대상/출력파일.pnm}}`
+`ppmdraw -script '{{setpos 50 50; text_here "hello!"; }}' {{경로/대상/이미지.pnm}} >{{경로/대상/출력파일.pnm}}`
 
 - 지정한 스크립트 파일을 실행하여 PPM 이미지에 그리기:
 
-`ppmdraw -scriptfile {{경로/대상/스크립트}} {{경로/대상/이미지.pnm}} > {{경로/대상/출력파일.pnm}}`
+`ppmdraw -scriptfile {{경로/대상/스크립트}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력파일.pnm}}`

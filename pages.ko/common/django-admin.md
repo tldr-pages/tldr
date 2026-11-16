@@ -15,6 +15,6 @@
 
 `django-admin help {{명령어}}`
 
-- 현재 설치된 Django 버전 확인:
+- 버전 표시:
 
 `django-admin --version`

@@ -23,4 +23,4 @@
 
 - Definieer de prioriteit met een expliciete optie:
 
-`nice {{[-n|--adjustment]}} {{niceness_waarde}} {{commando}}`
+`nice {{[-n|--adjustment]}} {{-20..19}} {{commando}}`

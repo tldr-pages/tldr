@@ -5,12 +5,12 @@
 
 - Convert an RLE image to a PNM file:
 
-`rletopnm {{path/to/input.rle}} > {{path/to/output.pnm}}`
+`rletopnm {{path/to/input.rle}} >{{path/to/output.pnm}}`
 
 - Create a PGM image containing the RLE file's alpha channel:
 
-`rletopnm {{[--a|--alphaout]}} {{path/to/alpha_file.pgm}} {{path/to/input.rle}} > {{path/to/output.pnm}}`
+`rletopnm {{[--a|--alphaout]}} {{path/to/alpha_file.pgm}} {{path/to/input.rle}} >{{path/to/output.pnm}}`
 
 - Operate in verbose mode and print the contents of the RLE header to `stdout`:
 
-`rletopnm {{[--verb|--verbose]}} {{path/to/input.rle}} > {{path/to/output.pnm}}`
+`rletopnm {{[--verb|--verbose]}} {{path/to/input.rle}} >{{path/to/output.pnm}}`

@@ -10,7 +10,7 @@
 
 - Create a PDF with 3 columns and 2 lines per page:
 
-`pdfxup {{[-x|--columns]}} {{3}} {{[-y|--rows]}} {{2}} {{[-o|--output]}} {{path/to/output.pdf}} {{path/to/input.pdf}}`
+`pdfxup {{[-x|--columns]}} 3 {{[-y|--rows]}} 2 {{[-o|--output]}} {{path/to/output.pdf}} {{path/to/input.pdf}}`
 
 - Create a PDF in booklet mode (2-up, and pages are sorted to form a book when folded):
 

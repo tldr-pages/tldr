@@ -13,11 +13,11 @@
 
 - Ask for comments on your code, in markdown format:
 
-`mods < {{path/to/file}} {{[-f|--format]}} "{{what are your thoughts on improving this code?}}"`
+`mods <{{path/to/file}} {{[-f|--format]}} "{{what are your thoughts on improving this code?}}"`
 
 - Ask for help with your documentation, in markdown format:
 
-`mods < {{README.md}} {{[-f|--format]}} "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}}"`
+`mods <{{README.md}} {{[-f|--format]}} "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}}"`
 
 - Organize your videos, in markdown format:
 

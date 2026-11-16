@@ -1,7 +1,6 @@
 # linode-cli nodebalancers
 
 > Linode NodeBalancer 관리.
-> 관련 항목: `linode-cli`.
 > 더 많은 정보: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers>.
 
 - 모든 NodeBalancer 나열:

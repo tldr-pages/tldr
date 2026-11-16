@@ -1,7 +1,7 @@
 # fzf
 
 > 命令行模糊查找器。
-> 类似于 `sk`。
+> 另请参阅：`sk`。
 > 更多信息：<https://github.com/junegunn/fzf#usage>。
 
 - 对指定目录中的所有文件启动 `fzf`：
@@ -14,7 +14,7 @@
 
 - 使用 `<Shift Tab>` 选择多个文件并将结果写入文件：
 
-`find {{路径/到/目录}} -type f | fzf {{[-m|--multi]}} > {{路径/到/文件}}`
+`find {{路径/到/目录}} -type f | fzf {{[-m|--multi]}} >{{路径/到/文件}}`
 
 - 使用指定查询词启动 `fzf`：
 

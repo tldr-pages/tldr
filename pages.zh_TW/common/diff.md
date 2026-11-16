@@ -30,4 +30,4 @@
 
 - 由兩個文字檔之間差異建立一個補丁 (patch) 檔給 Git，不存在的檔案視為空白文件：
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{舊檔案}} {{新檔案}} > {{diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{舊檔案}} {{新檔案}} >{{diff.patch}}`

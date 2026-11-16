@@ -1,7 +1,7 @@
 # modprobe
 
 > 从 Linux 内核添加或移除模块。
-> 另请参阅：`kmod`。
+> 另请参阅：`lsmod`, `kmod`。
 > 更多信息：<https://manned.org/modprobe>。
 
 - 假装将模块加载到内核中，但实际上不这样做：

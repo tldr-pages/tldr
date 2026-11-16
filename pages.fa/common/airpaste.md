@@ -13,11 +13,11 @@
 
 - ارسال فایل:
 
-`airpaste < {{path/to/file}}`
+`airpaste <{{path/to/file}}`
 
 - دریافت فایل:
 
-`airpaste > {{path/to/file}}`
+`airpaste >{{path/to/file}}`
 
 - ساخت یا ورود به یک کانال:
 

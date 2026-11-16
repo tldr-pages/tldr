@@ -1,7 +1,7 @@
 # fmtutil
 
 > TeX 포맷과 Metafont 베이스를 관리.
-> 더 많은 정보: <https://manned.org/fmtutil-sys>.
+> 더 많은 정보: <https://manned.org/fmtutil>.
 
 - 모든 포맷 파일 다시 생성:
 

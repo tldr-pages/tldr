@@ -19,7 +19,7 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{கோப்புபெயர்}}.jar`
 
-- ஜாவா கட்டளைக்கான பயன்பாட்டுத் தகவலைக் காண்பி:
+- உதவியைக் காட்டு:
 
 `java -help`
 

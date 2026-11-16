@@ -20,6 +20,6 @@
 
 `bugreportz -h`
 
-- `bugreportz` 버전 표시:
+- 버전 표시:
 
 `bugreportz -v`

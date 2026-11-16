@@ -24,6 +24,6 @@
 
 `md-to-clip --help`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `md-to-clip --version`

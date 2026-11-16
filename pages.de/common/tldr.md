@@ -1,6 +1,7 @@
 # tldr
 
 > Zeigt kurze Zusammenfassungen (tldr-Seiten) von Kommandozeilen-Befehlen an.
+> Siehe auch: `cheatshh`, `cheat`, `navi`.
 > Weitere Informationen: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Zeige die tldr-Seite für einen Befehl an:

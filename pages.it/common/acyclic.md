@@ -6,12 +6,12 @@
 
 - Rendi un grafo diretto aciclico invertendo alcuni archi:
 
-`acyclic {{percorso/a/input.gv}} > {{percorso/a/output.gv}}`
+`acyclic {{percorso/a/input.gv}} >{{percorso/a/output.gv}}`
 
 - Stampa se un grafo è aciclico, ha un ciclo, o è non orientato, senza produrre grafo in output:
 
 `acyclic -v -n {{percorso/a/input.gv}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `acyclic -?`

@@ -9,7 +9,7 @@
 
 - Calculate and save the list of SHA512 checksums to a file:
 
-`sha512sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha512}}`
+`sha512sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.sha512}}`
 
 - Calculate a SHA512 checksum from `stdin`:
 

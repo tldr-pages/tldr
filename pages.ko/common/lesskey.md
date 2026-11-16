@@ -12,6 +12,6 @@
 
 `lesskey {{[-o|--output]}} {{경로/대상/출력파일}} {{경로/대상/lesskey_파일}}`
 
-- 도움말 표시:
+- 버전 표시:
 
 `lesskey {{[-V|--version]}}`

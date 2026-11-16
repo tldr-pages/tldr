@@ -21,4 +21,4 @@
 
 - Measure and show average traffic for 30 seconds:
 
-`vnstat {{[-tr|--traffic]}} {{30}}`
+`vnstat {{[-tr|--traffic]}} 30`

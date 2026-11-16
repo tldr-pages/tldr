@@ -13,6 +13,6 @@
 
 `pw-midi2play {{[-M|--force-midi]}} {{midi|ump}} {{percorso/del/file.mid}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-midi2play {{[-h|--help]}}`

@@ -13,7 +13,7 @@
 
 - Compress a file, while specifying the compression level. 0 = Worst, 9 = Best (Default level is 3):
 
-`lzop -{{level}} {{path/to/file}}`
+`lzop -{{0..9}} {{path/to/file}}`
 
 - Compress a file with the best compression level:
 

@@ -10,24 +10,24 @@
 
 - 속도 테스트를 실행하고 출력 단위를 지정:
 
-`speedtest --unit={{auto-decimal-bits|auto-decimal-bytes|auto-binary-bits|auto-binary-bytes}}`
+`speedtest {{[-u|--unit]}} {{auto-decimal-bits|auto-decimal-bytes|auto-binary-bits|auto-binary-bytes}}`
 
 - 속도 테스트를 실행하고 출력 형식을 지정:
 
-`speedtest --format={{human-readable|csv|tsv|json|jsonl|json-pretty}}`
+`speedtest {{[-f|--format]}} {{human-readable|csv|tsv|json|jsonl|json-pretty}}`
 
 - 속도 테스트를 실행하고 소수점 자릿수를 지정 (0에서 8까지, 기본값은 2):
 
-`speedtest --precision={{정밀도}}`
+`speedtest {{[-P|--precision]}} {{precision}}`
 
 - 속도 테스트를 실행하고 진행 상황을 출력 (출력 형식이 `human-readable` 및 `json`일 때만 사용 가능):
 
-`speedtest --progress={{yes|no}}`
+`speedtest {{[-p|--progress]}} {{yes|no}}`
 
 - 거리에 따라 정렬된 모든 `speedtest.net` 서버 나열:
 
-`speedtest --servers`
+`speedtest {{[-L|--servers]}}`
 
 - 특정 `speedtest.net` 서버로 속도 테스트 실행:
 
-`speedtest --server-id={{서버_id}}`
+`speedtest {{[-s|--server-id]}} {{서버_id}}`

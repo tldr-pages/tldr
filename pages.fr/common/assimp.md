@@ -12,11 +12,11 @@
 
 `assimp listexport`
 
-- Convertis un fichier vers un format de sortie supporté, avec les paramètres par défaut :
+- Convertit un fichier vers un format de sortie supporté, avec les paramètres par défaut :
 
 `assimp export {{fichier_d_entrée.stl}} {{fichier_de_sortie.obj}}`
 
-- Convertis un fichier avec des paramètres personnalisés (le fichier `dox_cmd.h` dans le code source de assimp liste tous les paramètres disponible) :
+- Convertit un fichier avec des paramètres personnalisés (le fichier `dox_cmd.h` dans le code source de assimp liste tous les paramètres disponible) :
 
 `assimp export {{fichier_d_entrée.stl}} {{fichier_de_sortie.obj}} {{paramètres}}`
 
@@ -24,7 +24,7 @@
 
 `assimp info {{chemin/vers/fichier}}`
 
-- Liste toutes les sous-commandes supportées ("mots") :
+- Affiche l'aide :
 
 `assimp help`
 

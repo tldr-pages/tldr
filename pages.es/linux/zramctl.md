@@ -14,11 +14,11 @@
 
 - Habilita zram con exactamente 2 dispositivos:
 
-`sudo modprobe zram num_devices={{2}}`
+`sudo modprobe zram num_devices=2`
 
 - Encuentra e inicializa el siguiente dispositivo zram libre a una unidad virtual de 2 GB usando compresión LZ4:
 
-`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} {{2GB}} {{[-a|--algorithm]}} {{lz4}}`
+`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} 2GB {{[-a|--algorithm]}} lz4`
 
 - Lista los dispositivos actualmente inicializados:
 

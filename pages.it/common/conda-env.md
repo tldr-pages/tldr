@@ -5,7 +5,7 @@
 
 - Crea un ambiente da un file di ambiente (YAML, TXT, ecc.):
 
-`conda env create {{[-f|--file]}} {{percorso/al/file}}`
+`conda env create {{[-f|--file]}} {{percorso/del/file}}`
 
 - Elimina un ambiente e tutto il suo contenuto:
 
@@ -13,7 +13,7 @@
 
 - Aggiorna un ambiente basandosi su un file di ambiente:
 
-`conda env update {{[-f|--file]}} {{percorso/al/file}} --prune`
+`conda env update {{[-f|--file]}} {{percorso/del/file}} --prune`
 
 - Elenca tutti gli ambienti:
 

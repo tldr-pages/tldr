@@ -17,12 +17,12 @@
 
 - Encode a text-format message into a protocol message from a `.proto` file:
 
-`protoc < {{message.txt}} --encode={{TypeName}} {{input_file.proto}}`
+`protoc <{{message.txt}} --encode={{TypeName}} {{input_file.proto}}`
 
 - Decode a protocol message into text-format from a `.proto` file:
 
-`protoc < {{message.bin}} --decode={{TypeName}} {{input_file.proto}}`
+`protoc <{{message.bin}} --decode={{TypeName}} {{input_file.proto}}`
 
 - Decode a protocol message into raw tag/value pairs:
 
-`protoc < {{message.bin}} --decode_raw`
+`protoc <{{message.bin}} --decode_raw`

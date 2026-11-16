@@ -5,4 +5,4 @@
 
 - Convert a PPM image to an X11 puzzle file:
 
-`ppmtopuzz {{path/to/file.ppm}} > {{path/to/file.puzz}}`
+`ppmtopuzz {{path/to/file.ppm}} >{{path/to/file.puzz}}`

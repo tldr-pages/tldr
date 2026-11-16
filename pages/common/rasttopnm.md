@@ -5,8 +5,8 @@
 
 - Convert a RAST image to a PNM file:
 
-`rasttopnm {{path/to/input.rast}} > {{path/to/output.pnm}}`
+`rasttopnm {{path/to/input.rast}} >{{path/to/output.pnm}}`
 
 - Use the color map indices in the raster if they are color values:
 
-`rasttopnm {{[-i|-index]}} {{path/to/input.rast}} > {{path/to/output.pnm}}`
+`rasttopnm {{[-i|-index]}} {{path/to/input.rast}} >{{path/to/output.pnm}}`

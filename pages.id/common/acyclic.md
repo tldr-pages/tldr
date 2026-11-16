@@ -6,12 +6,12 @@
 
 - Ubah grafik berarah menjadi asiklik dengan membalikkan beberapa garis tepi:
 
-`acyclic {{path/to/input.gv}} > {{path/to/output.gv}}`
+`acyclic {{path/to/input.gv}} >{{path/to/output.gv}}`
 
 - Cari tahu apakah grafik tersebut bersifat asiklik, memiliki siklus, atau tidak berarah, sehingga tidak menghasilkan output:
 
 `acyclic -v -n {{path/to/input.gv}}`
 
-- Tampilkan informasi bantuan untuk `acyclic`:
+- Tampilkan bantuan:
 
 `acyclic -?`

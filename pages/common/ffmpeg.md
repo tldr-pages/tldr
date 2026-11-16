@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
-- Transcode a FLAC file to Red Book CD format (44100kHz, 16bit):
+- Transcode a FLAC file to Red Book CD format (44100Hz, 16bit):
 
 `ffmpeg -i {{path/to/input_audio.flac}} -ar 44100 -sample_fmt s16 {{path/to/output_audio.wav}}`
 
@@ -18,7 +18,7 @@
 
 - Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc.) into a video or GIF:
 
-`ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{path/to/frame_%d.jpg}} {{video.mpg|video.gif}}`
 
 - Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
 

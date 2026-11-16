@@ -5,12 +5,12 @@
 
 - Shear a PNM image by the specified angle:
 
-`pnmshear {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmshear {{angle}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Specify the color of the background in the sheared image:
 
-`pnmshear {{[-b|-background]}} {{blue}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmshear {{[-b|-background]}} {{blue}} {{angle}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Do not perform anti-aliasing:
 
-`pnmshear {{[-n|-noantialias]}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmshear {{[-n|-noantialias]}} {{angle}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`

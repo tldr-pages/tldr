@@ -5,7 +5,7 @@
 
 - Convert an input image to PBM, PGM, or PPM format irrespective of the input type:
 
-`anytopnm {{path/to/input}} > {{path/to/output.pnm}}`
+`anytopnm {{path/to/input}} >{{path/to/output.pnm}}`
 
 - Display version:
 

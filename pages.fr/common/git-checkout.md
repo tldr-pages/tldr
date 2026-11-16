@@ -29,8 +29,8 @@
 
 - Annule tout les changements dans le fichier spécifié :
 
-`git checkout {{nom_fichier}}`
+`git checkout {{chemin/vers/fichier}}`
 
 - Remplace un fichier par sa version d'une autre branche :
 
-`git checkout {{nom_branche}} -- {{nom_fichier}}`
+`git checkout {{nom_branche}} -- {{chemin/vers/fichier}}`

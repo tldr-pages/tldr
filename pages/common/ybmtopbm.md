@@ -5,4 +5,4 @@
 
 - Convert a YBM image file to PBM:
 
-`ybmtopbm {{path/to/input_file.ybm}} > {{path/to/output_file.pbm}}`
+`ybmtopbm {{path/to/input_file.ybm}} >{{path/to/output_file.pbm}}`

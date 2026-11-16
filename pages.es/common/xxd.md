@@ -18,11 +18,11 @@
 
 - Muestra la salida con 10 columnas de un octeto (byte) cada una:
 
-`xxd {{[-c|-cols]}} {{10}} {{archivo_de_entrada}}`
+`xxd {{[-c|-cols]}} 10 {{archivo_de_entrada}}`
 
 - Muestra la salida solo hasta una longitud de 32 bytes:
 
-`xxd {{[-l|-len]}} {{32}} {{archivo_de_entrada}}`
+`xxd {{[-l|-len]}} 32 {{archivo_de_entrada}}`
 
 - Muestra la salida en modo plano, sin espacios entre las columnas:
 

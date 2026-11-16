@@ -1,6 +1,7 @@
 # du
 
 > Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln.
+> Siehe auch: `ncdu`.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Liste die Größe von Verzeichnissen und Unterverzeichnissen in den gegebenen Einheiten (B/KiB/MiB) auf:

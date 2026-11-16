@@ -13,4 +13,4 @@
 
 - Comienza una máquina virtual específica con un tiempo de espera máximo de 60 segundos:
 
-`qm start {{100}} --timeout {{60}}`
+`qm start {{100}} --timeout 60`

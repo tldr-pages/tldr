@@ -6,7 +6,7 @@
 
 - Make a directed graph acyclic by reversing some edges:
 
-`acyclic {{path/to/input.gv}} > {{path/to/output.gv}}`
+`acyclic {{path/to/input.gv}} >{{path/to/output.gv}}`
 
 - Print if a graph is acyclic, has a cycle, or is undirected, producing no output graph:
 

@@ -5,8 +5,8 @@
 
 - Generate man pages from a scdoc (`.scd`) file:
 
-`scdoc < {{path/to/file.scd}} > {{path/to/file.1}}`
+`scdoc <{{path/to/file.scd}} >{{path/to/file.1}}`
 
 - Generate man pages from a scdoc file and display the generated troff (man) source:
 
-`scdoc < {{path/to/file.scd}} | {{less}}`
+`scdoc <{{path/to/file.scd}} | {{less}}`

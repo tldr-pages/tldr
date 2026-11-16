@@ -18,4 +18,4 @@
 
 - Guarda la salida en un archivo:
 
-`GetADUsers.py -all -dc-ip {{ip_controlador_dominio}} {{dominio}}/{{nombre_usuario}}:{{contraseña}} > {{ruta/a/salida.txt}}`
+`GetADUsers.py -all -dc-ip {{ip_controlador_dominio}} {{dominio}}/{{nombre_usuario}}:{{contraseña}} >{{ruta/a/salida.txt}}`

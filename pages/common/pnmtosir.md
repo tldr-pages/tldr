@@ -5,4 +5,4 @@
 
 - Convert a PNM image to a SIR image:
 
-`pnmtosir {{path/to/input.pnm}} > {{path/to/output.sir}}`
+`pnmtosir {{path/to/input.pnm}} >{{path/to/output.sir}}`

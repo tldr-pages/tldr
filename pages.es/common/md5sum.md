@@ -9,7 +9,7 @@
 
 - Calcula y guarda la lista de sumas de comprobación MD5 en un archivo:
 
-`md5sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo.md5}}`
+`md5sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} >{{ruta/al/archivo.md5}}`
 
 - Calcula una suma de comprobación MD5 a partir de `stdin`:
 

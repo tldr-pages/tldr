@@ -5,7 +5,7 @@
 
 - e-value 임계값이 1e-9인 경우, 쌍별 출력 형식으로 두 개 이상의 서열을 blastp로 정렬하고 화면에 출력:
 
-`blastp -query {{쿼리.fa}} -subject {{대상.fa}} -evalue {{1e-9}}`
+`blastp -query {{쿼리.fa}} -subject {{대상.fa}} -evalue 1e-9`
 
 - blastp-fast를 사용하여 두 개 이상의 서열 정렬:
 

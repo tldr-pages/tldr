@@ -10,11 +10,11 @@
 
 - Highlight source code from a file with the Go lexer and output to an HTML file:
 
-`chroma {{[-l|--lexer]}} {{go}} {{[-f|--formatter]}} {{html}} {{path/to/source_file.go}} > {{path/to/target_file.html}}`
+`chroma {{[-l|--lexer]}} {{go}} {{[-f|--formatter]}} {{html}} {{path/to/source_file.go}} >{{path/to/target_file.html}}`
 
 - Highlight source code from `stdin` with the C++ lexer and output to an SVG file, using the Monokai style:
 
-`{{command}} | chroma {{[-l|--lexer]}} {{c++}} {{[-f|--formatter]}} {{svg}} {{[-s|--style]}} {{monokai}} > {{path/to/target_file.svg}}`
+`{{command}} | chroma {{[-l|--lexer]}} {{c++}} {{[-f|--formatter]}} {{svg}} {{[-s|--style]}} {{monokai}} >{{path/to/target_file.svg}}`
 
 - List available lexers, styles, and formatters:
 

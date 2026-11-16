@@ -6,7 +6,7 @@
 
 - Interactively pick a specific option to print to `stdout`:
 
-`gum choose {{"option1" "option2" "..."}}`
+`gum choose {{"option1" "option2" ...}}`
 
 - Open an interactive prompt for the user to input a string with a specific placeholder:
 
@@ -26,4 +26,4 @@
 
 - Interactively prompt for multi-line text and write the input to a file:
 
-`gum write > {{path/to/file}}`
+`gum write >{{path/to/file}}`

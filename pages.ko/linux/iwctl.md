@@ -24,6 +24,6 @@
 
 `iwctl station {{스테이션}} connect {{네트워크_이름}}`
 
-- 일반 도움말 호출:
+- 도움말 표시:
 
 `iwctl {{[-h|--help]}}`

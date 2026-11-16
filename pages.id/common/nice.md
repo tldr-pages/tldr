@@ -23,4 +23,4 @@
 
 - Tentukan prioritas secara eksplisit:
 
-`nice {{[-n|--adjustment]}} {{nilai_niceness}} {{perintah}}`
+`nice {{[-n|--adjustment]}} {{-20..19}} {{perintah}}`

@@ -13,4 +13,4 @@
 
 - Verzamel de dimensies van alle JPEG-bestanden in de huidige map en sla ze op naar een CSV-bestand:
 
-`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} > {{pad/naar/bestandslijst.csv}}`
+`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} >{{pad/naar/bestandslijst.csv}}`

@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Stel een specifieke voorgrond- en achtergrondkleur in met hexadecimale getallen (`1-9,a-f`):
+- Stel een specifieke voorgrond- en achtergrondkleur in met hexadecimale getallen (`0-9,a-f`):
 
 `color {{voorgrond_code}}{{achtergrond_code}}`

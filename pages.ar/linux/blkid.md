@@ -9,4 +9,4 @@
 
 - عرض جميع الأقسام في جدول، بما في ذلك نقاط التحميل الحالية:
 
-`sudo blkid {{-o|--output}} list`
+`sudo blkid {{[-o|--output]}} list`

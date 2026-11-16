@@ -32,6 +32,6 @@
 
 `sudo abroot status`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `abroot {{[-h|--help]}}`

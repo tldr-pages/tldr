@@ -11,7 +11,7 @@
 
 - Concatena diversi file nel file di destinazione:
 
-`bat {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file_destinazione}}`
+`bat {{percorso/del/file1 percorso/del/file2 ...}} >{{percorso/del/file_destinazione}}`
 
 - Rimuove decorazioni e disabilita paging:
 
@@ -19,7 +19,7 @@
 
 - Evidenzia una riga specifica o un intervallo di righe con un colore di sfondo diverso:
 
-`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{percorso//del/file}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{percorso/del/file}}`
 
 - Mostra caratteri non stampabili come spazio, tab o newline:
 

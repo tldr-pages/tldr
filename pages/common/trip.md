@@ -19,12 +19,12 @@
 
 - Trace using the `udp` protocol:
 
-`sudo trip {{example.com}} --protocol {{udp}}`
+`sudo trip {{example.com}} --protocol udp`
 
 - Use custom destination port `443` for `tcp` tracing:
 
-`sudo trip {{example.com}} --protocol {{tcp}} --target-port {{443}}`
+`sudo trip {{example.com}} --protocol tcp --target-port 443`
 
 - Use custom source port `5000` for `udp` tracing:
 
-`sudo trip {{example.com}} --protocol {{udp}} --source-port {{5000}}`
+`sudo trip {{example.com}} --protocol udp --source-port 5000`

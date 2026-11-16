@@ -9,7 +9,7 @@
 
 - Start a game on a certain level (there are nine official levels):
 
-`pacman4console --level={{level_number}}`
+`pacman4console --level={{1..9}}`
 
 - Start the pacman4console level editor, saving to a specified text file:
 

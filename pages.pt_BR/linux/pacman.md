@@ -1,7 +1,7 @@
 # pacman
 
 > Utilitário de Arch Linux para gerenciamento de pacotes.
-> Veja também: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+> Veja também: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Mais informações: <https://manned.org/pacman.8>.
 
 - Sincroniza e atualiza todos os pacotes:

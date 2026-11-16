@@ -1,7 +1,7 @@
 # modprobe
 
 > Add or remove modules from the Linux kernel.
-> See also: `kmod`.
+> See also: `lsmod`, `kmod`.
 > More information: <https://manned.org/modprobe>.
 
 - Simulate loading a module into the kernel:

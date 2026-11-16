@@ -5,15 +5,15 @@
 
 - Extract elements from an XML document (producing XPATH expressions):
 
-`xml {{[el|elements]}} {{path/to/input.xml|uri}} > {{path/to/elements.xpath}}`
+`xml {{[el|elements]}} {{path/to/input.xml|uri}} >{{path/to/elements.xpath}}`
 
 - Extract elements and their attributes from an XML document:
 
-`xml {{[el|elements]}} -a {{path/to/input.xml|uri}} > {{path/to/elements.xpath}}`
+`xml {{[el|elements]}} -a {{path/to/input.xml|uri}} >{{path/to/elements.xpath}}`
 
 - Extract elements and their attributes and values from an XML document:
 
-`xml {{[el|elements]}} -v {{path/to/input.xml|uri}} > {{path/to/elements.xpath}}`
+`xml {{[el|elements]}} -v {{path/to/input.xml|uri}} >{{path/to/elements.xpath}}`
 
 - Print sorted unique elements from an XML document to see its structure:
 

@@ -77,7 +77,6 @@ grep -r Displays
 grep -r Enables
 grep -r Encodes
 grep -r Evaluates
-grep -r Executes
 grep -r Extracts
 grep -r Generates
 grep -r Gets

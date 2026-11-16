@@ -23,6 +23,6 @@
 
 `koji build {{target}} {{percorso/al/src.rpm}} --nowait`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji build {{[-h|--help]}}`

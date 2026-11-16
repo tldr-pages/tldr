@@ -17,7 +17,7 @@
 
 - Добавить новые директивы account для использованных, но не объявленных счетов в журнал:
 
-`hledger {{[acc|accounts]}} --undeclared --directives >> {{2024-accounts.journal}}`
+`hledger {{[acc|accounts]}} --undeclared --directives >>{{2024-accounts.journal}}`
 
 - Показать счета, содержащие `asset` в имени, и их объявленные/выведенные типы:
 

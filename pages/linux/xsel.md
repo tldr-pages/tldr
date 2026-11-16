@@ -17,7 +17,7 @@
 
 - Output the clipboard's contents into a file:
 
-`xsel {{[-ob|--output --clipboard]}} > {{path/to/file}}`
+`xsel {{[-ob|--output --clipboard]}} >{{path/to/file}}`
 
 - Clear the clipboard:
 

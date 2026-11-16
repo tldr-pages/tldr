@@ -9,7 +9,7 @@
 
 - Generate a passphrase with a specific bit size between 24 and 136:
 
-`pwqgen random={{bitsize}}`
+`pwqgen random={{24..136}}`
 
 - Use a config file to control password generation:
 

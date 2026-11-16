@@ -17,7 +17,7 @@
 
 - Add new account directives, for accounts used but not declared, to the journal:
 
-`hledger {{[acc|accounts]}} --undeclared --directives >> {{2024-accounts.journal}}`
+`hledger {{[acc|accounts]}} --undeclared --directives >>{{2024-accounts.journal}}`
 
 - Show accounts with `asset` in their name, and their declared/inferred types:
 

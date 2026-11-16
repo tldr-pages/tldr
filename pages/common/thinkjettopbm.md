@@ -5,8 +5,8 @@
 
 - Convert an HP ThinkJet printer commands file to a PBM file:
 
-`thinkjettopbm {{path/to/input}} > {{path/to/output.pbm}}`
+`thinkjettopbm {{path/to/input}} >{{path/to/output.pbm}}`
 
 - Print debug information to `stderr`:
 
-`thinkjettopbm {{[-d|-debug]}} {{path/to/input}} > {{path/to/output.pbm}}`
+`thinkjettopbm {{[-d|-debug]}} {{path/to/input}} >{{path/to/output.pbm}}`

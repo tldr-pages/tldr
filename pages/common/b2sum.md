@@ -9,7 +9,7 @@
 
 - Calculate and save the list of BLAKE2 checksums to a file:
 
-`b2sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.b2}}`
+`b2sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.b2}}`
 
 - Calculate a BLAKE2 checksum from `stdin`:
 

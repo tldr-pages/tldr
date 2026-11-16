@@ -6,12 +6,12 @@
 
 - Converteer een Netpbm-afbeelding naar een ongeanimeerde GIF-afbeelding:
 
-`pamtogif {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
+`pamtogif {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.gif}}`
 
 - Markeer de gespecificeerde kleur als transparant in het uitvoer-GIF-bestand:
 
-`pamtogif {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
+`pamtogif {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.gif}}`
 
 - Voeg de gespecificeerde tekst toe als commentaar in het uitvoer-GIF-bestand:
 
-`pamtogif {{[-c|-comment]}} "{{Hallo Wereld!}}" {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
+`pamtogif {{[-c|-comment]}} "{{Hallo Wereld!}}" {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.gif}}`

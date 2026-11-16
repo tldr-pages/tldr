@@ -9,7 +9,7 @@
 
 - 약어로 된 커밋 해시에 4자리 숫자를 포함한 이름 생성:
 
-`git describe --abbrev={{4}}`
+`git describe --abbrev=4`
 
 - 태그 참조 경로로 이름 생성:
 

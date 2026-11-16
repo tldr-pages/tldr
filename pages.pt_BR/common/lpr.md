@@ -10,7 +10,7 @@
 
 - Imprime 2 cópias:
 
-`lpr -# {{2}} {{caminho/para/arquivo}}`
+`lpr -# 2 {{caminho/para/arquivo}}`
 
 - Imprime em uma impressora específica:
 

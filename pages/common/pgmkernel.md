@@ -6,12 +6,12 @@
 
 - Generate a convolution kernel:
 
-`pgmkernel {{width}} {{height}} > {{path/to/output.pgm}}`
+`pgmkernel {{width}} {{height}} >{{path/to/output.pgm}}`
 
 - Generate a quadratic convolution kernel:
 
-`pgmkernel {{size}} > {{path/to/output.pgm}}`
+`pgmkernel {{size}} >{{path/to/output.pgm}}`
 
 - Specify the weight of the center in the generated kernel:
 
-`pgmkernel {{[-w|-weight]}} {{value}} {{width}} {{height}} > {{path/to/output.pgm}}`
+`pgmkernel {{[-w|-weight]}} {{value}} {{width}} {{height}} >{{path/to/output.pgm}}`

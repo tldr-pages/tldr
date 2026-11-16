@@ -9,4 +9,4 @@
 
 - `foo` dalındaki v0.1 sürümü ile yereldeki `bar` dalları arasındaki değişiklikleri özetleyen bir izin üret:
 
-`git request-pull {{v0.1}} {{https://ornek.com/proje}} {{foo:bar}}`
+`git request-pull {{v0.1}} {{https://ornek.com/proje}} {{foo}}:{{bar}}`

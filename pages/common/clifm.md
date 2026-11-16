@@ -12,9 +12,9 @@
 
 `12`
 
-- Create a new file and a new directory:
+- Create a file and a directory at the specified paths:
 
-`<n>{{file}} {{dir}}/`
+`n {{path/to/file}} {{path/to/directory}}/`
 
 - Search for PDF files in the current directory:
 

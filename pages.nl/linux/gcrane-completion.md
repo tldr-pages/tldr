@@ -22,15 +22,15 @@
 
 - Laad completions voor elke nieuwe sessie (Bash):
 
-`gcrane completion bash > /etc/bash_completion.d/gcrane`
+`gcrane completion bash >/etc/bash_completion.d/gcrane`
 
 - Laad completions voor elke nieuwe sessie (Zsh):
 
-`gcrane completion zsh > "${fpath[1]}/_gcrane"`
+`gcrane completion zsh >"${fpath[1]}/_gcrane"`
 
 - Laad completions voor elke nieuwe sessie (fish):
 
-`gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
+`gcrane completion fish >~/.config/fish/completions/gcrane.fish`
 
 - Toon de help:
 

@@ -10,7 +10,7 @@
 
 - Run a program in a new session discarding the resulting output and error:
 
-`setsid {{program}} > /dev/null 2>&1`
+`setsid {{program}} >/dev/null 2>&1`
 
 - Run a program creating a new process:
 

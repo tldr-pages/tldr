@@ -5,4 +5,4 @@
 
 - Perform edge-detection on a Netpbm image:
 
-`pamedge {{path/to/input.pam}} > {{path/to/output.pam}}`
+`pamedge {{path/to/input.pam}} >{{path/to/output.pam}}`

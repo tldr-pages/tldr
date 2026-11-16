@@ -1,7 +1,7 @@
 # airmon-ng
 
 > فعالسازی مانیتور مود بر روی دستگاه های شبکه بیسیم.
-> بخشی از  `aircrack-ng`.
+> بخشی از `aircrack-ng`.
 > اطلاعات بیشتر: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - فهرست کردن دستگاه های بی سیم و وضعیت آنها:

@@ -6,4 +6,4 @@
 
 - Amplía una imagen PBM en el factor especificado con suavizado de bordes:
 
-`pbmpscale {{n}} {{ruta/a/imagen.pbm}} > {{ruta/a/archivo.pbm}}`
+`pbmpscale {{n}} {{ruta/a/imagen.pbm}} >{{ruta/a/archivo.pbm}}`

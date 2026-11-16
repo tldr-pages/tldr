@@ -9,7 +9,7 @@
 
 - Write installed packages to the `requirements.txt` file:
 
-`pip freeze > requirements.txt`
+`pip freeze >requirements.txt`
 
 - List installed packages in a virtual environment, excluding globally installed packages:
 
