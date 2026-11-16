@@ -20,6 +20,6 @@
 
 `sudo tripwire {{[-m p|--update-policy]}} {{path/to/policy.txt}}`
 
-- Display detailed help for all modes:
-
+- Display help:
+  
 `tripwire --help`
