@@ -26,7 +26,7 @@
 
 - Bir arşivdeki dosyaları listele ve çıktıyı bir sayfalayıcıdan geçir:
 
-`atool {{[-l|--list]}} {{[-p|--pager]}} {{büyük_arşiv.tar.bz2}}`
+`atool {{[-l|--list]}} {{[-p|--page]}} {{büyük_arşiv.tar.bz2}}`
 
 - Birden fazla arşivi aynı anda çıkart (gerekirse her birini kendi alt dizinine):
 
