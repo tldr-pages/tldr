@@ -24,6 +24,6 @@
 
 `git annex get {{jalan/menuju/berkas_atau_direktori}}`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `git annex help`

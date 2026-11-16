@@ -13,7 +13,7 @@
 
 - Delete the specified file or directory from a Phar file:
 
-`phar delete -f {{path/to/phar_file}} -e {{file_or_directory}}`
+`phar delete -f {{path/to/phar_file}} -e {{path/to/file_or_directory}}`
 
 - Compress or uncompress files and directories in a Phar file:
 

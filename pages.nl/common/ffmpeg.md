@@ -18,7 +18,7 @@
 
 - Combineer genummerde afbeeldingen (`frame_1.jpg`, `frame_2.jpg`, etc) tot een video of GIF:
 
-`ffmpeg -i {{pad/naar/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{pad/naar/frame_%d.jpg}} {{video.mpg|video.gif}}`
 
 - Trim een video vanaf een gegeven starttijd mm:ss tot een eindtijd mm2:ss2 (laat de -to vlag weg om tot het einde te trimmen):
 
