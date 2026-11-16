@@ -7,6 +7,6 @@
 
 `vipw`
 
-- Wyświetlenie bieżącej wersji `vipw`:
+- Wyświetl wersję:
 
 `vipw {{[-V|--version]}}`
