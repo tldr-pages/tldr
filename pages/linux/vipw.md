@@ -5,7 +5,7 @@
 
 - Edit the password file:
 
-`vipw`
+`sudo vipw`
 
 - Display version:
 

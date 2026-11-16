@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
-- تحويل ملف FLAC إلى تنسيق Red Book CD (44100kHz، 16bit):
+- تحويل ملف FLAC إلى تنسيق Red Book CD (44100Hz، 16bit):
 
 `ffmpeg -i {{path/to/input_audio.flac}} -ar 44100 -sample_fmt s16 {{path/to/output_audio.wav}}`
 
@@ -18,7 +18,7 @@
 
 - دمج صور مرقمة (`frame_1.jpg`، `frame_2.jpg`، ...) في فيديو أو GIF:
 
-`ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{path/to/frame_%d.jpg}} {{video.mpg|video.gif}}`
 
 - قص مقطع فيديو من وقت بداية mm:ss إلى وقت نهاية mm2:ss2 (تجاهل -to للقص حتى النهاية):
 

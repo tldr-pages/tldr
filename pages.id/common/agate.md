@@ -11,6 +11,6 @@
 
 `agate {{jalan/menuju/direktori_konten}}`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `agate {{[-h|--help]}}`

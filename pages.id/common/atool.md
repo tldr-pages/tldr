@@ -26,7 +26,7 @@
 
 - Tampilkan daftar isi berkas arsip dan kirim luaran program menuju program penampil teks dengan manajemen halaman:
 
-`atool {{[-l|--list]}} {{[-p|--pager]}} {{arsip_besar.tar.bz2}}`
+`atool {{[-l|--list]}} {{[-p|--page]}} {{arsip_besar.tar.bz2}}`
 
 - Ekstrak beberapa arsip dengan sekali jalan (setiap arsip dapat diekstrak menuju masing-masing subdirektori bila dibutuhkan):
 

@@ -7,26 +7,26 @@
 
 `diskpart`
 
-- 모든 디스크 나열:
+- [대화형] 모든 디스크 나열:
 
 `list disk`
 
-- 볼륨 선택:
+- [대화형] 볼륨 선택:
 
 `select volume {{볼륨}}`
 
-- 선택된 볼륨에 드라이브 문자 할당:
+- [대화형] 선택된 볼륨에 드라이브 문자 할당:
 
 `assign letter {{문자}}`
 
-- 새 파티션 생성:
+- [대화형] 새 파티션 생성:
 
 `create partition primary`
 
-- 선택된 볼륨 활성화:
+- [대화형] 선택된 볼륨 활성화:
 
 `active`
 
-- diskpart 종료:
+- [대화형] diskpart 종료:
 
 `exit`

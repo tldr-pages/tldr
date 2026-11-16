@@ -9,7 +9,7 @@
 
 - Cattura uno screenshot e lo salva nel percorso file indicato:
 
-`gnome-screenshot {{[-f|--file]}} {{path/to/file}}`
+`gnome-screenshot {{[-f|--file]}} {{percorso/del/file}}`
 
 - Cattura uno screenshot e lo salva negli appunti:
 
@@ -25,7 +25,7 @@
 
 - Cattura uno screenshot della finestra corrente e lo salva nel percorso file specificato:
 
-`gnome-screenshot {{[-w|--window]}} {{[-f|--file]}} {{path/to/file}}`
+`gnome-screenshot {{[-w|--window]}} {{[-f|--file]}} {{percorso/del/file}}`
 
 - Cattura uno screenshot dopo il numero di secondi specificato e lo salva negli appunti:
 
