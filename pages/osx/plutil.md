@@ -7,6 +7,14 @@
 
 `plutil -p {{file1.plist file2.plist ...}}`
 
+- Check one or more plist files for syntax errors:
+
+`plutil -lint {{path/to/file1.plist path/to/file2.plist ...}}`
+
+- Extract the value at a key path as raw text:
+
+`plutil -extract {{keypath}} raw {{path/to/file.plist}}`
+
 - Convert one or more plist files to XML format, overwriting the original files in-place:
 
 `plutil -convert xml1 {{file1.plist file2.plist ...}}`
@@ -22,3 +30,7 @@
 - Convert a plist file to a different format, writing to `stdout`:
 
 `plutil -convert {{xml1|binary1|json|swift|objc}} {{path/to/file.plist}} -o -`
+
+- Replace the value at an existing key path with a string, modifying the file in-place:
+
+`plutil -replace {{keypath}} -string "{{new_value}}" {{path/to/file.plist}}`
