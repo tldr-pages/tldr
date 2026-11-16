@@ -7,17 +7,17 @@
 
 `xcrun {{tool}} {{arguments}}`
 
-- Show verbose output:
+- Run a tool with verbose information about how it is located:
 
-`xcrun {{tool}} {{arguments}} --verbose`
+`xcrun --verbose {{tool}} {{arguments}}`
 
-- Find a tool for a given SDK:
+- Find the path to a tool for a given SDK:
 
-`xcrun --sdk {{sdk_name}}`
+`xcrun --sdk {{sdk_name}} --find {{tool}}`
 
-- Find a tool for a given toolchain:
+- Find the path to a tool for a given toolchain:
 
-`xcrun --toolchain {{name}}`
+`xcrun --toolchain {{name}} --find {{tool}}`
 
 - Display help:
 
