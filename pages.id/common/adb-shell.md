@@ -1,36 +1,28 @@
 # adb shell
 
-> Android Debug Bridge Shell: Menjalankan perintah shell jarak jauh pada emulator Android atau perangkat Android terhubung.
+> Jalankan perintah shell jarak jauh pada emulator Android atau perangkat Android terhubung.
 > Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Mulaikan shell interaktif jarak jauh di emulator/perangkat:
 
 `adb shell`
 
-- Dapatkan semua properti dari emulator/perangkat:
+- Lihat dokumentasi untuk menunjukkan konfigurasi properti sistem operasi Android:
 
-`adb shell getprop`
+`tldr {{[-p|--platform]}} android getprop`
 
-- Kembalikan semua izin runtime ke default:
+- Lihat dokumentasi untuk manajer paket aplikasi Android:
 
-`adb shell pm reset-permissions`
+`tldr {{[-p|--platform]}} android pm`
 
-- Cabut izin berbahaya dari sebuah aplikasi:
+- Lihat dokumentasi untuk mengirim kode peristiwa (event code) dan simulasi interaksi layar sentuh:
 
-`adb shell pm revoke {{paket}} {{izin}}`
+`tldr {{[-p|--platform]}} android input`
 
-- Picukan sebuah peristiwa penting:
+- Lihat dokumentasi untuk manager aktivitas (activity) aplikasi Android:
 
-`adb shell input keyevent {{keycode}}`
+`tldr {{[-p|--platform]}} android am`
 
-- Kosongkan data aplikasi pada emulator/perangkat:
+- Tampilkan daftar perintah shell Android yang terdokumentasi:
 
-`adb shell pm clear {{paket}}`
-
-- Mulaikan aktivitas pada emulator/perangkat:
-
-`adb shell am start -n {{paket}}/{{aktivitas}}`
-
-- Mulaikan aktivitas beranda pada emulator/perangkat:
-
-`adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
+`tldr {{[-p|--platform]}} android {{[-l|--list]}}`

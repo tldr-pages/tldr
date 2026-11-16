@@ -3,22 +3,34 @@
 > Runtime aman untuk JavaScript dan TypeScript.
 > Informasi lebih lanjut: <https://docs.deno.com/runtime/reference/cli/>.
 
-- Jalankan program dari suatu berkas JavaScript atau TypeScript:
-
-`deno run {{jalan/menuju/berkas.ts}}`
-
-- Jalankan REPL (shell interaktif):
+- Jalankan sebuah shell interaktif REPL (Read-Eval-Print-Loop):
 
 `deno`
 
-- Jalankan berkas dengan memperbolehkan akses jaringan:
+- Buat suatu proyek dan ujikan proyek tersebut, yang bernama sample:
 
-`deno run --allow-net {{jalan/menuju/berkas.ts}}`
+`deno init sample && cd sample && deno test`
 
-- Jalankan berkas dari URL:
+- Jalankan suatu berkas program secara aman. Ia akan menanyakan (bila perlu) apakah program ini berhak mengakses jaringan, membaca berkas, dsb.:
 
-`deno run {{https://deno.land/std/examples/welcome.ts}}`
+`deno run {{jalan/menuju/berkas.ts}}`
 
-- Pasang skrip yang dapat dieksekusi dari URL:
+- Jalankan berkas program dengan memberikan sebagaian atau seluruh hak-hak (hanya jika Anda percaya asal atau pengembang program tersebut) secara eksplisit:
 
-`deno install {{https://deno.land/std/examples/colors.ts}}`
+`deno run {{--allow-env|--allow-net|--allow-write|--allow-all}} {{jsr:@deno/deployctl}}`
+
+- Tampilkan dan jalankan tugas dari `deno.json` atau kumpulan skrip yang terdaftar pada `package.json`:
+
+`deno task`
+
+- Pasang modul ketergantungan yang terdaftar pada `deno.json` atau `package.json` (beserta berkas kunci versi modul / lock files):
+
+`deno install`
+
+- Periksa struktur tipe data, format penulisan naskah, dan perbaiki kesalahan secara otomatis (jika memungkinkan):
+
+`deno check && deno fmt && deno lint --fix`
+
+- Bangunkan suatu berkas menjadi suatu berkas program executable, termasuk modul-modul yang tergantung, dan program pejalan berkas program (runtime):
+
+`deno compile {{path/to/file.ts}}`
