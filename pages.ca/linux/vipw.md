@@ -7,6 +7,6 @@
 
 `vipw`
 
-- Mostra la versió instal·lada de `vipw`:
+- Mostra la versió:
 
 `vipw {{[-V|--version]}}`

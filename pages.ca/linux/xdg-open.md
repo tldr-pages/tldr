@@ -19,6 +19,6 @@
 
 `xdg-open {{ruta/al/pdf}}`
 
-- Mostra l'ajuda:
+- Mostra ajuda:
 
 `xdg-open --help`
