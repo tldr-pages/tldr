@@ -25,7 +25,7 @@
 
 - Playbook'u belirli bir görevden başlayarak çalıştır:
 
-`ansible-playbook {{playbook}} --start-at {{görev_adı}}`
+`ansible-playbook {{playbook}} --start-at-task {{görev_adı}}`
 
 - Playbook'taki görevleri hiçbir değişiklik yapmadan deneme amacıyla çalıştır:
 
