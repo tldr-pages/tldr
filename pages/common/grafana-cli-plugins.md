@@ -3,7 +3,7 @@
 > Manage plugins for Grafana.
 > More information: <https://grafana.com/docs/grafana/latest/administration/cli/#plugins-commands>.
 
-- List all installed plugins:
+- List installed plugins (excluding core plugins):
 
 `grafana cli plugins ls`
 
