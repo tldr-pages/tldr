@@ -1,7 +1,7 @@
 # deno
 
 > Runtime aman untuk JavaScript, TypeScript, dan WebAssembly.
-> Mencakup pengelolaan ketergantungan modul menggunakan `npm` atau `jsr`, serta perangkat pengolah program seperti penolok ukur, pemaket, dokumentasi program, dan penghitung cakupan pengujian. 
+> Mencakup pengelolaan ketergantungan modul menggunakan `npm` atau `jsr`, serta perangkat pengolah program seperti penolok ukur, pemaket, dokumentasi program, dan penghitung cakupan pengujian.
 > Informasi lebih lanjut: <https://docs.deno.com/runtime/reference/cli/>.
 
 - Jalankan sebuah shell interaktif REPL (Read-Eval-Print-Loop):
