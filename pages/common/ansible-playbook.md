@@ -25,7 +25,7 @@
 
 - Run tasks in a playbook starting at a specific task:
 
-`ansible-playbook {{playbook}} --start-at {{task_name}}`
+`ansible-playbook {{playbook}} --start-at-task {{task_name}}`
 
 - Simulate running tasks in a playbook without making any changes:
 
