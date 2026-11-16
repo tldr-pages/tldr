@@ -22,4 +22,4 @@
 
 - Display detailed help for all modes:
 
-`tripwire --help all`
+`tripwire --help`
