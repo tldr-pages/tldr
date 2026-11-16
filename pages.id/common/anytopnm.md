@@ -7,6 +7,6 @@
 
 `anytopnm {{jalan/menuju/input}} >{{jalan/menuju/output.pnm}}`
 
-- Tampilkan informasi versi:
+- Tampilkan versi:
 
 `anytopnm {{[-v|-version]}}`

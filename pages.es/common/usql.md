@@ -9,24 +9,24 @@
 
 - Ejecuta comandos desde un archivo:
 
-`usql --file={{ruta/al/query.sql}}`
+`usql {{[-f|--file]}} {{ruta/al/query.sql}}`
 
 - Ejecuta un comando SQL específico:
 
-`usql --command="{{comando_sql}}"`
+`usql {{[-c|--command]}} "{{comando_sql}}"`
 
-- Ejecuta un comando SQL en el intérprete de comandos de `usql`:
+- [Interactivo] Ejecuta un comando SQL en el intérprete de comandos de `usql`:
 
-`{{prompt}}=> {{comando}}`
+`{{comando}}`
 
-- Muestra el esquema de la base de datos:
+- [Interactivo] Muestra el esquema de la base de datos:
 
-`{{prompt}}=> \d`
+`\d`
 
-- Exporta los resultados de la consulta a un archivo específico:
+- [Interactivo] Exporta los resultados de la consulta a un archivo específico:
 
-`{{prompt}}=> \g {{ruta/al/archivo_con_resultados}}`
+`\g {{ruta/al/archivo_con_resultados}}`
 
-- Importa datos de un archivo CSV a una tabla específica:
+- [Interactivo] Importa datos de un archivo CSV a una tabla específica:
 
-`{{prompt}}=> \copy {{ruta/a/datos.csv}} {{nombre_de_tabla}}`
+`\copy {{ruta/a/datos.csv}} {{nombre_de_tabla}}`

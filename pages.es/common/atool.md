@@ -26,7 +26,7 @@
 
 - Lista los archivos de un archivo y envía la salida a través de un paginador:
 
-`atool {{[-l|--list]}} {{[-p|--pager]}} {{archivo_grande.tar.bz2}}`
+`atool {{[-l|--list]}} {{[-p|--page]}} {{archivo_grande.tar.bz2}}`
 
 - Extrae varios archivos a la vez (cada uno a su propio subdirectorio si es necesario):
 

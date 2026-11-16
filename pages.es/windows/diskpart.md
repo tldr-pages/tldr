@@ -7,26 +7,26 @@
 
 `diskpart`
 
-- Lista todos los discos:
+- [Interactivo] Lista todos los discos:
 
 `list disk`
 
-- Selecciona un volumen:
+- [Interactivo] Selecciona un volumen:
 
 `select volume {{volúmen}}`
 
-- Asigna una letra de unidad al volumen seleccionado:
+- [Interactivo] Asigna una letra de unidad al volumen seleccionado:
 
 `assign letter {{letra}}`
 
-- Crea una nueva partición:
+- [Interactivo] Crea una nueva partición:
 
 `create partition primary`
 
-- Activa el volumen seleccionado:
+- [Interactivo] Activa el volumen seleccionado:
 
 `active`
 
-- Sale de diskpart:
+- [Interactivo] Sale de diskpart:
 
 `exit`
