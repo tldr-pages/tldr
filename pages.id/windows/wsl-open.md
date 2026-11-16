@@ -19,6 +19,6 @@
 
 `wsl-open -w`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `wsl-open -h`

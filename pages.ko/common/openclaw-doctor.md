@@ -15,6 +15,6 @@
 
 `openclaw doctor --non-interactive`
 
-- 도움말 출력:
+- 도움말 표시:
 
 `openclaw doctor {{[-h|--help]}}`

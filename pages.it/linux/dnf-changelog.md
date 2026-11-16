@@ -20,6 +20,6 @@
 
 `dnf changelog --upgrades {{package}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `dnf changelog --help-cmd`

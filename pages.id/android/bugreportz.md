@@ -16,10 +16,10 @@
 
 `bugreportz -s`
 
-- Tampilkan teks bantuan:
+- Tampilkan bantuan:
 
 `bugreportz -h`
 
-- Tampilkan versi program:
+- Tampilkan versi:
 
 `bugreportz -v`

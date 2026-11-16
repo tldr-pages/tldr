@@ -5,7 +5,7 @@
 
 - Stampa a schermo le prime linee di un file:
 
-`head -n {{numero_di_linee}} {{file}}`
+`head -n {{numero_di_linee}} {{percorso/del/file}}`
 
 - Stampa a schermo i primi byte di un file:
 

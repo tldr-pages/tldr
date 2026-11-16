@@ -15,10 +15,10 @@
 
 `pi --bibliography`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `pi --help`
 
-- Exibe a versão:
+- Mostra versão:
 
 `pi --version`

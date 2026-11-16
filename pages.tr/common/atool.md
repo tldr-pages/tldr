@@ -1,20 +1,37 @@
 # atool
 
-> Çeşitli biçimlerdeki arşivleri yönetin.
+> Çeşitli türlerdeki dosya arşivlerini yöneten bir betik.
+> `atool`, harici arşivleme programlarını kullanır ancak arşivleri listelemek, çıkartmak, oluşturmak ve yönetmek için tutarlı bir komut satırı arayüzü sunar.
 > Daha fazla bilgi için: <https://manned.org/atool>.
 
-- Bir zip arşivindeki dosyaları listele:
+- Bir arşivdeki dosyaları listele:
 
-`atool --list {{arşiv.zip/dosyasının/yolu}}`
+`atool {{[-l|--list]}} {{arşiv/dosyasının/yolu.zip}}`
 
-- Bir `.tar.gz` arşivini yeni bir alt dizine (veya yalnızca bir dosya içeriyorsa geçerli dizine) çıkart:
+- Bir arşivi çıkart (gerekirse güvenli bir şekilde alt dizin oluşturur):
 
-`atool --extract {{arşiv.tar.gz/dosyasının/yolu}}`
+`atool {{[-x|--extract]}} {{arşiv.tar.gz}}`
 
-- İki dosyaya sahip yeni bir 7zip arşivi oluştur:
+- Bir arşivi belirli bir dizine çıkart:
 
-`atool --add {{arşiv.7z/dosyasının/yolu}} {{dosya1/yolu dosya2/yolu ...}}`
+`atool {{[-X|--extract-to]}} {{çıktı/dizininin/yolu}} {{arşiv.rar}}`
 
-- Geçerli dizindeki tüm zip ve rar arşivlerini çıkart:
+- Bir arşivdeki belirli bir dosyanın içeriğini `stdout`'a yazdır (`cat` gibi):
 
-`atool --each --extract {{*.zip *.rar}}`
+`atool {{[-c|--cat]}} {{arşiv.tar}} {{arşivdeki/dosyanın/yolu.txt}}`
+
+- Belirtilen dosya ve/veya dizinlerden yeni bir arşiv oluştur:
+
+`atool {{[-a|--add]}} {{yeni_arşiv.zip}} {{dosya1/yolu dosya2/yolu ...}}`
+
+- Bir arşivdeki dosyaları listele ve çıktıyı bir sayfalayıcıdan geçir:
+
+`atool {{[-l|--list]}} {{[-p|--page]}} {{büyük_arşiv.tar.bz2}}`
+
+- Birden fazla arşivi aynı anda çıkart (gerekirse her birini kendi alt dizinine):
+
+`atool {{[-x|--extract]}} {{[-e|--each]}} {{arşiv1.zip}} {{arşiv2.tar.gz}} {{*.rar}}`
+
+- Bir arşivi bir biçimden başka bir biçime yeniden paketle (örneğin `.tar.gz` biçiminden `.tar.7z` biçimine):
+
+`atool {{[-r|--repack]}} {{eski_arşiv.tar.gz}} {{yeni_arşiv.tar.7z}}`

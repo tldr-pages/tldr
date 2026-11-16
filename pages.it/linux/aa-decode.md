@@ -15,6 +15,6 @@
 
 `sudo aa-decode - <{{file_di_log}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `aa-decode {{[-h|--help]}}`

@@ -19,6 +19,6 @@
 
 `aws s3 cp s3://{{nome_do_bucket}} . --recursive`
 
-- Exibe a ajuda:
+- Mostra ajuda:
 
 `aws s3 cp help`

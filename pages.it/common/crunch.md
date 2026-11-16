@@ -5,19 +5,19 @@
 
 - Genera una lista di parole di lunghezza da 1 a 3 con solo caratteri minuscoli:
 
-`crunch {{1}} {{3}}`
+`crunch 1 3`
 
 - Genera una lista di parole esadecimali di lunghezza 8:
 
-`crunch {{8}} {{8}} {{0123456789abcdef}}`
+`crunch 8 8 {{0123456789abcdef}}`
 
 - Genera una lista con tutte le permutazioni di "abc" (le lunghezze non vengono elaborate):
 
-`crunch {{1}} {{1}} -p {{abc}}`
+`crunch 1 1 -p abc`
 
 - Genera una lista con tutte le permutazioni delle stringhe fornite (le lunghezze non vengono elaborate):
 
-`crunch {{1}} {{1}} -p {{abc}} {{def}} {{ghi}}`
+`crunch 1 1 -p {{abc}} {{def}} {{ghi}}`
 
 - Genera una lista di parole secondo un modello specifico e un numero massimo di lettere duplicate:
 

@@ -12,6 +12,6 @@
 
 `hipstopgm {{[-q|-quiet]}}`
 
-- 버전 정보 출력:
+- 버전 표시:
 
 `hipstopgm {{[-v|-version]}}`

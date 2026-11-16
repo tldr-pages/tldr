@@ -23,6 +23,6 @@
 
 `aws s3 ls --recursive {{nome_bucket}}/{{percorso/della/directory}}/{{prefisso}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws s3 ls help`

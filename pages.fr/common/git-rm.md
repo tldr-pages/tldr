@@ -5,7 +5,7 @@
 
 - Supprimer un fichiers de l'index, du dépôt et du système de fichiers :
 
-`git rm {{file}}`
+`git rm {{chemin/vers/fichier}}`
 
 - Supprimer un répertoire de l'index, du dépôt et du système de fichiers :
 
@@ -13,4 +13,4 @@
 
 - Supprimer un fichiers de l'index, du dépôt mais le conserve sur le système de fichiers :
 
-`git rm --cached {{file}}`
+`git rm --cached {{chemin/vers/fichier}}`
