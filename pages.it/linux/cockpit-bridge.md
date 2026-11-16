@@ -7,6 +7,6 @@
 
 `cockpit-bridge --packages`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `cockpit-bridge --help`

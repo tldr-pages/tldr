@@ -8,7 +8,7 @@
 
 `amass {{intel|enum}} {{options}}`
 
-- Mostra ajuda geral:
+- Mostra ajuda:
 
 `amass -help`
 
@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- Mostra a versão:
+- Mostra versão:
 
 `amass -version`

@@ -15,6 +15,6 @@
 
 `pw-mididump {{[-r|--remote]}} {{nome_istanza_remota}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-mididump {{[-h|--help]}}`

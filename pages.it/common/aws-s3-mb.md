@@ -11,6 +11,6 @@
 
 `aws s3 mb s3://{{nome_bucket}} --region {{regione}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws s3 mb help`

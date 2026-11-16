@@ -5,7 +5,7 @@
 
 - 지정된 입력 파일을 변환하고 `stdout`'으로 출력:
 
-`babel {{path/to/file}}`
+`babel {{경로/대상/파일}}`
 
 - 지정된 입력 파일을 변환하고 특정 파일로 출력:
 
@@ -31,6 +31,6 @@
 
 `babel {{path/to/input_file}} --presets {{presets}}`
 
-- 사용 가능한 모든 옵션 출력:
+- 도움말 표시:
 
 `babel --help`

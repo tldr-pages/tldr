@@ -10,7 +10,7 @@
 
 - Показать изменение баланса счетов, содержащих `expenses` в имени, в виде дерева, с группировкой до 2-го уровня:
 
-`hledger {{[bal|balance]}} {{expenses}} {{[-t|--tree]}} {{[-2|--depth 2]}}`
+`hledger {{[bal|balance]}} expenses {{[-t|--tree]}} {{[-2|--depth 2]}}`
 
 - Показать расходы помесячно с итогами, средними значениями и сортировкой по сумме, а также бюджетные цели:
 
@@ -18,20 +18,20 @@
 
 - Показать ежемесячные итоги, средние значения и бюджетные цели для счетов типа `Expense` в виде дерева до 2-го уровня без сворачивания:
 
-`hledger {{[bal|balance]}} type:{{X}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} --budget {{[-t|--tree]}} {{[-2|--depth 2]}} --no-elide`
+`hledger {{[bal|balance]}} type:X {{[-MTAS|--monthly --row-total --average --sort-amount]}} --budget {{[-t|--tree]}} {{[-2|--depth 2]}} --no-elide`
 
 - Показать конечные остатки (включая проводки до начальной даты), поквартально за 2024, для счетов, содержащих `assets` или `liabilities`:
 
-`hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
+`hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} 'quarterly in 2024' assets liabilities`
 
 - Показать поквартальные конечные остатки за 2024 для счетов активов и обязательств, включая нулевые, с сортировкой по сумме и группировкой до 3-го уровня:
 
-`hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:{{2024}} type:{{AL}} {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
+`hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:2024 type:AL {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
 
 - Показать рыночную стоимость инвестиционных активов в базовой валюте на конец каждого квартала:
 
-`hledger {{[bal|balance]}} {{[-HVQ|--historical --market --quarterly]}} {{assets:investments}}`
+`hledger {{[bal|balance]}} {{[-HVQ|--historical --market --quarterly]}} assets:investments`
 
 - Показать нереализованную прибыль/убыток от изменений рыночных цен за каждый квартал для некриптовалютных инвестиционных активов:
 
-`hledger {{[bal|balance]}} --gain {{[-Q|--quarterly]}} {{assets:investments}} not:{{cryptocurrency}}`
+`hledger {{[bal|balance]}} --gain {{[-Q|--quarterly]}} assets:investments not:cryptocurrency`

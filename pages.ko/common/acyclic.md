@@ -12,6 +12,6 @@
 
 `acyclic -v -n {{경로/대상/입력.gv}}`
 
-- `acyclic`의 도움말 표시:
+- 도움말 표시:
 
 `acyclic -?`

@@ -20,6 +20,6 @@
 
 `bugreportz -h`
 
-- Zeige die Versionsnummer von `bugreportz` an:
+- Zeige Version an:
 
 `bugreportz -v`

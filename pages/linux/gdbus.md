@@ -4,14 +4,6 @@
 > Part of GLib.
 > More information: <https://manned.org/gdbus>.
 
-- List all names on the session bus:
-
-`gdbus list-names --session`
-
-- List all names on the system bus:
-
-`gdbus list-names --system`
-
 - Introspect an object to see its interfaces and methods:
 
 `gdbus introspect --session --dest {{destination_bus_name}} --object-path /{{path/to/object}}`

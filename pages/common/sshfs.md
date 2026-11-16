@@ -5,7 +5,7 @@
 
 - Mount remote directory:
 
-`sshfs {{username}}@{{remote_host}}:{{remote_directory}} {{path/to/mount_point}}`
+`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} {{path/to/mount_point}}`
 
 - Unmount remote directory:
 
@@ -13,12 +13,12 @@
 
 - Mount remote directory from server with specific port:
 
-`sshfs {{username}}@{{remote_host}}:{{remote_directory}} -p {{2222}}`
+`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} -p {{2222}}`
 
 - Use compression:
 
-`sshfs {{username}}@{{remote_host}}:{{remote_directory}} -C`
+`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} -C`
 
 - Follow symbolic links:
 
-`sshfs -o follow_symlinks {{username}}@{{remote_host}}:{{remote_directory}} {{path/to/mount_point}}`
+`sshfs -o follow_symlinks {{username}}@{{remote_host}}:{{path/to/remote_directory}} {{path/to/mount_point}}`

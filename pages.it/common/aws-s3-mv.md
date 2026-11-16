@@ -15,6 +15,6 @@
 
 `aws s3 mv s3://{{nome_bucket}}/{{percorso/del/file}} s3://{{nome_bucket2}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws s3 mv help`

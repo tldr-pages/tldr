@@ -25,8 +25,8 @@
 
 - Build the Move project from the given path:
 
-`sui move build --path {{path}}`
+`sui move build --path {{path/to/package}}`
 
 - Migrate to Move 2024 for the package at the provided path:
 
-`sui move migrate {{path}}`
+`sui move migrate {{path/to/package}}`

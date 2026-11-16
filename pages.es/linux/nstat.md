@@ -1,12 +1,16 @@
 # nstat
 
-> Muestra las estadísticas de la red.
+> Muestra estadísticas de red.
 > Más información: <https://manned.org/nstat>.
 
-- Ve estadísticas de red desde la última vez que se ejecutó `nstat`:
+- Muestra estadísticas de red desde la última vez que se ejecutó `nstat`:
 
 `nstat`
 
-- Ve las estadísticas de red de todos los tiempos:
+- Muestra estadísticas de red acumuladas:
 
 `nstat {{[-a|--ignore]}}`
+
+- Muestra la ayuda:
+
+`nstat {{[-h|--help]}}`

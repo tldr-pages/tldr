@@ -15,6 +15,6 @@
 
 `aws-google-auth {{[-u|--username]}} {{example@example.com}} {{[-I|--idp-id]}} {{$GOOGLE_IDP_ID}} {{[-S|--sp-id]}} {{$GOOGLE_SP_ID}} {{[-d|--duration]}} {{3600}} {{[-a|--ask-role]}} --resolve-aliases`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws-google-auth {{[-h|--help]}}`

@@ -23,6 +23,6 @@
 
 `koji untag-build {{tag}} {{NVR1 NVR2 ...}} {{[-v|--verbose]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji untag-build {{[-h|--help]}}`

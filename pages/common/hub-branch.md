@@ -2,6 +2,7 @@
 
 > Create a branch or show current branch.
 > See also: `git branch`.
+> More information: <https://hub.github.com>.
 
 - Show the name of the currently active branch:
 
