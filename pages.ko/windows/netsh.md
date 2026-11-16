@@ -24,7 +24,7 @@
 
 `netsh trace show interfaces`
 
-- [대화형] 쉘 종료:
+- 쉘 종료:
 
 `exit`
 
