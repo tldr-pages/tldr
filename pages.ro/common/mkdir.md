@@ -13,7 +13,7 @@
 
 - Creează foldere cu permisiuni specifice:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{cale/către/folder1 cale/către/folder2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{cale/către/folder1 cale/către/folder2 ...}}`
 
 - Creează mai multe foldere imbricate, recursiv:
 

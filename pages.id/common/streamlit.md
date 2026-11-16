@@ -11,10 +11,10 @@
 
 `streamlit run {{nama_proyek}}`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
 `streamlit --help`
 
-- Tampilkan versi Streamlit yang terpasang:
+- Tampilkan versi:
 
 `streamlit --version`

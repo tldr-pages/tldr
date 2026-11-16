@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{路径/到/video.mp4}} -vn {{路径/到/sound.mp3}}`
 
-- 将 FLAC 文件转码为红皮书 CD 格式（44100 kHz，16 位）：
+- 将 FLAC 文件转码为红皮书 CD 格式（44100 Hz，16 位）：
 
 `ffmpeg -i {{路径/到/input_audio.flac}} -ar 44100 -sample_fmt s16 {{路径/到/output_audio.wav}}`
 
@@ -18,7 +18,7 @@
 
 - 将编号图像（如 `frame_1.jpg`、`frame_2.jpg` 等）合成为视频或 GIF：
 
-`ffmpeg -i {{路径/到/frame_%d.jpg}} -f image2 {{video.mpg | video.gif}}`
+`ffmpeg -f image2 -i {{路径/到/frame_%d.jpg}} {{video.mpg | video.gif}}`
 
 - 从给定的开始时间 mm:ss 到结束时间 mm2:ss2 裁剪视频（省略 `-to` 参数表示裁剪至末尾）：
 

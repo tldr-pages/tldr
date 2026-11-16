@@ -8,30 +8,30 @@
 
 `rg {{normal_ifade}}`
 
-- Geçerli dizinde, gizli dosyalar ve `.gitignore` da listelenen dosyalar dahil olmak üzere normal ifadeleri yinelemeli olarak ara:
+- Bir dosyada veya dizinde normal bir ifadeyi yinelemeli olarak ara:
 
-`rg --no-ignore --hidden {{normal_ifade}}`
+`rg {{normal_ifade}} {{yol/dosya_veya_dizin}}`
 
-- Normal ifadeyi yalnızca bir dizin alt kümesinde ara:
+- Değişmez bir dize desenini ara:
 
-`rg {{normal_ifade}} {{dizin_alt_kümesi}}`
+`rg {{[-F|--fixed-strings]}} -- {{dize}}`
 
-- Bir `glob` ile eşleşen dosyalarda normal bir ifade ara (örn: `README.*`):
+- Gizli dosyaları ve `.gitignore` içinde listelenen girdileri de dahil et:
 
-`rg {{normal_ifade}} --glob {{glob}}`
+`rg {{[-.|--hidden]}} --no-ignore {{normal_ifade}}`
 
-- Normal bir ifadeyle eşleşen dosya adlarını ara:
+- Yalnızca bir `glob` desenine uyan dosyalarda ara (örn. `README.*`; hariç tutmak için `!dosya_adı_deseni` kullan):
 
-`rg --files | rg {{normal_ifade}}`
+`rg {{normal_ifade}} {{[-g|--glob]}} '{{dosya_adı_glob_deseni}}'`
+
+- Geçerli dizindeki dosya adlarını yinelemeli olarak listele ve bir desenle eşleşenleri vurgula:
+
+`rg --files | rg {{[--passthru|--passthrough]}} {{normal_ifade}}`
 
 - Yalnızca eşleşen dosyaları listele (diğer komutlara yönlendirirken kullanışlıdır):
 
-`rg --files-with-matches {{normal_ifade}}`
+`rg {{[-l|--files-with-matches]}} {{normal_ifade}}`
 
-- Verilen normal ifadeyle eşleşmeyen satırları göster:
+- Desenle eşleşmeyen satırları göster:
 
-`rg --invert-match {{normal_ifade}}`
-
-- Bir değişmez dizi deseni için arama yap:
-
-`rg --fixed-strings -- {{dizi}}`
+`rg {{[-v|--invert-match]}} {{normal_ifade}}`

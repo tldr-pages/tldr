@@ -5,15 +5,15 @@
 
 - Produce a complete HTML document from a source code file:
 
-`highlight {{[-o|--out-format]}} {{html}} {{[-s|--style]}} {{theme_name}} {{[-S|--syntax]}} {{language}} {{path/to/source_code}}`
+`highlight {{[-O|--out-format]}} {{html}} {{[-s|--style]}} {{theme_name}} {{[-S|--syntax]}} {{language}} {{path/to/source_code}}`
 
 - Produce an HTML fragment, suitable for inclusion in a larger document:
 
-`highlight {{[-o|--out-format]}} {{html}} {{[-f|--fragment]}} {{[-S|--syntax]}} {{language}} {{source_file}}`
+`highlight {{[-O|--out-format]}} {{html}} {{[-f|--fragment]}} {{[-S|--syntax]}} {{language}} {{source_file}}`
 
 - Inline the CSS styling in every tag:
 
-`highlight {{[-o|--out-format]}} {{html}} --inline-css {{[-S|--syntax]}} {{language}} {{source_file}}`
+`highlight {{[-O|--out-format]}} {{html}} --inline-css {{[-S|--syntax]}} {{language}} {{source_file}}`
 
 - List all supported languages, themes, or plugins:
 
@@ -21,4 +21,4 @@
 
 - Print a CSS stylesheet for a theme:
 
-`highlight {{[-o|--out-format]}} {{html}} --print-style {{[-s|--style]}} {{theme_name}} {{[-S|--syntax]}} {{language}} --stdout`
+`highlight {{[-O|--out-format]}} {{html}} --print-style {{[-s|--style]}} {{theme_name}} {{[-S|--syntax]}} {{language}} --stdout`
