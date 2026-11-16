@@ -13,4 +13,4 @@
 
 - Buat sejumlah direktori baru dengan konfigurasi hak akses tertentu:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{jalan/menuju/direktori1 jalan/menuju/direktori2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{jalan/menuju/direktori1 jalan/menuju/direktori2 ...}}`

@@ -13,7 +13,7 @@
 
 - Opprett mapper med bestemte rettigheter:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{sti/til/mappe1 sti/til/mappe2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{sti/til/mappe1 sti/til/mappe2 ...}}`
 
 - Opprett flere nøstede mapper rekursivt:
 

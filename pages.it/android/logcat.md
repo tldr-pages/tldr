@@ -9,7 +9,7 @@
 
 - Scrivi i log di sistema in un [f]ile:
 
-`logcat -f {{percorso/al/file}}`
+`logcat -f {{percorso/del/file}}`
 
 - Visualizza le linee che corrispondono a un `regex`:
 

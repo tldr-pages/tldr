@@ -5,8 +5,8 @@
 
 - Mostra i cambiamenti in un istogramma:
 
-`diff {{file1}} {{file2}} | diffstat`
+`diff {{percorso/del/file1}} {{percorso/del/file2}} | diffstat`
 
 - Mostra inserimenti, cancellazioni e modifiche come una tabella:
 
-`diff {{file1}} {{file2}} | diffstat -t`
+`diff {{percorso/del/file1}} {{percorso/del/file2}} | diffstat -t`
