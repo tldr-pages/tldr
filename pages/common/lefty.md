@@ -24,10 +24,10 @@
 
 `lefty -el {{level}} {{path/to/file.lefty}}`
 
-- Display version:
-
-`lefty -v`
-
 - Display help:
 
 `lefty -?`
+
+- Display version:
+
+`lefty -V`
