@@ -25,4 +25,4 @@
 
 - Toon met een offset voor elke regel en een afkappende aangepaste paginabreedte:
 
-`pr {{[-o|--indent]}} {{offset}} {{[-W|--page_width]}} {{breedte}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`pr {{[-o|--indent]}} {{offset}} {{[-W|--page-width]}} {{breedte}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
