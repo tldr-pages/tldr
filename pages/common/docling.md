@@ -11,9 +11,9 @@
 
 `docling {{path/to/file.pdf}} --output {{path/to/directory}}`
 
-- Extract images as separate PNG files linked in Markdown, or embed them as base64:
+- Replace images with placeholders, or export them as separate PNG files referenced from the output:
 
-`docling --image-export-mode {{referenced|embedded}} {{path/to/file.pdf}}`
+`docling --image-export-mode {{placeholder|referenced}} {{path/to/file.pdf}}`
 
 - Export the document structure and tables to a specific format:
 
