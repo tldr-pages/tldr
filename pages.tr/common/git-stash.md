@@ -3,9 +3,9 @@
 > Yerel Git düzenlemelerini geçici bir alanda sakla.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.
 
-- Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
+- Mevcut commit'lenmemiş değişiklikleri sakla:
 
-`git stash push {{[-m|--message]}} {{keyfi_saklama_mesajı}}`
+`git stash`
 
 - Yeni (izlenmeyen) dosyalar dahil mevcut değişiklikleri sakla:
 
@@ -15,18 +15,22 @@
 
 `git stash {{[-p|--patch]}}`
 
-- Tüm saklananları göster (saklanan ismi, bağlı olduğu dal ve mesaj gösterilir):
+- Tüm saklananları listele:
 
 `git stash list`
 
-- Bir saklananı uygula (varsayılan son saklanandır ve stash@{0} olarak belirtilir):
+- Saklananın, oluşturulduğu andaki commit'e göre farkını yama (patch) olarak göster:
 
-`git stash apply {{keyfi_saklanan_veya_commit_ismi}}`
+`git stash show {{[-p|--patch]}}`
 
-- Bir saklananı uygula (varsayılan stash@{0}), ve eğer uygulanması sıkıntı çıkarmıyorsa onu saklanan listesinden kaldır:
+- Bir saklananı uygula ve uygulanması çakışmaya yol açmıyorsa onu saklananlar listesinden kaldır:
 
-`git stash pop {{keyfi_saklanan_ismi}}`
+`git stash pop`
 
-- Tüm saklananları bırak:
+- En son saklananı sil:
+
+`git stash drop`
+
+- Tüm saklananları sil:
 
 `git stash clear`

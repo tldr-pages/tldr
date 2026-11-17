@@ -7,7 +7,7 @@
 
 - Aprire un file:
 
-`nvim {{file}}`
+`nvim {{percorso/del/file}}`
 
 - Entrare nella modalità per scrivere testo (insert mode):
 

@@ -9,4 +9,4 @@
 
 - 지정된 툴체인에서 주어진 명령의 매뉴얼 페이지 보기:
 
-`rustup man --toolchain {{명령}}`
+`rustup man --toolchain {{툴체인}} {{명령}}`
