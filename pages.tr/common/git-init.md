@@ -7,10 +7,14 @@
 
 `git init`
 
-- Bir depoyu nesne verileri için SHA256 formatı ile başlat (Git versiyonu 2.29 veya üstü olmalıdır):
+- İlk dal için belirtilen ismi kullanarak bir depo başlat:
 
-`git init --object-format {{sha256}}`
+`git init {{[-b|--initial-branch]}} {{dal_ismi}}`
 
-- Yalın bir depo başlat:
+- Nesne verileri için SHA256 formatı kullanan bir depo başlat (Git versiyonu 2.29 veya üstü olmalıdır):
+
+`git init --object-format sha256`
+
+- SSH üzerinden uzak depo olarak kullanıma uygun, yalın bir depo başlat:
 
 `git init --bare`
