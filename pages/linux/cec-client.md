@@ -20,10 +20,10 @@
 
 `echo {{on 0}} | sudo cec-client {{[-s|--single-command]}}`
 
-- Set a device to standby in interactive mode:
+- [Interactive] Set a device to standby:
 
 `standby {{0}}`
 
-- Turn a device on in interactive mode:
+- [Interactive] Turn a device on:
 
 `on {{0}}`

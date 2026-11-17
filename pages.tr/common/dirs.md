@@ -13,9 +13,21 @@
 
 `dirs -p`
 
-- Dizin yığınında 0'dan başlamak üzere yalnızca nth girişini göster:
+- Dizin yığınını numaralı bir liste olarak görüntüle:
 
-`dirs +{{N}}`
+`dirs -v`
+
+- Dizin yığınını tilde (`~`) öneki olmadan görüntüle:
+
+`dirs -l`
+
+- Dizin yığınında 0'dan başlamak üzere yalnızca `n`. girişi göster (yalnızca Bash):
+
+`dirs +{{n}}`
+
+- Dizin yığınında sondan itibaren 0'dan başlamak üzere yalnızca `n`. girişi göster (yalnızca Bash):
+
+`dirs -{{n}}`
 
 - Dizin yığınını temizle:
 

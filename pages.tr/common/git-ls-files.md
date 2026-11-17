@@ -5,12 +5,16 @@
 
 - Silinen dosyaları göster:
 
-`git ls-files --deleted`
+`git ls-files {{[-d|--deleted]}}`
 
 - Düzenlenen ve silinen dosyaları göster:
 
-`git ls-files --modified`
+`git ls-files {{[-m|--modified]}}`
 
 - Yoksayılmış ve izlenmeyen dosyaları göster:
 
-`git ls-files --others`
+`git ls-files {{[-o|--others]}}`
+
+- İzlenmeyen dosyaları göster, yoksayılmış olanları gösterme:
+
+`git ls-files {{[-o|--others]}} --exclude-standard`
