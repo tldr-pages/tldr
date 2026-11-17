@@ -9,4 +9,4 @@
 
 - Override the default kube configuration file location:
 
-`dexter auth {{[-i|--client-id]}} {{client_id}} {{[-s|--client-secret]}} {{client_secret}} {{[-k|--kube-config]}} {{sample/config}}`
+`dexter auth {{[-i|--client-id]}} {{client_id}} {{[-s|--client-secret]}} {{client_secret}} {{[-k|--kube-config]}} {{path/to/config}}`
