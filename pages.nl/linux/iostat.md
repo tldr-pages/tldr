@@ -13,7 +13,7 @@
 
 - Toon CPU-statistieken:
 
-`iostat {{[-c|--compact]}}`
+`iostat -c`
 
 - Toon schijfstatistieken met schijfnamen (inclusief LVM):
 

@@ -17,4 +17,4 @@
 
 - Specify defines and includes as compilation options (after `--`):
 
-`clang-tidy {{path/to/file.cpp}} -- -I{{my_project/include}} -D{{definitions}}`
+`clang-tidy {{path/to/file.cpp}} -- -I{{path/to/include}} -D{{definitions}}`
