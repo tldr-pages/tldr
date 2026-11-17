@@ -8,14 +8,14 @@
 
 `java -jar {{path/to/arthas-boot}}.jar`
 
-- Reconnect Arthas (default port used by Arthas is 3658):
+- [Interactive] Reconnect Arthas (default port used by Arthas is 3658):
 
 `telnet localhost {{port_number}}`
 
-- Exit the current Arthas client without affecting other clients:
+- [Interactive] Exit the current Arthas client without affecting other clients:
 
 `{{exit|quit|logout|q}}`
 
-- Terminate the Arthas server, disconnecting all the Arthas clients connecting to this server:
+- [Interactive] Terminate the Arthas server, disconnecting all the Arthas clients connecting to this server:
 
 `stop`

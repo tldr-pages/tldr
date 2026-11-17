@@ -8,18 +8,18 @@
 
 `nix repl`
 
-- Load all packages from a flake (e.g. `nixpkgs`) into scope:
+- [Interactive] Load all packages from a flake (e.g. `nixpkgs`) into scope:
 
 `:lf {{nixpkgs}}`
 
-- Build a package from an expression:
+- [Interactive] Build a package from an expression:
 
 `:b {{expression}}`
 
-- Start a shell with package from the expression available:
+- [Interactive] Start a shell with package from the expression available:
 
 `:u {{expression}}`
 
-- Start a shell with dependencies of the package from the expression available:
+- [Interactive] Start a shell with dependencies of the package from the expression available:
 
 `:s {{expression}}`

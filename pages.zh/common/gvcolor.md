@@ -12,6 +12,6 @@
 
 `dot {{路径/到/输入.gv}} | gvcolor | dot -T {{png}} >{{路径/到/输出.png}}`
 
-- 显示 `gvcolor` 的帮助信息：
+- 显示帮助：
 
 `gvcolor -?`
