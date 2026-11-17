@@ -23,6 +23,10 @@
 
 `sleep {{[inf|infinity]}}`
 
+- Wacht één milliseconde:
+
+`sleep {{0.001|1e-3}}`
+
 - Toon de help:
 
 `sleep --help`
