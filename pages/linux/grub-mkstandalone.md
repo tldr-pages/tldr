@@ -1,23 +1,24 @@
 # grub-mkstandalone
 
-> Make a standalone GRUB image with a configuration file embedded in a memory disk.
+> Generate a standalone GRUB image containing all modules (and optionally files like grub.cfg) in a memory disk.
 > More information: <https://man.archlinux.org/man/grub-mkstandalone.1>.
 
 - Create a standalone GRUB image for a UEFI system, embedding a configuration file:
 
-`grub-mkstandalone --format {{x86_64-efi}} --output {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
+`grub-mkstandalone {{[-O|--format]}} {{x86_64-efi}} {{[-o|--output]}} {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
 
 - Pre-load specific modules:
 
-`grub-mkstandalone --format {{x86_64-efi}} --modules "{{part_gpt ext2}}" --output {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
+`grub-mkstandalone {{[-O|--format]}} {{x86_64-efi}} --modules "{{part_gpt ext2}}" --output {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
 
-- Set the compression type used for the core image:
+- Set the compression of the core image (only affects MIPS targets):
 
-`grub-mkstandalone --format {{x86_64-efi}} --core-compress {{xz|none|auto}} --output {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
+`grub-mkstandalone {{[-O|--format]}} {{mipsel-loongson-elf}} --core-compress {{xz|none|auto}} {{[-o|--output]}} {{path/to/grub.elf}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
+
 
 - Print verbose messages while creating the image:
 
-`grub-mkstandalone --verbose --format {{x86_64-efi}} --output {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
+`grub-mkstandalone {{[-v|--verbose]}} {{[-O|--format]}} {{x86_64-efi}} {{[-o|--output]}} {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
 
 - Display help:
 
@@ -25,4 +26,4 @@
 
 - Display version:
 
-`grub-mkstandalone --version`
+`grub-mkstandalone {{[-V|--version]}}`
