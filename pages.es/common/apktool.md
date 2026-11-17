@@ -5,7 +5,7 @@
 
 - Decodifica un archivo APK:
 
-`apktool d {{archivo}}.apk`
+`apktool d {{ruta/al/archivo}}.apk`
 
 - Construye un archivo APK desde un directorio:
 
