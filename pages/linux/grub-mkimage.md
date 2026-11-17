@@ -5,23 +5,23 @@
 
 - Create a GRUB image for a UEFI system, including specific modules:
 
-`grub-mkimage --format {{x86_64-efi}} --prefix {{/boot/grub}} --output {{path/to/grub.efi}} {{part_gpt ext2}}`
+`grub-mkimage {{[-O|--format]}} {{x86_64-efi}} {{[-p|--prefix]}} {{/boot/grub}} {{[-o|--output]}} {{path/to/grub.efi}} {{part_gpt ext2}}`
 
-- Create a core image for a BIOS system:
+-  Create a core image for a BIOS system, including the specified modules:
 
-`grub-mkimage --format {{i386-pc}} --prefix {{/boot/grub}} --output {{path/to/core.img}} {{biosdisk part_msdos ext2}}`
+`grub-mkimage {{[-O|--format]}} {{i386-pc}} {{[-p|--prefix]}} {{/boot/grub}} {{[-o|--output]}} {{path/to/core.img}} {{biosdisk part_msdos ext2}}`
 
 - Embed a configuration file in the image:
 
-`grub-mkimage --format {{x86_64-efi}} --prefix {{/boot/grub}} --config {{path/to/embedded.cfg}} --output {{path/to/grub.efi}} {{part_gpt ext2}}`
+`grub-mkimage {{[-O|--format]}} {{x86_64-efi}} {{[-p|--prefix]}} {{/boot/grub}} {{[-c|--config]}} {{path/to/embedded.cfg}} {{[-o|--output]}} {{path/to/grub.efi}} {{part_gpt ext2}}`
 
-- Set the compression type used for the image:
+- Use GRUB images and modules from a specific directory:
 
-`grub-mkimage --format {{x86_64-efi}} --prefix {{/boot/grub}} --compression {{xz|none|auto}} --output {{path/to/grub.efi}} {{part_gpt ext2}}`
+`grub-mkimage {{[-d|--directory]}} {{/usr/lib/grub/x86_64-efi}} {{[-O|--format]}} {{x86_64-efi}} {{[-p|--prefix]}} {{/boot/grub}} {{[-o|--output]}} {{path/to/grub.efi}} {{part_gpt ext2}}`
 
 - Print verbose messages while creating the image:
 
-`grub-mkimage --verbose --format {{x86_64-efi}} --prefix {{/boot/grub}} --output {{path/to/grub.efi}} {{part_gpt ext2}}`
+`grub-mkimage {{[-v|--verbose]}} {{[-O|--format]}} {{x86_64-efi}} {{[-p|--prefix]}} {{/boot/grub}} {{[-o|--output]}} {{path/to/grub.efi}} {{part_gpt ext2}}`
 
 - Display help:
 
@@ -29,4 +29,4 @@
 
 - Display version:
 
-`grub-mkimage --version`
+`grub-mkimage {{[-V|--version]}}`
