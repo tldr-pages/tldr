@@ -7,7 +7,7 @@
 
 `grub-mkimage {{[-O|--format]}} {{x86_64-efi}} {{[-p|--prefix]}} {{/boot/grub}} {{[-o|--output]}} {{path/to/grub.efi}} {{part_gpt ext2}}`
 
--  Create a core image for a BIOS system, including the specified modules:
+- Create a core image for a BIOS system, including the specified modules:
 
 `grub-mkimage {{[-O|--format]}} {{i386-pc}} {{[-p|--prefix]}} {{/boot/grub}} {{[-o|--output]}} {{path/to/core.img}} {{biosdisk part_msdos ext2}}`
 
