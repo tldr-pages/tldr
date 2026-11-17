@@ -15,7 +15,6 @@
 
 `grub-mkstandalone {{[-O|--format]}} {{mipsel-loongson-elf}} --core-compress {{xz|none|auto}} {{[-o|--output]}} {{path/to/grub.elf}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
 
-
 - Print verbose messages while creating the image:
 
 `grub-mkstandalone {{[-v|--verbose]}} {{[-O|--format]}} {{x86_64-efi}} {{[-o|--output]}} {{path/to/grub.efi}} "boot/grub/grub.cfg={{path/to/grub.cfg}}"`
