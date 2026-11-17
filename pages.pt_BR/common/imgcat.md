@@ -6,4 +6,4 @@
 
 - Exibe uma imagem na linha de comando:
 
-`imgcat {{nome_do_arquivo}}`
+`imgcat {{caminho/para/arquivo}}`
