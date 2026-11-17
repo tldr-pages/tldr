@@ -15,10 +15,10 @@
 
 `zipgrep {{[-v|--invert-match]}} "{{search_pattern}}" {{path/to/file.zip}}`
 
-- Specify files inside a Zip archive from search:
+- Include only specific files inside a Zip archive in the search:
 
-`zipgrep "{{search_pattern}}" {{path/to/file.zip}} {{file/to/search1}} {{file/to/search2}}`
+`zipgrep "{{search_pattern}}" {{path/to/file.zip}} {{path/to/included_file1 path/to/included_file2 ...}}`
 
 - Exclude files inside a Zip archive from search:
 
-`zipgrep "{{search_pattern}}" {{path/to/file.zip}} {{[-x|--line-regexp]}} {{file/to/exclude1}} {{file/to/exclude2}}`
+`zipgrep "{{search_pattern}}" {{path/to/file.zip}} -x {{path/to/excluded_file1 path/to/excluded_file2 ...}}`
