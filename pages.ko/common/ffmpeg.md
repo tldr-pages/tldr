@@ -18,7 +18,7 @@
 
 - 번호가 매겨진 이미지 (`frame_1.jpg`, `frame_2.jpg`, etc) 를 비디오 또는 GIF로 결합:
 
-`ffmpeg -i {{경로/대상/프레임_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{경로/대상/프레임_%d.jpg}} {{video.mpg|video.gif}}`
 
 - 주어진 시작 시간 mm:ss부터 종료 시간 mm2:ss2까지 비디오를 편집 (끝까지 다듬으려면 -to 플래그 생략):
 

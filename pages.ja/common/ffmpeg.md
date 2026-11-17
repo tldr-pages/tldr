@@ -18,7 +18,7 @@
 
 - 番号付けされた画像（`frame_1.jpg`, `frame_2.jpg` など）を動画または GIF に結合:
 
-`ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
+`ffmpeg -f image2 -i {{path/to/frame_%d.jpg}} {{video.mpg|video.gif}}`
 
 - 指定した開始時刻 mm:ss から終了時刻 mm2:ss2 までの動画をトリミング (最後までトリミングするには -to フラグを省略):
 
