@@ -3,7 +3,7 @@
 > Convert documents (PDF, DOCX, PPTX, HTML, images) to Markdown, JSON, or HTML using AI layout analysis and OCR.
 > More information: <https://github.com/docling-project/docling>.
 
-- Convert a file to Markdown in the current directory (replaces images with placeholders):
+- Convert a file to Markdown in the current directory:
 
 `docling {{path/to/file.pdf}}`
 
