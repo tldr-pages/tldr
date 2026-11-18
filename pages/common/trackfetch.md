@@ -20,7 +20,7 @@
 
 `trackfetch {{path/to/songs.txt}} {{[-s|--metadata-sources]}} {{deezer,itunes,musicbrainz}}`
 
-- Choose the output format (`m4a` and `opus` keep YouTube's original audio):
+- Choose the output format (the default is `m4a`; `m4a` and `opus` keep YouTube's original audio):
 
 `trackfetch {{path/to/songs.txt}} {{[-f|--format]}} {{mp3|m4a|opus}}`
 
