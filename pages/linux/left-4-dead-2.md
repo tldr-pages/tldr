@@ -14,4 +14,3 @@
 - Set the gamemode:
 
 `{{path/to/}}srcds_run +mp_gamemode {{coop|versus|survival|...}}`
-
