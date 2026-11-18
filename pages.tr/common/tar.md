@@ -22,7 +22,7 @@
 
 - Sıkıştırılmış bir arşiv dosyasını hedef dizine çıkar:
 
-`tar xf {{kaynak.tar.ext}} {{[-C|--directory]}} {{dizin}}`
+`tar xf {{kaynak.tar.ext}} {{[-C|--directory]}} {{yol/dizin}}`
 
 - Sıkıştırılmış bir arşiv oluştur ve sıkıştırma yöntemini seçmek için arşiv sonekini kullan:
 
