@@ -15,7 +15,7 @@
 
 `tensorboard --logdir {{path/to/log_directory}} --bind_all`
 
-- Start TensorBoard with named runs from multiple log directories:
+- Start TensorBoard with named runs from multiple log directories (discouraged upstream):
 
 `tensorboard --logdir_spec {{name1}}:{{path/to/log_directory1}},{{name2}}:{{path/to/log_directory2}}`
 
