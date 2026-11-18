@@ -2,7 +2,7 @@
 
 > Start the Grafana web server.
 > Run this from the Grafana installation directory, or specify `--homepath`.
-> See also: `grafana`, `grafana-cli`.
+> See also: `grafana`, `grafana cli`.
 > More information: <https://grafana.com/docs/grafana/latest/setup-grafana/start-restart-grafana/>.
 
 - Start the Grafana server:
