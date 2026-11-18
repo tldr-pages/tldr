@@ -7,6 +7,10 @@
 
 `wmctrl -l`
 
+- List all virtual [d]esktops (workspaces), marking the current one with an asterisk:
+
+`wmctrl -d`
+
 - Switch to the first window whose (partial) title matches:
 
 `wmctrl -a {{window_title}}`
@@ -26,3 +30,7 @@
 - Select a window and move it to a workspace:
 
 `wmctrl -r {{window_title}} -t {{workspace_number}}`
+
+- Close a window gracefully:
+
+`wmctrl -c {{window_title}}`
