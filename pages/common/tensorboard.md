@@ -1,7 +1,7 @@
 # tensorboard
 
 > Web-based visualization toolkit for inspecting and understanding machine learning experiments.
-> More information: <https://www.tensorflow.org/tensorboard>.
+> More information: <https://www.tensorflow.org/tensorboard/get_started>.
 
 - Start TensorBoard using the event files in a specific directory:
 
