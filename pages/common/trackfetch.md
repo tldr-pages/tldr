@@ -12,9 +12,9 @@
 
 `trackfetch {{path/to/songs.txt}} {{[-o|--output]}} {{path/to/directory}}`
 
-- Download a few tracks without a text file:
+- Download one or more tracks passed as arguments instead of a text file:
 
-`trackfetch "{{Artist1 - Title1}}" "{{Artist2 - Title2}}"`
+`trackfetch {{"Artist1 - Title1" "Artist2 - Title2" ...}}`
 
 - Choose which metadata sources to use (the default is `itunes`):
 
