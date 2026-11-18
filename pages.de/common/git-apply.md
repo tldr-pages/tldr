@@ -26,4 +26,4 @@
 
 - Speichere das Ergebnis einer Patch-Datei im Index, ohne den Arbeitsbaum zu verändern:
 
-`git apply --cache {{pfad/zu/datei}}`
+`git apply --cached {{pfad/zu/datei}}`
