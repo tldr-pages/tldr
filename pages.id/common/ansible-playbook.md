@@ -25,7 +25,7 @@
 
 - Jalankan kumpulan tugas playbook, dimulai dari nama tugas spesifik:
 
-`ansible-playbook {{playbook}} --start-at {{nama_tugas}}`
+`ansible-playbook {{playbook}} --start-at-task {{nama_tugas}}`
 
 - Jalankan kumpulan tugas playbook tanpa melakukan perubahan sebenarnya (dry-run):
 
