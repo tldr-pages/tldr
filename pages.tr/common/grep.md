@@ -14,7 +14,7 @@
 
 - Bir dizindeki tüm dosyalarda bir kalıbı tekrarlı olarak ara, binary dosyaları göz ardı et:
 
-`grep {{[-rI|--recursive --binary-files=without-match]}} "{{aranan_kalıp}}" {{dizin/yolu}}`
+`grep {{[-rI|--recursive --binary-files=without-match]}} "{{aranan_kalıp}}" {{yol/dizin}}`
 
 - Her eşleşmenin etrafında, öncesinde veya sonrasında 3 satır içerik yazdır:
 
