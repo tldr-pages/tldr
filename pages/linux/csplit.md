@@ -30,4 +30,4 @@
 
 - Split a file before each of the first 100 lines matching a `regex` and use a custom file prefix:
 
-`csplit {{[-f|--prefix]}} {{prefix}} {{path/to/file}} '/{{regex}}/' '{99}'`
+`csplit {{[-k|--keep-files]}} {{[-f|--prefix]}} {{prefix}} {{path/to/file}} '/{{regex}}/' '{99}'`
