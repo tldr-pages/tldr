@@ -1,7 +1,7 @@
 # clock-rs
 
 > A configurable clock, timer, and stopwatch for the terminal.
-> More information: <https://github.com/Oughie/clock-rs>.
+> More information: <https://github.com/Oughie/clock-rs#usage>.
 
 - Display the clock in the terminal:
 
@@ -9,7 +9,7 @@
 
 - Display the time in 12-hour format without seconds:
 
-`clock-rs {{[-t|--hide-seconds]}}`
+`clock-rs -t {{[-s|--hide-seconds]}}`
 
 - Display the time in UTC:
 
