@@ -6,3 +6,11 @@
 - Start the server:
 
 `{{path/to/}}ucc-bin server KF-bioticslab.rom`
+
+- Set the maximum player count:
+
+`{{path/to/}}ucc-bin server KF-bioticslab.rom?MaxPlayers={{6}}`
+
+- Enable VAC protection
+
+`{{path/to/}}ucc-bin server KF-bioticslab.rom?VACSecured=true`
