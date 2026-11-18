@@ -9,7 +9,7 @@
 
 - Kullanıcıya bir dosyayı/dizini okuma ve yazma izni ver:
 
-`chmod u+rw {{dosya_veya_dizin/yolu}}`
+`chmod u+rw {{yol/dosya_veya_dizin}}`
 
 - Gruptan ve diğerlerinden çalıştırma iznini kaldır:
 
@@ -33,4 +33,4 @@
 
 - Dosyalar için tüm kullanıcılara özyinelemeli olarak okuma izni ver. Ayrıca en az bir çalıştırma izni olan dosyalara ve tüm alt dizinlere çalıştırma izni ver:
 
-`chmod {{[-R|--recursive]}} a+rX {{dizin/yolu}}`
+`chmod {{[-R|--recursive]}} a+rX {{yol/dizin}}`

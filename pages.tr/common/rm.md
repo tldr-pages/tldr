@@ -22,8 +22,8 @@
 
 - Belirtilen dosyaları ve dizinleri özyinelemeli olarak sil:
 
-`rm {{[-r|--recursive]}} {{dosya_veya_dizin/yolu1 dosya_veya_dizin/yolu2 ...}}`
+`rm {{[-r|--recursive]}} {{yol/dosya_veya_dizin1 yol/dosya_veya_dizin2 ...}}`
 
 - Boş dizinleri sil (bu, güvenli yöntem olarak kabul edilir):
 
-`rm {{[-d|--dir]}} {{dizin/yolu}}`
+`rm {{[-d|--dir]}} {{yol/dizin}}`

@@ -5,11 +5,11 @@
 
 - Bir dosyaya veya dizine sembolik bağlantı oluştur:
 
-`ln {{[-s|--symbolic]}} /{{dosya_veya_dizin/yolu}} {{sembolik_bağlantı/yolu}}`
+`ln {{[-s|--symbolic]}} /{{yol/dosya_veya_dizin}} {{sembolik_bağlantı/yolu}}`
 
 - Bağlantının bulunduğu konuma göre göreli bir sembolik bağlantı oluştur:
 
-`ln {{[-s|--symbolic]}} {{dosya_veya_dizin/yolu}} {{sembolik_bağlantı/yolu}}`
+`ln {{[-s|--symbolic]}} {{yol/dosya_veya_dizin}} {{sembolik_bağlantı/yolu}}`
 
 - Mevcut bir sembolik bağlantının üzerine yazarak farklı bir dosyayı göstermesini sağla:
 

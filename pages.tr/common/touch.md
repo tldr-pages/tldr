@@ -29,4 +29,4 @@
 
 - Harf aralığıyla birden fazla dosya oluştur:
 
-`touch {{dosya/yolu{a..z}}}`
+`touch {{yol/dosya{a..z}}}`

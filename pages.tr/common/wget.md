@@ -35,4 +35,4 @@
 
 - Bir metin dosyasında saklanan tüm URL'leri belirtilen dizine indir:
 
-`wget {{[-P|--directory-prefix]}} {{dizin/yolu}} {{[-i|--input-file]}} {{url_listesi.txt}}`
+`wget {{[-P|--directory-prefix]}} {{yol/dizin}} {{[-i|--input-file]}} {{url_listesi.txt}}`

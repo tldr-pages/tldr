@@ -14,7 +14,7 @@
 
 - Uzak yama dosyası uygula:
 
-`curl {{[-L|--location]}} {{https://ornek.com/dosya.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/dosya.patch}} | git apply`
 
 - Çıktı için fark statistiği çıkar ve yamayı uygula:
 

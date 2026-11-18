@@ -10,7 +10,7 @@
 
 - Belirtilen dosya(lar)ı geri al:
 
-`git reset {{dosya(ların)/konumu}}`
+`git reset {{yol/dosya1 yol/dosya2 ...}}`
 
 - Bir dosyanın kısımlarını geri al:
 

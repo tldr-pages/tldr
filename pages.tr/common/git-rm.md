@@ -9,7 +9,7 @@
 
 - Dizini sil:
 
-`git rm -r {{dizin}}`
+`git rm -r {{yol/dizin}}`
 
 - Dizin indeksinden dosyayı sil lakin yerelde dosyaya dokunma:
 
