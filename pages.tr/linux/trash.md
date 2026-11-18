@@ -5,7 +5,7 @@
 
 - Bir dosyayı sil (çöpe gönder):
 
-`trash {{örnek/dosya}}`
+`trash {{yol/dosya}}`
 
 - Çöpteki dosyaları göster:
 

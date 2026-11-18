@@ -29,8 +29,8 @@
 
 - Tek bir dosyayı iki dal veya commit arasında karşılaştır:
 
-`git diff {{dal_1}}..{{dal_2}} {{örnek/dosya}}`
+`git diff {{dal_1}}..{{dal_2}} {{yol/dosya}}`
 
 - Mevcut daldaki farklı dosyaları başka bir daldakilerle karşılaştır:
 
-`git diff {{dal}}:{{örnek/dosya2}} {{örnek/dosya}}`
+`git diff {{dal}}:{{yol/dosya2}} {{yol/dosya1}}`

@@ -6,19 +6,19 @@
 
 - Belirtilen dosyaları sil:
 
-`rm {{dosya/yolu1 dosya/yolu2 ...}}`
+`rm {{yol/dosya1 yol/dosya2 ...}}`
 
 - Belirtilen dosyaları, var olmayanları yok sayarak sil:
 
-`rm {{[-f|--force]}} {{dosya/yolu1 dosya/yolu2 ...}}`
+`rm {{[-f|--force]}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Belirtilen dosyaları, silmeden önce tek tek onay isteyerek etkileşimli şekilde sil:
 
-`rm {{[-i|--interactive]}} {{dosya/yolu1 dosya/yolu2 ...}}`
+`rm {{[-i|--interactive]}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Belirtilen dosyaları, silinen dosyalar hakkında bilgi yazdırarak sil:
 
-`rm {{[-v|--verbose]}} {{dosya/yolu1 dosya/yolu2 ...}}`
+`rm {{[-v|--verbose]}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Belirtilen dosyaları ve dizinleri özyinelemeli olarak sil:
 

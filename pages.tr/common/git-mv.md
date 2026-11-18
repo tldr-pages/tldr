@@ -5,7 +5,7 @@
 
 - Depo içindeki dosyayı taşı ve bu hareketi sonraki commit'e ekle:
 
-`git mv {{dosya/konumu}} {{yeni/dosya/konumu}}`
+`git mv {{yol/dosya}} {{yeni/dosya/konumu}}`
 
 - Dosyayı yeniden adlandır ve yeniden adlandırma hareketini sonraki commit'e ekle:
 

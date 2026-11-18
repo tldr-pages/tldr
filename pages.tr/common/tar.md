@@ -6,11 +6,11 @@
 
 - Bir arşiv oluştur ve dosyaya yaz:
 
-`tar cf {{hedef.tar}} {{dosya1 dosya2 ...}}`
+`tar cf {{hedef.tar}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Bir gzip arşivi oluştur ve dosyaya yaz:
 
-`tar czf {{hedef.tar.gz}} {{dosya1 dosya2 ...}}`
+`tar czf {{hedef.tar.gz}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Göreceli yolları kullanarak bir gzip arşivi oluştur:
 
@@ -26,7 +26,7 @@
 
 - Sıkıştırılmış bir arşiv oluştur ve sıkıştırma yöntemini seçmek için arşiv sonekini kullan:
 
-`tar caf {{hedef.tar.xz}} {{dosya1 dosya2 ...}}`
+`tar caf {{hedef.tar.xz}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Bir tar arşivinin içeriğini ayrıntılı olarak listele:
 

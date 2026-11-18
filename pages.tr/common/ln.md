@@ -17,4 +17,4 @@
 
 - Bir dosyaya sabit bağlantı oluştur:
 
-`ln /{{dosya/yolu}} {{sabit_bağlantı/yolu}}`
+`ln /{{yol/dosya}} {{sabit_bağlantı/yolu}}`
