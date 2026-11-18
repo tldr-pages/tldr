@@ -25,7 +25,7 @@
 
 - Artan sayılarla birden fazla dosya oluştur:
 
-`touch {{dosya/yolu{1..10}}}`
+`touch {{yol/dosya{1..10}}}`
 
 - Harf aralığıyla birden fazla dosya oluştur:
 
