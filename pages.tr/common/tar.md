@@ -14,7 +14,7 @@
 
 - Göreceli yolları kullanarak bir gzip arşivi oluştur:
 
-`tar czf {{hedef.tar.gz}} {{[-C|--directory]}} {{dizin/yolu}} .`
+`tar czf {{hedef.tar.gz}} {{[-C|--directory]}} {{yol/dizin}} .`
 
 - Sıkıştırılmış bir arşiv dosyasını geçerli dizine ayrıntılı şekilde çıkar:
 
