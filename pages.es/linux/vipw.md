@@ -5,7 +5,7 @@
 
 - Edita el archivo de contraseñas:
 
-`vipw`
+`sudo vipw`
 
 - Muestra la versión:
 

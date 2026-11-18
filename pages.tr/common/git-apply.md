@@ -26,4 +26,4 @@
 
 - Yama sonucunu çalışan ağacı değiştirmeden indekste sakla:
 
-`git apply --cache {{örnek/dosya}}`
+`git apply --cached {{örnek/dosya}}`
