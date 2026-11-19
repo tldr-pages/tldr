@@ -10,3 +10,7 @@
 - Affiche le répertoire actuel tout en traduisant les liens symboliques (c.-à-d. afficher le répertoire « physique ») :
 
 `pwd {{[-P|--physical]}}`
+
+- Affiche l'aide :
+
+`pwd --help`
