@@ -10,12 +10,12 @@
 
 - 사용자 정의 디렉터리에서 폰트 목록 출력:
 
-`figlist -d {{경로/대상/디렉터리}}`
+`figlist -d {{경로/대상/폴더}}`
 
 - 키워드로 폰트 검색:
 
-`figlist -d {{경로/대상/디렉터리}} | grep {{keyword}}`
+`figlist -d {{경로/대상/폴더}} | grep {{keyword}}`
 
 - 지정한 디렉터리의 전체 폰트 개수 출력:
 
-`figlist -d {{경로/대상/디렉터리}} | wc {{[-l|--lines]}}`
+`figlist -d {{경로/대상/폴더}} | wc {{[-l|--lines]}}`

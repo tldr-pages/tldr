@@ -6,12 +6,12 @@
 
 - 각 명령을 실행하고, 각 명령에 `stdin`의 별도 복사본 제공:
 
-`pee {{명령1 명령2 ...}}`
+`pee {{명령어1 명령어2 ...}}`
 
 - `stdin`의 복사본을 `stdout`에 쓰기 (`tee`처럼 동작):
 
-`pee cat {{명령1 명령2 ...}}`
+`pee cat {{명령어1 명령어2 ...}}`
 
 - `SIGPIPE` 및 쓰기 오류 발생 시 즉시 종료:
 
-`pee --no-ignore-sigpipe --no-ignore-write-errors {{명령1 명령2 ...}}`
+`pee --no-ignore-sigpipe --no-ignore-write-errors {{명령어1 명령어2 ...}}`

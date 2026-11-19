@@ -25,7 +25,7 @@
 
 - CSV 파일의 데이터를 사용하여 MySQL 데이터베이스에 테이블 생성:
 
-`trdsql -driver mysql -dsn "{{사용자명}}:{{비밀번호}}@{{호스트명}}/{{데이터베이스}}" -ih "CREATE TABLE {{테이블}} ({{열1}} int, {{열2}} varchar(20)) AS SELECT {{열3}} AS {{열1}},{{열2}} FROM {{경로/대상/헤더_파일.csv}}"`
+`trdsql -driver mysql -dsn "{{사용자_이름}}:{{비밀번호}}@{{호스트명}}/{{데이터베이스}}" -ih "CREATE TABLE {{테이블}} ({{열1}} int, {{열2}} varchar(20)) AS SELECT {{열3}} AS {{열1}},{{열2}} FROM {{경로/대상/헤더_파일.csv}}"`
 
 - 압축된 로그 파일의 데이터 표시:
 

@@ -17,7 +17,7 @@
 
 - 지정한 디렉터리의 설정 파일 (`app.toml`, `keymap.toml`, `theme.toml`):
 
-`spotify_player {{[-c|--config-folder]}} {{경로/대상/디렉터리}}`
+`spotify_player {{[-c|--config-folder]}} {{경로/대상/폴더}}`
 
 - 현재 재생 중인 트랙에 좋아요 표시:
 

@@ -13,7 +13,7 @@
 
 - 자격 증명을 사용하여 새 패키지 소스 추가:
 
-`choco source add {{[-n|--name]}} {{이름}} {{[-s|--source]}} {{url}} {{[-u|--user]}} {{사용자_명}} {{[-p|--password]}} {{비밀번호}}`
+`choco source add {{[-n|--name]}} {{이름}} {{[-s|--source]}} {{url}} {{[-u|--user]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}}`
 
 - 클라이언트 인증서를 사용하여 새 패키지 소스 추가:
 

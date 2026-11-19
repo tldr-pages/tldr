@@ -34,4 +34,4 @@
 
 - 파일에 접근할 때 명령 실행:
 
-`inotifywait {{[-e|--event]}} access {{경로/대상/파일}} && {{명령}}`
+`inotifywait {{[-e|--event]}} access {{경로/대상/파일}} && {{명령어}}`

@@ -13,7 +13,7 @@
 
 - 특정 디렉터리에서 JupyterLab 시작:
 
-`jupyter lab --notebook-dir {{경로/대상/디렉터리}}`
+`jupyter lab --notebook-dir {{경로/대상/폴더}}`
 
 - 디버그 모드로 JupyterLab 시작:
 

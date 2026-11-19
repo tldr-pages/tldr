@@ -18,8 +18,8 @@
 
 - 지정한 가상 호스트에서 사용자의 권한 설정:
 
-`rabbitmqctl set_permissions {{[-p|--vhost]}} {{vhost_이름}} {{사용자명}} {{read}} {{write}} {{configure}}`
+`rabbitmqctl set_permissions {{[-p|--vhost]}} {{vhost_이름}} {{사용자_이름}} {{read}} {{write}} {{configure}}`
 
 - 지정한 가상 호스트에서 사용자의 권한 제거:
 
-`rabbitmqctl clear_permissions {{[-p|--vhost]}} {{vhost_이름}} {{사용자명}}`
+`rabbitmqctl clear_permissions {{[-p|--vhost]}} {{vhost_이름}} {{사용자_이름}}`

@@ -13,7 +13,7 @@
 
 - BATS 테스트 케이스를 반복적으로([r]ecursively) 실행 (`.bats` 확장자를 가진 파일):
 
-`bats {{[-r|--recursive]}} {{경로/대상/디렉터리}}`
+`bats {{[-r|--recursive]}} {{경로/대상/폴더}}`
 
 - 특정 형식([F]ormat)으로 결과를 출력:
 

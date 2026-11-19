@@ -14,7 +14,7 @@
 
 - 새로운 데몬을 시작하고 출력을 `screenlog.x`에 기록:
 
-`screen -dmLS {{세션_이름}} {{명령}}`
+`screen -dmLS {{세션_이름}} {{명령어}}`
 
 - 열린 screen 세션 표시:
 

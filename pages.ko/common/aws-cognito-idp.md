@@ -17,7 +17,7 @@
 
 - 특정 풀에 사용자 생성:
 
-`aws cognito-idp admin-create-user --username {{사용자명}} --user-pool-id {{사용자_풀_아이디}}`
+`aws cognito-idp admin-create-user --username {{사용자_이름}} --user-pool-id {{사용자_풀_아이디}}`
 
 - 특정 풀의 사용자 나열:
 
@@ -25,4 +25,4 @@
 
 - 특정 풀에서 사용자 삭제:
 
-`aws cognito-idp admin-delete-user --username {{사용자명}} --user-pool-id {{사용자_풀_아이디}}`
+`aws cognito-idp admin-delete-user --username {{사용자_이름}} --user-pool-id {{사용자_풀_아이디}}`

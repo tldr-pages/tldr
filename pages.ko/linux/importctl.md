@@ -5,7 +5,7 @@
 
 - url에서 tarball 형식의 이미지를 다운로드:
 
-`sudo importctl pull-tar {{url}} {{경로/대상/디렉터리}}`
+`sudo importctl pull-tar {{url}} {{경로/대상/폴더}}`
 
 - 원격의 raw 또는 `.qcow2` 파일 이미지를 다운로드하여 raw 파일로 저장:
 

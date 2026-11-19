@@ -13,11 +13,11 @@
 
 - 기본 인증을 사용하여 모든 저장소 덤프:
 
-`dockdiver -url {{https://example.com}} -dump-all -username {{사용자명}} -password {{비밀번호}}`
+`dockdiver -url {{https://example.com}} -dump-all -username {{사용자_이름}} -password {{비밀번호}}`
 
 - 요청 속도 제한 및 사용자 지정 포트(기본 포트는 `5000`)를 설정하여 저장소 덤프:
 
-`dockdiver -url {{https://example.com}} -dump {{저장소_이름}} -port {{port}} -rate {{초_당_요청}} -dir {{경로/대상/출력_디렉토리}}`
+`dockdiver -url {{https://example.com}} -dump {{저장소_이름}} -port {{포트}} -rate {{초_당_요청}} -dir {{경로/대상/출력_디렉토리}}`
 
 - 인증을 위해 Bearer Token을 사용하여 모든 저장소 덤프:
 

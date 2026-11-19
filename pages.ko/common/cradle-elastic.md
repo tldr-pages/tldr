@@ -9,7 +9,7 @@
 
 - 특정 패키지에 대한 ElasticSearch 색인 자르기:
 
-`cradle elastic flush {{패키지_명}}`
+`cradle elastic flush {{패키지}}`
 
 - ElasticSearch 스키마 제출:
 
@@ -17,7 +17,7 @@
 
 - 특정 패키지에 대한 ElasticSearch 스키마 제출:
 
-`cradle elastic map {{패키지_명}}`
+`cradle elastic map {{패키지}}`
 
 - 모든 패키지에 대한 ElasticSearch 색인 채우기:
 
@@ -25,4 +25,4 @@
 
 - 특정 패키지에 대한 ElasticSearch 색인 채우기:
 
-`cradle elastic populate {{패키지_명}}`
+`cradle elastic populate {{패키지}}`

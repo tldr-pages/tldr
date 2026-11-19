@@ -10,12 +10,12 @@
 
 - 지정된 사용자를 Samba에 추가하고 비밀번호 설정 (사용자는 시스템에 이미 존재해야 함):
 
-`sudo smbpasswd -a {{사용자명}}`
+`sudo smbpasswd -a {{사용자_이름}}`
 
 - 기존 Samba 사용자의 비밀번호 수정:
 
-`sudo smbpasswd {{사용자명}}`
+`sudo smbpasswd {{사용자_이름}}`
 
 - Samba 사용자 삭제 (유닉스 계정이 삭제된 경우에는 `pdbedit` 사용):
 
-`sudo smbpasswd -x {{사용자명}}`
+`sudo smbpasswd -x {{사용자_이름}}`

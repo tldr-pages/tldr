@@ -10,7 +10,7 @@
 
 - 디렉터리의 `kustomization.yaml`을 사용하여 리소스 설정 적용:
 
-`kubectl apply {{[-k|--kustomize]}} {{경로/대상/디렉터리}}`
+`kubectl apply {{[-k|--kustomize]}} {{경로/대상/폴더}}`
 
 - `stdin`으로부터 리소스 설정 적용:
 

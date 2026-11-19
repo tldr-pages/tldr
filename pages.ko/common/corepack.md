@@ -9,7 +9,7 @@
 
 - 특정 디렉토리에 Corepack shim을 추가함:
 
-`corepack enable --install-directory {{경로/대상/디렉토리}}`
+`corepack enable --install-directory {{경로/대상/폴더}}`
 
 - Node.js 설치 디렉터리에서 Corepack shim을 제거:
 

@@ -6,8 +6,8 @@
 
 - 기본 도구 체인에서 바이너리의 경로 표시:
 
-`rustup which {{명령}}`
+`rustup which {{명령어}}`
 
 - 지정된 도구 체인에서 바이너리의 경로 표시 (`rustup help toolchain`에서 더 많은 정보 확인):
 
-`rustup which --toolchain {{도구_체인}} {{명령}}`
+`rustup which --toolchain {{도구_체인}} {{명령어}}`

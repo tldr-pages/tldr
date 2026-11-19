@@ -10,23 +10,23 @@
 
 - 사용자 이름으로 레지스트리에 로그인 (비밀번호 입력 요청 표시):
 
-`apptainer registry login {{[-u|--username]}} {{사용자명}} docker://{{레지스트리}}`
+`apptainer registry login {{[-u|--username]}} {{사용자_이름}} docker://{{레지스트리}}`
 
 - 사용자 정의 OCI 레지스트리에 로그인:
 
-`apptainer registry login {{[-u|--username]}} {{사용자명}} oras://{{레지스트리}}`
+`apptainer registry login {{[-u|--username]}} {{사용자_이름}} oras://{{레지스트리}}`
 
 - 사용자 이름과 비밀번호로 로그인:
 
-`apptainer registry login {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{password}} docker://{{레지스트리}}`
+`apptainer registry login {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} docker://{{레지스트리}}`
 
 - `stdin`으로 비밀번호를 전달하여 로그인:
 
-`echo "{{password}}" | apptainer registry login {{[-u|--username]}} {{사용자명}} --password-stdin docker://{{레지스트리}}`
+`echo "{{비밀번호}}" | apptainer registry login {{[-u|--username]}} {{사용자_이름}} --password-stdin docker://{{레지스트리}}`
 
 - 사용자 정의 인증 파일을 사용하여 로그인:
 
-`apptainer registry login --authfile {{path/to/auth.json}} {{[-u|--username]}} {{사용자명}} docker://{{레지스트리}}`
+`apptainer registry login --authfile {{path/to/auth.json}} {{[-u|--username]}} {{사용자_이름}} docker://{{레지스트리}}`
 
 - 레지스트리에서 로그아웃:
 

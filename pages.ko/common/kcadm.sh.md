@@ -5,11 +5,11 @@
 
 - 인증된 세션 시작:
 
-`kcadm.sh config credentials --server {{호스트}} --realm {{영역_이름}} --user {{사용자명}} --password {{비밀번호}}`
+`kcadm.sh config credentials --server {{호스트}} --realm {{영역_이름}} --user {{사용자_이름}} --password {{비밀번호}}`
 
 - 사용자 생성:
 
-`kcadm.sh create users -s username={{사용자명}} -r {{영역_이름}}`
+`kcadm.sh create users -s username={{사용자_이름}} -r {{영역_이름}}`
 
 - 모든 영역 나열:
 

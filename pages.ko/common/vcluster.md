@@ -9,7 +9,7 @@
 
 - 로컬 포트와 Insecure 모드를 사용하여 가상 클러스터에 연결:
 
-`vcluster connect {{vcluster_이름}} {{[-n|--namespace]}} {{네임스페이스}} --local-port {{port}} --insecure`
+`vcluster connect {{vcluster_이름}} {{[-n|--namespace]}} {{네임스페이스}} --local-port {{포트}} --insecure`
 
 - 모든 가상 클러스터 목록 표시:
 

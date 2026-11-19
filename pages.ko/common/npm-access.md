@@ -9,7 +9,7 @@
 
 - 패키지의 공동 작업자 나열:
 
-`npm access list collaborators {{패키지_이름}} {{사용자_명}}`
+`npm access list collaborators {{패키지_이름}} {{사용자_이름}}`
 
 - 패키지 상태 확인:
 

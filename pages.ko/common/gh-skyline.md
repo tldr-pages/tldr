@@ -10,15 +10,15 @@
 
 - 특정 사용자와 연도를 기준으로 skyline 생성:
 
-`gh skyline {{[-u|--user]}} {{사용자명}} {{[-y|--year]}} {{year}}`
+`gh skyline {{[-u|--user]}} {{사용자_이름}} {{[-y|--year]}} {{year}}`
 
 - 특정 사용자에 대해 여러 연도 범위의 skyline 생성:
 
-`gh skyline {{[-u|--user]}} {{사용자명}} {{[-y|--year]}} {{시작_연도}}-{{종료_연도}}`
+`gh skyline {{[-u|--user]}} {{사용자_이름}} {{[-y|--year]}} {{시작_연도}}-{{종료_연도}}`
 
 - 사용자의 가입 연도부터 현재까지 전체 skyline 생성:
 
-`gh skyline {{[-u|--user]}} {{사용자명}} {{[-f|--full]}}`
+`gh skyline {{[-u|--user]}} {{사용자_이름}} {{[-f|--full]}}`
 
 - 디버그 로깅 활성화:
 
@@ -30,7 +30,7 @@
 
 - 특정 사용자의 GitHub 프로필을 브라우저에서 열기:
 
-`gh skyline {{[-u|--user]}} {{사용자명}} {{[-w|--web]}}`
+`gh skyline {{[-u|--user]}} {{사용자_이름}} {{[-w|--web]}}`
 
 - 도움말 표시:
 

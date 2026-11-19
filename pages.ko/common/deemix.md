@@ -14,8 +14,8 @@
 
 - 특정 경로로 다운로드:
 
-`deemix --bitrate {{비트전송률}} --path {{경로}} {{url}}`
+`deemix --bitrate {{비트전송률}} --path {{경로/대상/폴더}} {{url}}`
 
 - 현재 디렉터리에 휴대용 deemix 구성 파일을 생성:
 
-`deemix --portable --bitrate {{비트전송률}} --path {{경로}} {{url}}`
+`deemix --portable --bitrate {{비트전송률}} --path {{경로/대상/폴더}} {{url}}`

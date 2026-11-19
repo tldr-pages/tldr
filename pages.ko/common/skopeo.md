@@ -26,4 +26,4 @@
 
 - 레지스트리에 로그인:
 
-`skopeo login --username {{사용자명}} {{레지스트리_호스트명}}`
+`skopeo login --username {{사용자_이름}} {{레지스트리_호스트명}}`

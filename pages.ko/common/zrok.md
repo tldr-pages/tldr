@@ -26,7 +26,7 @@
 
 - 로컬 디렉터리를 간단한 웹사이트로 공개:
 
-`zrok share public --backend-mode web {{경로/대상/디렉터리}}`
+`zrok share public --backend-mode web {{경로/대상/폴더}}`
 
 - zrok 환경 상태 및 활성 공유 확인:
 

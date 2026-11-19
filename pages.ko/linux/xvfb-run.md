@@ -5,12 +5,12 @@
 
 - 가상 X 서버에서 지정된 명령 실행:
 
-`xvfb-run {{명령}}`
+`xvfb-run {{명령어}}`
 
 - 기본값(99)이 사용 불가능한 경우, 사용 가능한 서버 번호를 자동으로 선택:
 
-`xvfb-run {{[-a|--auto-servernum]}} {{명령}}`
+`xvfb-run {{[-a|--auto-servernum]}} {{명령어}}`
 
 - Xvfb 서버에 인수 전달:
 
-`xvfb-run {{[-s|--server-args]}} "{{-screen 0 1024x768x24}}" {{명령}}`
+`xvfb-run {{[-s|--server-args]}} "{{-screen 0 1024x768x24}}" {{명령어}}`

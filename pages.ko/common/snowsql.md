@@ -5,7 +5,7 @@
 
 - <https://account.snowflakecomputing.com>의 특정 인스턴스에 연결 (비밀번호는 프롬프트 또는 설정 파일에서 제공 가능):
 
-`snowsql --accountname {{계정}} --username {{사용자명}} --dbname {{데이터베이스}} --schemaname {{스키마}}`
+`snowsql --accountname {{계정}} --username {{사용자_이름}} --dbname {{데이터베이스}} --schemaname {{스키마}}`
 
 - 특정 설정 파일에 지정된 인스턴스에 연결 (기본값은 `~/.snowsql/config`):
 

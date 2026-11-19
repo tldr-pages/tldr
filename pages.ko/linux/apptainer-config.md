@@ -5,19 +5,19 @@
 
 - fakeroot 사용자 매핑 추가:
 
-`sudo apptainer config fakeroot {{[-a|--add]}} {{사용자명}}`
+`sudo apptainer config fakeroot {{[-a|--add]}} {{사용자_이름}}`
 
 - fakeroot 사용자 매핑 제거:
 
-`sudo apptainer config fakeroot {{[-r|--remove]}} {{사용자명}}`
+`sudo apptainer config fakeroot {{[-r|--remove]}} {{사용자_이름}}`
 
 - fakeroot 사용자 매핑 활성화:
 
-`sudo apptainer config fakeroot {{[-e|--enable]}} {{사용자명}}`
+`sudo apptainer config fakeroot {{[-e|--enable]}} {{사용자_이름}}`
 
 - fakeroot 사용자 매핑 비활성화:
 
-`sudo apptainer config fakeroot {{[-d|--disable]}} {{사용자명}}`
+`sudo apptainer config fakeroot {{[-d|--disable]}} {{사용자_이름}}`
 
 - 전역 설정 항목의 현재 값 조회:
 

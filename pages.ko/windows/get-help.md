@@ -6,23 +6,23 @@
 
 - 특정 PowerShell 명령에 대한 일반적인 도움말 정보 표시:
 
-`Get-Help {{명령}}`
+`Get-Help {{명령어}}`
 
 - 특정 PowerShell 명령에 대한 자세한 문서 표시:
 
-`Get-Help {{명령}} -Detailed`
+`Get-Help {{명령어}} -Detailed`
 
 - 특정 PowerShell 명령에 대한 전체 기술 문서 표시:
 
-`Get-Help {{명령}} -Full`
+`Get-Help {{명령어}} -Full`
 
 - 특정 PowerShell 명령의 특정 매개변수 문서만 표시 (가능한 경우 `*`을 사용하여 모든 매개변수 표시):
 
-`Get-Help {{명령}} -Parameter {{매개변수}}`
+`Get-Help {{명령어}} -Parameter {{매개변수}}`
 
 - cmdlet의 예제만 표시 (가능한 경우):
 
-`Get-Help {{명령}} -Examples`
+`Get-Help {{명령어}} -Examples`
 
 - 사용 가능한 모든 cmdlet 도움말 페이지 나열:
 
@@ -34,4 +34,4 @@
 
 - 기본 웹 브라우저에서 PowerShell 명령 문서의 온라인 버전 보기:
 
-`Get-Help {{명령}} -Online`
+`Get-Help {{명령어}} -Online`

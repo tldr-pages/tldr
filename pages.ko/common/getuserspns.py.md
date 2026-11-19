@@ -6,20 +6,20 @@
 
 - SPN이 설정된 사용자 계정을 열거하고 Kerberos TGS 티켓 요청:
 
-`GetUserSPNs.py {{도메인}}/{{사용자명}}:{{비밀번호}} -dc-ip {{도메인_컨트롤러_ip}}`
+`GetUserSPNs.py {{도메인}}/{{사용자_이름}}:{{비밀번호}} -dc-ip {{도메인_컨트롤러_ip}}`
 
 - pass-the-hash 인증 사용:
 
-`GetUserSPNs.py {{도메인}}/{{사용자명}} -hashes {{LM_Hash}}:{{NT_Hash}} -dc-ip {{도메인_컨트롤러_ip}}`
+`GetUserSPNs.py {{도메인}}/{{사용자_이름}} -hashes {{LM_Hash}}:{{NT_Hash}} -dc-ip {{도메인_컨트롤러_ip}}`
 
 - 결과를 파일로 저장:
 
-`GetUserSPNs.py {{도메인}}/{{사용자명}}:{{비밀번호}} -dc-ip {{도메인_컨트롤러_ip}} -outputfile {{경로/대상/출력_파일}}`
+`GetUserSPNs.py {{도메인}}/{{사용자_이름}}:{{비밀번호}} -dc-ip {{도메인_컨트롤러_ip}} -outputfile {{경로/대상/출력_파일}}`
 
 - TGS 티켓만 요청:
 
-`GetUserSPNs.py {{도메인}}/{{사용자명}}:{{비밀번호}} -dc-ip {{도메인_컨트롤러_ip}} -request`
+`GetUserSPNs.py {{도메인}}/{{사용자_이름}}:{{비밀번호}} -dc-ip {{도메인_컨트롤러_ip}} -request`
 
 - pass-the-hash 인증을 사용하여 TGS 티켓만 요청:
 
-`GetUserSPNs.py {{도메인}}/{{사용자명}} -dc-ip {{도메인_컨트롤러_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} -request`
+`GetUserSPNs.py {{도메인}}/{{사용자_이름}} -dc-ip {{도메인_컨트롤러_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} -request`

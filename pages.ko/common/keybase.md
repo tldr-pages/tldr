@@ -5,7 +5,7 @@
 
 - 다른 사용자 팔로우:
 
-`keybase follow {{사용자명}}`
+`keybase follow {{사용자_이름}}`
 
 - 새로운 증명 추가:
 

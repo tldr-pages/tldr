@@ -25,4 +25,4 @@
 
 - 설치된 Node.js 명령의 위치 표시 (예: `npm`):
 
-`nodenv which {{명령}}`
+`nodenv which {{명령어}}`

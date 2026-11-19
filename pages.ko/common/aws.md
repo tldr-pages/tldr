@@ -34,4 +34,4 @@
 
 - AWS 명령에 대한 도움말:
 
-`aws {{command}} help`
+`aws {{명령어}} help`

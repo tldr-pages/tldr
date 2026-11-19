@@ -9,7 +9,7 @@
 
 - 테이블을 검사하고 접근을 위한 인증 정보 제공:
 
-`mysqlcheck --check {{테이블}} --user {{사용자_명}} --password {{비밀번호}}`
+`mysqlcheck --check {{테이블}} --user {{사용자_이름}} --password {{비밀번호}}`
 
 - 테이블 복구:
 

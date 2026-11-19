@@ -10,11 +10,11 @@
 
 - 패키지에 대한 정보 출력:
 
-`cabal info {{패키지_이름}}`
+`cabal info {{패키지}}`
 
 - 패키지 다운로드 및 설치:
 
-`cabal install {{패키지_이름}}`
+`cabal install {{패키지}}`
 
 - 현재 디렉토리에서 새로운 Haskell 프로젝트 생성:
 

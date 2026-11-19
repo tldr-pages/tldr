@@ -9,12 +9,12 @@
 
 - 지정된 초 수 기다린 후 스크린샷 찍기:
 
-`nxc rdp {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --screenshot --screentime {{10}}`
+`nxc rdp {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --screenshot --screentime {{10}}`
 
 - 지정된 해상도로 스크린샷 찍기:
 
-`nxc rdp {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --screenshot --res {{1024x768}}`
+`nxc rdp {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --screenshot --res {{1024x768}}`
 
 - 네트워크 수준 인증이 비활성화된 경우 RDP 로그인 프롬프트의 스크린샷 찍기:
 
-`nxc rdp {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --nla-screenshot`
+`nxc rdp {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --nla-screenshot`

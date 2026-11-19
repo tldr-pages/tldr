@@ -6,7 +6,7 @@
 
 - IaC(Terraform, Cloudformation, ARM, Ansible, Bicep, Dockerfile 등)가 포함된 디렉터리를 스캔:
 
-`checkov --directory {{경로/대상/디렉터리}}`
+`checkov --directory {{경로/대상/폴더}}`
 
 - 출력에서 코드 블록을 생략하고 IaC 파일을 스캔:
 

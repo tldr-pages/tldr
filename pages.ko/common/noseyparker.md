@@ -7,7 +7,7 @@
 
 - 로컬 파일 또는 디렉터리에서 비밀 정보 스캔:
 
-`noseyparker scan {{경로/대상/파일_또는_디렉터리}} {{[-d|--datastore]}} {{경로/대상/datastore.np}}`
+`noseyparker scan {{경로/대상/파일_또는_폴더}} {{[-d|--datastore]}} {{경로/대상/datastore.np}}`
 
 - 이전 스캔 결과 리포트 출력:
 

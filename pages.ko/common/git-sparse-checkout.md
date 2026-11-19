@@ -13,8 +13,8 @@
 
 - 포함할 디렉터리(또는 파일) 지정:
 
-`git sparse-checkout set {{경로/대상/디렉터리}}`
+`git sparse-checkout set {{경로/대상/폴더}}`
 
 - 이후 추가 경로 포함하기:
 
-`git sparse-checkout add {{경로/대상/디렉터리}}`
+`git sparse-checkout add {{경로/대상/폴더}}`

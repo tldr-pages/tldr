@@ -17,8 +17,8 @@
 
 - `stdin`에서 인코딩:
 
-`{{somecommand}} | base64`
+`{{명령어}} | base64`
 
 - `stdin`에서 디코딩:
 
-`{{somecommand}} | base64 {{[-d|--decode]}}`
+`{{명령어}} | base64 {{[-d|--decode]}}`

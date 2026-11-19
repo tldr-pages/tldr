@@ -14,4 +14,4 @@
 
 - 파일의 첫 번째 줄을 비밀번호로 사용하여 원격 서버에 연결하고, 알 수 없는 SSH 키를 자동으로 수락하며 명령 실행:
 
-`sshpass -f {{경로/대상/파일}} ssh -o StrictHostKeyChecking=no {{사용자}}@{{호스트명}} "{{명령}}"`
+`sshpass -f {{경로/대상/파일}} ssh -o StrictHostKeyChecking=no {{사용자}}@{{호스트명}} "{{명령어}}"`

@@ -9,8 +9,8 @@
 
 - 특정 명령 실행:
 
-`robo {{foo}}`
+`robo {{명령어}}`
 
 - 특정 명령 실행 시뮬레이션:
 
-`robo --simulate {{foo}}`
+`robo --simulate {{명령어}}`

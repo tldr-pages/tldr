@@ -13,7 +13,7 @@
 
 - 클러스터 상태를 디렉터리에 저장:
 
-`kubectl cluster-info dump --output-directory {{경로/대상/디렉터리}}`
+`kubectl cluster-info dump --output-directory {{경로/대상/폴더}}`
 
 - 특정 kubeconfig 컨텍스트를 사용해 클러스터 정보 표시:
 

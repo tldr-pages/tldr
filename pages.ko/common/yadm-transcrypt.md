@@ -11,7 +11,7 @@
 
 - 키를 유도할 암호 전달:
 
-`yadm transcrypt {{[-p|--password]}} {{암호}}`
+`yadm transcrypt {{[-p|--password]}} {{비밀번호}}`
 
 - 예를 가정하고 지정되지 않은 옵션에 대해 기본값 수락:
 

@@ -21,7 +21,7 @@
 
 - 디렉터리의 모든 사진을 찍은 날짜를 1시간 앞으로 이동:
 
-`exiftool "-AllDates+=0:0:0 1:0:0" {{경로/대상/디렉토리}}`
+`exiftool "-AllDates+=0:0:0 1:0:0" {{경로/대상/폴더}}`
 
 - 현재 디렉토리의 모든 JPEG 사진을 촬영한 날짜를 1일 2시간 뒤로 이동:
 
@@ -33,4 +33,4 @@
 
 - `DateTimeOriginal` 필드를 기반으로 디렉토리에 있는 모든 JPEG 사진의 이름을 반복적으로 변경:
 
-`exiftool '-filename<DateTimeOriginal' {{[-d|-dateFormat]}} %Y-%m-%d_%H-%M-%S%%lc.%%e {{경로/대상/디렉토리}} {{[-r|-recurse]}} {{[-ext|-extension]}} jpg`
+`exiftool '-filename<DateTimeOriginal' {{[-d|-dateFormat]}} %Y-%m-%d_%H-%M-%S%%lc.%%e {{경로/대상/폴더}} {{[-r|-recurse]}} {{[-ext|-extension]}} jpg`

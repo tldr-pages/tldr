@@ -5,7 +5,7 @@
 
 - 템플릿 또는 URL을 사용하여 새로운 Pulumi Policy Pack을 생성:
 
-`pulumi policy new --dir {{경로/대상/디렉터리}} {{template|url}}`
+`pulumi policy new --dir {{경로/대상/폴더}} {{template|url}}`
 
 - 정책 설정의 구문 유효성 검사. 프로젝트에 정책을 적용하여 검사하려면 `pulumi preview` 사용:
 

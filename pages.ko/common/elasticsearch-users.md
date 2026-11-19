@@ -5,19 +5,19 @@
 
 - 새로운 사용자 추가 (비밀번호 입력 프롬프트 표시):
 
-`elasticsearch-users useradd {{사용자명}}`
+`elasticsearch-users useradd {{사용자_이름}}`
 
 - 역할을 지정하여 새로운 사용자 추가:
 
-`elasticsearch-users useradd {{사용자명}} -r {{역할1,역할2}}`
+`elasticsearch-users useradd {{사용자_이름}} -r {{역할1,역할2}}`
 
 - 기존 사용자 비밀번호 변경:
 
-`elasticsearch-users passwd {{사용자명}}`
+`elasticsearch-users passwd {{사용자_이름}}`
 
 - 사용자 삭제:
 
-`elasticsearch-users userdel {{사용자명}}`
+`elasticsearch-users userdel {{사용자_이름}}`
 
 - 네이티브 영역의 모든 사용자 목록 출력:
 

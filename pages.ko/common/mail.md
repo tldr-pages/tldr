@@ -18,7 +18,7 @@
 
 - `.tar.gz` 파일을 첨부 파일로 보내기:
 
-`tar cvzf - {{경로/대상/디렉터리1 경로/대상/디렉터리2}} | uuencode {{데이터.tar.gz}} | mail --subject "{{제목}}" {{받는사람@example.com}}`
+`tar cvzf - {{경로/대상/폴더1 경로/대상/폴더2}} | uuencode {{데이터.tar.gz}} | mail --subject "{{제목}}" {{받는사람@example.com}}`
 
 - 도움말 표시:
 

@@ -13,7 +13,7 @@
 
 - 특정 데이터베이스에 데이터베이스 방화벽 규칙을 추가:
 
-`doctl {{[d|databases]}} {{[fw|firewalls]}} {{[a|append]}} {{데이터베이스_아이디}} --rule {{droplet|k8s|ip_addr|tag|app}}:{{value}}`
+`doctl {{[d|databases]}} {{[fw|firewalls]}} {{[a|append]}} {{데이터베이스_아이디}} --rule {{droplet|k8s|ip_addr|tag|app}}:{{값}}`
 
 - 특정 데이터베이스에 대한 방화벽 규칙을 추가:
 

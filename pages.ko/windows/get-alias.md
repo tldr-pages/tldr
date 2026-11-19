@@ -14,7 +14,7 @@
 
 - 특정 명령에 할당된 모든 별칭 나열:
 
-`Get-Alias -Definition {{명령}}`
+`Get-Alias -Definition {{명령어}}`
 
 - `abc`로 시작하고 `def`로 끝나지 않는 별칭 나열:
 

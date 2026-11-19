@@ -6,7 +6,7 @@
 
 - 특정 TCP 포트 (기본값: 80)에 대해 서브넷 또는 전체 IPv4 스캔:
 
-`sudo zmap {{[-p|--target-ports]}} {{port}} {{서브넷}}`
+`sudo zmap {{[-p|--target-ports]}} {{포트}} {{서브넷}}`
 
 - 서브넷 전체에 대해 특정 포트 또는 포트 범위 스캔:
 

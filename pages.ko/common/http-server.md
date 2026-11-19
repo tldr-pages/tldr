@@ -9,11 +9,11 @@
 
 - 특정 디렉터리를 제공하려면 특정 포트에서 HTTP 서버를 시작:
 
-`http-server {{경로/대상/디렉토리}} {{[-p|--port]}} {{포트}}`
+`http-server {{경로/대상/폴더}} {{[-p|--port]}} {{포트}}`
 
 - 기본 인증을 사용하여 HTTP 서버를 시작:
 
-`http-server --username {{사용자명}} --password {{비밀번호}}`
+`http-server --username {{사용자_이름}} --password {{비밀번호}}`
 
 - 디렉토리 목록이 비활성화된 상태에서 HTTP 서버를 시작:
 
