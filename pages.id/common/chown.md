@@ -26,7 +26,7 @@
 
 - Gantikan pemilik berkas tautan pintas simbolik (symbolic link):
 
-`sudo chown {{[-h|--no-dereference]}} {{pengguna}} {jalan/menuju/pintas_symlink}}`
+`sudo chown {{[-h|--no-dereference]}} {{pengguna}} {{jalan/menuju/pintas_symlink}}`
 
 - Ganti kepemilikan untuk suatu berkas/direktori berdasarkan berkas acuan rancangan kepemilikan yang ditentukan:
 
