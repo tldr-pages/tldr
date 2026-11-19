@@ -14,3 +14,7 @@
 - 安装预置指定模块的 GRUB：
 
 `grub-install --target={{x86_64-efi}} --efi-directory={{path/to/efi_directory}} --modules="{{part_gpt part_msdos}}"`
+
+- 显示帮助：
+
+`grub-install {{[-?|--help]}}`

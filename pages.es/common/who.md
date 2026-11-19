@@ -15,3 +15,7 @@
 - Muestra toda la información disponible con encabezados de tabla:
 
 `who {{[-aH|--all --heading]}}`
+
+- Muestra la ayuda:
+
+`who --help`

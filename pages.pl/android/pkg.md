@@ -22,3 +22,7 @@
 - Wyszukaj pakiet:
 
 `pkg search {{pakiet}}`
+
+- Wyświetl pomoc:
+
+`pkg {{[h|help]}}`

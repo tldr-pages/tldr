@@ -26,3 +26,7 @@
 - Führe ein bestimmtes Build-Ziel aus:
 
 `cmake --build {{pfad/zu/build_verzeichnis}} --target {{zielname}}`
+
+- Zeige Hilfe an:
+
+`cmake {{[-h|--help]}}`

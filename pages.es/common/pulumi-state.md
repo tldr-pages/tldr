@@ -22,3 +22,7 @@
 - Muestra la ayuda:
 
 `pulumi state --help`
+
+- Muestra la ayuda:
+
+`pulumi state {{[-h|--help]}}`

@@ -7,3 +7,7 @@
 - スクリーンショットを撮影します:
 
 `screencap {{path/to/file}}`
+
+- ヘルプを表示する:
+
+`screencap -h`

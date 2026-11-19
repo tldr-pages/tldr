@@ -16,6 +16,10 @@
 
 `toolbox --help`
 
+- 도움말 표시:
+
+`toolbox {{[-h|--help]}}`
+
 - 버전 정보 표시:
 
 `toolbox --version`

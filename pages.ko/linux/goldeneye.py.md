@@ -22,3 +22,7 @@
 - 도움말 표시:
 
 `./goldeneye.py --help`
+
+- 도움말 표시:
+
+`{{path/to/}}goldeneye.py {{[-h|--help]}}`

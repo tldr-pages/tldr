@@ -10,3 +10,7 @@
 - 디스크 유형, 장치 값, 대상 이름 및 소스 경로 나열:
 
 `virsh domblklist --domain {{가상머신_이름}} --details`
+
+- 도움말 표시:
+
+`virsh domblklist --help`

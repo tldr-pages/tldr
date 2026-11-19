@@ -26,3 +26,7 @@
 - Mostra a mensagem de ajuda do Protontricks:
 
 `protontricks --help`
+
+- Mostra ajuda:
+
+`protontricks {{[-h|--help]}}`

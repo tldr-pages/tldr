@@ -18,3 +18,7 @@
 - 명령 제거:
 
 `trap - {{SIGHUP}} {{SIGINT}}`
+
+- 도움말 표시:
+
+`help trap`

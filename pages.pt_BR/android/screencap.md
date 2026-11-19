@@ -7,3 +7,7 @@
 - Tira uma screenshot:
 
 `screencap {{caminho/para/arquivo}}`
+
+- Mostra ajuda:
+
+`screencap -h`

@@ -14,3 +14,7 @@
 - Especifica la tienda para hacer la descarga:
 
 `apkeep {{[-a|--app]}} {{com.example.application}} {{[-d|--download-source]}} {{apk-pure|google-play|f-droid|huawei-app-gallery}} {{ruta/al/directorio}}`
+
+- Muestra la ayuda:
+
+`apkeep {{[-h|--help]}}`

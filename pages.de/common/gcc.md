@@ -22,3 +22,7 @@
 - Kompiliere eine oder mehrere Quellcodedateien ohne diese zu linken:
 
 `gcc {{[-c|--compile]}} {{pfad/zu/datei.c}}`
+
+- Zeige Version an:
+
+`gcc --version`

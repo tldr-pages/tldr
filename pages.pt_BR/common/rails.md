@@ -22,3 +22,7 @@
 - Verifica a versão atual do Rails:
 
 `rails --version`
+
+- Mostra versão:
+
+`rails {{[-v|--version]}}`

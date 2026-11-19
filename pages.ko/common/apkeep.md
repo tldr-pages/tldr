@@ -14,3 +14,7 @@
 - 다운로드할 스토어를 지정:
 
 `apkeep {{[-a|--app]}} {{com.example.application}} {{[-d|--download-source]}} {{apk-pure|google-play|f-droid|huawei-app-gallery}} {{경로/대상/디렉토리}}`
+
+- 도움말 표시:
+
+`apkeep {{[-h|--help]}}`

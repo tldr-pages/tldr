@@ -26,3 +26,7 @@
 - 비밀번호를 표시하지 않고 커널 키링에 저장:
 
 `systemd-ask-password --no-output --keyname={{키_이름}} "{{메시지}}"`
+
+- 도움말 표시:
+
+`systemd-ask-password {{[-h|--help]}}`

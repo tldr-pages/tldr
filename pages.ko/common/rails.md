@@ -23,3 +23,7 @@
 - 현재 Rails 버전 확인:
 
 `rails --version`
+
+- 버전 표시:
+
+`rails {{[-v|--version]}}`

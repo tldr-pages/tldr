@@ -23,3 +23,7 @@
 - (웹) 서버 모드에서 비밀번호가 필요:
 
 `glances -s --password`
+
+- 도움말 표시:
+
+`glances {{[-h|--help]}}`

@@ -7,3 +7,7 @@
 - Lakukan tangkapan layar (screenshot):
 
 `screencap {{path/to/file}}`
+
+- Tampilkan bantuan:
+
+`screencap -h`

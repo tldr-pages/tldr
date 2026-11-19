@@ -22,3 +22,7 @@
 - Belirtilen paketi ara:
 
 `pkg search {{paket}}`
+
+- Yardımı görüntüle:
+
+`pkg {{[h|help]}}`

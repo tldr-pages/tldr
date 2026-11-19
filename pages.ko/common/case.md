@@ -10,3 +10,7 @@
 - 패턴을 |와 결합하고, *를 대비책 패턴으로 사용:
 
 `case {{$tocount}} in {{[wW]|words}}) {{wc -w README}}; ;; {{[lL]|lines}}) {{wc -l README}}; ;; *) {{echo "what?"}}; ;; esac`
+
+- 도움말 표시:
+
+`help case`

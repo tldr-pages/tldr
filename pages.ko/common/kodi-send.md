@@ -14,3 +14,7 @@
 - 원격 호스트 Kodi에 액션 전송:
 
 `kodi-send --host {{192.168.0.1}} --port {{9777}} {{[-a|--action]}} {{Quit}}`
+
+- 도움말 표시:
+
+`kodi-send {{[-?|--help]}}`

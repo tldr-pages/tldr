@@ -14,3 +14,7 @@
 - ID가 `HDMI-2`인 디스플레이 출력의 배율을 2 (200%)로 설정:
 
 `kscreen-doctor {{output.HDMI-2.scale.2}}`
+
+- 도움말 표시:
+
+`kscreen-doctor {{[-h|--help]}}`

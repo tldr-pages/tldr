@@ -10,3 +10,7 @@
 - Terraria 서버 시작:
 
 `{{경로/대상}}/TerrariaServer -world {{경로/대상/world.wld}}`
+
+- [대화형] 도움말 표시:
+
+`help`

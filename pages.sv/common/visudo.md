@@ -10,3 +10,7 @@
 - Sök fel i sudoers-filen:
 
 `sudo visudo -c`
+
+- Visa versionen:
+
+`visudo {{[-V|--version]}}`

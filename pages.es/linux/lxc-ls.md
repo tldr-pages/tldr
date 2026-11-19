@@ -18,3 +18,7 @@
 - Lista contenedores en una salida elegante, basada en columnas:
 
 `sudo lxc-ls {{[-f|--fancy]}}`
+
+- Muestra la ayuda:
+
+`lxc-ls {{[-?|--help]}}`

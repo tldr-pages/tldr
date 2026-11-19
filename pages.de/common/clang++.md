@@ -23,3 +23,7 @@
 - Kompiliere eine Quelldatei zu LLVM Intermediate Representation (IR):
 
 `clang++ {{[-S|--assemble]}} -emit-llvm {{pfad/zu/quelldatei.cpp}} {{[-o|--output]}} {{pfad/zu/ir_datei.ll}}`
+
+- Zeige Version an:
+
+`clang++ --version`

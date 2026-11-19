@@ -16,6 +16,10 @@
 
 `dvc {{subcomando}} --help`
 
+- Mostra ajuda:
+
+`dvc {{[-h|--help]}}`
+
 - Checa a versão do DVC:
 
 `dvc --version`

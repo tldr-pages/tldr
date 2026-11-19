@@ -31,3 +31,7 @@
 - Compila para um target específico:
 
 `rustc --target {{target_triplo}} {{caminho/para/arquivo.rs}}`
+
+- Mostra ajuda:
+
+`rustc {{[-h|--help]}}`

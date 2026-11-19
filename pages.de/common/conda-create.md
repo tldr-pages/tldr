@@ -14,3 +14,7 @@
 - Erstelle eine neue Umgebung mit gegebenem Namen und den zu installierenden Paketen:
 
 `conda create --name {{umgebungsname}} {{paketname}}`
+
+- Zeige Hilfe an:
+
+`conda create {{[-h|--help]}}`

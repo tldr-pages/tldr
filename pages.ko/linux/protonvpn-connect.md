@@ -26,3 +26,7 @@
 - 도움말 표시:
 
 `protonvpn connect --help`
+
+- 도움말 표시:
+
+`protonvpn connect {{[-h|--help]}}`

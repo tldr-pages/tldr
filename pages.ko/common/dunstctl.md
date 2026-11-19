@@ -18,3 +18,7 @@
 - 도움말 표시:
 
 `dunstctl --help`
+
+- 도움말 표시:
+
+`dunstctl {{[-h|--help]}}`

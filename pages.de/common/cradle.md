@@ -19,3 +19,7 @@
 - Zeige die Hilfe-Seite für einen bestimmten Befehl:
 
 `cradle {{befehl}} help`
+
+- Zeige Version an:
+
+`cradle --version`

@@ -18,3 +18,11 @@
 - Başka bir kullanıcı olarak bir komut çalıştırın:
 
 `su - {{kullanıcıadı}} {{[-c|--command]}} "{{komut}}"`
+
+- Yardımı görüntüle:
+
+`su {{[-h|--help]}}`
+
+- Sürümü görüntüle:
+
+`su {{[-V|--version]}}`

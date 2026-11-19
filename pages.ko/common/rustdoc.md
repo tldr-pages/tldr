@@ -18,3 +18,7 @@
 - 출력 디렉토리 지정:
 
 `rustdoc {{src/lib.rs}} --out-dir {{경로/대상/출력_디렉토리}}`
+
+- 도움말 표시:
+
+`rustdoc {{[-h|--help]}}`

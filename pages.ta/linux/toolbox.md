@@ -16,6 +16,10 @@
 
 `toolbox --help`
 
+- உதவியைக் காட்டு:
+
+`toolbox {{[-h|--help]}}`
+
 - `toolbox` பதிப்பைக் காட்டு:
 
 `toolbox --version`

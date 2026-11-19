@@ -19,3 +19,7 @@
 - MOstra aiuto per uno specifico comando:
 
 `cradle {{command}} help`
+
+- Mostra la versione:
+
+`cradle --version`

@@ -10,3 +10,11 @@
 - Omvänd hel fil och skriv till `stdout`:
 
 `rev {{fil}}`
+
+- Visa hjälpen:
+
+`rev {{[-h|--help]}}`
+
+- Visa versionen:
+
+`rev {{[-V|--version]}}`

@@ -22,3 +22,7 @@
 - Kompiliere eine Quelldatei, ohne zu Linken:
 
 `clang {{[-c|--compile]}} {{pfad/zu/quelldatei.c}}`
+
+- Zeige Version an:
+
+`clang --version`

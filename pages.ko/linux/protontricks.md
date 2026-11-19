@@ -26,3 +26,7 @@
 - 도움말 표시:
 
 `protontricks --help`
+
+- 도움말 표시:
+
+`protontricks {{[-h|--help]}}`

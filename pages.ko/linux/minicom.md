@@ -15,3 +15,7 @@
 - 특정 직렬 포트와 통신하기 전에 설정 메뉴로 들어가기:
 
 `sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}} {{[-s|--setup]}}`
+
+- 도움말 표시:
+
+`minicom {{[-h|--help]}}`

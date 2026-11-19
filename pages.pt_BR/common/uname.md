@@ -23,3 +23,7 @@
 - Exibe todas as informações disponíveis sobre o sistema:
 
 `uname --all`
+
+- Mostra ajuda:
+
+`uname --help`

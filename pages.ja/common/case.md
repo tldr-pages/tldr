@@ -10,3 +10,7 @@
 - パターンは | で結合し、どれにも該当しないパターンには \* を使う:
 
 `case {{$tocount}} in {{[wW]|words}}) {{wc -w README}}; ;; {{[lL]|lines}}) {{wc -l README}}; ;; *) {{echo "what?"}}; ;; esac`
+
+- ヘルプを表示する:
+
+`help case`

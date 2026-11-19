@@ -26,3 +26,7 @@
 - Lista niveles de potencia de transmisión disponibles para la interfaz:
 
 `iwinfo {{interface}} txpowerlist`
+
+- Muestra la ayuda:
+
+`iwinfo h`

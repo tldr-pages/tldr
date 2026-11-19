@@ -24,3 +24,7 @@
 - Zapis jeśli porawne-jeśli fałszywe:
 
 `test {{warunek}} && {{echo "gdy poprawne"}} || {{echo "gdy fałszywe"}}`
+
+- Wyświetl pomoc:
+
+`help test`

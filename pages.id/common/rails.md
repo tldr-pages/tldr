@@ -23,3 +23,7 @@
 - Menampilkan versi rails:
 
 `rails --version`
+
+- Tampilkan versi:
+
+`rails {{[-v|--version]}}`

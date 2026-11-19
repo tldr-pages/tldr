@@ -15,3 +15,7 @@
 - Tüm objelerin bilgilerini yazdır:
 
 `pw-cli info all`
+
+- Yardımı görüntüle:
+
+`pw-cli {{[h|help]}}`

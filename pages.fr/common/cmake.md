@@ -26,3 +26,7 @@
 - Lance une cible de construction personnalisée :
 
 `cmake --build {{chemin/vers/le/répertoire_de_construction}} --target {{nom_de_la_cible}}`
+
+- Affiche l'aide :
+
+`cmake {{[-h|--help]}}`

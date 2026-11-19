@@ -7,3 +7,7 @@
 - Bir ekran görüntüsü al:
 
 `screencap {{dosya/yolu}}`
+
+- Yardımı görüntüle:
+
+`screencap -h`

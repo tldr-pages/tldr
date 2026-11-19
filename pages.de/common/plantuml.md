@@ -26,3 +26,7 @@
 - Zeige Hilfe an:
 
 `plantuml -help`
+
+- Zeige Hilfe an:
+
+`plantuml {{[-h|--help]}}`

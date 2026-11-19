@@ -14,3 +14,7 @@
 - 특정 모듈을 사전 로드하여 GRUB 설치:
 
 `grub-install --target={{x86_64-efi}} --efi-directory={{경로/대상/efi_폴더}} --modules="{{part_gpt part_msdos}}"`
+
+- 도움말 표시:
+
+`grub-install {{[-?|--help]}}`

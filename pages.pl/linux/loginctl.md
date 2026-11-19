@@ -23,3 +23,7 @@
 - Uruchom operację `loginctl` na zdalnym hoście:
 
 `loginctl list-users -H {{nazwa_hosta}}`
+
+- Wyświetl pomoc:
+
+`loginctl {{[-h|--help]}}`

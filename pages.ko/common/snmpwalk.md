@@ -22,3 +22,7 @@
 - SNMPv3을 사용하여 인증 또는 암호화 없이 OID로 원격 호스트의 시스템 정보 쿼리:
 
 `snmpwalk -v3 -l {{noAuthNoPriv}} -u {{사용자명}} {{ip_address}} {{oid}}`
+
+- 도움말 표시:
+
+`snmpwalk {{[-h|--help]}}`

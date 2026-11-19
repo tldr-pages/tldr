@@ -7,3 +7,7 @@
 - ضبط یک اسکرین شات :
 
 `screencap {{path/to/file}}`
+
+- نمایش راهنما :
+
+`screencap -h`

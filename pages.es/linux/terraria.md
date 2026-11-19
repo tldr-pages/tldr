@@ -10,3 +10,7 @@
 - Inicia un servidor Terraria:
 
 `{{ruta/a}}/TerrariaServer -world {{ruta/a/mundo.wld}}`
+
+- [Interactivo] Muestra la ayuda:
+
+`help`

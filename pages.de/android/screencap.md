@@ -7,3 +7,7 @@
 - Nehme ein Bildschirmfoto auf:
 
 `screencap {{pfad/zu/datei}}`
+
+- Zeige Hilfe an:
+
+`screencap -h`

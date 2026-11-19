@@ -34,3 +34,7 @@
 - Muestra esta lista de comandos:
 
 `proctl {{[-h|-ayuda]}}`
+
+- Muestra la ayuda:
+
+`proctl {{[-h|-help]}}`

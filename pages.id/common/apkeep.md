@@ -14,3 +14,7 @@
 - Pilih sumber toko aplikasi untuk diunduh:
 
 `apkeep {{[-a|--app]}} {{com.example.application}} {{[-d|--download-source]}} {{apk-pure|google-play|f-droid|huawei-app-gallery}} {{jalan/menuju/direktori}}`
+
+- Tampilkan bantuan:
+
+`apkeep {{[-h|--help]}}`

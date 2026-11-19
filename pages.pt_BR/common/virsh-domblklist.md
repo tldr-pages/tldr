@@ -10,3 +10,7 @@
 - Lista o tipo de disco e o valor do dispositivo, bem como o nome do destino e o caminho da origem:
 
 `virsh domblklist --domain {{nome_da_vm}} --details`
+
+- Mostra ajuda:
+
+`virsh domblklist --help`

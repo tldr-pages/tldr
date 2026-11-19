@@ -15,3 +15,7 @@
 - Exibe as informações de todo os objetos:
 
 `pw-cli info all`
+
+- Mostra ajuda:
+
+`pw-cli {{[h|help]}}`

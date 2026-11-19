@@ -18,3 +18,7 @@
 - Copia como máximo el número de líneas especificado:
 
 `readarray -n {{N}} {{nombre_arreglo}} <{{ruta/al/archivo.txt}}`
+
+- Muestra la ayuda:
+
+`help mapfile`

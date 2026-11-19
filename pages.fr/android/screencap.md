@@ -7,3 +7,7 @@
 - Prendre une capture d'écran :
 
 `screencap {{chemin/vers/fichier}}`
+
+- Affiche l'aide :
+
+`screencap -h`

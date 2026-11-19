@@ -15,3 +15,7 @@
 - Esegui cmake in modalità interattiva (chiederà i valori di ogni variabile invece di usare i predefiniti):
 
 `cmake -i`
+
+- Mostra l'aiuto:
+
+`cmake {{[-h|--help]}}`

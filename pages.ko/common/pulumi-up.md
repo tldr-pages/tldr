@@ -22,3 +22,7 @@
 - 오류가 발생하더라도 리소스 업데이트 계속 진행:
 
 `pulumi up --continue-on-error`
+
+- 도움말 표시:
+
+`pulumi up {{[-h|--help]}}`

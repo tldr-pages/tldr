@@ -23,3 +23,7 @@
 - Exibir ajuda:
 
 `pw-dump --help`
+
+- Mostra ajuda:
+
+`pw-dump {{[-h|--help]}}`

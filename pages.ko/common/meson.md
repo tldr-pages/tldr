@@ -26,3 +26,11 @@
 - 버전 표시:
 
 `meson --version`
+
+- 도움말 표시:
+
+`meson {{[-h|--help]}}`
+
+- 버전 표시:
+
+`meson {{[-v|--version]}}`

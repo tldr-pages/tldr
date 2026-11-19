@@ -10,3 +10,7 @@
 - Factorio 서버 시작:
 
 `{{경로/대상/factorio}} --start-server {{경로/대상/저장_파일.zip}}`
+
+- 도움말 표시:
+
+`{{path/to}}/factorio {{[-h|--help]}}`

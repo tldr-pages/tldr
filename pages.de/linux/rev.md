@@ -10,3 +10,11 @@
 - Kehre die Reihenfolge einer Datei um:
 
 `rev {{pfad/zu/datei}}`
+
+- Zeige Hilfe an:
+
+`rev {{[-h|--help]}}`
+
+- Zeige Version an:
+
+`rev {{[-V|--version]}}`

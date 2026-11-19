@@ -28,3 +28,7 @@
 - 在条件语句中使用 `test`：
 
 `if test -f "{{路径/到/文件}}"; then echo "文件存在"; else echo "文件不存在"; fi`
+
+- 显示帮助：
+
+`help test`

@@ -22,3 +22,7 @@
 - Muestra la ayuda:
 
 `libinput -h`
+
+- Muestra la ayuda:
+
+`libinput {{[-h|--help]}}`

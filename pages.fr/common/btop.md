@@ -12,3 +12,7 @@
 - Démarre `btop` avec les réglages spécifiés :
 
 `btop {{[-p|--preset]}} {{0..9}}`
+
+- Affiche l'aide :
+
+`btop {{[-h|--help]}}`

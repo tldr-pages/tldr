@@ -34,3 +34,7 @@
 - 현재 Angular 설치 버전 표시:
 
 `ng version`
+
+- 버전 표시:
+
+`ng {{[v|version]}}`

@@ -22,3 +22,7 @@
 - Importa una librería al proyecto NestJS actual:
 
 `nest add {{nombre_de_la_librería}}`
+
+- Muestra la ayuda:
+
+`nest`

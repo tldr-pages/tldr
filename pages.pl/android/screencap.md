@@ -7,3 +7,7 @@
 - Zrób zrzut ekranu:
 
 `screencap {{ścieżka/do/pliku}}`
+
+- Wyświetl pomoc:
+
+`screencap -h`

@@ -15,3 +15,7 @@
 - 모든 객체의 정보 출력:
 
 `pw-cli info all`
+
+- 도움말 표시:
+
+`pw-cli {{[h|help]}}`

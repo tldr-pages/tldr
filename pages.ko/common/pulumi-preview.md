@@ -18,3 +18,7 @@
 - 도움말 표시:
 
 `pulumi preview --help`
+
+- 도움말 표시:
+
+`pulumi preview {{[-h|--help]}}`

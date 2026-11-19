@@ -34,3 +34,7 @@
 - Angular kurulumunun versiyonunu kontrol et:
 
 `ng version`
+
+- Sürümü görüntüle:
+
+`ng {{[v|version]}}`

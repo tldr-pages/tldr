@@ -19,3 +19,7 @@
 - Zeige die Hilfeseite eines Unterbefehls an (z.B. `agent`, `apply`, etc.):
 
 `puppet help {{unterbefehl}}`
+
+- Zeige Version an:
+
+`puppet {{[-V|--version]}}`

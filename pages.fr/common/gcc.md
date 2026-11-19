@@ -22,3 +22,7 @@
 - Compile le code source en un fichier objet sans le lier :
 
 `gcc {{[-c|--compile]}} {{chemin/vers/le/fichiersource.c}}`
+
+- Affiche la version :
+
+`gcc --version`

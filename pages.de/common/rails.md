@@ -23,3 +23,7 @@
 - Zeige die Versionsnummer von `rails` an:
 
 `rails --version`
+
+- Zeige Version an:
+
+`rails {{[-v|--version]}}`

@@ -10,3 +10,7 @@
 - Crea una SVG da un file DOT:
 
 `dot -Tsvg -o {{percorso/del/file_output.svg}} {{percorso/del/file.dot}}`
+
+- Mostra l'aiuto:
+
+`dot -?`
