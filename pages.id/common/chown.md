@@ -18,7 +18,7 @@
 
 - Gantikan grup pemilik suatu berkas/direktori di mana pengguna saat ini juga bergabung dalam grup pengguna tersebut:
 
-`chown :{{group}} {{jalan/menuju/berkas_atau_direktori}}`
+`chown :{{grup}} {{jalan/menuju/berkas_atau_direktori}}`
 
 - Gantikan pemilik suatu direktori beserta seluruh berkasnya secara rekursif:
 

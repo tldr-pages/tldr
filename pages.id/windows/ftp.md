@@ -21,7 +21,6 @@
 
 - [Interactive] Unduh beberapa berkas (menggunakan ekspresi `glob`):
 
-
 `mget {{*.png}}`
 
 - [Interactive] Unggah beberapa berkas (menggunakan ekspresi `glob`):
