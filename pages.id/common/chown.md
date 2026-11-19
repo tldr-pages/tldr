@@ -4,11 +4,11 @@
 > Lihat juga: `chgrp`.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
-- Gantikan kepemilikan suatu berkas kepada pengguna tertentu:
+- Gantikan kepemilikan suatu berkas/direktori kepada pengguna tertentu:
 
 `sudo chown {{pengguna}} {{jalan/menuju/berkas_atau_direktori}}`
 
-- Gantikan kepemilikan suatu berkas kepada pengguna tertentu, beserta grup pengguna yang menaunginya:
+- Gantikan kepemilikan suatu berkas/direktori kepada pengguna tertentu, beserta grup pengguna yang menaunginya:
 
 `sudo chown {{pengguna}}:{{group}} {{jalan/menuju/berkas_atau_direktori}}`
 
