@@ -22,7 +22,7 @@
 
 - Gantikan pemilik suatu direktori beserta seluruh berkasnya secara rekursif:
 
-`sudo chown {{[-R|--recursive]}} {{pengguna}} {{path/to/directory}}`
+`sudo chown {{[-R|--recursive]}} {{pengguna}} {{jalan/menuju/direktori}}`
 
 - Gantikan pemilik berkas tautan pintas simbolik (symbolic link):
 
