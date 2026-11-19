@@ -1,6 +1,7 @@
 # textmaker
 
 > SoftMaker Office's word processor application.
+> See also: `basicmaker`, `planmaker`, `presentations`.
 > More information: <https://help.softmaker.com/textmaker2026/en/index.html>.
 
 - Launch the word processor application (omitting the file path will create a new blank document):
