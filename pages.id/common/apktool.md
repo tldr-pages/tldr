@@ -5,7 +5,7 @@
 
 - Bongkar isi ([d]ekode) berkas APK:
 
-`apktool d {{berkas}}.apk`
+`apktool d {{jalan/menuju/berkas}}.apk`
 
 - [b]angun kode sumber dalam suatu direktori menjadi berkas APK:
 
