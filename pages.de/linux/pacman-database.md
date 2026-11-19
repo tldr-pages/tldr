@@ -6,11 +6,11 @@
 
 - Markiere ein Paket als implizit installiert:
 
-`sudo pacman -D --asdeps {{paketname}}`
+`sudo pacman -D --asdeps {{paket}}`
 
 - Markiere ein Paket als explizit installiert:
 
-`sudo pacman -D --asexplicit {{paketname}}`
+`sudo pacman -D --asexplicit {{paket}}`
 
 - Überprüfe, dass alle Paketabhängigkeiten installiert sind:
 

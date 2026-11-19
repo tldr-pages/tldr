@@ -6,16 +6,16 @@
 
 - Ein spezifisches Installationspaket in das Debian Format umwandeln (`.deb` Erweiterung):
 
-`sudo alien {{[-d|--to-deb]}} {{pfad/zu/paket}}`
+`sudo alien {{[-d|--to-deb]}} {{pfad/zu/datei}}`
 
 - Ein spezifisches Installationspaket in das Red Hat Format umwandeln (`.rpm` Erweiterung):
 
-`sudo alien {{[-r|--to-rpm]}} {{pfad/zu/paket}}`
+`sudo alien {{[-r|--to-rpm]}} {{pfad/zu/datei}}`
 
 - Ein spezifisches Installationspaket in das Slackware Format umwandeln (`.tgz` Erweiterung):
 
-`sudo alien {{[-t|--to-tgz]}} {{pfad/zu/paket}}`
+`sudo alien {{[-t|--to-tgz]}} {{pfad/zu/datei}}`
 
 - Ein spezifisches Installationspaket in das Debian Format umwandeln und auf dem System installieren:
 
-`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{pfad/zu/paket}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{pfad/zu/datei}}`

@@ -5,7 +5,7 @@
 
 - Gib die ersten paar Zeilen einer Datei aus:
 
-`head -n {{anzahl_an_zeilen}} {{datei}}`
+`head -n {{anzahl_an_zeilen}} {{pfad/zu/datei}}`
 
 - Gib die ersten Bytes einer Datei aus:
 
