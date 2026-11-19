@@ -5,12 +5,12 @@
 
 - Dépose toutes les clés publiques sur la machine distante :
 
-`ssh-copy-id {{nom_utilisateur}}@{{hote_distant}}`
+`ssh-copy-id {{nom_d_utilisateur}}@{{hote_distant}}`
 
 - Dépose une clé publique spécifique sur la machine distante :
 
-`ssh-copy-id -i {{chemin/vers/certificat}} {{nom_utilisateur}}@{{hote_distant}}`
+`ssh-copy-id -i {{chemin/vers/certificat}} {{nom_d_utilisateur}}@{{hote_distant}}`
 
 - Dépose une clé publique spécifique sur la machine distante en utilisant un port particulier :
 
-`ssh-copy-id -i {{chemin/vers/certificat}} -p {{port}} {{nom_utilisateur}}@{{hote_distant}}`
+`ssh-copy-id -i {{chemin/vers/certificat}} -p {{port}} {{nom_d_utilisateur}}@{{hote_distant}}`

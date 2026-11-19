@@ -9,7 +9,7 @@
 
 - Supprimer un répertoire de l'index, du dépôt et du système de fichiers :
 
-`git rm -r {{directory}}`
+`git rm -r {{chemin/vers/répertoire}}`
 
 - Supprimer un fichiers de l'index, du dépôt mais le conserve sur le système de fichiers :
 

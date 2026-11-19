@@ -10,7 +10,7 @@
 
 - N'affiche que le nom du dernier répertoire depuis un chemin :
 
-`basename {{chemin/vers/répertoire/}}`
+`basename {{chemin/vers/répertoire}}`
 
 - N'affiche que le nom du fichier depuis un chemin, en ôtant un préfixe donné :
 

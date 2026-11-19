@@ -9,8 +9,8 @@
 
 - Renomme un fichier et met à jour l'index, valide à la prochaine validation :
 
-`git mv {{nom_fichier}} {{nouveau_nom_fichier}}`
+`git mv {{chemin/vers/fichier_ou_répertoire}} {{nouveau_nom_fichier}}`
 
 - Force l'écrasement d'un fichier :
 
-`git mv {{[-f|--force]}} {{fichier}} {{cible}}`
+`git mv {{[-f|--force]}} {{chemin/vers/fichier_ou_répertoire}} {{cible}}`

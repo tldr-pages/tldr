@@ -5,7 +5,7 @@
 
 - Se déplace vers le répertoire donné :
 
-`cd {{chemin/vers/dossier}}`
+`cd {{chemin/vers/répertoire}}`
 
 - Remonte vers le parent du répertoire actuel :
 
@@ -17,7 +17,7 @@
 
 - Se déplace vers le répertoire personnel de l'utilisateur donné :
 
-`cd ~{{nom_utilisateur}}`
+`cd ~{{nom_d_utilisateur}}`
 
 - Retourne au répertoire précédent :
 

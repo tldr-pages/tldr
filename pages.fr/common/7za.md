@@ -10,7 +10,7 @@
 
 - Chiffre une archive existante (en incluant les en-têtes) :
 
-`7za a {{chemin/vers/archive_chiffree.7z}} -p{{motdepasse}} -mhe={{on}} {{chemin/vers/archive.7z}}`
+`7za a {{chemin/vers/archive_chiffree.7z}} -p{{mot_de_passe}} -mhe={{on}} {{chemin/vers/archive.7z}}`
 
 - Extrait une archive en conservant l'arborescence des fichiers :
 

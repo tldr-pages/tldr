@@ -9,12 +9,12 @@
 
 - Se connecte à un registre avec un nom d'utilisateur spécifique (l'utilisateur sera invité à saisir un mot de passe) :
 
-`docker login {{[-u|--username]}} {{nom_utilisateur}}`
+`docker login {{[-u|--username]}} {{nom_d_utilisateur}}`
 
 - Se connecte à un registre avec un nom d'utilisateur et un mot de passe spécifiques :
 
-`docker login {{[-u|--username]}} {{nom_utilisateur}} {{[-p|--password]}} {{mot_de_passe}} {{serveur}}`
+`docker login {{[-u|--username]}} {{nom_d_utilisateur}} {{[-p|--password]}} {{mot_de_passe}} {{serveur}}`
 
 - Se connecte à un registre avec un mot de passe depuis l'entrée standard :
 
-`echo "{{mot_de_passe}}" | docker login {{[-u|--username]}} {{nom_utilisateur}} --password-stdin`
+`echo "{{mot_de_passe}}" | docker login {{[-u|--username]}} {{nom_d_utilisateur}} --password-stdin`

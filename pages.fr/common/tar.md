@@ -22,7 +22,7 @@
 
 - Extrait une archive (compressée) dans un répertoire cible :
 
-`tar xf {{chemin/vers/source.tar.ext}} {{[-C|--directory]}} {{répertoire}}`
+`tar xf {{chemin/vers/source.tar.ext}} {{[-C|--directory]}} {{chemin/vers/répertoire}}`
 
 - Crée une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
 
