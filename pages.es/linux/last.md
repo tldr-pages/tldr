@@ -9,7 +9,7 @@
 
 - Lista la información de inicio de sesión de un usuario específico:
 
-`last {{nombre_de_usuario}}`
+`last {{usuario}}`
 
 - Especifica cuántos de los últimos inicios de sesión mostrar:
 
@@ -21,7 +21,7 @@
 
 - Visualiza todos los inicios de sesión de un usuario específico y muestra la dirección IP en lugar del nombre de host:
 
-`last {{nombre_de_usuario}} {{[-i|--ip]}}`
+`last {{usuario}} {{[-i|--ip]}}`
 
 - Lista la información desde una fecha y hora determinadas:
 

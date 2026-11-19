@@ -9,7 +9,7 @@
 
 - Ejecuta un comando con variables de entorno desde un archivo `.env` específico:
 
-`dotenvx run -f {{ruta/al/archivo.env}} -- {{command}}`
+`dotenvx run -f {{ruta/al/archivo.env}} -- {{comando}}`
 
 - Establece una variable de entorno con cifrado:
 
