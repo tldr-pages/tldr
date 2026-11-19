@@ -13,11 +13,11 @@
 
 - Mount remote directory from server with specific port:
 
-`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} -p {{2222}}`
+`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} -p {{2222}} {{path/to/mount_point}}`
 
 - Use compression:
 
-`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} -C`
+`sshfs {{username}}@{{remote_host}}:{{path/to/remote_directory}} -C {{path/to/mount_point}}`
 
 - Follow symbolic links:
 
