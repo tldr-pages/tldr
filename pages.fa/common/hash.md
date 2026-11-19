@@ -18,3 +18,7 @@
 - نمایش مسیر کامل `command`:
 
 `hash -t {{command}}`
+
+- نمایش راهنما:
+
+`hash --help`
