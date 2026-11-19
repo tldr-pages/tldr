@@ -5,4 +5,4 @@
 
 - Start the server:
 
-`{{path/to/}}startserver.sh -configfile={{serverconfig.xml}}}`
+`{{path/to/}}startserver.sh -configfile={{serverconfig.xml}}`
