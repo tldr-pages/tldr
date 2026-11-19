@@ -31,6 +31,6 @@
 
 `cp {{[-L|--dereference]}} {{bağlantı}} {{yol/hedef_dizin}}`
 
-- Kaynak dosyaların tam yolunu kullanın ve kopyalarken eksik ara dizinleri oluşturun:
+- Kaynak dosyaların komut satırında verilen yolunu kullanın ve kopyalarken eksik ara dizinleri oluşturun:
 
 `cp --parents {{kaynak/yol/dosya}} {{yol/hedef_dizin}}`
