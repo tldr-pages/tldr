@@ -24,9 +24,9 @@
 
 `rmpc albumart {{[-o|--output]}} {{path/to/cover.jpg}}`
 
-- Toggle playback control functions (consume plays the song and deletes it from the queue afterwards):
+- Control playback (`toggleconsume` removes songs from the queue after they are played):
 
-`rmpc {{next|prev|stop|consume|togglerepeat|pause|unpause}}`
+`rmpc {{next|prev|stop|togglepause|toggleconsume|togglerepeat}}`
 
 - View the currently playing song:
 
