@@ -23,11 +23,11 @@
 
 `date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
-- Geçerli tarihi RFC-3339 biçiminde (`YYYY-AA-GG ss:dd:ss ZD`) görüntüleyin ve duyarlılığını belirtin:
+- Geçerli tarihi RFC-3339 biçiminde (`YYYY-AA-GG ss:dd:sn+ZD`) görüntüleyin ve duyarlılığını belirtin:
 
 `date --rfc-3339 {{date|seconds|ns}}`
 
-- Geçerli tarihi `AAGGssddYYYY.ss` biçimini kullanarak ayarlayın (`YYYY` ve `.ss` isteğe bağlıdır):
+- Geçerli tarihi `AAGGssddYYYY.sn` biçimini kullanarak ayarlayın (`YYYY` ve `.sn` isteğe bağlıdır):
 
 `sudo date {{093023592021.59}}`
 
