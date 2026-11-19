@@ -1,6 +1,7 @@
 # nixos-generate-config
 
 > Generate NixOS configuration files based on the detected hardware.
+> Note: Without `sudo`, it can silently omit root-only mount points (e.g. the EFI system partition) from the hardware configuration.
 > More information: <https://nixos.org/manual/nixos/stable/#sec-installation-manual-installing>.
 
 - Generate `configuration.nix` and `hardware-configuration.nix` in `/etc/nixos`:
