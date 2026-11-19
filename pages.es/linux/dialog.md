@@ -15,3 +15,7 @@
 - Solicita al usuario una pregunta de sí/no:
 
 `dialog --yesno "{{¿Continuar?}}" {{7}} {{40}}`
+
+- Muestra la ayuda:
+
+`dialog`

@@ -10,3 +10,7 @@
 - Windows (PowerShell)/macOS/Linux의 웹 브라우저에서 생성된 통계를 보기:
 
 `{{Invoke-Item|open|xdg-open}} {{경로/대상/출력_폴더/index.html}}`
+
+- 도움말 표시:
+
+`gitstats {{[-h|--help]}}`
