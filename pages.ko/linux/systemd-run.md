@@ -17,7 +17,7 @@
 
 - 종료 후 정리되지 않는 일시적 서비스와 사용자 정의 환경 변수를 사용하여 시작:
 
-`sudo systemd-run {{[-r|--remain-after-exit]}} --set-env={{이름}}={{값}} {{명령어}} {{인수1 인수2 ...}}`
+`sudo systemd-run {{[-r|--remain-after-exit]}} {{[-E|--setenv]}} {{이름}}={{값}} {{명령어}} {{인수1 인수2 ...}}`
 
 - 주기적으로 일시적 서비스를 실행하는 일시적 타이머 시작 (캘린더 이벤트 형식은 `man systemd.time` 참조):
 
