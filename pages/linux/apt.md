@@ -33,6 +33,14 @@
 
 `sudo apt upgrade`
 
+- Remove automatically installed packages that are no longer needed as dependencies:
+
+`sudo apt autoremove`
+
+- Remove all cached package files:
+
+`sudo apt clean`
+
 - List all installed packages:
 
 `apt list {{[-i|--installed]}}`
