@@ -7,11 +7,11 @@
 
 - Otwórz plik:
 
-`vim {{scieżka/do/pliku}}`
+`vim {{ścieżka/do/pliku}}`
 
 - Otwórz plik pod określonym numerem wiersza:
 
-`vim +{{numer_linii}} {{scieżka/do/pliku}}`
+`vim +{{numer_linii}} {{ścieżka/do/pliku}}`
 
 - Zobacz instrukcję pomocy Vim:
 

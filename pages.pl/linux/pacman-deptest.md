@@ -5,7 +5,7 @@
 
 - Wyświetl nazwy zależności, które nie są zainstalowane:
 
-`pacman -T {{nazwa_pakietu1 nazwa_pakietu2 ...}}`
+`pacman -T {{pakiet1 pakiet2 ...}}`
 
 - Sprawdź, czy zainstalowany pakiet spełnia podaną minimalną wersję:
 

@@ -25,4 +25,4 @@
 
 - Wybierz katalog docelowy:
 
-`dotnet publish {{[-o|--output]}} {{ściezka/do/katalogu}} {{ścieżka/do/projektu_lub_solucji}}`
+`dotnet publish {{[-o|--output]}} {{ścieżka/do/katalogu}} {{ścieżka/do/projektu_lub_solucji}}`

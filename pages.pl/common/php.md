@@ -5,11 +5,11 @@
 
 - Parsuj i uruchom skrypt PHP:
 
-`php {{plik}}`
+`php {{ścieżka/do/pliku}}`
 
 - Sprawdź składnię skryptu PHP (np. lint):
 
-`php {{[-l|--syntax-check]}} {{plik}}`
+`php {{[-l|--syntax-check]}} {{ścieżka/do/pliku}}`
 
 - Uruchom PHP interaktywnie:
 

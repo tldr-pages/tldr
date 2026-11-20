@@ -6,11 +6,11 @@
 
 - Oznacz pakiet jako pośrednio zainstalowany (zależność):
 
-`sudo pacman -D --asdeps {{nazwa_pakietu}}`
+`sudo pacman -D --asdeps {{pakiet}}`
 
 - Oznacz pakiet jako bezpośrednio zainstalowany:
 
-`sudo pacman -D --asexplicit {{nazwa_pakietu}}`
+`sudo pacman -D --asexplicit {{pakiet}}`
 
 - Sprawdź, czy wszystkie zależności pakietów są zainstalowane:
 

@@ -10,7 +10,7 @@
 
 - Wypisuj bez końca "wiadomość":
 
-`yes {{wiadomość}}`
+`yes {{wartość}}`
 
 - Wysyłaj potwierdzenie dla każdego pytania zadanego przez `apt-get`:
 

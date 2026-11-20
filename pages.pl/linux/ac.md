@@ -13,11 +13,11 @@
 
 - Wyświetl ile godzin konkretny użytkownik był połączony:
 
-`ac {{[-p|--individual-totals]}} {{użytkownik}}`
+`ac {{[-p|--individual-totals]}} {{nazwa_użytkownika}}`
 
 - Wyświetl ile godzin na dzień konkretny użytkownik był podłączony (z podsumowaniem):
 
-`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{użytkownik}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{nazwa_użytkownika}}`
 
 - Wyświetlaj także dodatkowe szczegóły:
 

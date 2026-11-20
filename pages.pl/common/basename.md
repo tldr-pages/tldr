@@ -10,7 +10,7 @@
 
 - Wyświetl wyłącznie nazwę skrajnie prawego katalogu ze ścieżki:
 
-`basename {{ścieżka/do/katalogu/}}`
+`basename {{ścieżka/do/katalogu}}`
 
 - Wyświetl wyłącznie nazwę pliku ze ścieżki, z usuniętym przyrostkiem:
 

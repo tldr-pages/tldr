@@ -5,20 +5,20 @@
 
 - Utwórz nowy szkielet pakietu:
 
-`choco new {{nazwa_pakietu}}`
+`choco new {{pakiet}}`
 
 - Utwórz nowy pakiet podając konkretną wersję:
 
-`choco new {{nazwa_pakietu}} --version {{wersja}}`
+`choco new {{pakiet}} --version {{wersja}}`
 
 - Utwórz nowy pakiet podając podając nazwę opiekuna:
 
-`choco new {{nazwa_pakietu}} --maintainer {{nazwa_opiekuna}}`
+`choco new {{pakiet}} --maintainer {{nazwa_opiekuna}}`
 
 - Utwórz nowy pakiet w podanym katalogu wyjściowym:
 
-`choco new {{nazwa_pakietu}} {{[--out|--output-directory]}} {{ścieżka/do/katalogu/wyjściowego}}`
+`choco new {{pakiet}} {{[--out|--output-directory]}} {{ścieżka/do/katalogu/wyjściowego}}`
 
 - Utwórz nowy pakiet podając specyficzne adresy URL instalatoró dla wersji 32-bit i 64-bit:
 
-`choco new {{nazwa_pakietu}} url="{{adres_url}}" url64="{{adres_url}}"`
+`choco new {{pakiet}} url="{{adres_url}}" url64="{{adres_url}}"`
