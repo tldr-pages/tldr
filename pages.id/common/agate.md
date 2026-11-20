@@ -9,7 +9,7 @@
 
 - Jalankan server Gemini:
 
-`agate {{jalan/menuju/berkas}}`
+`agate {{jalan/menuju/direktori}}`
 
 - Tampilkan bantuan:
 
