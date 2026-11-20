@@ -6,7 +6,7 @@
 
 - 파티션 목록 표시:
 
-`sudo gdisk -l {{/dev/sdX}}`
+`sudo gdisk {{[-l|--list]}}`
 
 - 대화형 파티션 관리 도구 시작:
 
