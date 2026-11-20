@@ -5,4 +5,4 @@
 
 - Start the server:
 
-`{{path/to/}}srcds_run`
+`{{path/to}}/srcds_run`
