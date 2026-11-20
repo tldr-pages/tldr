@@ -5,4 +5,4 @@
 
 - Start the server:
 
-`{{path/to/}}arma3server_x64`
+`{{path/to}}/arma3server_x64`
