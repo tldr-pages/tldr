@@ -22,7 +22,7 @@
 
 - 조직의 모든 버킷 이름만 출력:
 
-`exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}`
+`exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}'`
 
 - 특정 하위 명령어 도움말 표시:
 
