@@ -9,15 +9,19 @@
 
 `nmtui`
 
-- List available connections, with the option to activate or deactivate them:
+- Activate or deactivate a connection:
 
 `nmtui connect`
 
-- Connect to a given network:
+- Connect to a specific network:
 
-`nmtui connect {{name|uuid|device|ssid}}`
+`nmtui connect {{name|uuid|device|SSID}}`
 
-- Edit/Add/Delete a given network:
+- Add, edit, or delete a connection:
+
+`nmtui edit`
+
+- Edit a specific connection:
 
 `nmtui edit {{name|id}}`
 
