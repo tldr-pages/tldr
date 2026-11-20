@@ -3,7 +3,7 @@
 > Vea los últimos usuarios conectados.
 > Más información: <https://manned.org/last>.
 
-- Vea la información del último inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, kernel) de todos los usuarios leída de `/var/log/wtmp`:
+- Muestra la información del último inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, kernel) de todos los usuarios leída de `/var/log/wtmp`:
 
 `last`
 
