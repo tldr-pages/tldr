@@ -20,10 +20,14 @@
 
 `sudo ufw route reject out on {{interface}}`
 
-- Insert a route rule at a specific position:
+- Insert a route rule for a source address at a specific position:
 
-`sudo ufw route insert {{number}} {{rule}}`
+`sudo ufw route insert {{number}} {{allow|deny|reject|limit}} from {{source_address}}`
 
 - Delete a route rule:
 
 `sudo ufw route delete {{rule}}`
+
+- Delete a route rule that denies forwarded traffic to 192.168.0.12:
+
+`sudo ufw route delete deny to 192.168.0.12`
