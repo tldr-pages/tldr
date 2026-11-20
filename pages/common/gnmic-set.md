@@ -5,16 +5,16 @@
 
 - Update the value of a path:
 
-`gnmic {{[-a|--address]}} {{ip:port}} set --update-path {{gnmi_path}} --update-value {{value}}`
+`gnmic {{[-a|--address]}} {{ip:port}} set --update-path {{gNMI_path}} --update-value {{value}}`
 
 - Update the value of a path to match the contents of a JSON file:
 
-`gnmic {{[-a|--address]}} {{ip:port}} set --update-path {{gnmi_path}} --update-file {{path/to/file}}`
+`gnmic {{[-a|--address]}} {{ip:port}} set --update-path {{gNMI_path}} --update-file {{path/to/file}}`
 
 - Replace the value of a path to match the contents of a JSON file:
 
-`gnmic {{[-a|--address]}} {{ip:port}} set --replace-path {{gnmi_path}} --replace-file {{path/to/file}}`
+`gnmic {{[-a|--address]}} {{ip:port}} set --replace-path {{gNMI_path}} --replace-file {{path/to/file}}`
 
 - Delete the node at a given path:
 
-`gnmic {{[-a|--address]}} {{ip:port}} set --delete {{gnmi_path}}`
+`gnmic {{[-a|--address]}} {{ip:port}} set --delete {{gNMI_path}}`
