@@ -17,7 +17,7 @@
 
 - Avvia la shell in una directory specifica (funziona anche con `alacritty msg create-window`):
 
-`alacritty --working-directory {{percorso/alla/directory}}`
+`alacritty --working-directory {{percorso/della/directory}}`
 
 - Esegui un comando in una nuova finestra Alacritty (funziona anche con `alacritty msg create-window`):
 

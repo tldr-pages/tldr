@@ -21,4 +21,4 @@
 
 - Visualizza i log per il processo di uno specifico pacchetto:
 
-`logcat --pid $(pidof -s {{package}})`
+`logcat --pid $(pidof -s {{pacchetto}})`

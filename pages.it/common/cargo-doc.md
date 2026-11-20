@@ -17,4 +17,4 @@
 
 - Costruisci e visualizza la documentazione di un pacchetto specifico:
 
-`cargo {{[d|doc]}} --open {{[-p|--package]}} {{package}}`
+`cargo {{[d|doc]}} --open {{[-p|--package]}} {{pacchetto}}`

@@ -9,19 +9,19 @@
 
 - Installa un nuovo pacchetto e le sue dipendenze:
 
-`sudo aptitude install {{package}}`
+`sudo aptitude install {{pacchetto}}`
 
 - Cerca un pacchetto:
 
-`aptitude search {{package}}`
+`aptitude search {{pacchetto}}`
 
 - Cerca un pacchetto installato (`?installed` è un termine di ricerca di `aptitude`):
 
-`aptitude search '?installed({{package}})'`
+`aptitude search '?installed({{pacchetto}})'`
 
 - Rimuove un pacchetto e tutti i pacchetti che dipendono da esso:
 
-`sudo aptitude remove {{package}}`
+`sudo aptitude remove {{pacchetto}}`
 
 - Aggiorna i pacchetti installati alle versioni più recenti disponibili:
 
@@ -33,4 +33,4 @@
 
 - Mettere in pausa un pacchetto installato per impedirne l'aggiornamento automatico:
 
-`sudo aptitude hold '?installed({{package}})'`
+`sudo aptitude hold '?installed({{pacchetto}})'`

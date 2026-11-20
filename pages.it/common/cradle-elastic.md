@@ -9,7 +9,7 @@
 
 - Svuota l'indice ElasticSearch per uno specifico pacchetto:
 
-`cradle elastic flush {{nome_pacchetto}}`
+`cradle elastic flush {{pacchetto}}`
 
 - Carica lo schema ElasticSearch:
 
@@ -17,7 +17,7 @@
 
 - Carica lo schema ElasticSearch per uno specifico pacchetto:
 
-`cradle elastic map {{nome_pacchetto}}`
+`cradle elastic map {{pacchetto}}`
 
 - Popola gli indici ElasticSearch per tutti i pacchetti:
 
@@ -25,4 +25,4 @@
 
 - Popola gli indici ElasticSearch per uno specifico pacchetto:
 
-`cradle elastic populate {{nome_pacchetto}}`
+`cradle elastic populate {{pacchetto}}`
