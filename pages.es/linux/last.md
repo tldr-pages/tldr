@@ -27,7 +27,7 @@
 
 `last {{[-s|--since]}} {{-7days}}`
 
-- Vea todos los reinicios registrados (es decir, los últimos inicios de sesión del pseudousuario "reboot"):
+- Muestra todos los reinicios registrados (es decir, los últimos inicios de sesión del pseudousuario "reboot"):
 
 `last reboot`
 
