@@ -14,15 +14,15 @@
 
 - Mostra i dettagli di un pacchetto:
 
-`dnf4 {{[if|info]}} {{package}}`
+`dnf4 {{[if|info]}} {{pacchetto}}`
 
 - Installa un nuovo pacchetto (usa `--assumeyes` per confermare automaticamente tutte le richieste):
 
-`sudo dnf4 {{[in|install]}} {{package1 package2 ...}}`
+`sudo dnf4 {{[in|install]}} {{pacchetto1 pacchetto2 ...}}`
 
 - Rimuove un pacchetto:
 
-`sudo dnf4 {{[rm|remove]}} {{package1 package2 ...}}`
+`sudo dnf4 {{[rm|remove]}} {{pacchetto1 pacchetto2 ...}}`
 
 - Elenca i pacchetti installati:
 
@@ -30,7 +30,7 @@
 
 - Trova quali pacchetti forniscono un dato comando:
 
-`dnf4 {{[wp|provides]}} {{command}}`
+`dnf4 {{[wp|provides]}} {{comando}}`
 
 - Visualizza tutte le operazioni passate:
 

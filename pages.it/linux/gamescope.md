@@ -14,11 +14,11 @@
 
 - Upscala un gioco 720p a 1440p con integer scaling:
 
-`gamescope {{[-h|--nested-height]}} 720 {{[-H|--output-height]}} 1440 {{[-S|--scaler]}} integer -- {{command}}`
+`gamescope {{[-h|--nested-height]}} 720 {{[-H|--output-height]}} 1440 {{[-S|--scaler]}} integer -- {{comando}}`
 
 - Limita un gioco con vsync a 30 FPS:
 
-`gamescope {{[-r|--nested-refresh]}} 30 -- {{command}}`
+`gamescope {{[-r|--nested-refresh]}} 30 -- {{comando}}`
 
 - Avvia Steam in Big Picture Mode e integra con gamescope:
 

@@ -5,4 +5,4 @@
 
 - Interroga un pacchetto per le sue dipendenze:
 
-`dnf {{[rq|repoquery]}} --deplist {{package}}`
+`dnf {{[rq|repoquery]}} --deplist {{pacchetto}}`
