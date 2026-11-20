@@ -27,7 +27,3 @@
 - Delete a route rule:
 
 `sudo ufw route delete {{rule}}`
-
-- Delete a route rule by its rule number (`ufw route delete` does not accept numbers):
-
-`sudo ufw delete {{number}}`
