@@ -21,7 +21,7 @@
 
 - Periksa kesalahan sintaks pada suatu naskah:
 
-`fish {{[-N|--no-execute]}} {{jalan/menuju/naskah.fish}}`
+`fish {{[-n|--no-execute]}} {{jalan/menuju/naskah.fish}}`
 
 - Jalankan kumpulan perintah dari `stdin`:
 

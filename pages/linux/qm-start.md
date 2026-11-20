@@ -13,4 +13,4 @@
 
 - Start a specific virtual machine with a timeout in 60 seconds:
 
-`qm start {{100}} --timeout {{60}}`
+`qm start {{100}} --timeout 60`

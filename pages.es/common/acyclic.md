@@ -12,6 +12,6 @@
 
 `acyclic -v -n {{ruta/a/entrada.gv}}`
 
-- Muestra información de ayuda:
+- Muestra la ayuda:
 
 `acyclic -?`

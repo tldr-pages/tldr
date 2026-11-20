@@ -4,7 +4,7 @@
 > Alcuni comandi aggiuntivi, come `kv`, hanno la propria documentazione.
 > Maggiori informazioni: <https://developer.hashicorp.com/consul/commands>.
 
-- Mostra informazioni di aiuto generali:
+- Mostra l'aiuto:
 
 `consul --help`
 
@@ -12,6 +12,6 @@
 
 `consul {{sottocomando}} --help`
 
-- Controlla la versione di Consul:
+- Mostra la versione:
 
 `consul --version`

@@ -23,4 +23,4 @@
 
 - 명시적인 옵션으로 우선순위 지정:
 
-`nice {{[-n|--adjustment]}} {{niceness_값}} {{명령어}}`
+`nice {{[-n|--adjustment]}} {{-20..19}} {{명령어}}`

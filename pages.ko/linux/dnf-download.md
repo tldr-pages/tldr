@@ -2,7 +2,6 @@
 
 > DNF 저장소에서 RPM 패키지 다운로드.
 > 기본 `dnf` 명령에는 포함되지 않으며, `dnf-plugins-core`을 통해 지원됨.
-> 관련 항목: `dnf`.
 > 더 많은 정보: <https://dnf-plugins-core.readthedocs.io/en/latest/download.html>.
 
 - 최신 버전의 패키지를 현재 디렉터리에 다운로드:

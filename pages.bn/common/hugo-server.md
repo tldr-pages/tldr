@@ -19,6 +19,6 @@
 
 `hugo server {{[-e|--environment]}} {{production}} --disableFastRender --minify`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `hugo server {{[-h|--help]}}`

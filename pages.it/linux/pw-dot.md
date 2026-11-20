@@ -32,6 +32,6 @@
 
 `pw-dot {{[-9|--90]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-dot {{[-h|--help]}}`

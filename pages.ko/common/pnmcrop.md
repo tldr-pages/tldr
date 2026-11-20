@@ -5,11 +5,11 @@
 
 - PNM 이미지의 흰색 테두리 제거:
 
-`pnmcrop -white {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
+`pnmcrop {{[-w|-white]}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
 
 - 지정한 색상의 상단 및 왼쪽 테두리 제거:
 
-`pnmcrop -bg-color {{색상}} -top -left {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
+`pnmcrop -bg-color {{색상}} {{[-t|-top]}} {{[-l|-left]}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
 
 - 지정한 코너의 픽셀 색상으로 제거할 테두리 색상 결정:
 
@@ -17,4 +17,4 @@
 
 - `n` 픽셀 너비의 테두리를 남김. 또한, 이미지가 배경으로만 이루어진 경우의 동작 지정:
 
-`pnmcrop -margins {{n}} -blank-image {{pass|minimize|maxcrop}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
+`pnmcrop {{[-m|-margin]}} {{n}} {{[-blan|-blank-image]}} {{pass|minimize|maxcrop}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`

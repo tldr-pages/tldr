@@ -23,6 +23,6 @@
 
 `bazel help`
 
-- 버전 확인:
+- 버전 표시:
 
 `bazel version`

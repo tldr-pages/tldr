@@ -23,6 +23,6 @@
 
 `apptainer delete --no-https library://{{hostname/utente/collezione/container}}:{{tag}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer delete {{[-h|--help]}}`

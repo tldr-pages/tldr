@@ -13,7 +13,7 @@
 
 - Specify the maximum compression bits (9-16 bits):
 
-`compress -b {{bits}}`
+`compress -b {{9..16}}`
 
 - Write to `stdout` (no files are changed):
 

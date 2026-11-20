@@ -9,7 +9,7 @@
 
 - Kısaltılmış commit değeri için 4 haneli bir isim oluştur:
 
-`git describe --abbrev={{4}}`
+`git describe --abbrev=4`
 
 - Etiket referans yolu ile bir isim oluştur:
 

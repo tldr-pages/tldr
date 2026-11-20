@@ -31,7 +31,7 @@
 
 - Cetak semua baris yang nilai kolom ke-10nya berada di antara nilai minimum dan maksimum:
 
-`awk '($10 >= {{nilai_min}} && $10 <= {{nilai_maks}})'`
+`awk '($10 >= {{nilai_min}} && $10 <= {{nilai_maks}})' {{lokasi/berkas}}`
 
 - Cetak tabel pengguna dengan UID >= 1000 beserta header dan output yang terformat, menggunakan titik dua sebagai pemisah (`%-20s` berarti: string 20 karakter rata kiri, `%6s` berarti: string 6 karakter rata kanan):
 

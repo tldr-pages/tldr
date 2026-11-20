@@ -25,7 +25,7 @@
 
 - 从指定任务开始执行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} --start-at {{任务名称}}`
+`ansible-playbook {{playbook}} --start-at-task {{任务名称}}`
 
 - 以不做任何更改（试执行）方式执行 playbook 中的任务：
 

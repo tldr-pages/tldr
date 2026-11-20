@@ -7,7 +7,7 @@
 
 `sudo bootc switch {{이미지}}`
 
-- root 사용자의 로컬 이미지 저장소에서 컨테이너 이미지로 OS 베이스를  변경:
+- root 사용자의 로컬 이미지 저장소에서 컨테이너 이미지로 OS 베이스를 변경:
 
 `sudo bootc switch --transport containers-storage {{이미지}}`
 

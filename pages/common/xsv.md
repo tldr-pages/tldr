@@ -21,7 +21,7 @@
 
 - Show 10 random entries:
 
-`xsv sample {{10}} {{path/to/file.csv}}`
+`xsv sample 10 {{path/to/file.csv}}`
 
 - Join a column from one file to another:
 

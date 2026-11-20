@@ -11,6 +11,6 @@
 
 `bioradtopgm {{경로/대상/file.pic}}`
 
-- 버전 출력:
+- 버전 표시:
 
 `bioradtopgm {{[-v|-version]}}`

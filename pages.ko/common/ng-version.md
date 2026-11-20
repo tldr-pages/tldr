@@ -3,7 +3,7 @@
 > Angular CLI 버전 정보 표시.
 > 더 많은 정보: <https://angular.dev/cli/version>.
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `ng {{[v|version]}}`
 

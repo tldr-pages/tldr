@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `amass -version`

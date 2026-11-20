@@ -28,6 +28,6 @@
 
 `clip-view --help`
 
-- 버전정보 표시:
+- 버전 표시:
 
 `clip-view --version`

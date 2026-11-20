@@ -1,12 +1,16 @@
 # command
 
-> Command, kabuğu bir programı herhangi bir fonksiyon ve gömülü özelliğe ve alias'a takılmadan çalıştırmaya zorlar.
+> Kabuğun aynı adlı fonksiyonları, yerleşik komutları ve takma adları yoksayarak programı çalıştırmasını zorla.
 > Daha fazla bilgi için: <https://www.gnu.org/software/bash/manual/bash.html#index-command>.
 
-- `ls` programını aynı isimde bir alias olsa dahi çalıştır:
+- Aynı adlı bir takma ad olsa bile `ls` programını doğrudan çalıştır:
 
-`command {{ls}}`
+`command ls`
 
-- Alias'a atanan özel komutu veya çalıştırılabilir dosyanın yolunu göster:
+- Tüm standart yardımcı programları bulmayı garanti eden varsayılan bir `$PATH` (`/bin:/usr/bin:/sbin:/usr/sbin:/etc:/usr/etc`) kullanarak bir komutu bul ve çalıştır:
 
-`command -v {{komut_ismi}}`
+`command -p {{komut}}`
+
+- Belirli bir komutun çalıştırılabilir dosyasının yolunu veya takma ad tanımını göster:
+
+`command -v {{komut}}`

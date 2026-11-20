@@ -7,7 +7,7 @@
 
 `units`
 
-- Lista todas as unidades que contém um texto no modo interativo:
+- [Interativo] Lista todas as unidades que contém um texto no modo interativo:
 
 `search {{texto}}`
 

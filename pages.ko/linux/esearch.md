@@ -16,6 +16,6 @@
 
 `esearch -db nuccore -query "{{insulin [PROT] AND rodents [ORGN]}}"`
 
-- [h]도움말 표시:
+- 도움말 표시:
 
 `esearch {{[-h|-help]}}`

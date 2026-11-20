@@ -13,7 +13,7 @@
 
 - Analyze using a specific rule level (0-10, higher is stricter):
 
-`phpstan analyse {{path/to/directory}} {{[-l|--level]}} {{level}}`
+`phpstan analyse {{path/to/directory}} {{[-l|--level]}} {{1..10}}`
 
 - Specify an autoload file to load before analyzing:
 

@@ -27,6 +27,6 @@
 
 `driverquery /v`
 
-- 显示详细的使用信息：
+- 显示帮助：
 
 `driverquery /?`

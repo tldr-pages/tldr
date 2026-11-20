@@ -1,7 +1,7 @@
 # prowler
 
 > Perform security best practices assessments, audits, and compliance checks across AWS, Azure, Google Cloud, and Kubernetes.
-> See also: `prowler aws`, `prowler azure`, `prowler gcp`, `prowler kubernetes`, `prowler m365`, `prowler github`.
+> Some subcommands such as  `azure`, `gcp`, `kubernetes`, etc. have their own usage documentation.
 > More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run an AWS, Azure, GCP, Kubernetes - as provider - audit with default checks:

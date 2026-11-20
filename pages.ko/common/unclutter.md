@@ -5,4 +5,4 @@
 
 - 3초 후에 마우스 커서 숨기기:
 
-`unclutter -idle {{3}}`
+`unclutter -idle 3`

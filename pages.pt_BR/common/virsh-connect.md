@@ -1,7 +1,6 @@
 # virsh connect
 
 > Conectar-se a um hipervisor de máquina virtual.
-> Veja também: `virsh`.
 > Mais informações: <https://manned.org/virsh>.
 
 - Conecta ao hipervisor padrão:

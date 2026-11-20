@@ -1,7 +1,6 @@
 # pacman --deptest
 
 > Sprawdź każdą podaną zależność i zwróć listę zależności, które nie są aktualnie spełnione.
-> Zobacz także: `pacman`.
 > Więcej informacji: <https://manned.org/pacman.8>.
 
 - Wyświetl nazwy zależności, które nie są zainstalowane:

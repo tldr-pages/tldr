@@ -7,15 +7,15 @@
 
 `yacas`
 
-- 在 `yacas` 会话中，执行一个语句：
+- [交互式] 在 `yacas` 会话中，执行一个语句：
 
 `{{Integrate(x)Cos(x)}};`
 
-- 在 `yacas` 会话中，显示一个示例：
+- [交互式] 在 `yacas` 会话中，显示一个示例：
 
 `Example();`
 
-- 从 `yacas` 会话中退出：
+- [交互式] 从 `yacas` 会话中退出：
 
 `quit`
 

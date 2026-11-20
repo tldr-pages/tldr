@@ -1,7 +1,6 @@
 # pacman --remove
 
 > Utilidad del administrador de paquetes de Arch Linux.
-> Vea también: `pacman`.
 > Más información: <https://manned.org/pacman.8>.
 
 - [R]emueve un paquete y sus dependencias recur[s]ivamente:

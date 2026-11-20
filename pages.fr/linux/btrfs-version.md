@@ -7,6 +7,6 @@
 
 `btrfs {{[v|version]}} --help`
 
-- Affiche les informations de version des outils btrfs :
+- Affiche la version :
 
 `btrfs {{[v|version]}}`

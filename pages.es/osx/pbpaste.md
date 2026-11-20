@@ -10,4 +10,4 @@
 
 - Utiliza el contenido del portapapeles como entrada de un comando:
 
-`pbpaste | grep foo`
+`pbpaste | {{grep foo}}`

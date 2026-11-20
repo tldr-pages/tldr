@@ -2,6 +2,7 @@
 
 > Multipurpose tool that provides many standard Unix utilities.
 > Commonly used in Android and embedded Linux systems.
+> See also: `busybox`, `coreutils`.
 > More information: <https://landley.net/toybox/>.
 
 - List all available Toybox commands:

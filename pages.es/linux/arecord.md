@@ -9,7 +9,7 @@
 
 - Graba un fragmento en calidad "CD", con una duración fija de 10 segundos:
 
-`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} {{10}} {{ruta/al/archivo.wav}}`
+`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} 10 {{ruta/al/archivo.wav}}`
 
 - Graba un fragmento y lo guarda como MP3 (finaliza con `<Ctrl c>` cuando termines):
 

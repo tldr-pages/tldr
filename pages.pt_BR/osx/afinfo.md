@@ -24,6 +24,6 @@
 
 `afinfo --warnings {{caminho/para/arquivo}}`
 
-- Exibe ajuda sobre o uso completo:
+- Mostra ajuda:
 
 `afinfo --help`

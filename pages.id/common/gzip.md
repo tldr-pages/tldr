@@ -5,28 +5,32 @@
 
 - Kompres sebuah berkas, menggantinya dengan arsip `gzip`:
 
-`gzip {{lokasi/ke/berkas}}`
+`gzip {{jalan/menuju/berkas}}`
 
 - Dekompres sebuah berkas, menggantinya dengan versi asli yang tidak terkompres:
 
-`gzip {{[-d|--decompress]}} {{lokasi/ke/berkas.gz}}`
+`gzip {{[-d|--decompress]}} {{jalan/menuju/berkas.gz}}`
+
+- Tampilkan daftar nama dan persentase pengurangan beban untuk setiap berkas terkompres:
+
+`gzip {{[-v|--verbose]}} {{jalan/menuju/berkas.gz}}`
 
 - Kompres sebuah berkas dengan tetap mempertahankan berkas asli:
 
-`gzip {{[-k|--keep]}} {{lokasi/ke/berkas}}`
+`gzip {{[-k|--keep]}} {{jalan/menuju/berkas}}`
 
 - Kompres sebuah berkas dengan menentukan nama berkas output:
 
-`gzip {{[-c|--stdout]}} {{lokasi/ke/berkas}} >{{lokasi/ke/berkas_terkompres.gz}}`
+`gzip {{[-c|--stdout]}} {{jalan/menuju/berkas}} >{{jalan/menuju/berkas_terkompres.gz}}`
 
 - Dekompres sebuah arsip `gzip` dengan menentukan nama berkas output:
 
-`gzip {{[-cd|--stdout --decompress]}} {{lokasi/ke/berkas.gz}} >{{lokasi/ke/berkas_dekompres}}`
+`gzip {{[-cd|--stdout --decompress]}} {{jalan/menuju/berkas.gz}} >{{jalan/menuju/berkas_dekompres}}`
 
 - Tentukan level kompresi. 1 berarti yang tercepat (kompresi rendah), 9 berarti yang terlambat (kompresi tinggi), 6 berarti default:
 
-`gzip -{{1..9}} {{[-c|--stdout]}} {{lokasi/ke/berkas}} >{{lokasi/ke/berkas_terkompres.gz}}`
+`gzip -{{1..9}} {{[-c|--stdout]}} {{jalan/menuju/berkas}} >{{jalan/menuju/berkas_terkompres.gz}}`
 
-- Tampilkan nama dan persentase reduksi untuk setiap berkas yang dikompres atau didekompres:
+- Tampilkan daftar isi suatu berkas arsip:
 
-`gzip {{[-vd|--verbose --decompress]}} {{lokasi/ke/berkas.gz}}`
+`gzip {{[-l|--list]}} {{jalan/menuju/berkas.txt.gz}}`

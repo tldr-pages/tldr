@@ -11,6 +11,6 @@
 
 `backlight_control {{90}}`
 
-- सहायता प्रिंट करें:
+- मदद प्रदर्शित करें:
 
 `backlight_control`

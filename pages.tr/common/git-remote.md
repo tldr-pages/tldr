@@ -15,9 +15,17 @@
 
 `git remote add {{uzak_bağlantı_ismi}} {{uzak_bağlantı_url'si}}`
 
-- Uzak bağlantının URL'sini değiştir:
+- Uzak bağlantının URL'sini değiştir (mevcut URL'yi korumak için `--add` kullan):
 
 `git remote set-url {{uzak_bağlantı_ismi}} {{yeni_url}}`
+
+- Gönderme (push) için kullanılacak uzak bağlantıyı, çekme (fetch) için kullanılandan farklı olarak ayarla:
+
+`git remote set-url {{uzak_bağlantı_ismi}} {{yeni_url}} --push`
+
+- Uzak bağlantının URL'sini göster:
+
+`git remote get-url {{uzak_bağlantı_ismi}}`
 
 - Uzak bağlantıyı sil:
 

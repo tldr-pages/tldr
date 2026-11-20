@@ -1,7 +1,7 @@
 # iw
 
 > Toon en manipuleer draadloze apparaten.
-> Zie ook: `iw dev`, `nmcli`, `iwctl`.
+> Zie ook: `nmcli`, `iwctl`.
 > Meer informatie: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - Scan naar beschikbare draadloze netwerken:

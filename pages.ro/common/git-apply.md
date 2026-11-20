@@ -26,4 +26,4 @@
 
 - Stochează rezultatul patch-ului în index fără a modifica working tree-ul:
 
-`git apply --cache {{cale/către/fișier}}`
+`git apply --cached {{cale/către/fișier}}`
