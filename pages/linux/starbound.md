@@ -5,4 +5,4 @@
 
 - Start the server:
 
-`{{path/to/}}run-server.sh`
+`{{path/to}}/run-server.sh`
