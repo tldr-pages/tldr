@@ -22,7 +22,7 @@
 
 - List just the name of all of the buckets in the Organization:
 
-`exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}`
+`exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}'`
 
 - Display help for a specific sub-command:
 
