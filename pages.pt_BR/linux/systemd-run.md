@@ -17,7 +17,7 @@
 
 - Inicia um serviço temporário que não será limpo após terminar com uma variável de ambiente customizada:
 
-`sudo systemd-run {{[-r|--remain-after-exit]}} --set-env={{nome}}={{valor}} {{comando}} {{argumento1 argumento2 ...}}`
+`sudo systemd-run {{[-r|--remain-after-exit]}} {{[-E|--setenv]}} {{nome}}={{valor}} {{comando}} {{argumento1 argumento2 ...}}`
 
 - Inicia um timer temporário que executa periodicamente seu serviço temporário (veja `man systemd.time` para o formato de eventos do calendário):
 
