@@ -13,7 +13,7 @@
 
 - Zobrazit název a procento zmenšení pro každý komprimovaný soubor:
 
-`gzip {{[-v|--verbose]}} {{cesta/k/souboru.gz}}`
+`gzip {{[-v|--verbose]}} {{cesta/k/souboru}}`
 
 - Komprimovat soubor se zachováním původního souboru:
 
