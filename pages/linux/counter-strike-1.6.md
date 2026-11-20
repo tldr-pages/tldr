@@ -5,4 +5,4 @@
 
 - Start the server:
 
-`{{path/to/}}hlds_run -game cstrike +map {{de_dust2}}`
+`{{path/to}}/hlds_run -game cstrike +map {{de_dust2}}`
