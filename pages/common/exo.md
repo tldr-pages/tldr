@@ -2,7 +2,7 @@
 
 > Manage the Exoscale services.
 > Some subcommands such as `compute` have their own usage documentation.
-> More information: <https://community.exoscale.com/tools/command-line-interface/>.
+> More information: <https://community.exoscale.com/reference/cli/exo/storage/list/index.md>.
 
 - Configure the exo command-line:
 
