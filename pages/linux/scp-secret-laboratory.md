@@ -5,4 +5,4 @@
 
 - Start the server:
 
-`{{path/to/}}LocalAdmin`
+`{{path/to}}/LocalAdmin`
