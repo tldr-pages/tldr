@@ -5,4 +5,4 @@
 
 - Start the server in LAN mode:
 
-`{{path/to/}}dontstarve_dedicated_server_nullrenderer_x64 -lan`
+`{{path/to}}/dontstarve_dedicated_server_nullrenderer_x64 -lan`
