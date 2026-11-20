@@ -5,12 +5,12 @@
 
 - Start the server with the Dead Center campaign:
 
-`{{path/to/}}srcds_run`
+`{{path/to}}/srcds_run`
 
 - Set which map to start the server with:
 
-`{{path/to/}}srcds_run +map {{c3m1_plankcountry|c5m1_waterfront|...}}`
+`{{path/to}}/srcds_run +map {{c3m1_plankcountry|c5m1_waterfront|...}}`
 
 - Set the gamemode:
 
-`{{path/to/}}srcds_run +mp_gamemode {{coop|versus|survival|...}}`
+`{{path/to}}/srcds_run +mp_gamemode {{coop|versus|survival|...}}`
