@@ -10,3 +10,7 @@
 - Instala los controladores para el equipo detectado:
 
 `sudo ubuntu-drivers install`
+
+- Muestra la ayuda:
+
+`ubuntu-drivers`
