@@ -7,22 +7,26 @@
 
 `kitty`
 
-- Open a terminal with the specified title for the window:
+- Run a command in a new terminal window:
+
+`kitty {{command}}`
+
+- Open a terminal with a fixed operating system window title:
 
 `kitty --title "{{title}}"`
 
-- Start the theme-chooser builtin:
+- Open a terminal using the built-in defaults:
+
+`kitty --config NONE`
+
+- Choose and apply a color theme interactively (updates `kitty.conf`):
 
 `kitty +kitten themes`
 
-- Display an image in the terminal:
+- Display an image in a terminal that supports the kitty graphics protocol:
 
-`kitty +kitten icat {{path/to/image}}`
+`kitty +kitten icat "{{path/to/image}}"`
 
-- Copy the contents of `stdin` to the clipboard:
+- Copy text to the clipboard (requires a terminal that allows OSC 52 writes):
 
-`echo {{example}} | kitty +kitten clipboard`
-
-- Open a terminal without loading the user config:
-
-`kitty --config NONE`
+`printf '%s' "{{text}}" | kitty +kitten clipboard`
