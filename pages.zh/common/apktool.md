@@ -5,7 +5,7 @@
 
 - 反编译：
 
-`apktool d {{应用}}.apk`
+`apktool d {{路径/到/文件}}.apk`
 
 - 将一个文件夹打包为 apk 文件：
 

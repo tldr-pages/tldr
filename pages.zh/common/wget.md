@@ -11,7 +11,7 @@
 
 - 将该 URL 的内容下载到文件中（在这个例子中文件名为 "bar"）：
 
-`wget {{[-O|--output-document]}} {{bar}} {{https://example.com/foo}}`
+`wget {{[-O|--output-document]}} {{路径/到/文件}} {{https://example.com/foo}}`
 
 - 以每三秒一个请求的速度下载一个网页和其所有资源（脚本，样式表，图片等等）：
 
@@ -27,7 +27,7 @@
 
 - 使用基本授权来从 HTTP/FTP 服务器中下载文件：
 
-`wget --user {{username}} --password {{password}} {{https://example.com}}`
+`wget --user {{用户名}} --password {{密码}} {{https://example.com}}`
 
 - 继续一个未完成的下载任务：
 
@@ -35,4 +35,4 @@
 
 - 将指定文件中所有列出的 URL 下载到一个目录中：
 
-`wget {{[-P|--directory-prefix]}} {{path/to/directory}} {{[-i|--input-file]}} {{URLs.txt}}`
+`wget {{[-P|--directory-prefix]}} {{路径/到/目录}} {{[-i|--input-file]}} {{URLs.txt}}`

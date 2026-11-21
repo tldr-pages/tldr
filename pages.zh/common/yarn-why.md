@@ -5,4 +5,4 @@
 
 - 打印安装这个 Yarn 软件包的原因：
 
-`yarn-why {{package_name}}`
+`yarn-why {{软件包}}`

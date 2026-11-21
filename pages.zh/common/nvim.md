@@ -7,7 +7,7 @@
 
 - 打开文件：
 
-`nvim {{path/to/file}}`
+`nvim {{路径/到/文件}}`
 
 - 进入文本编辑模式（insert mode）：
 

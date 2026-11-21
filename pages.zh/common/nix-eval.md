@@ -13,7 +13,7 @@
 
 - 从指定文件中评估 Nix 表达式：
 
-`nix eval --file {{文件路径}}`
+`nix eval --file {{路径/到/文件}}`
 
 - 打印 nixpkgs 中指定软件包的存储路径：
 

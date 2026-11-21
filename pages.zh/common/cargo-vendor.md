@@ -5,4 +5,4 @@
 
 - 将依赖项存储到指定目录，并配置在当前项目中使用这些存储的源代码：
 
-`cargo vendor {{path/to/directory}} >.cargo/config.toml`
+`cargo vendor {{路径/到/目录}} >.cargo/config.toml`

@@ -10,11 +10,11 @@
 
 - 安装一个或者多个依赖到 `bower_components` 目录：
 
-`bower install {{包名1 包名2 ...}}`
+`bower install {{软件包1 软件包2 ...}}`
 
 - 从本地的 `bower_components` 目录卸载依赖：
 
-`bower uninstall {{包名1 包名2 ...}}`
+`bower uninstall {{软件包1 软件包2 ...}}`
 
 - 列出本地包和可能的更新项：
 
@@ -26,8 +26,8 @@
 
 - 安装时候指定依赖的版本号，并添加到 `bower.json`：
 
-`bower install {{local_name}}={{package}}#{{version}} --save`
+`bower install {{local_name}}={{软件包}}#{{version}} --save`
 
 - 显示 bower 指令的帮助信息：
 
-`bower help {{指令}}`
+`bower help {{命令}}`

@@ -7,7 +7,7 @@
 
 - 向指定的终端 ID 上的指定用户写入信息：
 
-`write {{username}} {{terminal_id}}`
+`write {{用户名}} {{terminal_id}}`
 
 - 向终端 "/dev/tty5" 上的用户 "testuser" 发送信息：
 

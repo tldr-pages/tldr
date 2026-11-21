@@ -5,16 +5,16 @@
 
 - 显示有关给定文件的信息：
 
-`GetFileInfo {{路径/文件名}}`
+`GetFileInfo {{路径/到/文件}}`
 
 - 显示给定文件的创建日期和时间：
 
-`GetFileInfo -d {{路径/文件名}}`
+`GetFileInfo -d {{路径/到/文件}}`
 
 - 显示给定文件的上次修改日期和时间：
 
-`GetFileInfo -m {{路径/文件名}}`
+`GetFileInfo -m {{路径/到/文件}}`
 
 - 显示给定文件的创建者：
 
-`GetFileInfo -c {{路径/文件名}}`
+`GetFileInfo -c {{路径/到/文件}}`

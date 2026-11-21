@@ -5,19 +5,19 @@
 
 - 安装一个包：
 
-`winget {{[add|install]}} {{包}}`
+`winget {{[add|install]}} {{软件包}}`
 
 - 移除一个包（注意：`remove` 也可以用来代替 `uninstall`）：
 
-`winget {{[rm|uninstall]}} {{包}}`
+`winget {{[rm|uninstall]}} {{软件包}}`
 
 - 显示一个包的信息：
 
-`winget show {{包}}`
+`winget show {{软件包}}`
 
 - 搜索一个包：
 
-`winget search {{包}}`
+`winget search {{软件包}}`
 
 - 将所有包升级到最新版本：
 

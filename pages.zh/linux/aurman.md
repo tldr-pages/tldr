@@ -14,15 +14,15 @@
 
 - 安装一个新包：
 
-`aurman {{[-S|--sync]}} {{包名}}`
+`aurman {{[-S|--sync]}} {{软件包}}`
 
 - 安装一个新包但不显示 `PKGBUILD` 文件的变动：
 
-`aurman {{[-S|--sync]}} --noedit {{包名}}`
+`aurman {{[-S|--sync]}} --noedit {{软件包}}`
 
 - 无确认提示安装一个新包：
 
-`aurman {{[-S|--sync]}} --noedit --noconfirm {{包名}}`
+`aurman {{[-S|--sync]}} --noedit --noconfirm {{软件包}}`
 
 - 在官方仓库和 AUR 的包数据库中查找关键字：
 
@@ -30,7 +30,7 @@
 
 - 移除一个包及其依赖：
 
-`aurman --remove --recursive --nosave {{包名}}`
+`aurman --remove --recursive --nosave {{软件包}}`
 
 - 清除包缓存（用两次 `--clean` 参数清除所有包缓存）：
 

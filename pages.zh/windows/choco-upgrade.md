@@ -5,11 +5,11 @@
 
 - 升级一个或多个用空格分隔的软件包：
 
-`choco upgrade {{包名 包名 ..}}`
+`choco upgrade {{软件包1 软件包2 ..}}`
 
 - 将一个包升级到指定版本：
 
-`choco upgrade {{包名}} --version {{版本号}}`
+`choco upgrade {{软件包}} --version {{版本号}}`
 
 - 升级全部包：
 
@@ -21,12 +21,12 @@
 
 - 自动确认所有提示：
 
-`choco upgrade {{包名}} {{[-y|--yes]}}`
+`choco upgrade {{软件包}} {{[-y|--yes]}}`
 
 - 从自定义源处升级包：
 
-`choco upgrade {{包名}} {{[-s|--source]}} {{源url|别名}}`
+`choco upgrade {{软件包}} {{[-s|--source]}} {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
-`choco upgrade {{包}} {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`
+`choco upgrade {{软件包}} {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`

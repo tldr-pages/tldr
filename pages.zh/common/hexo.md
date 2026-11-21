@@ -5,7 +5,7 @@
 
 - 初始化一个网站：
 
-`hexo init {{path/to/directory}}`
+`hexo init {{路径/到/目录}}`
 
 - 创建一篇新文章：
 

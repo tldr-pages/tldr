@@ -5,11 +5,11 @@
 
 - 使用指定路径启动 `spf`：
 
-`spf {{path/to/directory}}`
+`spf {{路径/到/目录}}`
 
 - 使用多个路径启动 `spf`：
 
-`spf {{path/to/directory1 path/to/directory2 ...}}`
+`spf {{路径/到/目录1 路径/到/目录2 ...}}`
 
 - 修复快捷键设置，补全缺失的按键：
 

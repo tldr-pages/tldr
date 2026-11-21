@@ -21,4 +21,4 @@
 
 - 指定新的启动盘：
 
-`systemsetup -setstartupdisk {{路径}}`
+`systemsetup -setstartupdisk {{路径/到/目录}}`
