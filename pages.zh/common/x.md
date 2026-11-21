@@ -9,15 +9,15 @@
 
 - 全局安装一个软件包（例如 jq）：
 
-`x env use {{package}}`
+`x env use {{软件包}}`
 
 - 在当前 Shell 会话中临时尝试软件包：
 
-`x env try {{package}}`
+`x env try {{软件包}}`
 
 - 无需安装直接使用软件包：
 
-`x {{package}}`
+`x {{软件包}}`
 
 - 初始化 OpenAI API 密钥以使用 AI 功能：
 

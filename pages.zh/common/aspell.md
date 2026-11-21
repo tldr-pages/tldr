@@ -5,11 +5,11 @@
 
 - 为一个文件做拼写检查：
 
-`aspell check {{文件路径}}`
+`aspell check {{路径/到/文件}}`
 
 - 列出来自标准输入的拼写错误单词：
 
-`cat {{文件}} | aspell list`
+`cat {{路径/到/文件}} | aspell list`
 
 - 列出可用的字典语言：
 
@@ -21,4 +21,4 @@
 
 - 列出来自标准输入的拼写错误单词，并且忽略个人单词列表中的单词：
 
-`cat {{文件}} | aspell --personal {{个人单词列表.pws}} list`
+`cat {{路径/到/文件}} | aspell --personal {{个人单词列表.pws}} list`

@@ -9,7 +9,7 @@
 
 - 安装软件包：
 
-`sudo port install {{包名}}`
+`sudo port install {{软件包}}`
 
 - 列出已安装的软件包：
 

@@ -13,4 +13,4 @@
 
 - 在给定的仓库和目录中搜索制品：
 
-`jf rt search --recursive {{仓库名称}}/{{路径}}/`
+`jf rt search --recursive {{仓库名称}}/{{路径/到/目录}}/`

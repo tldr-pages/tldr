@@ -5,16 +5,16 @@
 
 - 显示指定包的信息：
 
-`choco info {{包名}}`
+`choco info {{软件包}}`
 
 - 显示一个本地已安装包的信息：
 
-`choco info {{包名}} {{[-l|--local-only]}}`
+`choco info {{软件包}} {{[-l|--local-only]}}`
 
 - 从一个自定义的源来获取包的信息：
 
-`choco info {{包名}} {{[-s|--source]}} {{源url|别名}}`
+`choco info {{软件包}} {{[-s|--source]}} {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
-`choco info {{包名}} {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`
+`choco info {{软件包}} {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`

@@ -33,4 +33,4 @@
 
 - 断开（Kill）具有特定目的 IP 和端口的 IPv4 或 IPv6 套接字连接：
 
-`ss {{[-K|--kill]}} dst {{ip_address}} dport = {{port}}`
+`ss {{[-K|--kill]}} dst {{ip_address}} dport = {{端口}}`

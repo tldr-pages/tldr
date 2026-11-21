@@ -6,12 +6,12 @@
 
 - 下载包：<http://atom.io/packages> 和主题 <http://atom.io/themes>：
 
-`apm install {{包名}}`
+`apm install {{软件包}}`
 
 - 移除包 / 主题：
 
-`apm remove {{包名}}`
+`apm remove {{软件包}}`
 
 - 升级包 / 主题：
 
-`apm upgrade {{包名}}`
+`apm upgrade {{软件包}}`

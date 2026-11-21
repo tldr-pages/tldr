@@ -5,19 +5,19 @@
 
 - 卸载一个或多个用空格分隔的软件包：
 
-`choco uninstall {{包名 『包名』 ..}}`
+`choco uninstall {{软件包1 软件包2 ..}}`
 
 - 卸载一个指定版本的包：
 
-`choco uninstall {{包名}} --version {{版本号}}`
+`choco uninstall {{软件包}} --version {{版本号}}`
 
 - 自动确认所有提示：
 
-`choco uninstall {{包名}} {{[-y|--yes]}}`
+`choco uninstall {{软件包}} {{[-y|--yes]}}`
 
 - 卸载时同时删除其所有的依赖：
 
-`choco uninstall {{包名}} {{[-x|--remove-dependencies]}}`
+`choco uninstall {{软件包}} {{[-x|--remove-dependencies]}}`
 
 - 卸载全部包：
 

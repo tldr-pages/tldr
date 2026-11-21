@@ -18,4 +18,4 @@
 
 - 通过创建符号链接来创建自定义工具链：
 
-`rustup toolchain link {{自定义工具链名称}} {{path/to/directory}}`
+`rustup toolchain link {{自定义工具链名称}} {{路径/到/目录}}`

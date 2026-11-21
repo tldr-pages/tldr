@@ -13,7 +13,7 @@
 
 - 设置存储数据的工作目录：
 
-`AdGuardHome --work-dir {{工作目录/路径}}`
+`AdGuardHome --work-dir {{路径/到/目录}}`
 
 - 安装或卸载 AdGuard Home 的服务：
 

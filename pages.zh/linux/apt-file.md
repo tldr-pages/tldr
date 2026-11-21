@@ -9,11 +9,11 @@
 
 - 查找包含指定文件或路径的软件包：
 
-`apt-file {{[find|search]}} {{文件路径}}`
+`apt-file {{[find|search]}} {{路径/到/文件}}`
 
 - 列出指定包的内容：
 
-`apt-file list {{软件包名}}`
+`apt-file list {{软件包}}`
 
 - 查找符合给定 `pattern` 中`regex`式的软件包：
 
