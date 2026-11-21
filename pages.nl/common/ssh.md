@@ -18,7 +18,7 @@
 
 - Voer een opdracht uit op een externe server met een [t]ty-toewijzing die interactie met de externe opdracht toestaat:
 
-`ssh {{gebruikersnaam}}@{{externe_host}} -t {{opdracht}} {{opdrachtargumenten}}`
+`ssh {{gebruikersnaam}}@{{externe_host}} -t {{commando}} {{opdrachtargumenten}}`
 
 - SSH-tunneling: [D]ynamische poortdoorsturing (SOCKS-proxy op `localhost:1080`):
 
