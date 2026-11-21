@@ -5,7 +5,7 @@
 
 - Faz uma varredura em um arquivo ou diretório por vulnerabilidades:
 
-`clamdscan {{caminho/para/arquivo_ou_diretório}}`
+`clamdscan {{caminho/para/arquivo_ou_diretorio}}`
 
 - Faz uma varredura nos dados da `stdin` (entrada padrão):
 

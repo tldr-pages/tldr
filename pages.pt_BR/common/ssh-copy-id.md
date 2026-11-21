@@ -5,12 +5,12 @@
 
 - Copia suas chaves para a máquina remota:
 
-`ssh-copy-id {{nome_de_usuário}}@{{máquina_remota}}`
+`ssh-copy-id {{nome_do_usuario}}@{{máquina_remota}}`
 
 - Copia a chave pública fornecida para a máquina remota:
 
-`ssh-copy-id -i {{caminho/para/certificado}} {{nome_de_usuário}}@{{maquina_remota}}`
+`ssh-copy-id -i {{caminho/para/certificado}} {{nome_do_usuario}}@{{maquina_remota}}`
 
 - Copia a chave pública fornecida para a máquina remota usando uma porta específica:
 
-`ssh-copy-id -i {{caminho/para/certificado}} -p {{porta}} {{nome_de_usuário}}@{{maquina_remota}}`
+`ssh-copy-id -i {{caminho/para/certificado}} -p {{porta}} {{nome_do_usuario}}@{{maquina_remota}}`

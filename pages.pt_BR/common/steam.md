@@ -21,7 +21,7 @@
 
 - Faz o login no Steam com as credenciais especificadas:
 
-`steam -login {{nome_de_usuário}} {{senha}}`
+`steam -login {{nome_do_usuario}} {{senha}}`
 
 - Inicia o Steam no modo Big Picture:
 

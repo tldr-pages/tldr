@@ -9,7 +9,7 @@
 
 - Cria configuração do snapper:
 
-`snapper {{[-c|--config]}} {{configuração}} create-config {{caminho/para/diretório}}`
+`snapper {{[-c|--config]}} {{configuração}} create-config {{caminho/para/diretorio}}`
 
 - Cria um snapshot com uma descrição:
 

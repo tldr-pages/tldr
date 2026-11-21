@@ -10,7 +10,7 @@
 
 - Especifica as regras para o emond processar, fornecendo um caminho para um arquivo ou diretório:
 
-`emond -r {{caminho/para/arquivo_ou_diretório}}`
+`emond -r {{caminho/para/arquivo_ou_diretorio}}`
 
 - Usa um arquivo de configuração específico:
 

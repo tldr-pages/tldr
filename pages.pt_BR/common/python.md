@@ -25,7 +25,7 @@
 
 - Instala um pacote usando `pip`:
 
-`python -m pip install {{nome_do_pacote}}`
+`python -m pip install {{pacote}}`
 
 - Depura interativamente um script de Python:
 

@@ -9,8 +9,8 @@
 
 - Renomeia um arquivo e adiciona a renomeação no próximo commit:
 
-`git mv {{nome_do_arquivo}} {{novo_nome}}`
+`git mv {{caminho/para/arquivo_ou_diretorio}} {{novo_nome}}`
 
 - Sobrescreve o arquivo no caminho alvo se ele já existir:
 
-`git mv {{[-f|--force]}} {{arquivo}} {{alvo}}`
+`git mv {{[-f|--force]}} {{caminho/para/arquivo_ou_diretorio}} {{alvo}}`

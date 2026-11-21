@@ -5,7 +5,7 @@
 
 - Desinstala um pacote:
 
-`pip uninstall {{nome_pacote}}`
+`pip uninstall {{pacote}}`
 
 - Desinstala pacotes listados em um arquivo:
 
@@ -13,4 +13,4 @@
 
 - Desinstala um pacote sem pedir por confirmação:
 
-`pip uninstall {{[-y|--yes]}} {{nome_pacote}}`
+`pip uninstall {{[-y|--yes]}} {{pacote}}`

@@ -7,11 +7,11 @@
 
 - Inicia o cmus em um diretório específico:
 
-`cmus {{caminho_do_diretorio}}`
+`cmus {{caminho/para/diretorio}}`
 
 - Adiciona arquivo/diretório a biblioteca:
 
-`<:>add {{caminho_para_arquivo_ou_diretorio}}`
+`<:>add {{caminho/para/arquivo_ou_diretorio}}`
 
 - Para/reinicia a música atual:
 

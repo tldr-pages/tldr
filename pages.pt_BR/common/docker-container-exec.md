@@ -13,7 +13,7 @@
 
 - Seleciona o diretório de trabalho para a execução de um determinado comando:
 
-`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{caminho/para/diretório}} {{nome_do_contêiner}} {{comando}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{caminho/para/diretorio}} {{nome_do_contêiner}} {{comando}}`
 
 - Executa um comando em segundo plano em um contêiner existente, mas mantém o `stdin` aberto:
 

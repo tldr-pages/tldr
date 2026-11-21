@@ -14,7 +14,7 @@
 
 - Baixa um determinado anime especificando o diretório de download:
 
-`animdl download "{{título_do_anime}}" {{[-d|--download-dir]}} {{caminho/para/diretório}}`
+`animdl download "{{título_do_anime}}" {{[-d|--download-dir]}} {{caminho/para/diretorio}}`
 
 - Obtém a URL de transmissão para um determinado anime:
 

@@ -17,7 +17,7 @@
 
 - Exibe o sistema de arquivos e seu uso do disco contendo o arquivo ou diretório dado:
 
-`df {{caminho/para/arquivo_ou_diretório}}`
+`df {{caminho/para/arquivo_ou_diretorio}}`
 
 - Inclui estatísticas do número de nós livres e usados incluindo [T]ipos do sistema de arquivos:
 

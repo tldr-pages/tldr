@@ -5,7 +5,7 @@
 
 - Vai para o diretório especificado:
 
-`cd {{caminho/para/diretório}}`
+`cd {{caminho/para/diretorio}}`
 
 - Vai para o diretório pai do diretório atual:
 
@@ -17,7 +17,7 @@
 
 - Vai para o diretório home de um usuário especificado:
 
-`cd ~{{nome_de_usuário}}`
+`cd ~{{nome_do_usuario}}`
 
 - Vai para o diretório escolhido anteriormente:
 

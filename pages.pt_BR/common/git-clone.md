@@ -5,7 +5,7 @@
 
 - Clona um repositório existente em um novo diretório (o diretório padrão é o nome do repositório):
 
-`git clone {{local_do_repositório_remoto}} {{caminho/para/diretório}}`
+`git clone {{local_do_repositório_remoto}} {{caminho/para/diretorio}}`
 
 - Clona um repositório existente e seus submódulos:
 

@@ -9,7 +9,7 @@
 
 - Exibe informações sobre um usuário específico:
 
-`finger {{nome_de_usuário}}`
+`finger {{nome_do_usuario}}`
 
 - Exibe o nome de login do usuário, nome real, nome do terminal e outras informações:
 

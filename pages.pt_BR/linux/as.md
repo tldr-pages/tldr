@@ -18,4 +18,4 @@
 
 - Adiciona um caminho na lista de diretórios onde será realizada a busca por arquivos especificados na diretiva .include:
 
-`as -I {{caminho_para_o_diretorio}} {{caminho/para/arquivo.s}}`
+`as -I {{caminho/para/diretorio}} {{caminho/para/arquivo.s}}`

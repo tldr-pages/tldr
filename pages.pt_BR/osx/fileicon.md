@@ -5,16 +5,16 @@
 
 - Define um ícone personalizado para um arquivo ou diretório específico:
 
-`fileicon set {{caminho/para/arquivo_ou_diretório}} {{caminho/para/icone.png}}`
+`fileicon set {{caminho/para/arquivo_ou_diretorio}} {{caminho/para/icone.png}}`
 
 - Remove um ícone personalizado de um arquivo ou diretório específico:
 
-`fileicon rm {{caminho/para/arquivo_ou_diretório}}`
+`fileicon rm {{caminho/para/arquivo_ou_diretorio}}`
 
 - Salva o ícone personalizado de um arquivo ou diretório como um arquivo `.icns` no diretório atual:
 
-`fileicon get {{caminho/para/arquivo_ou_diretório}}`
+`fileicon get {{caminho/para/arquivo_ou_diretorio}}`
 
 - Testa se um arquivo ou diretório específico tem um ícone personalizado:
 
-`fileicon test {{caminho/para/arquivo_ou_diretório}}`
+`fileicon test {{caminho/para/arquivo_ou_diretorio}}`

@@ -14,7 +14,7 @@
 
 - Analisa um dado diretório:
 
-`ncdu {{caminho/para/diretório}}`
+`ncdu {{caminho/para/diretorio}}`
 
 - Salva os resultados em um arquivo:
 

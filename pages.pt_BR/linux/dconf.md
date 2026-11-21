@@ -10,7 +10,7 @@
 
 - Imprime sub-diretórios e sub-chaves de um caminho específico:
 
-`dconf list /{{caminho/para/diretório}}/`
+`dconf list /{{caminho/para/diretorio}}/`
 
 - Grava um valor de chave específico:
 
@@ -26,4 +26,4 @@
 
 - Despeja um diretório específico no formato de arquivo INI:
 
-`dconf dump /{{caminho/para/diretório}}/`
+`dconf dump /{{caminho/para/diretorio}}/`
