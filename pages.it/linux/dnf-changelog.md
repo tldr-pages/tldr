@@ -6,19 +6,19 @@
 
 - Visualizza tutti i changelog per un dato pacchetto:
 
-`dnf changelog {{package}}`
+`dnf changelog {{pacchetto}}`
 
 - Visualizza tutti i changelog per un dato pacchetto dopo una data specificata:
 
-`dnf changelog --since {{date}} {{package}}`
+`dnf changelog --since {{date}} {{pacchetto}}`
 
 - Visualizza gli ultimi `n` changelog per un dato pacchetto:
 
-`dnf changelog --count {{number}} {{package}}`
+`dnf changelog --count {{number}} {{pacchetto}}`
 
 - Mostra solo i nuovi elementi per i pacchetti aggiornabili:
 
-`dnf changelog --upgrades {{package}}`
+`dnf changelog --upgrades {{pacchetto}}`
 
 - Mostra l'aiuto:
 

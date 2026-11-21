@@ -9,7 +9,7 @@
 
 - Installa un pacchetto dall'AUR:
 
-`aura -A {{package}}`
+`aura -A {{pacchetto}}`
 
 - Aggiorna tutti i pacchetti AUR in modalità verbose e rimuove tutte le dipendenze di compilazione:
 
@@ -17,7 +17,7 @@
 
 - Installa un pacchetto dai repository ufficiali:
 
-`aura -S {{package}}`
+`aura -S {{pacchetto}}`
 
 - Sincronizza e aggiorna tutti i pacchetti dai repository ufficiali:
 
@@ -25,7 +25,7 @@
 
 - Rimuove un pacchetto e le sue dipendenze:
 
-`aura -Rsu {{package}}`
+`aura -Rsu {{pacchetto}}`
 
 - Rimuove i pacchetti orfani (installati come dipendenze ma non più richiesti):
 

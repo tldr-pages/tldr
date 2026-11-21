@@ -6,7 +6,7 @@
 
 - Esegui comando sul sistema host da dentro il container Distrobox:
 
-`distrobox-host-exec "{{command}}"`
+`distrobox-host-exec "{{comando}}"`
 
 - Esegui il comando `ls` sul sistema host da dentro il container:
 

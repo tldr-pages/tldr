@@ -13,7 +13,7 @@
 
 - Esegui i casi di test BATS ricorsivamente (file con estensione `.bats`):
 
-`bats {{[-r|--recursive]}} {{percorso/directory}}`
+`bats {{[-r|--recursive]}} {{percorso/della/directory}}`
 
 - Outputta i risultati in un formato specifico:
 

@@ -13,7 +13,7 @@
 
 - Membuka sebuah berkas dan lompat ke baris tertentu:
 
-`subl {{jalur/ke/berkas}}:{{nomor_baris}}`
+`subl {{jalan/menuju/berkas}}:{{nomor_baris}}`
 
 - Membuka sebuah berkas atau direktori di jendela yang sedang terbuka:
 

@@ -1,10 +1,10 @@
 # trackfetch
 
-> Download songs listed in a text file as tagged MP3, M4A, or Opus files, using Spotify metadata and YouTube audio.
-> Requires `yt-dlp`, `ffmpeg`, and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables.
+> Download songs listed in a text file or passed as arguments, saving them as tagged MP3, M4A, or Opus files using configurable metadata sources and YouTube audio.
+> Requires `yt-dlp`, `ffmpeg`, and `deno`. Spotify is optional and only used when selected.
 > More information: <https://github.com/ByteMe6/trackfetch#usage>.
 
-- Download every song from a file with one `Artist - Title` per line into `~/Music/trackfetch`:
+- Download every song from a file with one `Artist - Title` per line into the current directory:
 
 `trackfetch {{path/to/songs.txt}}`
 
@@ -12,13 +12,21 @@
 
 `trackfetch {{path/to/songs.txt}} {{[-o|--output]}} {{path/to/directory}}`
 
-- Keep YouTube's original audio instead of converting it to MP3:
+- Download one or more tracks passed as arguments instead of a text file:
 
-`trackfetch {{path/to/songs.txt}} {{[-f|--format]}} {{opus|m4a}}`
+`trackfetch {{"Artist1 - Title1" "Artist2 - Title2" ...}}`
 
-- Name the files by song title only, instead of `Artist - Title`:
+- Choose which metadata sources to use (the default is `itunes`):
 
-`trackfetch {{path/to/songs.txt}} --title-only`
+`trackfetch {{path/to/songs.txt}} {{[-s|--metadata-sources]}} {{deezer,itunes,musicbrainz}}`
+
+- Choose the output format (the default is `m4a`; `m4a` and `opus` keep YouTube's original audio):
+
+`trackfetch {{path/to/songs.txt}} {{[-f|--format]}} {{mp3|m4a|opus}}`
+
+- Use a config file for the defaults:
+
+`trackfetch {{path/to/songs.txt}} --config {{path/to/config.ini}}`
 
 - Wait a number of seconds between songs to avoid rate limiting:
 
@@ -27,7 +35,3 @@
 - Retry the songs that failed in a previous run:
 
 `cut {{[-d|--delimiter]}} '|' {{[-f|--fields]}} 1 {{path/to/directory}}/failed.txt >{{path/to/retry.txt}} && trackfetch {{path/to/retry.txt}} {{[-o|--output]}} {{path/to/directory}}`
-
-- Display help:
-
-`trackfetch {{[-h|--help]}}`

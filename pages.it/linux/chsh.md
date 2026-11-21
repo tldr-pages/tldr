@@ -18,4 +18,4 @@
 
 - Imposta la shell di login per un utente specifico:
 
-`sudo chsh {{[-s|--shell]}} {{percorso/alla/shell}} {{username}}`
+`sudo chsh {{[-s|--shell]}} {{percorso/alla/shell}} {{nome_utente}}`
