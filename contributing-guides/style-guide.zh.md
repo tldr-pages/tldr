@@ -13,15 +13,15 @@
 
 > 简短、精炼的描述。
 > 描述最好只有一行；当然，如果需要，也可以是两行。
-> 更多信息：<https://example.com>.
+> 更多信息：<https://example.com>。
 
 - 命令描述：
 
-`命令 -选项 1 -选项 2 -参数 1 {{参数的值}}`
+`命令 -选项1 -选项2 -参数1 {{参数的值}}`
 
 - 命令描述：
 
-`命令 -选项 1 -选项 2`
+`命令 -选项1 -选项2`
 ```
 
 当你将自己的贡献提交 pull request 时，一个脚本会自动检查你的贡献是否符合上面的格式。
@@ -55,7 +55,7 @@ tldr --render path/to/tldr_page.md
 
 > 清空回收站中的项目。
 > 此命令仅适用于 PowerShell 版本 5.1 及以下版本，或 7.1 及以上版本。
-> 更多信息： <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
+> 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>。
 ```
 
 ## 别名
@@ -65,7 +65,7 @@ tldr --render path/to/tldr_page.md
 # command_name
 
 > 此命令是 `original-command-name` 的别名。
-> 更多信息： <https://example.com/original/command/help/page>.
+> 更多信息：<https://example.com/original/command/help/page>。
 
 - 查看原始命令的文档：
 
@@ -96,7 +96,7 @@ tldr --render path/to/tldr_page.md
 
 > 显示当前工作目录或移动到其他目录。
 > 在 PowerShell 中，此命令是 `Set-Location` 的别名。本文档基于命令提示符 (`cmd`) 版本的 `cd`。
-> 更多信息： <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cd>。
 
 - 原命令的文档在：
 
@@ -112,7 +112,7 @@ tldr --render path/to/tldr_page.md
 # ni
 
 > 在 PowerShell 中，此命令是 `New-Item` 的别名。
-> 更多信息： <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
+> 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>。
 
 - 查看原始命令的文档：
 
@@ -127,7 +127,7 @@ tldr --render path/to/tldr_page.md
 # curl
 
 > 在 PowerShell 中，当原始的 `curl` 程序 (<https://curl.se>) 未正确安装时，此命令可能是 `Invoke-WebRequest` 的别名。
-> 更多信息： <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>。
 
 - 通过打印其版本号来检查 `curl` 是否已正确安装。如果此命令导致错误，则 PowerShell 可能已将此命令替换为 `Invoke-WebRequest`：
 
@@ -186,47 +186,34 @@ Display the current license's e[xp]i[r]ation date and time:
 1. 占位符需要短小精悍，
    例如 `{{源文件}}` 或者 `{{钱包.txt}}`
 2. 如果占位符是西文，请用 [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) 来分词。
-3. 当占位符涉及文件路径时，请用 `{{目录/子目录/《占位符》}}` 的格式。
-   例如：`ln -s {{目录/子目录/源文件}} {{目录/子目录/链接}}`
-   如果占位符提到的文件也可能是目录，请用 `{{目录/子目录/文件或目录}}`
-4. 除非文件是特定的，上述 `{{目录/子目录/《占位符》}}` 的文件路径格式应用于所有包含路径的命令。
-5. 如果命令需要的文件扩展名是固定的，请在占位符里加上文件格式。
-   例如：`unrar x {{压缩包.rar}}`
-   如果文件 **必须** 有一个扩展名，请用 `{{.ext}}`。
-   例如，在 `find {{起始目录}} -name '{{*.ext}}'` 的例子里，
-   这样做简单地演示了查找一个特定文件扩展名的方法。
-   但是，在 `wc -l {{file}}` 的例子里，用不加扩展名的 `{{file}}` 就足够了。
-6. 如果用实际的值比描述这个占位符更加明了，请举一个值做例子。
+3. 如果用实际的值比描述这个占位符更加明了，请举一个值做例子。
    例如：`iostat {{2}}` 比 `iostat {{以秒为单位的间隔}}` 更清晰。
-7. 如果一个命令可能对文件系统或设备造成不可逆的影响，请在示例命令中注意改写，使其不能被盲目复制粘贴运行。
-   例如，`ddrescue --force --no-scrape /dev/sda /dev/sdb` 被盲目复制粘贴时可能对系统造成毁灭性的打击；`ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` 则更安全。
-   因此，请用 `{{/dev/sdXY}}` 而不是 `{{/dev/sda1}}` 来表示一个 **块设备**。
 
-占位符应该尽可能简单明了，让人一眼就能看出应该替换它的值。
+文件路径的写法见下方[路径](#路径)一节，扩展名的写法见[扩展名](#扩展名)一节，涉及不可逆操作的命令见[特殊情况](#特殊情况)一节。
 
 ### 路径
 
-- 当只期望文件名时，请使用 `{{filename}}`。
-- 对于文件或目录路径的任何引用，请使用格式 `{{path/to/<placeholder>}}`，除非位置是隐含的。
-- 当路径不能是相对路径，而必须从文件系统的根目录开始时，请使用斜杠作为前缀，例如 `get {{/path/to/remote_file}}`。
-- 如果可能引用文件或目录，请使用 `{{path/to/file_or_directory}}`。
+- 当只期望文件名时，请使用 `{{文件名}}`。
+- 对于文件或目录路径的任何引用，请使用格式 `{{路径/到/占位符}}`，除非位置是隐含的。
+- 当路径不能是相对路径，而必须从文件系统的根目录开始时，请把斜杠写在占位符外面，例如 `get /{{路径/到/远程文件}}`。
+- 如果可能引用文件或目录，请使用 `{{路径/到/文件或目录}}`。
 
 > [!NOTE]
-> 如果命令专用于 Windows，请使用反斜杠（`\`），例如 `{{path\to\file_or_directory}}`。驱动器号（如 `C:`）是可选的，除非命令输入要求绝对路径或特定的驱动器号范围，例如 `cd /d {{C}}:{{path\to\directory}}`。
+> 如果命令专用于 Windows，请使用反斜杠（`\`），例如 `{{路径\到\文件或目录}}`。驱动器号（如 `C:`）是可选的，除非命令输入要求绝对路径或特定的驱动器号范围，例如 `cd /d {{C}}:{{路径\到\目录}}`。
 
 ### 扩展名
 
 - 如果文件有特定的扩展名，请写出来。
-  例如，`unrar x {{path/to/compressed.rar}}`。
+  例如，`unrar x {{路径/到/压缩包.rar}}`。
 - 如果需要通用的扩展名，请使用 `{{.ext}}`，但**只有**在需要扩展名时才使用。
-  例如，在 `find.md` 的示例“按扩展名查找文件”中（`find {{path/to/root}} -name '{{*.ext}}'`），
+  例如，在 `find.md` 的示例“按扩展名查找文件”中（`find {{路径/到/根目录}} -name '{{*.ext}}'`），
   使用 `{{*.ext}}` 可以解释命令而不必过于具体；
-  而在 `wc -l {{path/to/file}}` 中，使用 `{{path/to/file}}`（不带扩展名）就足够了。
+  而在 `wc -l {{路径/到/文件}}` 中，使用 `{{路径/到/文件}}`（不带扩展名）就足够了。
 
 ### 分组占位符
 
 - 如果命令可以接受相同类型的 0 个或多个参数，请使用省略号：`{{placeholder1 placeholder2 ...}}`。
-  例如，期望多个路径，则可以使用 `{{path/to/directory1 path/to/directory2 ...}}`。
+  例如，期望多个路径，则可以使用 `{{路径/到/目录1 路径/到/目录2 ...}}`。
 - 如果命令可以接受不同类型的 0 个或多个参数，请使用竖线和省略号：`{{placeholder1|placeholder2|...}}`。
   如果可能值超过 5 个，则可以在最后一项后面使用 `|...`。
 - 无法通过省略号限制占位符的最小或最大数量。
