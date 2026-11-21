@@ -13,7 +13,7 @@
 
 - Check for space wasters, keeping everything in the untagged directories:
 
-`rmlint {{[-k|--keep-all-untagged]}} {{path/to/directory}} // {{path/to/original_directory}}`
+`rmlint {{[-K|--keep-all-untagged]}} {{path/to/directory}} // {{path/to/original_directory}}`
 
 - Delete duplicate files found by an execution of `rmlint`:
 

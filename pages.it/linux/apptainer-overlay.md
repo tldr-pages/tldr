@@ -21,7 +21,7 @@
 
 - Crea un overlay con una directory specifica nel layout:
 
-`apptainer overlay create --create-dir {{path/to/directory}} {{path/to/overlay.img}}`
+`apptainer overlay create --create-dir {{percorso/della/directory}} {{path/to/overlay.img}}`
 
 - Mostra l'aiuto:
 
