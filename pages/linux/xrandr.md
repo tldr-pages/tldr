@@ -5,7 +5,7 @@
 
 - Display the current state of the system (known screens, resolutions, ...):
 
-`xrandr {{[-q|--query]}}`
+`xrandr`
 
 - Disable disconnected outputs and enable connected ones with default settings:
 
