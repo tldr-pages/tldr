@@ -2,7 +2,7 @@
 
 > Exoscale 서비스를 관리하는 도구.
 > `compute`와 같은 일부 하위 명령어는 별도의 사용법 문서를 가짐.
-> 더 많은 정보: <https://community.exoscale.com/tools/command-line-interface/>.
+> 더 많은 정보: <https://community.exoscale.com/reference/cli/exo/storage/list/index.md>.
 
 - exo 커멘드라인 구성:
 
@@ -22,7 +22,7 @@
 
 - 조직의 모든 버킷 이름만 출력:
 
-`exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}`
+`exo storage list --output-template '\{\{ .Name \}\}'`
 
 - 특정 하위 명령어 도움말 표시:
 
