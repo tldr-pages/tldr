@@ -6,4 +6,4 @@
 
 - باز کردن فایل:
 
-`view {{file}}`
+`view {{path/to/file}}`
