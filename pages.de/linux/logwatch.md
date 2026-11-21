@@ -5,7 +5,7 @@
 
 - Analysiere Logs für einen Zeitraum mit einer bestimmten Detailtiefe:
 
-`logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}'`
+`logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}`
 
 - Beschränke den Bericht auf Informationen zu einem ausgewählten Dienst:
 
