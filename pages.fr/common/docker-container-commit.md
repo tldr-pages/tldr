@@ -13,7 +13,7 @@
 
 - Applique une instruction `ENV` du Dockerfile à l'image créée :
 
-`docker {{[commit|container commit]}} {{[-c|--change]}} "ENV {{name}}={{value}}" {{conteneur}} {{image}}:{{etiquette}}`
+`docker {{[commit|container commit]}} {{[-c|--change]}} "ENV {{name}}={{valeur}}" {{conteneur}} {{image}}:{{etiquette}}`
 
 - Crée une image avec un auteur spécifique dans les métadonnées :
 

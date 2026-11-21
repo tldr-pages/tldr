@@ -6,12 +6,12 @@
 
 - Supprime un utilisateur :
 
-`sudo userdel {{nom_utilisateur}}`
+`sudo userdel {{nom_d_utilisateur}}`
 
 - Supprime un utilisateur dans un autre répertoire racine :
 
-`sudo userdel {{[-R|--root]}} {{chemin/vers/autre_racine}} {{nom_utilisateur}}`
+`sudo userdel {{[-R|--root]}} {{chemin/vers/autre_racine}} {{nom_d_utilisateur}}`
 
 - Supprime un utilisateur, son répertoire personnel ainsi que son répertoire d'attente des courriels :
 
-`sudo userdel {{[-r|--remove]}} {{nom_utilisateur}}`
+`sudo userdel {{[-r|--remove]}} {{nom_d_utilisateur}}`

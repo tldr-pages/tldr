@@ -9,7 +9,7 @@
 
 - Vérifie un ou plusieurs fichiers ou répertoires spécifiques :
 
-`rubocop {{chemin/vers/fichier_ou_dossier1 chemin/vers/fichier_ou_dossier2 ...}}`
+`rubocop {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`
 
 - Écrit la sortie dans un fichier :
 

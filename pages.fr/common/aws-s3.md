@@ -10,7 +10,7 @@
 
 - Synchronise les fichiers et répertoires locaux avec un bucket :
 
-`aws s3 sync {{chemin/vers/fichiers}} s3://{{nom_bucket}}`
+`aws s3 sync {{chemin/vers/répertoire}} s3://{{nom_bucket}}`
 
 - Synchronise les fichiers et répertoires d'un bucket avec le ceux en local :
 
@@ -18,7 +18,7 @@
 
 - Synchronise les fichiers et les répertoires avec des exclusions :
 
-`aws s3 sync {{chemin/vers/fichiers}} s3://{{nom_bucket}} --exclude {{chemin/vers/fichier}} --exclude {{chemin/vers/répertoire}}/*`
+`aws s3 sync {{chemin/vers/répertoire}} s3://{{nom_bucket}} --exclude {{chemin/vers/fichier}} --exclude {{chemin/vers/répertoire}}/*`
 
 - Supprime un fichier d'un bucket :
 
