@@ -6,7 +6,7 @@
 
 - Dodaj nowy skrót:
 
-`abbr {{[-a|--add]}} {{nazwa_skrótu}} {{polecenie}} {{argumenty_polecenia}}`
+`abbr {{[-a|--add]}} {{nazwa_skrótu}} {{komenda}} {{argumenty_polecenia}}`
 
 - Zmień nazwę istniejącego skrótu:
 

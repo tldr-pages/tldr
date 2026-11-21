@@ -17,11 +17,11 @@
 
 - Wyświetl informacje o zainstalowanym pakiecie:
 
-`pacman -Qi {{nazwa_pakietu}}`
+`pacman -Qi {{pakiet}}`
 
 - Znajdź pliki należące do pakietu:
 
-`pacman -Ql {{nazwa_pakietu}}`
+`pacman -Ql {{pakiet}}`
 
 - Wyświetl pakiety-sieroty (zainstalowane jako zależności ale nie są już wymagane przez żaden pakiet):
 

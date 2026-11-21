@@ -5,7 +5,7 @@
 
 - Połącz z konkretną instancją pod adresem <https://konto.snowflakecomputing.com> (hasło może być wprowadzone w wierszu polecenia lub pliku konfiguracyjnym):
 
-`snowsql --accountname {{konto}} --username {{użytkownik}} --dbname {{baza_danych}} --schemaname {{nazwa_schematu}}`
+`snowsql --accountname {{konto}} --username {{nazwa_użytkownika}} --dbname {{baza_danych}} --schemaname {{nazwa_schematu}}`
 
 - Połącz się z instancją zdefiniowaną w pliku konfiguracyjnym (domyślnie w `~/.snowsql/config`):
 

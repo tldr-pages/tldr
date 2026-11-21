@@ -9,7 +9,7 @@
 
 - Wyszukaj pakiet, który zawiera określony plik lub ścieżkę:
 
-`apt-file {{[find|search]}} {{część/ścieżki/do/pliku}}`
+`apt-file {{[find|search]}} {{ścieżka/do/pliku}}`
 
 - Wyświetl zawartośċ określonego pakietu:
 

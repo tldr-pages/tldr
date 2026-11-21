@@ -5,15 +5,15 @@
 
 - Usuń pakiet i jego zależności:
 
-`sudo pacman -Rs {{nazwa_pakietu}}`
+`sudo pacman -Rs {{pakiet}}`
 
 - Usuń pakiet, jego zależności i pliki konfiguracyjne:
 
-`sudo pacman -Rsn {{nazwa_pakietu}}`
+`sudo pacman -Rsn {{pakiet}}`
 
 - Usuń pakiet bez pytania:
 
-`sudo pacman -R --noconfirm {{nazwa_pakietu}}`
+`sudo pacman -R --noconfirm {{pakiet}}`
 
 - Usuń pakiety-sieroty (zainstalowane jako zależności ale nie są już wymagane przez żaden pakiet):
 
@@ -21,11 +21,11 @@
 
 - Usuń pakiet i wszystke pakiety, które od niego zależą:
 
-`sudo pacman -Rc {{nazwa_pakietu}}`
+`sudo pacman -Rc {{pakiet}}`
 
 - Wyświetl pakiety, na które wpływ miałaby komenda (nie usuwa żadnych pakietów):
 
-`pacman -Rp {{nazwa_pakietu}}`
+`pacman -Rp {{pakiet}}`
 
 - Wyświetl pomoc dla tej komendy:
 
