@@ -10,7 +10,7 @@
 
 - Permanently move the interface into the block zone, effectively blocking all communication:
 
-`firewall-cmd --permanent --zone {{block}} --change-interface {{enp1s0}}`
+`firewall-cmd --permanent --zone block --change-interface {{enp1s0}}`
 
 - Permanently open the port for a service in the specified zone (like port 443 when in the `public` zone):
 
