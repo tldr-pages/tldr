@@ -5,16 +5,16 @@
 
 - Bir dosyadaki tüm atıfları kontrol et:
 
-`git check-attr {{[-a|--all]}} {{örnek/dosya}}`
+`git check-attr {{[-a|--all]}} {{yol/dosya}}`
 
 - Bir dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr {{atıf}} {{örnek/dosya}}`
+`git check-attr {{atıf}} {{yol/dosya}}`
 
 - Birden fazla dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr {{[-a|--all]}} {{örnek/dosya1 örnek/dosya2 ...}}`
+`git check-attr {{[-a|--all]}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Bir veya birden fazla dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr {{atıf}} {{örnek/dosya1 örnek/dosya2 ...}}`
+`git check-attr {{atıf}} {{yol/dosya1 yol/dosya2 ...}}`

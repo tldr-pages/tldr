@@ -5,19 +5,19 @@
 
 - Bir dosyadaki tüm satırları say:
 
-`wc {{[-l|--lines]}} {{dosya/yolu}}`
+`wc {{[-l|--lines]}} {{yol/dosya}}`
 
 - Bir dosyadaki tüm kelimeleri say:
 
-`wc {{[-w|--words]}} {{dosya/yolu}}`
+`wc {{[-w|--words]}} {{yol/dosya}}`
 
 - Bir dosyadaki tüm baytları say:
 
-`wc {{[-c|--bytes]}} {{dosya/yolu}}`
+`wc {{[-c|--bytes]}} {{yol/dosya}}`
 
 - Bir dosyadaki tüm karakterleri say (çok baytlı karakterleri dikkate alarak):
 
-`wc {{[-m|--chars]}} {{dosya/yolu}}`
+`wc {{[-m|--chars]}} {{yol/dosya}}`
 
 - Standart girdiden (`stdin`) gelen tüm satırları, kelimeleri ve baytları say:
 
@@ -25,4 +25,4 @@
 
 - En uzun satırın uzunluğunu karakter sayısı olarak say:
 
-`wc {{[-L|--max-line-length]}} {{dosya/yolu}}`
+`wc {{[-L|--max-line-length]}} {{yol/dosya}}`

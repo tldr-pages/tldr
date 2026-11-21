@@ -9,7 +9,7 @@
 
 - Sistem kayıtlarını bir dosyaya yaz:
 
-`logcat -f {{örnek/dosya}}`
+`logcat -f {{yol/dosya}}`
 
 - Düzenli ifadeye uyan satırları görüntüle:
 
