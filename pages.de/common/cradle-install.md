@@ -21,4 +21,4 @@
 
 - Zeige Details über eine benutzer-spezifische Datenbank:
 
-`cradle install -h {{hostname}} -u {{benutzer}} -p {{passwort}}`
+`cradle install -h {{hostname}} -u {{benutzername}} -p {{passwort}}`

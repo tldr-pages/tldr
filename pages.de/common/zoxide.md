@@ -18,11 +18,11 @@
 
 - Füge ein Verzeichnis hinzu oder erhöhe seinen Rang:
 
-`zoxide add {{path/to/directory}}`
+`zoxide add {{pfad/zu/verzeichnis}}`
 
 - Entferne ein Verzeichnis aus der Datenbank von `zoxide`:
 
-`zoxide remove {{path/to/directory}}`
+`zoxide remove {{pfad/zu/verzeichnis}}`
 
 - Generiere Shell-Konfigurationen für Befehls-Aliase (`z`, `zi`) für die angegebene Shell:
 

@@ -22,7 +22,7 @@
 
 - Liste die Dateien auf welche einem bestimmten Paket gehören:
 
-`pacman -Fl {{paketname}}`
+`pacman -Fl {{paket}}`
 
 - Zeige Hilfe an:
 

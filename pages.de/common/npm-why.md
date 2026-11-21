@@ -5,4 +5,4 @@
 
 - Zeige, warum ein npm Paket installiert ist:
 
-`npm-why {{paket_name}}`
+`npm-why {{paket}}`

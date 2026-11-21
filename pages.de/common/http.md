@@ -30,7 +30,7 @@
 
 - Nutze die angegebene Session für persistente benutzerdefinierte Header, Credentials für die Authentisierung und Cookies:
 
-`http --session {{session_name|path/to/session.json}} {{[-a|--auth]}} {{username}}:{{password}} {{https://example.com/auth}} {{API-KEY:xxx}}`
+`http --session {{session_name|path/to/session.json}} {{[-a|--auth]}} {{benutzername}}:{{passwort}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - Lade eine Datei in ein Formular hoch (das folgende Beispiel geht davon aus, dass das Formularfeld als `<input type="file" name="cv" />` definiert ist):
 

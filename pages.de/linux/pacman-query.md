@@ -17,11 +17,11 @@
 
 - Zeige Informationen über ein installiertes Paket an:
 
-`pacman -Qi {{paketname}}`
+`pacman -Qi {{paket}}`
 
 - Liste alle Dateien auf welche einem Paket gehören:
 
-`pacman -Ql {{paketname}}`
+`pacman -Ql {{paket}}`
 
 - Liste verwaiste Pakete auf (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt werden):
 

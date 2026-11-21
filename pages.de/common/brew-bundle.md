@@ -9,7 +9,7 @@
 
 - Installiere Pakete aus einer bestimmten Brewfile:
 
-`brew bundle --file {{pfad/zu/brewfile}}`
+`brew bundle --file {{pfad/zu/datei}}`
 
 - Gib eine Liste mit allen installierten Paketen aus:
 
