@@ -17,4 +17,4 @@
 
 - Usa uma pasta diferente (o padrão é `~/Anki`):
 
-`anki {{[-b|--base]}} {{caminho/para/pasta}}`
+`anki {{[-b|--base]}} {{caminho/para/diretorio}}`

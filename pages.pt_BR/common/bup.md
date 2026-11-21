@@ -9,11 +9,11 @@
 
 - Prepara um determinado diretório antes de fazer um backup:
 
-`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} index {{caminho/para/diretório}}`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} index {{caminho/para/diretorio}}`
 
 - Faz o backup de um diretório para o repositório:
 
-`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} save {{[-n|--name]}} {{nome_do_backup}} {{caminho/para/diretório}}`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} save {{[-n|--name]}} {{nome_do_backup}} {{caminho/para/diretorio}}`
 
 - Exibe os snapshots de backup armazenados atualmente no repositório:
 

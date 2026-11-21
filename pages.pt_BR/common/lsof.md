@@ -18,7 +18,7 @@
 
 - Lista arquivos abertos por um certo usuário:
 
-`lsof -u {{nome_usuario}}`
+`lsof -u {{nome_do_usuario}}`
 
 - Lista arquivos abertos por um certo comando ou processo:
 
@@ -30,7 +30,7 @@
 
 - Lista arquivos abertos em um diretório:
 
-`lsof +D {{caminho/para/diretório}}`
+`lsof +D {{caminho/para/diretorio}}`
 
 - Encontra o processo que está ouvindo uma porta de IPv6 TCP local:
 

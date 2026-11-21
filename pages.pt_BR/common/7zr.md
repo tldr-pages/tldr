@@ -30,4 +30,4 @@
 
 - Define o nível de compressão (maior significa mais compressão, porém mais lento):
 
-`7zr a {{caminho/para/arquivo_compactado.7z}} -mx={{0|1|3|5|7|9}} {{caminho/para/diretorio}}`
+`7zr a {{caminho/para/arquivo_compactado.7z}} -mx={{0|1|3|5|7|9}} {{caminho/para/arquivo_ou_diretorio}}`

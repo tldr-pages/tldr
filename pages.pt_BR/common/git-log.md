@@ -9,7 +9,7 @@
 
 - Mostra o histórico de um arquivo ou diretório determinado, incluindo diferenças:
 
-`git log {{[-p|--patch]}} {{caminho/para/arquivo_ou_diretório}}`
+`git log {{[-p|--patch]}} {{caminho/para/arquivo_ou_diretorio}}`
 
 - Mostra uma visão geral do(s) arquivo(s) alterado(s) em cada commit:
 

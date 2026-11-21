@@ -10,7 +10,7 @@
 
 - Mostra apenas o nome do diretório mais à direita em um caminho:
 
-`basename {{caminho/para/diretório/}}`
+`basename {{caminho/para/diretorio}}`
 
 - Mostra apenas o nome do arquivo em um caminho, com um sufixo removido:
 

@@ -9,7 +9,7 @@
 
 - Faz uma varredura em todos os arquivos recursivamente em um diretório específico:
 
-`clamscan {{[-r|--recursive]}} {{caminho/para/diretório}}`
+`clamscan {{[-r|--recursive]}} {{caminho/para/diretorio}}`
 
 - Faz uma varredura nos dados da `stdin` (entrada padrão):
 

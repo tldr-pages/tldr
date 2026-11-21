@@ -17,4 +17,4 @@
 
 - Fornece um nome e uma senha para autenticação:
 
-`choco info {{pacote}} {{[-u|--user]}} {{apelido}} {{[-p|--password]}} {{senha}}`
+`choco info {{pacote}} {{[-u|--user]}} {{nome_do_usuario}} {{[-p|--password]}} {{senha}}`

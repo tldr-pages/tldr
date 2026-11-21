@@ -5,7 +5,7 @@
 
 - Coloca um arquivo ou diretório sob o controle de versão, de forma que ele estará no checkout atual:
 
-`fossil add {{caminho/para/arquivo_ou_diretório}}`
+`fossil add {{caminho/para/arquivo_ou_diretorio}}`
 
 - Remove todos os arquivos adicionados do checkout atual:
 

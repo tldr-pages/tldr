@@ -10,7 +10,7 @@
 
 - Exibe informações para uma lista de diretórios separados por espaço:
 
-`dust {{caminho/para/diretório1 caminho/para/diretório2 ...}}`
+`dust {{caminho/para/diretorio1 caminho/para/diretorio2 ...}}`
 
 - Exibe 30 diretórios (o padrão é 21):
 
@@ -26,7 +26,7 @@
 
 - Ignora todos os arquivos e diretórios com um nome específico:
 
-`dust {{[-X|--ignore-directory]}} {{arquivo_ou_nome_do_diretório}}`
+`dust {{[-X|--ignore-directory]}} {{caminho/para/arquivo_ou_diretorio}}`
 
 - Não exibe barras de porcentagem e porcentagens:
 

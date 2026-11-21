@@ -21,7 +21,7 @@
 
 - Define um local específico para onde o pacote do runtime será baixado primeiro (o padrão é `~/Downloads`):
 
-`xcodes runtimes {{download|install}} {{nome_runtime}} --directory {{caminho/para/diretório}}`
+`xcodes runtimes {{download|install}} {{nome_runtime}} --directory {{caminho/para/diretorio}}`
 
 - Não exclui o pacote baixado quando o Simulador é instalado com sucesso:
 

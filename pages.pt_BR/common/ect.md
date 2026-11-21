@@ -14,7 +14,7 @@
 
 - Comprime todos os arquivos em um diretório recursivamente:
 
-`ect -recurse {{caminho/para/diretório}}`
+`ect -recurse {{caminho/para/diretorio}}`
 
 - Comprime um arquivo, mantendo o tempo de modificação original:
 

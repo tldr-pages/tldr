@@ -9,7 +9,7 @@
 
 - Exibe interativamente o uso de disco de um determinado diretório:
 
-`gdu {{caminho/para/diretório}}`
+`gdu {{caminho/para/diretorio}}`
 
 - Exibe interativamente o uso de disco de todos os discos montados:
 
@@ -29,8 +29,8 @@
 
 - Imprime apenas o resultado, não entra no modo interativo:
 
-`gdu --non-interactive {{caminho/para/diretório}}`
+`gdu --non-interactive {{caminho/para/diretorio}}`
 
 - Não mostra o progresso no modo não interativo (útil em scripts):
 
-`gdu --no-progress {{caminho/para/diretório}}`
+`gdu --no-progress {{caminho/para/diretorio}}`

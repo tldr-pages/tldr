@@ -6,11 +6,11 @@
 
 - Remove um arquivo ou diretório do controle de versão do Fossil:
 
-`fossil {{[rm|delete]}} {{caminho/para/arquivo_ou_diretório}}`
+`fossil {{[rm|delete]}} {{caminho/para/arquivo_ou_diretorio}}`
 
 - Remove um arquivo ou diretório do controle de versão do Fossil e também o exclui do disco:
 
-`fossil {{[rm|delete]}} --hard {{caminho/para/arquivo_ou_diretório}}`
+`fossil {{[rm|delete]}} --hard {{caminho/para/arquivo_ou_diretorio}}`
 
 - Adiciona novamente todos os arquivos removidos e dos quais não se fez commit anteriormente ao controle de versão do Fossil:
 

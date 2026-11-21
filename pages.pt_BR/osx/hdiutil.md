@@ -17,4 +17,4 @@
 
 - Cria uma imagem ISO a partir do conteúdo de um diretório:
 
-`hdiutil makehybrid -o {{caminho/para/arquivo_de_saída}} {{caminho/para/diretório}}`
+`hdiutil makehybrid -o {{caminho/para/arquivo_de_saída}} {{caminho/para/diretorio}}`

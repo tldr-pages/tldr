@@ -10,7 +10,7 @@
 
 - Cancela todos os trabalhos da impressora padrão que pertencem a um usuário específico:
 
-`cancel -u {{nome_do_usuário}}`
+`cancel -u {{nome_do_usuario}}`
 
 - Cancela o trabalho atual de uma impressora específica:
 
