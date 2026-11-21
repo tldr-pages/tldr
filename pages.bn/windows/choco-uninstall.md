@@ -5,19 +5,19 @@
 
 - এক বা একাধিক প্যাকেজ আনইনস্টল করুন:
 
-`choco uninstall {{package1 package2 ...}}`
+`choco uninstall {{প্যাকেজ১ প্যাকেজ२ ...}}`
 
 - একটি প্যাকেজের নির্দিষ্ট ভার্সন আনইনস্টল করুন:
 
-`choco uninstall {{package}} --version {{version}}`
+`choco uninstall {{প্যাকেজ}} --version {{version}}`
 
 - সব প্রম্পট স্বয়ংক্রিয়ভাবে নিশ্চিত করুন:
 
-`choco uninstall {{package}} {{[-y|--yes]}}`
+`choco uninstall {{প্যাকেজ}} {{[-y|--yes]}}`
 
 - আনইনস্টল করার সময় সব ডিপেন্ডেন্সি সরিয়ে ফেলুন:
 
-`choco uninstall {{package}} {{[-x|--remove-dependencies]}}`
+`choco uninstall {{প্যাকেজ}} {{[-x|--remove-dependencies]}}`
 
 - সব প্যাকেজ আনইনস্টল করুন:
 
