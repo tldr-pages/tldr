@@ -22,7 +22,7 @@
 
 - Stel een configuratieoptie in voor een repository:
 
-`dnf config-manager --setopt={{option}}={{value}}`
+`dnf config-manager --setopt={{option}}={{waarde}}`
 
 - Toon de help:
 
