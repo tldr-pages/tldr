@@ -46,6 +46,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -367,6 +368,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Ko'proq malumot: <https://example.com>.
+```
+
+---
+
+### vi
+
+```markdown
+> Thông tin thêm: <https://example.com>.
 ```
 
 ---
