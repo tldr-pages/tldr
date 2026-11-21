@@ -13,11 +13,11 @@
 
 - 특정 사용자의 오른손 검지 지문 등록:
 
-`fprintd-enroll {{사용자명}}`
+`fprintd-enroll {{사용자_이름}}`
 
 - 특정 사용자의 특정 손가락 지문 등록:
 
-`fprintd-enroll {{[-f|--finger]}} {{손가락_이름}} {{사용자명}}`
+`fprintd-enroll {{[-f|--finger]}} {{손가락_이름}} {{사용자_이름}}`
 
 - 도움말 표시:
 

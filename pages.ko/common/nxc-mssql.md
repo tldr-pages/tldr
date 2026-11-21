@@ -9,20 +9,20 @@
 
 - 대상 서버에서 지정된 SQL [q]uery 실행:
 
-`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} {{[-q|--query]}} '{{SELECT * FROM sys.databases;}}'`
+`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} {{[-q|--query]}} '{{SELECT * FROM sys.databases;}}'`
 
 - 대상 서버에서 MSSQL을 통해 지정된 셸 명령 실행:
 
-`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} -x {{whoami}}`
+`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} -x {{whoami}}`
 
 - 대상 서버에서 MSSQL을 통해 지정된 PowerShell 명령을 출력 없이 실행:
 
-`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} -X {{whoami}} --no-output`
+`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} -X {{whoami}} --no-output`
 
 - 대상 서버에서 원격 파일을 다운로드하여 지정된 위치에 저장:
 
-`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --get-file {{C:\경로\대상\원격_파일}} {{경로/대상/로컬_파일}}`
+`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --get-file {{C:\경로\대상\원격_파일}} {{경로/대상/로컬_파일}}`
 
 - 로컬 파일을 대상 서버의 지정된 위치로 업로드:
 
-`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --put-file {{경로/대상/로컬_파일}} {{C:\경로\대상\원격_파일}}`
+`nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --put-file {{경로/대상/로컬_파일}} {{C:\경로\대상\원격_파일}}`

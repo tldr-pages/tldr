@@ -5,16 +5,16 @@
 
 - 지정한 사용자의 비밀번호 변경:
 
-`sudo pwpolicy -a {{authenticator}} -u {{사용자명}} -setpassword "{{새로운_비밀번호}}"`
+`sudo pwpolicy -a {{authenticator}} -u {{사용자_이름}} -setpassword "{{새로운_비밀번호}}"`
 
 - 사용자 계정 비활성화:
 
-`sudo pwpolicy -u {{사용자명}} -disableuser`
+`sudo pwpolicy -u {{사용자_이름}} -disableuser`
 
 - 사용자 계정 활성화:
 
-`sudo pwpolicy -u {{사용자명}} -enableuser`
+`sudo pwpolicy -u {{사용자_이름}} -enableuser`
 
 - 사용자 계정에 대해 디스크에 저장된 비밀번호 해시 유형 목록 조회:
 
-`sudo pwpolicy -u {{사용자명}} -gethashtypes`
+`sudo pwpolicy -u {{사용자_이름}} -gethashtypes`

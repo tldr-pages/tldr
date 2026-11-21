@@ -18,4 +18,4 @@
 
 - 특정 구성 파일 및 데이터 디렉터리를 사용하여 Bitcoin Core 데몬을 시작:
 
-`bitcoind -conf={{경로/대상/bitcoin.conf}} -datadir={{경로/대상/디렉터리}}`
+`bitcoind -conf={{경로/대상/bitcoin.conf}} -datadir={{경로/대상/폴더}}`

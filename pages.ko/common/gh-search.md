@@ -13,7 +13,7 @@
 
 - 특정 작성자의 커밋 검색:
 
-`gh search commits --author {{사용자명}}`
+`gh search commits --author {{사용자_이름}}`
 
 - 자신에게 할당되어 있으며 아직 열려 있는 Pull Request 검색:
 

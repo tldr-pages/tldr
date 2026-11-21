@@ -13,7 +13,7 @@
 
 - 디렉토리의 모든 파일에 대해 유형 검사를 실행:
 
-`flow batch-coverage --show-all --strip-root {{경로/대상/디렉터리}}`
+`flow batch-coverage --show-all --strip-root {{경로/대상/폴더}}`
 
 - 라인별 유형 적용 범위 통계 표시:
 

@@ -17,11 +17,11 @@
 
 - HTTP 서버를 시작하고, 업로드된 파일을 특정 디렉터리에 저장:
 
-`UPLOAD_DIR={{경로/대상/디렉터리}} http-server-upload`
+`UPLOAD_DIR={{경로/대상/폴더}} http-server-upload`
 
 - 업로드 중에 파일을 임시로 저장하기 위해 특정 디렉터리를 사용하여 HTTP 서버를 시작:
 
-`UPLOAD_TMP_DIR={{경로/대상/디렉터리}} http-server-upload`
+`UPLOAD_TMP_DIR={{경로/대상/폴더}} http-server-upload`
 
 - HTTP post의 특정 토큰 필드를 사용하여 업로드를 허용하는 HTTP 서버를 시작:
 

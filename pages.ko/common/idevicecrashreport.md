@@ -5,12 +5,12 @@
 
 - 충돌 보고서를 검색하여 지정된 디렉터리로 이동:
 
-`idevicecrashreport {{경로/대상/디렉터리}}`
+`idevicecrashreport {{경로/대상/폴더}}`
 
 - 장치에서 충돌 보고서를 제거하지 않고 검색:
 
-`idevicecrashreport --keep {{경로/대상/디렉터리}}`
+`idevicecrashreport --keep {{경로/대상/폴더}}`
 
 - 충돌 보고서를 별도의 `.crash` 파일로 추출:
 
-`idevicecrashreport --extract {{경로/대상/디렉터리}}`
+`idevicecrashreport --extract {{경로/대상/폴더}}`

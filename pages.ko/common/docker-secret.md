@@ -5,7 +5,7 @@
 
 - `stdin`에서 새 비밀 생성:
 
-`{{command}} | docker secret create {{비밀_이름}} -`
+`{{명령어}} | docker secret create {{비밀_이름}} -`
 
 - 파일에서 새 비밀 생성:
 

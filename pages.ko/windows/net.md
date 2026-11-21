@@ -9,7 +9,7 @@
 
 - 현재 콘솔에서 SMB 공유 가능한지 확인:
 
-`net use {{\\smb_shared_folder}} /USER:{{사용자명}}`
+`net use {{\\smb_shared_folder}} /USER:{{사용자_이름}}`
 
 - 현재 SMB로 공유되는 폴더 표시:
 
@@ -25,7 +25,7 @@
 
 - 로컬 보안 그룹에 사용자 추가 (관리자 권한 콘솔에서 실행):
 
-`net localgroup "{{Administrators}}" {{사용자명}} /add`
+`net localgroup "{{Administrators}}" {{사용자_이름}} /add`
 
 - 하위 명령에 대한 도움말 표시:
 

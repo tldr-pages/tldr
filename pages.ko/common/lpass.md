@@ -5,7 +5,7 @@
 
 - 마스터 비밀번호를 입력하여 LastPass 계정에 로그인:
 
-`lpass login {{사용자이름}}`
+`lpass login {{사용자_이름}}`
 
 - 로그인 상태 표시:
 
@@ -17,7 +17,7 @@
 
 - `myinbox` 식별자로 gmail.com의 새 비밀번호 생성 및 LastPass에 추가:
 
-`lpass generate --username {{사용자이름}} --url {{gmail.com}} {{myinbox}} {{비밀번호_길이}}`
+`lpass generate --username {{사용자_이름}} --url {{gmail.com}} {{myinbox}} {{비밀번호_길이}}`
 
 - 지정된 항목의 비밀번호 표시:
 

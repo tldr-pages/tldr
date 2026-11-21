@@ -7,7 +7,7 @@
 
 - 명령 또는 cmdlet 출력을 새로운 창에 표시:
 
-`{{command}} | Out-GridView`
+`{{명령어}} | Out-GridView`
 
 - PowerShell 해시 테이블 (예: `$PSVersionTable`)을 표시하고 창이 닫힐 때까지 명령 대기:
 

@@ -18,7 +18,7 @@
 
 - 지정한 디렉터리에서 시작하여 `slocate` 데이터베이스를 생성:
 
-`slocate -U {{경로/대상/디렉터리}}`
+`slocate -U {{경로/대상/폴더}}`
 
 - 기본 `/etc/updatedb.conf` 설정을 사용해 `slocate` 데이터베이스를 업데이트:
 
@@ -30,7 +30,7 @@
 
 - 검색할 `slocate` 데이터베이스를 지정:
 
-`slocate {{[-d|--database]}} {{경로/대상/디렉터리}}`
+`slocate {{[-d|--database]}} {{경로/대상/폴더}}`
 
 - 지정한 `regex` 문자열을 사용하여 `slocate` 데이터베이스를 검색:
 

@@ -6,7 +6,7 @@
 
 - Distrobox 컨테이너 내부에서 호스트 시스템의 명령 실행:
 
-`distrobox-host-exec "{{명령}}"`
+`distrobox-host-exec "{{명령어}}"`
 
 - 컨테이너 내부에서 호스트 시스템의 `ls` 명령 실행:
 

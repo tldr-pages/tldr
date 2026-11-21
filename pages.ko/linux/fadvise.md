@@ -6,7 +6,7 @@
 
 - 파일 또는 디렉터리를 캐시에 미리 적재:
 
-`fadvise {{[-a|--advice]}} willneeded {{경로/대상/파일_또는_디렉터리}}`
+`fadvise {{[-a|--advice]}} willneeded {{경로/대상/파일_또는_폴더}}`
 
 - 파일을 캐시에서 제거하도록 제안:
 

@@ -18,7 +18,7 @@
 
 - 지정한 NTLM 해시로 Pass-the-Hash를 수행하고 명령 실행:
 
-`mimikatz "sekurlsa::pth /user:{{사용자명}} /domain:{{도메인명}} /ntlm:{{해시}} /run:{{명령어}}"`
+`mimikatz "sekurlsa::pth /user:{{사용자_이름}} /domain:{{도메인명}} /ntlm:{{해시}} /run:{{명령어}}"`
 
 - 로컬 SAM 데이터베이스의 해시 덤프:
 

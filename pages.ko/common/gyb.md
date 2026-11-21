@@ -9,7 +9,7 @@
 
 - Gmail 계정을 특정 디렉토리에 백업:
 
-`gyb --email {{email@gmail.com}} --action backup --local-folder {{경로/대상/디렉토리}}`
+`gyb --email {{email@gmail.com}} --action backup --local-folder {{경로/대상/폴더}}`
 
 - Gmail 계정에서 중요하거나 별표 표시된 이메일만 기본 로컬 폴더에 백업:
 
@@ -17,4 +17,4 @@
 
 - 로컬 폴더에서 Gmail 계정에서 복원:
 
-`gyb --email {{email@gmail.com}} --action restore --local-folder {{경로/대상/디렉토리}}`
+`gyb --email {{email@gmail.com}} --action restore --local-folder {{경로/대상/폴더}}`

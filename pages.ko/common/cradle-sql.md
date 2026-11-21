@@ -9,7 +9,7 @@
 
 - 특정 패키지에 대한 데이터베이스 스키마 재구축:
 
-`cradle sql build {{패키지_명}}`
+`cradle sql build {{패키지}}`
 
 - 전체 데이터베이스 비우기:
 
@@ -17,7 +17,7 @@
 
 - 특정 패키지에 대한 데이터베이스 테이블 비우기:
 
-`cradle sql flush {{패키지_명}}`
+`cradle sql flush {{패키지}}`
 
 - 모든 패키지에 대한 테이블 채우기:
 
@@ -25,4 +25,4 @@
 
 - 특정 패키지에 대한 테이블 채우기:
 
-`cradle sql populate {{패키지_명}}`
+`cradle sql populate {{패키지}}`

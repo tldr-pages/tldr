@@ -5,20 +5,20 @@
 
 - 프로젝트 채널 관리:
 
-`pixi project channel {{명령}}`
+`pixi project channel {{명령어}}`
 
 - 프로젝트 설명 관리:
 
-`pixi project description {{명령}}`
+`pixi project description {{명령어}}`
 
 - 프로젝트 플랫폼 관리:
 
-`pixi project platform {{명령}}`
+`pixi project platform {{명령어}}`
 
 - 프로젝트 버전 관리:
 
-`pixi project version {{명령}}`
+`pixi project version {{명령어}}`
 
 - 프로젝트 환경 관리:
 
-`pixi project environment {{명령}}`
+`pixi project environment {{명령어}}`

@@ -13,4 +13,4 @@
 
 - 앱에서 자바 코드를 디컴파일:
 
-`androguard decompile {{경로/대상/앱}}.apk --output {{경로/대상/디렉터리}}`
+`androguard decompile {{경로/대상/앱}}.apk --output {{경로/대상/폴더}}`

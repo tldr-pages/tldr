@@ -13,7 +13,7 @@
 
 - 명령을 실행하고 프로필을 `perf.data`에 기록:
 
-`sudo perf record {{명령}}`
+`sudo perf record {{명령어}}`
 
 - 기존 프로세스의 프로필을 `perf.data`에 기록:
 

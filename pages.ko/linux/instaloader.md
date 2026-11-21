@@ -22,7 +22,7 @@
 
 - 로그인 정보 지정 및 게시물 다운로드 (비공개 프로필에 유용):
 
-`instaloader {{[-l|--login]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} {{프로필_이름}}`
+`instaloader {{[-l|--login]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} {{프로필_이름}}`
 
 - 처음 다운로드된 파일이 발견되면 대상을 건너뜀 (Instagram 아카이브 업데이트에 유용):
 
@@ -30,8 +30,8 @@
 
 - 스토리 및 IGTV 비디오 다운로드 (로그인 필요):
 
-`instaloader {{[-l|--login]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} {{[-s|--stories]}} --igtv {{프로필_이름}}`
+`instaloader {{[-l|--login]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} {{[-s|--stories]}} --igtv {{프로필_이름}}`
 
 - 모든 유형의 게시물 다운로드 (로그인 필요):
 
-`instaloader {{[-l|--login]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} {{[-s|--stories]}} --igtv --highlights {{프로필_이름}}`
+`instaloader {{[-l|--login]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} {{[-s|--stories]}} --igtv --highlights {{프로필_이름}}`

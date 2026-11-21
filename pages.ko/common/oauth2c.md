@@ -17,7 +17,7 @@
 
 - password credentials 방식으로 토큰 가져오기:
 
-`oauth2c {{발행자_주소}} --client-id {{클라이언트_아이디}} --username {{사용자명}} --password {{비밀번호}}`
+`oauth2c {{발행자_주소}} --client-id {{클라이언트_아이디}} --username {{사용자_이름}} --password {{비밀번호}}`
 
 - 기존 access token 갱신:
 

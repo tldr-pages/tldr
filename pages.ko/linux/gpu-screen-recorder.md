@@ -21,7 +21,7 @@
 
 - 리플레이 버퍼를 사용하여 녹화:
 
-`gpu-screen-recorder -w {{스크린}} -r {{30}} -c {{mp4}} -ro {{경로/대상/디렉터리}} -o {{whatever}}`
+`gpu-screen-recorder -w {{스크린}} -r {{30}} -c {{mp4}} -ro {{경로/대상/폴더}} -o {{whatever}}`
 
 - 리플레이 버퍼를 사용하여 비디오 녹화:
 

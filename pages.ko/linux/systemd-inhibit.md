@@ -22,8 +22,8 @@
 
 - 명령이 실행되는 동안 전원 버튼 누름 무시:
 
-`systemd-inhibit --what handle-power-key {{명령}}`
+`systemd-inhibit --what handle-power-key {{명령어}}`
 
 - 누가, 왜 인히비터를 생성했는지 설명 (기본값: `--who`의 경우 명령과 인수, `--why`의 경우 '알 수 없는 이유'):
 
-`systemd-inhibit --who {{$USER}} --why {{이유}} --what {{작업}} {{명령}}`
+`systemd-inhibit --who {{$USER}} --why {{이유}} --what {{작업}} {{명령어}}`

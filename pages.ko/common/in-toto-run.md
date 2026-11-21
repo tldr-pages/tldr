@@ -9,7 +9,7 @@
 
 - tarball을 생성하고, 원본 파일은 materials로, 생성된 tarball은 product로 기록:
 
-`in-toto-run {{[-n|--step-name]}} {{package}} {{[-m|--materials]}} {{project}} {{[-p|--products]}} {{project.tar.gz}} -- {{tar czf project.tar.gz project}}`
+`in-toto-run {{[-n|--step-name]}} {{패키지}} {{[-m|--materials]}} {{project}} {{[-p|--products]}} {{project.tar.gz}} -- {{tar czf project.tar.gz project}}`
 
 - 리뷰 작업에 대한 서명된 증명 생성:
 

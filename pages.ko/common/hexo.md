@@ -5,7 +5,7 @@
 
 - 웹사이트 초기화:
 
-`hexo init {{path/to/directory}}`
+`hexo init {{경로/대상/폴더}}`
 
 - 새로운 기사 생성:
 

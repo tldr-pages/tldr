@@ -5,7 +5,7 @@
 
 - jenkins CLI에 연결:
 
-`java -jar jenkins-cli.jar -s {{jenkins_서버_주소}} -auth {{사용자명}}:{{api_token}}`
+`java -jar jenkins-cli.jar -s {{jenkins_서버_주소}} -auth {{사용자_이름}}:{{api_token}}`
 
 - jenkins 재시작:
 

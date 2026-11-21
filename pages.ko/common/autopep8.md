@@ -17,4 +17,4 @@
 
 - 디렉토리의 모든 파일을 재귀적으로 포맷하고, 변경 사항을 저장:
 
-`autopep8 --in-place --recursive {{경로/대상/디렉토리}}`
+`autopep8 --in-place --recursive {{경로/대상/폴더}}`

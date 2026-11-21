@@ -6,4 +6,4 @@
 
 - 주어진 Rust 툴체인을 사용하여 명령 실행 (`rustup help toolchain`에서 더 많은 정보 확인 가능):
 
-`rustup run {{툴체인}} {{명령}}`
+`rustup run {{툴체인}} {{명령어}}`

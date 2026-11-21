@@ -9,8 +9,8 @@
 
 - 특정 프로젝트의 Clockwork 로그들을 모니터링 합니다:
 
-`clockwork-cli {{경로/디렉토리}}`
+`clockwork-cli {{경로/대상/폴더}}`
 
 - 여러 개의 프로젝트의 Clockwork 로그들을 모니터링 합니다:
 
-`clockwork-cli {{경로/디렉토리1 경로/디렉토리2 ...}}`
+`clockwork-cli {{경로/대상/폴더1 경로/대상/폴더2 ...}}`

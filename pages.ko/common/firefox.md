@@ -29,7 +29,7 @@
 
 - 특정 프로필을 사용하여 여러 개의 개별 Firefox 인스턴스를 동시에 실행:
 
-`firefox --profile {{경로/대상/디렉토리}} {{https://example.com/}}`
+`firefox --profile {{경로/대상/폴더}} {{https://example.com/}}`
 
 - Firefox를 기본 브라우저로 설정:
 

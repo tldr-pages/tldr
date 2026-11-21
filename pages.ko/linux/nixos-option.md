@@ -13,7 +13,7 @@
 
 - 특정 사용자의 인증된 키 나열:
 
-`nixos-option users.users.{{사용자명}}.openssh.authorizedKeys.{{키_파일|키}}`
+`nixos-option users.users.{{사용자_이름}}.openssh.authorizedKeys.{{키_파일|키}}`
 
 - 모든 원격 빌더 나열:
 

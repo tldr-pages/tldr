@@ -21,4 +21,4 @@
 
 - 패치 파일을 생성하고 사용자 지정 디렉토리에 저장:
 
-`bun patch --commit {{경로/대상/패키지}} --patches-dir {{경로/대상/디렉토리}}`
+`bun patch --commit {{경로/대상/패키지}} --patches-dir {{경로/대상/폴더}}`

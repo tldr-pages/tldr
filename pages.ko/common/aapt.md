@@ -13,4 +13,4 @@
 
 - 지정된 디렉토리에 새 APK 아카이브 생성:
 
-`aapt package -F {{경로/app}}.apk {{디렉토리/의/경로}}`
+`aapt package -F {{경로/app}}.apk {{경로/대상/폴더}}`

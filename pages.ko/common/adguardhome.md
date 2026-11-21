@@ -13,7 +13,7 @@
 
 - 특정 작업 디렉터리에 데이터 저장:
 
-`AdGuardHome --work-dir {{경로/대상/디렉토리}}`
+`AdGuardHome --work-dir {{경로/대상/폴더}}`
 
 - AdGuard Home을 서비스로 설치 또는 제거:
 

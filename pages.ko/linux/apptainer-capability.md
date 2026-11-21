@@ -21,7 +21,7 @@
 
 - 사용자에게 capability 추가:
 
-`sudo apptainer capability add {{[-u|--user]}} {{사용자명}} {{cap_net_raw,cap_chown,...}}`
+`sudo apptainer capability add {{[-u|--user]}} {{사용자_이름}} {{cap_net_raw,cap_chown,...}}`
 
 - 그룹에 capability 추가:
 
@@ -29,8 +29,8 @@
 
 - 사용자에게서 capability 제거:
 
-`sudo apptainer capability drop {{[-u|--user]}} {{사용자명}} {{cap_net_raw,cap_chown,...}}`
+`sudo apptainer capability drop {{[-u|--user]}} {{사용자_이름}} {{cap_net_raw,cap_chown,...}}`
 
 - 사용자에게서 모든 capability 제거:
 
-`sudo apptainer capability drop {{[-u|--user]}} {{사용자명}} all`
+`sudo apptainer capability drop {{[-u|--user]}} {{사용자_이름}} all`

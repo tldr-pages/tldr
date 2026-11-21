@@ -17,4 +17,4 @@
 
 - 인증을 위한 사용자 명과 비밀번호 제공:
 
-`choco outdated {{[-u|--user]}} {{사용자_명}} {{[-p|--password]}} {{비밀번호}}`
+`choco outdated {{[-u|--user]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}}`

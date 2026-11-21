@@ -9,7 +9,7 @@
 
 - 생성된 이미지에 `CMD` Dockerfile 명령 적용:
 
-`docker {{[commit|container commit]}} {{[-c|--change]}} "CMD {{명령}}" {{컨테이너}} {{이미지}}:{{태그}}`
+`docker {{[commit|container commit]}} {{[-c|--change]}} "CMD {{명령어}}" {{컨테이너}} {{이미지}}:{{태그}}`
 
 - 생성된 이미지에 `ENV` Dockerfile 명령 적용:
 

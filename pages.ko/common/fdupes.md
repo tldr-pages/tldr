@@ -5,28 +5,28 @@
 
 - 단일 디렉터리 검색:
 
-`fdupes {{경로/대상/디렉터리}}`
+`fdupes {{경로/대상/폴더}}`
 
 - 여러 디렉터리 검색:
 
-`fdupes {{디렉터리1 디렉터리2 ...}}`
+`fdupes {{경로/대상/폴더1 경로/대상/폴더2 ...}}`
 
 - 재귀적으로 디렉터리를 검색:
 
-`fdupes {{[-r|--recurse]}} {{경로/대상/디렉터리}}`
+`fdupes {{[-r|--recurse]}} {{경로/대상/폴더}}`
 
 - 여러 디렉터리를 하나의 재귀적으로 검색:
 
-`fdupes {{디렉터리1}} {{[-R|--recurse:]}} {{디렉터리2}}`
+`fdupes {{경로/대상/폴더1}} {{[-R|--recurse:]}} {{경로/대상/폴더2}}`
 
 - 하드링크를 중복으로 간주하여 재귀적으로 검색:
 
-`fdupes {{[-rH|--recurse --hardlinks]}} {{경로/대상/디렉터리}}`
+`fdupes {{[-rH|--recurse --hardlinks]}} {{경로/대상/폴더}}`
 
 - 반복적으로 중복 항목을 검색하고 유지할 항목을 선택하고, 나머지 항목을 삭제하는 것:
 
-`fdupes {{[-rd|--recurse --delete]}} {{경로/대상/디렉터리}}`
+`fdupes {{[-rd|--recurse --delete]}} {{경로/대상/폴더}}`
 
 - 메시지를 표시하지 않고 반복적으로 검색하고 중복 항목을 삭제:
 
-`fdupes {{[-rdN|--recurse --delete --noprompt]}} {{경로/대상/디렉터리}}`
+`fdupes {{[-rdN|--recurse --delete --noprompt]}} {{경로/대상/폴더}}`

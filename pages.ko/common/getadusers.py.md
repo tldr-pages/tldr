@@ -6,16 +6,16 @@
 
 - 모든 Active Directory 사용자 및 속성 열거:
 
-`GetADUsers.py -all -dc-ip {{도메인_컨트롤러_ip}} {{도메인}}/{{사용자명}}:{{비밀번호}}`
+`GetADUsers.py -all -dc-ip {{도메인_컨트롤러_ip}} {{도메인}}/{{사용자_이름}}:{{비밀번호}}`
 
 - 특정 사용자 정보만 조회:
 
-`GetADUsers.py -user {{사용자}} -dc-ip {{도메인_컨트롤러_ip}} {{도메인}}/{{사용자명}}:{{비밀번호}}`
+`GetADUsers.py -user {{사용자}} -dc-ip {{도메인_컨트롤러_ip}} {{도메인}}/{{사용자_이름}}:{{비밀번호}}`
 
 - pass-the-hash 인증을 사용하여 사용자 정보 추출:
 
-`GetADUsers.py -all -dc-ip {{도메인_컨트롤러_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} {{도메인}}/{{사용자명}}`
+`GetADUsers.py -all -dc-ip {{도메인_컨트롤러_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} {{도메인}}/{{사용자_이름}}`
 
 - 결과를 파일로 저장:
 
-`GetADUsers.py -all -dc-ip {{도메인_컨트롤러_ip}} {{도메인}}/{{사용자명}}:{{비밀번호}} >{{경로/대상/출력파일.txt}}`
+`GetADUsers.py -all -dc-ip {{도메인_컨트롤러_ip}} {{도메인}}/{{사용자_이름}}:{{비밀번호}} >{{경로/대상/출력파일.txt}}`

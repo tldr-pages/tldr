@@ -9,7 +9,7 @@
 
 - 특정 사용자에 대한 앱 패키지 삭제:
 
-`Remove-AppxPackage {{패키지}} -User {{사용자명}}`
+`Remove-AppxPackage {{패키지}} -User {{사용자_이름}}`
 
 - 모든 사용자에 대한 앱 패키지 삭제:
 

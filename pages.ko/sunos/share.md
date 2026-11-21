@@ -9,16 +9,16 @@
 
 - 읽기/쓰기 권한으로 디렉터리 공유:
 
-`share -F nfs -o rw /{{경로/대상/디렉터리}}`
+`share -F nfs -o rw /{{경로/대상/폴더}}`
 
 - 읽기 전용으로 디렉터리 공유:
 
-`share -F nfs -o ro /{{경로/대상/디렉터리}}`
+`share -F nfs -o ro /{{경로/대상/폴더}}`
 
 - 특정 옵션으로 디렉터리 공유 (예: 특정 호스트에서 root 접근 허용):
 
-`share -F nfs -o rw,root={{호스트명}} /{{경로/대상/디렉터리}}`
+`share -F nfs -o rw,root={{호스트명}} /{{경로/대상/폴더}}`
 
 - `/etc/dfs/dfstab`에 추가하여 영구적으로 공유 설정:
 
-`echo "share -F nfs -o rw /{{경로/대상/디렉터리}}" >>/etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{경로/대상/폴더}}" >>/etc/dfs/dfstab`

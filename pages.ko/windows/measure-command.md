@@ -6,7 +6,7 @@
 
 - 명령어를 실행하는 데 걸리는 시간 측정:
 
-`Measure-Command { {{command}} }`
+`Measure-Command { {{명령어}} }`
 
 - `Measure-Command`에 파이프 입력 (파이프된 객체는 `Measure-Command`의 Expression 매개변수에 전달된 스크립트 블록에서 사용 가능):
 

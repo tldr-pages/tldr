@@ -17,7 +17,7 @@
 
 - 지정한 인증 정보를 사용해 패키지 배포:
 
-`poetry publish {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}}`
+`poetry publish {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}}`
 
 - 실제 배포 없이 수행될 작업 dry run:
 

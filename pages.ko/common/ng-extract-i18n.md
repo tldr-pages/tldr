@@ -17,7 +17,7 @@
 
 - Extract i18n 메시지를 특정 디렉터리에 출력:
 
-`ng extract-i18n --output-path {{경로/대상/디렉터리}}`
+`ng extract-i18n --output-path {{경로/대상/폴더}}`
 
 - 중복 번역 처리 방식 지정:
 

@@ -6,11 +6,11 @@
 
 - 특정 Toolbx 컨테이너 내에서 명령 실행:
 
-`toolbox run {{[-c|--container]}} {{컨테이너_이름}} {{명령}}`
+`toolbox run {{[-c|--container]}} {{컨테이너_이름}} {{명령어}}`
 
 - 특정 배포판 릴리스의 Toolbx 컨테이너 내에서 명령 실행:
 
-`toolbox run {{[-d|--distro]}} {{배포판}} {{[-r|--release]}} {{릴리스}} {{명령}}`
+`toolbox run {{[-d|--distro]}} {{배포판}} {{[-r|--release]}} {{릴리스}} {{명령어}}`
 
 - Fedora 39의 기본 이미지로 Toolbx 컨테이너 내에서 `emacs` 실행:
 

@@ -13,11 +13,11 @@
 
 - GitHub 외부에 호스팅된 Git 저장소 추가(tap):
 
-`brew tap {{사용자명}}/{{저장소_이름}} {{git_clone_url}}`
+`brew tap {{사용자_이름}}/{{저장소_이름}} {{git_clone_url}}`
 
 - GitLab에 호스팅된 저장소 tap 추가:
 
-`brew tap {{사용자명}}/{{저장소_이름}} https://gitlab.com/{{사용자명}}/{{저장소_이름}}.git`
+`brew tap {{사용자_이름}}/{{저장소_이름}} https://gitlab.com/{{사용자_이름}}/{{저장소_이름}}.git`
 
 - 도움말 표시:
 

@@ -13,7 +13,7 @@
 
 - 특정 사용자로 전환하며 필요 시 인증 프롬프트 표시:
 
-`dm-tool switch-to-user {{사용자명}} {{세션}}`
+`dm-tool switch-to-user {{사용자_이름}} {{세션}}`
 
 - 실행 중인 LightDM 세션 내에서 동적 시트 추가:
 

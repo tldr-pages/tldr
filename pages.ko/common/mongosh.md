@@ -14,7 +14,7 @@
 
 - 지정된 데이터베이스에서 지정된 사용자 명으로 인증 (비밀번호 입력이 요구됩니다):
 
-`mongosh --host {{호스트}} --port {{포트}} --username {{사용자_명}} --authenticationDatabase {{인증_데이터베이스_이름}} {{데이터베이스_이름}}`
+`mongosh --host {{호스트}} --port {{포트}} --username {{사용자_이름}} --authenticationDatabase {{인증_데이터베이스_이름}} {{데이터베이스_이름}}`
 
 - 데이터베이스에서 JavaScript 표현식을 평가:
 

@@ -33,4 +33,4 @@
 
 - 컨테이너 레지스트리에 로그인:
 
-`ko login {{registry.example.com}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}}`
+`ko login {{registry.example.com}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}}`

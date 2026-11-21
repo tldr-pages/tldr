@@ -5,7 +5,7 @@
 
 - 특정 디렉토리로부터 서버 시작:
 
-`browser-sync start --server {{디렉토리/의/경로}} --files {{디렉토리/의/경로}}`
+`browser-sync start --server {{경로/대상/폴더}} --files {{경로/대상/폴더}}`
 
 - 로컬 디렉토리에서 서버 시작, 일부 디렉토리에서 모든 CSS파일 확인:
 

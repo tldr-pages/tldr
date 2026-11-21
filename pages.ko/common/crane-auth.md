@@ -13,7 +13,7 @@
 
 - 레지스트리에 로그인:
 
-`crane auth login {{레지스트리_주소}} {{[-h|--help]}} {{[-p|--password]}} {{비밀번호}} {{-password-stdin}} {{[-u|--username]}} {{사용자명}}`
+`crane auth login {{레지스트리_주소}} {{[-h|--help]}} {{[-p|--password]}} {{비밀번호}} {{-password-stdin}} {{[-u|--username]}} {{사용자_이름}}`
 
 - 레지스트리에서 로그아웃:
 

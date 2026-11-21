@@ -17,7 +17,7 @@
 
 - 이미지에서 컨테이너를 시작하고 명령 실행:
 
-`singularity exec {{이미지.sif}} {{명령}}`
+`singularity exec {{이미지.sif}} {{명령어}}`
 
 - 이미지에서 컨테이너를 시작하고 내부 runscript 실행:
 

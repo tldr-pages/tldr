@@ -13,15 +13,15 @@
 
 - 커널용 메타데이터 파일 초기화 (기본값: 현재 디렉터리):
 
-`kaggle {{[k|kernels]}} init {{[-p|--path]}} {{경로/대상/디렉터리}}`
+`kaggle {{[k|kernels]}} init {{[-p|--path]}} {{경로/대상/폴더}}`
 
 - 새 코드를 커널에 업로드하고 실행:
 
-`kaggle {{[k|kernels]}} push {{[-p|--path]}} {{경로/대상/디렉터리}}`
+`kaggle {{[k|kernels]}} push {{[-p|--path]}} {{경로/대상/폴더}}`
 
 - 커널 가져오기:
 
-`kaggle {{[k|kernels]}} pull {{커널_이름}} {{[-p|--path]}} {{경로/대상/디렉터리}}`
+`kaggle {{[k|kernels]}} pull {{커널_이름}} {{[-p|--path]}} {{경로/대상/폴더}}`
 
 - 최신 커널 실행 결과 데이터 가져오기:
 

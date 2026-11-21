@@ -14,7 +14,7 @@
 
 - 사용자 이름과 비밀번호 인증을 사용하는 공유를 설정:
 
-`smbserver.py -username {{username}} -password {{password}} {{공유이름}} {{경로/대상/공유파일}}`
+`smbserver.py -username {{사용자_이름}} -password {{비밀번호}} {{공유이름}} {{경로/대상/공유파일}}`
 
 - NTLM 해시 인증을 사용하는 공유를 설정:
 

@@ -34,4 +34,4 @@
 
 - 디버그 출력 활성화 및 파이프라인을 `.dot` 파일로 덤프하여 `dot` 같은 도구로 렌더링 가능하게 저장:
 
-`GST_DEBUG={{1..5}} GST_DEBUG_DUMP_DOT_DIR={{경로/대상/디렉터리}} gst-launch-1.0 {{파이프라인}}`
+`GST_DEBUG={{1..5}} GST_DEBUG_DUMP_DOT_DIR={{경로/대상/폴더}} gst-launch-1.0 {{파이프라인}}`

@@ -21,7 +21,7 @@
 
 - 특정 사용자가 만든 닫힌 이슈 나열:
 
-`gh issue {{[ls|list]}} {{[-s|--state]}} closed {{[-A|--author]}} {{사용자_명}}`
+`gh issue {{[ls|list]}} {{[-s|--state]}} closed {{[-A|--author]}} {{사용자_이름}}`
 
 - 특정 저장소의 사용자와 관련된 이슈 상태 표시:
 

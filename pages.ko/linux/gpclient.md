@@ -25,7 +25,7 @@
 
 - 명령에 대한 도움말 표시:
 
-`gpclient help {{명령}}`
+`gpclient help {{명령어}}`
 
 - 버전 표시:
 

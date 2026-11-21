@@ -13,12 +13,12 @@
 
 - 시간 초과 시 전송된 신호를 `stderr`에 [v]erbose 출력으로 표시:
 
-`timeout {{[-v|--verbose]}} {{0.5s|1m|1h|1d|...}} {{명령}}`
+`timeout {{[-v|--verbose]}} {{0.5s|1m|1h|1d|...}} {{명령어}}`
 
 - 시간 초과 여부와 관계없이 명령의 종료 상태를 유지:
 
-`timeout {{[-p|--preserve-status]}} {{1s|1m|1h|1d|...}} {{명령}}`
+`timeout {{[-p|--preserve-status]}} {{1s|1m|1h|1d|...}} {{명령어}}`
 
 - 초기 신호를 무시할 경우 특정 시간 후 강제 `KILL` 신호 전송:
 
-`timeout {{[-k|--kill-after]}} {{5m}} {{30s}} {{명령}}`
+`timeout {{[-k|--kill-after]}} {{5m}} {{30s}} {{명령어}}`

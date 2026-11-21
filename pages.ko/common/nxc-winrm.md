@@ -9,12 +9,12 @@
 
 - 인증할 도메인 지정 (초기 SMB 연결 피하기):
 
-`nxc winrm {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} -d {{도메인_이름}}`
+`nxc winrm {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} -d {{도메인_이름}}`
 
 - 호스트에서 지정된 명령 실행:
 
-`nxc winrm {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} -x {{whoami}}`
+`nxc winrm {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} -x {{whoami}}`
 
 - LAPS를 사용하여 관리자 권한으로 호스트에서 지정된 PowerShell 명령 실행:
 
-`nxc winrm {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --laps -X {{whoami}}`
+`nxc winrm {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --laps -X {{whoami}}`

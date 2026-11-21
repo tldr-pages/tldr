@@ -23,7 +23,7 @@
 
 - basic auth로 오프리인 봉인용 컨트롤러 공개 인증서를 가져오기:
 
-`kubeseal --fetch-cert --username {{사용자명}} --password {{비밀번호}} >{{인증서.pem}}`
+`kubeseal --fetch-cert --username {{사용자_이름}} --password {{비밀번호}} >{{인증서.pem}}`
 
 - 가져온 인증서를 사용하여 오프라인으로 secret 봉인:
 

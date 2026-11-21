@@ -13,4 +13,4 @@
 
 - 지정된 시간만큼 대기한 후 원격 시스템에서 스크린샷 촬영:
 
-`nxc vnc {{192.168.178.2}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} --screenshot --screentime {{10}}`
+`nxc vnc {{192.168.178.2}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} --screenshot --screentime {{10}}`

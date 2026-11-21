@@ -17,11 +17,11 @@
 
 - 제공된 숫자 복구 암호 사용하여 지정된 볼륨을 복구하려고 시도:
 
-`repair-bde {{C:}} -RecoveryPassword {{암호}}`
+`repair-bde {{C:}} -RecoveryPassword {{비밀번호}}`
 
 - 제공된 암호 사용하여 지정된 볼륨을 복구하려고 시도:
 
-`repair-bde {{C:}} -Password {{암호}}`
+`repair-bde {{C:}} -Password {{비밀번호}}`
 
 - 제공된 키 패키지 사용하여 지정된 볼륨을 복구하려고 시도:
 

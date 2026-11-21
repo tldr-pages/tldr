@@ -6,8 +6,8 @@
 
 - 지정된 디렉터리에 장치의 백업을 생성:
 
-`idevicebackup backup {{경로/대상/디렉터리}}`
+`idevicebackup backup {{경로/대상/폴더}}`
 
 - 지정된 디렉터리에서 백업을 복원:
 
-`idevicebackup restore {{경로/대상/디렉터리}}`
+`idevicebackup restore {{경로/대상/폴더}}`

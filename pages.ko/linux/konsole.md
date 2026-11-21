@@ -9,7 +9,7 @@
 
 - 특정 명령을 [e]실행하고 종료 후 창 닫지 않기:
 
-`konsole --noclose -e "{{명령}}"`
+`konsole --noclose -e "{{명령어}}"`
 
 - 새 탭 열기:
 

@@ -14,7 +14,7 @@
 
 - 보안 자격 증명 연결 및 제공:
 
-`cypher-shell --username {{사용자명}} --password {{비밀번호}}`
+`cypher-shell --username {{사용자_이름}} --password {{비밀번호}}`
 
 - 특정 데이터베이스에 연결:
 

@@ -13,7 +13,7 @@
 
 - 특정 조직에서 WorkMail 사용자를 생성:
 
-`aws workmail create-user --name {{사용자명}} --display-name {{이름}} --password {{비밀번호}} --organization-id {{조직_아이디}}`
+`aws workmail create-user --name {{사용자_이름}} --display-name {{이름}} --password {{비밀번호}} --organization-id {{조직_아이디}}`
 
 - 그룹/사용자를 WorkMail에 등록하고 활성화:
 

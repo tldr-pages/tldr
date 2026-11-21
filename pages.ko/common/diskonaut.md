@@ -9,11 +9,11 @@
 
 - 특정 디렉토리에서 `diskonaut`를 시작:
 
-`diskonaut {{경로/대상/디렉토리}}`
+`diskonaut {{경로/대상/폴더}}`
 
 - 디스크의 블록 사용량 대신 파일 크기를 표시:
 
-`diskonaut --apparent-size {{경로/대상/디렉토리}}`
+`diskonaut --apparent-size {{경로/대상/폴더}}`
 
 - 삭제 확인 비활성화:
 

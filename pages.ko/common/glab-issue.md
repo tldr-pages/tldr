@@ -21,7 +21,7 @@
 
 - 특정 사용자가 작성한 닫힌 이슈를 나열:
 
-`glab issue list {{[-c|--closed]}} --author {{사용자명}}`
+`glab issue list {{[-c|--closed]}} --author {{사용자_이름}}`
 
 - 특정 이슈 다시 열기:
 
