@@ -24,7 +24,7 @@
 
 `bcftools view {{[-s|--samples]}} {{sample1,sample2,...}} {{path/to/input.vcf.gz}}`
 
-- Keep only SNPs, excluding indels and other variant types:
+- Keep only sites containing SNPs:
 
 `bcftools view {{[-v|--types]}} snps {{path/to/input.vcf.gz}}`
 
