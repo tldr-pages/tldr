@@ -26,4 +26,4 @@
 
 - Create a new text status with a specific background color and font size:
 
-`wacli send status --message {{Hello World!}} --background-color {{#008888}} --font {{1}}`
+`wacli send status --message "{{Hello World!}}" --background-color "{{#008888}}" --font {{1}}`
