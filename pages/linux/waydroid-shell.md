@@ -3,7 +3,7 @@
 > Run Android shell commands in Waydroid.
 > More information: <https://docs.waydro.id/usage/waydroid-command-line-options>.
 
-- Start an interactive shell on the container:
+- Start an interactive shell in the container:
 
 `sudo waydroid shell`
 
