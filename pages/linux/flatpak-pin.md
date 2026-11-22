@@ -4,18 +4,18 @@
 > See also: `flatpak`, `flatpak uninstall`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-pin>.
 
-- List pinned runtimes:
+- List pinned patterns:
 
 `flatpak pin`
 
 - Pin runtimes matching a pattern:
 
-`flatpak pin {{runtime/org.freedesktop.Platform/x86_64/24.08}}`
+`flatpak pin {{org.freedesktop.Platform//24.08}}`
 
 - Pin a runtime in the current user installation:
 
-`flatpak pin {{[-u|--user]}} {{runtime/org.freedesktop.Platform/x86_64/24.08}}`
+`flatpak pin {{[-u|--user]}} {{org.freedesktop.Platform//24.08}}`
 
-- Remove a pin:
+- Remove a pin (the pattern must match exactly as shown by `flatpak pin`):
 
-`flatpak pin --remove {{runtime/org.freedesktop.Platform/x86_64/24.08}}`
+`flatpak pin --remove {{org.freedesktop.Platform//24.08}}`
