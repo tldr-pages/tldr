@@ -6,7 +6,7 @@
 
 - Cambia il gruppo proprietario di un file/directory:
 
-`chgrp {{gruppo}} {{percorso/del/file}}`
+`chgrp {{gruppo}} {{percorso/del/file_o_directory}}`
 
 - Cambia ricorsivamente il gruppo proprietario di una directory e dei suoi contenuti:
 
@@ -18,4 +18,4 @@
 
 - Cambia il gruppo proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 
-`chgrp --reference {{percorso/del/file_riferimento}} {{percorso/del/file}}`
+`chgrp --reference {{percorso/del/file_riferimento}} {{percorso/del/file_o_directory}}`
