@@ -17,7 +17,7 @@
 
 - Use a custom [H]eader to fuzz subdomains while [h]iding specific response [c]odes and word counts. Increase the [t]hreads to 100 and include the target ip/domain:
 
-`wfuzz -w {{path/to/file}} -H "{{Host: FUZZ.example.com}}" --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}`
+`wfuzz -w {{path/to/file}} -H "{{Host: FUZZ.example.com}}" --hc {{301}} --hw {{222}} -t 100 {{example.com}}`
 
 - Brute force Basic Authentication using a list of usernames and passwords from files for each FUZ[z] keyword, [h]iding response [c]odes of unsuccessful attempts:
 

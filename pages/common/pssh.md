@@ -25,4 +25,4 @@
 
 - Run a command limiting the number of parallel connections to 10:
 
-`pssh {{[-i|--inline]}} {{[-h|--hosts]}} {{path/to/hosts_file}} {{[-p|-par]}} {{10}} '{{cd dir; ./script.sh; exit}}'`
+`pssh {{[-i|--inline]}} {{[-h|--hosts]}} {{path/to/hosts_file}} {{[-p|-par]}} 10 '{{cd dir; ./script.sh; exit}}'`
