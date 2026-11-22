@@ -10,7 +10,7 @@
 
 - Display the summary numbers (samples, records, SNPs, indels, etc.):
 
-`bcftools stats {{path/to/input.vcf.gz}} | grep ^SN`
+`bcftools stats {{path/to/input.vcf.gz}} | grep '^SN'`
 
 - Include per-sample statistics for all samples:
 
@@ -20,7 +20,7 @@
 
 `bcftools stats {{path/to/a.vcf.gz}} {{path/to/b.vcf.gz}} > {{path/to/stats.txt}}`
 
-- Generate statistics only for sites that pass all filters:
+- Generate statistics only for sites with `PASS` in the FILTER column:
 
 `bcftools stats {{[-f|--apply-filters]}} PASS {{path/to/input.vcf.gz}} > {{path/to/stats.txt}}`
 
