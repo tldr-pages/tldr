@@ -15,9 +15,13 @@
 
 `grafana cli plugins list-versions {{plugin_id}}`
 
-- Install a specific plugin:
+- Install the latest version of a plugin:
 
 `grafana cli plugins install {{plugin_id}}`
+
+- Install a specific version of a plugin:
+
+`grafana cli plugins install {{plugin_id}} {{version}}`
 
 - Update all installed plugins:
 
