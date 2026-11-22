@@ -12,7 +12,7 @@
 
 `bcftools norm {{[-m|--multiallelics]}} -both {{path/to/input.vcf.gz}}`
 
-- Join biallelic records at the same position into multiallelic sites:
+- Join biallelic records at the same position into multiallelic sites, keeping SNPs and indels separate:
 
 `bcftools norm {{[-m|--multiallelics]}} +both {{path/to/input.vcf.gz}}`
 
