@@ -10,7 +10,7 @@
 
 - Adivina credenciales SSH utilizando un nombre de usuario determinado y una lista de contraseñas:
 
-`hydra -l {{nombre_de_usuario}} -P {{ruta/a/lista_de_palabras.txt}} {{ip_del_host}} {{ssh}}`
+`hydra -l {{usuario}} -P {{ruta/a/lista_de_palabras.txt}} {{ip_del_host}} {{ssh}}`
 
 - Adivina credenciales de formularios web HTTPS utilizando dos listas específicas de nombres de usuario y contraseñas ("https_post_request" puede ser algo así como "usuario=^USER^&contraseña=^PASS^"):
 
@@ -22,11 +22,11 @@
 
 - Adivina credenciales de MySQL utilizando un nombre de usuario y una lista de contraseñas, saliendo del proceso cuando se encuentre un conjunto de nombre de usuario y contraseña acordes:
 
-`hydra -l {{nombre_de_usuario}} -P {{ruta/a/lista_de_palabras.txt}} -f {{host_ip}} {{mysql}}`
+`hydra -l {{usuario}} -P {{ruta/a/lista_de_palabras.txt}} -f {{host_ip}} {{mysql}}`
 
 - Adivina las credenciales de RDP utilizando una lista de nombres de usuario y contraseñas, mostrando cada intento:
 
-`hydra -l {{nombre_de_usuario}} -P {{ruta/a/lista_de_palabras.txt}} -V {{rdp://host_ip}}`
+`hydra -l {{usuario}} -P {{ruta/a/lista_de_palabras.txt}} -V {{rdp://host_ip}}`
 
 - Adivina credenciales IMAP en un rango de hosts utilizando una lista de pares de nombre de usuario y contraseña separados por dos puntos:
 

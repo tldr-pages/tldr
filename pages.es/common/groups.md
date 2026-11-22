@@ -10,4 +10,4 @@
 
 - Imprime la pertenencia a grupos de una lista de usuarios:
 
-`groups {{nombredeusuario1 nombredeusuario2 ...}}`
+`groups {{usuario1 usuario2 ...}}`

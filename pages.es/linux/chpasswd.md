@@ -6,7 +6,7 @@
 
 - Cambia la contraseña de un usuario específico:
 
-`printf "{{nombre_usuario}}:{{nueva_contraseña}}" | sudo chpasswd`
+`printf "{{usuario}}:{{nueva_contraseña}}" | sudo chpasswd`
 
 - Cambia las contraseñas de varios usuarios (el texto ingresado no debe contener espacios):
 
@@ -14,8 +14,8 @@
 
 - Cambia la contraseña de un usuario específico y es especificada en forma cifrada:
 
-`printf "{{nombre_usuario}}:{{nueva_contraseña_cifrada}}" | sudo chpasswd {{[-e|--encrypted]}}`
+`printf "{{usuario}}:{{nueva_contraseña_cifrada}}" | sudo chpasswd {{[-e|--encrypted]}}`
 
 - Cambia la contraseña de un usuario específico y utiliza un cifrado específico para la contraseña almacenada:
 
-`printf "{{nombre_usuario}}:{{nueva_contraseña}}" | sudo chpasswd {{[-c|--crypt-method]}} {{NONE|DES|MD5|SHA256|SHA512}}`
+`printf "{{usuario}}:{{nueva_contraseña}}" | sudo chpasswd {{[-c|--crypt-method]}} {{NONE|DES|MD5|SHA256|SHA512}}`
