@@ -9,7 +9,7 @@
 
 - Simpan log sistem di dalam sebuah file:
 
-`logcat -f {{path/to/file}}`
+`logcat -f {{jalan/menuju/berkas}}`
 
 - Saring informasi log berdasarkan sintaks ekspresi reguler (`regex`) tertentu:
 

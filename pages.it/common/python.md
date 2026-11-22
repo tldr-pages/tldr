@@ -25,7 +25,7 @@
 
 - Installa un pacchetto usando `pip`:
 
-`python -m pip install {{nome_pacchetto}}`
+`python -m pip install {{pacchetto}}`
 
 - Esegue il debug interattivo di uno script Python:
 
