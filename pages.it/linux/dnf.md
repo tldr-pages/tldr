@@ -14,15 +14,15 @@
 
 - Mostra i dettagli di un pacchetto:
 
-`dnf {{[if|info]}} {{package}}`
+`dnf {{[if|info]}} {{pacchetto}}`
 
 - Installa nuovi pacchetti (usa `--assumeyes` per confermare automaticamente tutte le richieste):
 
-`sudo dnf {{[in|install]}} {{package1 package2 ...}}`
+`sudo dnf {{[in|install]}} {{pacchetto1 pacchetto2 ...}}`
 
 - Rimuove pacchetti:
 
-`sudo dnf {{[rm|remove]}} {{package1 package2 ...}}`
+`sudo dnf {{[rm|remove]}} {{pacchetto1 pacchetto2 ...}}`
 
 - Elenca i pacchetti installati:
 
@@ -30,7 +30,7 @@
 
 - Trova quali pacchetti forniscono un dato comando:
 
-`dnf provides {{command}}`
+`dnf provides {{comando}}`
 
 - Pulisce i dati in cache:
 

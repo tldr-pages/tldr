@@ -10,7 +10,7 @@
 
 - Sincronizza tutti i pacchetti e definisce una posizione di salvataggio personalizzata:
 
-`dnf reposync --repoid {{repo_name}} {{[-p|--download-path]}} {{path/to/directory}}`
+`dnf reposync --repoid {{repo_name}} {{[-p|--download-path]}} {{percorso/della/directory}}`
 
 - Sincronizza tutti i pacchetti e metadati:
 

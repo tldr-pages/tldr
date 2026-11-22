@@ -10,3 +10,7 @@
 - Muestra la ruta completa del identificador de objeto (OID):
 
 `snmpget -v {{versión}} -c {{comunidad}} -O f {{ip_address}} {{oid}}`
+
+- Muestra la ayuda:
+
+`snmpget {{[-h|--help]}}`

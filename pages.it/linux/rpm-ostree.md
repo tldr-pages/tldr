@@ -22,4 +22,4 @@
 
 - Installa un pacchetto in un nuovo deployment ostree e riavvia in esso:
 
-`rpm-ostree install {{package}} {{[-r|--reboot]}}`
+`rpm-ostree install {{pacchetto}} {{[-r|--reboot]}}`

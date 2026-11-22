@@ -22,7 +22,7 @@
 
 - Smazat konkrétní soubory a adresáře rekurzivně:
 
-`rm {{[-r|--recursive]}} {{cesta/k/souboru_nebo_adresari1 cesta/k/souboru_nebo_adresari2 ...}}`
+`rm {{[-r|--recursive]}} {{cesta/k/souboru_ci_adresari1 cesta/k/souboru_ci_adresari2 ...}}`
 
 - Smazat prázdné adresáře (tohle je považováno za bezpečnou metodu):
 
