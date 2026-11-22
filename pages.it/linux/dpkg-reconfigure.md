@@ -5,7 +5,7 @@
 
 - Riconfigura uno o più pacchetti:
 
-`dpkg-reconfigure {{package1 package2 ...}}`
+`dpkg-reconfigure {{pacchetto1 pacchetto2 ...}}`
 
 - Riconfigura la configurazione del font della console:
 

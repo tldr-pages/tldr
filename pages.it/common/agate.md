@@ -9,7 +9,7 @@
 
 - Avvia server:
 
-`agate {{percorso/del/file}}`
+`agate {{percorso/della/directory}}`
 
 - Mostra l'aiuto:
 
