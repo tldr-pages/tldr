@@ -21,4 +21,4 @@
 
 - Hapus atribut secara rekursif dalam direktori tertentu:
 
-`xattr -rd {{kunci_atribut}} {{direktori}}`
+`xattr -rd {{kunci_atribut}} {{jalan/menuju/direktori}}`

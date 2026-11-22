@@ -15,12 +15,12 @@
 
 - Tentukan [s]yel masuk untuk suatu pengguna:
 
-`chpass -s {{jalan/menuju/syel}} {{username}}`
+`chpass -s {{jalan/menuju/syel}} {{nama_pengguna}}`
 
 - Ubah rekam pengguna dalam node direktori pada [l]okasi yang ditentukan:
 
-`chpass -l {{lokasi}} -s {{jalan/menuju/syel}} {{username}}`
+`chpass -l {{lokasi}} -s {{jalan/menuju/syel}} {{nama_pengguna}}`
 
 - Gunakan suatu nama pengguna ([u]sername) saat melakukan proses masuk menuju node direktori yang memiliki informasi pengguna:
 
-`chpass -u {{username_untuk_autentikasi}} -s {{path/to/shell}} {{username_sesungguhnya}}`
+`chpass -u {{username_untuk_autentikasi}} -s {{path/to/shell}} {{nama_pengguna}}`
