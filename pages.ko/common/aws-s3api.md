@@ -21,7 +21,7 @@
 
 - 버킷에 객체를 추가:
 
-`aws s3api put-object --bucket {{버킷_이름}} --key {{object_key}} --body {{path/to/file}}`
+`aws s3api put-object --bucket {{버킷_이름}} --key {{object_key}} --body {{경로/대상/파일}}`
 
 - 버킷에서 객체 다운로드 (출력 파일은 항상 마지막 인수로 와야 함):
 

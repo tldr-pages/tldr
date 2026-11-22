@@ -7,30 +7,30 @@
 
 `deluge-console`
 
-- Connetti ad un'instanza del demone di Deluge:
+- [Interattivo] Connetti ad un'instanza del demone di Deluge:
 
 `connect {{hostname}}:{{porta}}`
 
-- Aggiungi un torrent al demone:
+- [Interattivo] Aggiungi un torrent al demone:
 
 `add {{url|magnet|percorso/del/file}}`
 
-- Mostra informazioni su tutti i torrent:
+- [Interattivo] Mostra informazioni su tutti i torrent:
 
 `info`
 
-- Mostra informazioni su di uno specifico torrent:
+- [Interattivo] Mostra informazioni su di uno specifico torrent:
 
 `info {{id_torrent}}`
 
-- Metti in pausa un torrent:
+- [Interattivo] Metti in pausa un torrent:
 
 `pause {{id_torrent}}`
 
-- Riprendi un torrent:
+- [Interattivo] Riprendi un torrent:
 
 `resume {{id_torrent}}`
 
-- Rimuovi un torrent dal demone:
+- [Interattivo] Rimuovi un torrent dal demone:
 
 `rm {{id_torrent}}`

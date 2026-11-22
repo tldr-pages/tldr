@@ -1,7 +1,13 @@
 # rcat
 
-> Este comando es un alias de `rc`.
+> Una escucha de puerto moderna simplificada y con interfaz de comando reversa.
+> Vea también: `nc`.
+> Más información: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 
-- Vea la documentación del comando original:
+- Comienza a escuchar en un puerto específico:
 
-`tldr rc`
+`rcat listen {{puerto}}`
+
+- Comienza una interfaz de comando inversa:
+
+`rcat connect -s {{shell}} {{equipo}} {{puerto}}`

@@ -14,3 +14,7 @@
 - 전체 Vulkan 정보를 HTML 문서로 생성:
 
 `vulkaninfo --html`
+
+- 도움말 표시:
+
+`vulkaninfo {{[-h|--help]}}`

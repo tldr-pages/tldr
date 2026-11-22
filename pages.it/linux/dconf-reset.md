@@ -9,4 +9,4 @@
 
 - Reimposta una directory specifica:
 
-`dconf reset -f /{{path/to/directory}}/`
+`dconf reset -f /{{percorso/della/directory}}/`

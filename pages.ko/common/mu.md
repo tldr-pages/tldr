@@ -25,7 +25,7 @@
 
 - Sam에게서 온, 이미지가 첨부된 2 KiB에서 2 MiB 사이의 크기로 2021년에 작성된 메시지 찾기:
 
-`mu find 'mime:{{image/*}} size:{{2k..2m}} date:{{20210101..20211231}} from:{{sam}}`
+`mu find 'mime:{{image/*}}' size:{{2k..2m}} date:{{20210101..20211231}} from:{{sam}}`
 
 - 이름 또는 이메일 주소에 `Bob`이 포함된 연락처 나열:
 

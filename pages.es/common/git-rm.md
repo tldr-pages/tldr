@@ -5,7 +5,7 @@
 
 - Elimina un archivo del índice de un repositorio y del sistema de archivos local:
 
-`git rm {{archivo}}`
+`git rm {{ruta/al/archivo}}`
 
 - Elimina un directorio:
 
@@ -13,4 +13,4 @@
 
 - Elimina un archivo del índice del repositorio, pero mantiene intacto el archivo local:
 
-`git rm --cached {{archivo}}`
+`git rm --cached {{ruta/al/archivo}}`

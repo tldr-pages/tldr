@@ -27,6 +27,6 @@
 
 `docker {{[commit|container commit]}} {{[-p|--pause]}} false {{contêiner}} {{imagem}}:{{tag}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `docker {{[commit|container commit]}} --help`

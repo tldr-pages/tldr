@@ -5,8 +5,8 @@
 
 - Edycja pliku `group`:
 
-`vigr`
+`sudo vigr`
 
-- Wyświetlenie wersji:
+- Wyświetl wersję:
 
 `vigr {{[-V|--version]}}`

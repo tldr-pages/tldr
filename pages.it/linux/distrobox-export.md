@@ -6,7 +6,7 @@
 
 - Esporta un'app dal container all'host (la voce desktop/icona apparirà nell'elenco delle applicazioni del tuo sistema host):
 
-`distrobox-export {{[-a|--app]}} {{package}} {{[-ef|--extra-flags]}} "--foreground"`
+`distrobox-export {{[-a|--app]}} {{pacchetto}} {{[-ef|--extra-flags]}} "--foreground"`
 
 - Esporta un binario dal container all'host:
 
@@ -18,8 +18,8 @@
 
 - Esporta un servizio dal container all'host (`--sudo` eseguirà il servizio come root dentro il container):
 
-`distrobox-export --service {{package}} {{[-ef|--extra-flags]}} "--allow-newer-config" {{[-S|--sudo]}}`
+`distrobox-export --service {{pacchetto}} {{[-ef|--extra-flags]}} "--allow-newer-config" {{[-S|--sudo]}}`
 
 - Annulla l'esportazione/elimina un'applicazione esportata:
 
-`distrobox-export {{[-a|--app]}} {{package}} {{[-d|--delete]}}`
+`distrobox-export {{[-a|--app]}} {{pacchetto}} {{[-d|--delete]}}`

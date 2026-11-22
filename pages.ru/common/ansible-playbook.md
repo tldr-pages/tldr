@@ -25,7 +25,7 @@
 
 - Запустить задачи из playbook, начиная с определённой задачи:
 
-`ansible-playbook {{playbook}} --start-at {{имя_задачи}}`
+`ansible-playbook {{playbook}} --start-at-task {{имя_задачи}}`
 
 - Симулировать выполнение задач из playbook без внесения изменений:
 

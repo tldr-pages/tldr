@@ -13,7 +13,7 @@
 
 - Comprueba que no se desperdicia espacio, manteniendo todo en los directorios no etiquetados:
 
-`rmlint {{[-k|--keep-all-untagged]}} {{ruta/al/directorio}} // {{ruta/al/directorio_original}}`
+`rmlint {{[-K|--keep-all-untagged]}} {{ruta/al/directorio}} // {{ruta/al/directorio_original}}`
 
 - Elimina archivos duplicados encontrados tras una ejecución de `rmlint`:
 

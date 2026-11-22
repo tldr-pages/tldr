@@ -13,7 +13,7 @@
 
 - Unda saraka zenye ruhusa maalum:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{njia/ya/saraka1 njia/ya/saraka2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{njia/ya/saraka1 njia/ya/saraka2 ...}}`
 
 - Unda saraka nyingi zilizo ndani ya nyingine kwa kujirudia:
 
