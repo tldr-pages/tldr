@@ -1,6 +1,7 @@
 # flatpak repair
 
 > Check a Flatpak installation for problems and fix them.
+> Note: Without root privileges, repairing the system installation only reports problems, as if `--dry-run` were used.
 > See also: `flatpak`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-repair>.
 
@@ -12,7 +13,7 @@
 
 `flatpak repair {{[-u|--user]}}`
 
-- Simulate the repair without making any changes:
+- Only report problems without making any changes:
 
 `flatpak repair --dry-run`
 
