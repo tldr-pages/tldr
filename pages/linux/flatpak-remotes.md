@@ -1,10 +1,10 @@
 # flatpak remotes
 
 > List remote repositories configured for Flatpak.
-> See also: `flatpak`.
+> See also: `flatpak`, `flatpak-remote-info`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-remotes>.
 
-- List all configured remotes:
+- List configured remotes for both user and system installations:
 
 `flatpak remotes`
 
@@ -20,9 +20,9 @@
 
 `flatpak remotes {{[-u|--user]}}`
 
-- Show only the name, URL, and priority of each remote:
+- Show specific columns of information:
 
-`flatpak remotes --columns name,url,priority`
+`flatpak remotes --columns {{name,url,priority,...}}`
 
 - List the available columns:
 
