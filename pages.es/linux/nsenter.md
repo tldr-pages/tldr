@@ -18,4 +18,4 @@
 
 - Ejecuta un comando específico en el espacio de nombres de un proceso existente haciendo referencia a procfs:
 
-`nsenter {{[-p|--pid=]}}/proc/{{pid}}/pid/net -- {{comando}} {{argumentos_del_comando}}`
+`nsenter {{[-n|--net=]}}/proc/{{pid}}/ns/net -- {{comando}} {{argumentos_del_comando}}`

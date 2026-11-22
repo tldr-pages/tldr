@@ -7,7 +7,7 @@
 
 - Membuka berkas:
 
-`nvim {{berkas}}`
+`nvim {{jalan/menuju/berkas}}`
 
 - Masuk ke mode pengeditan teks (insert mode):
 

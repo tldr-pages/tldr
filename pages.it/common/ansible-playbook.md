@@ -25,7 +25,7 @@
 
 - Esegui task nel playbook partendo da un task specifico:
 
-`ansible-playbook {{playbook}} --start-at {{nome_task}}`
+`ansible-playbook {{playbook}} --start-at-task {{nome_task}}`
 
 - Esegui task nel playbook senza apportare modifiche (dry-run):
 

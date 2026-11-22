@@ -21,7 +21,7 @@
 
 - 检查特定脚本是否有语法错误：
 
-`fish {{[-N|--no-execute]}} {{路径/到/脚本.fish}}`
+`fish {{[-n|--no-execute]}} {{路径/到/脚本.fish}}`
 
 - 从 `stdin` 执行特定命令：
 

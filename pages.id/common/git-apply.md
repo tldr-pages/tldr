@@ -26,4 +26,4 @@
 
 - Simpan hasil perubahan ke dalam indeks perubahan tanpa merubah susunan file/direktori dalam direktori kerja saat ini:
 
-`git apply --cache {{jalan/menuju/berkas}}`
+`git apply --cached {{jalan/menuju/berkas}}`

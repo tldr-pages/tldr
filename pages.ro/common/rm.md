@@ -22,8 +22,8 @@
 
 - Șterge recursiv fișiere și foldere specifice:
 
-`rm {{[-r|--recursive]}} {{cale/către/fișier_sau_folder1 cale/către/fișier_sau_folder2 ...}}`
+`rm {{[-r|--recursive]}} {{cale/către/fișier_sau_director1 cale/către/fișier_sau_director2 ...}}`
 
 - Șterge folderele goale (aceasta este considerată metoda sigură):
 
-`rm {{[-d|--dir]}} {{cale/către/folder}}`
+`rm {{[-d|--dir]}} {{cale/către/director}}`
