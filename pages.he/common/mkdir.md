@@ -11,7 +11,7 @@
 
 `mkdir {{[-p|--parents]}} {{path/to/directory1 path/to/directory2 ...}}`
 
-יצירת תיקיות והגדרת ההרשאות שלהן:
+- יצירת תיקיות והגדרת ההרשאות שלהן:
 
 `mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{path/to/directory1 path/to/directory2 ...}}`
 
