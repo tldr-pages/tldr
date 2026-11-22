@@ -9,7 +9,7 @@
 
 - Inizializza in una directory specifica:
 
-`bun init {{path/to/directory}}`
+`bun init {{percorso/della/directory}}`
 
 - Inizializza con un nome di progetto specifico:
 

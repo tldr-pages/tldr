@@ -13,7 +13,7 @@
 
 - Elenca le chiavi di autorizzazioni per uno specifico utente:
 
-`nixos-option users.users.{{utente}}.openssh.authorizedKeys.{{keyFiles|keys}}`
+`nixos-option users.users.{{nome_utente}}.openssh.authorizedKeys.{{keyFiles|keys}}`
 
 - Elenca tutte le macchine di compilazione remote:
 

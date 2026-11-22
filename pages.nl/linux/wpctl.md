@@ -21,13 +21,13 @@
 
 `wpctl get-volume {{sink_id}}`
 
-- Stel het volume van een sink in op `n` procent:
+- Stel het volume van een sink in op `n` procent of verhoog of verlaag het met `n`:
 
-`wpctl set-volume {{sink_id}} {{n}}%`
+`wpctl set-volume {{sink_id}} {{n%|n%+|n%-}}`
 
-- Verhoog/verlaag het volume van een sink met `n` procent:
+- Filter objecten op type:
 
-`wpctl set-volume {{sink_id}} {{n}}%{{+|-}}`
+`wpctl list {{audio|video}} {{devices|sinks|sources}}`
 
 - Verhoog het volume van een sink met `n` procent, maar begrens het volume onder 100%:
 

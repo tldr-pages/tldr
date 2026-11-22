@@ -6,7 +6,7 @@
 
 - Abre dos archivos y muestra las diferencias:
 
-`vimdiff {{archivo1}} {{archivo2}}`
+`vimdiff {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Mueve el cursor a la ventana de la izquierda|derecha:
 

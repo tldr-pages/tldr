@@ -21,4 +21,4 @@
 
 - Inspectează intrările de fuziune pentru un fișier folosind `cat`:
 
-`git merge-index cat -- {{path}}`
+`git merge-index cat -- {{cale/către/fișier}}`

@@ -9,7 +9,7 @@
 
 - اجرا کردن سرور:
 
-`agate {{path/to/file}}`
+`agate {{path/to/directory}}`
 
 - نمایش راهنما:
 

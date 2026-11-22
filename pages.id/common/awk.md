@@ -7,23 +7,23 @@
 
 - Cetak kolom (atau bidang) kelima dalam berkas yang dipisahkan spasi:
 
-`awk '{print $5}' {{lokasi/berkas}}`
+`awk '{print $5}' {{jalan/menuju/berkas}}`
 
 - Cetak kolom kedua dari baris yang mengandung "foo" dalam berkas yang dipisahkan spasi:
 
-`awk '/{{foo}}/ {print $2}' {{lokasi/berkas}}`
+`awk '/{{foo}}/ {print $2}' {{jalan/menuju/berkas}}`
 
 - Cetak kolom terakhir dari setiap baris dalam sebuah berkas, menggunakan koma (bukan spasi) sebagai pemisah bidang:
 
-`awk -F ',' '{print $NF}' {{lokasi/berkas}}`
+`awk -F ',' '{print $NF}' {{jalan/menuju/berkas}}`
 
 - Jumlahkan nilai di kolom pertama dari sebuah berkas dan cetak totalnya:
 
-`awk '{s+=$1} END {print s}' {{lokasi/berkas}}`
+`awk '{s+=$1} END {print s}' {{jalan/menuju/berkas}}`
 
 - Cetak setiap baris ketiga dimulai dari baris pertama:
 
-`awk 'NR%3==1' {{lokasi/berkas}}`
+`awk 'NR%3==1' {{jalan/menuju/berkas}}`
 
 - Cetak nilai yang berbeda berdasarkan kondisi:
 
@@ -31,7 +31,7 @@
 
 - Cetak semua baris yang nilai kolom ke-10nya berada di antara nilai minimum dan maksimum:
 
-`awk '($10 >= {{nilai_min}} && $10 <= {{nilai_maks}})' {{lokasi/berkas}}`
+`awk '($10 >= {{nilai_min}} && $10 <= {{nilai_maks}})' {{jalan/menuju/berkas}}`
 
 - Cetak tabel pengguna dengan UID >= 1000 beserta header dan output yang terformat, menggunakan titik dua sebagai pemisah (`%-20s` berarti: string 20 karakter rata kiri, `%6s` berarti: string 6 karakter rata kanan):
 
