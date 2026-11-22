@@ -30,4 +30,4 @@
 
 - Imprime el contenido de un archivo específico:
 
-`zip {{[-sf|--split-size --freshen]}} {{ruta/a/archivo_comprimido.zip}}`
+`zip {{[-sf|--show-files]}} {{ruta/a/archivo_comprimido.zip}}`
