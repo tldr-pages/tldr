@@ -10,16 +10,8 @@
 
 - List permission entries in a specific table:
 
-`flatpak permissions {{notifications}}`
+`flatpak permissions {{notifications|screenshot|background|...}}`
 
 - List permission entries for a specific ID in a table:
 
-`flatpak permissions {{notifications}} {{notification}}`
-
-- Show all permissions for a specific application:
-
-`flatpak permission-show {{com.example.app}}`
-
-- Reset all permissions for a specific application:
-
-`flatpak permission-reset {{com.example.app}}`
+`flatpak permissions {{notifications|screenshot|background|...}} {{notification}}`
