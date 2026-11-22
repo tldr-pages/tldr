@@ -21,7 +21,7 @@
 
 `sudo systemd-sysinstall --variables yes {{/dev/sdX}}`
 
-- Install a specific kernel image instead of the currently booted one:
+- Install a specific unified kernel image (UKI) instead of the currently booted one:
 
 `sudo systemd-sysinstall --kernel {{path/to/kernel.efi}} {{/dev/sdX}}`
 
@@ -31,7 +31,7 @@
 
 - Display help:
 
-`systemd-sysinstall --help`
+`systemd-sysinstall {{[-h|--help]}}`
 
 - Display version:
 
