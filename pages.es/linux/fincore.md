@@ -11,3 +11,7 @@
 - Muestra todas las columnas de datos posibles:
 
 `fincore --output-all {{ruta/al/archivo}}`
+
+- Muestra la ayuda:
+
+`fincore {{[-h|--help]}}`

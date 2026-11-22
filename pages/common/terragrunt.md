@@ -25,4 +25,4 @@
 
 - Build or change infrastructure from a tree of Terragrunt modules (stack):
 
-`terragrunt run-all apply`
+`terragrunt run --all apply`
