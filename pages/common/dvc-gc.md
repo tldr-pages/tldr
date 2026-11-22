@@ -9,12 +9,12 @@
 
 - Garbage collect from the cache, keeping only versions referenced by branch, tags, and commits:
 
-`dvc gc {{[-a|--all-branches]}} {{[-T|--all-tags]}} {{[-a|--all-commits]}}`
+`dvc gc {{[-a|--all-branches]}} {{[-T|--all-tags]}} {{[-A|--all-commits]}}`
 
 - Garbage collect from the cache, including the default cloud remote storage (if set):
 
-`dvc gc {{[-a|--all-commits]}} {{[-c|--cloud]}}`
+`dvc gc {{[-A|--all-commits]}} {{[-c|--cloud]}}`
 
 - Garbage collect from the cache, including a specific cloud remote storage:
 
-`dvc gc {{[-a|--all-commits]}} {{[-c|--cloud]}} {{[-r|--remote]}} {{remote_name}}`
+`dvc gc {{[-A|--all-commits]}} {{[-c|--cloud]}} {{[-r|--remote]}} {{remote_name}}`

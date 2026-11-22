@@ -5,11 +5,11 @@
 
 - Rimuove tutte le impronte digitali per un utente specifico:
 
-`fprintd-delete {{username}}`
+`fprintd-delete {{nome_utente}}`
 
 - Rimuove un'impronta digitale specifica per un utente specifico:
 
-`fprintd-delete {{username}} {{[-f|--finger]}} {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|...}}`
+`fprintd-delete {{nome_utente}} {{[-f|--finger]}} {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|...}}`
 
 - Mostra l'aiuto:
 
