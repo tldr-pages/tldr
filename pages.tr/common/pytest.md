@@ -17,7 +17,7 @@
 
 - Belirli işaretçilerle eşleşen veya bunları hariç tutan testleri çalıştır:
 
-`pytest -m {{isaretci1 and not isaretci2}}`
+`pytest -m {{işaretçi1 and not işaretçi2}}`
 
 - Bir test başarısız olana kadar çalıştır, sonraki çalıştırmada son başarısız testten devam et:
 
