@@ -28,3 +28,7 @@
 - 조건문에서 `test` 사용:
 
 `if test -f "{{경로/대상/파일}}"; then echo "File exists"; else echo "File does not exist"; fi`
+
+- 도움말 표시:
+
+`help test`

@@ -33,4 +33,4 @@
 
 - Compara distintos archivos de la rama actual con otra rama:
 
-`git diff {{rama}}:{{ruta/al/archivo2}} {{ruta/al/archivo}}`
+`git diff {{rama}}:{{ruta/al/archivo2}} {{ruta/al/archivo1}}`

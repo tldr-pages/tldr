@@ -5,8 +5,8 @@
 
 - Edita l'arxiu de contrasenyes:
 
-`vipw`
+`sudo vipw`
 
-- Mostra la versió instal·lada de `vipw`:
+- Mostra la versió:
 
 `vipw {{[-V|--version]}}`

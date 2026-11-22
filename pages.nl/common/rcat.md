@@ -1,7 +1,13 @@
 # rcat
 
-> Dit commando is een alias van `rc`.
+> Een moderne simplistische poortluisteraar en omgekeerde shell.
+> Zie ook: `nc`.
+> Meer informatie: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 
-- Bekijk de documentatie van het originele commando:
+- Start met luisteren op een specifieke poort:
 
-`tldr rc`
+`rcat listen {{poort}}`
+
+- Start een omgekeerde shell:
+
+`rcat connect -s {{shell}} {{host}} {{poort}}`

@@ -11,9 +11,9 @@
 
 `dvc fetch {{[-r|--remote]}} {{remote_name}}`
 
-- Fetch the latest changes for a specific target/s:
+- Fetch the latest changes for a specific targets:
 
-`dvc fetch {{target/s}}`
+`dvc fetch {{target1 target2 ...}}`
 
 - Fetch changes for all branch and tags:
 

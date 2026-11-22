@@ -31,6 +31,6 @@
 
 `aws iam list-access-keys --user-name {{nome_do_usuário}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `aws iam help`

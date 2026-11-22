@@ -11,7 +11,7 @@
 
 - Scarica un file da un URI con nome di output specifico:
 
-`aria2c {{[-o|--out]}} {{percorso/al/file}} "{{url}}"`
+`aria2c {{[-o|--out]}} {{percorso/del/file}} "{{url}}"`
 
 - Scarica più file diversi in parallelo:
 
@@ -23,7 +23,7 @@
 
 - Scarica gli URI elencati in un file con numero specifico di download paralleli:
 
-`aria2c {{[-i|--input-file]}} {{percorso/al/file}} {{[-j|--max-concurrent-downloads]}} {{numero_download}}`
+`aria2c {{[-i|--input-file]}} {{percorso/del/file}} {{[-j|--max-concurrent-downloads]}} {{numero_download}}`
 
 - Scarica con più connessioni:
 
@@ -31,7 +31,7 @@
 
 - Download FTP con username e password:
 
-`aria2c --ftp-user {{username}} --ftp-passwd {{password}} "{{url}}"`
+`aria2c --ftp-user {{nome_utente}} --ftp-passwd {{password}} "{{url}}"`
 
 - Limita la velocità di download in byte/s:
 

@@ -8,7 +8,7 @@
 
 `choco {{comando}}`
 
-- Guarda il messaggio d'aiuto:
+- Mostra l'aiuto:
 
 `choco -?`
 
@@ -16,6 +16,6 @@
 
 `choco {{command}} -?`
 
-- Controlla la versione di Chocolatey:
+- Mostra la versione:
 
 `choco --version`

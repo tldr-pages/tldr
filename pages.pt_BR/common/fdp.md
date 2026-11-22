@@ -20,6 +20,6 @@
 
 `echo "{{digraph {isso -> aquilo} }}" | fdp -T gif >{{caminho/para/imagem.gif}}`
 
-- Exibe ajuda:
+- Mostra ajuda:
 
 `fdp -?`

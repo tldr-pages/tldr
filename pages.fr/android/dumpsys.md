@@ -1,6 +1,6 @@
 # dumpsys
 
-> Fourni des informations sur les services du système Android.
+> Fournit des informations sur les services du système Android.
 > Cette commande peut être utilisé uniquement depuis `adb shell`.
 > Plus d'informations : <https://developer.android.com/tools/dumpsys>.
 
@@ -20,7 +20,7 @@
 
 `dumpsys {{service}} -h`
 
-- Exclus un service spécifique d'un diagnostic :
+- Exclut un service spécifique d'un diagnostic :
 
 `dumpsys --skip {{service}}`
 

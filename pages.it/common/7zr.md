@@ -6,7 +6,7 @@
 
 - [a]rchivia un file o directory:
 
-`7zr a {{percorso/all/archivio.7z}} {{percorso/al/file_o_directory}}`
+`7zr a {{percorso/all/archivio.7z}} {{percorso/del/file_o_directory}}`
 
 - Crittografa un archivio esistente (inclusi i nomi dei file):
 
@@ -30,4 +30,4 @@
 
 - Imposta il livello di compressione (più alto = maggiore compressione ma più lento):
 
-`7zr a {{percorso/all/archivio.7z}} -mx={{0|1|3|5|7|9}} {{percorso/al/file_o_directory}}`
+`7zr a {{percorso/all/archivio.7z}} -mx={{0|1|3|5|7|9}} {{percorso/del/file_o_directory}}`

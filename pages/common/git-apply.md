@@ -26,4 +26,4 @@
 
 - Store the patch result in the index without modifying the working tree:
 
-`git apply --cache {{path/to/file}}`
+`git apply --cached {{path/to/file}}`

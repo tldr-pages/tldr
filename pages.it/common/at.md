@@ -18,7 +18,7 @@
 
 - Esegue comandi da un file specifico il prossimo martedì:
 
-`at -f {{percorso/al/file}} 9:30 PM Tue`
+`at -f {{percorso/del/file}} 9:30 PM Tue`
 
 - Elenca tutti i job in coda per l'utente corrente (uguale a `atq`):
 

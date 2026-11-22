@@ -5,11 +5,11 @@
 
 - Prepara un pacchetto per la patch:
 
-`bun patch {{package}}`
+`bun patch {{pacchetto}}`
 
 - Prepara una versione specifica di un pacchetto:
 
-`bun patch {{package}}@{{version}}`
+`bun patch {{pacchetto}}@{{version}}`
 
 - Prepara un pacchetto situato in un percorso specifico:
 
@@ -21,4 +21,4 @@
 
 - Genera un file di patch e salvalo in una directory personalizzata:
 
-`bun patch --commit {{path/to/package}} --patches-dir {{path/to/directory}}`
+`bun patch --commit {{path/to/package}} --patches-dir {{percorso/della/directory}}`

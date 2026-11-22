@@ -5,7 +5,7 @@
 
 - Dá ao [u]suário dono de um arquivo o direito de e[x]ecutá-lo:
 
-`chmod u+x {{arquivo}}`
+`chmod u+x {{caminho/para/arquivo}}`
 
 - Dá ao [u]suário direitos para le[r] e [w]escrever em um arquivo/diretório:
 
@@ -17,15 +17,15 @@
 
 - Dá a [a]todos os usuários direitos para le[r] e e[x]ecutar:
 
-`chmod a+rx {{arquivo}}`
+`chmod a+rx {{caminho/para/arquivo}}`
 
 - Dá para [o]utros (que não estejam no grupo do proprietário do arquivo) os mesmos direitos que o [g]rupo:
 
-`chmod o=g {{arquivo}}`
+`chmod o=g {{caminho/para/arquivo}}`
 
 - Remove todos os direitos de [o]utros:
 
-`chmod o= {{arquivo}}`
+`chmod o= {{caminho/para/arquivo}}`
 
 - Muda recursivamente as permissões, dando para [g]rupo e [o]utros a habilidade para [w]escrever:
 

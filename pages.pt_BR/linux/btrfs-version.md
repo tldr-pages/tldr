@@ -3,10 +3,10 @@
 > Exibe a versão do btrfs-progs.
 > Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
-- Exibe a ajuda:
+- Mostra ajuda:
 
 `btrfs {{[v|version]}} --help`
 
-- Exibe a versão do btrfs-progs:
+- Mostra versão:
 
 `btrfs {{[v|version]}}`

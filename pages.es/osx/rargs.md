@@ -14,7 +14,7 @@
 
 - Elimina la extensión `.bak` de todos los archivos de una lista:
 
-`{{comando}} | rargs -p '(.*).bak mv {0} {1}`
+`{{comando}} | rargs -p '(.*).bak' mv {0} {1}`
 
 - Ejecuta comandos en paralelo:
 

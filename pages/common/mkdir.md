@@ -13,7 +13,7 @@
 
 - Create directories with specific permissions:
 
-`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - Create multiple nested directories recursively:
 

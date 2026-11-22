@@ -17,7 +17,7 @@
 
 - Esegui i controlli per un pacchetto:
 
-`cargo clippy --package {{package}}`
+`cargo clippy --package {{pacchetto}}`
 
 - Esegui i controlli per un gruppo di lint (vedi <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>):
 
