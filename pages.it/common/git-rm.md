@@ -5,12 +5,12 @@
 
 - Cancella un file dall'indice del repository e dal filesystem:
 
-`git rm {{file}}`
+`git rm {{percorso/del/file}}`
 
 - Cancella una directory:
 
-`git rm -r {{directory}}`
+`git rm -r {{percorso/della/directory}}`
 
 - Cancella un file dall'indice del repository ma non dal filesystem locale:
 
-`git rm --cached {{file}}`
+`git rm --cached {{percorso/del/file}}`

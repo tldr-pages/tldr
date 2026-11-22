@@ -5,4 +5,4 @@
 
 - Converteer een Sun icon naar een Netpbm-afbeelding:
 
-`sunicontopnm {{pad/naar/invoer.ico}} > {{pad/naar/uitvoer.pbm}}`
+`sunicontopnm {{pad/naar/invoer.ico}} >{{pad/naar/uitvoer.pbm}}`

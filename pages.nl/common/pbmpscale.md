@@ -6,4 +6,4 @@
 
 - Vergroot een PBM afbeelding met de gespecificeerde factor en randvervaging:
 
-`pbmpscale {{n}} {{pad/naar/afbeelding.pbm}} > {{pad/naar/bestand.pbm}}`
+`pbmpscale {{n}} {{pad/naar/afbeelding.pbm}} >{{pad/naar/bestand.pbm}}`

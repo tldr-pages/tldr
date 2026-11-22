@@ -30,4 +30,4 @@
 
 - Wygeneruj i zapisz informacje o źródłach do pliku `.SRCINFO`:
 
-`makepkg --printsrcinfo > .SRCINFO`
+`makepkg --printsrcinfo >.SRCINFO`

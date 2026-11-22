@@ -33,4 +33,4 @@
 
 - Visualizza la guida per un comando specifico:
 
-`lvm help {{command}}`
+`lvm help {{comando}}`

@@ -21,7 +21,7 @@
 
 - Set a secret from a file for the current repository:
 
-`gh < {{path/to/file}} secret set {{name}}`
+`gh <{{path/to/file}} secret set {{name}}`
 
 - Set an organization secret for specific repositories:
 

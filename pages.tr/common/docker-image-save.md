@@ -5,7 +5,7 @@
 
 - Bir imgeyi, `stdout`'u `.tar` arşivine yönlendirerek kaydet:
 
-`docker {{[save|image save]}} {{imge}}:{{etiket}} > {{örnek/dosya.tar}}`
+`docker {{[save|image save]}} {{imge}}:{{etiket}} >{{örnek/dosya.tar}}`
 
 - Bir imgeyi, bir `.tar` arşivine kaydet:
 

@@ -3,7 +3,7 @@
 > Servizio di controllo del codice gestito che ospita repository Git privati.
 > Maggiori informazioni: <https://docs.aws.amazon.com/cli/latest/reference/codecommit/>.
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws codecommit help`
 

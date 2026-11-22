@@ -14,7 +14,7 @@
 
 - Ejecuta un patrón con la entrada de un archivo:
 
-`fabric < {{ruta/al/archivo_de_entrada}} {{[-p|--pattern]}} {{nombre_del_patrón}}`
+`fabric <{{ruta/al/archivo_de_entrada}} {{[-p|--pattern]}} {{nombre_del_patrón}}`
 
 - Ejecuta un patrón en una dirección URL de YouTube:
 

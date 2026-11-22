@@ -5,28 +5,32 @@
 
 - Bir dosyayı başka bir konuma kopyalayın:
 
-`cp {{dizin/yol/kaynak_dosya.ext}} {{dizin/yol/hedef_dosya.ext}}`
+`cp {{yol/kaynak_dosya}} {{yol/hedef_dosya}}`
 
 - Dosya adını koruyarak bir dosyayı başka bir dizine kopyalayın:
 
-`cp {{dizin/yol/kaynak_dosya.ext}} {{dizin/yol/hedeflenen_ana_dizin}}`
+`cp {{yol/kaynak_dosya}} {{yol/hedef_ana_dizin}}`
 
 - Bir dizinin içeriğini yinelemeli olarak başka bir konuma kopyalayın (hedef varsa, dizin bunun içine kopyalanır):
 
-`cp -R {{dizin/yol/kaynak_dizin}} {{dizin/yol/hedef_dizin}}`
+`cp {{[-r|--recursive]}} {{yol/kaynak_dizin}} {{yol/hedef_dizin}}`
 
-- Bir dizini ayrıntılı modda yinelemeli olarak kopyalayın (dosyaları kopyalandıkça gösterir):
+- Bir dizini yinelemeli olarak ayrıntılı modda (dosyaları kopyalandıkça gösterir) kopyalayın ve izinleri, zaman damgalarını ve sembolik bağlantıları koruyun:
 
-`cp -vR {{dizin/yol/kaynak_dizin}} {{dizin/yol/hedef_dizin}}`
+`cp {{[-vra|--verbose --recursive --archive]}} {{yol/kaynak_dizin}} {{yol/hedef_dizin}}`
 
-- Etkileşimli modda metin dosyalarını başka bir konuma kopyalayın (üzerine yazmadan önce kullanıcıyı uyarır):
+- Birden fazla dosyayı aynı anda bir dizine kopyalayın:
 
-`cp -i {{*.txt}} {{dizin/yol/hedef_dizin}}`
+`cp {{[-t|--target-directory]}} {{yol/hedef_dizin}} {{yol/dosya1 yol/dosya2 ...}}`
+
+- Belirli bir uzantıya sahip tüm dosyaları etkileşimli modda başka bir konuma kopyalayın (üzerine yazmadan önce kullanıcıya sorar):
+
+`cp {{[-i|--interactive]}} {{*.uzantı}} {{yol/hedef_dizin}}`
 
 - Kopyalamadan önce sembolik bağlantıları takip edin:
 
-`cp -L {{link}} {{dizin/yol/hedef_dizin}}`
+`cp {{[-L|--dereference]}} {{bağlantı}} {{yol/hedef_dizin}}`
 
-- İlk bağımsız değişkeni hedef dizin olarak kullanın (`xargs ... | cp -t destination_directory` için kullanışlıdır):
+- Kaynak dosyaların komut satırında verilen yolunu kullanın ve kopyalarken eksik ara dizinleri oluşturun:
 
-`cp -t {{dizin/yol/hedef_dizin}} {{dizin/yol/dosya_veya_dizin1 dizin/yol/dosya_veya_dizin2 ...}}`
+`cp --parents {{kaynak/yol/dosya}} {{yol/hedef_dizin}}`

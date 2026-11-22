@@ -17,4 +17,4 @@
 
 - Manually update the SSH known_hosts file with the fingerprint of a given host:
 
-`ssh-keyscan -H {{hostname}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{hostname}} >>~/.ssh/known_hosts`

@@ -16,6 +16,6 @@
 
 `finger {{usuario}}@{{host}} -l`
 
-- Muestra información de ayuda:
+- Muestra la ayuda:
 
 `finger /?`

@@ -9,16 +9,16 @@
 
 - Spojí několik souborů do výstupního souboru:
 
-`cat {{cesta/k/souboru1 cesta/k/souboru2 ...}} > {{cesta/k/vystupnimu_souboru}}`
+`cat {{cesta/k/souboru1 cesta/k/souboru2 ...}} >{{cesta/k/vystupnimu_souboru}}`
 
 - Přidá několik souborů do výstupního souboru:
 
-`cat {{cesta/k/souboru1 cesta/k/souboru2 ...}} >> {{cesta/k/vystupnimu_souboru}}`
+`cat {{cesta/k/souboru1 cesta/k/souboru2 ...}} >>{{cesta/k/vystupnimu_souboru}}`
 
 - Zkopíruje obsah souboru do výstupního souboru bez vyrovnávací paměti:
 
-`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
+`cat -u {{/dev/tty12}} >{{/dev/tty13}}`
 
 - Vypíše `stdin` do souboru:
 
-`cat - > {{cesta/k/souboru}}`
+`cat - >{{cesta/k/souboru}}`

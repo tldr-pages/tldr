@@ -2,7 +2,6 @@
 
 > Fedora tabanlı sistemlerde DNF yapılandırma seçeneklerini ve depoları yönetmek için kullanılır.
 > Varsayılan olarak `dnf` ile gelmez, `dnf-plugins-core` ile desteklenir.
-> Ayrıca bakınız: `dnf`.
 > Daha fazla bilgi için: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - Bir URL'den depo ekle (ve etkinleştir):

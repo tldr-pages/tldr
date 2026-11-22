@@ -9,7 +9,7 @@
 
 - Run server:
 
-`agate {{path/to/file}}`
+`agate {{path/to/directory}}`
 
 - Display help:
 

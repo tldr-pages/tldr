@@ -25,4 +25,4 @@
 
 - Print with an offset for each line and a truncating custom page width:
 
-`pr {{[-o|--indent]}} {{offset}} {{[-W|--page_width]}} {{width}} {{path/to/file1 path/to/file2 ...}}`
+`pr {{[-o|--indent]}} {{offset}} {{[-W|--page-width]}} {{width}} {{path/to/file1 path/to/file2 ...}}`

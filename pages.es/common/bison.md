@@ -3,7 +3,7 @@
 > Generador de analizadores GNU.
 > Más información: <https://manned.org/bison>.
 
-- Compila un archivo de definición en tono con  bison:
+- Compila un archivo de definición en tono con bison:
 
 `bison {{ruta/al/archivo.y}}`
 

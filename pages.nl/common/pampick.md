@@ -6,4 +6,4 @@
 
 - Voer een shellcommando uit op elke afbeelding in een Netpbm bestand:
 
-`pampick < {{pad/naar/afbeelding.pam}} {{afbeelding_nummer1 afbeelding_nummer2 ...}} > {{pad/naar/uitvoer.pam}}`
+`pampick <{{pad/naar/afbeelding.pam}} {{afbeelding_nummer1 afbeelding_nummer2 ...}} >{{pad/naar/uitvoer.pam}}`

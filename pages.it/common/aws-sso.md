@@ -13,7 +13,7 @@
 
 - Elenca tutti gli account AWS accessibili all'utente:
 
-`aws sso list-accounts`
+`aws sso list-accounts --access-token {{token}}`
 
 - Elenca tutti i ruoli accessibili all'utente per un dato account AWS:
 

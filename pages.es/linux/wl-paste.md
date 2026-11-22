@@ -14,7 +14,7 @@
 
 - Escribe el contenido del portapapeles a un archivo:
 
-`wl-paste > {{ruta/al/archivo}}`
+`wl-paste >{{ruta/al/archivo}}`
 
 - Envía el contenido del portapapeles a un comando:
 

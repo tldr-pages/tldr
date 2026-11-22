@@ -19,6 +19,6 @@
 
 `ibmcloud help {{하위명령어}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `ibmcloud version`

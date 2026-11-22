@@ -5,8 +5,8 @@
 
 - Extract textural features from a PGM image:
 
-`pgmtexture {{path/to/image.pgm}} > {{path/to/output.pgm}}`
+`pgmtexture {{path/to/image.pgm}} >{{path/to/output.pgm}}`
 
 - Specify the distance parameter for the feature extraction algorithm:
 
-`pgmtexture -d {{distance}} {{path/to/image.pgm}} > {{path/to/output.pgm}}`
+`pgmtexture -d {{distance}} {{path/to/image.pgm}} >{{path/to/output.pgm}}`

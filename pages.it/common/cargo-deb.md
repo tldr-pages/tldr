@@ -10,7 +10,7 @@
 
 - Scrivi il file `.deb` nella directory o file specificato:
 
-`cargo deb {{[-o|--output]}} {{path/to/file_or_directory}}`
+`cargo deb {{[-o|--output]}} {{percorso/del/file_o_directory}}`
 
 - Compila per il target Rust specificato:
 

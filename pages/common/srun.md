@@ -21,4 +21,4 @@
 
 - Run a job and save the output to a file:
 
-`srun {{path/to/program}} > {{path/to/output}}`
+`srun {{path/to/program}} >{{path/to/output}}`

@@ -17,7 +17,7 @@
 
 - [r]ead and analyze a specific packet capture file:
 
-`pyrit -r {{path/to/file.cap|path/to/file.pcap}} analyze`
+`pyrit -r {{path/to/file}}.{{cap|pcap}} analyze`
 
 - Read and [i]mport passwords to the current database:
 

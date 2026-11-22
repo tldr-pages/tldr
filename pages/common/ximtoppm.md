@@ -5,8 +5,8 @@
 
 - Convert an XIM image to a PPM image:
 
-`ximtoppm {{path/to/input_file.xim}} > {{path/to/output_file.ppm}}`
+`ximtoppm {{path/to/input_file.xim}} >{{path/to/output_file.ppm}}`
 
 - Store the transparency mask of the input image in the specified file:
 
-`ximtoppm {{[-a|-alphaout]}} {{path/to/alpha_file.pbm}} {{path/to/input_file.xim}} > {{path/to/output_file.ppm}}`
+`ximtoppm {{[-a|-alphaout]}} {{path/to/alpha_file.pbm}} {{path/to/input_file.xim}} >{{path/to/output_file.ppm}}`

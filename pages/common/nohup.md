@@ -17,4 +17,4 @@
 
 - Run a process and write the output to a specific file:
 
-`nohup {{command}} {{argument1 argument2 ...}} > {{path/to/output_file}} &`
+`nohup {{command}} {{argument1 argument2 ...}} >{{path/to/output_file}} &`

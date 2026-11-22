@@ -1,7 +1,7 @@
 # navi
 
 > An interactive cheatsheet tool for the command-line and application launchers.
-> See also: `tldr`, `cheatshh`, `navi`.
+> See also: `tldr`, `cheatshh`, `cheat`.
 > More information: <https://github.com/denisidoro/navi>.
 
 - Browse through all available cheatsheets:

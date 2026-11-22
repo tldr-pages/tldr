@@ -9,8 +9,8 @@
 
 - Avvia server:
 
-`agate {{percorso/del/file}}`
+`agate {{percorso/della/directory}}`
 
-- Mostra informazioni di aiuto:
+- Mostra l'aiuto:
 
 `agate {{[-h|--help]}}`

@@ -21,7 +21,7 @@
 
 - Check a specific script for syntax errors:
 
-`fish {{[-N|--no-execute]}} {{path/to/script.fish}}`
+`fish {{[-n|--no-execute]}} {{path/to/script.fish}}`
 
 - Execute specific commands from `stdin`:
 

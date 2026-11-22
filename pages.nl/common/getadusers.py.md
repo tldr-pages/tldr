@@ -18,4 +18,4 @@
 
 - Sla de output op in een bestand:
 
-`GetADUsers.py -all -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}} > {{pad/naar/output.txt}}`
+`GetADUsers.py -all -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}} >{{pad/naar/output.txt}}`

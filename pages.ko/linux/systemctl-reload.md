@@ -3,6 +3,7 @@
 > 서비스를 재시작 없이 설정을 다시 로드.
 > systemd 유닛 파일이 아니라, 서비스 자체의 설정 (Apache 또는 `nginx` 설정)을 다시 로드하는 것.
 > 유닛 파일을 다시 로드하려면, `systemctl daemon-reload` 사용.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#reload%20PATTERN%E2%80%A6>.
 
 - 서비스 설정 다시 로드:
 

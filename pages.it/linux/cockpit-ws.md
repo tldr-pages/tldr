@@ -9,7 +9,7 @@
 
 - Avvia un server HTTP su una porta specifica:
 
-`cockpit-ws --port {{port}}`
+`cockpit-ws --port {{porta}}`
 
 - Avvia e si associa a un indirizzo IP specifico (predefinito `0.0.0.0`):
 
@@ -19,6 +19,6 @@
 
 `cockpit-ws --no-tls`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `cockpit-ws --help`

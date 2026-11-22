@@ -5,4 +5,4 @@
 
 - Convert a PPM image to a NEO file:
 
-`ppmtoneo {{path/to/file.ppm}} > {{path/to/file.neo}}`
+`ppmtoneo {{path/to/file.ppm}} >{{path/to/file.neo}}`

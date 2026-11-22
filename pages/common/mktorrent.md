@@ -5,11 +5,11 @@
 
 - Create a torrent with 2^21 KB as the piece size:
 
-`mktorrent {{[-a|--announce]}} {{tracker_announce_url}} {{[-l|--piece-length]}} {{21}} {{[-o|--output]}} {{path/to/example.torrent}} {{path/to/file_or_directory}}`
+`mktorrent {{[-a|--announce]}} {{tracker_announce_url}} {{[-l|--piece-length]}} 21 {{[-o|--output]}} {{path/to/example.torrent}} {{path/to/file_or_directory}}`
 
 - Create a private torrent with a 2^21 KB piece size:
 
-`mktorrent {{[-p|--private]}} {{[-a|--announce]}} {{tracker_announce_url}} {{[-l|--piece-length]}} {{21}} {{[-o|--output]}} {{path/to/example.torrent}} {{path/to/file_or_directory}}`
+`mktorrent {{[-p|--private]}} {{[-a|--announce]}} {{tracker_announce_url}} {{[-l|--piece-length]}} 21 {{[-o|--output]}} {{path/to/example.torrent}} {{path/to/file_or_directory}}`
 
 - Create a torrent with a comment:
 

@@ -13,7 +13,7 @@
 
 - Dekode log dari `stdin` (contoh: file yang dialihkan/ redirected):
 
-`sudo aa-decode - < {{logfile}}`
+`sudo aa-decode - <{{logfile}}`
 
 - Tampilkan bantuan:
 

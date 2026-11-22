@@ -13,4 +13,4 @@
 
 - systemd가 Plasma 세션을 시작하는지 확인:
 
-`kreadconfig5 --file {{startkderc}} --group {{General}} --key {{systemdBoot}}`
+`kreadconfig5 --file {{startkderc}} --group {{General}} --key systemdBoot`

@@ -1,6 +1,6 @@
 # chatgpt
 
-> Shell script para usar ChatGPT de OpenAI y DALL-E desde la terminal.
+> Shell script para usar ChatGPT de OpenAI y DALL·E desde la terminal.
 > Más información: <https://github.com/0xacx/chatGPT-shell-cli>.
 
 - Comienza en modo chat:
@@ -23,6 +23,6 @@
 
 `echo "{{¿Cómo ver los procesos en ejecución en Ubuntu?}}" | chatgpt`
 
-- Genera una imagen utilizando DALL-E:
+- Genera una imagen utilizando DALL·E:
 
 `chatgpt {{[-p|--prompt]}} "{{image: Un gato blanco}}"`

@@ -7,7 +7,7 @@
 
 `nodemon {{path/to/file.js}}`
 
-- Manually restart nodemon (note nodemon must already be active for this to work):
+- [Interactive] Manually restart nodemon:
 
 `rs`
 

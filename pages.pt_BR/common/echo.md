@@ -18,7 +18,7 @@
 
 - Adiciona uma mensagem no arquivo:
 
-`echo "{{Olá Mundo}}" >> {{arquivo.txt}}`
+`echo "{{Olá Mundo}}" >>{{arquivo.txt}}`
 
 - Habilita interpretação dos códigos de escape após barra invertida (caracteres especiais):
 

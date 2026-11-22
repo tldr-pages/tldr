@@ -6,7 +6,7 @@
 
 - SAM 입력 파일을 BAM 스트림으로 변환하고 파일로 저장:
 
-`samtools view -S {{[-b|--bam]}} {{입력.sam}} > {{출력.bam}}`
+`samtools view -S {{[-b|--bam]}} {{입력.sam}} >{{출력.bam}}`
 
 - `stdin`(-)에서 입력을 받아 특정 영역과 겹치는 모든 읽기 및 SAM 헤더를 `stdout`에 출력:
 

@@ -6,8 +6,8 @@
 
 - Vergroot de gespecificeerde afbeelding met de gespecificeerde factor:
 
-`pamenlarge {{[-s|-scale]}} {{n}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamenlarge {{[-s|-scale]}} {{n}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.pam}}`
 
 - Vergroot de gespecificeerde afbeelding met de gespecificeerde factoren horizontaal en verticaal:
 
-`pamenlarge {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamenlarge {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.pam}}`

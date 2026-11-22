@@ -21,7 +21,7 @@
 
 - EPEL(Extra Packages for Enterprise Linux) 저장소 추가:
 
-`sudo dnf {{[in|install]}} https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{10}}.noarch.rpm`
+`sudo dnf {{[in|install]}} epel-release`
 
 - Remi's RPM 저장소 추가:
 

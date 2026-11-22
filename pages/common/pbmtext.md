@@ -6,16 +6,16 @@
 
 - Render a single line of text as a PBM image:
 
-`pbmtext "{{Hello World!}}" > {{path/to/output.pbm}}`
+`pbmtext "{{Hello World!}}" >{{path/to/output.pbm}}`
 
 - Render multiple lines of text as a PBM image:
 
-`echo "{{Hello\nWorld!}}" | pbmtext > {{path/to/output.pbm}}`
+`echo "{{Hello\nWorld!}}" | pbmtext >{{path/to/output.pbm}}`
 
 - Render text using a custom font supplied as a PBM file:
 
-`pbmtext {{[-f|-font]}} {{path/to/font.pbm}} "{{Hello World!}}" > {{path/to/output.pbm}}`
+`pbmtext {{[-f|-font]}} {{path/to/font.pbm}} "{{Hello World!}}" >{{path/to/output.pbm}}`
 
 - Specify the number of pixels between characters and lines:
 
-`echo "{{Hello\nWorld!}}" | pbmtext {{[-s|-space]}} {{3}} {{[-ls|-lspace]}} {{10}} > {{path/to/output.pbm}}`
+`echo "{{Hello\nWorld!}}" | pbmtext {{[-s|-space]}} {{3}} {{[-ls|-lspace]}} {{10}} >{{path/to/output.pbm}}`

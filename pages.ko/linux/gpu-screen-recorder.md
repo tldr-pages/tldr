@@ -25,7 +25,7 @@
 
 - 리플레이 버퍼를 사용하여 비디오 녹화:
 
-`pkill -SIGUSR1 -f gpu-screen-recorder`
+`pkill {{[-USR1|-SIGUSR1]}} -f gpu-screen-recorder`
 
 - `gpu-screen-recorder`를 백그라운드에서 실행:
 

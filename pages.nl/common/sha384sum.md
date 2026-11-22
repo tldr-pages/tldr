@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van SHA384 checksums op in een bestand:
 
-`sha384sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.sha384}}`
+`sha384sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.sha384}}`
 
 - Bereken een SHA384 checksum van `stdin`:
 

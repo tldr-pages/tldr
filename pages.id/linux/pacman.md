@@ -1,8 +1,8 @@
 # pacman
 
 > Kegunaan manajer paket Arch Linux.
-> Lihat juga: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `pacman`.
+> Lihat juga: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
 - Sinkronkan dan perbarui semua paket:

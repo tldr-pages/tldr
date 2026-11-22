@@ -11,7 +11,7 @@
 
 - Scarica e specifica un file di output:
 
-`axel {{url}} {{[-o|--output]}} {{path/to/file}}`
+`axel {{url}} {{[-o|--output]}} {{percorso/del/file}}`
 
 - Scarica con un numero specifico di connessioni:
 

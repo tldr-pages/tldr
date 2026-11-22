@@ -6,4 +6,4 @@
 
 - Convert an Andrew Toolkit raster object to a PBM image:
 
-`atktopbm {{path/to/image.atk}} > {{path/to/output.pbm}}`
+`atktopbm {{path/to/image.atk}} >{{path/to/output.pbm}}`

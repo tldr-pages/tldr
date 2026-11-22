@@ -15,6 +15,6 @@
 
 `docker {{[start|container start]}} {{container1 container2 ...}}`
 
-- Exibe a ajuda:
+- Mostra ajuda:
 
 `docker {{[start|container start]}} --help`

@@ -7,11 +7,11 @@
 
 `msiexec /package {{path\to\file.msi}}`
 
-- Install a MSI package from a website:
+- Install an MSI package from a website:
 
 `msiexec /package {{https://example.com/installer.msi}}`
 
-- Install a MSP patch file:
+- Install an MSP patch file:
 
 `msiexec /update {{path\to\file.msp}}`
 

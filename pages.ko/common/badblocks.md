@@ -22,7 +22,7 @@
 
 - 파괴적인 모드에선, 발견된 블록을 파일로 출력([o]utput):
 
-`sudo badblocks -o {{path/to/file}} -w {{/dev/sdX}}`
+`sudo badblocks -o {{경로/대상/파일}} -w {{/dev/sdX}}`
 
 - 4K 블록([b]lock) 크기 및 64K 블록 수([c]ount)를 사용하여 속도가 향상된 파괴 모드를 사용:
 

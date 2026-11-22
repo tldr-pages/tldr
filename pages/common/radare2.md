@@ -25,4 +25,4 @@
 
 - [Interactive] Dump raw bytes of current block to a file:
 
-`pr > {{path/to/file.bin}}`
+`pr >{{path/to/file.bin}}`

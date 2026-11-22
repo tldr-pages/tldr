@@ -19,6 +19,6 @@
 
 `sudo vgremove --config '{{global/locking_type=1}}' {{grupo_volumen}}`
 
-- Muestra texto de ayuda para obtener información de uso:
+- Muestra la ayuda:
 
 `vgremove {{[-h|--help]}}`

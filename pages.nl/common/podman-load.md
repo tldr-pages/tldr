@@ -18,4 +18,4 @@
 
 - Laad een image van `stdin`:
 
-`podman < {{pad/naar/bestand.tar}} load`
+`podman <{{pad/naar/bestand.tar}} load`

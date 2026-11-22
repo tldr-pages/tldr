@@ -11,6 +11,6 @@
 
 `sudo lxc-attach {{nome_container}} --clear-env`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-attach {{[-?|--help]}}`

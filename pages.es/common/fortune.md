@@ -25,4 +25,4 @@
 
 - Imprime por pantalla una cita de uno de los archivos mostrados en `fortune -f`:
 
-`fortune {{archivo}}`
+`fortune {{ruta/al/archivo}}`

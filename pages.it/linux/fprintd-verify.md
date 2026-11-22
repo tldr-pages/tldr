@@ -13,16 +13,16 @@
 
 - Verifica le impronte digitali per un utente specifico:
 
-`fprintd-verify {{username}}`
+`fprintd-verify {{nome_utente}}`
 
 - Verifica un'impronta digitale specifica per un utente specifico:
 
-`fprintd-verify {{[-f|--finger]}} {{finger_name}} {{username}}`
+`fprintd-verify {{[-f|--finger]}} {{finger_name}} {{nome_utente}}`
 
 - Fallisce il processo se un'impronta digitale non corrisponde a quelle memorizzate nel database per l'utente corrente:
 
 `fprintd-verify --g-fatal-warnings`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `fprintd-verify {{[-h|--help]}}`

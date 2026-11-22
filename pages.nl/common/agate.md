@@ -9,7 +9,7 @@
 
 - Start de server:
 
-`agate {{pad/naar/bestand}}`
+`agate {{pad/naar/map}}`
 
 - Toon de help:
 

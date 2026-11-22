@@ -17,4 +17,4 @@
 
 - Run specifications with code coverage (detail can be between 0 and 4):
 
-`kahlan --coverage={{detail_level}}`
+`kahlan --coverage={{1..4}}`

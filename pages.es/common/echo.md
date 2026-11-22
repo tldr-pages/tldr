@@ -18,7 +18,7 @@
 
 - Añade un mensaje al final del archivo:
 
-`echo "{{Hola Mundo}}" >> {{archivo.txt}}`
+`echo "{{Hola Mundo}}" >>{{archivo.txt}}`
 
 - Habilita la interpretación de escapes de backslash (caracteres especiales):
 

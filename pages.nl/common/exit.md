@@ -9,4 +9,4 @@
 
 - Verlaat de shell met een specifieke exitstatus:
 
-`exit {{afsluitcode}}`
+`exit {{0..255}}`

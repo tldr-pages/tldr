@@ -21,4 +21,4 @@
 
 - Hace que la compartición sea persistente añadiendo entradas a `/etc/dfs/dfstab`:
 
-`echo "share -F nfs -o rw {{/ruta/al/directorio}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw {{/ruta/al/directorio}}" >>/etc/dfs/dfstab`

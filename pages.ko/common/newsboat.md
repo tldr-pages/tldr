@@ -9,7 +9,7 @@
 
 - 또는 피드를 수동으로 추가:
 
-`echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
+`echo {{http://example.com/path/to/feed}} >>"${HOME}/.newsboat/urls"`
 
 - Newsboat을 시작하고 시작 시 모든 피드를 새로 고침:
 

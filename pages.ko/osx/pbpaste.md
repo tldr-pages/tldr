@@ -6,8 +6,8 @@
 
 - 클립보드의 내용을 [f]파일에 쓰기:
 
-`pbpaste > {{경로/대상/파일}}`
+`pbpaste >{{경로/대상/파일}}`
 
 - 클립보드의 내용을 명령어의 입력으로 사용:
 
-`pbpaste | grep foo`
+`pbpaste | {{grep foo}}`

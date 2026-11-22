@@ -25,4 +25,4 @@
 
 - Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill {{[-30|-SIGUSR1]}} $(pgrep ^dd)`

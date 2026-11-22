@@ -6,7 +6,7 @@
 
 - 30文字幅の表示用にコマンドの出力をフォーマットする:
 
-`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} {{30}}`
+`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} 30`
 
 - カラムを自動的に分割し、表形式に自動整列する:
 

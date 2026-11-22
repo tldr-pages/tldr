@@ -11,6 +11,6 @@
 
 `git-sizer -v`
 
-- 추가 옵션 보기:
+- 도움말 표시:
 
 `git-sizer -h`

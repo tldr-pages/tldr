@@ -5,11 +5,11 @@
 
 - Sla een backup van de partitie-indeling op naar een bestand:
 
-`sudo sfdisk {{[-d|--dump]}} {{/dev/sdX}} > {{pad/naar/bestand.dump}}`
+`sudo sfdisk {{[-d|--dump]}} {{/dev/sdX}} >{{pad/naar/bestand.dump}}`
 
 - Herstel een partitie-indeling:
 
-`sudo sfdisk < {{pad/naar/bestand.dump}} {{/dev/sdX}}`
+`sudo sfdisk <{{pad/naar/bestand.dump}} {{/dev/sdX}}`
 
 - Stel het partitietype in:
 

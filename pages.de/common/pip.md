@@ -22,7 +22,7 @@
 
 - Speichere eine Liste aller installierten Pakete in eine Datei:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Zeige Informationen über ein installiertes Paket an:
 

@@ -18,7 +18,7 @@
 
 - Dump the current state of a remote instance to a file:
 
-`pw-dump {{[-r|--remote]}} {{remote_name}} > {{path/to/dump_file.json}}`
+`pw-dump {{[-r|--remote]}} {{remote_name}} >{{path/to/dump_file.json}}`
 
 - Set a color configuration:
 

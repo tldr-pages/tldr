@@ -23,6 +23,6 @@
 
 `dnsmasq --dhcp-range={{192.168.0.50,192.168.0.150,12h}}`
 
-- Visualizza versione:
+- Mostra la versione:
 
 `dnsmasq --version`

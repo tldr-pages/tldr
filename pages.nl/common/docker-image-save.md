@@ -5,7 +5,7 @@
 
 - Sla een image op door `stdout` om te leiden naar een `.tar` archief:
 
-`docker {{[save|image save]}} {{image}}:{{tag}} > {{pad/naar/bestand.tar}}`
+`docker {{[save|image save]}} {{image}}:{{tag}} >{{pad/naar/bestand.tar}}`
 
 - Sla een image op in een `.tar` archief:
 

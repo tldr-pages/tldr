@@ -9,12 +9,12 @@
 
 - Imposta il valore della retroilluminazione al 50 percento:
 
-`light -S {{50}}`
+`light -S 50`
 
 - Riduci del 20 percento il valore attuale della retroilluminazione:
 
-`light -U {{20}}`
+`light -U 20`
 
 - Aumenta del 20 percento il valore attuale della retroilluminazione:
 
-`light -A {{20}}`
+`light -A 20`

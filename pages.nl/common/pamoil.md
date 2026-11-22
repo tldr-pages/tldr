@@ -5,8 +5,8 @@
 
 - Zet een PAM afbeelding om in een olieschilderij:
 
-`pamoil {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.pam}}`
+`pamoil {{pad/naar/invoer_bestand.pam}} >{{pad/naar/uitvoer_bestand.pam}}`
 
 - Beschouw een omgeving van `n` pixels voor het "smearing"-effect:
 
-`pamoil -n {{n}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.pam}}`
+`pamoil -n {{n}} {{pad/naar/invoer_bestand.pam}} >{{pad/naar/uitvoer_bestand.pam}}`

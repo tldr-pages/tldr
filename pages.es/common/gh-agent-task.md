@@ -13,7 +13,7 @@
 
 - Crea una nueva tarea de agente a partir de un archivo:
 
-`gh {{[agent|agent-task]}} create {{[-F|--from-file]}} {{ruta/a/archivo}}`
+`gh {{[agent|agent-task]}} create {{[-F|--from-file]}} {{ruta/al/archivo}}`
 
 - Muestra detalles sobre una tarea de agente específica:
 

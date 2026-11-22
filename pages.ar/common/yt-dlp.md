@@ -21,7 +21,7 @@
 
 `yt-dlp {{[-x|--extract-audio]}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- لتحديد صيغة الصوت وجودته من الصوت المستخرج  (بين 0 (الأفضل) و 10 (الأسوء), الأفتراضي = 5):
+- لتحديد صيغة الصوت وجودته من الصوت المستخرج (بين 0 (الأفضل) و 10 (الأسوء), الأفتراضي = 5):
 
 `yt-dlp {{[-x|--extract-audio]}} --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 

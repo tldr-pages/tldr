@@ -15,7 +15,7 @@
 
 `jigsaw build`
 
-- Preview the site from the "build_local" directory:
+- Preview the site from the `build_local` directory:
 
 `jigsaw serve`
 
@@ -23,6 +23,6 @@
 
 `jigsaw build production`
 
-- Preview the site from the "build_production" directory:
+- Preview the site from the `build_production` directory:
 
 `jigsaw serve {{build_production}}`

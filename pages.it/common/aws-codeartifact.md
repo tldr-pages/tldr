@@ -16,7 +16,7 @@
 
 `aws codeartifact get-repository-endpoint --domain {{tuo_dominio}} --repository {{nome_repository}} --format {{npm|pypi|maven|nuget|generic}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws codeartifact help`
 

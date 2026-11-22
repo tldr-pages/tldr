@@ -22,7 +22,7 @@
 
 - Salva os pacotes instalados em um arquivo:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Mostra informações sobre um pacote instalado:
 

@@ -5,4 +5,4 @@
 
 - Voer randdetectie uit op een Netpbm-afbeelding:
 
-`pamedge {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamedge {{pad/naar/invoer.pam}} >{{pad/naar/uitvoer.pam}}`

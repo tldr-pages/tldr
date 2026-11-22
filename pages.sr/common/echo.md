@@ -18,7 +18,7 @@
 
 - Dodaje poruku u fajl:
 
-`echo "{{Zdravo Svete}}" >> {{fajl.txt}}`
+`echo "{{Zdravo Svete}}" >>{{fajl.txt}}`
 
 - Omogućava interpretaciju posebnih karektera:
 

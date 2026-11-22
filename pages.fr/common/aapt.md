@@ -11,6 +11,6 @@
 
 `aapt dump badging {{chemin/vers/application}}.apk`
 
-- Créé une nouvelle archive APK avec les fichiers venant d'un dossier spécifique :
+- Crée une nouvelle archive APK avec les fichiers venant d'un dossier spécifique :
 
 `aapt package -F {{chemin/vers/application}}.apk {{chemin/vers/répertoire}}`

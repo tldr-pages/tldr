@@ -21,7 +21,7 @@
 
 - Display a message rotated 3 times (in steps of 90 degrees, counterclockwise):
 
-`sm {{[-r|--rotate]}} {{3}} "{{Hello World!}}"`
+`sm {{[-r|--rotate]}} 3 "{{Hello World!}}"`
 
 - Display a message using the output from another command:
 

@@ -18,11 +18,11 @@
 
 - Toon de uitvoer met 10 kolommen van elk één octet (byte):
 
-`xxd {{[-c|-cols]}} {{10}} {{invoerbestand}}`
+`xxd {{[-c|-cols]}} 10 {{invoerbestand}}`
 
 - Toon alleen uitvoer tot een lengte van 32 bytes:
 
-`xxd {{[-l|-len]}} {{32}} {{invoerbestand}}`
+`xxd {{[-l|-len]}} 32 {{invoerbestand}}`
 
 - Toon de uitvoer in platte modus, zonder ruimtes tussen de kolommen:
 

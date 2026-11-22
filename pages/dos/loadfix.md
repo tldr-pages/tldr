@@ -9,7 +9,7 @@
 
 - Load with custom KB reduction (1-1024):
 
-`LOADFIX -{{32}} {{program}}`
+`LOADFIX -{{1..1024}} {{program}}`
 
 - Free all previously allocated memory:
 

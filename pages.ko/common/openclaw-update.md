@@ -11,10 +11,10 @@
 
 `openclaw update --channel {{stable|beta|dev}}`
 
-- 도움말 출력:
+- 도움말 표시:
 
 `openclaw update {{[-h|--help]}}`
 
-- 버전 정보 출력:
+- 버전 표시:
 
 `openclaw update {{[-v|--version]}}`

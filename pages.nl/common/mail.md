@@ -14,7 +14,7 @@
 
 - Verstuur een e-mail met de inhoud van een bestand:
 
-`mail < {{pad/naar/bestand.txt}} --subject "{{$HOSTNAME bestandsnaam.txt}}" {{to_user@example.com}}`
+`mail <{{pad/naar/bestand.txt}} --subject "{{$HOSTNAME bestandsnaam.txt}}" {{to_user@example.com}}`
 
 - Verstuur een `.tar.gz` bestand als bijlage:
 

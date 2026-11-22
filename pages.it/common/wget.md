@@ -11,7 +11,7 @@
 
 - Scarica il contenuto dell'URL in un file (dal nome "efgh" in questo caso):
 
-`wget {{[-O|--output-document]}} {{efgh}} {{https://example.com/abcd}}`
+`wget {{[-O|--output-document]}} {{percorso/del/file}} {{https://example.com/abcd}}`
 
 - Scarica una singola pagina web e tutte le sue risorse (script, immagini, stili, ecc..) aspettando 3 secondi dopo ogni richiesta:
 

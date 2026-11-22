@@ -5,7 +5,7 @@
 
 - Convert an input image to PPM format:
 
-`imgtoppm {{path/to/input}} > {{path/to/output.ppm}}`
+`imgtoppm {{path/to/input}} >{{path/to/output.ppm}}`
 
 - Display version:
 

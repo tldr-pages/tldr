@@ -31,6 +31,6 @@
 
 `aws s3 sync {{percorso/della/directory}} s3://{{nome_bucket}}/{{percorso/della/remote_location}} --size-only`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws s3 sync help`

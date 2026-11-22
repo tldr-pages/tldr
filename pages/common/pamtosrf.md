@@ -6,4 +6,4 @@
 
 - Convert a Netpbm image or a stream of Netpbm images to SRF format:
 
-`pamtosrf {{path/to/file.pam}} > {{path/to/output.srf}}`
+`pamtosrf {{path/to/file.pam}} >{{path/to/output.srf}}`

@@ -15,3 +15,11 @@
 - Display all available information with table headers:
 
 `who {{[-aH|--all --heading]}}`
+
+- Display information only for the current terminal session:
+
+`who am i`
+
+- Display help:
+
+`who --help`

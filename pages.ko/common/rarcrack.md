@@ -1,6 +1,7 @@
 # rarcrack
 
 > RAR, Zip, 7z 아카이브의 비밀번호 크래커.
+> 더 많은 정보: <https://www.kali.org/tools/rarcrack/>.
 
 - 아카이브의 비밀번호를 무차별 대입으로 찾기 (아카이브 유형을 자동으로 추측):
 

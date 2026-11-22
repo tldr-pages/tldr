@@ -32,6 +32,6 @@
 
 `az interactive`
 
-- Mostra le descrizioni dei comandi:
+- Mostra l'aiuto:
 
 `az --help`

@@ -27,7 +27,7 @@
 
 `sudo gitlab-ctl tail {{nginx}}`
 
-- Send the SIGKILL signal to specific service:
+- Send the `SIGKILL` signal to specific service:
 
 `sudo gitlab-ctl kill {{nginx}}`
 

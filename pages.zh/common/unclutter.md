@@ -5,4 +5,4 @@
 
 - 在 3 秒后隐藏鼠标光标：
 
-`unclutter -idle {{3}}`
+`unclutter -idle 3`

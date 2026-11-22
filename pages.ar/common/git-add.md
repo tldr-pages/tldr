@@ -21,7 +21,7 @@
 
 - إضافة الملفات المتجاهلة (Ignored) أيضًا:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{path/to/file}}`
 
 - إضافة أجزاء من الملفات بشكل تفاعلي (Interactive):
 

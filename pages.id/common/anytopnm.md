@@ -5,8 +5,8 @@
 
 - Ubah suatu gambar dari format apapun menuju format PBM, PGM, atau PPM:
 
-`anytopnm {{jalan/menuju/input}} > {{jalan/menuju/output.pnm}}`
+`anytopnm {{jalan/menuju/input}} >{{jalan/menuju/output.pnm}}`
 
-- Tampilkan informasi versi:
+- Tampilkan versi:
 
 `anytopnm {{[-v|-version]}}`

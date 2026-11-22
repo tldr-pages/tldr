@@ -21,7 +21,7 @@
 
 - 버킷에 객체를 추가:
 
-`aws s3api put-object --bucket {{버킷_이름}} --key {{object_key}} --body {{path/to/file}}`
+`aws s3api put-object --bucket {{버킷_이름}} --key {{object_key}} --body {{경로/대상/파일}}`
 
 - 버킷에서 객체 다운로드 (출력 파일은 항상 마지막 인수로 와야 함):
 
@@ -33,4 +33,4 @@
 
 - 지정된 버킷에서 Amazon S3 버킷 정책 다운로드:
 
-`aws s3api get-bucket-policy --bucket {{버킷_이름}} --query Policy --output {{json|table|text|yaml|yaml-stream}} > {{경로/대상/버킷_정책}}`
+`aws s3api get-bucket-policy --bucket {{버킷_이름}} --query Policy --output {{json|table|text|yaml|yaml-stream}} >{{경로/대상/버킷_정책}}`

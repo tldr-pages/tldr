@@ -10,4 +10,4 @@
 
 - Defina la prioridad con una opción explícita:
 
-`nice {{[-n|--adjustment]}} {{valor_de_niceness}} {{comando}}`
+`nice {{[-n|--adjustment]}} {{-20..19}} {{comando}}`

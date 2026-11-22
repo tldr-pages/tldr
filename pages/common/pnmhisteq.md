@@ -5,12 +5,12 @@
 
 - Increase the contrast of a PNM image using histogram equalization:
 
-`pnmhisteq {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhisteq {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Only modify grey pixels:
 
-`pnmhisteq {{[-g|-grey]}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhisteq {{[-g|-grey]}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Do not include black or white pixels in the histogram equalization:
 
-`pnmhisteq -no{{black|white}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhisteq -no{{black|white}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`

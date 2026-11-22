@@ -17,7 +17,7 @@
 
 - Sla regels die alleen in het eerste bestand worden gevonden op in een derde bestand:
 
-`comm -23 {{bestand1}} {{bestand2}} > {{alleen_bestand1}}`
+`comm -23 {{bestand1}} {{bestand2}} >{{alleen_bestand1}}`
 
 - Toon de regels welke alleen in het tweede bestand gevonden worden, als de bestanden niet gesorteerd zijn:
 

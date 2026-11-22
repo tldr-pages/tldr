@@ -6,4 +6,4 @@
 
 - PAM 이미지에서 배경 마스크 생성:
 
-`pambackground {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`
+`pambackground {{경로/대상/이미지.pam}} >{{경로/대상/출력.pam}}`

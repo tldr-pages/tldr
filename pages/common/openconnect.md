@@ -13,7 +13,7 @@
 
 - Terminate the connection that is running in the background:
 
-`sudo killall -SIGINT openconnect`
+`sudo killall {{[-2|-SIGINT]}} openconnect`
 
 - Specify the user to log in as:
 

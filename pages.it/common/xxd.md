@@ -18,11 +18,11 @@
 
 - Mostrare l'output in 10 colonne di un ottetto (byte) ciascuna:
 
-`xxd {{[-c|-cols]}} {{10}} {{file_di_input}}`
+`xxd {{[-c|-cols]}} 10 {{file_di_input}}`
 
 - Mostrare l'output solo fino ad una lunghezza massima di 32 bytes:
 
-`xxd {{[-l|-len]}} {{32}} {{file_di_input}}`
+`xxd {{[-l|-len]}} 32 {{file_di_input}}`
 
 - Mostrare l'output in modalità normale, senza spazi tra le colonne:
 
