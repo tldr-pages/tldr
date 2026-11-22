@@ -30,4 +30,4 @@
 
 - Print a specific archive contents:
 
-`zip {{[-sf|--split-size --freshen]}} {{path/to/compressed.zip}}`
+`zip {{[-sf|--show-files]}} {{path/to/compressed.zip}}`

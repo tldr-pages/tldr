@@ -13,7 +13,7 @@
 
 - Membuka sebuah terminal, menjalankan sebuah perintah, dan menuliskan output kedalam sebuah file:
 
-`st -o {{jalan/menuju/file}} -e {{perintah argumen1 argumen2}}`
+`st -o {{jalan/menuju/berkas}} -e {{perintah argumen1 argumen2}}`
 
 - Membesarkan/mengecilkan ukuran font:
 

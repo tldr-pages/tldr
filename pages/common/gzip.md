@@ -13,7 +13,7 @@
 
 - Display the name and reduction percentage for each file compressed:
 
-`gzip {{[-v|--verbose]}} {{path/to/file.gz}}`
+`gzip {{[-v|--verbose]}} {{path/to/file}}`
 
 - Compress a file, keeping the original file:
 

@@ -9,7 +9,7 @@
 
 - Cari paket yang berisi nama atau lokasi berkas tertentu:
 
-`apt-file {{[find|search]}} {{sebagian_nama_jalan/menuju/berkas}}`
+`apt-file {{[find|search]}} {{jalan/menuju/berkas}}`
 
 - Tampilkan daftar konten dari sebuah paket:
 

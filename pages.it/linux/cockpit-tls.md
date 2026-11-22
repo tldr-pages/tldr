@@ -5,7 +5,7 @@
 
 - Serve richieste HTTP su una porta specifica invece della porta `9090`:
 
-`cockpit-tls --port {{port}}`
+`cockpit-tls --port {{porta}}`
 
 - Mostra l'aiuto:
 

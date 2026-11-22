@@ -9,8 +9,8 @@
 
 - تشغيل أمر محدد:
 
-`robo {{foo}}`
+`robo {{command}}`
 
 - محاكاة تشغيل أمر محدد:
 
-`robo --simulate {{foo}}`
+`robo --simulate {{command}}`

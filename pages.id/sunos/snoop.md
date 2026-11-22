@@ -14,7 +14,7 @@
 
 - Tampilkan rangkuman lapisan protokol paket-paket dari sebuah berkas dengan rinci:
 
-`snoop -V -i {{jalur/ke/berkas}}`
+`snoop -V -i {{jalan/menuju/berkas}}`
 
 - Tangkap paket jaringan yang datang dari sebuah nama host dan pergi ke port yang ditentukan:
 
