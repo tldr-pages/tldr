@@ -3,7 +3,7 @@
 > Language Server Protocol implementation for Lua.
 > More information: <https://luals.github.io/wiki/usage/>.
 
-- Perform a diagnosis report, including codestyle checks if enabled:
+- Perform a diagnosis report, including code style checks if enabled:
 
 `lua-language-server --check {{path/to/project}}`
 
