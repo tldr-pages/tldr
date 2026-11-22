@@ -17,7 +17,7 @@
 
 - Uruchom przejściową usługę, która nie jest czyszczona po jej zakończeniu z podaną zmienną środowiskową:
 
-`sudo systemd-run {{[-r|--remain-after-exit]}} --set-env={{nazwa}}={{wartość}} {{komenda}} {{argument1 argument2 ...}}`
+`sudo systemd-run {{[-r|--remain-after-exit]}} {{[-E|--setenv]}} {{nazwa}}={{wartość}} {{komenda}} {{argument1 argument2 ...}}`
 
 - Uruchom przejściowy timer, który okresowo uruchamia swoją przejściową usługę (zobacz `man systemd.time`, aby zapoznać się z formatem wydarzeń kalendarza):
 

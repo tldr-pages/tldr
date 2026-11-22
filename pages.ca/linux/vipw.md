@@ -5,7 +5,7 @@
 
 - Edita l'arxiu de contrasenyes:
 
-`vipw`
+`sudo vipw`
 
 - Mostra la versió:
 

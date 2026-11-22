@@ -9,8 +9,8 @@
 
 - Rinomina i file e aggiungi l'operazione al commit successivo:
 
-`git mv {{file}} {{file_rinominato}}`
+`git mv {{percorso/del/file_o_directory}} {{file_rinominato}}`
 
 - Sposta sovrascrivendo eventuali file esistenti nel percorso di destinazione:
 
-`git mv {{[-f|--force]}} {{percorso/del/file}} {{nuovo/percorso/del/file}}`
+`git mv {{[-f|--force]}} {{percorso/del/file_o_directory}} {{nuovo/percorso/del/file}}`
