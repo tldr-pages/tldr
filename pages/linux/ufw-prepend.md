@@ -8,11 +8,11 @@
 
 `sudo ufw --dry-run prepend {{rule}}`
 
-- Deny all traffic from a source address before any other rule is evaluated:
+- Deny all traffic from a source address, ahead of all existing rules:
 
 `sudo ufw prepend deny from {{source_address}}`
 
-- Deny all traffic from a subnet before any other rule is evaluated:
+- Deny all traffic from a subnet, ahead of all existing rules:
 
 `sudo ufw prepend deny from {{192.168.0.0/24}}`
 
