@@ -14,7 +14,7 @@
 
 - Print a header line naming the output columns:
 
-`bcftools query {{[-H|--print-header]}} {{[-f|--format]}} '%CHROM\t%POS[\t%GT]\n' {{path/to/input.vcf.gz}}`
+`bcftools query {{[-HH|--print-header]}} {{[-f|--format]}} '%CHROM\t%POS[\t%GT]\n' {{path/to/input.vcf.gz}}`
 
 - List the sample names in a file:
 
