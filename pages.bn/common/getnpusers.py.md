@@ -14,11 +14,11 @@
 
 - বৈধ ক্রেডেনশিয়াল দিয়ে অথেন্টিকেট করুন (যদি অ্যানোনিমাস binding নিষ্ক্রিয় থাকে):
 
-`GetNPUsers.py {{ডোমেইন}}/{{username}}:{{password}} -usersfile {{ইউজারলিস্ট/এর/পাথ}} -dc-ip {{domain_controller_ip}}`
+`GetNPUsers.py {{ডোমেইন}}/{{ইউজারনেম}}:{{পাসওয়ার্ড}} -usersfile {{ইউজারলিস্ট/এর/পাথ}} -dc-ip {{domain_controller_ip}}`
 
 - পাসওয়ার্ডের পরিবর্তে pass-the-hash অথেন্টিকেশন ব্যবহার করুন:
 
-`GetNPUsers.py {{ডোমেইন}}/{{username}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{ইউজারলিস্ট/এর/পাথ}} -dc-ip {{domain_controller_ip}}`
+`GetNPUsers.py {{ডোমেইন}}/{{ইউজারনেম}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{ইউজারলিস্ট/এর/পাথ}} -dc-ip {{domain_controller_ip}}`
 
 - পরবর্তী বিশ্লেষণের জন্য আউটপুট একটি ফাইলে সংরক্ষণ করুন:
 
