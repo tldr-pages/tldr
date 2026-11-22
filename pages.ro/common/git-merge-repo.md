@@ -6,7 +6,7 @@
 
 - Fuzionează o ramură a unui repository în directorul repository-ului curent:
 
-`git merge-repo {{path/to/repo}} {{branch_name}} {{path/to/directory}}`
+`git merge-repo {{path/to/repo}} {{branch_name}} {{cale/către/director}}`
 
 - Fuzionează o ramură a unui repository la distanță în directorul repository-ului curent, fără a păstra istoricul:
 

@@ -34,4 +34,4 @@
 
 - Mostra il changelog di un pacchetto specifico:
 
-`rpm {{[-q|--query]}} --changelog {{package}}`
+`rpm {{[-q|--query]}} --changelog {{pacchetto}}`

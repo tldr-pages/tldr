@@ -18,3 +18,7 @@
 - Imprime los mensajes de registro a medida que se producen:
 
 `logread -f`
+
+- Muestra la ayuda:
+
+`logread -h`

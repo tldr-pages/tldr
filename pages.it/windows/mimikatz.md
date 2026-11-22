@@ -18,7 +18,7 @@
 
 - Esegui Pass-the-Hash con un hash NTLM specifico e avvia un comando:
 
-`mimikatz "sekurlsa::pth /user:{{username}} /domain:{{domain}} /ntlm:{{hash}} /run:{{cmd}}"`
+`mimikatz "sekurlsa::pth /user:{{nome_utente}} /domain:{{domain}} /ntlm:{{hash}} /run:{{cmd}}"`
 
 - Esegui il dump degli hash del database SAM locale:
 
@@ -28,6 +28,6 @@
 
 `mimikatz "kerberos::list /export"`
 
-- [Interactive] Esci da mimikatz:
+- [Interattivo] Esci da mimikatz:
 
 `exit`

@@ -17,11 +17,11 @@
 
 - Cerca pacchetti installati localmente:
 
-`conan search {{package}}`
+`conan search {{pacchetto}}`
 
 - Cerca pacchetti remoti:
 
-`conan search {{package}} -r {{remote}}`
+`conan search {{pacchetto}} -r {{remote}}`
 
 - Elenca i remoti:
 

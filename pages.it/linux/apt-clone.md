@@ -5,7 +5,7 @@
 
 - Clona lo stato dei pacchetti del sistema corrente in una directory specificata:
 
-`apt-clone clone {{path/to/directory}}`
+`apt-clone clone {{percorso/della/directory}}`
 
 - Crea un file clone (`.tar.gz`) per scopi di backup:
 
