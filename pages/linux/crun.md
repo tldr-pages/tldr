@@ -19,7 +19,7 @@
 
 `crun start {{container_id}}`
 
-- List running containers:
+- List known containers:
 
 `crun list`
 
