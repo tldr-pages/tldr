@@ -13,11 +13,11 @@
 
 - Open a terminal with a fixed operating system window title:
 
-`kitty --title "{{title}}"`
+`kitty {{[-T|--title]}} "{{title}}"`
 
 - Open a terminal using the built-in defaults:
 
-`kitty --config NONE`
+`kitty {{[-c|--config]}} NONE`
 
 - Choose and apply a color theme interactively (updates `kitty.conf`):
 
