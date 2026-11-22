@@ -11,10 +11,10 @@
 
 `mkdir {{[-p|--parents]}} {{path/to/directory1 path/to/directory2 ...}}`
 
-- יצירת תיקיות עם הרשאות ספציפיות:
+יצירת תיקיות והגדרת ההרשאות שלהן:
 
 `mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{path/to/directory1 path/to/directory2 ...}}`
 
-- יצירת תיקיות מקוננות באופן רקורסיבי:
+- יצירת מספר תיקיות מקוננות באופן רקורסיבי:
 
 `mkdir {{[-p|--parents]}} {{path/to/{a,b}/{x,y,z}/{h,i,j}}}`
