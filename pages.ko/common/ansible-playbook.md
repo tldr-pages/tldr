@@ -25,7 +25,7 @@
 
 - 특정 작업에서 시작하는 playbook에서 작업 실행:
 
-`ansible-playbook {{playbook}} --start-at {{작업_이름}}`
+`ansible-playbook {{playbook}} --start-at-task {{작업_이름}}`
 
 - 변경사항을 적용하지 않고 플레이북에서 작업 실행(dry-run):
 

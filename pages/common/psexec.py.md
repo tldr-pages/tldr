@@ -18,7 +18,7 @@
 
 - Execute a command from a specific path on a remote target:
 
-`psexec.py -path {{path}} {{domain}}/{{username}}:{{password}}@{{target}} {{command}}`
+`psexec.py -path "{{path\to\remote_directory}}" {{domain}}/{{username}}:{{password}}@{{target}} {{command}}`
 
 - Authenticate using pass-the-hash authentication instead of a password:
 

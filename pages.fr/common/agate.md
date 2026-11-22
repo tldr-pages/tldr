@@ -9,7 +9,7 @@
 
 - Lance le serveur :
 
-`agate {{chemin/vers/fichier}}`
+`agate {{chemin/vers/répertoire}}`
 
 - Affiche l'aide :
 

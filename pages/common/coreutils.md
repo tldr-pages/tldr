@@ -2,6 +2,7 @@
 
 > Cross-platform reimplementation of the GNU coreutils in Rust Language.
 > Includes a multi-call binary from which the utils can be invoked. This reduces the binary size and can be useful for portability.
+> See also: `toybox`, `busybox`.
 > More information: <https://uutils.github.io/coreutils/docs/multicall.html>.
 
 - Run a utility with arguments:

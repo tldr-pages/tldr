@@ -5,7 +5,7 @@
 
 - Compacta um arquivo, substituindo-o por uma versão compactada gzip:
 
-`gzip {{caminho_para_arquivo}}`
+`gzip {{caminho/para/arquivo}}`
 
 - Descompacta um arquivo, substituindo-o pela versão descompactada original:
 

@@ -19,7 +19,7 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nome_do_arquivo}}.jar`
 
-- Exibe os comandos disponíveis do Java:
+- Mostra ajuda:
 
 `java -help`
 

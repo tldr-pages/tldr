@@ -9,7 +9,7 @@
 
 - Esegue un comando specifico in una nuova finestra del terminale:
 
-`gnome-terminal -- {{command}}`
+`gnome-terminal -- {{comando}}`
 
 - Apre invece una nuova scheda nell'ultima finestra aperta:
 

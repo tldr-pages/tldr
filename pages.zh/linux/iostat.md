@@ -13,7 +13,7 @@
 
 - 显示 CPU 统计信息：
 
-`iostat {{[-c|--compact]}}`
+`iostat -c`
 
 - 显示包含磁盘名称（含 LVM）的磁盘统计信息：
 

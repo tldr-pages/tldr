@@ -5,7 +5,7 @@
 
 - Ottieni il pacchetto conda da un file:
 
-`conda package {{[-w|--which]}} {{percorso/al/file}}`
+`conda package {{[-w|--which]}} {{percorso/del/file}}`
 
 - Rimuovi tutti i file non tracciati:
 

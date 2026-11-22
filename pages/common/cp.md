@@ -31,6 +31,6 @@
 
 `cp {{[-L|--dereference]}} {{link}} {{path/to/target_directory}}`
 
-- Use the full path of source files, creating any missing intermediate directories when copying:
+- Use the path to the source files given from the command line, creating any missing intermediate directories when copying:
 
-`cp --parents {{source/path/to/file}} {{path/to/target_file}}`
+`cp --parents {{source/path/to/file}} {{path/to/target_directory}}`

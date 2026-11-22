@@ -14,7 +14,7 @@
 
 - Download een specifieke anime door een downloadmap op te geven:
 
-`animdl download "{{anime_titel}}" {{[-d|--download-dir]}} {{pad/naar/downloadmap}}`
+`animdl download "{{anime_titel}}" {{[-d|--download-dir]}} {{pad/naar/map}}`
 
 - Pak de stream-URL voor een specifieke anime:
 

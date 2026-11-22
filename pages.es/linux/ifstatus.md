@@ -6,3 +6,7 @@
 - Muestra el estado de la interfaz:
 
 `ifstatus {{nombre_interfaz}}`
+
+- Muestra la ayuda:
+
+`ifstatus`

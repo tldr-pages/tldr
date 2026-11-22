@@ -23,6 +23,6 @@
 
 `kdocker -l {{aplicativo}}`
 
-- Exibe a versão:
+- Mostra versão:
 
 `kdocker --version`

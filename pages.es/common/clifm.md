@@ -8,7 +8,7 @@
 
 `clifm`
 
-- Abre el archivo o directorio cuyo ELN (número de lista de entradas) es 12:
+- [Interactivo] Abre el archivo o directorio cuyo ELN (número de lista de entradas) es 12:
 
 `12`
 

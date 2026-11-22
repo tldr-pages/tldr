@@ -1,13 +1,22 @@
 # git ignore
 
-> Önceden belirlenmiş şablonlarla `.gitignore` dosyaları oluştur.
+> `.gitignore` dosyalarını göster/güncelle.
+> `git-extras` paketinin bir parçasıdır.
 > Ayrıca bakınız: `git ignore-io`.
 > Daha fazla bilgi için: <https://github.com/tj/git-extras/blob/main/Commands.md#git-ignore>.
 
-- Mevzut şablonları sırala:
+- Tüm global ve yerel `.gitignore` dosyalarının içeriğini göster:
 
-`git ignore list`
+`git ignore`
 
-- Bir `.gitignore` şablonu oluştur:
+- Dosya(lar)ı özel olarak yoksay, `.git/info/exclude` dosyasını güncelle:
 
-`git ignore {{nesne_a,nesne_b,nesne_n}}`
+`git ignore {{dosya_deseni}} {{[-p|--private]}}`
+
+- Dosya(lar)ı yerel olarak yoksay, yerel `.gitignore` dosyasını güncelle:
+
+`git ignore {{dosya_deseni}}`
+
+- Dosya(lar)ı global olarak yoksay, global `.gitignore` dosyasını güncelle:
+
+`git ignore {{dosya_deseni}} {{[-g|--global]}}`

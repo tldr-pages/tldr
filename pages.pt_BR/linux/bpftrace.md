@@ -13,7 +13,7 @@
 
 - Roda um programa de um arquivo:
 
-`sudo bpftrace {{caminho/do/arquivo}}`
+`sudo bpftrace {{caminho/para/arquivo}}`
 
 - Analisa um programa por PID:
 
@@ -23,6 +23,6 @@
 
 `sudo bpftrace -d -e '{{programa_de_uma_linha}}'`
 
-- Exibe a versão:
+- Mostra versão:
 
 `bpftrace {{[-V|--version]}}`

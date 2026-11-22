@@ -32,6 +32,6 @@
 
 `gcc {{jalan/menuju/sumber.c}} -O{{1|2|3|fast}} {{[-o|--output]}} {{jalan/menuju/program}}`
 
-- Tampilkan versi penyusun:
+- Tampilkan versi:
 
 `gcc --version`

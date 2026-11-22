@@ -18,4 +18,4 @@
 
 - MAC 주소와 채널을 통해 패킷을 캡처하고, 무선 네트워크에 대한 정보를 표시 및 출력 결과를 파일에 저장:
 
-`sudo airodump-ng --channel {{channel}} --write {{path/to/file}} --bssid {{mac}} {{interface}}`
+`sudo airodump-ng --channel {{channel}} --write {{경로/대상/파일}} --bssid {{mac}} {{interface}}`

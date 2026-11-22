@@ -33,4 +33,4 @@
 
 - Confronta le versioni di più file tra il ramo corrente e un altro ramo:
 
-`git diff {{ramo}}:{{percorso/del/file2}} {{percorso/del/file}}`
+`git diff {{ramo}}:{{percorso/del/file2}} {{percorso/del/file1}}`
