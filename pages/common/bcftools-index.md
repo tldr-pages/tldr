@@ -1,7 +1,7 @@
 # bcftools index
 
 > Index bgzip-compressed VCF and BCF files for fast random access.
-> See also: `bcftools`, `tabix`.
+> See also: `bcftools`.
 > More information: <https://samtools.github.io/bcftools/bcftools.html#index>.
 
 - Create a CSI index (`.csi`) for a compressed VCF or BCF file:
