@@ -18,4 +18,4 @@
 
 - procfs를 참조하여 특정 프로세스의 네임스페이스에서 명령 실행:
 
-`nsenter {{[-p|--pid=]}}/proc/{{pid}}/pid/net -- {{명령}} {{명령_인수}}`
+`nsenter {{[-n|--net=]}}/proc/{{pid}}/ns/net -- {{명령}} {{명령_인수}}`

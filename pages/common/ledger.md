@@ -13,7 +13,7 @@
 
 - Print total Expenses other than Drinks and Food:
 
-`ledger balance {{Expenses}} and not ({{Drinks}} or {{Food}})`
+`ledger balance {{Expenses}} and not \({{Drinks}} or {{Food}}\)`
 
 - Print a budget report:
 

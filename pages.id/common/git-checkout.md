@@ -29,8 +29,8 @@
 
 - Singkirkan perubahan yang tidak masuk status stage pada berkas:
 
-`git checkout {{nama_berkas}}`
+`git checkout {{jalan/menuju/berkas}}`
 
 - Ganti berkas pada direktori saat ini dengan versi pada cabang lain:
 
-`git checkout {{nama_cabang}} -- {{nama_berkas}}`
+`git checkout {{nama_cabang}} -- {{jalan/menuju/berkas}}`

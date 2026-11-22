@@ -7,15 +7,15 @@
 
 - Apri un file o directory:
 
-`atom {{percorso/al/file_o_directory}}`
+`atom {{percorso/del/file_o_directory}}`
 
 - Apri un file o directory in una nuova finestra:
 
-`atom {{[-n|--new-window]}} {{percorso/al/file_o_directory}}`
+`atom {{[-n|--new-window]}} {{percorso/del/file_o_directory}}`
 
 - Apri un file o directory in una finestra esistente:
 
-`atom {{[-a|--add]}} {{percorso/al/file_o_directory}}`
+`atom {{[-a|--add]}} {{percorso/del/file_o_directory}}`
 
 - Avvia Atom in modalità sicura (non carica pacchetti aggiuntivi):
 

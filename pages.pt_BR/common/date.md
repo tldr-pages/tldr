@@ -23,7 +23,7 @@
 
 `date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
-- Exibe a data atual usando o formato RFC-3339 (`YYYY-MM-DD hh:mm:ss TZ`):
+- Exibe a data atual usando o formato RFC-3339 (`YYYY-MM-DD hh:mm:ss+TZ`):
 
 `date --rfc-3339 s`
 

@@ -28,9 +28,9 @@
 
 `git fetch {{[-t|--tags]}}`
 
-- Push een tag naar de externe repository:
+- Push alle tags naar een externe repository:
 
-`git push origin tag {{tag_naam}}`
+`git push --tags`
 
 - Toon alle tags die een bepaalde commit bevatten (`HEAD` indien niet gespecificeerd):
 

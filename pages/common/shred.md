@@ -26,3 +26,7 @@
 - Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it, and show verbose progress on the screen:
 
 `shred {{[-vzu|--verbose --zero --remove]}} {{[-n|--iterations]}} 100 {{path/to/file}}`
+
+- Overwrite a file using a specific source of random data:
+
+`shred --random-source {{/dev/urandom}} {{path/to/file}}`

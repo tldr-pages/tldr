@@ -31,7 +31,7 @@
 
 - Download FTP con username e password:
 
-`aria2c --ftp-user {{username}} --ftp-passwd {{password}} "{{url}}"`
+`aria2c --ftp-user {{nome_utente}} --ftp-passwd {{password}} "{{url}}"`
 
 - Limita la velocità di download in byte/s:
 

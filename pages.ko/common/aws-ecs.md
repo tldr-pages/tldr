@@ -13,7 +13,7 @@
 
 - 태스크 정의를 생성하거나 새로운 리비전 등록:
 
-`aws ecs register-task-definition --cli-input-json file://{{path_to_file.json}}`
+`aws ecs register-task-definition --cli-input-json file://{{경로/대상/파일.json}}`
 
 - 태스크 정의를 등록 해제하여 INACTIVE 상태로 변경:
 

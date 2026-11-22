@@ -10,3 +10,7 @@
 - Mencetak direktori saat ini, dan menjelaskan semua tautan simbolis (dengan kata lain menampilkan alamat fisik):
 
 `pwd {{[-P|--physical]}}`
+
+- Tampilkan bantuan:
+
+`pwd --help`

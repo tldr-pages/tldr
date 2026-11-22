@@ -9,7 +9,7 @@
 
 - Ricostruisci lo schema del database per uno specifico pacchetto:
 
-`cradle sql build {{nome_pacchetto}}`
+`cradle sql build {{pacchetto}}`
 
 - Svuota l'intero database:
 
@@ -17,7 +17,7 @@
 
 - Svuota le tabelle del database per uno specifico pacchetto:
 
-`cradle sql flush {{nome_pacchetto}}`
+`cradle sql flush {{pacchetto}}`
 
 - Popola le tabelle per tutti i pacchetti:
 
@@ -25,4 +25,4 @@
 
 - Popola le tabelle per uno specifico pacchetto:
 
-`cradle sql populate {{nome_pacchetto}}`
+`cradle sql populate {{pacchetto}}`
