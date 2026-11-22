@@ -11,7 +11,7 @@
 
 - Hapus pemasangan sebuah paket:
 
-`sudo dpkg {{[-r|--remove]}} {{nama_paket}}`
+`sudo dpkg {{[-r|--remove]}} {{paket}}`
 
 - Tampilkan daftar paket terinstal:
 
@@ -19,7 +19,7 @@
 
 - Tampilkan rincian isi suatu paket:
 
-`dpkg {{[-L|--listfiles]}} {{nama_paket}}`
+`dpkg {{[-L|--listfiles]}} {{paket}}`
 
 - Tampilkan rincian isi berkas sebuah paket lokal:
 
@@ -31,4 +31,4 @@
 
 - Hapus pemasangan paket beserta berkas konfigurasi yang dibentuk oleh paket tersebut:
 
-`sudo dpkg {{[-P|--purge]}} {{nama_paket}}`
+`sudo dpkg {{[-P|--purge]}} {{paket}}`

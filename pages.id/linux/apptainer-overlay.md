@@ -21,7 +21,7 @@
 
 - Buat overlay dengan direktori tertentu di dalam layout:
 
-`apptainer overlay create --create-dir {{path/ke/direktori}} {{jalan/menuju/overlay.img}}`
+`apptainer overlay create --create-dir {{jalan/menuju/direktori}} {{jalan/menuju/overlay.img}}`
 
 - Tampilkan bantuan:
 

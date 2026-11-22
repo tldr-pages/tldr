@@ -5,7 +5,7 @@
 
 - Create a compute instance from device 0:
 
-`nvidia-smi mig {{[-cgi|--create-gpu-instance]}} {{0}} {{[-C|--default-compute-instance]}}`
+`nvidia-smi mig {{[-cgi|--create-gpu-instance]}} 0 {{[-C|--default-compute-instance]}}`
 
 - List GPU instances:
 
