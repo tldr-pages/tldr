@@ -11,7 +11,7 @@
 
 `sudo apt autoremove --purge`
 
-- Remove a specific package and its unneeded dependencies:
+- Remove a specific package and its unused dependencies:
 
 `sudo apt autoremove {{package}}`
 
