@@ -7,7 +7,7 @@
 
 `sudo apt autoremove`
 
-- Remove unused packages and delete their configuration files:
+- Remove unused packages and their configuration files (keeps user configs in `/home`):
 
 `sudo apt autoremove --purge`
 
