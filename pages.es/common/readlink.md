@@ -9,4 +9,4 @@
 
 - Obtiene la ruta absoluta a un archivo:
 
-`readlink {{[-f|--canonicalize]}} {{ruta/al/archivo}}`
+`readlink {{[-f|--canonicalize]}} {{ruta/al/archivo_o_directorio}}`

@@ -30,4 +30,4 @@
 
 - 打印指定存档的内容：
 
-`zip {{[-sf|--split-size --freshen]}} {{路径/到/压缩文件.zip}}`
+`zip {{[-sf|--show-files]}} {{路径/到/压缩文件.zip}}`

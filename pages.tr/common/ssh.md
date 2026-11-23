@@ -22,11 +22,11 @@
 
 - SSH tünelleme: Dinamik port yönlendirme (`localhost:1080` üzerinde SOCKS proxy):
 
-`ssh {{kullanici}}@{{uzak_sunucu}} -D {{1080}}`
+`ssh {{kullanici}}@{{uzak_sunucu}} -D 1080`
 
 - SSH tünelleme: Belirli bir portu yönlendir (`localhost:9999`'dan `example.org:80`'e), sahte tty tahsisini ve uzak komut çalıştırmayı devre dışı bırak:
 
-`ssh {{kullanici}}@{{uzak_sunucu}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
+`ssh {{kullanici}}@{{uzak_sunucu}} -L 9999:{{example.org}}:80 -N -T`
 
 - SSH atlama: Bir atlama sunucusu üzerinden uzak sunucuya bağlan (birden fazla atlama virgülle ayrılabilir):
 

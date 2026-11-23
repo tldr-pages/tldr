@@ -14,7 +14,7 @@
 
 - Unduh konten anime ke dalam suatu direktori tertentu:
 
-`animdl download "{{judul_anime}}" {{[-d|--download-dir]}} {{jalan/menuju/direktori_hasil_unduhan}}`
+`animdl download "{{judul_anime}}" {{[-d|--download-dir]}} {{jalan/menuju/direktori}}`
 
 - Ambil URL untuk menayangkan suatu judul anime:
 

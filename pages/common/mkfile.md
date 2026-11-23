@@ -5,7 +5,7 @@
 
 - Create an empty file of 15 kilobytes:
 
-`mkfile -n {{15k}} {{path/to/file}}`
+`mkfile -n 15k {{path/to/file}}`
 
 - Create a file of a given size and unit (bytes, KB, MB, GB):
 
@@ -13,4 +13,4 @@
 
 - Create two files of 4 megabytes each:
 
-`mkfile -n {{4m}} {{first_filename}} {{second_filename}}`
+`mkfile -n 4m {{first_filename}} {{second_filename}}`

@@ -11,23 +11,23 @@
 
 - Cari paket yang tersedia dengan nama atau deskripsi tertentu:
 
-`apt search {{nama_atau_deskripsi_paket}}`
+`apt search {{paket}}`
 
 - Cari paket yang tersedia dengan nama saja (mendukung kata kunci wildcard seperti `*`):
 
-`apt list {{nama_paket}}`
+`apt list {{paket}}`
 
 - Tampilkan informasi tentang suatu paket:
 
-`apt show {{nama_paket}}`
+`apt show {{paket}}`
 
 - Pasang atau perbarui sebuah paket menuju versi terbaru:
 
-`sudo apt install {{nama_paket}}`
+`sudo apt install {{paket}}`
 
 - Hapus paket yang terpasang sebelumnya (gunakan `sudo apt purge` untuk sekaligus menghapus berkas konfigurasi yang dibentuk oleh paket tersebut):
 
-`sudo apt remove {{nama_paket}}`
+`sudo apt remove {{paket}}`
 
 - Perbarui seluruh paket yang terpasang ke versi terbaru:
 

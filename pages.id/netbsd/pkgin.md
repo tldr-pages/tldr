@@ -5,11 +5,11 @@
 
 - Pasang sebuah paket:
 
-`pkgin install {{nama_paket}}`
+`pkgin install {{paket}}`
 
 - Hapus paket yang dipasang beserta penunjangnya (dependencies):
 
-`pkgin remove {{nama_paket}}`
+`pkgin remove {{paket}}`
 
 - Perbarui seluruh paket yang terpasang:
 

@@ -9,7 +9,7 @@
 
 - Membuka sebuah berkas atau direktori in Sublime Text:
 
-`subl {{jalur/ke/berkas_atau_direktori}}`
+`subl {{jalan/menuju/berkas_atau_direktori}}`
 
 - Membuka sebuah berkas dan lompat ke baris tertentu:
 
@@ -17,8 +17,8 @@
 
 - Membuka sebuah berkas atau direktori di jendela yang sedang terbuka:
 
-`subl {{[-a|--add]}} {{jalur/ke/berkas}}`
+`subl {{[-a|--add]}} {{jalan/menuju/berkas_atau_direktori}}`
 
 - Membuka sebuah berkas atau direktori di jendela baru:
 
-`subl {{[-n|--new-window]}} {{jalur/ke/berkas}}`
+`subl {{[-n|--new-window]}} {{jalan/menuju/berkas_atau_direktori}}`
