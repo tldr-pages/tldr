@@ -25,4 +25,4 @@
 
 - Executa um comando limitando o número de conexões paralelas para 10:
 
-`pssh {{[-i|--inline]}} {{[-h|--hosts]}} {{caminho/para/arquivo_de_servidores}} {{[-p|-par]}} {{10}} '{{cd dir; ./script.sh; exit}}'`
+`pssh {{[-i|--inline]}} {{[-h|--hosts]}} {{caminho/para/arquivo_de_servidores}} {{[-p|-par]}} 10 '{{cd dir; ./script.sh; exit}}'`
