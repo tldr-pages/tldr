@@ -9,8 +9,8 @@
 
 - Tampilkan `stdin` sebagai beberapa kolom dengan lebar maksimum sebesar `100`:
 
-`ls | git column --mode=column --width={{100}}`
+`ls | git column --mode=column --width=100`
 
 - Tampilkan `stdin` sebagai beberapa kolom dengan padding maksimum sebesar `30`:
 
-`ls | git column --mode=column --padding={{30}}`
+`ls | git column --mode=column --padding=30`

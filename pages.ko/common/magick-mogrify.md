@@ -6,27 +6,27 @@
 
 - 디렉터리 내 모든 JPEG 이미지를 원본 크기의 50%로 축소:
 
-`magick mogrify -resize {{50%}} {{*.jpg}}`
+`magick mogrify -resize 50% *.jpg`
 
 - `DSC`로 시작하는 모든 이미지를 800x600 크기로 조정:
 
-`magick mogrify -resize {{800x600}} {{DSC*}}`
+`magick mogrify -resize 800x600 DSC*`
 
 - 디렉터리 내 모든 PNG를 JPEG로 변환:
 
-`magick mogrify -format {{jpg}} {{*.png}}`
+`magick mogrify -format jpg *.png`
 
 - 현재 디렉터리의 모든 이미지 채도를 절반으로 감소:
 
-`magick mogrify -modulate {{100,50}} {{*}}`
+`magick mogrify -modulate 100,50 *`
 
 - 현재 디렉터리의 모든 이미지 밝기를 2배로 증가:
 
-`magick mogrify -modulate {{200}} {{*}}`
+`magick mogrify -modulate 200 *`
 
 - GIF 이미지 품질을 낮춰 파일 크기를 감소:
 
-`magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
+`magick mogrify -layers 'optimize' -fuzz {{7%}} *.gif`
 
 - 도움말 표시:
 

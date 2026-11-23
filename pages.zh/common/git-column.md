@@ -9,8 +9,8 @@
 
 - 以最大宽度 `100` 的列格式显示标准输入内容：
 
-`ls | git column --mode=column --width={{100}}`
+`ls | git column --mode=column --width=100`
 
 - 以最大边距 `30` 的列格式显示标准输入内容：
 
-`ls | git column --mode=column --padding={{30}}`
+`ls | git column --mode=column --padding=30`
