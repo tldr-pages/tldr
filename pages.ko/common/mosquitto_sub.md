@@ -5,7 +5,7 @@
 
 - `sensors/temperature` 주제를 구독하고, 서비스 품질(`QoS`)을 1로 설정합니다. (기본 호스트명은 `localhost`이고 포트는 1883입니다):
 
-`mosquitto_sub {{[-t|--topic]}} {{sensors/temperature}} {{[-q|--qos]}} {{1}}`
+`mosquitto_sub {{[-t|--topic]}} sensors/temperature {{[-q|--qos]}} 1`
 
 - `iot.eclipse.org` 포트 1885에서 발행하는 모든 브로커 상태 메시지를 구독하고, 발행된 메시지를 자세히 출력합니다:
 
