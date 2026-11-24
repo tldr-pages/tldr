@@ -1,6 +1,6 @@
 # podman volume
 
-> Manage OCI/Docker container images.
+> Manage Podman volumes.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-volume.1.html>.
 
 - List local volumes:
