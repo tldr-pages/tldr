@@ -14,7 +14,7 @@
 
 - Send a location coordinate with a name to a phone number or a chatroom's JID:
 
-`wacli send location --to {{phone_number|jid}} --latitude {{latitude}} --longitude {{longitude}} --name {{place_name}}`
+`wacli send location --to {{phone_number|jid}} --latitude {{latitude}} --longitude {{longitude}} --name "{{place_name}}"`
 
 - Send a new poll to a phone number or a chatroom's JID:
 
