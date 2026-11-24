@@ -23,7 +23,7 @@
 
 `touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}}" {{path/to/file}}`
 
-- יצירת כמה קבצים עם מספר עולה:
+- יצירת מספר קבצים עם מספר עולה:
 
 `touch {{path/to/file{1..10}}}`
 
