@@ -1,17 +1,17 @@
 # mkdir
 
-> יצירת תיקיות והגדרת הרשאות.
+> יצירת תיקיות והגדרת ההרשאות שלהן.
 > למידע נוסף: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
-- יצירת תיקיות ספציפיות:
+- יצירת תיקיות מסוימות:
 
 `mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- יצירת תיקיות ספציפיות ואת תיקיות האב שלהן במידת הצורך:
+- יצירת תיקיות מסוימות ואת תיקיות האב שלהן במידת הצורך:
 
 `mkdir {{[-p|--parents]}} {{path/to/directory1 path/to/directory2 ...}}`
 
-- יצירת תיקיות והגדרת ההרשאות שלהן:
+- יצירת תיקיות עם הרשאות מסוימות:
 
 `mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{path/to/directory1 path/to/directory2 ...}}`
 
