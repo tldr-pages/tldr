@@ -1,11 +1,7 @@
 # apt reinstall
 
-> Reinstall packages in their current version.
+> Reinstall packages for Debian-based distributions.
 > More information: <https://manned.org/apt.8>.
-
-- Reinstall a package:
-
-`sudo apt reinstall {{package}}`
 
 - Reinstall one or more packages:
 
@@ -13,7 +9,7 @@
 
 - Simulate reinstalling packages without making actual changes:
 
-`apt reinstall {{[-s|--simulate|--dry-run]}} {{package}}`
+`apt reinstall {{[-s|--simulate]}} {{package}}`
 
 - Automatically answer yes to all prompts during reinstallation:
 
