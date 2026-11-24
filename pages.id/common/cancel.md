@@ -10,7 +10,7 @@
 
 - Batalkan pekerjaan yang sedang dikerjakan ke dalam mesin pencetak yang diatur sebagai tujuan bawaan menurut pengaturan suatu pengguna ([u]ser):
 
-`cancel -u {{username}}`
+`cancel -u {{nama_pengguna}}`
 
 - Batalkan pekerjaan yang sedang dikerjakan ke dalam suatu mesin pencetak:
 

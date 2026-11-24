@@ -6,27 +6,27 @@
 
 - Изменить размер всех JPEG-изображений в каталоге до 50% от их исходного размера:
 
-`magick mogrify -resize {{50%}} {{*.jpg}}`
+`magick mogrify -resize 50% *.jpg`
 
 - Изменить размер всех изображений, начинающихся с `DSC`, до 800x600:
 
-`magick mogrify -resize {{800x600}} {{DSC*}}`
+`magick mogrify -resize 800x600 DSC*`
 
 - Конвертировать все PNG-файлы в каталоге в JPEG:
 
-`magick mogrify -format {{jpg}} {{*.png}}`
+`magick mogrify -format jpg *.png`
 
 - Уменьшить насыщенность всех файлов изображений в текущем каталоге вдвое:
 
-`magick mogrify -modulate {{100,50}} {{*}}`
+`magick mogrify -modulate 100,50 *`
 
 - Удвоить яркость всех файлов изображений в текущем каталоге:
 
-`magick mogrify -modulate {{200}} {{*}}`
+`magick mogrify -modulate 200 *`
 
 - Уменьшить размер файлов всех GIF-изображений в текущем каталоге за счёт снижения качества:
 
-`magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
+`magick mogrify -layers 'optimize' -fuzz {{7%}} *.gif`
 
 - Показать справку:
 

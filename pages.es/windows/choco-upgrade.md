@@ -29,4 +29,4 @@
 
 - Proporciona un nombre de usuario y una contraseña para la autenticación:
 
-`choco upgrade {{paquete}} {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`
+`choco upgrade {{paquete}} {{[-u|--user]}} {{usuario}} {{[-p|--password]}} {{contraseña}}`
