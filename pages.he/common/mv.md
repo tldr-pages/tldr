@@ -11,7 +11,7 @@
 
 `mv {{path/to/source}} {{path/to/existing_directory}}`
 
-- העברת כמה קבצים לתוך תיקייה קיימת, בלי לשנות את שמות הקבצים:
+- העברת מספר קבצים לתוך תיקייה קיימת, בלי לשנות את שמות הקבצים:
 
 `mv {{path/to/source1 path/to/source2 ...}} {{path/to/existing_directory}}`
 
