@@ -18,7 +18,7 @@
 
 - Send a new poll to a phone number or a chatroom's JID:
 
-`wacli send poll --to {{phone_number|jid}} --question {{question}} --option {{option1}} --option {{option2}} ...`
+`wacli send poll --to {{phone_number|jid}} --question "{{question}}" --option "{{option1}}" --option "{{option2}}" ...`
 
 - Create a new status from an image or video file, with an optional caption:
 
