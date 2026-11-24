@@ -22,7 +22,7 @@
 
 - Create a new status from an image or video file, with an optional caption:
 
-`wacli send status --file {{path/to/file}} --message {{caption}}`
+`wacli send status --file {{path/to/file}} --message "{{caption}}"`
 
 - Create a new text status with a specific background color and font size:
 
