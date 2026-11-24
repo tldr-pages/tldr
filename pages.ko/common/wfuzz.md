@@ -17,7 +17,7 @@
 
 - 사용자 정의 [H]eader를 사용하여 서브도메인 퍼징, 특정 응답 [c]odes 및 단어 수 숨김. [t]hreads를 100으로 증가시키고 대상 ip/도메인 포함:
 
-`wfuzz -w {{경로/대상/파일}} -H "{{Host: FUZZ.example.com}}" --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}`
+`wfuzz -w {{경로/대상/파일}} -H "{{Host: FUZZ.example.com}}" --hc {{301}} --hw {{222}} -t 100 {{example.com}}`
 
 - 파일에서 각 FUZ[z] 키워드에 대한 사용자 명과 비밀번호 목록을 사용하여 기본 인증 브루트포스, 실패한 시도에 대한 응답 [c]odes 숨김:
 
