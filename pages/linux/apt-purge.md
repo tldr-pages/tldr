@@ -14,11 +14,11 @@
 
 - Remove a package along with its configuration files and unused dependencies:
 
-`sudo apt purge {{[--auto-remove|--autoremove]}} {{package}}`
+`sudo apt purge --autoremove {{package}}`
 
 - Simulate purging packages without making actual changes:
 
-`apt purge {{[-s|--simulate|--dry-run]}} {{package}}`
+`apt purge {{[-s|--simulate]}} {{package}}`
 
 - Automatically answer yes to all prompts during package removal:
 
