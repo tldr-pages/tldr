@@ -1,7 +1,7 @@
 # runc
 
 > CLI tool for spawning and running containers according to the OCI specification.
-> More information: <https://github.com/opencontainers/runc>.
+> More information: <https://manned.org/runc>.
 
 - Generate a default OCI configuration file (`config.json`):
 
@@ -13,9 +13,9 @@
 
 - Create and run a container from a bundle directory:
 
-`runc run --bundle {{path/to/bundle}} {{container_id}}`
+`runc run {{[-b|--bundle]}} {{path/to/bundle}} {{container_id}}`
 
-- Start a previously created container:
+- Start a container previously created with `runc create`:
 
 `runc start {{container_id}}`
 
