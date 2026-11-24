@@ -1,7 +1,7 @@
 # iw
 
 > Muestra y manipula dispositivos inalámbricos.
-> Vea también: `iw dev`, `nmcli`, `iwctl`.
+> Vea también: `nmcli`, `iwctl`.
 > Más información: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - Busca redes inalámbricas disponibles:

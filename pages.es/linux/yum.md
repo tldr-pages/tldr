@@ -1,28 +1,8 @@
 # yum
 
-> Administrador de paquetes para RHEL, CentOS y Fedora (para versiones anteriores).
-> Más información: <https://manned.org/yum>.
+> Este comando es un alias de `dnf` en las distribuciones modernas.
+> En distribuciones más antiguas (por ejemplo, CentOS 7), `yum` es un programa distinto de `dnf`. Es posible que algunos subcomandos y opciones sean diferentes.
 
-- Instala un nuevo paquete:
+- Vea la documentación del comando original:
 
-`yum install {{paquete}}`
-
-- Instala un nuevo paquete respondiendo sí a todas las preguntas (también trabaja con actualizaciones, útil para actualizaciones automáticas):
-
-`yum -y install {{paquete}}`
-
-- Encuentra que paquete provee un archivo determinado:
-
-`yum provides {{comando}}`
-
-- Elimina un paquete:
-
-`yum remove {{paquete}}`
-
-- Muestra las actualizaciones disponibles para los paquetes instalados:
-
-`yum check-update`
-
-- Actualiza los paquetes instalados a las versiones más recientes disponibles:
-
-`yum upgrade`
+`tldr dnf`

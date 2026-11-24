@@ -25,7 +25,7 @@
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv {{[-L|--rate-limit]}} {{1K}} {{[-S|--stop-at-size]}} {{maximum_file_size_to_be_read}}`
+`pv {{[-L|--rate-limit]}} {{1K}} {{[-S|--stop-at-size]}} {{[-s|--size]}} {{maximum_file_size_to_be_read}} {{path/to/file}}`
 
 - Calculate hash (MD5, SHA1, SHA256, etc.) of a large file and show progress:
 
