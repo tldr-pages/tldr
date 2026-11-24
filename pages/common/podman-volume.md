@@ -13,7 +13,7 @@
 
 - Export volume content to a `.tar` file:
 
-`podman volume export {{-o|--output}} {{path/to/file.tar}} {{volume_name}}`
+`podman volume export {{[-o|--output]}} {{path/to/file.tar}} {{volume_name}}`
 
 - Import tarball contents into an existing podman volume:
 
