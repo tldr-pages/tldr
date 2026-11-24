@@ -13,7 +13,7 @@
 
 - Create and run a container from a bundle directory:
 
-`crun run --bundle {{path/to/bundle}} {{container_id}}`
+`crun run {{[-b|--bundle]}} {{path/to/bundle}} {{container_id}}`
 
 - Start a previously created container:
 
@@ -27,7 +27,7 @@
 
 `crun exec {{container_id}} {{command}}`
 
-- Send a signal to a container's init process:
+- Send a signal to a container's init process (defaults to SIGTERM):
 
 `crun kill {{container_id}} {{signal_name}}`
 
