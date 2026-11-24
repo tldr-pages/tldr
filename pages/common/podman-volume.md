@@ -21,4 +21,4 @@
 
 - Remove all unused volumes:
 
-`podman volume prune {{-a|--all}}`
+`podman volume prune {{[-a|--all]}}`
