@@ -7,7 +7,7 @@
 
 `podman volume ls`
 
-- Create empty named volume:
+- Create a named volume:
 
 `podman volume create {{volume_name}}`
 
