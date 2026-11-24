@@ -6,3 +6,7 @@
 - Start the server:
 
 `{{path/to}}/srcds_run`
+
+- Start a server with a specific map:
+
+`{{path/to}}/srcds_run +map {{gm_flatgrass}}`
