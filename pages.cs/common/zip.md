@@ -30,4 +30,4 @@
 
 - Vypsat obsah konkrétního archivu:
 
-`zip {{[-sf|--split-size --freshen]}} {{cesta/ke/komprimovanemu.zip}}`
+`zip {{[-sf|--show-files]}} {{cesta/ke/komprimovanemu.zip}}`

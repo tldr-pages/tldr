@@ -9,7 +9,7 @@
 
 - Elimina un paquete de aplicación para un usuario específico:
 
-`Remove-AppxPackage {{paquete}} -User {{nombre_de_usuario}}`
+`Remove-AppxPackage {{paquete}} -User {{usuario}}`
 
 - Elimina un paquete de aplicación para todos los usuarios:
 

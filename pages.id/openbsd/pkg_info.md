@@ -6,7 +6,7 @@
 
 - Cari detail paket yang tersedia dalam repositori menurut namanya:
 
-`pkg_info -Q {{nama_paket}}`
+`pkg_info -Q {{paket}}`
 
 - Tampilkan dan simpan daftar paket yang telah terpasang, untuk digunakan dalam `pkg_add -l`:
 

@@ -13,7 +13,7 @@
 
 - 시작한 명령에 Zsh가 포함된 프로세스 정보 나열:
 
-`procs {{zsh}}`
+`procs zsh`
 
 - CPU 시간으로 [a]scending 또는 [d]escending 순서로 정렬된 모든 프로세스 정보 나열:
 
@@ -21,8 +21,8 @@
 
 - PID, 명령 또는 사용자에 `41` 또는 `firefox`가 포함된 프로세스 정보 나열:
 
-`procs --or {{PID|command|user}} {{41}} {{firefox}}`
+`procs --or {{PID|command|user}} 41 firefox`
 
 - PID `41`과 명령 또는 사용자에 `zsh`가 포함된 프로세스 정보 나열:
 
-`procs --and {{41}} {{zsh}}`
+`procs --and 41 zsh`

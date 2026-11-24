@@ -7,7 +7,7 @@
 
 `unexpand {{path/to/file}}`
 
-- Convert blanks to tabs, reading from `stdout`:
+- Convert blanks to tabs, reading from `stdin`:
 
 `unexpand`
 

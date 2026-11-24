@@ -13,7 +13,7 @@
 
 - Establece una variable de entorno para un usuario en una máquina remota:
 
-`setx /s {{hostname}} /u {{username}} /p {{password}} {{variable}} {{valor}}`
+`setx /s {{hostname}} /u {{usuario}} /p {{contraseña}} {{variable}} {{valor}}`
 
 - Establece una variable de entorno desde el valor de una clave de registro:
 
