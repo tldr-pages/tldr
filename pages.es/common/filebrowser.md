@@ -21,7 +21,7 @@
 
 - Configura un nombre de usuario y una contraseña diferentes para la primera cuenta (ambos por defecto `admin`) cuando configure una nueva instancia:
 
-`filebrowser --username {{nombre_de_usuario}} --password {{contraseña}} {{[-r|--root]}} {{ruta/al/directorio}}`
+`filebrowser --username {{usuario}} --password {{contraseña}} {{[-r|--root]}} {{ruta/al/directorio}}`
 
 - Configura la cantidad máxima de procesadores de imágenes utilizados al generar miniaturas (por defecto es `4`):
 

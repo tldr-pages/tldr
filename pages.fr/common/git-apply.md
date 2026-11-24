@@ -26,4 +26,4 @@
 
 - Stocke le résultat du correctif dans l'index sans modifier la branche courante :
 
-`git apply --cache {{chemin/vers/fichier}}`
+`git apply --cached {{chemin/vers/fichier}}`

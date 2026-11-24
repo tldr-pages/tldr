@@ -18,4 +18,4 @@
 
 - Transfiere una imagen a un sistema remoto con compresión sobre la marcha y barra de progreso:
 
-`podman save {{image:tag}} | zstd {{[-T|--threads]}} 0 --ultra | pv | ssh {{nombre_de_usuario}}@{{host_remoto}} podman load`
+`podman save {{image:tag}} | zstd {{[-T|--threads]}} 0 --ultra | pv | ssh {{usuario}}@{{host_remoto}} podman load`

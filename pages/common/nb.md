@@ -22,7 +22,7 @@
 
 - Import a file:
 
-`nb import ({{path/to/file|url}})`
+`nb import {{path/to/file|url}}`
 
 - Search for notes containing a keyword:
 

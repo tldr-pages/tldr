@@ -5,7 +5,7 @@
 
 - Edycja pliku `group`:
 
-`vigr`
+`sudo vigr`
 
 - Wyświetl wersję:
 

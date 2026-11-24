@@ -30,4 +30,4 @@
 
 - 특정 아카이브 내용 출력:
 
-`zip {{[-sf|--split-size --freshen]}} {{경로/대상/압축된.zip}}`
+`zip {{[-sf|--show-files]}} {{경로/대상/압축된.zip}}`

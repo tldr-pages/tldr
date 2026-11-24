@@ -14,16 +14,16 @@
 
 - Tentukan [s]yel masuk untuk suatu pengguna:
 
-`chpass -s {{jalan/menuju/syel}} {{username}}`
+`chpass -s {{jalan/menuju/syel}} {{nama_pengguna}}`
 
 - Tentukan suatu entri dalam pangkalan data pengguna dalam format `passwd`:
 
-`su -c 'chpass -a {{username:kata_sandi_terenkripsi:uid:gid:...}} -s {{jalan/menuju/syel}}' {{username}}`
+`su -c 'chpass -a {{username:kata_sandi_terenkripsi:uid:gid:...}} -s {{jalan/menuju/syel}}' {{nama_pengguna}}`
 
 - Hanya perbarui berkas kata sandi [l]okal:
 
-`su -c 'chpass -l -s {{jalan/menuju/syel}}' {{username}}`
+`su -c 'chpass -l -s {{jalan/menuju/syel}}' {{nama_pengguna}}`
 
 - Ubah entri pangkalan data kata sandi [y]P secara paksa:
 
-`su -c 'chpass -y -s {{jalan/menuju/syel}}' {{username}}`
+`su -c 'chpass -y -s {{jalan/menuju/syel}}' {{nama_pengguna}}`

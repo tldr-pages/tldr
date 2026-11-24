@@ -17,7 +17,7 @@
 
 - Instala um app Android permitindo um downgrade de versão de código (apenas pacotes depuráveis):
 
-`adb install -d {{path/to/file}}.apk`
+`adb install -d {{caminho/para/arquivo}}.apk`
 
 - Concede todas as permissões listadas no manifesto do app:
 

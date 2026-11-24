@@ -10,11 +10,11 @@
 
 - Stampa le sottodirectory e le sotto-chiavi di un percorso specifico:
 
-`dconf list /{{path/to/directory}}/`
+`dconf list /{{percorso/della/directory}}/`
 
 - Scrive il valore di una chiave specifica:
 
-`dconf write /{{path/to/key}} "{{value}}"`
+`dconf write /{{path/to/key}} "{{valore}}"`
 
 - Reimposta il valore di una chiave specifica:
 
@@ -26,4 +26,4 @@
 
 - Mostra una directory specifica in formato file INI:
 
-`dconf dump /{{path/to/directory}}/`
+`dconf dump /{{percorso/della/directory}}/`

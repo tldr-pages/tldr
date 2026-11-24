@@ -5,7 +5,7 @@
 
 - Adiciona um arquivo na área de preparação:
 
-`git add {{caminho/do/arquivo}}`
+`git add {{caminho/para/arquivo}}`
 
 - Adiciona todos arquivos (rastreados ou não):
 

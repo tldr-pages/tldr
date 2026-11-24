@@ -5,11 +5,11 @@
 
 - Acak urutan baris di sebuah file dan outputkan hasilnya:
 
-`shuf {{nama_file}}`
+`shuf {{jalan/menuju/berkas}}`
 
 - Hanya mengoutputkan 5 entri dari hasil:
 
-`shuf --head-count=5 {{nama_file}}`
+`shuf --head-count=5 {{jalan/menuju/berkas}}`
 
 - Menuliskan output ke file lain:
 

@@ -26,7 +26,7 @@
 
 - Check the current directory, providing paths for include files located outside it (e.g. external libraries):
 
-`cppcheck -I {{include/directory_1}} -I {{include/directory_2}} .`
+`cppcheck -I {{path/to/include_directory_1}} -I {{path/to/include_directory_2}} .`
 
 - Check a Microsoft Visual Studio project (`*.vcxproj`) or solution (`*.sln`):
 

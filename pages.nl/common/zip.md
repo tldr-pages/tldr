@@ -30,4 +30,4 @@
 
 - Print de inhoud van een specifiek archief:
 
-`zip {{[-sf|--split-size --freshen]}} {{pad/naar/gecomprimeerd.zip}}`
+`zip {{[-sf|--show-files]}} {{pad/naar/gecomprimeerd.zip}}`

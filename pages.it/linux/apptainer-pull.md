@@ -26,7 +26,7 @@
 
 - Scarica un container come directory sandbox scrivibile:
 
-`apptainer pull --sandbox {{path/to/directory}} docker://{{immagine}}:{{tag}}`
+`apptainer pull --sandbox {{percorso/della/directory}} docker://{{immagine}}:{{tag}}`
 
 - Scarica un container senza utilizzare la cache:
 
