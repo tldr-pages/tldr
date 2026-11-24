@@ -15,9 +15,9 @@
 
 `glab label list {{[-g|--group]}} {{group_name}}`
 
-- Create a new label with a name and color (color defaults to `#428BCA`):
+- Create a new label with a name and color (name or hex code, defaults to `#428BCA`):
 
-`glab label create {{[-n|--name]}} {{name}} {{[-c|--color]}} {{color_hex}}`
+`glab label create {{[-n|--name]}} {{name}} {{[-c|--color]}} "{{color}}"`
 
 - Create a new label with a description:
 
