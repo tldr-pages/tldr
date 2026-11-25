@@ -1,37 +1,37 @@
 # dnf
 
-> ابزار مدیریت بسته‌ها برای RHEL، Fedora و CentOS (جایگزین `yum`).
-> برای دستورات معادل در دیگر مدیران بسته، به <https://wiki.archlinux.org/title/Pacman/Rosetta> مراجعه کنید.
+> مدیر بسته برای Fedora 41 و جدیدتر و RHEL 10.
+> برای دستورهای معادل در دیگر مدیران بسته، <https://wiki.archlinux.org/title/Pacman/Rosetta> را ببینید.
 > اطلاعات بیشتر: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
-- ارتقاء بسته‌های نصب شده به جدیدترین نسخه‌های موجود:
+- ارتقای بسته‌های نصب‌شده به آخرین نسخه‌های موجود:
 
-`sudo dnf upgrade`
+`sudo dnf {{[up|upgrade]}}`
 
-- جستجوی بسته‌ها بر اساس کلمات کلیدی:
+- جست‌وجوی بسته‌ها با کلیدواژه‌ها:
 
-`dnf search {{keyword1 keyword2 ...}}`
+`dnf {{[se|search]}} {{keyword1 keyword2 ...}}`
 
 - نمایش جزئیات یک بسته:
 
-`dnf info {{package}}`
+`dnf {{[if|info]}} {{package}}`
 
-- نصب یک بسته جدید (از `-y` برای تأیید اتوماتیک تمام پنجره‌ها استفاده کنید):
+- نصب بسته‌های جدید (برای تأیید خودکار همهٔ درخواست‌ها از `--assumeyes` استفاده کنید):
 
-`sudo dnf install {{package1 package2 ...}}`
+`sudo dnf {{[in|install]}} {{package1 package2 ...}}`
 
-- حذف یک بسته:
+- حذف بسته‌ها:
 
-`sudo dnf remove {{package1 package2 ...}}`
+`sudo dnf {{[rm|remove]}} {{package1 package2 ...}}`
 
-- لیست بسته‌های نصب شده:
+- فهرست کردن بسته‌های نصب‌شده:
 
-`dnf list --installed`
+`dnf {{[ls|list]}} --installed`
 
-- یافتن بسته‌هایی که دستور مشخصی را ارائه می‌دهند:
+- یافتن بسته‌هایی که یک دستور مشخص را ارائه می‌دهند:
 
 `dnf provides {{command}}`
 
-- مشاهده تاریخچه تمام عملیات‌های گذشته:
+- پاکسازی داده‌های حافظهٔ نهان:
 
-`dnf history`
+`sudo dnf clean {{all|dbcache|expire-cache|metadata|packages}}`

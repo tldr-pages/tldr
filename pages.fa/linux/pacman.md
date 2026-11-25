@@ -1,38 +1,38 @@
 # pacman
 
-> واحد مدیریت پکیج آرچ لینوکس.
-> برای دیدن دستور های معادل در سایر پکیج منیجر ها <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> همچنین : `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
+> ابزار مدیریت بستهٔ Arch Linux.
+> برای دستورهای معادل در سایر مدیران بسته، <https://wiki.archlinux.org/title/Pacman/Rosetta> را ببینید.
+> همچنین ببینید: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > اطلاعات بیشتر: <https://manned.org/pacman.8>.
 
-- همگام سازی و بروز رسانی تمام پکیج ها:
+- همگام‌سازی و به‌روزرسانی همهٔ بسته‌ها:
 
 `sudo pacman -Syu`
 
-- نصب پکیج جدید:
+- نصب بستهٔ جدید:
 
 `sudo pacman -S {{package}}`
 
-- حذف یک پکیج به همراه وابستگی هاش:
+- حذف بسته و وابستگی‌های آن:
 
 `sudo pacman -Rs {{package}}`
 
-- جستجو در دیتابیس برای پکیج هایی که با یک فایل خاص تعارض دارند:
+- جست‌وجوی `regex` یا کلیدواژه در پایگاه دادهٔ بسته‌ها:
+
+`pacman -Ss "{{search_pattern}}"`
+
+- جست‌وجو در پایگاه داده برای بسته‌های حاوی فایل مشخص:
 
 `pacman -F "{{file_name}}"`
 
-- لیست کردن پکیج های نصب شده با نسخه آنها:
-
-`pacman -Q`
-
-- لیست کردن تنها پکیج هایی که مستقیما نصب شده اند به همراه نسخه آنها:
+- فهرست کردن فقط بسته‌هایی که صریحاً نصب شده‌اند همراه با نسخهٔ آن‌ها:
 
 `pacman -Qe`
 
-- لیست کردن پکیج هایی که به عنوان وابستگی نصب شده اند اما توسط هیچ پکیجی استفاده نمیشوند:
+- فهرست کردن بسته‌های یتیم (نصب‌شده به‌عنوان وابستگی اما مورد نیاز هیچ بسته‌ای نیستند):
 
 `pacman -Qtdq`
 
-- خالی کردن کل کش `pacman`:
+- خالی کردن کل حافظهٔ نهان `pacman`:
 
 `sudo pacman -Scc`
