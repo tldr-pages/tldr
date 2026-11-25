@@ -13,11 +13,11 @@
 
 - Monta um diretório remoto de um servidor com uma porta específica:
 
-`sshfs {{nome_do_usuário}}@{{servidor_remoto}}:{{diretório_remoto}} -p {{2222}}`
+`sshfs {{nome_do_usuário}}@{{servidor_remoto}}:{{diretório_remoto}} -p {{2222}} {{ponto_de_montagem}}`
 
 - Usa compressão:
 
-`sshfs {{nome_do_usuário}}@{{servidor_remoto}}:{{diretório_remoto}} -C`
+`sshfs {{nome_do_usuário}}@{{servidor_remoto}}:{{diretório_remoto}} -C {{ponto_de_montagem}}`
 
 - Segue links simbólicos:
 
