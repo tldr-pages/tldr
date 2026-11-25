@@ -6,4 +6,4 @@
 
 - Envía una cantidad específica de paquetes disociados dada la dirección MAC de un punto de acceso, la dirección MAC de un cliente y una interfaz:
 
-`sudo aireplay-ng --deauth {{cantidad}} --bssid {{mac_punto_acceso}} --dmac {{mac_cliente}} {{interfaz}}`
+`sudo aireplay-ng {{[-0|--deauth]}} {{cantidad}} -a {{mac_punto_acceso}} -c {{mac_cliente}} {{interfaz}}`
