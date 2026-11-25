@@ -1,7 +1,7 @@
 # proxychains
 
 > Run a program with its TCP connections routed through configured proxy servers.
-> More information: <https://github.com/haad/proxychains>.
+> More information: <https://github.com/rofl0r/proxychains-ng>.
 
 - Run a program through the proxies in the default configuration:
 
