@@ -27,10 +27,10 @@
 
 `glab variable set {{key}} "{{value}}" {{[-t|--type]}} {{env_var|file}}`
 
-- Export project variables to an environment format:
+- Export project variables as `KEY=VALUE` pairs:
 
 `glab variable export {{[-F|--output]}} env`
 
-- Delete a project or group variable:
+- Delete a project variable:
 
 `glab variable delete {{key}}`
