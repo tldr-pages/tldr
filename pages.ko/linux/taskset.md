@@ -17,8 +17,8 @@
 
 - 여러 비연속 CPU에 대한 친화도로 새 프로세스 시작:
 
-`taskset {{[-c|--cpu-list]}} {{cpu_id_1,cpu_id_2,cpu_id_3,...}}`
+`taskset {{[-c|--cpu-list]}} {{cpu_id_1,cpu_id_2,cpu_id_3,...}} {{명령어}}`
 
 - CPU 1부터 4까지의 친화도로 새 프로세스 시작:
 
-`taskset {{[-c|--cpu-list]}} {{cpu_id_1}}-{{cpu_id_4}}`
+`taskset {{[-c|--cpu-list]}} {{cpu_id_1}}-{{cpu_id_4}} {{명령어}}`

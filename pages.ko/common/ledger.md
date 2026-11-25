@@ -13,7 +13,7 @@
 
 - 음료 및 음식 이외의 총 지출 출력:
 
-`ledger balance {{지출}} and not ({{음료}} or {{음식}})`
+`ledger balance {{지출}} and not \({{음료}} or {{음식}}\)`
 
 - 예산 보고서 출력:
 
