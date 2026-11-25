@@ -14,3 +14,7 @@
 - Escucha eventos:
 
 `ubus subscribe {{nombre_evento}}`
+
+- Muestra la ayuda:
+
+`ubus`

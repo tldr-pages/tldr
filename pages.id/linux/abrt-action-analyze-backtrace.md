@@ -11,7 +11,7 @@
 
 - Lakukan analisis backtrace untuk direktori tertentu:
 
-`abrt-action-analyze-backtrace -d {{path/ke/direktori}}`
+`abrt-action-analyze-backtrace -d {{jalan/menuju/direktori}}`
 
 - Lakukan analisis backtrace secara verbose:
 

@@ -30,4 +30,4 @@
 
 - Print a specific archive contents Вивести перелік вмісту певного архіву:
 
-`zip {{[-sf|--split-size --freshen]}} {{шлях/до/архіву.zip}}`
+`zip {{[-sf|--show-files]}} {{шлях/до/архіву.zip}}`

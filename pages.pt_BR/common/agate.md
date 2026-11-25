@@ -9,7 +9,7 @@
 
 - Executa o servidor:
 
-`agate {{caminho/para/arquivo}}`
+`agate {{caminho/para/diretorio}}`
 
 - Mostra ajuda:
 

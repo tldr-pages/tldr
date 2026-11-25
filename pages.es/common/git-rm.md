@@ -9,7 +9,7 @@
 
 - Elimina un directorio:
 
-`git rm -r {{directorio}}`
+`git rm -r {{ruta/al/directorio}}`
 
 - Elimina un archivo del índice del repositorio, pero mantiene intacto el archivo local:
 

@@ -5,4 +5,4 @@
 
 - Elimina un paquete instalado:
 
-`pkgrm {{nombre_del_paquete}}`
+`pkgrm {{paquete}}`

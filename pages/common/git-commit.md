@@ -21,7 +21,7 @@
 
 - Commit staged files and sign them with the specified GPG key (or the one defined in the configuration file if no `key_id` is specified):
 
-`git commit {{[-S|--gpg-sign]}} {{key_id}} {{[-m|--message]}} "{{message}}"`
+`git commit {{[-S|--gpg-sign=]}}{{key_id}} {{[-m|--message]}} "{{message}}"`
 
 - Update the last commit by adding the currently staged changes, changing the commit's hash, and open an editor to change the message:
 

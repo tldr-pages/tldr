@@ -7,7 +7,7 @@
 
 - Abre un archivo o directorio:
 
-`atom {{ruta/a/archivo_o_directorio}}`
+`atom {{ruta/al/archivo_o_directorio}}`
 
 - Abre un archivo o directorio en una ventana nueva:
 

@@ -13,15 +13,15 @@
 
 - Pasang suatu paket baru:
 
-`apk add {{package}}`
+`apk add {{paket}}`
 
 - Hapus pemasangan paket:
 
-`apk del {{package}}`
+`apk del {{paket}}`
 
 - Perbaiki/pasang ulang paket tanpa memodifikasi dependensi utama:
 
-`apk fix {{package}}`
+`apk fix {{paket}}`
 
 - Cari paket dengan kata kunci pada namanya dan tampilkan hasil beserta deskripsi:
 
@@ -33,4 +33,4 @@
 
 - Tampilkan informasi tentang paket tertentu:
 
-`apk info {{package}}`
+`apk info {{paket}}`

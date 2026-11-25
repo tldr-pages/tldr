@@ -21,7 +21,7 @@
 
 - Print sorted unique elements from an XML document up to a depth of 3:
 
-`xml {{[el|elements]}} -d{{3}} {{path/to/input.xml|uri}}`
+`xml {{[el|elements]}} -d3 {{path/to/input.xml|uri}}`
 
 - Display help:
 

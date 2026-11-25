@@ -14,7 +14,7 @@
 
 - Jalankan perintah yang dimasukkan ke dalam `stdin` pada hari ini pukul 10.00 pagi:
 
-`echo "{{command}}" | at 1000`
+`echo "{{perintah}}" | at 1000`
 
 - Jalankan perintah yang diatur dalam suatu berkas pada hari Selasa berikutnya:
 
