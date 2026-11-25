@@ -13,7 +13,7 @@
 
 - Avvia l'interfaccia grafica GNOME Software se non è aperta e mostra i dettagli del pacchetto specificato:
 
-`gnome-software --details {{package}}`
+`gnome-software --details {{pacchetto}}`
 
 - Mostra la versione:
 

@@ -14,7 +14,7 @@
 
 - Construye el paquete predeterminado de un flake en algún directorio:
 
-`nix build {{./ruta/al/directorio}}`
+`nix build {{ruta/al/directorio}}`
 
 - Construye un paquete sin hacer el enlace simbólico `result`, mostrando a su vez la ruta del almacén de Nix en `stdout`:
 

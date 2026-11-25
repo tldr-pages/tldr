@@ -22,7 +22,7 @@
 
 - Omite recursos que coincidan con un patrón global:
 
-`immich upload {{[-r|--recursive]}} {{directorio/}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
+`immich upload {{[-r|--recursive]}} {{ruta/al/directorio}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
 
 - Incluye archivos ocultos:
 

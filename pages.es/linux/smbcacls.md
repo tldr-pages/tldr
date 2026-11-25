@@ -18,4 +18,4 @@
 
 - Especifica un grupo de trabajo (o dominio) alternativo y hace que el programa solicite una contraseña de forma interactiva:
 
-`smbcacls //{{servidor}}/{{compartido}} {{ruta/al/archivo}} --user {{nombre_usuario}} --workgroup {{grupo_de_trabajo}}`
+`smbcacls //{{servidor}}/{{compartido}} {{ruta/al/archivo}} --user {{usuario}} --workgroup {{grupo_de_trabajo}}`

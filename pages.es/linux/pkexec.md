@@ -15,4 +15,4 @@
 
 - Ejecuta un comando como un usuario específico:
 
-`pkexec --user {{nombre_de_usuario}} {{comando}}`
+`pkexec --user {{usuario}} {{comando}}`

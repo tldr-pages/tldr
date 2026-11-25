@@ -30,4 +30,4 @@
 
 - 指定したアーカイブの内容を表示する:
 
-`zip {{[-sf|--split-size --freshen]}} {{path/to/compressed.zip}}`
+`zip {{[-sf|--show-files]}} {{path/to/compressed.zip}}`

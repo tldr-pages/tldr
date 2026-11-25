@@ -22,11 +22,11 @@
 
 - Tunnel SSH : Redirection de port [D]ynamique (le proxy SOCKS se trouve sur `localhost:1080`) :
 
-`ssh {{utilisateur}}@{{hôte_distant}} -D {{1080}}`
+`ssh {{utilisateur}}@{{hôte_distant}} -D 1080`
 
 - Tunnel SSH : Transfère un port spécifique (`localhost:9999` vers `example.org:80`) en désactivant l'allocation de pseudo-[T]ty et l'exécutio[N] de commandes distantes :
 
-`ssh {{utilisateur}}@{{hôte_distant}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
+`ssh {{utilisateur}}@{{hôte_distant}} -L 9999:{{example.org}}:80 -N -T`
 
 - Saut SSH : Se connecte à un serveur distant à travers une machine de rebond (plusieurs machines de rebond peuvent être définies en les séparant par des virgules) :
 

@@ -31,7 +31,7 @@
 
 - Unduh berkas dari peladen FTP dengan username pengguna dan kata sandi:
 
-`aria2c --ftp-user {{username}} --ftp-passwd {{kata_sandi}} "{{url}}"`
+`aria2c --ftp-user {{nama_pengguna}} --ftp-passwd {{kata_sandi}} "{{url}}"`
 
 - Batasi kecepatan unduh dalam bytes/detik:
 

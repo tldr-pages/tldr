@@ -25,4 +25,4 @@
 
 - Installa un pacchetto Elm da <https://package.elm-lang.org>:
 
-`elm install {{author}}/{{package}}`
+`elm install {{author}}/{{pacchetto}}`

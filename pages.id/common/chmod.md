@@ -5,7 +5,7 @@
 
 - Berikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):
 
-`chmod u+x {{file}}`
+`chmod u+x {{jalan/menuju/berkas}}`
 
 - Berikan hak kepada pengguna untuk membaca ([r]ead) dan menulis ([w]rite) suatu file atau direktori:
 

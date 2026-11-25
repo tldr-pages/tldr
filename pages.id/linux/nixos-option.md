@@ -13,7 +13,7 @@
 
 - Tampilkan daftar kunci OpenSSH yang diizinkan untuk mewakili suatu pengguna:
 
-`nixos-option users.users.{{pengguna}}.openssh.authorizedKeys.{{keyFiles|keys}}`
+`nixos-option users.users.{{nama_pengguna}}.openssh.authorizedKeys.{{keyFiles|keys}}`
 
 - Tampilkan daftar seluruh komputer pembantu pembangun paket piranti lunak (remote builder):
 

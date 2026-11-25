@@ -2,7 +2,7 @@
 
 > Manage the Exoscale services.
 > Some subcommands such as `compute` have their own usage documentation.
-> More information: <https://community.exoscale.com/tools/command-line-interface/>.
+> More information: <https://community.exoscale.com/reference/cli/exo/storage/list/index.md>.
 
 - Configure the exo command-line:
 
@@ -22,7 +22,7 @@
 
 - List just the name of all of the buckets in the Organization:
 
-`exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}`
+`exo storage list --output-template '\{\{ .Name \}\}'`
 
 - Display help for a specific sub-command:
 

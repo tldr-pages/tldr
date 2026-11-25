@@ -5,19 +5,19 @@
 
 - Pasang suatu paket:
 
-`winget {{[add|install]}} {{nama_paket}}`
+`winget {{[add|install]}} {{paket}}`
 
 - Hapus paket yang terpasang sebelumnya (Catatan: subperintah `uninstall` juga dapat digantikan dengan `remove`):
 
-`winget {{[rm|uninstall]}} {{nama_paket}}`
+`winget {{[rm|uninstall]}} {{paket}}`
 
 - Tampilkan informasi tentang paket:
 
-`winget show {{nama_paket}}`
+`winget show {{paket}}`
 
 - Cari paket:
 
-`winget search {{nama_paket}}`
+`winget search {{paket}}`
 
 - Perbarui seluruh paket menuju versi terkini:
 

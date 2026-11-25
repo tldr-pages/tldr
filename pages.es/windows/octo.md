@@ -5,11 +5,11 @@
 
 - Crea un paquete:
 
-`octo pack --id {{package}}`
+`octo pack --id {{paquete}}`
 
 - Sube un paquete a un repositorio en el servidor de Octopus:
 
-`octo push --package {{package}}`
+`octo push --package {{paquete}}`
 
 - Crea una versión:
 

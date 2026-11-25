@@ -25,4 +25,4 @@
 
 - Imprime con un sangrado para cada línea y un ancho de página personalizado truncado:
 
-`pr {{[-o|--indent]}} {{sangrado}} {{[-W|--page_width]}} {{ancho}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`pr {{[-o|--indent]}} {{sangrado}} {{[-W|--page-width]}} {{ancho}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`

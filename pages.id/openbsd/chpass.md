@@ -14,7 +14,7 @@
 
 - Tentukan [s]yel masuk untuk suatu pengguna:
 
-`doas chpass -s {{jalan/menuju/syel}} {{username}}`
+`doas chpass -s {{jalan/menuju/syel}} {{nama_pengguna}}`
 
 - Tentukan suatu entri dalam pangkalan data pengguna dalam format `passwd`:
 

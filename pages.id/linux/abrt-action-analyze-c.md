@@ -9,7 +9,7 @@
 
 - Hitung dan simpan UUID untuk direktori tertentu:
 
-`abrt-action-analyze-c -d {{path/ke/direktori}}`
+`abrt-action-analyze-c -d {{jalan/menuju/direktori}}`
 
 - Hitung dan simpan UUID secara verbose:
 

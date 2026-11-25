@@ -2,7 +2,7 @@
 
 > Simple management tool for pods, containers, and images.
 > Provides a Docker-CLI comparable command-line. Simply put: `alias docker=podman`.
-> More information: <https://docs.podman.io/en/latest/Commands.html>.
+> More information: <https://docs.podman.io/en/latest/markdown/podman.1.html>.
 
 - List all containers (both running and stopped):
 

@@ -13,7 +13,7 @@
 
 - Toon de naam en reductiepercentage voor elk gecomprimeerd bestand:
 
-`gzip {{[-v|--verbose]}} {{pad/naar/bestand.gz}}`
+`gzip {{[-v|--verbose]}} {{pad/naar/bestand}}`
 
 - Comprimeer een bestand en behoud het originele bestand:
 
