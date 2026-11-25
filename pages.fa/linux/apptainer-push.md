@@ -1,7 +1,7 @@
 # apptainer push
 
 > ارسال تصاویر کانتینر به رجیستری‌های راه دور.
-> همچنین ببینید: `apptainer-pull`.
+> همچنین : `apptainer-pull`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_push.html>.
 
 - ارسال یک کانتینر به کتابخانهٔ کانتینر:

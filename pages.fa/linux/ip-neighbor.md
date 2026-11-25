@@ -1,7 +1,7 @@
 # ip neighbor
 
 > زیردستور IP برای مدیریت جدول‌های همسایه، ARP و NDP.
-> همچنین ببینید: `arp-scan`.
+> همچنین : `arp-scan`.
 > اطلاعات بیشتر: <https://manned.org/ip-neighbour>.
 
 - نمایش مدخل‌های جدول همسایه یا ARP:

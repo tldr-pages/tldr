@@ -1,7 +1,7 @@
 # lsinitcpio
 
 > مشاهدهٔ محتویات تصویر initramfs.
-> همچنین ببینید: `mkinitcpio`.
+> همچنین : `mkinitcpio`.
 > اطلاعات بیشتر: <https://manned.org/lsinitcpio>.
 
 - مشاهدهٔ فهرست همهٔ فایل‌ها و دایرکتوری‌های تصویر مشخص:

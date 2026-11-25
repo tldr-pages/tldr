@@ -1,7 +1,7 @@
 # distrobox-upgrade
 
 > ارتقای یک یا چند کانتینر Distrobox.
-> همچنین ببینید: `distrobox`.
+> همچنین : `distrobox`.
 > اطلاعات بیشتر: <https://distrobox.it/usage/distrobox-upgrade/>.
 
 - ارتقای یک کانتینر با مدیر بستهٔ بومی آن:

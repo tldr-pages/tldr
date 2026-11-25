@@ -1,7 +1,7 @@
 # debtap
 
 > تبدیل بسته‌های دبیان به بسته‌های آرچ لینوکس.
-> همچنین ببینید: `pacman-upgrade`.
+> همچنین : `pacman-upgrade`.
 > اطلاعات بیشتر: <https://github.com/helixarch/debtap#available-options>.
 
 - به‌روزرسانی پایگاه دادهٔ debtap پیش از نخستین اجرا:

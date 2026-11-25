@@ -1,7 +1,7 @@
 # systemctl enable
 
 > فعال کردن سرویس‌های systemd.
-> همچنین ببینید: `systemctl revert`.
+> همچنین : `systemctl revert`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#enable%20UNIT%E2%80%A6>.
 
 - فعال کردن سرویس برای اجرا هنگام راه‌اندازی:

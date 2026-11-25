@@ -2,7 +2,7 @@
 
 > اجرای پوستهٔ جدید با نقش SELinux متفاوت.
 > به کاربران اجازه می‌دهد به زمینهٔ امنیتی SELinux دیگری تغییر کنند.
-> همچنین ببینید: `runcon`, `semanage user`.
+> همچنین : `runcon`, `semanage user`.
 > اطلاعات بیشتر: <https://manned.org/newrole>.
 
 - شروع پوستهٔ جدید با نقش SELinux مشخص:

@@ -1,7 +1,7 @@
 # flatpak uninstall
 
 > حذف برنامه‌ها و محیط‌های اجرای Flatpak.
-> همچنین ببینید: `flatpak install`, `flatpak update`.
+> همچنین : `flatpak install`, `flatpak update`.
 > اطلاعات بیشتر: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-uninstall>.
 
 - حذف یک برنامه یا محیط اجرا:

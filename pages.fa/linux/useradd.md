@@ -1,7 +1,7 @@
 # useradd
 
 > ایجاد کاربر جدید.
-> همچنین ببینید: `users`, `userdel`, `usermod`.
+> همچنین : `users`, `userdel`, `usermod`.
 > اطلاعات بیشتر: <https://manned.org/useradd>.
 
 - ایجاد کاربر جدید:

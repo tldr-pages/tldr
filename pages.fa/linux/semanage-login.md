@@ -1,7 +1,7 @@
 # semanage login
 
 > مدیریت نگاشت‌های ورود SELinux بین کاربران لینوکس و کاربران SELinux.
-> همچنین ببینید: `semanage user`.
+> همچنین : `semanage user`.
 > اطلاعات بیشتر: <https://manned.org/semanage-login>.
 
 - فهرست کردن همهٔ نگاشت‌های ورود:

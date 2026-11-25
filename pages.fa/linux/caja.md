@@ -1,7 +1,7 @@
 # caja
 
 > مدیریت فایل‌ها و دایرکتوری‌ها در محیط میزکار MATE.
-> همچنین ببینید: `nautilus`, `dolphin`, `thunar`, `ranger`.
+> همچنین : `nautilus`, `dolphin`, `thunar`, `ranger`.
 > اطلاعات بیشتر: <https://manned.org/caja>.
 
 - باز کردن دایرکتوری خانگی کاربر فعلی:

@@ -1,7 +1,7 @@
 # i2cdetect
 
 > پویش گذرگاه‌های I2C.
-> همچنین ببینید: `i2cdump`, `i2cget`, `i2cset`.
+> همچنین : `i2cdump`, `i2cget`, `i2cset`.
 > اطلاعات بیشتر: <https://manned.org/i2cdetect>.
 
 - فهرست کردن گذرگاه‌های فعال I2C:

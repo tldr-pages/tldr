@@ -1,7 +1,7 @@
 # apptainer registry
 
 > مدیریت احراز هویت در رجیستری‌های OCI/Docker.
-> همچنین ببینید: `apptainer pull`, `apptainer push`.
+> همچنین : `apptainer pull`, `apptainer push`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_registry.html>.
 
 - فهرست کردن همهٔ اعتبارنامه‌های پیکربندی‌شدهٔ رجیستری:

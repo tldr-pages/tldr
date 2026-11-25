@@ -1,7 +1,7 @@
 # nmcli
 
 > مدیریت پیکربندی شبکه با NetworkManager.
-> همچنین ببینید: `nmtui`, `iw`, `iwctl`.
+> همچنین : `nmtui`, `iw`, `iwctl`.
 > اطلاعات بیشتر: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - مشاهدهٔ مستندات مدیریت واسط‌های شبکه و برقراری اتصال‌های جدید Wi-Fi:

@@ -1,7 +1,7 @@
 # trace-cmd record
 
 > ضبط رویدادهای ردیابی هسته.
-> همچنین ببینید: `trace-cmd list`, `trace-cmd report`.
+> همچنین : `trace-cmd list`, `trace-cmd report`.
 > اطلاعات بیشتر: <https://manned.org/trace-cmd-record>.
 
 - ضبط ردیابی با افزونهٔ مشخص:

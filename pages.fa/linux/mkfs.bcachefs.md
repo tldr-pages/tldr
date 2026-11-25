@@ -1,7 +1,7 @@
 # mkfs.bcachefs
 
 > ایجاد فایل‌سیستم `bcachefs` داخل پارتیشن.
-> همچنین ببینید: `bcachefs`.
+> همچنین : `bcachefs`.
 > اطلاعات بیشتر: <https://bcachefs-docs.readthedocs.io/en/latest/mgmt-formatting.html>.
 
 - ایجاد فایل‌سیستم `bcachefs` داخل پارتیشن `Y` روی دستگاه `X`:

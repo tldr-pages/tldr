@@ -1,7 +1,7 @@
 # limine
 
 > راه‌انداز پیشرفته، قابل حمل و چندپروتکلی.
-> همچنین ببینید: `limine-enroll-config`, `limine-entry-tool`, `limine-snapper-sync`.
+> همچنین : `limine-enroll-config`, `limine-entry-tool`, `limine-snapper-sync`.
 > اطلاعات بیشتر: <https://codeberg.org/Limine/Limine>.
 
 - نصب Limine روی دیسکی با پارتیشن‌بندی MBR:

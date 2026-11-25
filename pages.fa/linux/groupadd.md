@@ -1,7 +1,7 @@
 # groupadd
 
 > افزودن گروه‌های کاربری به سیستم.
-> همچنین ببینید: `groups`, `groupdel`, `groupmod`.
+> همچنین : `groups`, `groupdel`, `groupmod`.
 > اطلاعات بیشتر: <https://manned.org/groupadd>.
 
 - ایجاد یک گروه جدید:

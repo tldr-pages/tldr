@@ -1,7 +1,7 @@
 # distrobox-stop
 
 > توقف یک کانتینر Distrobox.
-> همچنین ببینید: `distrobox`.
+> همچنین : `distrobox`.
 > اطلاعات بیشتر: <https://distrobox.it/usage/distrobox-stop/>.
 
 - توقف یک کانتینر Distrobox:

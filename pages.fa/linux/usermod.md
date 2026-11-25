@@ -1,7 +1,7 @@
 # usermod
 
 > تغییر حساب کاربری.
-> همچنین ببینید: `users`, `useradd`, `userdel`.
+> همچنین : `users`, `useradd`, `userdel`.
 > اطلاعات بیشتر: <https://manned.org/usermod>.
 
 - تغییر نام کاربری:

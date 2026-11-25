@@ -1,7 +1,7 @@
 # setsebool
 
 > تنظیم مقدار بولی SELinux.
-> همچنین ببینید: `semanage boolean`, `getsebool`.
+> همچنین : `semanage boolean`, `getsebool`.
 > اطلاعات بیشتر: <https://manned.org/setsebool>.
 
 - نمایش تنظیم فعلی همهٔ مقادیر بولی:

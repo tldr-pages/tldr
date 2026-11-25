@@ -1,7 +1,7 @@
 # gamescope
 
 > یک ترکیب‌گر کوچک که به‌عنوان لایهٔ بازی استفاده می‌شود.
-> همچنین ببینید: `cage`.
+> همچنین : `cage`.
 > اطلاعات بیشتر: <https://github.com/ValveSoftware/gamescope#keyboard-shortcuts>.
 
 - اجرای برنامه با gamescope در پایانه:

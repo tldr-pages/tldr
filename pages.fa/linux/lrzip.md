@@ -1,7 +1,7 @@
 # lrzip
 
 > برنامهٔ فشرده‌سازی فایل‌های بزرگ.
-> همچنین ببینید: `lrunzip`, `lrztar`, `lrzuntar`.
+> همچنین : `lrunzip`, `lrztar`, `lrzuntar`.
 > اطلاعات بیشتر: <https://manned.org/lrzip>.
 
 - فشرده‌سازی فایل با LZMA: فشرده‌سازی کند و استخراج سریع:

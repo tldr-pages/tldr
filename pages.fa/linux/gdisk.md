@@ -1,7 +1,7 @@
 # gdisk
 
 > ابزار پارتیشن‌بندی دیسک GPT (جدول پارتیشن GUID).
-> همچنین ببینید: `cfdisk`, `fdisk`, `parted`.
+> همچنین : `cfdisk`, `fdisk`, `parted`.
 > اطلاعات بیشتر: <https://manned.org/gdisk>.
 
 - فهرست کردن پارتیشن‌ها با `-l`:

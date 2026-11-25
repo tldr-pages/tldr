@@ -1,7 +1,7 @@
 # semodule
 
 > مدیریت ماژول‌های سیاست SELinux.
-> همچنین ببینید: `audit2allow`, `semanage`.
+> همچنین : `audit2allow`, `semanage`.
 > اطلاعات بیشتر: <https://manned.org/semodule>.
 
 - فهرست کردن همهٔ ماژول‌های سیاست نصب‌شده:

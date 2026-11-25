@@ -1,7 +1,7 @@
 # parted
 
 > برنامهٔ تغییر پارتیشن‌ها.
-> همچنین ببینید: `parted.interactive`, `cfdisk`, `partprobe`.
+> همچنین : `parted.interactive`, `cfdisk`, `partprobe`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/parted/manual/parted.html#Invoking-Parted>.
 
 - فهرست کردن پارتیشن‌های همهٔ دستگاه‌های بلوکی:

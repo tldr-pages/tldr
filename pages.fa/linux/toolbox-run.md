@@ -1,7 +1,7 @@
 # toolbox run
 
 > اجرای دستور در کانتینر موجود Toolbx.
-> همچنین ببینید: `toolbox enter`.
+> همچنین : `toolbox enter`.
 > اطلاعات بیشتر: <https://manned.org/toolbox-run>.
 
 - اجرای دستور داخل کانتینر مشخص Toolbx:

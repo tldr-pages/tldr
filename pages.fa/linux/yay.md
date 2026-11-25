@@ -1,7 +1,7 @@
 # yay
 
 > Yet Another Yogurt: ساخت و نصب بسته‌ها از مخزن کاربری Arch.
-> همچنین ببینید: `pacman`.
+> همچنین : `pacman`.
 > اطلاعات بیشتر: <https://github.com/Jguer/yay#first-use>.
 
 - جست‌وجو و نصب تعاملی بسته‌ها از مخازن و AUR:

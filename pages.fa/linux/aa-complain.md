@@ -1,7 +1,7 @@
 # aa-complain
 
 > تنظیم یک سیاست AppArmor در حالت گزارش تخلف (complain).
-> همچنین ببینید: `aa-disable`, `aa-enforce`, `aa-status`.
+> همچنین : `aa-disable`, `aa-enforce`, `aa-status`.
 > اطلاعات بیشتر: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-complain.8>.
 
 - تنظیم سیاست در حالت گزارش تخلف:

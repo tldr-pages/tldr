@@ -1,7 +1,7 @@
 # atop
 
 > پایشگر سیستم و فرایندهای لینوکس.
-> همچنین ببینید: `htop`, `top`, `btop`, `btm`, `glances`.
+> همچنین : `htop`, `top`, `btop`, `btm`, `glances`.
 > اطلاعات بیشتر: <https://manned.org/atop>.
 
 - شروع:

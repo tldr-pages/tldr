@@ -2,7 +2,7 @@
 
 > ایجاد یا حذف نگاشت‌های رمزگشایی‌شدهٔ حجم‌های رمزگذاری‌شده. معادل `cryptsetup open` و `cryptsetup close`.
 > آرگومان‌های این دستور دقیقاً مانند یک خط در `/etc/crypttab` نوشته می‌شوند. systemd از آن برای باز کردن دستگاه‌ها هنگام راه‌اندازی استفاده می‌کند.
-> همچنین ببینید: `cryptsetup`.
+> همچنین : `cryptsetup`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cryptsetup.html>.
 
 - باز کردن حجم LUKS و ایجاد نگاشت رمزگشایی‌شده در `/dev/mapper/mapping_name`:

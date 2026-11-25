@@ -1,7 +1,7 @@
 # systemctl preset
 
 > بازنشانی وضعیت فعال‌سازی فایل‌های واحد به مقادیر پیش‌فرض مشخص‌شده در فایل‌های سیاست پیش‌تنظیم.
-> همچنین ببینید: `systemctl preset-all`, `systemctl list-unit-files`.
+> همچنین : `systemctl preset-all`, `systemctl list-unit-files`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#preset%20UNIT%E2%80%A6>.
 
 - بازنشانی وضعیت فعال‌سازی به پیش‌فرض‌های پیش‌تنظیم:

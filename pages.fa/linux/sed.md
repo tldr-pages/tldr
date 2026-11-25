@@ -1,7 +1,7 @@
 # sed
 
 > ویرایشگر جریان GNU برای فیلتر و تبدیل متن.
-> همچنین ببینید: `awk`, `ed`.
+> همچنین : `awk`, `ed`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - جایگزینی همهٔ موارد «apple» با «mango» در همهٔ خط‌ها و چاپ در `stdout`:

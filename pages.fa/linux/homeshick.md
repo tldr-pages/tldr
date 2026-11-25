@@ -1,7 +1,7 @@
 # homeshick
 
 > همگام‌سازی فایل‌های پیکربندی نقطه‌ای با Git.
-> همچنین ببینید: `chezmoi`, `stow`, `tuckr`, `vcsh`.
+> همچنین : `chezmoi`, `stow`, `tuckr`, `vcsh`.
 > اطلاعات بیشتر: <https://github.com/andsens/homeshick/wiki>.
 
 - ایجاد یک castle جدید:

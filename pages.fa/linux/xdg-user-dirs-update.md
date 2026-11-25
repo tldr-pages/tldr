@@ -1,7 +1,7 @@
 # xdg-user-dirs-update
 
 > به‌روزرسانی دایرکتوری‌های کاربر XDG.
-> همچنین ببینید: `xdg-user-dir`.
+> همچنین : `xdg-user-dir`.
 > اطلاعات بیشتر: <https://manned.org/xdg-user-dirs-update>.
 
 - تغییر دایرکتوری DESKTOP مربوط به XDG به دایرکتوری مشخص:

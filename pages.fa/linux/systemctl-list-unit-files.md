@@ -1,7 +1,7 @@
 # systemctl list-unit-files
 
 > فهرست کردن فایل‌های واحد نصب‌شده و وضعیت فعال‌سازی آن‌ها.
-> همچنین ببینید: `systemctl list-units`.
+> همچنین : `systemctl list-units`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-unit-files%20PATTERN%E2%80%A6>.
 
 - فهرست کردن فایل‌های واحد نصب‌شده و وضعیت آن‌ها:

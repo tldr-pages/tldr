@@ -1,7 +1,7 @@
 # pdfdetach
 
 > فهرست یا استخراج پیوست‌ها (فایل‌های جاسازی‌شده) از فایل PDF.
-> همچنین ببینید: `pdfattach`, `pdfimages`, `pdfinfo`.
+> همچنین : `pdfattach`, `pdfimages`, `pdfinfo`.
 > اطلاعات بیشتر: <https://manned.org/pdfdetach>.
 
 - فهرست کردن همهٔ پیوست‌های فایل با رمزگذاری متن مشخص:

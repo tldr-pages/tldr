@@ -1,7 +1,7 @@
 # tload
 
 > نمایش میانگین بار سیستم با هنر ASCII.
-> همچنین ببینید: `uptime`, `w`, `top`, `ps`.
+> همچنین : `uptime`, `w`, `top`, `ps`.
 > اطلاعات بیشتر: <https://manned.org/tload>.
 
 - اجرای tload:

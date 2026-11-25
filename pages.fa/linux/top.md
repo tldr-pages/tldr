@@ -1,7 +1,7 @@
 # top
 
 > نمایش اطلاعات پویا و بلادرنگ فرایندهای در حال اجرا.
-> همچنین ببینید: `htop`, `atop`, `glances`, `btop`, `btm`.
+> همچنین : `htop`, `atop`, `glances`, `btop`, `btm`.
 > اطلاعات بیشتر: <https://manned.org/top>.
 
 - شروع `top`:

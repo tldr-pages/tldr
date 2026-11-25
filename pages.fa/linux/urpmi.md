@@ -1,7 +1,7 @@
 # urpmi
 
 > نصب بسته‌ها در Mageia.
-> همچنین ببینید: `urpmi.update`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
+> همچنین : `urpmi.update`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > اطلاعات بیشتر: <https://man.linuxreviews.org/man8/urpmi.8.html>.
 
 - نصب بسته از مخزن یا فایل RPM محلی:

@@ -1,7 +1,7 @@
 # semanage user
 
 > مدیریت نگاشت‌های کاربر SELinux.
-> همچنین ببینید: `semanage login`.
+> همچنین : `semanage login`.
 > اطلاعات بیشتر: <https://manned.org/semanage-user>.
 
 - فهرست کردن همهٔ کاربران SELinux:

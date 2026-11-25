@@ -1,7 +1,7 @@
 # sbpctl
 
 > مدیریت راه‌انداز systemd-boot-password، انشعابی از systemd-boot با ویرایشگر محافظت‌شده با رمز عبور.
-> همچنین ببینید: `bootctl`.
+> همچنین : `bootctl`.
 > اطلاعات بیشتر: <https://github.com/kitsunyan/systemd-boot-password#boot-manager-installing-and-configuration>.
 
 - نصب راه‌انداز در پارتیشن سیستمی EFI:

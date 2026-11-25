@@ -1,7 +1,7 @@
 # fwupdtool
 
 > به‌روزرسانی دستی میان‌افزار دستگاه یا تغییر فایل‌های میان‌افزار.
-> همچنین ببینید: `fwupdmgr`.
+> همچنین : `fwupdmgr`.
 > اطلاعات بیشتر: <https://github.com/fwupd/fwupd/blob/main/src/fwupdtool.md>.
 
 - نمایش همهٔ دستگاه‌های شناسایی‌شده توسط `fwupd`:

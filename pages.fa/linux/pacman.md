@@ -2,7 +2,7 @@
 
 > ابزار مدیریت بستهٔ Arch Linux.
 > برای دستورهای معادل در سایر مدیران بسته، <https://wiki.archlinux.org/title/Pacman/Rosetta> را ببینید.
-> همچنین ببینید: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
+> همچنین : `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > اطلاعات بیشتر: <https://manned.org/pacman.8>.
 
 - همگام‌سازی و به‌روزرسانی همهٔ بسته‌ها:

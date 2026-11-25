@@ -1,7 +1,7 @@
 # alpaca
 
 > یک رابط گرافیکی برای گفت‌وگو با مدل‌های Ollama.
-> همچنین ببینید: `ollama`.
+> همچنین : `ollama`.
 > اطلاعات بیشتر: <https://jeffser.com/alpaca/launch-options.html>.
 
 - اجرای Alpaca و شروع یک گفت‌وگوی جدید:

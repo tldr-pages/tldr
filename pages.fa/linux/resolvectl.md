@@ -2,7 +2,7 @@
 
 > حل نام دامنه، آدرس‌های IPv4 و IPv6، رکوردهای منبع DNS و سرویس‌ها.
 > توجه: `systemd-resolved.service` باید در حال اجرا باشد.
-> همچنین ببینید: `dig`, `nslookup`, `host`.
+> همچنین : `dig`, `nslookup`, `host`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - نمایش تنظیمات DNS:

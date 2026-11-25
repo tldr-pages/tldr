@@ -1,7 +1,7 @@
 # flatpak history
 
 > نمایش تاریخچهٔ تغییرات نصب‌های Flatpak در سیستم.
-> همچنین ببینید: `journalctl`.
+> همچنین : `journalctl`.
 > اطلاعات بیشتر: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-history>.
 
 - نمایش همهٔ موارد تاریخچهٔ Flatpak:

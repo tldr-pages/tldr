@@ -1,7 +1,7 @@
 # systemd-cgtop
 
 > نمایش گروه‌های کنترل برتر سلسله‌مراتب محلی لینوکس، مرتب‌شده بر اساس بار CPU، حافظه یا ورودی/خروجی دیسک.
-> همچنین ببینید: `top`.
+> همچنین : `top`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cgtop.html>.
 
 - شروع نمای تعاملی:

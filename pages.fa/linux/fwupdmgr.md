@@ -1,7 +1,7 @@
 # fwupdmgr
 
 > به‌روزرسانی میان‌افزار دستگاه‌ها، از جمله UEFI، با استفاده از `fwupd`.
-> همچنین ببینید: `fwupdtool`.
+> همچنین : `fwupdtool`.
 > اطلاعات بیشتر: <https://github.com/fwupd/fwupd/blob/main/src/fwupdmgr.md>.
 
 - نمایش همهٔ دستگاه‌های شناسایی‌شده توسط `fwupd`:

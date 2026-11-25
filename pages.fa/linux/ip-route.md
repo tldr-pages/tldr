@@ -1,7 +1,7 @@
 # ip route
 
 > زیردستور مدیریت جدول مسیریابی IP.
-> همچنین ببینید: `routel`, `ip rule`.
+> همچنین : `routel`, `ip rule`.
 > اطلاعات بیشتر: <https://manned.org/ip-route>.
 
 - نمایش جدول مسیریابی `main`:

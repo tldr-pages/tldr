@@ -1,7 +1,7 @@
 # urpme
 
 > حذف نصب بسته‌ها در Mageia.
-> همچنین ببینید: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
+> همچنین : `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > اطلاعات بیشتر: <https://man.linuxreviews.org/man8/urpme.8.html>.
 
 - حذف نصب بسته:

@@ -1,7 +1,7 @@
 # podlet
 
 > تولید فایل‌های Quadlet مربوط به Podman از دستور Podman، فایل compose یا شیء موجود.
-> همچنین ببینید: `podman`.
+> همچنین : `podman`.
 > اطلاعات بیشتر: <https://github.com/containers/podlet>.
 
 - تولید Quadlet معادل برای دستور podman:

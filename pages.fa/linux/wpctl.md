@@ -2,7 +2,7 @@
 
 > مدیریت WirePlumber، مدیر نشست و سیاست برای PipeWire.
 > توجه: برای عمل روی خروجی پیش‌فرض می‌توانید از نام ویژهٔ `@DEFAULT_SINK@` به‌جای `id` استفاده کنید.
-> همچنین ببینید: `pw-cli`.
+> همچنین : `pw-cli`.
 > اطلاعات بیشتر: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - فهرست کردن همهٔ اشیای مدیریت‌شده توسط WirePlumber:

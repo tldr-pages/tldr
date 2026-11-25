@@ -2,7 +2,7 @@
 
 > تولید قواعد مجازسازی سیاست SELinux از گزارش‌های ممیزی.
 > بخشی از بستهٔ `policycoreutils-python-utils` است.
-> همچنین ببینید: `audit2why`, `ausearch`, `semodule`.
+> همچنین : `audit2why`, `ausearch`, `semodule`.
 > اطلاعات بیشتر: <https://manned.org/audit2allow>.
 
 - تولید و نمایش قواعد مجازسازی از موارد رد دسترسی اخیر در گزارش‌های ممیزی:

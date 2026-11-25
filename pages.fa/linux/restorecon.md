@@ -1,7 +1,7 @@
 # restorecon
 
 > بازیابی زمینهٔ امنیتی SELinux فایل‌ها و دایرکتوری‌ها مطابق قوانین پایدار.
-> همچنین ببینید: `semanage fcontext`.
+> همچنین : `semanage fcontext`.
 > اطلاعات بیشتر: <https://manned.org/restorecon>.
 
 - مشاهدهٔ زمینهٔ امنیتی فعلی فایل یا دایرکتوری:

@@ -1,7 +1,7 @@
 # dmidecode
 
 > نمایش محتوای جدول DMI (که SMBIOS نیز نامیده می‌شود) در قالب خوانا.
-> همچنین ببینید: `inxi`, `lshw`, `hwinfo`.
+> همچنین : `inxi`, `lshw`, `hwinfo`.
 > اطلاعات بیشتر: <https://manned.org/dmidecode>.
 
 - نمایش همهٔ محتوای جدول DMI:

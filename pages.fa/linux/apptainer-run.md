@@ -2,7 +2,7 @@
 
 > اجرای اسکریپت اجرای پیش‌فرض یک کانتینر Apptainer.
 > اسکریپت اجرا در بخش `%runscript` فایل تعریف کانتینر مشخص می‌شود.
-> همچنین ببینید: `apptainer exec`, `apptainer shell`.
+> همچنین : `apptainer exec`, `apptainer shell`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_run.html>.
 
 - اجرای اسکریپت اجرای پیش‌فرض یک کانتینر:

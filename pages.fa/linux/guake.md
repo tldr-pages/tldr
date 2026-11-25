@@ -1,7 +1,7 @@
 # guake
 
 > پایانهٔ کشویی برای GNOME.
-> همچنین ببینید: `yakuake`.
+> همچنین : `yakuake`.
 > اطلاعات بیشتر: <https://manned.org/guake>.
 
 - تغییر وضعیت نمایش Guake:

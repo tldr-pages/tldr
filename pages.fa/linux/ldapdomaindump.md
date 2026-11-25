@@ -1,7 +1,7 @@
 # ldapdomaindump
 
 > استخراج اطلاعات کاربران، رایانه‌ها، گروه‌ها، سیستم‌عامل و عضویت از طریق LDAP در قالب HTML، JSON و خروجی قابل جست‌وجو با grep.
-> همچنین ببینید: `ldapsearch`.
+> همچنین : `ldapsearch`.
 > اطلاعات بیشتر: <https://github.com/dirkjanm/ldapdomaindump#usage>.
 
 - استخراج همهٔ اطلاعات با حساب LDAP مشخص:

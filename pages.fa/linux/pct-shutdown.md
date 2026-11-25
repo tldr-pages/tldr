@@ -1,7 +1,7 @@
 # pct shutdown
 
 > خاموش کردن صحیح کانتینر.
-> همچنین ببینید: `pct stop`.
+> همچنین : `pct stop`.
 > اطلاعات بیشتر: <https://pve.proxmox.com/pve-docs/pct.1.html#cli_pct_shutdown>.
 
 - خاموش کردن کانتینر:

@@ -1,7 +1,7 @@
 # amdgpu_top
 
 > ابزاری برای نمایش میزان استفاده از پردازندهٔ گرافیکی AMD و شاخص‌های سخت‌افزاری با استفاده از درایور AMDGPU.
-> همچنین ببینید: `nvtop`, `radeontop`.
+> همچنین : `nvtop`, `radeontop`.
 > اطلاعات بیشتر: <https://github.com/Umio-Yasuno/amdgpu_top#usage>.
 
 - نمایش فهرست دستگاه‌های AMDGPU:

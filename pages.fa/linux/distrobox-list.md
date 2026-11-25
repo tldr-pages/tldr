@@ -2,7 +2,7 @@
 
 > فهرست کردن همهٔ کانتینرهای Distrobox.
 > کانتینرهای Distrobox جدا از سایر کانتینرهای معمولی Podman یا Docker فهرست می‌شوند.
-> همچنین ببینید: `distrobox`.
+> همچنین : `distrobox`.
 > اطلاعات بیشتر: <https://distrobox.it/usage/distrobox-list/>.
 
 - فهرست کردن همهٔ کانتینرهای Distrobox:

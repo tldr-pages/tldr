@@ -2,7 +2,7 @@
 
 > تولید فهرست آینهٔ `pacman` برای Manjaro Linux.
 > هر بار اجرای `pacman-mirrors` نیازمند همگام‌سازی پایگاه داده و به‌روزرسانی سیستم با `sudo pacman -Syyu` است.
-> همچنین ببینید: `pacman`.
+> همچنین : `pacman`.
 > اطلاعات بیشتر: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - تولید فهرست آینه با تنظیمات پیش‌فرض:

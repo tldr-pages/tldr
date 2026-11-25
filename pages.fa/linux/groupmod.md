@@ -1,7 +1,7 @@
 # groupmod
 
 > تغییر گروه‌های کاربری موجود در سیستم.
-> همچنین ببینید: `groups`, `groupadd`, `groupdel`.
+> همچنین : `groups`, `groupadd`, `groupdel`.
 > اطلاعات بیشتر: <https://manned.org/groupmod>.
 
 - تغییر نام گروه:

@@ -1,7 +1,7 @@
 # systemctl import-environment
 
 > وارد کردن متغیرهای محیطی از پوسته به محیط systemd.
-> همچنین ببینید: `systemctl show-environment`, `systemctl unset-environment`.
+> همچنین : `systemctl show-environment`, `systemctl unset-environment`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#import-environment%20VARIABLE%E2%80%A6>.
 
 - وارد کردن متغیر:

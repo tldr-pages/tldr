@@ -1,7 +1,7 @@
 # kwrite
 
 > ویرایشگر متن پروژهٔ دسکتاپ KDE.
-> همچنین ببینید: `kate`.
+> همچنین : `kate`.
 > اطلاعات بیشتر: <https://docs.kde.org/stable_kf6/en/kate/kwrite/command-line-options.html>.
 
 - باز کردن فایل متنی:

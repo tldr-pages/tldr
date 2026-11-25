@@ -1,7 +1,7 @@
 # bluetui
 
 > مدیریت دستگاه‌های بلوتوث با رابط پایانه‌ای.
-> همچنین ببینید: `bluetoothctl`.
+> همچنین : `bluetoothctl`.
 > اطلاعات بیشتر: <https://github.com/pythops/bluetui#-usage>.
 
 - شروع برنامه:

@@ -2,7 +2,7 @@
 
 > سرویسی که ایجاد فایل را پایش و زمینه‌های SELinux را خودکار بازیابی می‌کند.
 > برای دایرکتوری‌هایی که فایل‌ها اغلب با زمینهٔ نادرست ایجاد می‌شوند مفید است.
-> همچنین ببینید: `restorecon`, `semanage fcontext`.
+> همچنین : `restorecon`, `semanage fcontext`.
 > اطلاعات بیشتر: <https://manned.org/restorecond>.
 
 - شروع سرویس `restorecond`:

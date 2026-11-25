@@ -1,7 +1,7 @@
 # shelly
 
 > مدیر بستهٔ مدرن و یکپارچه برای Arch Linux.
-> همچنین ببینید: `pacman`, `paru`, `yay`.
+> همچنین : `pacman`, `paru`, `yay`.
 > اطلاعات بیشتر: <https://www.seafoam-labs.org/shelly-alpm/docs/cli-reference/>.
 
 - ارتقای همهٔ بسته‌ها از همهٔ منابع (مخزن، AUR، Flatpak، AppImage):

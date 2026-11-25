@@ -1,7 +1,7 @@
 # ytfzf
 
 > یافتن و بارگیری ویدئو و موسیقی. نوشته‌شده با پوستهٔ POSIX.
-> همچنین ببینید: `youtube-dl`, `yt-dlp`, `instaloader`.
+> همچنین : `youtube-dl`, `yt-dlp`, `instaloader`.
 > اطلاعات بیشتر: <https://manned.org/ytfzf>.
 
 - جست‌وجوی ویدئو در YouTube با پیش‌نمایش بندانگشتی:

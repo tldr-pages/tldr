@@ -1,7 +1,7 @@
 # edid-decode
 
 > تحلیل اطلاعات EDID یک نمایشگر.
-> همچنین ببینید: `get-edid`.
+> همچنین : `get-edid`.
 > اطلاعات بیشتر: <https://manned.org/edid-decode>.
 
 - مشاهدهٔ اطلاعات EDID یک نمایشگر:

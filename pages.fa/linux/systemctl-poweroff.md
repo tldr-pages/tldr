@@ -1,7 +1,7 @@
 # systemctl-poweroff
 
 > خاموش کردن سیستم.
-> همچنین ببینید: `poweroff`.
+> همچنین : `poweroff`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#poweroff>.
 
 - خاموش کردن سیستم:

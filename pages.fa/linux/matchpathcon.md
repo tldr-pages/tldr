@@ -1,7 +1,7 @@
 # matchpathcon
 
 > جست‌وجوی تنظیمات پایدار زمینهٔ امنیتی SELinux برای یک مسیر.
-> همچنین ببینید: `semanage fcontext`, `secon`, `chcon`, `restorecon`.
+> همچنین : `semanage fcontext`, `secon`, `chcon`, `restorecon`.
 > اطلاعات بیشتر: <https://manned.org/matchpathcon.8>.
 
 - جست‌وجوی تنظیمات پایدار زمینهٔ امنیتی مسیر مطلق:

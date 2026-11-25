@@ -1,7 +1,7 @@
 # df
 
 > نمایش نمای کلی استفاده از فضای دیسک سیستم فایل.
-> همچنین ببینید: `ncdu`, `duf`.
+> همچنین : `ncdu`, `duf`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - نمایش همهٔ سیستم‌های فایل و میزان استفادهٔ آن‌ها از دیسک:

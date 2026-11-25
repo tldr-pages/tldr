@@ -1,7 +1,7 @@
 # semanage interface
 
 > مدیریت تعریف‌های نوع واسط شبکهٔ SELinux.
-> همچنین ببینید: `semanage port`.
+> همچنین : `semanage port`.
 > اطلاعات بیشتر: <https://manned.org/semanage-interface>.
 
 - فهرست کردن همهٔ تعریف‌های نوع واسط:

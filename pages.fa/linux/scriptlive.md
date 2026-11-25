@@ -1,7 +1,7 @@
 # scriptlive
 
 > اجرای بلادرنگ typescript ایجادشده توسط دستور `script`.
-> همچنین ببینید: `script`.
+> همچنین : `script`.
 > اطلاعات بیشتر: <https://manned.org/scriptlive>.
 
 - اجرای بلادرنگ typescript:

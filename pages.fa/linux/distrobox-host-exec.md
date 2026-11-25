@@ -1,7 +1,7 @@
 # distrobox-host-exec
 
 > اجرای دستور روی میزبان از درون یک کانتینر Distrobox.
-> همچنین ببینید: `distrobox`.
+> همچنین : `distrobox`.
 > اطلاعات بیشتر: <https://distrobox.it/usage/distrobox-host-exec/>.
 
 - اجرای دستور روی سیستم میزبان از درون کانتینر Distrobox:

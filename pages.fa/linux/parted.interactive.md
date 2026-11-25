@@ -1,7 +1,7 @@
 # parted
 
 > برنامهٔ تغییر پارتیشن‌ها.
-> همچنین ببینید: `partprobe`.
+> همچنین : `partprobe`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/parted/parted.html>.
 
 - شروع حالت تعاملی با دیسک مشخص انتخاب‌شده:

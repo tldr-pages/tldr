@@ -1,7 +1,7 @@
 # runcon
 
 > اجرای برنامه در زمینهٔ امنیتی SELinux متفاوت.
-> همچنین ببینید: `secon`.
+> همچنین : `secon`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html>.
 
 - چاپ زمینهٔ امنیتی زمینهٔ اجرای فعلی:

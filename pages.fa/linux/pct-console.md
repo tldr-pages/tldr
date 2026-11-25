@@ -1,7 +1,7 @@
 # pct console
 
 > اتصال به TTY کانتینر.
-> همچنین ببینید: `pct enter`.
+> همچنین : `pct enter`.
 > اطلاعات بیشتر: <https://pve.proxmox.com/pve-docs/pct.1.html#cli_pct_console>.
 
 - اتصال به ترمینال:

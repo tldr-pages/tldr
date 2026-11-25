@@ -1,7 +1,7 @@
 # urpmf
 
 > یافتن فایل‌ها در بسته‌ها و پرس‌وجوی اطلاعات آن‌ها در Mageia.
-> همچنین ببینید: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmi.update`, `urpmq`.
+> همچنین : `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmi.update`, `urpmq`.
 > اطلاعات بیشتر: <https://man.linuxreviews.org/man8/urpmf.8.html>.
 
 - جست‌وجوی بسته‌های حاوی فایل:

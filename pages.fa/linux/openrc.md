@@ -1,7 +1,7 @@
 # openrc
 
 > مدیر سرویس OpenRC.
-> همچنین ببینید: `rc-status`, `rc-update`, `rc-service`.
+> همچنین : `rc-status`, `rc-update`, `rc-service`.
 > اطلاعات بیشتر: <https://wiki.gentoo.org/wiki/OpenRC>.
 
 - تغییر به سطح اجرای مشخص:

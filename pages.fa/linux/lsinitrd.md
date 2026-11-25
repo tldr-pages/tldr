@@ -1,7 +1,7 @@
 # lsinitrd
 
 > نمایش محتویات تصویر initramfs.
-> همچنین ببینید: `dracut`.
+> همچنین : `dracut`.
 > اطلاعات بیشتر: <https://github.com/dracutdevs/dracut/blob/master/man/lsinitrd.1.asc>.
 
 - نمایش محتویات تصویر initramfs هستهٔ فعلی:

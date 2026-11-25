@@ -1,7 +1,7 @@
 # walker
 
 > اجراکنندهٔ برنامهٔ بومی Wayland با ارائه‌دهنده‌های قابل اتصال.
-> همچنین ببینید: `fuzzel`, `wofi`, `rofi`.
+> همچنین : `fuzzel`, `wofi`, `rofi`.
 > اطلاعات بیشتر: <https://github.com/abenz1267/walker>.
 
 - باز کردن اجراکننده:

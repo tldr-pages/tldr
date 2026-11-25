@@ -1,7 +1,7 @@
 # trace-cmd list
 
 > نمایش ردیاب‌ها، رویدادها یا گزینه‌های موجود برای ردیابی.
-> همچنین ببینید: `trace-cmd record`, `trace-cmd report`.
+> همچنین : `trace-cmd record`, `trace-cmd report`.
 > اطلاعات بیشتر: <https://manned.org/trace-cmd-list>.
 
 - فهرست کردن ردیاب‌های موجود:

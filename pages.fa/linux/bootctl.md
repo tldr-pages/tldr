@@ -1,7 +1,7 @@
 # bootctl
 
 > کنترل تنظیمات راه‌اندازی میان‌افزار EFI و مدیریت بارگذار راه‌انداز.
-> همچنین ببینید: `kernel-install`.
+> همچنین : `kernel-install`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>.
 
 - نمایش اطلاعات میان‌افزار سیستم و بارگذارهای راه‌انداز:

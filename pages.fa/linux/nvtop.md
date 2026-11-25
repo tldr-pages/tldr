@@ -1,7 +1,7 @@
 # nvtop
 
 > نمایشگر تعاملی فرایندها و وضعیت GPU مبتنی بر ncurses برای GPUهای AMD، Intel و NVIDIA.
-> همچنین ببینید: `amdgpu_top`, `radeontop`.
+> همچنین : `amdgpu_top`, `radeontop`.
 > اطلاعات بیشتر: <https://manned.org/nvtop>.
 
 - اجرای پایشگر تعاملی GPU:

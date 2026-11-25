@@ -1,7 +1,7 @@
 # systemctl is-enabled
 
 > بررسی فعال بودن فایل‌های واحد.
-> همچنین ببینید: `systemctl enable`, `systemctl disable`.
+> همچنین : `systemctl enable`, `systemctl disable`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-enabled%20UNIT%E2%80%A6>.
 
 - نمایش وضعیت فعال‌سازی:

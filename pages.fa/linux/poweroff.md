@@ -1,7 +1,7 @@
 # poweroff
 
 > خاموش کردن سیستم.
-> همچنین ببینید: `shutdown`.
+> همچنین : `shutdown`.
 > اطلاعات بیشتر: <https://manned.org/poweroff>.
 
 - خاموش کردن سیستم:

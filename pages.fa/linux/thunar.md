@@ -1,7 +1,7 @@
 # thunar
 
 > مدیر فایل گرافیکی برای محیط‌های دسکتاپ XFCE.
-> همچنین ببینید: `caja`, `dolphin`, `nautilus`, `mc`.
+> همچنین : `caja`, `dolphin`, `nautilus`, `mc`.
 > اطلاعات بیشتر: <https://docs.xfce.org/xfce/thunar/start>.
 
 - باز کردن پنجرهٔ جدید با نمایش دایرکتوری فعلی:

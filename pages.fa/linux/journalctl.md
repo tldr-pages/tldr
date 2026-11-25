@@ -1,7 +1,7 @@
 # journalctl
 
 > پرس‌وجو از گزارش systemd.
-> همچنین ببینید: `dmesg`.
+> همچنین : `dmesg`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - نمایش آخرین `n` خط و دنبال کردن پیام‌های جدید (مانند `tail --follow` برای syslog سنتی):

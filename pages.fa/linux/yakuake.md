@@ -1,7 +1,7 @@
 # yakuake
 
 > ترمینال کشویی برای KDE.
-> همچنین ببینید: `guake`.
+> همچنین : `guake`.
 > اطلاعات بیشتر: <https://manned.org/yakuake>.
 
 - شروع Yakuake:

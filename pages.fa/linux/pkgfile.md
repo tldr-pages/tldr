@@ -1,7 +1,7 @@
 # pkgfile
 
 > جست‌وجوی فایل‌های بسته‌های مخازن رسمی در سیستم‌های مبتنی بر Arch.
-> همچنین ببینید: `pacman files`.
+> همچنین : `pacman files`.
 > اطلاعات بیشتر: <https://manned.org/pkgfile>.
 
 - همگام‌سازی پایگاه دادهٔ pkgfile:

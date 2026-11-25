@@ -2,7 +2,7 @@
 
 > رابط کاربری متنی برای کنترل NetworkManager.
 > برای پیمایش از `<ArrowKeys>` و برای انتخاب گزینه از `<Enter>` استفاده کنید.
-> همچنین ببینید: `nmcli`.
+> همچنین : `nmcli`.
 > اطلاعات بیشتر: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - باز کردن رابط کاربری:

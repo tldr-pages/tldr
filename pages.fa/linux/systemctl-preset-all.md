@@ -1,7 +1,7 @@
 # systemctl preset-all
 
 > بازنشانی وضعیت فعال‌سازی همهٔ واحدهای نصب‌شده به مقادیر پیش‌فرض مشخص‌شده در فایل‌های سیاست پیش‌تنظیم.
-> همچنین ببینید: `systemctl preset`, `systemctl list-unit-files`.
+> همچنین : `systemctl preset`, `systemctl list-unit-files`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#preset-all>.
 
 - بازنشانی وضعیت فعال‌سازی همهٔ واحدهای نصب‌شده:

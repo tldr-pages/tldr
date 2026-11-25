@@ -1,7 +1,7 @@
 # bspc
 
 > پیکربندی و کنترل `bspwm` و مدیریت گره‌ها، میزکارها، نمایشگرها و موارد دیگر.
-> همچنین ببینید: `bspwm`.
+> همچنین : `bspwm`.
 > اطلاعات بیشتر: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - تعریف دو میزکار مجازی:

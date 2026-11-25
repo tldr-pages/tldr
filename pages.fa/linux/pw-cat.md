@@ -1,7 +1,7 @@
 # pw-cat
 
 > پخش و ضبط فایل‌های صوتی از طریق PipeWire.
-> همچنین ببینید: `wpctl`, `pw-cli`.
+> همچنین : `wpctl`, `pw-cli`.
 > اطلاعات بیشتر: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - پخش فایل WAV روی مقصد پیش‌فرض:

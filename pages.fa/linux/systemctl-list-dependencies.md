@@ -1,7 +1,7 @@
 # systemctl list-dependencies
 
 > نمایش درخت وابستگی واحد در systemd.
-> همچنین ببینید: `systemctl list-units`.
+> همچنین : `systemctl list-units`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-dependencies%20UNIT%E2%80%A6>.
 
 - نمایش درخت وابستگی `default.target`:

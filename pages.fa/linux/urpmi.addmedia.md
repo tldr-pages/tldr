@@ -2,7 +2,7 @@
 
 > افزودن رسانه در Mageia.
 > توجه: مستندات Mageia واژه‌های رسانه و مخزن را مترادف به کار می‌برند.
-> همچنین ببینید: `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
+> همچنین : `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > اطلاعات بیشتر: <https://man.linuxreviews.org/man8/urpmi.addmedia.8.html>.
 
 - افزودن رسانه:

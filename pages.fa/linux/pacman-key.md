@@ -1,7 +1,7 @@
 # pacman-key
 
 > اسکریپت واسط GnuPG برای مدیریت حلقهٔ کلید pacman.
-> همچنین ببینید: `pacman`.
+> همچنین : `pacman`.
 > اطلاعات بیشتر: <https://manned.org/pacman-key>.
 
 - مقداردهی اولیهٔ حلقهٔ کلید `pacman`:

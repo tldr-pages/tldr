@@ -1,7 +1,7 @@
 # pactrans
 
 > نصب، حذف و ارتقای بسته‌های ALPM.
-> همچنین ببینید: `pacinstall`, `pacremove`.
+> همچنین : `pacinstall`, `pacremove`.
 > اطلاعات بیشتر: <https://github.com/andrewgregory/pacutils/blob/master/doc/pactrans.pod>.
 
 - نصب بسته از مخزن:

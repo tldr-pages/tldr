@@ -1,7 +1,7 @@
 # chcon
 
 > تغییر زمینهٔ امنیتی SELinux برای یک یا چند فایل یا دایرکتوری.
-> همچنین ببینید: `secon`, `restorecon`, `semanage fcontext`.
+> همچنین : `secon`, `restorecon`, `semanage fcontext`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - مشاهدهٔ زمینهٔ امنیتی یک فایل:

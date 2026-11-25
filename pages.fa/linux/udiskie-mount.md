@@ -1,7 +1,7 @@
 # udiskie-mount
 
 > سوار کردن دستی دستگاه‌ها با udiskie.
-> همچنین ببینید: `udiskie`, `udiskie-umount`.
+> همچنین : `udiskie`, `udiskie-umount`.
 > اطلاعات بیشتر: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - سوار کردن همهٔ دستگاه‌های قابل رسیدگی:

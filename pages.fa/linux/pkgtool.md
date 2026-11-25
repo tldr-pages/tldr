@@ -1,7 +1,7 @@
 # pkgtool
 
 > ابزار تعاملی مبتنی بر منو برای مدیریت بسته‌های Slackware.
-> همچنین ببینید: `installpkg`, `removepkg`, `upgradepkg`, `makepkg`.
+> همچنین : `installpkg`, `removepkg`, `upgradepkg`, `makepkg`.
 > اطلاعات بیشتر: <https://www.slackbook.org/html/book.html#PACKAGE-MANAGEMENT-PACKAGE-UTILITIES-PKGTOOL>.
 
 - اجرای ابزار تعاملی بسته:

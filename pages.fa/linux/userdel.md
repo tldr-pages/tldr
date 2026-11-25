@@ -1,7 +1,7 @@
 # userdel
 
 > حذف حساب کاربری یا حذف کاربر از گروه.
-> همچنین ببینید: `users`, `useradd`, `usermod`.
+> همچنین : `users`, `useradd`, `usermod`.
 > اطلاعات بیشتر: <https://manned.org/userdel>.
 
 - حذف کاربر:

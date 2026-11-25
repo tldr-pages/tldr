@@ -1,7 +1,7 @@
 # cec-ctl
 
 > کنترل دستگاه‌های CEC هسته.
-> همچنین ببینید: `cec-client`.
+> همچنین : `cec-client`.
 > اطلاعات بیشتر: <https://manned.org/cec-ctl>.
 
 - فهرست کردن دستگاه‌های CEC:

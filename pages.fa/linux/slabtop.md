@@ -1,7 +1,7 @@
 # slabtop
 
 > نمایش بلادرنگ اطلاعات حافظهٔ نهان slab هسته.
-> همچنین ببینید: `top`, `htop`, `atop`.
+> همچنین : `top`, `htop`, `atop`.
 > اطلاعات بیشتر: <https://manned.org/slabtop>.
 
 - شروع `slabtop`:

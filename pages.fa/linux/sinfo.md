@@ -1,7 +1,7 @@
 # sinfo
 
 > مشاهدهٔ اطلاعات گره‌ها و پارتیشن‌های Slurm.
-> همچنین ببینید: `squeue`, `sbatch`.
+> همچنین : `squeue`, `sbatch`.
 > اطلاعات بیشتر: <https://slurm.schedmd.com/sinfo.html>.
 
 - نمایش خلاصهٔ سریع خوشه:

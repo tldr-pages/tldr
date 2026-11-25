@@ -1,7 +1,7 @@
 # apptainer sign
 
 > افزودن امضای دیجیتال به یک تصویر کانتینر SIF.
-> همچنین ببینید: `apptainer-verify`.
+> همچنین : `apptainer-verify`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_sign.html>.
 
 - امضای یک تصویر کانتینر با کلید PGP پیش‌فرض:

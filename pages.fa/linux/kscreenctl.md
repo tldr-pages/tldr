@@ -1,7 +1,7 @@
 # kscreenctl
 
 > مدیریت خروجی‌های نمایشگر در KDE Plasma.
-> همچنین ببینید: `kscreen-doctor`, `kscreen-console`.
+> همچنین : `kscreen-doctor`, `kscreen-console`.
 > اطلاعات بیشتر: <https://invent.kde.org/plasma/kscreen>.
 
 - فهرست کردن همهٔ خروجی‌های متصل:

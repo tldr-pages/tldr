@@ -1,7 +1,7 @@
 # apptainer shell
 
 > شروع یک پوستهٔ تعاملی درون کانتینر Apptainer.
-> همچنین ببینید: `apptainer exec`, `apptainer run`.
+> همچنین : `apptainer exec`, `apptainer run`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_shell.html>.
 
 - شروع یک پوستهٔ تعاملی درون کانتینر:

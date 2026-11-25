@@ -2,7 +2,7 @@
 
 > تحلیل و توضیح پیام‌های رد دسترسی AVC در SELinux.
 > بخشی از بستهٔ `setroubleshoot-server`.
-> همچنین ببینید: `audit2why`, `ausearch`, `audit2allow`.
+> همچنین : `audit2why`, `ausearch`, `audit2allow`.
 > اطلاعات بیشتر: <https://manned.org/sealert>.
 
 - تحلیل همهٔ رد دسترسی‌های اخیر SELinux:

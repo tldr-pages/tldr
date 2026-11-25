@@ -1,7 +1,7 @@
 # lshw
 
 > فهرست کردن اطلاعات مفصل پیکربندی سخت‌افزار با کاربر root.
-> همچنین ببینید: `inxi`, `hwinfo`, `dmidecode`.
+> همچنین : `inxi`, `hwinfo`, `dmidecode`.
 > اطلاعات بیشتر: <https://ezix.org/project/wiki/HardwareLiSter>.
 
 - اجرای رابط گرافیکی X11 (در صورت وجود):

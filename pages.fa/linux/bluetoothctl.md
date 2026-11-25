@@ -1,7 +1,7 @@
 # bluetoothctl
 
 > مدیریت دستگاه‌های بلوتوث.
-> همچنین ببینید: `bluetui`.
+> همچنین : `bluetui`.
 > اطلاعات بیشتر: <https://manned.org/bluetoothctl>.
 
 - ورود به پوستهٔ تعاملی `bluetoothctl`:

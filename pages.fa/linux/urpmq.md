@@ -1,7 +1,7 @@
 # urpmq
 
 > پرس‌وجوی اطلاعات بسته‌ها و رسانه‌ها در Mageia.
-> همچنین ببینید: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.
+> همچنین : `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.
 > اطلاعات بیشتر: <https://man.linuxreviews.org/man8/urpmq.8.html>.
 
 - نمایش اطلاعات بستهٔ قابل نصب:

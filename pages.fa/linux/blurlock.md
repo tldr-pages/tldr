@@ -1,7 +1,7 @@
 # blurlock
 
 > یک رابط ساده برای قفل‌کنندهٔ صفحهٔ i3 به نام `i3lock` که صفحه را محو می‌کند.
-> همچنین ببینید: `i3lock`.
+> همچنین : `i3lock`.
 > اطلاعات بیشتر: <https://gitlab.manjaro.org/packages/extra/i3exit/-/blob/master/blurlock>.
 
 - قفل کردن صفحه با یک تصویر محوشده از صفحهٔ فعلی:

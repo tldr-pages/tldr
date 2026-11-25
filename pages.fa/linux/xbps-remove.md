@@ -1,7 +1,7 @@
 # xbps-remove
 
 > ابزار XBPS برای حذف بسته‌ها.
-> همچنین ببینید: `xbps`.
+> همچنین : `xbps`.
 > اطلاعات بیشتر: <https://manned.org/xbps-remove>.
 
 - حذف بسته:

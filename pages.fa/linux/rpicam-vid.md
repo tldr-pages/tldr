@@ -1,7 +1,7 @@
 # rpicam-vid
 
 > ضبط ویدئو با دوربین Raspberry Pi.
-> همچنین ببینید: `vlc`.
+> همچنین : `vlc`.
 > اطلاعات بیشتر: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-vid>.
 
 - ضبط ویدئوی ۱۰ ثانیه‌ای:

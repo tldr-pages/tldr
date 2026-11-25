@@ -1,7 +1,7 @@
 # pw-top
 
 > مشاهدهٔ آمار گره‌ها و دستگاه‌های PipeWire به‌صورت بلادرنگ.
-> همچنین ببینید: `pipewire`, `pw-dump`, `pw-cli`, `pw-profiler`.
+> همچنین : `pipewire`, `pw-dump`, `pw-cli`, `pw-profiler`.
 > اطلاعات بیشتر: <https://docs.pipewire.org/page_man_pw-top_1.html>.
 
 - نمایش نمای تعاملی گره‌ها و دستگاه‌های PipeWire:

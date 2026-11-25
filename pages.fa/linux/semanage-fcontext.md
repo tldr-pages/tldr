@@ -1,7 +1,7 @@
 # semanage fcontext
 
 > مدیریت قوانین پایدار زمینهٔ امنیتی SELinux برای فایل‌ها و دایرکتوری‌ها.
-> همچنین ببینید: `matchpathcon`, `secon`, `chcon`, `restorecon`.
+> همچنین : `matchpathcon`, `secon`, `chcon`, `restorecon`.
 > اطلاعات بیشتر: <https://manned.org/semanage-fcontext>.
 
 - فهرست کردن همهٔ قوانین برچسب‌گذاری فایل:

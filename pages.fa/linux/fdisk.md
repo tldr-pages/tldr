@@ -1,7 +1,7 @@
 # fdisk
 
 > مدیریت جدول‌های پارتیشن و پارتیشن‌های یک درایو ذخیره‌سازی.
-> همچنین ببینید: `partprobe`, `parted`, `cfdisk`.
+> همچنین : `partprobe`, `parted`, `cfdisk`.
 > اطلاعات بیشتر: <https://manned.org/fdisk>.
 
 - فهرست کردن پارتیشن‌ها:

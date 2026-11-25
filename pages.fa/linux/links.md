@@ -1,7 +1,7 @@
 # links
 
 > مرورگر وب متنی خط فرمان.
-> همچنین ببینید: `links2`.
+> همچنین : `links2`.
 > اطلاعات بیشتر: <https://links.twibright.com/user_en.html#subch-browser_calibration>.
 
 - بازدید از وب‌سایت:

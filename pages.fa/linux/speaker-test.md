@@ -1,7 +1,7 @@
 # speaker-test
 
 > تولیدکنندهٔ صدای آزمون بلندگو برای ALSA.
-> همچنین ببینید: `aplay`, `arecord`, `amixer`.
+> همچنین : `aplay`, `arecord`, `amixer`.
 > اطلاعات بیشتر: <https://manned.org/speaker-test>.
 
 - آزمودن بلندگوهای پیش‌فرض با نویز صورتی:

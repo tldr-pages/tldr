@@ -1,7 +1,7 @@
 # loginctl
 
 > مدیریت مدیر ورود systemd.
-> همچنین ببینید: `lslogins`.
+> همچنین : `lslogins`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/loginctl.html>.
 
 - چاپ همهٔ نشست‌های فعلی:

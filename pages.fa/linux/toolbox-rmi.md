@@ -1,7 +1,7 @@
 # toolbox rmi
 
 > حذف تصاویر Toolbx.
-> همچنین ببینید: `toolbox rm`.
+> همچنین : `toolbox rm`.
 > اطلاعات بیشتر: <https://manned.org/toolbox-rmi>.
 
 - حذف یک یا چند تصویر Toolbx:

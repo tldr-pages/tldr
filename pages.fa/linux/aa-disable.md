@@ -1,7 +1,7 @@
 # aa-disable
 
 > غیرفعال کردن سیاست‌های امنیتی AppArmor.
-> همچنین ببینید: `aa-complain`, `aa-enforce`, `aa-status`.
+> همچنین : `aa-complain`, `aa-enforce`, `aa-status`.
 > اطلاعات بیشتر: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-disable.8>.
 
 - غیرفعال کردن پروفایل:

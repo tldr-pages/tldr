@@ -1,7 +1,7 @@
 # dolphin
 
 > مدیر فایل KDE برای مدیریت فایل‌ها و دایرکتوری‌ها.
-> همچنین ببینید: `nautilus`, `caja`, `thunar`, `ranger`.
+> همچنین : `nautilus`, `caja`, `thunar`, `ranger`.
 > اطلاعات بیشتر: <https://apps.kde.org/dolphin/>.
 
 - اجرای مدیر فایل:

@@ -1,7 +1,7 @@
 # systemctl is-failed
 
 > بررسی شکست یک یا چند واحد systemd.
-> همچنین ببینید: `systemctl is-active`, `systemctl status`.
+> همچنین : `systemctl is-active`, `systemctl status`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-failed%20PATTERN%E2%80%A6>.
 
 - بررسی وجود واحدهای شکست‌خورده:

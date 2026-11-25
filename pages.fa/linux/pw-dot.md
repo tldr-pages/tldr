@@ -1,7 +1,7 @@
 # pw-dot
 
 > ایجاد فایل‌های `.dot` از گراف PipeWire.
-> همچنین ببینید: `dot`.
+> همچنین : `dot`.
 > اطلاعات بیشتر: <https://docs.pipewire.org/page_man_pw-dot_1.html>.
 
 - تولید گراف در فایل `pw.dot`:

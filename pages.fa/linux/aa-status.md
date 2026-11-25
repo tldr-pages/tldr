@@ -1,7 +1,7 @@
 # aa-status
 
 > فهرست کردن ماژول‌های AppArmor که در حال حاضر بارگذاری شده‌اند.
-> همچنین ببینید: `aa-complain`, `aa-disable`, `aa-enforce`.
+> همچنین : `aa-complain`, `aa-disable`, `aa-enforce`.
 > اطلاعات بیشتر: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>.
 
 - بررسی وضعیت:

@@ -1,7 +1,7 @@
 # getsebool
 
 > دریافت مقدار بولی SELinux.
-> همچنین ببینید: `semanage boolean`, `setsebool`.
+> همچنین : `semanage boolean`, `setsebool`.
 > اطلاعات بیشتر: <https://manned.org/getsebool>.
 
 - نمایش تنظیم فعلی یک مقدار بولی:

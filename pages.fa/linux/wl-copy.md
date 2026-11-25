@@ -1,7 +1,7 @@
 # wl-copy
 
 > پاک کردن و کپی در کلیپ‌بورد Wayland.
-> همچنین ببینید: `wl-paste`, `xclip`.
+> همچنین : `wl-paste`, `xclip`.
 > اطلاعات بیشتر: <https://github.com/bugaevc/wl-clipboard>.
 
 - کپی متن در کلیپ‌بورد:

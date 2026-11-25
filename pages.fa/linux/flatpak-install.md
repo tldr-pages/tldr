@@ -1,7 +1,7 @@
 # flatpak install
 
 > نصب برنامه‌ها و محیط‌های اجرای Flatpak.
-> همچنین ببینید: `flatpak`, `flatpak update`, `flatpak run`.
+> همچنین : `flatpak`, `flatpak update`, `flatpak run`.
 > اطلاعات بیشتر: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-install>.
 
 - نصب یک برنامه از منبع راه دور:

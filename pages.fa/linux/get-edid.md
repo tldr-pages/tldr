@@ -1,7 +1,7 @@
 # get-edid
 
 > دریافت مشخصات نمایشگر با استفاده از پروتکل VESA VBE DDC.
-> همچنین ببینید: `edid-decode`.
+> همچنین : `edid-decode`.
 > اطلاعات بیشتر: <https://manned.org/get-edid>.
 
 - دریافت مشخصات نمایشگر:

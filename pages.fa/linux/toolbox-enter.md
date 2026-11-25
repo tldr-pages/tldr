@@ -1,7 +1,7 @@
 # toolbox enter
 
 > ورود به کانتینر Toolbx برای استفادهٔ تعاملی.
-> همچنین ببینید: `toolbox run`.
+> همچنین : `toolbox run`.
 > اطلاعات بیشتر: <https://manned.org/toolbox-enter>.
 
 - ورود به کانتینر Toolbx با تصویر پیش‌فرض توزیع مشخص:

@@ -1,7 +1,7 @@
 # wl-paste
 
 > چسباندن محتوای کلیپ‌بورد Wayland.
-> همچنین ببینید: `wl-copy`, `xclip`.
+> همچنین : `wl-copy`, `xclip`.
 > اطلاعات بیشتر: <https://github.com/bugaevc/wl-clipboard>.
 
 - چسباندن محتوای کلیپ‌بورد:

@@ -1,7 +1,7 @@
 # lrztar
 
 > واسطی برای `lrzip` جهت ساده‌سازی فشرده‌سازی دایرکتوری‌ها.
-> همچنین ببینید: `tar`, `lrzuntar`, `lrunzip`.
+> همچنین : `tar`, `lrzuntar`, `lrunzip`.
 > اطلاعات بیشتر: <https://manned.org/lrztar>.
 
 - بایگانی دایرکتوری با `tar` و سپس فشرده‌سازی آن:

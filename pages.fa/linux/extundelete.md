@@ -1,7 +1,7 @@
 # extundelete
 
 > بازیابی فایل‌های حذف‌شده از پارتیشن‌های ext3 یا ext4 با تحلیل ژورنال.
-> همچنین ببینید: `date`, `umount`.
+> همچنین : `date`, `umount`.
 > اطلاعات بیشتر: <https://extundelete.sourceforge.net/options.html>.
 
 - بازیابی همهٔ فایل‌های حذف‌شده در پارتیشن `N` از دستگاه `X`:

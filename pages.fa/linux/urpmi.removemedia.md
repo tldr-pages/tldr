@@ -2,7 +2,7 @@
 
 > حذف رسانه در Mageia.
 > توجه: مستندات Mageia واژه‌های رسانه و مخزن را مترادف به کار می‌برند.
-> همچنین ببینید: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.update`, `urpmf`, `urpmq`.
+> همچنین : `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.update`, `urpmf`, `urpmq`.
 > اطلاعات بیشتر: <https://man.linuxreviews.org/man8/urpmi.removemedia.8.html>.
 
 - حذف رسانه:

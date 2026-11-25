@@ -1,7 +1,7 @@
 # paru
 
 > ابزار کمکی AUR و واسط pacman.
-> همچنین ببینید: `pacman`, `yay`.
+> همچنین : `pacman`, `yay`.
 > اطلاعات بیشتر: <https://github.com/Morganamilo/paru#examples>.
 
 - جست‌وجو و نصب تعاملی بسته:

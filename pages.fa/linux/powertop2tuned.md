@@ -2,7 +2,7 @@
 
 > ایجاد پروفایل‌های TuneD از پیشنهادهای PowerTOP.
 > بخشی از `tuned-utils` است.
-> همچنین ببینید: `powertop`, `tuned-adm`.
+> همچنین : `powertop`, `tuned-adm`.
 > اطلاعات بیشتر: <https://docs.fedoraproject.org/en-US/quick-docs/automatic-power-management-power2top/>.
 
 - ایجاد پروفایل جدید TuneD بر اساس پیشنهادهای فعلی PowerTOP:

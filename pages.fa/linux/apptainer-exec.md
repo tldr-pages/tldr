@@ -1,7 +1,7 @@
 # apptainer exec
 
 > اجرای یک دستور درون کانتینر Apptainer.
-> همچنین ببینید: `apptainer run`, `apptainer shell`.
+> همچنین : `apptainer run`, `apptainer shell`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_exec.html>.
 
 - اجرای یک دستور درون کانتینر:

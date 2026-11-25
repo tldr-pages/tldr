@@ -1,7 +1,7 @@
 # wpexec
 
 > اجرای اسکریپت‌های Lua مربوط به WirePlumber.
-> همچنین ببینید: `wpctl`, `wireplumber`.
+> همچنین : `wpctl`, `wireplumber`.
 > اطلاعات بیشتر: <https://pipewire.pages.freedesktop.org/wireplumber/scripting/lua_api/lua_introduction.html>.
 
 - اجرای اسکریپت WirePlumber:

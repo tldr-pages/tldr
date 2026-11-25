@@ -2,7 +2,7 @@
 
 > تنظیم زمینه‌های امنیتی فایل SELinux بر اساس قوانین سیاست.
 > مشابه `restorecon` است اما زمینه‌ها را از فایل file_contexts می‌خواند.
-> همچنین ببینید: `restorecon`, `semanage fcontext`, `fixfiles`.
+> همچنین : `restorecon`, `semanage fcontext`, `fixfiles`.
 > اطلاعات بیشتر: <https://manned.org/setfiles>.
 
 - تنظیم زمینه‌های فایل مطابق فایل سیاست پیش‌فرض:

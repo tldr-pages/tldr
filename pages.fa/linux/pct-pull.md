@@ -1,7 +1,7 @@
 # pct pull
 
 > کپی فایل از کانتینر به سیستم محلی.
-> همچنین ببینید: `pct push`.
+> همچنین : `pct push`.
 > اطلاعات بیشتر: <https://pve.proxmox.com/pve-docs/pct.1.html#cli_pct_pull>.
 
 - کپی فایل از کانتینر:

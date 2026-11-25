@@ -1,7 +1,7 @@
 # semanage boolean
 
 > مدیریت تنظیمات بولی پایدار SELinux.
-> همچنین ببینید: `getsebool`, `setsebool`.
+> همچنین : `getsebool`, `setsebool`.
 > اطلاعات بیشتر: <https://manned.org/semanage-boolean>.
 
 - فهرست کردن همهٔ تنظیمات بولی:

@@ -1,7 +1,7 @@
 # cage
 
 > باز کردن برنامه‌ها در حالت کیوسک.
-> همچنین ببینید: `gamescope`.
+> همچنین : `gamescope`.
 > اطلاعات بیشتر: <https://github.com/cage-kiosk/cage/blob/master/cage.1.scd>.
 
 - اجرای یک برنامه:

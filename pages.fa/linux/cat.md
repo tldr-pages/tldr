@@ -1,7 +1,7 @@
 # cat
 
 > چاپ و به‌هم‌پیوستن فایل‌ها.
-> همچنین ببینید: `bat`.
+> همچنین : `bat`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - چاپ محتویات یک فایل در خروجی استاندارد `stdout`:

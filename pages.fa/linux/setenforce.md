@@ -2,7 +2,7 @@
 
 > تغییر SELinux بین حالت‌های enforcing و permissive.
 > برای فعال یا غیرفعال کردن SELinux به‌جای آن `/etc/selinux/config` را ویرایش کنید.
-> همچنین ببینید: `getenforce`, `semanage permissive`.
+> همچنین : `getenforce`, `semanage permissive`.
 > اطلاعات بیشتر: <https://manned.org/setenforce>.
 
 - قرار دادن SELinux در حالت enforcing:

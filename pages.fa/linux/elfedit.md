@@ -1,7 +1,7 @@
 # elfedit
 
 > به‌روزرسانی سربرگ ELF و ویژگی‌های برنامه در فایل‌های ELF.
-> همچنین ببینید: `readelf`, `objcopy`.
+> همچنین : `readelf`, `objcopy`.
 > اطلاعات بیشتر: <https://manned.org/elfedit>.
 
 - تغییر نوع ماشین یک فایل ELF:

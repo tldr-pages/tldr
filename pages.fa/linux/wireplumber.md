@@ -1,7 +1,7 @@
 # wireplumber
 
 > مدیر ماژولار نشست و سیاست برای PipeWire و کتابخانهٔ سطح‌بالای مبتنی بر GObject که API مربوط به PipeWire را دربر می‌گیرد.
-> همچنین ببینید: `wpctl`, `pipewire`.
+> همچنین : `wpctl`, `pipewire`.
 > اطلاعات بیشتر: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - شروع فوری WirePlumber همراه نشست کاربر (برای سیستم‌های systemd):

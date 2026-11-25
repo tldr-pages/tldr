@@ -2,7 +2,7 @@
 
 > نمایش میزان استفاده از GPUهای AMD.
 > بسته به سیستم ممکن است به دسترسی root نیاز باشد.
-> همچنین ببینید: `nvtop`, `amdgpu_top`.
+> همچنین : `nvtop`, `amdgpu_top`.
 > اطلاعات بیشتر: <https://github.com/clbr/radeontop/blob/master/radeontop.asc>.
 
 - نمایش میزان استفاده از GPU پیش‌فرض AMD:

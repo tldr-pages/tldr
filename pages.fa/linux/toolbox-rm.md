@@ -1,7 +1,7 @@
 # toolbox rm
 
 > حذف یک یا چند کانتینر Toolbx.
-> همچنین ببینید: `toolbox rmi`.
+> همچنین : `toolbox rmi`.
 > اطلاعات بیشتر: <https://manned.org/toolbox-rm>.
 
 - حذف کانتینر Toolbx:

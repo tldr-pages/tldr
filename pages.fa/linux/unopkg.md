@@ -2,7 +2,7 @@
 
 > مدیر افزونه‌های LibreOffice.
 > افزونه‌ها را از <https://extensions.libreoffice.org> بارگیری کنید.
-> همچنین ببینید: `libreoffice`.
+> همچنین : `libreoffice`.
 > اطلاعات بیشتر: <https://manned.org/unopkg>.
 
 - افزودن و استقرار افزونهٔ مشخص:

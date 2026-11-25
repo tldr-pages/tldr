@@ -2,7 +2,7 @@
 
 > جست‌وجوی رویدادها در گزارش ممیزی لینوکس.
 > بخشی از بستهٔ `audit` است.
-> همچنین ببینید: `audit2why`, `audit2allow`, `aureport`.
+> همچنین : `audit2why`, `audit2allow`, `aureport`.
 > اطلاعات بیشتر: <https://manned.org/ausearch>.
 
 - جست‌وجوی همهٔ رویدادهای رد دسترسی AVC در SELinux:

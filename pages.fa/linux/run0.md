@@ -2,7 +2,7 @@
 
 > افزایش تعاملی دسترسی‌ها.
 > مشابه `sudo` است، اما فایل دودویی SUID نیست، احراز هویت از طریق polkit انجام می‌شود و دستورها از سرویس `systemd` فراخوانی می‌شوند.
-> همچنین ببینید: `sudo`, `pkexec`, `doas`.
+> همچنین : `sudo`, `pkexec`, `doas`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/run0.html>.
 
 - اجرای دستور با دسترسی root:

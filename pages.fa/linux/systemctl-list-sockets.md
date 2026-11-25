@@ -1,7 +1,7 @@
 # systemctl list-sockets
 
 > فهرست کردن واحدهای سوکت فعال موجود در حافظه، مرتب‌شده بر اساس آدرس گوش دادن.
-> همچنین ببینید: `systemctl list-units`, `systemctl list-unit-files`.
+> همچنین : `systemctl list-units`, `systemctl list-unit-files`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-sockets%20PATTERN%E2%80%A6>.
 
 - فهرست کردن واحدهای سوکت فعال موجود در حافظه:

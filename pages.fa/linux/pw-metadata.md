@@ -1,7 +1,7 @@
 # pw-metadata
 
 > پایش، تنظیم و حذف فرادادهٔ اشیای PipeWire.
-> همچنین ببینید: `pipewire`, `pw-mon`, `pw-cli`.
+> همچنین : `pipewire`, `pw-mon`, `pw-cli`.
 > اطلاعات بیشتر: <https://docs.pipewire.org/page_man_pw-metadata_1.html>.
 
 - نمایش فراداده با نام `default`:

@@ -1,7 +1,7 @@
 # udiskie-umount
 
 > پیاده کردن دستی دستگاه‌ها با udiskie.
-> همچنین ببینید: `udiskie`, `udiskie-mount`.
+> همچنین : `udiskie`, `udiskie-mount`.
 > اطلاعات بیشتر: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - پیاده کردن دستگاه سوارشده:

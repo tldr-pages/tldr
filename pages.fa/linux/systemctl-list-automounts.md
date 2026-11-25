@@ -1,7 +1,7 @@
 # systemctl list-automounts
 
 > فهرست کردن واحدهای اتصال خودکار موجود در حافظه، همراه با مسیرهای اتصال و نام واحدها.
-> همچنین ببینید: `systemctl list-units`, `systemctl list-unit-files`.
+> همچنین : `systemctl list-units`, `systemctl list-unit-files`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-automounts%20PATTERN%E2%80%A6>.
 
 - فهرست کردن واحدهای اتصال خودکار موجود در حافظه:

@@ -1,7 +1,7 @@
 # dd
 
 > تبدیل و کپی یک فایل.
-> همچنین ببینید: `caligula`.
+> همچنین : `caligula`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - ایجاد یک درایو USB قابل راه‌اندازی از یک فایل isohybrid (مانند `archlinux-xxx.iso`) و نمایش پیشرفت:

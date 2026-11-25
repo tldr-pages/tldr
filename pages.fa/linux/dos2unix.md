@@ -2,7 +2,7 @@
 
 > تغییر پایان خط به سبک DOS به سبک یونیکس.
 > جایگزینی CRLF با LF.
-> همچنین ببینید: `unix2dos`, `unix2mac`, `mac2unix`.
+> همچنین : `unix2dos`, `unix2mac`, `mac2unix`.
 > اطلاعات بیشتر: <https://manned.org/dos2unix>.
 
 - تغییر پایان خط‌های یک فایل:

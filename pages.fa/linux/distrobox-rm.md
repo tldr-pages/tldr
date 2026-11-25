@@ -1,7 +1,7 @@
 # distrobox-rm
 
 > حذف یک کانتینر Distrobox.
-> همچنین ببینید: `distrobox`.
+> همچنین : `distrobox`.
 > اطلاعات بیشتر: <https://distrobox.it/usage/distrobox-rm/>.
 
 - حذف یک کانتینر Distrobox (نکته: پیش از حذف، کانتینر را متوقف کنید):

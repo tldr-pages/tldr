@@ -1,7 +1,7 @@
 # termusic
 
 > پخش‌کنندهٔ موسیقی ترمینالی نوشته‌شده با Rust که از کلیدهای میانبر مشابه vim استفاده می‌کند.
-> همچنین ببینید: `cmus`, `ncmpcpp`, `audacious`.
+> همچنین : `cmus`, `ncmpcpp`, `audacious`.
 > اطلاعات بیشتر: <https://github.com/tramhao/termusic>.
 
 - باز کردن termusic در دایرکتوری مشخص (می‌توان آن را در `~/.config/termusic/config.toml` دائمی تنظیم کرد):

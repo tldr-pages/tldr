@@ -2,7 +2,7 @@
 
 > مرورگر فایل پیش‌فرض محیط دسکتاپ GNOME.
 > با نام GNOME Files نیز شناخته می‌شود.
-> همچنین ببینید: `dolphin`, `caja`, `thunar`, `vifm`.
+> همچنین : `dolphin`, `caja`, `thunar`, `vifm`.
 > اطلاعات بیشتر: <https://manned.org/nautilus>.
 
 - اجرای Nautilus:

@@ -1,7 +1,7 @@
 # engrampa
 
 > بسته‌بندی فایل‌ها در فایل `zip` یا `.tar` در محیط میزکار MATE.
-> همچنین ببینید: `zip`, `tar`.
+> همچنین : `zip`, `tar`.
 > اطلاعات بیشتر: <https://github.com/mate-desktop/engrampa>.
 
 - شروع Engrampa:

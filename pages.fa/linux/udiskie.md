@@ -1,7 +1,7 @@
 # udiskie
 
 > ابزار اتصال خودکار در سطح کاربر برای رسانه‌های جداشدنی با udisks2.
-> همچنین ببینید: `udiskie-mount`, `udiskie-umount`.
+> همچنین : `udiskie-mount`, `udiskie-umount`.
 > اطلاعات بیشتر: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - شروع udiskie با نماد سینی و اعلان‌ها:

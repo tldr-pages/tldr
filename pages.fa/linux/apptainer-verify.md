@@ -1,7 +1,7 @@
 # apptainer verify
 
 > اعتبارسنجی امضاهای دیجیتال تصاویر کانتینر SIF.
-> همچنین ببینید: `apptainer-sign`.
+> همچنین : `apptainer-sign`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_verify.html>.
 
 - اعتبارسنجی یک تصویر کانتینر با حلقه‌کلید PGP پیش‌فرض:

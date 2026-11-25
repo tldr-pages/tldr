@@ -1,7 +1,7 @@
 # uuidgen
 
 > تولید شناسه‌های یکتا (UUID).
-> همچنین ببینید: `uuid`.
+> همچنین : `uuid`.
 > اطلاعات بیشتر: <https://manned.org/uuidgen>.
 
 - ایجاد UUIDv4 تصادفی:

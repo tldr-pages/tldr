@@ -1,7 +1,7 @@
 # upgradepkg
 
 > ارتقای بسته‌های Slackware با جایگزینی بسته‌های موجود با نسخه‌های جدید.
-> همچنین ببینید: `installpkg`, `removepkg`, `makepkg`, `pkgtool`.
+> همچنین : `installpkg`, `removepkg`, `makepkg`, `pkgtool`.
 > اطلاعات بیشتر: <https://slackware.nl/slackware/slackware64-current/source/a/pkgtools/manpages/upgradepkg.8>.
 
 - ارتقای بسته:

@@ -1,7 +1,7 @@
 # apptainer pull
 
 > دریافت تصاویر کانتینر از منابع راه دور.
-> همچنین ببینید: `apptainer-push`.
+> همچنین : `apptainer-push`.
 > اطلاعات بیشتر: <https://apptainer.org/docs/user/main/cli/apptainer_pull.html>.
 
 - دریافت یک کانتینر از Docker Hub:

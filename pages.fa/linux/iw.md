@@ -1,7 +1,7 @@
 # iw
 
 > نمایش و تغییر دستگاه‌های بی‌سیم.
-> همچنین ببینید: `nmcli`, `iwctl`.
+> همچنین : `nmcli`, `iwctl`.
 > اطلاعات بیشتر: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - پویش شبکه‌های بی‌سیم موجود:

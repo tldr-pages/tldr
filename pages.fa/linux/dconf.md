@@ -1,7 +1,7 @@
 # dconf
 
 > مدیریت پایگاه‌های دادهٔ dconf.
-> همچنین ببینید: `gsettings`.
+> همچنین : `gsettings`.
 > اطلاعات بیشتر: <https://manned.org/dconf>.
 
 - چاپ مقدار یک کلید مشخص:

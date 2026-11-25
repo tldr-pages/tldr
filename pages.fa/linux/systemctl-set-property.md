@@ -1,7 +1,7 @@
 # systemctl set-property
 
 > تنظیم ویژگی‌های مشخص واحد در زمان اجرا.
-> همچنین ببینید: `systemctl revert`.
+> همچنین : `systemctl revert`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#set-property%20UNIT%20PROPERTY=VALUE%E2%80%A6>.
 
 - تنظیم ویژگی برای سرویس در حال اجرا:

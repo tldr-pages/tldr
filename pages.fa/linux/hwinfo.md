@@ -1,7 +1,7 @@
 # hwinfo
 
 > بررسی سخت‌افزار موجود در سیستم.
-> همچنین ببینید: `inxi`, `lshw`, `dmidecode`.
+> همچنین : `inxi`, `lshw`, `dmidecode`.
 > اطلاعات بیشتر: <https://manpages.opensuse.org/hwinfo/hwinfo.8.en.html>.
 
 - نمایش همهٔ اطلاعات سخت‌افزار موجود:

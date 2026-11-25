@@ -1,7 +1,7 @@
 # pdfattach
 
 > افزودن پیوست جدید (فایل جاسازی‌شده) به فایل PDF موجود.
-> همچنین ببینید: `pdfdetach`, `pdfimages`, `pdfinfo`.
+> همچنین : `pdfdetach`, `pdfimages`, `pdfinfo`.
 > اطلاعات بیشتر: <https://manned.org/pdfattach>.
 
 - افزودن پیوست جدید به فایل PDF موجود:

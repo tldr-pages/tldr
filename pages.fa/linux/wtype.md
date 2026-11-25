@@ -1,7 +1,7 @@
 # wtype
 
 > شبیه‌سازی ورودی صفحه‌کلید در Wayland، مشابه `xdotool type` برای X11.
-> همچنین ببینید: `ydotool`.
+> همچنین : `ydotool`.
 > اطلاعات بیشتر: <https://manned.org/wtype>.
 
 - شبیه‌سازی تایپ متن:

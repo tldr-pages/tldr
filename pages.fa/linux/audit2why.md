@@ -2,7 +2,7 @@
 
 > توضیح موارد رد دسترسی SELinux بر اساس گزارش‌های ممیزی.
 > بخشی از بستهٔ `policycoreutils-python-utils` است.
-> همچنین ببینید: `audit2allow`, `ausearch`, `sealert`.
+> همچنین : `audit2allow`, `ausearch`, `sealert`.
 > اطلاعات بیشتر: <https://manned.org/audit2why>.
 
 - توضیح جدیدترین مورد رد دسترسی SELinux:

@@ -1,7 +1,7 @@
 # systemctl list-units
 
 > فهرست کردن واحدهایی که systemd اکنون در حافظه دارد.
-> همچنین ببینید: `systemctl list-unit-files`.
+> همچنین : `systemctl list-unit-files`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-units%20PATTERN%E2%80%A6>.
 
 - فهرست کردن واحدهای فعال، دارای کار در انتظار یا شکست‌خورده:

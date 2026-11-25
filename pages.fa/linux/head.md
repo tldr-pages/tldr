@@ -1,7 +1,7 @@
 # head
 
 > چاپ بخش ابتدایی فایل‌ها.
-> همچنین ببینید: `tail`.
+> همچنین : `tail`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - نمایش ۱۰ خط نخست یک فایل:

@@ -1,7 +1,7 @@
 # systemctl-halt
 
 > خاموش و متوقف کردن سیستم (توقف هستهٔ سیستم‌عامل با روشن نگه داشتن سخت‌افزار).
-> همچنین ببینید: `halt`.
+> همچنین : `halt`.
 > اطلاعات بیشتر: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#halt>.
 
 - توقف سیستم:

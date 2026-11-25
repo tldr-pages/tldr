@@ -2,7 +2,7 @@
 
 > تغییر پایان خط‌های سبک macOS به سبک Unix.
 > کاراکتر CR را با LF جایگزین می‌کند.
-> همچنین ببینید: `unix2dos`, `unix2mac`, `dos2unix`.
+> همچنین : `unix2dos`, `unix2mac`, `dos2unix`.
 > اطلاعات بیشتر: <https://manned.org/mac2unix>.
 
 - تغییر پایان خط‌های فایل:
