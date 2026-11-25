@@ -11,7 +11,7 @@
 
 `proxychains -f {{path/to/proxychains.conf}} {{program}}`
 
-- Run a program quietly:
+- Run a program without printing proxychains status messages:
 
 `proxychains -q {{program}}`
 
