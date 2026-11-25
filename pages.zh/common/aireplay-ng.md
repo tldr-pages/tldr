@@ -6,4 +6,4 @@
 
 - 向指定的接入点（AP）MAC 地址、客户端 MAC 地址和接口发送指定数量的去关联（disassociate）数据包：
 
-`sudo aireplay-ng --deauth {{count}} --bssid {{ap_mac}} --dmac {{client_mac}} {{interface}}`
+`sudo aireplay-ng {{[-0|--deauth]}} {{count}} -a {{ap_mac}} -c {{client_mac}} {{interface}}`
