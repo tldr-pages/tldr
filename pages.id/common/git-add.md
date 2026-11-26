@@ -7,6 +7,10 @@
 
 `git add {{jalan/menuju/berkas}}`
 
+- Tambahkan berkas ke status stage secara interaktif:
+
+`git add {{[-p|--patch]}}`
+
 - Tambahkan seluruh berkas (baik yang terlacak maupun tidak terlacak):
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - Tambahkan juga berkas yang diabaikan:
 
 `git add {{[-f|--force]}} {{jalan/menuju/berkas}}`
-
-- Tambahkan berkas ke status stage secara interaktif:
-
-`git add {{[-p|--patch]}}`
 
 - Tambahkan berkas tertentu ke status stage secara interaktif:
 

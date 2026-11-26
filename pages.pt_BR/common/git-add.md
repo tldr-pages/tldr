@@ -7,6 +7,10 @@
 
 `git add {{caminho/para/arquivo}}`
 
+- Interativamente adiciona partes dos arquivo:
+
+`git add {{[-p|--patch]}}`
+
 - Adiciona todos arquivos (rastreados ou não):
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - Adiciona arquivos ignorados:
 
 `git add {{[-f|--force]}} {{caminho/para/arquivo}}`
-
-- Interativamente adiciona partes dos arquivo:
-
-`git add {{[-p|--patch]}}`
 
 - Interativamente adiciona partes de um dado arquivo:
 
