@@ -11,13 +11,13 @@
 
 `sudo waydroid init`
 
+- Check the container status:
+
+`waydroid status`
+
 - Install a new Android app from a file:
 
 `waydroid app install {{path/to/file}}.apk`
-
-- Launch an Android app by its package name:
-
-`waydroid app launch {{com.example.app}}`
 
 - Start or stop the Waydroid session:
 

@@ -14,7 +14,7 @@
 
 - Caută un tipar recursiv în toate fișierele dintr-un folder, ignorând fișierele binare:
 
-`grep {{[-rI|--recursive --binary-files=without-match]}} "{{tipar_de_căutare}}" {{cale/către/folder}}`
+`grep {{[-rI|--recursive --binary-files=without-match]}} "{{tipar_de_căutare}}" {{cale/către/director}}`
 
 - Afișează 3 linii de [C]ontext (în jur, î[B]ainte sau [A]fter de fiecare potrivire):
 

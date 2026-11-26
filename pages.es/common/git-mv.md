@@ -9,8 +9,8 @@
 
 - Renombra un archivo y añade el renombre al siguiente commit:
 
-`git mv {{nombre_de_archivo}} {{nuevo_nombre_de_archivo}}`
+`git mv {{ruta/al/archivo_o_directorio}} {{nuevo_nombre_de_archivo}}`
 
 - Sobrescribe el archivo en la ruta objetivo si existe:
 
-`git mv {{[-f|--force]}} {{archivo}} {{objetivo}}`
+`git mv {{[-f|--force]}} {{ruta/al/archivo_o_directorio}} {{objetivo}}`

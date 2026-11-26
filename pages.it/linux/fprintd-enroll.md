@@ -13,11 +13,11 @@
 
 - Registra l'indice destro per un utente specifico:
 
-`fprintd-enroll {{username}}`
+`fprintd-enroll {{nome_utente}}`
 
 - Registra un dito specifico per un utente specifico:
 
-`fprintd-enroll {{[-f|--finger]}} {{finger_name}} {{username}}`
+`fprintd-enroll {{[-f|--finger]}} {{finger_name}} {{nome_utente}}`
 
 - Mostra l'aiuto:
 

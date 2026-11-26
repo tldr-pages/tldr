@@ -15,4 +15,4 @@
 
 - Proteggi il server con username e password:
 
-`calibre-server --username {{username}} --password {{password}}`
+`calibre-server --username {{nome_utente}} --password {{password}}`

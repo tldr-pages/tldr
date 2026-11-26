@@ -5,7 +5,7 @@
 
 - Scrive il valore di una chiave specifica:
 
-`dconf write /{{path/to/key}} "{{value}}"`
+`dconf write /{{path/to/key}} "{{valore}}"`
 
 - Scrive il valore di una chiave stringa specifica:
 

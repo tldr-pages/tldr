@@ -22,7 +22,7 @@
 
 - Imposta un'opzione di configurazione per un repository:
 
-`dnf config-manager --setopt={{option}}={{value}}`
+`dnf config-manager --setopt={{option}}={{valore}}`
 
 - Mostra l'aiuto:
 

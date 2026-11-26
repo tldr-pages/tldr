@@ -13,7 +13,7 @@
 
 - Tampilkan daftar nama dan persentase pengurangan beban untuk setiap berkas terkompres:
 
-`gzip {{[-v|--verbose]}} {{jalan/menuju/berkas.gz}}`
+`gzip {{[-v|--verbose]}} {{jalan/menuju/berkas}}`
 
 - Kompres sebuah berkas dengan tetap mempertahankan berkas asli:
 

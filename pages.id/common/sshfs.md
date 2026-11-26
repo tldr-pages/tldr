@@ -13,11 +13,11 @@
 
 - Kaitkan direktori jarak jauh (remote directory) dari server dengan port spesifik:
 
-`sshfs {{nama_pengguna}}@{{host_jarak_jauh}}:{{direktori_jarak_jauh}} -p {{2222}}`
+`sshfs {{nama_pengguna}}@{{host_jarak_jauh}}:{{direktori_jarak_jauh}} -p {{2222}} {{titik_kait}}`
 
 - Gunakan kompresi:
 
-`sshfs {{nama_pengguna}}@{{host_jarak_jauh}}:{{direktori_jarak_jauh}} -C`
+`sshfs {{nama_pengguna}}@{{host_jarak_jauh}}:{{direktori_jarak_jauh}} -C {{titik_kait}}`
 
 - Ikuti tautan simbolik (symbolic links):
 

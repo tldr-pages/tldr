@@ -17,7 +17,7 @@
 
 - Buat suatu pengguna baru dalam suatu kumpulan:
 
-`aws cognito-idp admin-create-user --username {{username}} --user-pool-id {{id_kumpulan_pengguna}}`
+`aws cognito-idp admin-create-user --username {{nama_pengguna}} --user-pool-id {{id_kumpulan_pengguna}}`
 
 - Tampilkan daftar pengguna dalam suatu kumpulan:
 
@@ -25,4 +25,4 @@
 
 - Hapus suatu pengguna dari suatu kumpulan:
 
-`aws cognito-idp admin-delete-user --username {{username}} --user-pool-id {{id_kumpulan_pengguna}}`
+`aws cognito-idp admin-delete-user --username {{nama_pengguna}} --user-pool-id {{id_kumpulan_pengguna}}`

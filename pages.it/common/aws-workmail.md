@@ -13,7 +13,7 @@
 
 - Crea un utente WorkMail in un'organizzazione specifica:
 
-`aws workmail create-user --name {{username}} --display-name {{name}} --password {{password}} --organization-id {{id_organizzazione}}`
+`aws workmail create-user --name {{nome_utente}} --display-name {{name}} --password {{password}} --organization-id {{id_organizzazione}}`
 
 - Registra e abilita un gruppo/utente per WorkMail:
 

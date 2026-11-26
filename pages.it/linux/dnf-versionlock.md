@@ -10,15 +10,15 @@
 
 - Aggiunge un versionlock per tutti i pacchetti disponibili che corrispondono alla specifica:
 
-`dnf versionlock add {{package}}`
+`dnf versionlock add {{pacchetto}}`
 
 - Aggiunge un'esclusione (nel versionlock) per i pacchetti disponibili che corrispondono alla specifica:
 
-`dnf versionlock exclude {{package}}`
+`dnf versionlock exclude {{pacchetto}}`
 
 - Rimuove le voci corrispondenti di versionlock:
 
-`dnf versionlock delete {{package}}`
+`dnf versionlock delete {{pacchetto}}`
 
 - Rimuove tutte le voci di versionlock:
 

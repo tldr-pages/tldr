@@ -6,4 +6,4 @@
 
 - Kirim sejumlah paket terpisah berdasarkan alamat MAC titik akses, alamat MAC klien, dan antarmuka jaringan (interface):
 
-`sudo aireplay-ng --deauth {{jumlah_paket}} --bssid {{alamat_mac_titik_akses}} --dmac {{alamat_mac_klien}} {{interface}}`
+`sudo aireplay-ng {{[-0|--deauth]}} {{jumlah_paket}} -a {{alamat_mac_titik_akses}} -c {{alamat_mac_klien}} {{interface}}`

@@ -22,11 +22,11 @@
 
 - SSH tunneling: [D]ynamic port forwarding (proksi SOCKS pada `localhost:1080`):
 
-`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -D {{1080}}`
+`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -D 1080`
 
 - SSH tunneling: Meneruskan (forward) port tertentu (`localhost:9999` ke `example.org:80`) sekaligus menonaktifkan alokasi pseudo-[T]ty dan eksekusi perintah jarak jauh ([N]):
 
-`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
+`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -L 9999:{{example.org}}:80 -N -T`
 
 - SSH [J]umping: Terhubung ke server jarak jauh melalui sebuah jumphost (Beberapa lompatan jump dapat ditentukan, dipisahkan dengan koma):
 

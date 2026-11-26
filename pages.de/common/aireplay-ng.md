@@ -6,4 +6,4 @@
 
 - Sende eine bestimmten Anzahl an Dissoziation-Paketen mit der MAC-Adresse des Access Points, der MAC-Adresse des Clients und eines Interfaces:
 
-`sudo aireplay-ng --deauth {{anzahl}} --bssid {{ap_mac}} --dmac {{client_mac}} {{interface}}`
+`sudo aireplay-ng {{[-0|--deauth]}} {{anzahl}} -a {{ap_mac}} -c {{client_mac}} {{interface}}`

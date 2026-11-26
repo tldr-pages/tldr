@@ -21,4 +21,4 @@
 
 - Elimina recursivamente un atributo en un directorio determinado:
 
-`xattr -rd {{clave_atributo}} {{directorio}}`
+`xattr -rd {{clave_atributo}} {{ruta/al/directorio}}`
