@@ -15,7 +15,7 @@
 
 `sudo blkid {{[-s|--match-tag]}} {{UUID|TYPE|LABEL|...}}`
 
--List devices with a specific filesystem type:
+- List devices with a specific filesystem type:
 
 `sudo blkid {{[-t|--match-token]}} TYPE={{ext4}}`
 
