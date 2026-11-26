@@ -7,6 +7,10 @@
 
 `git add {{path/to/file}}`
 
+- إضافة أجزاء من الملفات بشكل تفاعلي (Interactive):
+
+`git add {{[-p|--patch]}}`
+
 - إضافة جميع الملفات (المتتبَّعة وغير المتتبَّعة Tracked & Untracked):
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - إضافة الملفات المتجاهلة (Ignored) أيضًا:
 
 `git add {{[-f|--force]}} {{path/to/file}}`
-
-- إضافة أجزاء من الملفات بشكل تفاعلي (Interactive):
-
-`git add {{[-p|--patch]}}`
 
 - إضافة أجزاء من ملف معين بشكل تفاعلي:
 

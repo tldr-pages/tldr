@@ -22,11 +22,11 @@
 
 - Tunelare SSH: redirecționare [D]inamică de port (proxy SOCKS pe `localhost:1080`):
 
-`ssh {{nume_utilizator}}@{{server_distant}} -D {{1080}}`
+`ssh {{nume_utilizator}}@{{server_distant}} -D 1080`
 
 - Tunelare SSH: redirecționează un port specific (`localhost:9999` către `example.org:80`) dezactivând alocarea de pseudo-[T]ty și execuți[N]a comenzilor la distanță:
 
-`ssh {{nume_utilizator}}@{{server_distant}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
+`ssh {{nume_utilizator}}@{{server_distant}} -L 9999:{{example.org}}:80 -N -T`
 
 - Salt SSH ([J]umping): conectare printr-un jumphost către un server la distanță (mai multe salturi pot fi specificate separate prin virgulă):
 

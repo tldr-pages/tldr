@@ -17,7 +17,7 @@
 
 - Accede al directorio personal del usuario especificado:
 
-`cd ~{{nombredeusuario}}`
+`cd ~{{usuario}}`
 
 - Cambia al directorio elegido anteriormente:
 

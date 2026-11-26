@@ -5,15 +5,15 @@
 
 - Creează foldere specifice:
 
-`mkdir {{cale/către/folder1 cale/către/folder2 ...}}`
+`mkdir {{cale/către/director1 cale/către/director2 ...}}`
 
 - Creează foldere specifice și folderele părinte dacă este nevoie:
 
-`mkdir {{[-p|--parents]}} {{cale/către/folder1 cale/către/folder2 ...}}`
+`mkdir {{[-p|--parents]}} {{cale/către/director1 cale/către/director2 ...}}`
 
 - Creează foldere cu permisiuni specifice:
 
-`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{cale/către/folder1 cale/către/folder2 ...}}`
+`mkdir {{[-m|--mode]}} {{u=rwx,g=rw,o=r}} {{cale/către/director1 cale/către/director2 ...}}`
 
 - Creează mai multe foldere imbricate, recursiv:
 

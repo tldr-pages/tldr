@@ -17,7 +17,7 @@
 
 - Pergi menuju direktori pangkal/home milik pengguna tertentu:
 
-`cd ~{{username}}`
+`cd ~{{nama_pengguna}}`
 
 - Pergi menuju direktori yang dikunjungi sebelumnya:
 

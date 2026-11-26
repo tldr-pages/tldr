@@ -17,7 +17,7 @@
 
 - Tampilkan seluruh dataset pada suatu proyek:
 
-`bq ls --filter labels.{{key}}:{{value}} --max_results {{integer}} --format=prettyjson --project_id {{id_proyek}}`
+`bq ls --filter labels.{{key}}:{{nilai}} --max_results {{integer}} --format=prettyjson --project_id {{id_proyek}}`
 
 - Lakukan proses pemuatan data secara batch dari berkas tertentu dalam format seperti CSV, JSON, Parquet, dan Avro ke dalam suatu tabel:
 

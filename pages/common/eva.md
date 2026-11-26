@@ -13,7 +13,7 @@
 
 - Calculate an expression forcing the number of decimal places to 5:
 
-`eva --fix {{5}} "{{5 / 3}}"`
+`eva --fix 5 "{{5 / 3}}"`
 
 - Calculate an expression with sine and cosine:
 

@@ -11,15 +11,15 @@
 
 - Pasang atau perbarui sebuah paket menuju versi terbaru:
 
-`sudo apt-get install {{nama_paket}}`
+`sudo apt-get install {{paket}}`
 
 - Hapus paket yang terpasang sebelumnya:
 
-`sudo apt-get remove {{nama_paket}}`
+`sudo apt-get remove {{paket}}`
 
 - Hapus paket yang terpasang sebelumnya, beserta seluruh berkas konfigurasi yang dibentuk oleh paket tersebut:
 
-`sudo apt-get purge {{nama_paket}}`
+`sudo apt-get purge {{paket}}`
 
 - Perbarui seluruh paket yang terpasang ke versi terbaru:
 

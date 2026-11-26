@@ -13,7 +13,7 @@
 
 - Muestra el contenido del paquete especificado:
 
-`apt-file list {{nombre_paquete}}`
+`apt-file list {{paquete}}`
 
 - Busca paquetes que coincidan con la `expresión_regular`:
 

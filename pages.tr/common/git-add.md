@@ -7,6 +7,10 @@
 
 `git add {{yol/dosya}}`
 
+- Dosyaların parçalarını etkileşimli olarak sahnele:
+
+`git add {{[-p|--patch]}}`
+
 - Tüm (izlenen veya izlenmeyen) dosyaları ekle:
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - Yoksayılan bir dosyayı ekle:
 
 `git add {{[-f|--force]}} {{yol/dosya}}`
-
-- Dosyaların parçalarını etkileşimli olarak sahnele:
-
-`git add {{[-p|--patch]}}`
 
 - Belirtilen dosyanın parçalarını etkileşimli olarak sahnele:
 

@@ -25,4 +25,4 @@
 
 - Terragrunt 모듈 트리(스택)에서 인프라 생성 또는 변경:
 
-`terragrunt run-all apply`
+`terragrunt run --all apply`

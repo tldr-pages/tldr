@@ -6,20 +6,20 @@
 
 - Resolve the pathnames specified as the argument parameters:
 
-`namei {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{path/to/a path/to/b ...}}`
 
 - Display the results in a long-listing format:
 
-`namei {{[-l|--long]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-l|--long]}} {{path/to/a path/to/b ...}}`
 
 - Show the mode bits of each file type in the style of `ls`:
 
-`namei {{[-m|--modes]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-m|--modes]}} {{path/to/a path/to/b ...}}`
 
 - Show owner and group name of each file:
 
-`namei {{[-o|--owners]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-o|--owners]}} {{path/to/a path/to/b ...}}`
 
 - Don't follow symlinks while resolving:
 
-`namei {{[-n|--nosymlinks]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-n|--nosymlinks]}} {{path/to/a path/to/b ...}}`
