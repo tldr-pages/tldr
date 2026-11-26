@@ -7,6 +7,10 @@
 
 `git add {{pad/naar/bestand}}`
 
+- Voeg interactief delen van bestanden toe:
+
+`git add {{[-p|--patch]}}`
+
 - Voeg alle bestanden toe (bijgehouden en niet bijgehouden):
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - Voeg een genegeerd bestand toe:
 
 `git add {{[-f|--force]}} {{pad/naar/bestand}}`
-
-- Voeg interactief delen van bestanden toe:
-
-`git add {{[-p|--patch]}}`
 
 - Voeg interactief delen van een opgegeven bestand toe:
 
