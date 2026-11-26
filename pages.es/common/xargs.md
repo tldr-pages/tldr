@@ -3,7 +3,7 @@
 > Ejecuta un comando con argumentos canalizados procedentes de otro comando, un archivo, etc.
 > La entrada se trata como un único bloque de texto y se divide en partes separadas por espacios, tabulaciones, saltos de línea y fin de archivo.
 > Vea también: `parallel`.
-> Más información: https://www.gnu.org/software/findutils/manual/find.html#xargs-options>.
+> Más información: <https://www.gnu.org/software/findutils/manual/find.html#xargs-options>.
 
 - Ejecuta un comando utilizando los datos de entrada como argumentos:
 
