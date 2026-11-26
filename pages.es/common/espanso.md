@@ -13,7 +13,7 @@
 
 - Instala un paquete desde el hub store (<https://hub.espanso.org/>):
 
-`espanso install {{nombre_paquete}}`
+`espanso install {{paquete}}`
 
 - Reinicia Espanso (necesario después de instalar un paquete, útil en caso de fallo):
 

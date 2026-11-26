@@ -5,8 +5,8 @@
 
 - Pasang atau perbarui sebuah paket menuju versi terbaru:
 
-`sudo apt install {{nama_paket}}`
+`sudo apt install {{paket}}`
 
 - Tampilkan informasi terperinci mengenai versi kumpulan paket yang diproses dalam proses pemasangan maupun pembaruan:
 
-`sudo apt install {{[-V|--verbose-versions]}} {{nama_paket}}`
+`sudo apt install {{[-V|--verbose-versions]}} {{paket}}`

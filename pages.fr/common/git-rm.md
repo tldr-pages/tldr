@@ -1,16 +1,20 @@
 # git rm
 
-> Supprimer des fichiers de l'index, du dépôt et du système de fichiers.
+> Supprime des fichiers de l'index du dépôt et du système de fichiers local.
 > Plus d'informations : <https://git-scm.com/docs/git-rm>.
 
-- Supprimer un fichiers de l'index, du dépôt et du système de fichiers :
+- Supprime un fichier de l'index du dépôt et du système de fichiers :
 
 `git rm {{chemin/vers/fichier}}`
 
-- Supprimer un répertoire de l'index, du dépôt et du système de fichiers :
+- Supprime un répertoire [r]écursivement :
 
-`git rm -r {{directory}}`
+`git rm -r {{chemin/vers/répertoire}}`
 
-- Supprimer un fichiers de l'index, du dépôt mais le conserve sur le système de fichiers :
+- Supprime un fichier de l'index du dépôt mais le conserve sur le système de fichiers :
 
 `git rm --cached {{chemin/vers/fichier}}`
+
+- Réduit le dépôt à seulement le répertoire `.git` :
+
+`git rm -r .`

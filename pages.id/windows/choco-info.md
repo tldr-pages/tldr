@@ -17,4 +17,4 @@
 
 - Gunakan suatu username dan kata sandi untuk mendukung proses autentikasi pengguna:
 
-`choco info {{paket}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{kata_sandi}}`
+`choco info {{paket}} {{[-u|--user]}} {{nama_pengguna}} {{[-p|--password]}} {{kata_sandi}}`

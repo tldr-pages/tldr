@@ -9,4 +9,4 @@
 
 - Pasa un valor a un parámetro de la hoja de estilos:
 
-`xsltproc --output {{ruta/al/archivo_salida.html}} --stringparam "{{nombre}}" "{{value}}" {{ruta/al/archivo_hoja_estilo.xslt}} {{ruta/al/archivo_xml.xml}}`
+`xsltproc --output {{ruta/al/archivo_salida.html}} --stringparam "{{nombre}}" "{{valor}}" {{ruta/al/archivo_hoja_estilo.xslt}} {{ruta/al/archivo_xml.xml}}`

@@ -18,4 +18,4 @@
 
 - Crea un evento en el registro de eventos de una máquina remota:
 
-`eventcreate /s {{nombre_del_host}} /u {{nombre_de_usuario}} /p {{contraseña}} /t {{tipo}} /id {{id}} /d "{{mensaje}}"`
+`eventcreate /s {{nombre_del_host}} /u {{usuario}} /p {{contraseña}} /t {{tipo}} /id {{id}} /d "{{mensaje}}"`

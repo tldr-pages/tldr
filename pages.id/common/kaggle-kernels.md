@@ -13,15 +13,15 @@
 
 - Inisialisasi file metadata untuk sebuah kernel (secara default ke direktori saat ini):
 
-`kaggle {{[k|kernels]}} init {{[-p|--path]}} {{jalan/ke/direktori}}`
+`kaggle {{[k|kernels]}} init {{[-p|--path]}} {{jalan/menuju/direktori}}`
 
 - Unggah kode baru ke sebuah kernel dan jalankan kernel tersebut:
 
-`kaggle {{[k|kernels]}} push {{[-p|--path]}} {{jalan/ke/direktori}}`
+`kaggle {{[k|kernels]}} push {{[-p|--path]}} {{jalan/menuju/direktori}}`
 
 - Unduh sebuah kernel:
 
-`kaggle {{[k|kernels]}} pull {{nama_kernel}} {{[-p|--path]}} {{jalan/ke/direktori}}`
+`kaggle {{[k|kernels]}} pull {{nama_kernel}} {{[-p|--path]}} {{jalan/menuju/direktori}}`
 
 - Dapatkan output data dari eksekusi kernel terakhir:
 

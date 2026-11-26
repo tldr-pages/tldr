@@ -2,7 +2,7 @@
 
 > Download songs listed in a text file or passed as arguments, saving them as tagged MP3, M4A, or Opus files using configurable metadata sources and YouTube audio.
 > Requires `yt-dlp`, `ffmpeg`, and `deno`. Spotify is optional and only used when selected.
-> More information: <https://github.com/ByteMe6/trackfetch#usage>.
+> More information: <https://github.com/trackfetch/trackfetch#usage>.
 
 - Download every song from a file with one `Artist - Title` per line into the current directory:
 

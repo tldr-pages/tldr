@@ -17,4 +17,4 @@
 
 - Proporciona un nombre de usuario y una contraseña para la autenticación:
 
-`choco outdated {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`
+`choco outdated {{[-u|--user]}} {{usuario}} {{[-p|--password]}} {{contraseña}}`

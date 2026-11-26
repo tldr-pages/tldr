@@ -18,4 +18,4 @@
 
 - Busca procesos ejecutados por un usuario específico:
 
-`pgrep {{[-u|--euid]}} {{nombre_de_usuario}} {{nombre_del_proceso}}`
+`pgrep {{[-u|--euid]}} {{usuario}} {{nombre_del_proceso}}`

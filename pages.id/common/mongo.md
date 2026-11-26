@@ -14,7 +14,7 @@
 
 - Masuk dengan akses menggunakan suatu username (nama pengguna) pada suatu database (Anda akan diminta untuk memasukkan kata sandi):
 
-`mongo --host {{host}} --port {{port}} --username {{pengguna}} --authenticationDatabase {{nama_authdb}} {{nama_db}}`
+`mongo --host {{host}} --port {{port}} --username {{nama_pengguna}} --authenticationDatabase {{nama_authdb}} {{nama_db}}`
 
 - Jalankan suatu perintah JavaScript pada suatu database:
 
