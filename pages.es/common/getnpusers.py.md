@@ -14,11 +14,11 @@
 
 - Autentica con credenciales válidas (si el enlace anónimo está desactivado):
 
-`GetNPUsers.py {{dominio}}/{{nombre_de_usuario}}:{{contraseña}} -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}}`
+`GetNPUsers.py {{dominio}}/{{usuario}}:{{contraseña}} -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}}`
 
 - Utiliza la autenticación pass-the-hash en lugar de una contraseña:
 
-`GetNPUsers.py {{dominio}}/{{nombre_de_usuario}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}}`
+`GetNPUsers.py {{dominio}}/{{usuario}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}}`
 
 - Guarda la salida en un archivo para su posterior análisis:
 

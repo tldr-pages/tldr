@@ -22,7 +22,7 @@
 
 - Show the compression ratio for each file processed with detailed information:
 
-`bzip2 {{[-v|--verbose]}} {{path/to/compressed_files.bz2}}`
+`bzip2 {{[-v|--verbose]}} {{path/to/compressed_files}}`
 
 - Decompress a file overwriting existing files:
 

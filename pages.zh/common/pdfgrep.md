@@ -13,7 +13,7 @@
 
 - 对以 "foo" 开头关键词搜索，返回前 3 个匹配项，不区分大小写：
 
-`pdfgrep {{[-m|--max-count]}} {{3}} {{[-i|--ignore-case]}} '{{^foo}}' {{文件.pdf}}`
+`pdfgrep {{[-m|--max-count]}} 3 {{[-i|--ignore-case]}} '{{^foo}}' {{文件.pdf}}`
 
 - 在当前目录中扩展名为.pdf 的文件中递归查找关键词：
 

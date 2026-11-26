@@ -5,7 +5,7 @@
 
 - এক বা একাধিক প্যাকেজ ইনস্টল করুন:
 
-`choco install {{package1 package2 ...}}`
+`choco install {{প্যাকেজ১ প্যাকেজ२ ...}}`
 
 - একটি কাস্টম কনফিগারেশন ফাইল থেকে প্যাকেজ ইনস্টল করুন:
 
@@ -17,7 +17,7 @@
 
 - একটি প্যাকেজের নির্দিষ্ট ভার্সন ইনস্টল করুন:
 
-`choco install {{package}} --version {{version}}`
+`choco install {{প্যাকেজ}} --version {{version}}`
 
 - একটি প্যাকেজের একাধিক ভার্সন ইনস্টল করার অনুমতি দিন:
 
@@ -25,12 +25,12 @@
 
 - সব প্রম্পট স্বয়ংক্রিয়ভাবে নিশ্চিত করুন:
 
-`choco install {{package}} {{[-y|--yes]}}`
+`choco install {{প্যাকেজ}} {{[-y|--yes]}}`
 
 - প্যাকেজ গ্রহণের জন্য একটি কাস্টম সোর্স নির্দিষ্ট করুন:
 
-`choco install {{package}} {{[-s|--source]}} {{source_url|alias}}`
+`choco install {{প্যাকেজ}} {{[-s|--source]}} {{source_url|alias}}`
 
 - অথেনটিকেশনের জন্য একটি ব্যবহারকারীর নাম এবং পাসওয়ার্ড দিন:
 
-`choco install {{package}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`
+`choco install {{প্যাকেজ}} {{[-u|--user]}} {{ইউজারনেম}} {{[-p|--password]}} {{পাসওয়ার্ড}}`

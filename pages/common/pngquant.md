@@ -17,7 +17,7 @@
 
 - Compress a specific PNG with the number of colors reduced to 64:
 
-`pngquant {{64}} {{path/to/file.png}}`
+`pngquant 64 {{path/to/file.png}}`
 
 - Compress a specific PNG and skip if the file is larger than the original:
 

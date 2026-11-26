@@ -10,7 +10,7 @@
 
 - Retorna repetidamente "mensaje":
 
-`yes {{mensaje}}`
+`yes {{valor}}`
 
 - Acepta todas las confirmaciones que muestre el comando `apt-get`:
 

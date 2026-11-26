@@ -1,6 +1,7 @@
 # declare
 
 > Declareer variabelen en geef ze attributen.
+> Zie ook: `alias`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - Declareer een string variabele met de gespecificeerde waarde:

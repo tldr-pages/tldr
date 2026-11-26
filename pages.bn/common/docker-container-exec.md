@@ -9,20 +9,20 @@
 
 - চলমান কন্টেইনারে ব্যাকগ্রাউন্ডে (detached) একটি কমান্ড চালান:
 
-`docker {{[exec|container exec]}} {{[-d|--detach]}} {{container_name}} {{command}}`
+`docker {{[exec|container exec]}} {{[-d|--detach]}} {{container_name}} {{কমান্ড}}`
 
 - একটি কমান্ড চালানোর জন্য নির্দিষ্ট working directory নির্বাচন করুন:
 
-`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{path/to/directory}} {{container_name}} {{command}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{ডিরেক্টরি/এর/পাথ}} {{container_name}} {{কমান্ড}}`
 
 - চলমান কন্টেইনারে ব্যাকগ্রাউন্ডে একটি কমান্ড চালান, কিন্তু `stdin` খোলা রাখুন:
 
-`docker {{[exec|container exec]}} {{[-i|--interactive]}} {{[-d|--detach]}} {{container_name}} {{command}}`
+`docker {{[exec|container exec]}} {{[-i|--interactive]}} {{[-d|--detach]}} {{container_name}} {{কমান্ড}}`
 
 - চলমান Bash সেশনে একটি environment variable সেট করুন:
 
-`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-e|--env]}} {{variable_name}}={{value}} {{container_name}} {{/bin/bash}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-e|--env]}} {{variable_name}}={{ভ্যালু}} {{container_name}} {{/bin/bash}}`
 
 - নির্দিষ্ট ব্যবহারকারী হিসেবে একটি কমান্ড চালান:
 
-`docker {{[exec|container exec]}} {{[-u|--user]}} {{user}} {{container_name}} {{command}}`
+`docker {{[exec|container exec]}} {{[-u|--user]}} {{user}} {{container_name}} {{কমান্ড}}`

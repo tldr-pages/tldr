@@ -21,7 +21,7 @@
 
 - Sahnelenmiş dosyaları commit'le ve belirtilen GPG anahtarı ile imzala (`anahtar_kimliği` belirtilmezse yapılandırma dosyasında tanımlı olan kullanılır):
 
-`git commit {{[-S|--gpg-sign]}} {{anahtar_kimliği}} {{[-m|--message]}} "{{mesaj}}"`
+`git commit {{[-S|--gpg-sign=]}}{{anahtar_kimliği}} {{[-m|--message]}} "{{mesaj}}"`
 
 - Şu anda sahnelenmiş değişiklikleri ekleyerek son commit'i güncelle (commit'in hash'i değişir) ve mesajı değiştirmek için bir düzenleyici aç:
 

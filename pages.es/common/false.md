@@ -10,4 +10,4 @@
 
 - Hace que un comando siempre salga con 1:
 
-`{{command}} && false`
+`{{comando}} && false`

@@ -30,4 +30,4 @@
 
 - طباعة محتويات أرشيف محدد:
 
-`zip {{[-sf|--split-size --freshen]}} {{path/to/compressed.zip}}`
+`zip {{[-sf|--show-files]}} {{path/to/compressed.zip}}`

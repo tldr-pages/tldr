@@ -7,6 +7,10 @@
 
 `git add {{ścieżka/do/pliku}}`
 
+- Dodawaj części plików interaktywnie:
+
+`git add {{[-p|--patch]}}`
+
 - Dodaj wszystkie pliki (śledzone i nieśledzone):
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - Dodaj również ignorowane pliki:
 
 `git add {{[-f|--force]}} {{ścieżka/do/pliku}}`
-
-- Dodawaj części plików interaktywnie:
-
-`git add {{[-p|--patch]}}`
 
 - Dodawaj części określonego pliku interaktywnie:
 

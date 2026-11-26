@@ -17,7 +17,7 @@
 
 - Limit results to a memory address range specified by `low` and `high`:
 
-`pmap --range {{low}},{{high}}`
+`pmap --range {{low}},{{high}} {{process_id}}`
 
 - Print memory maps for multiple processes:
 

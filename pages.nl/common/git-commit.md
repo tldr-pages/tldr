@@ -21,7 +21,7 @@
 
 - Commit toegevoegde bestanden en onderteken ze met de opgegeven GPG-sleutel (of de sleutel die is gedefinieerd in het configuratiebestand als er geen `sleutel_id` is opgegeven):
 
-`git commit {{[-S|--gpg-sign]}} {{sleutel_id}} {{[-m|--message]}} "{{bericht}}"`
+`git commit {{[-S|--gpg-sign=]}}{{sleutel_id}} {{[-m|--message]}} "{{bericht}}"`
 
 - Voeg de huidige wijzigingen toe aan de laatste commit en herschrijf deze, waarbij de commit hash wordt aangepast en een tekstbewerker wordt geopend om het bericht te veranderen:
 

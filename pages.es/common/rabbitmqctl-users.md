@@ -9,24 +9,24 @@
 
 - Añade un nuevo usuario con contraseña:
 
-`rabbitmqctl add_user {{nombre_de_usuario}} {{contraseña}}`
+`rabbitmqctl add_user {{usuario}} {{contraseña}}`
 
 - Elimina un usuario existente:
 
-`rabbitmqctl delete_user {{nombre_de_usuario}}`
+`rabbitmqctl delete_user {{usuario}}`
 
 - Cambia la contraseña de un usuario:
 
-`rabbitmqctl change_password {{nombre_de_usuario}} {{nueva_contraseña}}`
+`rabbitmqctl change_password {{usuario}} {{nueva_contraseña}}`
 
 - Establece permisos para un usuario en un host virtual específico:
 
-`rabbitmqctl set_permissions {{[-p|--vhost]}} {{vhost}} {{nombre_de_usuario}} {{read}} {{write}} {{configure}}`
+`rabbitmqctl set_permissions {{[-p|--vhost]}} {{vhost}} {{usuario}} {{read}} {{write}} {{configure}}`
 
 - Borra todos los permisos de un usuario en un host virtual específico:
 
-`rabbitmqctl clear_permissions {{[-p|--vhost]}} {{vhost}} {{nombre_de_usuario}}`
+`rabbitmqctl clear_permissions {{[-p|--vhost]}} {{vhost}} {{usuario}}`
 
 - Asigna una o más etiquetas (por ejemplo, administrador) a un usuario:
 
-`rabbitmqctl set_user_tags {{nombre_de_usuario}} {{etiqueta1 etiqueta2 ...}}`
+`rabbitmqctl set_user_tags {{usuario}} {{etiqueta1 etiqueta2 ...}}`

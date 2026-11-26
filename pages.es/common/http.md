@@ -30,7 +30,7 @@
 
 - Utiliza sesiones nombradas para encabezados personalizados persistentes, credenciales de autenticación y cookies:
 
-`http --session {{nombre_de_sesión|ruta/a/sesión.json}} {{[-a|--auth]}} {{usuario}}:{{clave}} {{https://example.com/auth}} {{API-KEY:xxx}}`
+`http --session {{nombre_de_sesión|ruta/a/sesión.json}} {{[-a|--auth]}} {{usuario}}:{{contraseña}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - Sube un archivo a un formulario (el ejemplo a continuación supone que el campo del formulario es `<input type="file" name="cv" />`):
 

@@ -13,7 +13,7 @@
 
 - Muestra la configuración del sistema para una máquina remota:
 
-`systeminfo /s {{nombre_remoto}} /u {{nombre_de_usuario}} /p {{contraseña}}`
+`systeminfo /s {{nombre_remoto}} /u {{usuario}} /p {{contraseña}}`
 
 - Muestra la ayuda:
 

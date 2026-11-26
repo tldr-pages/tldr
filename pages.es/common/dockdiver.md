@@ -13,7 +13,7 @@
 
 - Vuelca todos los repositorios con autenticación básica:
 
-`dockdiver -url {{http://example.com}} -dump-all -username {{nombre_usuario}} -password {{contraseña}}`
+`dockdiver -url {{http://example.com}} -dump-all -username {{usuario}} -password {{contraseña}}`
 
 - Vuelca un repositorio con un puerto personalizado y un límite de velocidad:
 
