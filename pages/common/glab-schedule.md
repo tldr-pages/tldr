@@ -1,6 +1,6 @@
 # glab schedule
 
-> Work with GitLab CI/CD schedules.
+> Manage GitLab CI/CD pipeline schedules.
 > More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/schedule/_index.md>.
 
 - List pipeline schedules for the current repository:
