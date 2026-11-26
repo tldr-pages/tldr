@@ -13,7 +13,7 @@
 
 - Display detailed information about one or more networks:
 
-`podman network inspect {{network_name}}`
+`podman network inspect {{network_name1 network_name2 ...}}`
 
 - Connect a container to a network:
 
@@ -29,7 +29,7 @@
 
 - Remove one or more networks:
 
-`podman network rm {{network_name}}`
+`podman network rm {{network_name1 network_name2 ...}}`
 
 - Check if a network exists:
 
