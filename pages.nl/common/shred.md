@@ -26,3 +26,7 @@
 - Overschrijf een bestand 100 keer, voeg een laatste overschrijving met nullen toe, verwijder het bestand na overschrijven en toon verbose voortgang op het scherm:
 
 `shred {{[-vzu|--verbose --zero --remove]}} {{[-n|--iterations]}} 100 {{pad/naar/bestand}}`
+
+- Overschrijf een bestand met een specifieke bron van willekeurige gegevens:
+
+`shred --random-source {{/dev/urandom}} {{pad/naar/bestand}}`

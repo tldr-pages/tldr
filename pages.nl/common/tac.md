@@ -20,6 +20,6 @@
 
 `tac {{[-r|--regex]}} {{[-s|--separator]}} {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Gebruik een scheidingsteken vóór elk bestand:
+- Voeg het scheidingsteken vóór in plaats van na elk veld toe:
 
-`tac {{[-b|--before]}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`tac {{[-b|--before]}} {{[-s|--separator]}} {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
