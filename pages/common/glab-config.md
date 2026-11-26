@@ -27,7 +27,7 @@
 
 `glab config set {{key}} "{{value}}" --host {{host}}`
 
-- Open the configuration file in the default text editor:
+- Open the local configuration file in the default text editor:
 
 `glab config edit {{[-l|--local]}}`
 
