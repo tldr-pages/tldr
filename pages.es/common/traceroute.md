@@ -4,6 +4,10 @@
 > Vea también: `mtr`.
 > Más información: <https://manned.org/traceroute>.
 
+- Traceroute a un host:
+
+`traceroute {{example.com}}`
+
 - Desactiva la asignación de direcciones IP y nombres de host:
 
 `traceroute -n {{example.com}}`
