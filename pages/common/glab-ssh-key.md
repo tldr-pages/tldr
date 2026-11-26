@@ -5,7 +5,7 @@
 
 - List SSH keys for the currently authenticated user:
 
-`glab ssh-key {{[ls|list]}}`
+`glab ssh-key list`
 
 - List SSH keys including their numeric IDs:
 
