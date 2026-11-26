@@ -13,7 +13,7 @@
 
 - Start a shell as a specific user ID:
 
-`sudo waydroid shell {{[-u|--uid]}} {{uid}}`
+`sudo waydroid shell {{[-u|--uid]}} {{user_id}}`
 
 - List documented Android shell commands:
 
