@@ -8,7 +8,7 @@
 
 `virt-convert {{path/to/vm.ova}}`
 
-- Convert an extracted virtual machine containing including .vmx and .vmdk files to qcow2 format:
+- Convert an extracted virtual machine containing .vmx and .vmdk files to qcow2 format:
 
 `virt-convert {{path/to/directory}} --disk-format qcow2`
 
