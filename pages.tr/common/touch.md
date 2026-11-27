@@ -17,7 +17,7 @@
 
 - Dosyaların zaman damgasını referans dosyasının zaman damgasına ayarla ve dosya yoksa oluşturma:
 
-`touch {{[-c|--no-create]}} {{[-r|--reference]}} {{referans_dosyası/yolu}} {{yol/dosya1 yol/dosya2 ...}}`
+`touch {{[-c|--no-create]}} {{[-r|--reference]}} {{yol/referans_dosyası}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Zaman damgasını bir dizgiyi ayrıştırarak ayarla:
 

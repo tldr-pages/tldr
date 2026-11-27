@@ -14,7 +14,7 @@
 
 - `<Shift Tab>` ile birden çok dosya seç ve bir dosyaya yaz:
 
-`find {{dosya/yolu/dizin}} -type f | fzf {{[-m|--multi]}} >{{yol/dosya}}`
+`find {{yol/dizin}} -type f | fzf {{[-m|--multi]}} >{{yol/dosya}}`
 
 - `fzf`'yi belirli bir sorgu ile başlat:
 

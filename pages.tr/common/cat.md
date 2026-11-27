@@ -9,11 +9,11 @@
 
 - Birkaç dosyayı bir çıktı dosyasında birleştir:
 
-`cat {{yol/dosya1 yol/dosya2 ...}} >{{çıktı/dosyası/yolu}}`
+`cat {{yol/dosya1 yol/dosya2 ...}} >{{yol/çıktı_dosyası}}`
 
 - Birkaç dosyayı bir çıktı dosyasına ekle:
 
-`cat {{yol/dosya1 yol/dosya2 ...}} >>{{çıktı/dosyası/yolu}}`
+`cat {{yol/dosya1 yol/dosya2 ...}} >>{{yol/çıktı_dosyası}}`
 
 - Bir dosyanın içeriğini arabelleğe almadan bir çıktı dosyasına kopyala:
 
