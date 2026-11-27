@@ -22,3 +22,7 @@
 - Vigila los cambios en las interfaces de bridge:
 
 `bridge {{[mo|monitor]}}`
+
+- Muestra la ayuda:
+
+`bridge {{[h|help]}}`

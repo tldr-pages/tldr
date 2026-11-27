@@ -5,11 +5,11 @@
 
 - Verifica a ortografia do texto de um arquivo:
 
-`aspell check {{arquivo}}`
+`aspell check {{caminho/para/arquivo}}`
 
 - Exibe as palavras escritas incorretamente no terminal:
 
-`cat {{arquivo}} | aspell list`
+`cat {{caminho/para/arquivo}} | aspell list`
 
 - Exibe os dicionários disponíveis:
 
@@ -21,4 +21,4 @@
 
 - Exibe os erros ortográficos no terminal e ignorando as palavras da lista pessoal:
 
-`cat {{arquivo}} | aspell --personal {{lista_pessoal.pws}} list`
+`cat {{caminho/para/arquivo}} | aspell --personal {{lista_pessoal.pws}} list`

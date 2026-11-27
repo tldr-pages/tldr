@@ -5,7 +5,7 @@
 
 - Toon de huidige status van het systeem (bekende schermen, resoluties, ...):
 
-`xrandr {{[-q|--query]}}`
+`xrandr`
 
 - Schakel losgekoppelde outputs uit en schakel verbonden outputs aan met de standaardinstellingen:
 
@@ -27,6 +27,6 @@
 
 `xrandr --output LVDS1 --brightness 0.5`
 
-- Toon de huidige status van een X-server:
+- Toon de huidige status van een willekeurige X-server:
 
 `xrandr {{[-d|--display]}} :{{0}} {{[-q|--query]}}`

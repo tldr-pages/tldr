@@ -7,7 +7,7 @@
 
 `units`
 
-- Toon alle eenheden die een specifieke string bevatten in de interactieve modus:
+- [Interactief] Toon alle eenheden die een specifieke string bevatten in de interactieve modus:
 
 `search {{string}}`
 

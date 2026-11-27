@@ -15,3 +15,11 @@
 - Toon alle beschikbare informatie met tabelkoppen:
 
 `who {{[-aH|--all --heading]}}`
+
+- Toon alleen informatie over de huidige terminalsessie:
+
+`who am i`
+
+- Toon de help:
+
+`who --help`

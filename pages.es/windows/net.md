@@ -9,7 +9,7 @@
 
 - Se asegura que un recurso compartido SMB esté disponible en la consola actual:
 
-`net use {{\\carpeta_compartida_smb}} /USER:{{nombre_de_usuario}}`
+`net use {{\\carpeta_compartida_smb}} /USER:{{usuario}}`
 
 - Muestra las carpetas actualmente compartidas a través de SMB:
 
@@ -25,7 +25,7 @@
 
 - Agrega un usuario al grupo de seguridad local (ejecutar en consola elevada):
 
-`net localgroup "{{Administradores}}" {{nombre_de_usuario}} /add`
+`net localgroup "{{Administradores}}" {{usuario}} /add`
 
 - Muestra ayuda para un subcomando:
 

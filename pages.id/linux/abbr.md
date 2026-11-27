@@ -6,7 +6,7 @@
 
 - Tambahkan singkatan baru:
 
-`abbr {{[-a|--add]}} {{abbreviation_name}} {{command}} {{command_arguments}}`
+`abbr {{[-a|--add]}} {{abbreviation_name}} {{perintah}} {{command_arguments}}`
 
 - Ganti nama singkatan yang sudah ada:
 

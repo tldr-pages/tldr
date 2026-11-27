@@ -5,11 +5,11 @@
 
 - Installa pacchetti per nome:
 
-`sudo dnf {{[in|install]}} {{package1 package2 ...}}`
+`sudo dnf {{[in|install]}} {{pacchetto1 pacchetto2 ...}}`
 
 - Installa un pacchetto da un file locale:
 
-`sudo dnf {{[in|install]}} {{path/to/file}}`
+`sudo dnf {{[in|install]}} {{percorso/del/file}}`
 
 - Installa un pacchetto da internet:
 

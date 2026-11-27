@@ -13,7 +13,7 @@
 
 - Ignore a directory when watching for changes:
 
-`reflex {{[-G|--inverse-regex]}} '{{^dir/}}' {{command}}`
+`reflex {{[-G|--inverse-regex]}} '{{^directory_name}}/' {{command}}`
 
 - Run command when reflex starts and restarts on file changes:
 

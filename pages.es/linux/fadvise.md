@@ -6,7 +6,7 @@
 
 - Precarga un archivo en la caché:
 
-`fadvise {{[-a|--advice]}} willneeded {{ruta/al/archivo}}`
+`fadvise {{[-a|--advice]}} willneeded {{ruta/al/archivo_o_directorio}}`
 
 - Sugiere eliminar un archivo de la caché:
 

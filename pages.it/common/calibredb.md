@@ -18,11 +18,11 @@
 
 - Aggiungi uno o più e-book alla libreria:
 
-`calibredb add {{percoso/del/file1 percoso/del/file2 ...}}`
+`calibredb add {{percorso/del/file1 percorso/del/file2 ...}}`
 
 - Aggiungere ricorsivamente tutti gli e-book in una directory alla libreria:
 
-`calibredb add {{[-r|--recurse]}} {{percoso/della/directory}}`
+`calibredb add {{[-r|--recurse]}} {{percorso/della/directory}}`
 
 - Rimuovi uno o più e-book dalla libreria. Sono necessari gli ID (vedi sopra):
 

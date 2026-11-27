@@ -34,4 +34,4 @@
 
 - Ejecuta un comando cuando se accede a un archivo:
 
-`inotifywait {{[-e|--event]}} access {{ruta/al/archivo}} && {{command}}`
+`inotifywait {{[-e|--event]}} access {{ruta/al/archivo}} && {{comando}}`

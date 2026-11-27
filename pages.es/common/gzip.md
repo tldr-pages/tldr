@@ -13,7 +13,7 @@
 
 - Muestra el nombre y el porcentaje de reducción de cada archivo comprimido:
 
-`gzip {{[-v|--verbose]}} {{ruta/al/archivo.gz}}`
+`gzip {{[-v|--verbose]}} {{ruta/al/archivo}}`
 
 - Comprime un archivo, conservando el archivo original:
 

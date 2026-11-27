@@ -9,7 +9,7 @@
 
 - Unduh file tertentu dari dataset kompetisi:
 
-`kaggle {{[c|competitions]}} download {{kompetisi}} {{[-f|--file]}} {{jalan/ke/file}}`
+`kaggle {{[c|competitions]}} download {{kompetisi}} {{[-f|--file]}} {{jalan/menuju/berkas}}`
 
 - Tampilkan daftar kompetisi yang sesuai dengan kata kunci pencarian:
 

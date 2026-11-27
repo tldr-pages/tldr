@@ -26,3 +26,7 @@
 - Voer een gegeven commando uit in elke map:
 
 `for {{variabele}} in */; do (cd "${{variabele}}" || continue; {{echo "Loop wordt uitgevoerd"}}) done`
+
+- Gebruik een `for`-loop in C-stijl:
+
+`for (({{i=0; i<10; i++}})); do {{echo $i}}; done`

@@ -11,10 +11,6 @@
 
 `duff -er {{path/to/directory}}`
 
-- List unique files:
-
-`duff -ur {{path/to/directory}}`
-
 - Use SHA-256 instead of SHA-1:
 
 `duff -d sha256 {{path/to/directory}}`

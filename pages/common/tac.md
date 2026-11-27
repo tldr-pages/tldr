@@ -20,6 +20,6 @@
 
 `tac {{[-r|--regex]}} {{[-s|--separator]}} {{separator}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use a separator before each file:
+- Attach the separator before instead of after each field:
 
-`tac {{[-b|--before]}} {{path/to/file1 path/to/file2 ...}}`
+`tac {{[-b|--before]}} {{[-s|--separator]}} {{separator}} {{path/to/file1 path/to/file2 ...}}`

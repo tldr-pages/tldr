@@ -5,7 +5,7 @@
 
 - Crea un progetto Cordova:
 
-`cordova create {{percorso}} {{nome_pacchetto}} {{nome_progetto}}`
+`cordova create {{percorso/della/directory}} {{pacchetto}} {{nome_progetto}}`
 
 - Mostra lo stato della workspace corrente:
 

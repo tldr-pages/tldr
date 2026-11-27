@@ -5,8 +5,8 @@
 
 - Instala un paquete de software local:
 
-`pkgadd {{nombre_paquete}}`
+`pkgadd {{paquete}}`
 
 - Actualiza un paquete ya instalado a partir de un paquete local:
 
-`pkgadd -u {{nombre_paquete}}`
+`pkgadd -u {{paquete}}`

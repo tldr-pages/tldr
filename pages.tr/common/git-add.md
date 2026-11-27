@@ -5,27 +5,31 @@
 
 - İndekse bir dosya ekle:
 
-`git add {{örnek/dosya}}`
-
-- Tüm (izlenen veya izlenmeyen) dosyaları ekle:
-
-`git add {{[-A|--all]}}`
-
-- Yalnızca izlenen dosyaları ekle:
-
-`git add {{[-u|--update]}}`
-
-- Yoksayılan dosyaları dahi ekle:
-
-`git add {{[-f|--force]}}`
+`git add {{yol/dosya}}`
 
 - Dosyaların parçalarını etkileşimli olarak sahnele:
 
 `git add {{[-p|--patch]}}`
 
-- Belirtilen dosyaların parçalarını etkileşimli olarak sahnele:
+- Tüm (izlenen veya izlenmeyen) dosyaları ekle:
 
-`git add {{[-p|--patch]}} {{örnek/dosya}}`
+`git add {{[-A|--all]}}`
+
+- Geçerli klasörden başlayarak tüm dosyaları özyinelemeli olarak ekle:
+
+`git add .`
+
+- Yalnızca izlenen dosyaları ekle:
+
+`git add {{[-u|--update]}}`
+
+- Yoksayılan bir dosyayı ekle:
+
+`git add {{[-f|--force]}} {{yol/dosya}}`
+
+- Belirtilen dosyanın parçalarını etkileşimli olarak sahnele:
+
+`git add {{[-p|--patch]}} {{yol/dosya}}`
 
 - Bir dosyayı etkileşimli olarak sahnele:
 

@@ -5,8 +5,8 @@
 
 - Create a vector dataset with contour lines spread over a 100-meter [i]nterval while [a]ttributing the elevation property as "ele":
 
-`gdal_contour -a {{ele}} -i {{100.0}} {{path/to/input.tif}} {{path/to/output.gpkg}}`
+`gdal_contour -a ele -i 100.0 {{path/to/input.tif}} {{path/to/output.gpkg}}`
 
 - Create a vector dataset with [p]olygons spread over a 100-meter [i]nterval:
 
-`gdal_contour -i {{100.0}} -p {{path/to/input.tif}} {{path/to/output.gpkg}}`
+`gdal_contour -i 100.0 -p {{path/to/input.tif}} {{path/to/output.gpkg}}`

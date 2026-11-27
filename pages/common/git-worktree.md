@@ -21,7 +21,7 @@
 
 - Move an existing worktree to a new location:
 
-`git worktree move {{path/to/worktree}} {{new/path}}`
+`git worktree move {{path/to/worktree}} {{path/to/new_worktree}}`
 
 - Remove a worktree directory and its metadata (only if it has no uncommitted changes):
 

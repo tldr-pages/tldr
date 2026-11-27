@@ -21,7 +21,7 @@
 
 - Muestra una lista de controladores para una máquina remota:
 
-`driverquery /s {{nombre_del_host}} /u {{nombre_de_usuario}} /p {{contraseña}}`
+`driverquery /s {{nombre_del_host}} /u {{usuario}} /p {{contraseña}}`
 
 - Muestra una lista de controladores con información detallada:
 
