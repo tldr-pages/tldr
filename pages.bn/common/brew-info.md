@@ -23,6 +23,6 @@
 
 `brew info --json --installed`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `brew info {{[-h|--help]}}`

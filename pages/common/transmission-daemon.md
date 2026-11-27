@@ -14,7 +14,7 @@
 
 - Dump daemon settings in JSON format:
 
-`transmission-daemon {{[-d|--dump-settings]}} > {{path/to/file.json}}`
+`transmission-daemon {{[-d|--dump-settings]}} >{{path/to/file.json}}`
 
 - Start with specific settings for the web interface:
 

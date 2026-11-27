@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van SHA224 checksums op in een bestand:
 
-`sha224sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.sha224}}`
+`sha224sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.sha224}}`
 
 - Bereken een SHA224 checksum van `stdin`:
 

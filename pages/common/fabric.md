@@ -14,7 +14,7 @@
 
 - Run a pattern with input from a file:
 
-`fabric < {{path/to/input_file}} {{[-p|--pattern]}} {{pattern_name}}`
+`fabric <{{path/to/input_file}} {{[-p|--pattern]}} {{pattern_name}}`
 
 - Run a pattern on a YouTube video URL:
 

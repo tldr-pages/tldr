@@ -23,7 +23,7 @@
 
 `grex {{[-s|--spaces]}} {{string1 string2 ...}}`
 
-- Detect repeating patterns in the input and shorten them using {min,max} quantifiers:
+- Detect repeating patterns in the input and shorten them using `{min,max}` quantifiers:
 
 `grex {{[-r|--repetitions]}} {{string1 string2 ...}}`
 

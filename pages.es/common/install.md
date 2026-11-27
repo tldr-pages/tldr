@@ -1,7 +1,7 @@
 # install
 
 > Copia archivos y establecer atributos.
-> Usualmente utilizado  en archivos Makefile.
+> Usualmente utilizado en archivos Makefile.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Copia archivos al destino:

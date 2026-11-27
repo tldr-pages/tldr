@@ -1,7 +1,6 @@
 # pacman --query
 
 > Utilitário de Arch Linux para gerenciamento de pacotes.
-> Veja também: `pacman`.
 > Mais informações: <https://manned.org/pacman.8>.
 
 - Lista pacotes instalados e suas versões:

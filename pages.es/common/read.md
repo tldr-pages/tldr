@@ -1,36 +1,36 @@
 # read
 
-> Shell builtin para recuperar datos de `stdin`.
+> Comando integrado del shell para recuperar datos de `stdin`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
-- Almacena los datos que escribes desde el teclado:
+- Almacena los datos que introduzcas desde el teclado en una o varias variables:
 
-`read {{variable}}`
+`read {{variable1 variable2 ...}}`
 
-- Almacena cada una de las siguientes líneas que introduzcas como valores de un arreglo:
+- Almacena cada una de las siguientes líneas que ingreses como valores de un array:
 
 `read -a {{arreglo}}`
 
-- Especifica el número máximo de caracteres a leer:
+- Especifica el número máximo de caracteres que se van a leer:
 
-`read -n {{cuenta_caracteres}} {{variable}}`
+`read -n {{recuento_de_caracteres}} {{variable}}`
 
 - Asigna varios valores a varias variables:
 
-`read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond}}"`
+`read <<<"{{El apellido es Bond}}" {{_ variable1 _ variable2}}`
 
-- No dejes que la barra invertida (`\`) actúe como carácter de escape:
+- Evita que la barra invertida (`\`) actúe como carácter de escape:
 
 `read -r {{variable}}`
 
-- Muestra un indicador antes de la entrada:
+- Muestra un mensaje de solicitud antes de la entrada:
 
-`read -p "{{Introduce aquí tu entrada: }}" {{variable}}`
+`read -p "{{Ingrese aquí tu entrada: }}" {{variable}}`
 
-- No hacer eco de los caracteres introducidos (modo silencioso):
+- No muestra los caracteres tecleados (modo silencioso):
 
 `read -s {{variable}}`
 
-- Lee `stdin` y realiza una acción en cada línea:
+- Realiza una acción en cada línea de la salida de un comando:
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{dev/stdin|ruta/al/archivo|...}}`
+`{{comando}} | while IFS= read -r line; do {{echo|ls|rm|...}} "$line"; done`

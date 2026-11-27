@@ -2,7 +2,6 @@
 
 > 패키지가 최신 버전으로 업데이트되지 않도록 보호.
 > 기본 `dnf` 명령에는 포함되지 않으며, `dnf-plugins-core`을 통해 지원됨.
-> 관련 항목: `dnf`.
 > 더 많은 정보: <https://dnf-plugins-core.readthedocs.io/en/latest/versionlock.html>.
 
 - 현재 versionlock 항목 목록 표시:

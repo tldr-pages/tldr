@@ -21,4 +21,4 @@
 
 - `cat`을 사용해서 파일의 병합 입력 정보 확인:
 
-`git merge-index cat -- {{경로}}`
+`git merge-index cat -- {{경로/대상/파일}}`

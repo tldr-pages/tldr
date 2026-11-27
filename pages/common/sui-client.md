@@ -21,7 +21,7 @@
 
 - Publish a smart contract:
 
-`sui client publish {{package_path}}`
+`sui client publish {{path/to/package}}`
 
 - Interact with the Sui faucet:
 

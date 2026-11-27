@@ -5,15 +5,15 @@
 
 - Start generating a profile for a program:
 
-`sudo aa-genprof {{program_path}}`
+`sudo aa-genprof {{path/to/program}}`
 
 - Specify a custom directory for profiles:
 
-`sudo aa-genprof {{[-d|--dir]}} /{{path/to/profiles}} {{program_path}}`
+`sudo aa-genprof {{[-d|--dir]}} /{{path/to/profiles}} {{path/to/program}}`
 
 - Specify a custom logfile for profiling:
 
-`sudo aa-genprof {{[-f|--file]}} /{{path/to/logfile}} {{program_path}}`
+`sudo aa-genprof {{[-f|--file]}} /{{path/to/logfile}} {{path/to/program}}`
 
 - Display help:
 

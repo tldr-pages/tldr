@@ -14,7 +14,7 @@
 
 - 让用户在多个项目之间进行选择，然后将所选项目保存到文件中：
 
-`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu > {{color.txt}}`
+`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu >{{color.txt}}`
 
 - 在特定的监视器上启动 `dmenu`：
 

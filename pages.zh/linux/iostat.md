@@ -13,7 +13,7 @@
 
 - 显示 CPU 统计信息：
 
-`iostat {{[-c|--compact]}}`
+`iostat -c`
 
 - 显示包含磁盘名称（含 LVM）的磁盘统计信息：
 
@@ -21,8 +21,8 @@
 
 - 显示设备"sda"的扩展磁盘统计信息（包含磁盘名称）：
 
-`iostat -xN {{sda}}`
+`iostat -xN sda`
 
 - 每 2 秒显示一次 CPU 和磁盘的增量统计报告：
 
-`iostat {{2}}`
+`iostat 2`

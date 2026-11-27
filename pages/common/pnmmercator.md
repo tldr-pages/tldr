@@ -5,8 +5,8 @@
 
 - Convert a rectangular projection worldmap to Mercator projection:
 
-`pnmmercator {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmmercator {{path/to/image.pnm}} >{{path/to/output.pnm}}`
 
 - Convert a Mercator projection worldmap to rectangular projection:
 
-`pnmmercator {{[-i|-inverse]}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmmercator {{[-i|-inverse]}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`

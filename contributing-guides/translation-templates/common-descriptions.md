@@ -20,6 +20,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | fa    | نمایش راهنما       |                       |                  |
 | fi    | Näytä ohje         | Näytä versio          | [Interaktiotila] |
 | fr    | Affiche l'aide     | Affiche la version    | [Interactif]     |
+| he    | הצגת עזרה          | הצגת גרסה             | [אינטראקטיבי]    |
 | hi    | मदद प्रदर्शित करें | संस्करण दिखाएं        |                  |
 | id    | Tampilkan bantuan  | Tampilkan versi | [Interaktif]     |
 | it    | Mostra l'aiuto     | Mostra la versione | [Interattivo]    |
@@ -45,6 +46,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | tr    | Yardımı görüntüle  | Sürümü görüntüle      | [Etkileşimli]    |
 | uk    |                    |                       |                  |
 | uz    | Yordamni ko'rsatish    | Versiyani ko'rsatish      | [Interaktiv]        |
+| vi    | Hiển thị trợ giúp  | Hiển thị phiên bản    | [Tương tác]      |
 | zh    | 显示帮助               | 显示版本                  | [交互式]            |
 | zh_TW | 顯示說明               | 顯示版本                  | [互動式]            |
 

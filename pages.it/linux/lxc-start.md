@@ -23,6 +23,6 @@
 
 `sudo lxc-start {{nome_container}} {{[-l|--logpriority]}} DEBUG {{[-o|--logfile]}} {{percorso/al/logfile}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `lxc-start {{[-?|--help]}}`

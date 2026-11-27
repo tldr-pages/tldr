@@ -5,7 +5,7 @@
 
 - Jalankan suatu perintah kueri terhadap suatu tabel BigQuery dalam format SQL dasar, tambahkan opsi `--dry_run` untuk menaksir jumlah bita yang akan dibaca pada proses eksekusi:
 
-`bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM {{NAMA_DATASET}}.{{NAMA_TABEL}}'`
+`bq query --nouse_legacy_sql --dry_run 'SELECT COUNT(*) FROM {{NAMA_DATASET}}.{{NAMA_TABEL}}'`
 
 - Jalankan suatu perintah kueri dengan kumpulan parameter:
 
@@ -17,7 +17,7 @@
 
 - Tampilkan seluruh dataset pada suatu proyek:
 
-`bq ls --filter labels.{{key}}:{{value}} --max_results {{integer}} --format=prettyjson --project_id {{id_proyek}}`
+`bq ls --filter labels.{{key}}:{{nilai}} --max_results {{integer}} --format=prettyjson --project_id {{id_proyek}}`
 
 - Lakukan proses pemuatan data secara batch dari berkas tertentu dalam format seperti CSV, JSON, Parquet, dan Avro ke dalam suatu tabel:
 

@@ -8,7 +8,7 @@
 
 `nslookup {{example.com}}`
 
-- Query a given name server for a NS record of the domain:
+- Query a given name server for an NS record of the domain:
 
 `nslookup -type=NS {{example.com}} {{8.8.8.8}}`
 

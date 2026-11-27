@@ -5,7 +5,7 @@
 
 - Converteer een GIF-afbeelding pixel-voor-pixel naar een Netpbm-afbeelding:
 
-`giftopnm {{pad/naar/invoer.gif}} > {{pad/naar/uitvoer.pnm}}`
+`giftopnm {{pad/naar/invoer.gif}} >{{pad/naar/uitvoer.pnm}}`
 
 - Toon de versie:
 

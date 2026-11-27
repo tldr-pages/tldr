@@ -13,11 +13,11 @@
 
 - Tampilkan berapa lama pengguna tertentu telah terhubung dalam satuan jam:
 
-`ac {{[-p|--individual-totals]}} {{username}}`
+`ac {{[-p|--individual-totals]}} {{nama_pengguna}}`
 
 - Tampilkan berapa lama pengguna tertentu telah terhubung dalam satuan jam per hari (dengan total):
 
-`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{username}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{nama_pengguna}}`
 
 - Tampilkan detail tambahan:
 

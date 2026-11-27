@@ -5,19 +5,19 @@
 
 - Output a list of words of length 1 to 3 with only lowercase characters:
 
-`crunch {{1}} {{3}}`
+`crunch 1 3`
 
 - Output a list of hexadecimal words of length 8:
 
-`crunch {{8}} {{8}} {{0123456789abcdef}}`
+`crunch 8 8 {{0123456789abcdef}}`
 
 - Output a list of all permutations of abc (lengths are not processed):
 
-`crunch {{1}} {{1}} -p {{abc}}`
+`crunch 1 1 -p abc`
 
 - Output a list of all permutations of the given strings (lengths are not processed):
 
-`crunch {{1}} {{1}} -p {{abc}} {{def}} {{ghi}}`
+`crunch 1 1 -p {{abc}} {{def}} {{ghi}}`
 
 - Output a list of words generated according to the given pattern and a maximum number of duplicate letters:
 

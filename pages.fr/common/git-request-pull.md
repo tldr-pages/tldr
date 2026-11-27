@@ -9,4 +9,4 @@
 
 - Produire une requête résumant les changements entre la version v1.1 sur la branche master et la branche locale foo :
 
-`git request-pull {{v0.1}} {{https://example.com/project}} {{master:foo}}`
+`git request-pull {{v0.1}} {{https://example.com/project}} {{master}}:{{foo}}`

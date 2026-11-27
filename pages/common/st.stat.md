@@ -21,8 +21,8 @@
 
 - Print only the standard deviation:
 
-`st {{[-s|--sd]}} {{path/to/file}}`
+`st {{[-sd|--stddev]}} {{path/to/file}}`
 
 - Transpose output (keys in one column, values in another):
 
-`st {{[-t|--transpose]}} {{path/to/file}}`
+`st {{[-to|--transpose-output]}} {{path/to/file}}`

@@ -21,4 +21,4 @@
 
 - Lade eine Datei hoch und erlaube maximal 4 Downloads:
 
-`ffsend upload {{pfad/zu/datei}} {{[-d|--downloads]}} {{4}}`
+`ffsend upload {{pfad/zu/datei}} {{[-d|--downloads]}} 4`

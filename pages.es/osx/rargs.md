@@ -14,12 +14,12 @@
 
 - Elimina la extensión `.bak` de todos los archivos de una lista:
 
-`{{comando}} | rargs -p '(.*).bak mv {0} {1}`
+`{{comando}} | rargs -p '(.*).bak' mv {0} {1}`
 
 - Ejecuta comandos en paralelo:
 
 `{{comando}} | rargs -w {{máxima_cantidad_de_procesos}}`
 
-- Lee líneas de entrada separadas por el caracter `NUL` (`\0`) en vez de `LF` (`\n`):
+- Lee líneas de entrada separadas por el carácter `NUL` (`\0`) en vez de `LF` (`\n`):
 
 `{{comando}} | rargs -0 {{comando}} {0}`

@@ -6,4 +6,4 @@
 
 - Ubah suatu gambar PBM menjadi suatu objek raster Andrew Toolkit:
 
-`pbmtoatk {{jalan/menuju/gambar.pbm}} > {{jalan/menuju/output.atk}}`
+`pbmtoatk {{jalan/menuju/gambar.pbm}} >{{jalan/menuju/output.atk}}`

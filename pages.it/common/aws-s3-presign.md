@@ -11,6 +11,6 @@
 
 `aws s3 presign s3://{{nome_bucket}}/{{percorso/del/file}} --expires-in {{durata_in_secondi}}`
 
-- Visualizza l'aiuto:
+- Mostra l'aiuto:
 
 `aws s3 presign help`

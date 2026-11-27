@@ -9,11 +9,11 @@
 
 - Mostra eventos marcados para os próximos 30 dias ([A]head):
 
-`calendar -A {{30}}`
+`calendar -A 30`
 
 - Mostra eventos ocorridos nos últimos 7 dias ([B]ack):
 
-`calendar -B {{7}}`
+`calendar -B 7`
 
 - Mostra eventos de um calendário personalizado, salvo no caminho especificado ([f]ile):
 

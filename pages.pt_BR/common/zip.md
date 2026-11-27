@@ -30,4 +30,4 @@
 
 - Mostra o conteúdo de um zip específico:
 
-`zip {{[-sf|--split-size --freshen]}} {{caminho/para/comprimido.zip}}`
+`zip {{[-sf|--show-files]}} {{caminho/para/comprimido.zip}}`

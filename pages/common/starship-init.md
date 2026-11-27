@@ -9,11 +9,11 @@
 
 - Append the `starship` integration code to `~/.bashrc`:
 
-`starship init {{bash}} >> {{~/.bashrc}}`
+`starship init {{bash}} >>{{~/.bashrc}}`
 
 - Append the `starship` integration code to `~/.zshrc`:
 
-`starship init {{zsh}} >> {{~/.zshrc}}`
+`starship init {{zsh}} >>{{~/.zshrc}}`
 
 - Display help:
 

@@ -1,7 +1,7 @@
 # fzf
 
 > Recherche approximative en ligne de commande.
-> Similaire à `sk`.
+> Voir aussi : `sk`.
 > Plus d'informations : <https://github.com/junegunn/fzf#usage>.
 
 - Lance `fzf` sur tous les fichiers du répertoire spécifié :
@@ -14,7 +14,7 @@
 
 - Sélectionne plusieurs fichiers avec `<Shift Tab>` et écrit dans un fichier :
 
-`find {{chemin/vers/répertoire}} -type f | fzf {{[-m|--multi]}} > {{chemin/vers/fichier}}`
+`find {{chemin/vers/répertoire}} -type f | fzf {{[-m|--multi]}} >{{chemin/vers/fichier}}`
 
 - Lance `fzf` avec une requête donnée :
 

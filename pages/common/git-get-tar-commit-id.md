@@ -5,4 +5,4 @@
 
 - Extract commit hash ID or quietly exit with a return code of 1:
 
-`git < {{path/to/archive.tar}} get-tar-commit-id`
+`git <{{path/to/archive.tar}} get-tar-commit-id`

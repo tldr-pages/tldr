@@ -9,7 +9,7 @@
 
 - Calcule et enregistre la liste des sommes de contrôle BLAKE3 dans un fichier :
 
-`b3sum {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} > {{chemin/vers/fichier.b3}}`
+`b3sum {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} >{{chemin/vers/fichier.b3}}`
 
 - Calculer une somme de contrôle BLAKE3 à partir de `stdin` :
 

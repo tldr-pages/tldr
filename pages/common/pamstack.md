@@ -5,8 +5,8 @@
 
 - Stack the planes of the specified PAM images in the specified order:
 
-`pamstack {{path/to/image1.pam path/to/image2.pam ...}} > {{path/to/output.pam}}`
+`pamstack {{path/to/image1.pam path/to/image2.pam ...}} >{{path/to/output.pam}}`
 
 - Specify the tuple type name of the output PAM file (maximum of 255 characters):
 
-`pamstack {{[-t|-tupletype]}} {{tuple_type}} {{path/to/image1.pam path/to/image2.pam ...}} > {{path/to/output.pam}}`
+`pamstack {{[-t|-tupletype]}} {{tuple_type}} {{path/to/image1.pam path/to/image2.pam ...}} >{{path/to/output.pam}}`

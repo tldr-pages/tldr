@@ -13,4 +13,4 @@
 
 - Collect dimensions of all JPEG files in the current directory and save them into a CSV file:
 
-`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} > {{path/to/filelist.csv}}`
+`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} >{{path/to/filelist.csv}}`

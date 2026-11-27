@@ -1,6 +1,7 @@
 # rarcrack
 
 > Password cracker for RAR, Zip, and 7z archives.
+> More information: <https://www.kali.org/tools/rarcrack/>.
 
 - Brute force the password for an archive (tries to guess the archive type):
 

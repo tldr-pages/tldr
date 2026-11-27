@@ -21,4 +21,4 @@
 
 - Generate a settings file ignoring all outstanding hints:
 
-`hlint {{path/to/file}} --default > {{.hlint.yaml}}`
+`hlint {{path/to/file}} --default >{{.hlint.yaml}}`

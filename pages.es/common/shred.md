@@ -7,7 +7,7 @@
 
 `shred {{ruta/al/archivo}}`
 
-- Sobrescribe un archivo y mostrar el progreso en pantalla:
+- Sobrescribe un archivo y muestra el progreso en pantalla:
 
 `shred {{[-v|--verbose]}} {{ruta/al/archivo}}`
 
@@ -23,6 +23,6 @@
 
 `shred {{[-u|--remove]}} {{ruta/al/archivo}}`
 
-- Sobrescribe un archivo 100 veces, añade una sobrescritura final con ceros, eliminar el archivo tras sobrescribirlo y muestra el progreso detallado en pantalla:
+- Sobrescribe un archivo 100 veces, añade una sobrescritura final con ceros, elimina el archivo tras sobrescribirlo y muestra el progreso detallado en pantalla:
 
 `shred {{[-vzu|--verbose --zero --remove]}} {{[-n|--iterations]}} 100 {{ruta/al/archivo}}`

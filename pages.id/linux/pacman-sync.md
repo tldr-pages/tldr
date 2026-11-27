@@ -1,12 +1,11 @@
 # pacman --sync
 
 > Kegunaan manajer paket Arch Linux.
-> Lihat juga: `pacman`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
 - Pasang suatu paket:
 
-`sudo pacman -S {{nama_paket}}`
+`sudo pacman -S {{paket}}`
 
 - Sinkronkan dan perbarui semua paket (tambahkan `--downloadonly` untuk unduh paket dan tidak memperbarui-nya):
 
@@ -14,7 +13,7 @@
 
 - Perbarui semua paket dan instal paket baru tanpa konfirmasi:
 
-`sudo pacman -Syu --noconfirm {{nama_paket}}`
+`sudo pacman -Syu --noconfirm {{paket}}`
 
 - Cari paket dalam database berdasarkan `regex` atau kata kunci:
 
@@ -22,7 +21,7 @@
 
 - Tampilkan [i]nformasi suatu paket:
 
-`pacman -Si {{nama_paket}}`
+`pacman -Si {{paket}}`
 
 - Timpa file yang bentrok selama pembaruan paket:
 
@@ -34,4 +33,4 @@
 
 - Tentukan versi paket yang hendak dipasang:
 
-`sudo pacman -S {{nama_paket}}={{versi}}`
+`sudo pacman -S {{paket}}={{versi}}`

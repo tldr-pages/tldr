@@ -21,4 +21,4 @@
 
 - 30초 동안 평균 트래픽 측정 및 표시:
 
-`vnstat {{[-tr|--traffic]}} {{30}}`
+`vnstat {{[-tr|--traffic]}} 30`

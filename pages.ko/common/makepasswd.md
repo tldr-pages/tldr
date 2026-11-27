@@ -9,11 +9,11 @@
 
 - 10자 길이의 비밀번호 생성:
 
-`makepasswd --chars {{10}}`
+`makepasswd --chars 10`
 
 - 5~10자 길이의 비밀번호 생성:
 
-`makepasswd --minchars {{5}} --maxchars {{10}}`
+`makepasswd --minchars 5 --maxchars 10`
 
 - "b", "a", "r" 문자만 포함하는 비밀번호 생성:
 

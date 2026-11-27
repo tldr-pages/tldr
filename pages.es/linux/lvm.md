@@ -33,4 +33,4 @@
 
 - Imprime ayuda para un comando específico:
 
-`lvm help {{command}}`
+`lvm help {{comando}}`

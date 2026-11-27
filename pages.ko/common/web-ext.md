@@ -33,4 +33,4 @@
 
 - 자체 호스팅을 위한 패키지 서명:
 
-`web-ext sign --api-key {{api_키}} --api-secret {{api_비밀}}`
+`web-ext sign --channel unlisted --api-key {{api_키}} --api-secret {{api_비밀}}`

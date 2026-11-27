@@ -13,11 +13,11 @@
 
 - Génère une clé publique à partir d'une clé privée :
 
-`wg < {{chemin/vers/clé_privée}} pubkey > {{chemin/vers/clé_publique}}`
+`wg <{{chemin/vers/clé_privée}} pubkey >{{chemin/vers/clé_publique}}`
 
 - Génère une clé publique et privée :
 
-`wg genkey | tee {{chemin/vers/clé_privée}} | wg pubkey > {{chemin/vers/clé_publique}}`
+`wg genkey | tee {{chemin/vers/clé_privée}} | wg pubkey >{{chemin/vers/clé_publique}}`
 
 - Affiche la configuration actuelle d'une interface wireguard :
 

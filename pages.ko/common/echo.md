@@ -18,7 +18,7 @@
 
 - 파일에 메시지 추가하기:
 
-`echo "{{Hello World}}" >> {{file.txt}}`
+`echo "{{Hello World}}" >>{{file.txt}}`
 
 - 백슬래시 이스케이프 (특수문자)의 해석을 가능하게 하기:
 

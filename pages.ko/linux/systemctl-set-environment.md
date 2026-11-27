@@ -5,7 +5,7 @@
 
 - 단일 환경 변수 설정:
 
-`systemctl set-environment {{var value}}`
+`systemctl set-environment {{var}} {{value}}`
 
 - 여러 환경 변수 한 번에 설정:
 
@@ -13,4 +13,4 @@
 
 - 사용자 서비스 매니저용 환경 변수 설정:
 
-`systemctl set-environment {{var value}} --user`
+`systemctl set-environment {{var}} {{value}} --user`

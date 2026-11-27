@@ -22,11 +22,11 @@
 
 - Watch a file for changes, exiting when no event occurs for 30 seconds:
 
-`inotifywait {{[-m|--monitor]}} {{[-t|--timeout]}} {{30}} {{path/to/file}}`
+`inotifywait {{[-m|--monitor]}} {{[-t|--timeout]}} 30 {{path/to/file}}`
 
 - Only watch a file for file modification events:
 
-`inotifywait {{[-e|--event]}} {{modify}} {{path/to/file}}`
+`inotifywait {{[-e|--event]}} modify {{path/to/file}}`
 
 - Watch a file printing only events, and no status messages:
 
@@ -34,4 +34,4 @@
 
 - Run a command when a file is accessed:
 
-`inotifywait {{[-e|--event]}} {{access}} {{path/to/file}} && {{command}}`
+`inotifywait {{[-e|--event]}} access {{path/to/file}} && {{command}}`

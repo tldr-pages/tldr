@@ -11,6 +11,6 @@
 
 `id3tag --album {{album}} {{*.mp3}}`
 
-- Fornisce altro aiuto:
+- Mostra l'aiuto:
 
 `id3tag --help`

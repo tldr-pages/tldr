@@ -1,8 +1,9 @@
 # cron
 
 > Un pianificatore di sistema per eseguire processi o attività in modo automatico.
-> Il comando per aggiungere, modificare o eliminare voci in cron è chiamato `crontab`.
+> Il comando per aggiungere, modificare o eliminare voci in `cron` è chiamato `crontab`.
+> Maggiori informazioni: <https://manned.org/cron>.
 
-- Visualizza la documentazione per la gestione delle voci di cron:
+- Visualizza la documentazione per la gestione delle voci di `cron`:
 
 `tldr crontab`

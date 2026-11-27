@@ -9,11 +9,11 @@
 
 - Extract the audio from track 1 of a specific file:
 
-`mkvextract tracks {{path/to/file.mkv}} {{1}}:{{path/to/output.webm}}`
+`mkvextract tracks {{path/to/file.mkv}} 1:{{path/to/output.webm}}`
 
 - Extract the subtitle from track 3 of a specific file:
 
-`mkvextract tracks {{path/to/file.mkv}} {{3}}:{{path/to/subs.srt}}`
+`mkvextract tracks {{path/to/file.mkv}} 3:{{path/to/subs.srt}}`
 
 - Add a subtitle track to a file:
 

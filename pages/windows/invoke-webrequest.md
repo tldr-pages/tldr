@@ -1,6 +1,6 @@
 # Invoke-WebRequest
 
-> Perform a HTTP/HTTPS request to the Web.
+> Perform an HTTP/HTTPS request to the Web.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 

@@ -1,7 +1,6 @@
 # linode-cli domains
 
 > Linode 도메인 및 DNS 구성 관리.
-> 관련 항목: `linode-cli`.
 > 더 많은 정보: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-the-dns-manager>.
 
 - 관리되는 모든 도메인 나열:

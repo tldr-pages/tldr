@@ -9,8 +9,8 @@
 
 - Executa o servidor:
 
-`agate {{caminho/para/arquivo}}`
+`agate {{caminho/para/diretorio}}`
 
-- Exibe opções de ajuda:
+- Mostra ajuda:
 
 `agate {{[-h|--help]}}`

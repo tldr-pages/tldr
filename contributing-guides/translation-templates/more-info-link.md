@@ -20,6 +20,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -45,6 +46,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -158,6 +160,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Plus d'informations : <https://example.com>.
+```
+
+---
+
+### he
+
+```markdown
+> למידע נוסף: <https://example.com>.
 ```
 
 ---
@@ -358,6 +368,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Ko'proq malumot: <https://example.com>.
+```
+
+---
+
+### vi
+
+```markdown
+> Thông tin thêm: <https://example.com>.
 ```
 
 ---

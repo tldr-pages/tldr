@@ -7,7 +7,7 @@
 
 `nix flake show`
 
-- Show all the outputs of a flake on GitHub and print the output as a json on a single line:
+- Show all the outputs of a flake on GitHub and print the output as a JSON on a single line:
 
 `nix flake show {{github:owner/repo}} --json --no-pretty`
 

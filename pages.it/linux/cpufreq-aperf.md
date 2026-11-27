@@ -9,11 +9,11 @@
 
 - Avvia il calcolo solo per la CPU 1:
 
-`sudo cpufreq-aperf {{[-c|--cpu]}} {{1}}`
+`sudo cpufreq-aperf {{[-c|--cpu]}} 1`
 
 - Avvia il calcolo con un intervallo di aggiornamento di 3 secondi per tutti i core della CPU:
 
-`sudo cpufreq-aperf {{[-i|--interval]}} {{3}}`
+`sudo cpufreq-aperf {{[-i|--interval]}} 3`
 
 - Calcola solo una volta:
 

@@ -5,7 +5,7 @@
 
 - Convert a GEM image file to a PNM image:
 
-`gemtopnm {{path/to/file.img}} > {{path/to/output.pnm}}`
+`gemtopnm {{path/to/file.img}} >{{path/to/output.pnm}}`
 
 - Describe the contents of the specified GEM image:
 

@@ -10,7 +10,7 @@
 
 - List the last 10 installed updates:
 
-`Get-WUHistory -Last {{10}}`
+`Get-WUHistory -Last 10`
 
 - List all updates installed from a specific date to today:
 

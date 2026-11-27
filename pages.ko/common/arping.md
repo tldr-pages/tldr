@@ -26,4 +26,4 @@
 
 - 3초의 시간 제한을 사용하여 ARP 요청을 전송하여 네트워크에서 중복된 IP 주소를 탐지합니다:
 
-`sudo arping -D -w {{3}} {{ip_to_check}}`
+`sudo arping -D -w 3 {{ip_to_check}}`

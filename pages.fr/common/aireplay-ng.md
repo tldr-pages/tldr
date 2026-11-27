@@ -6,4 +6,4 @@
 
 - Envoie un nombre spécifique de paquets de dissociation en fonction de l'adresse MAC d'un point d'accès, de l'adresse MAC d'un client et d'une interface :
 
-`sudo aireplay-ng --deauth {{nombre}} --bssid {{mac_pa}} --dmac {{mac_client}} {{interface}}`
+`sudo aireplay-ng {{[-0|--deauth]}} {{nombre}} -a {{mac_pa}} -c {{mac_client}} {{interface}}`

@@ -5,12 +5,12 @@
 
 - Draw a histogram of a PNM image:
 
-`pnmhistmap {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhistmap {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Draw the histogram as dots instead of bars:
 
-`pnmhistmap {{[-d|-dots]}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhistmap {{[-d|-dots]}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`
 
 - Specify the range of intensity values to include:
 
-`pnmhistmap {{[-l|-lval]}} {{minval}} {{[-rv|-rval]}} {{maxval}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhistmap {{[-l|-lval]}} {{minval}} {{[-rv|-rval]}} {{maxval}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`

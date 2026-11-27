@@ -1,12 +1,11 @@
 # dconf write
 
 > Scrive i valori delle chiavi nei database dconf.
-> Vedi anche: `dconf`.
 > Maggiori informazioni: <https://manned.org/dconf>.
 
 - Scrive il valore di una chiave specifica:
 
-`dconf write /{{path/to/key}} "{{value}}"`
+`dconf write /{{path/to/key}} "{{valore}}"`
 
 - Scrive il valore di una chiave stringa specifica:
 

@@ -1,13 +1,36 @@
 # cmake
 
-> Çok platformlu yapım sistem oluşturucusu.
-> Hedeflenen sisteme göre Makefile, Visual Studio projeleri ve benzerlerini oluşturur.
+> Çok platformlu yapım otomasyon sistemi, yerel yapım sistemleri için tarifler oluşturur.
 > Daha fazla bilgi için: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
-- Bir Makefile oluştur ve onu aynı dizindeki bir projeyi derlemek için kullan:
+- Bir proje dizinindeki `CMakeLists.txt` dosyasından, geçerli dizinde bir yapım tarifi oluştur:
 
-`cmake && make`
+`cmake {{proje/dizininin/yolu}}`
 
-- Bir Makefile oluştur ve onu farklı bir "yapim" dizinindeki projeyi derlemek için kullan (kaynak-dışı yapım):
+- Belirtilen dizinde oluşturulmuş bir tarifi kullanarak yapım çıktılarını derle:
 
-`cmake -H. -B {{build}} && make -C {{yapim}}`
+`cmake --build {{yapım/dizininin/yolu}}`
+
+- Yapım çıktılarını `/usr/local/` dizinine kur ve hata ayıklama sembollerini temizle:
+
+`cmake --install {{yapım/dizininin/yolu}} --strip`
+
+- Yapım türü CMake değişkeniyle `Release` olarak ayarlanmış bir yapım tarifi oluştur:
+
+`cmake {{proje/dizininin/yolu}} -D CMAKE_BUILD_TYPE=Release`
+
+- Altta yatan yapım sistemi olarak `oluşturucu_adı` kullanan bir yapım tarifi oluştur:
+
+`cmake -G {{oluşturucu_adı}} {{proje/dizininin/yolu}}`
+
+- Yapım çıktılarını özel bir yol öneki kullanarak kur:
+
+`cmake --install {{yapım/dizininin/yolu}} --strip --prefix {{dizin/yolu}}`
+
+- Özel bir yapım hedefi çalıştır:
+
+`cmake --build {{yapım/dizininin/yolu}} {{[-t|--target]}} {{hedef_adı}}`
+
+- Yardımı görüntüle:
+
+`cmake {{[-h|--help]}}`

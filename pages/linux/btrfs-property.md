@@ -22,3 +22,7 @@
 - Set the `compression` property for a given btrfs inode (either a file or directory):
 
 `sudo btrfs {{[p|property]}} {{[s|set]}} {{path/to/btrfs_inode}} compression {{zstd|zlib|lzo|none}}`
+
+- Set the `ro` (read-only) property for a given btrfs subvolume:
+
+`sudo btrfs {{[p|property]}} {{[s|set]}} {{path/to/btrfs_subvolume}} ro {{true|false}}`

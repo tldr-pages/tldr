@@ -9,7 +9,7 @@
 
 - Calculate and save the list of BLAKE3 checksums to a file:
 
-`b3sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.b3}}`
+`b3sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.b3}}`
 
 - Calculate a BLAKE3 checksum from `stdin`:
 

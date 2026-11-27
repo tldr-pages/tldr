@@ -16,6 +16,6 @@
 
 `disown -a`
 
-- Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit (Bash only):
+- Keep job (do not disown it), but mark it so that no future `SIGHUP` is received on shell exit (Bash only):
 
 `disown -h %{{job_number}}`

@@ -13,7 +13,7 @@
 
 - 기본 100000 요청으로 테스트의 일부 실행:
 
-`redis-benchmark -h {{호스트}} -p {{포트}} -t {{set,lpush}} -n {{100000}}`
+`redis-benchmark -h {{호스트}} -p {{포트}} -t {{set,lpush}} -n 100000`
 
 - 특정 스크립트로 실행:
 
@@ -21,11 +21,11 @@
 
 - 100000개의 [r]andom 키를 사용하여 벤치마크 실행:
 
-`redis-benchmark -t {{set}} -r {{100000}}`
+`redis-benchmark -t {{set}} -r 100000`
 
 - 16개의 명령으로 [P]ipelining하여 벤치마크 실행:
 
-`redis-benchmark -n {{1000000}} -t {{set,get}} -P {{16}}`
+`redis-benchmark -n {{1000000}} -t {{set,get}} -P 16`
 
 - [q]uietly 실행하여 초당 쿼리 결과만 표시:
 

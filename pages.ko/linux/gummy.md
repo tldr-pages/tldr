@@ -5,23 +5,23 @@
 
 - 화면 온도를 3000K로 설정:
 
-`gummy {{[-t|--temperature]}} {{3000}}`
+`gummy {{[-t|--temperature]}} 3000`
 
 - 화면 백라이트를 50%로 설정:
 
-`gummy --backlight {{50}}`
+`gummy --backlight 50`
 
 - 화면 픽셀 밝기를 45%로 설정:
 
-`gummy {{[-b|--brightness]}} {{45}}`
+`gummy {{[-b|--brightness]}} 45`
 
 - 현재 화면 픽셀 밝기를 10% 증가:
 
-`gummy {{[-b|--brightness]}} {{+10}}`
+`gummy {{[-b|--brightness]}} +10`
 
 - 현재 화면 픽셀 밝기를 10% 감소:
 
-`gummy {{[-b|--brightness]}} {{-10}}`
+`gummy {{[-b|--brightness]}} -10`
 
 - 두 번째 화면의 온도와 픽셀 밝기를 설정:
 

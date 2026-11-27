@@ -9,20 +9,24 @@
 
 - List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
 
-`pactl list {{sinks}} short`
+`pactl list sinks short`
 
 - Change the default sink (output) to 1 (the number can be retrieved via the `list` subcommand):
 
-`pactl set-default-sink {{1}}`
+`pactl set-default-sink 1`
 
 - Move sink-input 627 to sink 1:
 
-`pactl move-sink-input {{627}} {{1}}`
+`pactl move-sink-input 627 1`
 
 - Set the volume of sink 1 to 75%:
 
-`pactl set-sink-volume {{1}} {{0.75}}`
+`pactl set-sink-volume 1 0.75`
 
 - Toggle mute on the default sink (using the special name `@DEFAULT_SINK@`):
 
-`pactl set-sink-mute {{@DEFAULT_SINK@}} toggle`
+`pactl set-sink-mute @DEFAULT_SINK@ toggle`
+
+- Specify which HDMI output is being used:
+
+`pactl set-card-profile {{alsa_card.pci-0000_0c_00.1}} output:{{hdmi-stereo-extra1}}`

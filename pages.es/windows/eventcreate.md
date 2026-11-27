@@ -6,7 +6,7 @@
 
 - Crea un nuevo evento con un ID dado (1-1000) en el registro:
 
-`eventcreate /t {{success|error|warning|information}} /id {{id}} /d "{{mensaje}}"`
+`eventcreate /t {{success|error|warning|information}} /id {{1..1000}} /d "{{mensaje}}"`
 
 - Crea un evento en un registro de eventos específico:
 
@@ -18,4 +18,4 @@
 
 - Crea un evento en el registro de eventos de una máquina remota:
 
-`eventcreate /s {{nombre_del_host}} /u {{nombre_de_usuario}} /p {{contraseña}} /t {{tipo}} /id {{id}} /d "{{mensaje}}"`
+`eventcreate /s {{nombre_del_host}} /u {{usuario}} /p {{contraseña}} /t {{tipo}} /id {{id}} /d "{{mensaje}}"`

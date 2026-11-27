@@ -5,4 +5,4 @@
 
 - Hide mouse cursor after 3 seconds:
 
-`unclutter -idle {{3}}`
+`unclutter -idle 3`

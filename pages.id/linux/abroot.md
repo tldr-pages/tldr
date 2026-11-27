@@ -1,16 +1,16 @@
 # abroot
 
-> Utilitas yang menyediakan imutabilitas dan atomisitas penuh melalui transaksi antara 2 status partisi root (A⟺B).
+> Utilitas yang menyediakan imutabilitas dan atomisitas penuh melalui transaksi antara 2 status partisi root (A<=>B).
 > Pembaruan dilakukan menggunakan image OCI, untuk memastikan sistem selalu dalam keadaan konsisten.
 > Informasi lebih lanjut: <https://docs.vanillaos.org/docs/en/abroot-manpage>.
 
 - Tambahkan paket ke image lokal (Catatan: Setelah menjalankan perintah ini, Anda perlu menerapkan perubahan tersebut):
 
-`sudo abroot pkg add {{package}}`
+`sudo abroot pkg add {{paket}}`
 
 - Hapus paket dari image lokal (Catatan: Setelah menjalankan perintah ini, Anda perlu menerapkan perubahan tersebut):
 
-`sudo abroot pkg remove {{package}}`
+`sudo abroot pkg remove {{paket}}`
 
 - Tampilkan daftar paket dalam image lokal:
 

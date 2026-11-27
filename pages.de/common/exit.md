@@ -9,4 +9,4 @@
 
 - Beende die Shell mit dem angegebenen Exitcode:
 
-`exit {{exitcode}}`
+`exit {{0..255}}`

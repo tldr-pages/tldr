@@ -10,15 +10,15 @@
 
 - Concatenate several files into an output file:
 
-`cat {{path/to/file1 path/to/file2 ...}} > {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >{{path/to/output_file}}`
 
 - Append several files to an output file:
 
-`cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >>{{path/to/output_file}}`
 
 - Write to a file interactively:
 
-`cat > {{path/to/file}}`
+`cat >{{path/to/file}}`
 
 - Number all output lines:
 

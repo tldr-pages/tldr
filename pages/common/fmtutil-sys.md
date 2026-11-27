@@ -1,20 +1,7 @@
 # fmtutil-sys
 
-> Manage TeX formats and Metafont bases system-wide.
-> More information: <https://manned.org/fmtutil-sys>.
+> This command is an alias of `fmtutil --sys`.
 
-- Recreate all system format files:
+- View documentation for the original command:
 
-`fmtutil-sys --all`
-
-- Create all missing system format files:
-
-`fmtutil-sys --missing`
-
-- Recreate a specific system format:
-
-`fmtutil-sys --byfmt {{format}}`
-
-- List configured formats:
-
-`fmtutil-sys --listcfg`
+`tldr fmtutil`

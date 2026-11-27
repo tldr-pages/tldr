@@ -17,4 +17,4 @@
 
 - Display dependencies and save to a file:
 
-`gradle dependencies > {{path/to/dependencies.txt}}`
+`gradle dependencies >{{path/to/dependencies.txt}}`

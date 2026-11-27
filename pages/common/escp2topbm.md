@@ -6,4 +6,4 @@
 
 - Convert an ESC/P2 printer file to a PBM image:
 
-`escp2topbm {{path/to/image.escp2}} > {{path/to/output.pbm}}`
+`escp2topbm {{path/to/image.escp2}} >{{path/to/output.pbm}}`

@@ -17,7 +17,7 @@
 
 - Build resources and save to a file:
 
-`kubectl kustomize {{path/to/directory}} > {{output.yaml}}`
+`kubectl kustomize {{path/to/directory}} >{{output.yaml}}`
 
 - Build resources with load restrictor disabled:
 

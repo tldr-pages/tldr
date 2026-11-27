@@ -10,4 +10,4 @@
 
 - Exporta el sistema de archivos de un contenedor a `stdout`:
 
-`podman export {{nombre_o_id_del_contenedor}} > {{ruta/al/archivo.tar}}`
+`podman export {{nombre_o_id_del_contenedor}} >{{ruta/al/archivo.tar}}`

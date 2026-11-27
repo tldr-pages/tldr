@@ -9,7 +9,7 @@
 
 - 새 기본 설정 생성:
 
-`conky {{[-C|--print-config]}} > ~/.conkyrc`
+`conky {{[-C|--print-config]}} >~/.conkyrc`
 
 - 지정된 설정 파일로 Conky 시작:
 
@@ -25,4 +25,4 @@
 
 - 시작 시 5초 대기 후 실행:
 
-`conky {{[-p|--pause]}} {{5}}`
+`conky {{[-p|--pause]}} 5`

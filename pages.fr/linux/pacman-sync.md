@@ -27,7 +27,7 @@
 
 `sudo pacman -Syu --overwrite {{chemin/vers/fichier}}`
 
-- Supprime les fichiers concernant des paquets non installés et les dépôts inutilisés du cache de pacman (utiliser les options `Scc` pour nettoyer tous les paquets):
+- Supprime les fichiers concernant des paquets non installés et les dépôts inutilisés du cache de pacman (utiliser les options `Scc` pour nettoyer tous les paquets) :
 
 `sudo pacman -Sc`
 

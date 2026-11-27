@@ -15,6 +15,6 @@
 
 `pipewire-pulse {{[-v|--verbose]}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pipewire-pulse {{[-h|--help]}}`

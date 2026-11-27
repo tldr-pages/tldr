@@ -20,6 +20,6 @@
 
 `Install-NodeVersion {{node_version}} -Architecture {{x86|x64|arm64}}`
 
-- Use a HTTP proxy to download Node.js:
+- Use an HTTP proxy to download Node.js:
 
 `Install-NodeVersion {{node_version}} -Proxy {{http://example.com}}`

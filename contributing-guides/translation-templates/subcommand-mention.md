@@ -19,6 +19,7 @@ This file contains the translation templates of this notice.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -43,6 +44,7 @@ This file contains the translation templates of this notice.
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -160,10 +162,18 @@ This file contains the translation templates of this notice.
 
 ---
 
+### he
+
+```markdown
+> לחלק מפקודות המשנה, כגון `example`, יש תיעוד שימוש נפרד.
+```
+
+---
+
 ### hi
 
 ```markdown
-> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं।
+> कुछ उप-आदेशों, जैसे कि `example`, के अपने उपयोग प्रलेखन हैं।
 ```
 
 ---
@@ -348,6 +358,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > `example` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
+```
+
+---
+
+### vi
+
+```markdown
+> Một số lệnh con như `example` có tài liệu hướng dẫn riêng.
 ```
 
 ---

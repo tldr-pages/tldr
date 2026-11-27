@@ -17,7 +17,7 @@
 
 - Simulate the download of an object from a bucket:
 
-`exo storage get {{bucket_name}}/{{object_key}} {{local_path}} --dry-run`
+`exo storage get {{bucket_name}}/{{object_key}} {{path/to/local_file}} --dry-run`
 
 - Manage the metadata of an object:
 

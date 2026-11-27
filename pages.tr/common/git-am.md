@@ -1,17 +1,21 @@
 # git am
 
-> Yama dosyalarını uygula. E-posta ile commit alırken faydalıdır.
+> Yama dosyalarını uygula ve commit oluştur. E-posta ile commit alırken faydalıdır.
 > Ayrıca bakınız: `git format-patch`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-am>.
 
-- Bir yama dosyasını uygula:
+- Yerel bir yama dosyasındaki değişiklikleri uygula ve commit oluştur:
 
 `git am {{örnek/yama.patch}}`
+
+- Uzak bir yama dosyasındaki değişiklikleri uygula ve commit oluştur:
+
+`curl {{[-L|--location]}} {{https://example.com/yama.patch}} | git am`
 
 - Yama dosyası uygulama işlemini durdur:
 
 `git am --abort`
 
-- Mümkün olacak kadar yama dosyasını uygula ve bu dosyaların uygulanamayan parçalarını bahsi geçen dosyaları reddetmek için kaydet:
+- Yama dosyasının uygulanabilen kısmını uygula, uygulanamayan parçaları `.rej` dosyalarına kaydet:
 
 `git am --reject {{örnek/yama.patch}}`

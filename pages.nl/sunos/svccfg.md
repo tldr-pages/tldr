@@ -9,7 +9,7 @@
 
 - Exporteer de configuraties van een service naar een bestand:
 
-`svccfg export {{servicenaam}} > {{pad/naar/smf_bestand.xml}}`
+`svccfg export {{servicenaam}} >{{pad/naar/smf_bestand.xml}}`
 
 - Importeer/update de serviceconfiguraties vanuit een bestand:
 

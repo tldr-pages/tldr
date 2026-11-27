@@ -5,4 +5,4 @@
 
 - Read a PPM image from the input file, convert it to an Abekas YUV image, and store it in the specified output file:
 
-`ppmtoyuv {{path/to/input_file.ppm}} > {{path/to/output_file.yuv}}`
+`ppmtoyuv {{path/to/input_file.ppm}} >{{path/to/output_file.yuv}}`

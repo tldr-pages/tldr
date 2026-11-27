@@ -6,4 +6,4 @@
 
 - Convert the specified Usenix FaceSaver file into a PGM image:
 
-`fstopgm {{path/to/input.fs}} > {{path/to/output.pgm}}`
+`fstopgm {{path/to/input.fs}} >{{path/to/output.pgm}}`

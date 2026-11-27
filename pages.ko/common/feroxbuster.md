@@ -6,7 +6,7 @@
 
 - 확장자, 100개의 스레드 및 임의의 사용자 에이전트가 포함된 단어 목록에서 일치하는 특정 디렉터리 및 파일 검색:
 
-`feroxbuster --url "{{https://example.com}}" --wordlist {{경로/대상/파일}} --threads {{100}} --extensions "{{php,txt}}" --random-agent`
+`feroxbuster --url "{{https://example.com}}" --wordlist {{경로/대상/파일}} --threads 100 --extensions "{{php,txt}}" --random-agent`
 
 - 특정 프록시를 통해 재귀 없이 디렉터리를 열거:
 

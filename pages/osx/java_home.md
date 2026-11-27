@@ -15,7 +15,7 @@
 
 `java_home --datamodel {{Applets|WebStart|BundledApp|JNI|CommandLine}}`
 
-- List JVMs in a XML format:
+- List JVMs in an XML format:
 
 `java_home --xml`
 

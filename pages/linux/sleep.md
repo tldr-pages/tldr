@@ -23,6 +23,10 @@
 
 `sleep {{[inf|infinity]}}`
 
+- Delay for one millisecond:
+
+`sleep {{0.001|1e-3}}`
+
 - Display help:
 
 `sleep --help`

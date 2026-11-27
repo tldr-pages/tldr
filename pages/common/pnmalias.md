@@ -5,16 +5,16 @@
 
 - Perform antialiasing on a PNM image, taking black pixels as background and white pixels as foreground:
 
-`pnmalias {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmalias {{path/to/input.pnm}} >{{path/to/output.ppm}}`
 
 - Explicitly specify the background and foreground color:
 
-`pnmalias -bcolor {{background_color}} -fcolor {{foreground_color}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmalias -bcolor {{background_color}} -fcolor {{foreground_color}} {{path/to/input.pnm}} >{{path/to/output.ppm}}`
 
 - Apply altialiasing to foreground pixels only:
 
-`pnmalias {{[-fo|-fonly]}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmalias {{[-fo|-fonly]}} {{path/to/input.pnm}} >{{path/to/output.ppm}}`
 
 - Apply antialiasing to all surrounding pixels of background pixels:
 
-`pnmalias {{[-ba|-balias]}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmalias {{[-ba|-balias]}} {{path/to/input.pnm}} >{{path/to/output.ppm}}`

@@ -14,7 +14,7 @@
 
 - Generate a security report in JSON format:
 
-`pnpm audit --json > {{path/to/audit-report.json}}`
+`pnpm audit --json >{{path/to/audit-report.json}}`
 
 - Audit only dev dependencies:
 

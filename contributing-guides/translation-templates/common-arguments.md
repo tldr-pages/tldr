@@ -5,7 +5,7 @@ The best way to edit this file is by using [tableconvert.com](https://tableconve
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.
 
 > [!NOTE]
-> Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
+> Placeholders in Arabian (`ar`), Farsi (`fa`), and Hebrew (`he`) pages shouldn't be translated to prevent flipped text when reading.
 
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 |-------|-----------------------|--------------------------|--------------------------------------|---------------|--------------------|-------------------|----------|--------|----------|
@@ -22,11 +22,12 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | käyttäjätunnus     | salasana          | komento  | portti | arvo     |
 | fr    | chemin/vers/fichier   | chemin/vers/répertoire   | chemin/vers/fichier_ou_répertoire    | paquet        | nom_d_utilisateur  | mot_de_passe      | commande | port   | valeur   |
+| he    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |                   |          |        |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
 | ja    | ディレクトリ/サブディレクトリ/ファイル         | ディレクトリ/サブディレクトリ        | ディレクトリ/サブディレクトリ/ファイル_または_ディレクトリ         | パッケージ      | ユーザー名          | パスワード          | コマンド  | ポート  | 値        |
-| ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              | 비밀번호              | 명령어      | 포트     | 값        |
+| ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자_이름              | 비밀번호              | 명령어      | 포트     | 값        |
 | lo    |                       |                          |                                      |               |                    |                   |          |        |          |
 | ml    | ഫയലിലേക്കുള്ള/പാത     | ഡയറക്ടറിയിലേക്കുള്ള/പാത  | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത | പാക്കേജ്      | ഉപയോക്തൃനാമം       |                   |          |        |          |
 | nb    | sti/til/fil           | sti/til/katalog          | sti/til/fil_eller_katalog            | pakke         | brukernavn         | passord           | kommando | port   | verdi    |
@@ -47,5 +48,6 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | tr    | yol/dosya             | yol/dizin                | yol/dosya_veya_dizin                 | paket         | kullanıcı_adı      | şifre             | komut    | port   | değer    |
 | uk    | шлях/до/файлу         | шлях/до/директорії       | шлях/до/файлу_чи_директорії          | пакунок       | ім'я_користувача   |                   |          |        |          |
 | uz    | faylga/yo'l           | katalogga/yo'l           | fayl_yoki_katalogga/yo'l             | paket         | foydalanuvchi_nomi | parol             | buyruq   | port   | qiymat   |
+| vi    | đường_dẫn/đến/tệp     | đường_dẫn/đến/thư_mục    | đường_dẫn/đến/tệp_hoặc_thư_mục       | gói           | tên_người_dùng     | mật_khẩu          | lệnh     | cổng   | giá_trị  |
 | zh    | 路径/到/文件               | 路径/到/目录                  | 路径/到/文件或目录                           | 软件包           | 用户名                | 密码                | 命令       | 端口     | 值        |
 | zh_TW | 路徑/至/檔案               | 路徑/至/目錄                  | 路徑/至/檔案或目錄                           | 套件            | 使用者名稱              | 密碼                | 命令       | 埠      | 值        |

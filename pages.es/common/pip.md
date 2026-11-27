@@ -22,7 +22,7 @@
 
 - Guarda los paquetes instalados en un archivo:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Lista los paquetes instalados:
 
@@ -30,7 +30,7 @@
 
 - Muestra información sobre un paquete instalado:
 
-`pip show {{package}}`
+`pip show {{paquete}}`
 
 - Instala paquetes desde un archivo:
 

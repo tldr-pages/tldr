@@ -1,7 +1,6 @@
 # pacman --query
 
 > Kegunaan manajer paket Arch Linux.
-> Lihat juga: `pacman`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
 - Tampilkan daftar paket yang diinstal beserta versinya:
@@ -18,11 +17,11 @@
 
 - Tampilkan informasi paket yang diinstal:
 
-`pacman -Qi {{nama_paket}}`
+`pacman -Qi {{paket}}`
 
 - Tampilkan daftar file yang dimiliki oleh paket:
 
-`pacman -Ql {{nama_paket}}`
+`pacman -Ql {{paket}}`
 
 - Tampilkan daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):
 

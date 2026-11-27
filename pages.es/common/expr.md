@@ -15,7 +15,7 @@
 
 `expr match "{{cadena}}" '{{patrón}}'`
 
-- Obtiene la primera posición de un caracter de un conjunto específico en una cadena:
+- Obtiene la primera posición de un carácter de un conjunto específico en una cadena:
 
 `expr index "{{cadena}}" "{{caracteres}}"`
 

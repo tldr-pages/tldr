@@ -27,3 +27,7 @@
 - Splits een bestand boven de eerste regel die overeenkomt met de `regex`:
 
 `csplit {{pad/naar/bestand}} /{{regex}}/`
+
+- Splits een bestand vóór elk van de eerste 100 regels die overeenkomen met een `regex` en gebruik een aangepaste bestandsprefix:
+
+`csplit {{[-k|--keep-files]}} {{[-f|--prefix]}} {{prefix}} {{pad/naar/bestand}} '/{{regex}}/' '{99}'`

@@ -1,7 +1,6 @@
 # vagrant box
 
 > Administra cajas Vagrant (imágenes de máquinas virtuales).
-> Vea también: `vagrant`.
 > Más información: <https://developer.hashicorp.com/vagrant/docs/cli/box>.
 
 - Lista todas las cajas instaladas:

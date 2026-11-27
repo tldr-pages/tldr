@@ -15,6 +15,6 @@
 
 `koji tag-build {{tag}} {{NVR1 NVR2 ...}} --force`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji tag-build {{[-h|--help]}}`

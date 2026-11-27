@@ -19,12 +19,12 @@
 
 - Rastrea usando el protocolo `udp`:
 
-`sudo trip {{example.com}} --protocol {{udp}}`
+`sudo trip {{example.com}} --protocol udp`
 
 - Utiliza el puerto de destino personalizado `443` para el rastreo `tcp`:
 
-`sudo trip {{example.com}} --protocol {{tcp}} --target-port {{443}}`
+`sudo trip {{example.com}} --protocol tcp --target-port 443`
 
 - Utiliza el puerto de origen personalizado `5000` para el seguimiento `udp`:
 
-`sudo trip {{example.com}} --protocol {{udp}} --source-port {{5000}}`
+`sudo trip {{example.com}} --protocol udp --source-port 5000`

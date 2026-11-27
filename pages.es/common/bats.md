@@ -7,7 +7,7 @@
 
 `bats {{[-t|--tap]}} {{ruta/a/prueba.bats}}`
 
-- [c]ontar casos de prueba de un script de prueba sin ejecutar ninguna prueba:
+- [c]uenta casos de prueba de un script de prueba sin ejecutar ninguna prueba:
 
 `bats {{[-c|--count]}} {{ruta/a/prueba.bats}}`
 

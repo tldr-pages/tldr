@@ -12,7 +12,7 @@
 
 `host -t {{field}} {{domain}}`
 
-- Reverse lookup an IP:
+- Reverse look up an IP:
 
 `host {{ip_address}}`
 

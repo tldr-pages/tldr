@@ -19,6 +19,6 @@
 
 `apptainer search --library {{url_library}} {{query}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer search {{[-h|--help]}}`

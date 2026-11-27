@@ -17,7 +17,7 @@
 
 `quickget windows 11`
 
-- Download a macOS recovery image and creates a virtual machine configuration:
+- Download a macOS recovery image and create a virtual machine configuration:
 
 `quickget macos {{mojave|catalina|big-sur|monterey|ventura|sonoma}}`
 

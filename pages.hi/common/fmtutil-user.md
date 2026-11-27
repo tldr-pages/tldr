@@ -1,0 +1,7 @@
+# fmtutil-user
+
+> यह आदेश `fmtutil --user` का उपनाम है।
+
+- मूल आदेश के लिए प्रलेखन देखें:
+
+`tldr fmtutil`

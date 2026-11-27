@@ -5,7 +5,7 @@
 
 - Expose a local file or directory in the foreground:
 
-`tailscale funnel {{path/to/file_or_directory}}`
+`tailscale funnel /{{path/to/file_or_directory}}`
 
 - Expose an HTTP server running at 127.0.0.1:3000 in the foreground:
 
@@ -18,3 +18,15 @@
 - Expose an HTTPS server with invalid or self-signed certificates at <https://localhost:8443>:
 
 `tailscale funnel https+insecure://localhost:8443`
+
+- Display the current configuration:
+
+`tailscale funnel status`
+
+- Display the current configuration in JSON format:
+
+`tailscale funnel status --json`
+
+- Reset the current configuration:
+
+`tailscale funnel reset`

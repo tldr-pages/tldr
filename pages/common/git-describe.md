@@ -9,7 +9,7 @@
 
 - Create a name with 4 digits for the abbreviated commit hash:
 
-`git describe --abbrev={{4}}`
+`git describe --abbrev=4`
 
 - Generate a name with the tag reference path:
 

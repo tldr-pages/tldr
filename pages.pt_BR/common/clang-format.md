@@ -21,4 +21,4 @@
 
 - Gera um arquivo `.clang-format` personalizado:
 
-`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
+`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config >{{.clang-format}}`

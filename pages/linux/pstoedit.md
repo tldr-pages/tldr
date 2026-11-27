@@ -5,8 +5,8 @@
 
 - Convert a PDF page to PNG or JPEG format:
 
-`pstoedit -page {{page_number}} -f magick {{path/to/file.pdf}} {{page.png|page.jpg}}`
+`pstoedit -page {{page_number}} -f magick {{path/to/file.pdf}} {{page}}.{{png|jpg}}`
 
 - Convert multiple PDF pages to numbered images:
 
-`pstoedit -f magick {{path/to/file}} {{page%d.png|page%d.jpg}}`
+`pstoedit -f magick {{path/to/file}} {{page%d}}.{{png|jpg}}`

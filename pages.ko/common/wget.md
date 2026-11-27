@@ -11,7 +11,7 @@
 
 - URL 내용을 파일(이 경우 "bar")로 다운로드:
 
-`wget {{[-O|--output-document]}} {{bar}} {{https://example.com/foo}}`
+`wget {{[-O|--output-document]}} {{경로/대상/파일}} {{https://example.com/foo}}`
 
 - 요청 사이에 3초 간격으로 단일 웹 페이지와 모든 리소스(스크립트, 스타일시트, 이미지 등)를 다운로드:
 

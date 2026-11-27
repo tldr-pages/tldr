@@ -5,7 +5,7 @@
 
 - Muat sebuah citra Docker dari `stdin`:
 
-`docker < {{jalan/menuju/berkas_citra.tar}} {{[load|image load]}}`
+`docker <{{jalan/menuju/berkas_citra.tar}} {{[load|image load]}}`
 
 - Muat sebuah citra Docker dari suatu berkas:
 

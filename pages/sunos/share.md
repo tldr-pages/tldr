@@ -21,4 +21,4 @@
 
 - Make sharing persistent by adding entries to `/etc/dfs/dfstab`:
 
-`echo "share -F nfs -o rw /{{path/to/directory}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{path/to/directory}}" >>/etc/dfs/dfstab`

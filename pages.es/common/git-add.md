@@ -7,6 +7,10 @@
 
 `git add {{ruta/al/archivo}}`
 
+- Añade interactivamente partes de archivos al área de preparación (staging):
+
+`git add {{[-p|--patch]}}`
+
 - Añade todos los archivos (rastreados o no):
 
 `git add {{[-A|--all]}}`
@@ -21,11 +25,7 @@
 
 - Añade también los archivos ignorados:
 
-`git add {{[-f|--force]}}`
-
-- Añade interactivamente partes de archivos al área de preparación (staging):
-
-`git add {{[-p|--patch]}}`
+`git add {{[-f|--force]}} {{ruta/al/archivo}}`
 
 - Añade interactivamente partes de un archivo dado al área de preparación (staging):
 

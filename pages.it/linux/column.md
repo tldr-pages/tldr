@@ -6,7 +6,7 @@
 
 - Formatta l'output per uno schermo largo 30 caratteri:
 
-`printf "intestazione1 intestazione2\nbar foo\n" | column {{[-c|--output-width]}} {{30}}`
+`printf "intestazione1 intestazione2\nbar foo\n" | column {{[-c|--output-width]}} 30`
 
 - Separa colonne ed allinea automaticamente in un formato tabulare:
 

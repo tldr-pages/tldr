@@ -17,7 +17,7 @@
 
 - `low`와 `high`로 지정된 메모리 주소 범위로 결과 제한:
 
-`pmap --range {{low}},{{high}}`
+`pmap --range {{low}},{{high}} {{pid}}`
 
 - 여러 프로세스의 메모리 맵 출력:
 

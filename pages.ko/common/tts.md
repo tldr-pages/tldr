@@ -3,7 +3,7 @@
 > 음성을 합성합니다.
 > 더 많은 정보: <https://github.com/coqui-ai/TTS#command-line-tts>.
 
-- 기본 모델로 텍스트를 음성으로 변환하고 출력을 "tts_output.wav"에 저장:
+- 기본 모델로 텍스트를 음성으로 변환하고 출력을 `tts_output.wav`에 저장:
 
 `tts --text "{{텍스트}}"`
 

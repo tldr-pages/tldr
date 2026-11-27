@@ -10,7 +10,7 @@
 
 - 최근 10개의 설치된 업데이트 나열:
 
-`Get-WUHistory -Last {{10}}`
+`Get-WUHistory -Last 10`
 
 - 특정 날짜부터 오늘까지 설치된 모든 업데이트 나열:
 

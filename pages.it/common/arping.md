@@ -26,4 +26,4 @@
 
 - Rileva indirizzi IP duplicati nella rete inviando richieste ARP con un timeout di 3 secondi:
 
-`sudo arping -D -w {{3}} {{ip_da_controllare}}`
+`sudo arping -D -w 3 {{ip_da_controllare}}`

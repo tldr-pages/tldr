@@ -2,7 +2,6 @@
 
 > Instala dependencias para construir un paquete dado.
 > No está predeterminado en `dnf` pero está soportado a través de `dnf-plugins-core`.
-> Vea también: `dnf`.
 > Más información: <https://dnf-plugins-core.readthedocs.io/en/latest/builddep.html>.
 
 - Instala dependencias para un paquete dado:

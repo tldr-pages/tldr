@@ -9,7 +9,7 @@
 
 - Calcula y guarda la lista de sumas de comprobación SHA224 en un archivo:
 
-`sha224sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo.sha224}}`
+`sha224sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} >{{ruta/al/archivo.sha224}}`
 
 - Calcula una suma de comprobación SHA224 desde `stdin`:
 

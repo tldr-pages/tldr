@@ -5,8 +5,8 @@
 
 - Stampa il contenuto di un file annotando ogni riga con l'hash del commit e il nome dell'autore:
 
-`git blame {{file}}`
+`git blame {{percorso/del/file}}`
 
 - Stampa il contenuto di un file annotando ogni riga con l'hash del commit e l'indirizzo email dell'autore:
 
-`git blame {{[-e|--show-email]}} {{file}}`
+`git blame {{[-e|--show-email]}} {{percorso/del/file}}`

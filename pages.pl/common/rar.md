@@ -25,4 +25,4 @@
 
 - Użyj określonego poziomu kompresji (0-5):
 
-`rar a -m{{poziom_kompresji}} {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku_lub_katalogu}}`
+`rar a -m{{0..5}} {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku_lub_katalogu}}`

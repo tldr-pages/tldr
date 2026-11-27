@@ -20,6 +20,7 @@ The templates can be changed when necessary.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -45,6 +46,7 @@ The templates can be changed when necessary.
 [tr](#tr) •
 [uk](#uk) •
 [uz](#uz) •
+[vi](#vi) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -71,7 +73,7 @@ The templates can be changed when necessary.
 
 > هذا الأمر هو اسم مستعار لـ `example`.
 
-- إعرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr example`
 ```
@@ -246,6 +248,20 @@ The templates can be changed when necessary.
 
 ---
 
+### he
+
+```markdown
+# example
+
+> פקודה זו היא שם חלופי לפקודה `example`.
+
+- הצגת התיעוד של הפקודה המקורית:
+
+`tldr example`
+```
+
+---
+
 ### hi
 
 ```markdown
@@ -253,7 +269,7 @@ The templates can be changed when necessary.
 
 > यह आदेश `example` का उपनाम है।
 
-- मूल आदेश के लिए दस्तावेज़ देखें:
+- मूल आदेश के लिए प्रलेखन देखें:
 
 `tldr example`
 ```
@@ -590,6 +606,20 @@ The templates can be changed when necessary.
 > Ushbu buyruq taxallus `example`.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
+
+`tldr example`
+```
+
+---
+
+### vi
+
+```markdown
+# example
+
+> Lệnh này là bí danh của `example`.
+
+- Xem tài liệu của lệnh gốc:
 
 `tldr example`
 ```

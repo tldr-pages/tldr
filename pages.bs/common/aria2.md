@@ -2,6 +2,6 @@
 
 > Ova komanda je pseudonim za `aria2c`.
 
-- Pregledaj dokumentaciju za ažuriranu komandu:
+- Pogledaj dokumentaciju za izvornu komandu:
 
 `tldr aria2c`

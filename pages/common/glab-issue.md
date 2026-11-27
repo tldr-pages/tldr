@@ -17,7 +17,7 @@
 
 - List the last 10 issues with the `bug` label:
 
-`glab issue list {{[-P|--per-page]}} {{10}} {{[-l|--label]}} "{{bug}}"`
+`glab issue list {{[-P|--per-page]}} 10 {{[-l|--label]}} "bug"`
 
 - List closed issues made by a specific user:
 

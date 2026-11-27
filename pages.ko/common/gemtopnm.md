@@ -5,12 +5,12 @@
 
 - GEM 이미지 파일을 PNM 이미지로 변환.:
 
-`gemtopnm {{경로/대상/파일.img}} > {{경로/대상/출력.pnm}}`
+`gemtopnm {{경로/대상/파일.img}} >{{경로/대상/출력.pnm}}`
 
 - 지정된 GEM 이미지의 내용을 설명:
 
 `gemtopnm {{[-d|-debug]}} {{경로/대상/파일.img}}`
 
-- 버전 정보 표시:
+- 버전 표시:
 
 `gemtopnm -version`

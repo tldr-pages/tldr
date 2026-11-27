@@ -11,6 +11,6 @@
 
 `git-sizer -v`
 
-- Vea opciones adicionales:
+- Muestra la ayuda:
 
 `git-sizer -h`

@@ -5,16 +5,16 @@
 
 - Convert a PPM image to DEC sixel format:
 
-`ppmtosixel {{path/to/file.ppm}} > {{path/to/file.sixel}}`
+`ppmtosixel {{path/to/file.ppm}} >{{path/to/file.sixel}}`
 
 - Produce an uncompressed SIXEL file that is much slower to print:
 
-`ppmtosixel {{[-r|-raw]}} {{path/to/file.ppm}} > {{path/to/file.sixel}}`
+`ppmtosixel {{[-r|-raw]}} {{path/to/file.ppm}} >{{path/to/file.sixel}}`
 
 - Add a left margin of 1.5 inches:
 
-`ppmtosixel {{[-m|-margin]}} {{path/to/file.ppm}} > {{path/to/file.sixel}}`
+`ppmtosixel {{[-m|-margin]}} {{path/to/file.ppm}} >{{path/to/file.sixel}}`
 
 - Encode control codes in a more portable (although less space-efficient) way:
 
-`ppmtosixel -7bit {{path/to/file.ppm}} > {{path/to/file.sixel}}`
+`ppmtosixel -7bit {{path/to/file.ppm}} >{{path/to/file.sixel}}`

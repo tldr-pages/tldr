@@ -5,7 +5,7 @@
 
 - Genera un registro de cambios a partir de todos los commits de un repositorio Git y lo guarda en `CHANGELOG.md`:
 
-`git cliff > {{CHANGELOG.md}}`
+`git cliff >{{CHANGELOG.md}}`
 
 - Genera un registro de cambios a partir de las confirmaciones desde la última etiqueta y lo imprime en `stdout`:
 

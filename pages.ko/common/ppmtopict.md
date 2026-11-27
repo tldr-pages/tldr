@@ -5,4 +5,4 @@
 
 - PPM 이미지를 PICT 파일로 변환:
 
-`ppmtopict {{경로/대상/파일.ppm}} > {{경로/대상/파일.pict}}`
+`ppmtopict {{경로/대상/파일.ppm}} >{{경로/대상/파일.pict}}`

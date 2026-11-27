@@ -13,7 +13,7 @@
 
 - Toon CPU-statistieken:
 
-`iostat {{[-c|--compact]}}`
+`iostat -c`
 
 - Toon schijfstatistieken met schijfnamen (inclusief LVM):
 
@@ -21,8 +21,8 @@
 
 - Toon uitgebreide schijfstatistieken met schijfnamen voor apparaat "sda":
 
-`iostat -xN {{sda}}`
+`iostat -xN sda`
 
 - Toon incrementele rapporten van CPU- en schijfstatistieken elke 2 seconden:
 
-`iostat {{2}}`
+`iostat 2`

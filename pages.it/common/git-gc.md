@@ -19,6 +19,6 @@
 
 `git gc --quiet`
 
-- Mostra utilizzo completo:
+- Mostra l'aiuto:
 
 `git gc --help`
