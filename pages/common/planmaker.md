@@ -1,6 +1,7 @@
 # planmaker
 
 > SoftMaker Office's spreadsheet application.
+> See also: `presentations`, `textmaker`.
 > More information: <https://help.softmaker.com/planmaker2026/en/index.html>.
 
 - Launch the spreadsheet application with a new blank document:
