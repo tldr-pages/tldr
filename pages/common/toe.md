@@ -4,7 +4,7 @@
 > See also: `infocmp`, `tic`.
 > More information: <https://manned.org/toe>.
 
-- List entries from the first terminal database directory found:
+- List entries from the first terminal database directory found (usually `/usr/share/terminfo`):
 
 `toe`
 
