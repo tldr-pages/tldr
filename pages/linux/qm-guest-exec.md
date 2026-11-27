@@ -13,7 +13,7 @@
 
 - Execute a specific command via a guest agent with a specified timeout of 10 seconds:
 
-`qm {{[g|guest]}} exec {{100}} {{argument1 argument2...}} --timeout {{10}}`
+`qm {{[g|guest]}} exec {{100}} {{argument1 argument2...}} --timeout 10`
 
 - Execute a specific command via a guest agent and forward input from `stdin` until EOF to the guest agent:
 

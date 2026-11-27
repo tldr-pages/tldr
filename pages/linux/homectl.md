@@ -29,7 +29,7 @@
 
 - Change the disk space assigned to a specific home directory to 100 GiB:
 
-`sudo homectl resize {{username}} {{100G}}`
+`sudo homectl resize {{username}} 100G`
 
 - Display help:
 
