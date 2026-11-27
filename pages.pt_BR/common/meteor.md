@@ -9,7 +9,7 @@
 
 - Cria um novo projeto em um diretório específico:
 
-`meteor create {{caminho/para/diretório}}`
+`meteor create {{caminho/para/diretorio}}`
 
 - Lista todos os pacotes usados pelo projeto:
 
@@ -17,12 +17,12 @@
 
 - Adiciona um pacote ao projeto:
 
-`meteor add {{nome_pacote}}`
+`meteor add {{pacote}}`
 
 - Remove um pacote do projeto:
 
-`meteor remove {{nome_pacote}}`
+`meteor remove {{pacote}}`
 
 - Cria uma build de produção do projeto, no formato tarball, em um diretório específico:
 
-`meteor build {{caminho/para/diretório}}`
+`meteor build {{caminho/para/diretorio}}`

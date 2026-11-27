@@ -5,11 +5,11 @@
 
 - Cria uma imagem usando um `Dockerfile` ou `Containerfile` no diretório especificado:
 
-`podman build {{caminho/para/diretório}}`
+`podman build {{caminho/para/diretorio}}`
 
 - Cria uma imagem com uma tag especificada:
 
-`podman build {{[-t|--tag]}} {{nome_da_imagem:versão}} {{caminho/para/diretório}}`
+`podman build {{[-t|--tag]}} {{nome_da_imagem:versão}} {{caminho/para/diretorio}}`
 
 - Cria uma imagem a partir de um arquivo não padrão:
 
@@ -17,8 +17,8 @@
 
 - Cria uma imagem sem usar nenhuma imagem em cache previamente:
 
-`podman build --no-cache {{caminho/para/diretório}}`
+`podman build --no-cache {{caminho/para/diretorio}}`
 
 - Cria uma imagem suprimindo todas as saídas:
 
-`podman build {{[-q|--quiet]}} {{caminho/para/diretório}}`
+`podman build {{[-q|--quiet]}} {{caminho/para/diretorio}}`

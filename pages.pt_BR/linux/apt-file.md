@@ -13,7 +13,7 @@
 
 - Lista o conteúdo de um pacote específico:
 
-`apt-file list {{nome_do_pacote}}`
+`apt-file list {{pacote}}`
 
 - Busca pacotes que correspondem à expressão regular:
 

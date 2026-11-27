@@ -14,7 +14,7 @@
 
 - Exibe os processos de um usuário específico:
 
-`top {{[-u|--filter-only-euser]}} {{usuario}}`
+`top {{[-u|--filter-only-euser]}} {{nome_do_usuario}}`
 
 - Ordena os processos por campo:
 

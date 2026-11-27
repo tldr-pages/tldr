@@ -35,4 +35,4 @@
 
 - Baixa um curso da Udemy mantendo cada capítulo em um diretório separado:
 
-`yt-dlp {{[-u|--username]}} {{usuário}} {{[-p|--password]}} {{senha}} {{[-P|--paths]}} "{{caminho/para/diretório}}" {{[-o|--output]}} "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`
+`yt-dlp {{[-u|--username]}} {{usuário}} {{[-p|--password]}} {{senha}} {{[-P|--paths]}} "{{caminho/para/diretorio}}" {{[-o|--output]}} "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`

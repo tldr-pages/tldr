@@ -13,7 +13,7 @@
 
 - Adiciona uma nova fonte de pacotes com credenciais:
 
-`choco source add {{[-n|--name]}} {{nome}} {{[-s|--source]}} {{url_da_fonte}} {{[-u|--user]}} {{nome}} {{[-p|--password]}} {{senha}}`
+`choco source add {{[-n|--name]}} {{nome}} {{[-s|--source]}} {{url_da_fonte}} {{[-u|--user]}} {{nome_do_usuario}} {{[-p|--password]}} {{senha}}`
 
 - Adiciona uma nova fonte de pacotes com certificado do cliente:
 

@@ -9,11 +9,11 @@
 
 - Instala um novo pacote (incluindo AUR):
 
-`yaourt -S {{nome_do_pacote}}`
+`yaourt -S {{pacote}}`
 
 - Remove um pacote e suas dependências (incluindo pacotes AUR):
 
-`yaourt -Rs {{nome_do_pacote}}`
+`yaourt -Rs {{pacote}}`
 
 - Procura no banco de dados de pacotes por uma palavra-chave (incluindo AUR):
 

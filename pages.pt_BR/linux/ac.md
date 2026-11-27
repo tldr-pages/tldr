@@ -13,11 +13,11 @@
 
 - Imprime quanto tempo em horas um usuário em particular ficou conectado:
 
-`ac {{[-p|--individual-totals]}} {{usuario}}`
+`ac {{[-p|--individual-totals]}} {{nome_do_usuario}}`
 
 - Imprime quanto tempo um usuário em particular ficou conectado em horas por dia (com total):
 
-`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{usuario}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{nome_do_usuario}}`
 
 - Também exibe detalhes adicionais:
 

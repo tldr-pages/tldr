@@ -9,16 +9,16 @@
 
 - Exibe informações sobre um pacote:
 
-`apt-cache show {{nome_do_pacote}}`
+`apt-cache show {{pacote}}`
 
 - Informa a situação de um pacote, se ele está instalado e atualizado:
 
-`apt-cache policy {{nome_do_pacote}}`
+`apt-cache policy {{pacote}}`
 
 - Exibe as dependências de um pacote:
 
-`apt-cache depends {{nome_do_pacote}}`
+`apt-cache depends {{pacote}}`
 
 - Exibe pacotes dependentes de um determinado pacote:
 
-`apt-cache rdepends {{nome_do_pacote}}`
+`apt-cache rdepends {{pacote}}`

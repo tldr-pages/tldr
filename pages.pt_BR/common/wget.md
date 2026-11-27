@@ -27,7 +27,7 @@
 
 - Baixa um arquivo de um servidor HTTP usando Autenticação Básica (também funciona para FTP):
 
-`wget --user {{nomeusuario}} --password {{senha}} {{https://example.com}}`
+`wget --user {{nome_do_usuario}} --password {{senha}} {{https://example.com}}`
 
 - Continua um download incompleto:
 

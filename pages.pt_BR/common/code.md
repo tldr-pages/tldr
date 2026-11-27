@@ -9,7 +9,7 @@
 
 - Abre arquivos/diretórios específicos:
 
-`code {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
+`code {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Compara dois arquivos específicos:
 
@@ -17,7 +17,7 @@
 
 - Abre arquivos/diretórios específicos em uma nova janela:
 
-`code {{[-n|--new-window]}} {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
+`code {{[-n|--new-window]}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Instala/desinstala uma extensão específica:
 
@@ -33,4 +33,4 @@
 
 - Inicia o editor como um superusuário (root) enquanto armazena dados do usuário em um diretório específico:
 
-`sudo code --user-data-dir {{caminho/para/diretório}}`
+`sudo code --user-data-dir {{caminho/para/diretorio}}`

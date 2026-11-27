@@ -14,7 +14,7 @@
 
 - Cria uma captura da tela e salva em um caminho específico:
 
-`flameshot gui {{[-p|--path]}} {{caminho/para/diretório}}`
+`flameshot gui {{[-p|--path]}} {{caminho/para/diretorio}}`
 
 - Cria uma captura da tela interativamente em um modo simplificado:
 

@@ -9,4 +9,4 @@
 
 - Redefine um diretório específico:
 
-`dconf reset -f /{{caminho/para/diretório}}/`
+`dconf reset -f /{{caminho/para/diretorio}}/`

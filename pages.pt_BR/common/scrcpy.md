@@ -26,7 +26,7 @@
 
 - Especifica um diretório alvo para enviar arquivos para o dispositivo (exceto APKs):
 
-`scrcpy --push-target {{caminho/para/diretório}}`
+`scrcpy --push-target {{caminho/para/diretorio}}`
 
 - Visualiza a câmera do dispositivo (requer Android 12 ou superior):
 

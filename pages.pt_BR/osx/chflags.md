@@ -13,8 +13,8 @@
 
 - Define recursivamente a flag `uchg` para um diretório:
 
-`chflags -R uchg {{caminho/para/diretório}}`
+`chflags -R uchg {{caminho/para/diretorio}}`
 
 - Remove recursivamente a flag `uchg` de um diretório:
 
-`chflags -R nouchg {{caminho/para/diretório}}`
+`chflags -R nouchg {{caminho/para/diretorio}}`

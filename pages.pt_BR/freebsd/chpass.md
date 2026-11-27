@@ -14,20 +14,20 @@
 
 - Define uma [s]hell de login para um usuário específico:
 
-`chpass -s {{caminho/para/shell}} {{nome_do_usuário}}`
+`chpass -s {{caminho/para/shell}} {{nome_do_usuario}}`
 
 - Altera o tempo de [e]xpiração da conta (Unix epoch):
 
-`su -c 'chpass -e {{tempo}} {{nome_do_usuário}}'`
+`su -c 'chpass -e {{tempo}} {{nome_do_usuario}}'`
 
 - Altera a senha de um usuário:
 
-`su -c 'chpass -p {{senha_criptografada}} {{nome_do_usuário}}'`
+`su -c 'chpass -p {{senha_criptografada}} {{nome_do_usuario}}'`
 
 - Especifica [h]ostname ou endereço de um servidor NIS para consulta:
 
-`su -c 'chpass -h {{hostname}} {{nome_do_usuário}}'`
+`su -c 'chpass -h {{hostname}} {{nome_do_usuario}}'`
 
 - Especifica um [d]omínio NIS específico (nome do domínio do sistema por padrão):
 
-`su -c 'chpass -d {{domínio}} {{nome_do_usuário}}'`
+`su -c 'chpass -d {{domínio}} {{nome_do_usuario}}'`

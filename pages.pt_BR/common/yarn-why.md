@@ -5,4 +5,4 @@
 
 - Exibe na tela o motivo de um pacote Yarn estar instalado:
 
-`yarn-why {{nome_do_pacote}}`
+`yarn-why {{pacote}}`

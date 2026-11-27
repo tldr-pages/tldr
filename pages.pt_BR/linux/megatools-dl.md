@@ -10,7 +10,7 @@
 
 - Baixa arquivos de um link `mega.nz` para um diretório específico:
 
-`megatools-dl --path {{caminho/para/diretório}} {{https://mega.nz/...}}`
+`megatools-dl --path {{caminho/para/diretorio}} {{https://mega.nz/...}}`
 
 - Escolhe interativamente quais arquivos baixar:
 
