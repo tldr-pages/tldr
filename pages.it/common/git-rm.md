@@ -9,7 +9,7 @@
 
 - Cancella una directory:
 
-`git rm -r {{directory}}`
+`git rm -r {{percorso/della/directory}}`
 
 - Cancella un file dall'indice del repository ma non dal filesystem locale:
 

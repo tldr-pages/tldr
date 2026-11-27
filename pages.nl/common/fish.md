@@ -21,7 +21,7 @@
 
 - Controleer een specifiek script op syntax fouten:
 
-`fish {{[-N|--no-execute]}} {{pad/naar/script.fish}}`
+`fish {{[-n|--no-execute]}} {{pad/naar/script.fish}}`
 
 - Voer specifieke commando's uit van `stdin`:
 

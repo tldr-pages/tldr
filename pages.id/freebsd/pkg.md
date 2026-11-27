@@ -5,11 +5,11 @@
 
 - Pasang sebuah paket:
 
-`pkg install {{nama_paket}}`
+`pkg install {{paket}}`
 
 - Hapus pemasangan paket:
 
-`pkg delete {{nama_paket}}`
+`pkg delete {{paket}}`
 
 - Perbarui seluruh paket yang terpasang ke dalam versi terbaru:
 

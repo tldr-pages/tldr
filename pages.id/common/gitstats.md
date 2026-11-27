@@ -10,3 +10,7 @@
 - Lihat hasil laporan dalam suatu peramban web dalam Windows (PowerShell)/macOS/Linux:
 
 `{{Invoke-Item|open|xdg-open}} {{jalan/menuju/direktori_luaran/index.html}}`
+
+- Tampilkan bantuan:
+
+`gitstats {{[-h|--help]}}`

@@ -13,7 +13,7 @@
 
 - Linux를 부트 옵션으로 추가:
 
-`sudo efibootmgr {{[-c|--create]}} {{[-d|--disk]}} {{/dev/sda}} {{[-p|--part]}} {{1}} {{[-l|--loader]}} "{{\vmlinuz}}" {{[-u|--unicode]}} "{{kernel_cmdline}}" {{[-L|--label]}} "{{Linux}}"`
+`sudo efibootmgr {{[-c|--create]}} {{[-d|--disk]}} {{/dev/sda}} {{[-p|--part]}} {{1}} {{[-l|--loader]}} "{{\vmlinuz}}" {{[-u|--unicode]}} "{{root=UUID=partition_uuid rw loglevel=3 initrd=path\to\initramfs-linux.img}}" {{[-L|--label]}} "{{Linux}}"`
 
 - 현재 부트 순서 변경:
 

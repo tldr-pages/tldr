@@ -9,11 +9,11 @@
 
 - তৈরি করা ইমেজে একটি `CMD` Dockerfile নির্দেশনা প্রয়োগ করুন:
 
-`docker {{[commit|container commit]}} {{[-c|--change]}} "CMD {{command}}" {{container}} {{image}}:{{tag}}`
+`docker {{[commit|container commit]}} {{[-c|--change]}} "CMD {{কমান্ড}}" {{container}} {{image}}:{{tag}}`
 
 - তৈরি করা ইমেজে একটি `ENV` Dockerfile নির্দেশনা প্রয়োগ করুন:
 
-`docker {{[commit|container commit]}} {{[-c|--change]}} "ENV {{name}}={{value}}" {{container}} {{image}}:{{tag}}`
+`docker {{[commit|container commit]}} {{[-c|--change]}} "ENV {{name}}={{ভ্যালু}}" {{container}} {{image}}:{{tag}}`
 
 - মেটাডাটায় নির্দিষ্ট লেখক (author) সহ একটি ইমেজ তৈরি করুন:
 

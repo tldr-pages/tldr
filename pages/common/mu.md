@@ -25,7 +25,7 @@
 
 - Find messages from Sam with attached images, between 2 KiB and 2 MiB, written in 2021:
 
-`mu find 'mime:{{image/*}} size:{{2k..2m}} date:{{20210101..20211231}} from:{{sam}}`
+`mu find 'mime:{{image/*}}' size:{{2k..2m}} date:{{20210101..20211231}} from:{{sam}}`
 
 - List contacts with `Bob` in either name or email address:
 

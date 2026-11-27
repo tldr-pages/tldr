@@ -5,24 +5,24 @@
 
 - Buat/timpa isi berkas htpasswd:
 
-`htpasswd -c {{jalan/menuju/berkas}} {{username}}`
+`htpasswd -c {{jalan/menuju/berkas}} {{nama_pengguna}}`
 
 - Tambahkan atau mutakhirkan konfigurasi bagi suatu akun pengguna (dalam mengakses layanan web) ke dalam berkas htpasswd:
 
-`htpasswd {{jalan/menuju/berkas}} {{username}}`
+`htpasswd {{jalan/menuju/berkas}} {{nama_pengguna}}`
 
 - Tambahkan suatu akun pengguna kepada berkas htpasswd dalam mode batch, dengan melewati proses pemasukkan kata sandi secara interaktif (untuk penggunaan dalam skrip syel):
 
-`htpasswd -b {{jalan/menuju/berkas}} {{username}} {{kata_sandi}}`
+`htpasswd -b {{jalan/menuju/berkas}} {{nama_pengguna}} {{kata_sandi}}`
 
 - Hapus konfigurasi akses suatu akun pengguna dari isi suatu berkas htpasswd:
 
-`htpasswd -D {{jalan/menuju/berkas}} {{username}}`
+`htpasswd -D {{jalan/menuju/berkas}} {{nama_pengguna}}`
 
 - Lakukan proses verifikasi kata sandi bagi suatu akun pengguna:
 
-`htpasswd -v {{jalan/menuju/berkas}} {{username}}`
+`htpasswd -v {{jalan/menuju/berkas}} {{nama_pengguna}}`
 
 - Tampilkan suatu string berisikan username (akun pengguna, dalam plain text) dan kata sandi (dalam hash MD5):
 
-`htpasswd -nbm {{username}} {{kata_sandi}}`
+`htpasswd -nbm {{nama_pengguna}} {{kata_sandi}}`

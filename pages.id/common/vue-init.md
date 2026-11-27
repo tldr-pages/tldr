@@ -13,4 +13,4 @@
 
 - Buat proyek baru dengan menggunakan templat dari GitHub:
 
-`vue init {{username}}/{{repo}} {{nama_proyek}}`
+`vue init {{nama_pengguna}}/{{repo}} {{nama_proyek}}`

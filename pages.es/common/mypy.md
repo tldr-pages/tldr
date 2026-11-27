@@ -21,7 +21,7 @@
 
 - Ignora importaciones faltantes:
 
-`mypy --ignore-missing-imports {{ruta/al_archivo_o_directorio}}`
+`mypy --ignore-missing-imports {{ruta/al/archivo_o_directorio}}`
 
 - Muestra mensajes de error detallados:
 

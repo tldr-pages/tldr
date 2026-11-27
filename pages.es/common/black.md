@@ -14,11 +14,11 @@
 
 - Muestra si un archivo o un directorio sufrirían cambios en caso de ser formateados:
 
-`black --check {{ruta/al_archivo_o_directorio}}`
+`black --check {{ruta/al/archivo_o_directorio}}`
 
 - Muestra los cambios que se realizarían en un archivo o directorio sin ejecutarlos (ejecución en seco):
 
-`black --diff {{ruta/a/archivo_o_directorio}}`
+`black --diff {{ruta/al/archivo_o_directorio}}`
 
 - Autoformatea un fichero o directorio, emitiendo exclusivamente mensajes de error a `stderr`:
 

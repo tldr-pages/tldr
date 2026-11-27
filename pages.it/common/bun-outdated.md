@@ -9,7 +9,7 @@
 
 - Controlla se un pacchetto specifico è obsoleto:
 
-`bun outdated {{package}}`
+`bun outdated {{pacchetto}}`
 
 - Elenca le dipendenze obsolete corrispondenti a un pattern `glob`:
 

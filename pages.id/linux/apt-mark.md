@@ -5,15 +5,15 @@
 
 - Tandai suatu paket sebagai "terpasang secara otomatis" (misalnya, sebagai bagian ketergantungan / dependensi dari paket lain):
 
-`sudo apt-mark auto {{nama_paket}}`
+`sudo apt-mark auto {{paket}}`
 
 - Tahan suatu paket agar tidak diubah atau diperbarui ke dalam versi lainnya:
 
-`sudo apt-mark hold {{nama_paket}}`
+`sudo apt-mark hold {{paket}}`
 
 - Lepaskan penahanan suatu paket agar dapat diperbarui kembali:
 
-`sudo apt-mark unhold {{nama_paket}}`
+`sudo apt-mark unhold {{paket}}`
 
 - Tampilkan daftar paket yang terpasang secara manual:
 

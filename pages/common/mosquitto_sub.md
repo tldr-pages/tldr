@@ -5,7 +5,7 @@
 
 - Subscribe to the topic `sensors/temperature` information with Quality of Service (`QoS`) set to 1. (The default hostname is `localhost` and port 1883):
 
-`mosquitto_sub {{[-t|--topic]}} {{sensors/temperature}} {{[-q|--qos]}} {{1}}`
+`mosquitto_sub {{[-t|--topic]}} sensors/temperature {{[-q|--qos]}} 1`
 
 - Subscribe to all broker status messages publishing on `iot.eclipse.org` port 1885 and print published messages verbosely:
 

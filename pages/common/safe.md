@@ -25,7 +25,7 @@
 
 - Generate a new 2048-bit SSH key-pair and store it:
 
-`safe ssh {{2048}} {{path/to/secret}}`
+`safe ssh 2048 {{path/to/secret}}`
 
 - Set non-sensitive keys for a secret:
 

@@ -18,7 +18,7 @@
 
 - Captura la salida de un puerto serie en un archivo:
 
-`sudo minicom {{[-D|--device]}} {{/dev/ttyXYZ}} {{[-C|--capturefile]}} {{ruta/a/archivo}}`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyXYZ}} {{[-C|--capturefile]}} {{ruta/al/archivo}}`
 
 - Sale de minicom:
 
