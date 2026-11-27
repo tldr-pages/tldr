@@ -27,7 +27,7 @@
 
 - Télécharge un fichier depuis un serveur HTTP avec l'authentification Basic (fonctionne aussi pour FTP) :
 
-`wget --user {{nom_utilisateur}} --password {{mot_de_passe}} {{https://example.com}}`
+`wget --user {{nom_d_utilisateur}} --password {{mot_de_passe}} {{https://example.com}}`
 
 - Reprend un téléchargement incomplet :
 

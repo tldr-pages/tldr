@@ -11,23 +11,23 @@
 
 - Recherche d'un paquet donné :
 
-`apt search {{package}}`
+`apt search {{paquet}}`
 
 - Recherche des paquets uniquement par nom (accepte les caractères joker comme `*`) :
 
-`apt list {{package}}`
+`apt list {{paquet}}`
 
 - Affiche les informations pour un paquet :
 
-`apt show {{package}}`
+`apt show {{paquet}}`
 
 - Installe un paquet, ou le met à jour avec la dernière version disponible :
 
-`sudo apt install {{package}}`
+`sudo apt install {{paquet}}`
 
 - Supprime un paquet (utiliser `purge` à la place supprime également ses fichiers de configuration) :
 
-`sudo apt remove {{package}}`
+`sudo apt remove {{paquet}}`
 
 - Met à jour tous les paquets installés vers les dernières versions disponibles :
 

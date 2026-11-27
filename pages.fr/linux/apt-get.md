@@ -11,15 +11,15 @@
 
 - Installation d'un paquet, ou mise à jour avec la dernière version disponible :
 
-`sudo apt-get install {{package}}`
+`sudo apt-get install {{paquet}}`
 
 - Suppression d'un paquet :
 
-`sudo apt-get remove {{package}}`
+`sudo apt-get remove {{paquet}}`
 
 - Suppression d'un paquet et de ses fichiers de configuration :
 
-`sudo apt-get purge {{package}}`
+`sudo apt-get purge {{paquet}}`
 
 - Mise à jour de tous les paquets installés vers les dernières versions disponibles :
 

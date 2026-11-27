@@ -9,7 +9,7 @@
 
 - Exécute tous les programmes dans les répertoires spécifiés :
 
-`dex {{[-a|--autostart]}} {{[-s|--search-paths]}} {{chemin/vers/répertoire1}}:{{chemin/vers/répertoire2}}:{{chermin/vers/répertoire3}}:`
+`dex {{[-a|--autostart]}} {{[-s|--search-paths]}} {{chemin/vers/répertoire1}}:{{chemin/vers/répertoire2}}:{{chemin/vers/répertoire3}}:`
 
 - Prévisualise les programmes qui seraient exécutés lors d'un démarrage automatique spécifique à GNOME :
 

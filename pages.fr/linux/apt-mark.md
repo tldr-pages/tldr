@@ -5,15 +5,15 @@
 
 - Marque un paquet comme étant automatiquement installé :
 
-`sudo apt-mark auto {{package_name}}`
+`sudo apt-mark auto {{paquet}}`
 
 - Maintient un paquet à sa version actuelle et empêche les mises à jour :
 
-`sudo apt-mark hold {{package_name}}`
+`sudo apt-mark hold {{paquet}}`
 
 - Permet une nouvelle mise à jour d'un paquet :
 
-`sudo apt-mark unhold {{package_name}}`
+`sudo apt-mark unhold {{paquet}}`
 
 - Affiche les paquets installés manuellement :
 

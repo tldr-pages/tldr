@@ -10,11 +10,11 @@
 
 - Ajoute un fichier :
 
-`git annex add {{chemin/vers/fichier_ou_repertoire}}`
+`git annex add {{chemin/vers/fichier_ou_répertoire}}`
 
 - Affiche le statut actuel d'un fichier ou répertoire :
 
-`git annex status {{chemin/vers/fichier_ou_repertoire}}`
+`git annex status {{chemin/vers/fichier_ou_répertoire}}`
 
 - Synchronise un dépôt local avec un distant :
 
@@ -22,7 +22,7 @@
 
 - Récupère un fichier ou un répertoire :
 
-`git annex get {{chemin/vers/fichier_ou_repertoire}}`
+`git annex get {{chemin/vers/fichier_ou_répertoire}}`
 
 - Affiche l'aide :
 

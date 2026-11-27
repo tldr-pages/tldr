@@ -25,4 +25,4 @@
 
 - Fournit un nom d'utilisateur et un mot de passe pour l'authentification :
 
-`choco search {{requête}} {{[-u|--user]}} {{nom_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
+`choco search {{requête}} {{[-u|--user]}} {{nom_d_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`

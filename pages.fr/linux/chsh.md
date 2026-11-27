@@ -18,4 +18,4 @@
 
 - Change le shell de connexion pour un utilisateur donné :
 
-`sudo chsh {{[-s|--shell]}} {{chemin/vers/shell}} {{nom_utilisateur}}`
+`sudo chsh {{[-s|--shell]}} {{chemin/vers/shell}} {{nom_d_utilisateur}}`

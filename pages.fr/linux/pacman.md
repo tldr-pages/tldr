@@ -11,11 +11,11 @@
 
 - Installe un nouveau paquet :
 
-`sudo pacman -S {{nom_paquet}}`
+`sudo pacman -S {{paquet}}`
 
 - Efface un paquet et ses dépendances :
 
-`sudo pacman -Rs {{nom_paquet}}`
+`sudo pacman -Rs {{paquet}}`
 
 - Recherche dans la base de données des paquets à l’aide d’une `regex` ou d’un mot-clé :
 

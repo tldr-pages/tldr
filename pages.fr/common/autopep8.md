@@ -17,4 +17,4 @@
 
 - Formate récursivement les fichiers dans un dossier et sauvegarde les changements :
 
-`autopep8 --in-place --recursive {{chemin/vers/dossier}}`
+`autopep8 --in-place --recursive {{chemin/vers/répertoire}}`
