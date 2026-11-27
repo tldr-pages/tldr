@@ -13,7 +13,7 @@
 
 `tfenv install latest:{{regex}}`
 
-- Install the minimum version required by the current workspace:
+- Install the minimum version required by Terraform configuration files in the current directory:
 
 `tfenv install min-required`
 
