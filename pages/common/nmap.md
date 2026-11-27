@@ -35,4 +35,4 @@
 
 - Evade IDS/IPS using a slow SYN scan, 10 random [D]ecoys, source port 53, [f]ragmentation, random data, no DNS or host discovery:
 
-`sudo nmap -sS -T1 -D RND:{{10}} --source-port {{53}} -f --data-length {{16}} -Pn -n {{ip_or_host}}`
+`sudo nmap -sS -T1 -D RND:10 --source-port 53 -f --data-length {{16}} -Pn -n {{ip_or_host}}`
