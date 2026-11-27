@@ -8,6 +8,10 @@
 
 `age-keygen {{[-o|--output]}} {{jalan/menuju/berkas}}`
 
+- Buat pasangan kunci menggunakan algoritma enkripsi pascakuantum, simpan ke dalam file tanpa enkripsi, dan cetak kunci publik menuju `stdout`:
+
+`age-keygen -pq {{[-o|--output]}} {{jalan/menuju/berkas}}`
+
 - Ubah sebuah kunci identitas menjadi penerima dan cetak kunci publik menuju `stdout`:
 
 `age-keygen -y {{jalan/menuju/berkas}}`

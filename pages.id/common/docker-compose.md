@@ -1,6 +1,7 @@
 # docker compose
 
 > Jalankan dan kelola aplikasi Docker dengan beberapa kontainer.
+> Beberapa subperintah seperti `up`, `down`, `logs`, `stop`, dsb. memiliki laman dokumentasi terpisah.
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Tampilkan semua kontainer yang sedang berjalan:
