@@ -3,7 +3,7 @@
 > Uzak bir depodaki cisim ve referansları indir.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-fetch>.
 
-- (Eğer belirtildiyse) Uzaktaki varsayılan ana akım depodan son değişiklikleri çek:
+- Uzaktaki varsayılan ana akım depodan (eğer belirtildiyse) son değişiklikleri çek:
 
 `git fetch`
 
@@ -22,3 +22,11 @@
 - Ana akım depodan silinmiş uzak dallara giden yerel referansları sil:
 
 `git fetch {{[-p|--prune]}}`
+
+- Mevcut sığ (shallow) dalı 2 commit derinleştir:
+
+`git fetch --deepen 2`
+
+- Dal değiştirmeden `main` dalını güncelle (`git pull` ile eşdeğer):
+
+`git fetch {{origin}} main:main`
