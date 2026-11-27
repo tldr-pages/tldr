@@ -17,12 +17,12 @@
 
 - Muestra las direcciones MAC de un equipo remoto:
 
-`getmac /s {{nombre_host}} /u {{nombredeusuario}} /p {{contraseña}}`
+`getmac /s {{nombre_host}} /u {{usuario}} /p {{contraseña}}`
 
 - Muestra las direcciones MAC con información detallada:
 
 `getmac /v`
 
-- Muestra información de uso detallada:
+- Muestra la ayuda:
 
 `getmac /?`

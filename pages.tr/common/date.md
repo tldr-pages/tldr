@@ -5,24 +5,32 @@
 
 - Varsayılan yerel biçimi kullanarak geçerli tarihi görüntüleyin:
 
-`date +"%c"`
+`date +%c`
 
 - Geçerli tarihi UTC ve ISO 8601 formatında görüntüleyin:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%SZ`
 
 - Geçerli tarihi bir Unix zaman damgası olarak görüntüleyin (Unix zamanından bu yana geçen saniyeler):
 
 `date +%s`
 
-- Varsayılan biçimi kullanarak belirli bir tarihi (Unix zaman damgası olarak) görüntüleyin:
+- Unix zaman damgası olarak belirtilen bir tarihi varsayılan biçime dönüştürün:
 
-`date -d @1473305798`
+`date {{[-d|--date]}} @{{1473305798}}`
 
 - Belirli bir tarihi Unix zaman damgası biçimine dönüştürün:
 
-`date -d "{{2018-09-01 00:00}}" +%s --utc`
+`date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
-- RFC-3339 biçimini kullanarak geçerli tarihi görüntüleyin (`YYYY-AA-GG ss:dd:ss ZD`):
+- Geçerli tarihi RFC-3339 biçiminde (`YYYY-AA-GG ss:dd:sn+ZD`) görüntüleyin ve duyarlılığını belirtin:
 
-`date --rfc-3339=s`
+`date --rfc-3339 {{date|seconds|ns}}`
+
+- Geçerli tarihi `AAGGssddYYYY.sn` biçimini kullanarak ayarlayın (`YYYY` ve `.sn` isteğe bağlıdır):
+
+`sudo date {{093023592021.59}}`
+
+- Geçerli ISO hafta numarasını görüntüleyin:
+
+`date +%V`

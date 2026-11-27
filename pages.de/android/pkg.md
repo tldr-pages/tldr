@@ -31,6 +31,6 @@
 
 `pkg {{[sh|show]}} {{paket}}`
 
-- Hilfe anzeigen:
+- Zeige Hilfe an:
 
 `pkg {{[h|help]}}`

@@ -19,6 +19,6 @@
 
 `pw-container {{[-P|--properties]}} '{{{"chiave": "valore"}}}' {{comando}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-container {{[-h|--help]}}`

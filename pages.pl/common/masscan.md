@@ -7,11 +7,11 @@
 
 - Skanuj adres IP lub podsieć w poszukowaniu portu 80:
 
-`masscan {{adres_ip|maska_podsieci}} {{[-p|--ports]}} {{80}}`
+`masscan {{adres_ip|maska_podsieci}} {{[-p|--ports]}} 80`
 
 - Skanuj podsieć klasy B w poszukiwaniu 100 najczęstszych portów z prędkością 100 000 pakietów na sekundę:
 
-`masscan {{10.0.0.0/16}} --top-ports {{100}} --rate {{100000}}`
+`masscan {{10.0.0.0/16}} --top-ports 100 --rate 100000`
 
 - Skanuj podsieć klasy B unikając zakresów podanych w pliku:
 
@@ -23,11 +23,11 @@
 
 - Skanuj Internet w poszukiwaniu serwerów WWW działających na portach 80 i 443:
 
-`masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{80,443}} --rate {{10000000}}`
+`masscan {{0.0.0.0/0}} {{[-p|--ports]}} 80,443 --rate {{10000000}}`
 
 - Skanuj Internet w poszukiwaniu serwerów DNS działających na porcie UDP 53:
 
-`masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{U:53}} --rate {{10000000}}`
+`masscan {{0.0.0.0/0}} {{[-p|--ports]}} U:53 --rate {{10000000}}`
 
 - Skanuj Internet w poszukiwaniu podanego zakresu portów i eksportuj wynik do pliku:
 

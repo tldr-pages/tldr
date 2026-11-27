@@ -5,4 +5,4 @@
 
 - Bir dosyanın ilk birkaç satırını yazdır:
 
-`head -n {{sayı}} {{dosya/yolu}}`
+`head -n {{sayı}} {{yol/dosya}}`

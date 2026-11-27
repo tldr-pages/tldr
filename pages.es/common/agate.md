@@ -9,7 +9,7 @@
 
 - Ejecuta servidor:
 
-`agate {{ruta/al/archivo}}`
+`agate {{ruta/al/directorio}}`
 
 - Muestra la ayuda:
 

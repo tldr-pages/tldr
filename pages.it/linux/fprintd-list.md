@@ -5,12 +5,12 @@
 
 - Elenca le impronte digitali registrate per un utente specifico:
 
-`fprintd-list {{username}}`
+`fprintd-list {{nome_utente}}`
 
 - Elenca le impronte digitali registrate per uno o più utenti:
 
-`fprintd-list {{username1 username2 ...}}`
+`fprintd-list {{nome_utente1 nome_utente2 ...}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `fprintd-list`

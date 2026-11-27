@@ -11,6 +11,6 @@
 
 `plasma-apply-wallpaperimage --fill-mode {{stretch|preserveAspectFit|preserveAspectCrop|tile|tileVertically|tileHorizontally|pad}} /{{percorso/all/immagine}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `plasma-apply-wallpaperimage --help`

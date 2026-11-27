@@ -15,6 +15,6 @@
 
 `xml {{[c14n|canonic]}} --exc-with-comments {{path/to/input.xml|uri}} {{path/to/c14n.xpath}}`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `xml {{[c14n|canonic]}} --help`

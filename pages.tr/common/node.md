@@ -5,7 +5,7 @@
 
 - JavaScript dosyası çalıştır:
 
-`node {{dosya/yolu}}`
+`node {{yol/dosya}}`
 
 - REPL (interactive shell) başlat:
 
@@ -13,7 +13,7 @@
 
 - Bir içe aktarılan dosya değiştirildiği zaman belirtilen dosyayı yeniden başlat (Node.js sürüm 18.11+ gerektirir):
 
-`node --watch {{dosya/yolu}}`
+`node --watch {{yol/dosya}}`
 
 - JavaScript kodunu argüman olarak geçerek değerlendir:
 
@@ -25,4 +25,4 @@
 
 - Denetleyiciyi etkinleştirerek, kaynak kodu tamamen ayrıştırıldıktan sonra bir hata ayıklayıcı bağlanana kadar yürütmeyi duraklatır:
 
-`node --no-lazy --inspect-brk {{dosya/yolu}}`
+`node --no-lazy --inspect-brk {{yol/dosya}}`

@@ -5,7 +5,7 @@
 
 - Muestra los grupos principales y secundarios de un usuario concreto:
 
-`sudo lid {{nombre_usuario}}`
+`sudo lid {{usuario}}`
 
 - Muestra los usuarios de un grupo concreto:
 

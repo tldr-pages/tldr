@@ -28,6 +28,6 @@
 
 `dolphin --daemon`
 
-- Exibe log de ajuda (em inglês):
+- Mostra ajuda:
 
 `dolphin {{[-h|--help]}}`

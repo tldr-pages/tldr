@@ -6,3 +6,7 @@
 - Bir e-posta adresi ile eşleşen kanonik ismi bul:
 
 `git check-mailmap {{örnek@e-posta.com}}`
+
+- Varsayılanlara ek olarak belirtilen mailmap dosyasını kullan:
+
+`git check-mailmap --mailmap-file {{yol/dosya}} {{örnek@e-posta.com}}`

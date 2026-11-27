@@ -17,7 +17,7 @@
 
 - Costruisce una directory sandbox scrivibile invece di un file immagine:
 
-`apptainer build {{[-s|--sandbox]}} {{path/to/directory}} docker://{{immagine}}:{{tag}}`
+`apptainer build {{[-s|--sandbox]}} {{percorso/della/directory}} docker://{{immagine}}:{{tag}}`
 
 - Costruisce un container senza utilizzare la cache:
 
@@ -31,6 +31,6 @@
 
 `apptainer build {{[-f|--fakeroot]}} {{path/to/immagine.sif}} {{path/to/definizione.def}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `apptainer build {{[-h|--help]}}`

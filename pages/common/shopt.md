@@ -12,6 +12,10 @@
 
 `shopt -s {{option_name}}`
 
+- Enable extended shell globbing:
+
+`shopt -s extglob`
+
 - Unset an option:
 
 `shopt -u {{option_name}}`

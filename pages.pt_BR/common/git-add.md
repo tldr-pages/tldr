@@ -5,7 +5,11 @@
 
 - Adiciona um arquivo na área de preparação:
 
-`git add {{caminho/do/arquivo}}`
+`git add {{caminho/para/arquivo}}`
+
+- Interativamente adiciona partes dos arquivo:
+
+`git add {{[-p|--patch]}}`
 
 - Adiciona todos arquivos (rastreados ou não):
 
@@ -22,10 +26,6 @@
 - Adiciona arquivos ignorados:
 
 `git add {{[-f|--force]}} {{caminho/para/arquivo}}`
-
-- Interativamente adiciona partes dos arquivo:
-
-`git add {{[-p|--patch]}}`
 
 - Interativamente adiciona partes de um dado arquivo:
 

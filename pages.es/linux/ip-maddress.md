@@ -18,3 +18,7 @@
 - Abandona un grupo multicast estático:
 
 `sudo ip {{[m|maddress]}} {{[d|delete]}} {{33:33:00:00:00:02}} dev {{eth0}}`
+
+- Muestra la ayuda:
+
+`ip {{[m|maddress]}} {{[h|help]}}`

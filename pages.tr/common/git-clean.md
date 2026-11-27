@@ -3,10 +3,6 @@
 > Takip edilmeyen dosyaları çalışma ağacından sil.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-clean>.
 
-- Git tarafından takip edilmeyen dosyaları sil:
-
-`git clean`
-
 - Git tarafından takip edilmeyen dosyaları etkileşimli bir nizamda sil:
 
 `git clean {{[-i|--interactive]}}`
@@ -15,14 +11,22 @@
 
 `git clean {{[-n|--dry-run]}}`
 
-- Git tarafından takip edilmeyen dosyaları zorla zil:
+- Git tarafından takip edilmeyen dosyaları zorla sil:
 
 `git clean {{[-f|--force]}}`
 
-- Git tarafından takip edilmeyen dizinleri zorla zil:
+- Git tarafından takip edilmeyen dizinleri zorla sil:
 
 `git clean {{[-f|--force]}} -d`
 
-- `.gitignore` ve `.git/info/exclude`'deki yoksayılan dosyalar dahiş olmak üzere takip edilmeyen dosyaları sil:
+- Sadece belirli yollarla ya da `glob` desenleriyle eşleşen takip edilmeyen dosyaları sil:
 
-`git clean -x`
+`git clean {{[-f|--force]}} -- {{yol/dizin}} '{{*.uzantı}}'`
+
+- Verilen desenlerle eşleşenler dışındaki takip edilmeyen dosyaları sil:
+
+`git clean {{[-f|--force]}} {{[-e|--exclude]}} '{{*.uzantı}}' {{[-e|--exclude]}} {{yol/dizin}}/`
+
+- Takip edilmeyen dosyaları ve hariç tutulan dosyaları (`.gitignore` ve `.git/info/exclude` içinde listelenenler) sil:
+
+`git clean {{[-f|--force]}} -x`

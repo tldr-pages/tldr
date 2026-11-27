@@ -5,15 +5,15 @@
 
 - Bir dosyayı şifrele:
 
-`base32 {{dosya/yolu}}`
+`base32 {{yol/dosya}}`
 
 - Kodlanmış çıktıyı belirli bir genişlikte sar (`0` sarmayı devre dışı bırakır):
 
-`base32 {{[-w|--wrap]}} {{0|76|...}} {{dosya/yolu}}`
+`base32 {{[-w|--wrap]}} {{0|76|...}} {{yol/dosya}}`
 
 - Bir dosyayı deşifre et:
 
-`base32 {{[-d|--decode]}} {{dosya/yolu}}`
+`base32 {{[-d|--decode]}} {{yol/dosya}}`
 
 - `stdin`'den şifrele:
 

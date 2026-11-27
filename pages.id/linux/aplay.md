@@ -5,15 +5,15 @@
 
 - Dengarkan file audio tertentu (sampling rate, bit depth, dll. akan ditentukan secara otomatis berdasarkan format file):
 
-`aplay {{path/ke/file}}`
+`aplay {{jalan/menuju/berkas}}`
 
 - Dengarkan file audio 10 detik pertama dari file tertentu pada 2500 Hz:
 
-`aplay {{[-d|--duration]}} 10 {{[-r|--rate]}} 2500 {{path/ke/file}}`
+`aplay {{[-d|--duration]}} 10 {{[-r|--rate]}} 2500 {{jalan/menuju/berkas}}`
 
 - Dengarkan file raw sebagai file `.au` dengan 22050 Hz, mono, 8-bit, Mu-Law:
 
-`aplay {{[-c|--channels]}} 1 {{[-t|--file-type]}} raw {{[-r|--rate]}} 22050 {{[-f|--format]}} mu_law {{path/ke/file}}`
+`aplay {{[-c|--channels]}} 1 {{[-t|--file-type]}} raw {{[-r|--rate]}} 22050 {{[-f|--format]}} mu_law {{jalan/menuju/berkas}}`
 
 - Tampilkan daftar perangkat audio yang tersedia:
 

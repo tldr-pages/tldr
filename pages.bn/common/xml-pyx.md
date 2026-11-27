@@ -11,6 +11,6 @@
 
 `cat {{path/to/input.xml}} | xml pyx >{{path/to/output.pyx}}`
 
-- সাহায্য প্রদর্শন করুন:
+- সাহায্য প্রদর্শন:
 
 `xml pyx --help`

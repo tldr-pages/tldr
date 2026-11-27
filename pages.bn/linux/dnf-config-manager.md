@@ -22,8 +22,8 @@
 
 - একটি রিপোজিটরির জন্য একটি কনফিগারেশন অপশন সেট করুন:
 
-`dnf config-manager --setopt={{অপশন}}={{মান}}`
+`dnf config-manager --setopt={{অপশন}}={{ভ্যালু}}`
 
-- সাহায্য প্রদশর্ন:
+- সাহায্য প্রদর্শন:
 
 `dnf config-manager --help-cmd`

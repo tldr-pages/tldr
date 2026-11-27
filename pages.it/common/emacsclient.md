@@ -6,7 +6,7 @@
 
 - Apri un file in un server Emacs esistente (utilizzando la GUI se disponibile):
 
-`emacsclient {{nome_file}}`
+`emacsclient {{percorso/del/file}}`
 
 - Apri un file in modalità console (senza finestra X):
 

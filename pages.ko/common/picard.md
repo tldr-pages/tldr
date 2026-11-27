@@ -11,6 +11,6 @@
 
 `picard {{경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...}}`
 
-- 설치된 Picard의 버전 표시:
+- 버전 표시:
 
 `picard {{[-V|--long-version]}}`

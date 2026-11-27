@@ -14,4 +14,4 @@
 
 - Terhubung ke server jarak jauh (remote host) menggunakan baris pertama dari sebuah berkas/fail sebagai kata sandi, kemudian secara otomatis menerima kunci SSH yang tidak dikenal, dan jalankan sebuah perintah:
 
-`sshpass -f {{lokasi/ke/berkas}} ssh -o StrictHostKeyChecking=no {{pengguna}}@{{nama_host}} "{{perintah}}"`
+`sshpass -f {{jalan/menuju/berkas}} ssh -o StrictHostKeyChecking=no {{pengguna}}@{{nama_host}} "{{perintah}}"`

@@ -13,4 +13,4 @@
 
 - Busca un archivo que contenga una cadena, en un directorio determinado:
 
-`mdfind -onlyin {{directorio}} "{{consulta}}"`
+`mdfind -onlyin {{ruta/al/directorio}} "{{consulta}}"`

@@ -15,6 +15,6 @@
 
 `koji cancel --verbose {{id_attivita}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `koji cancel {{[-h|--help]}}`

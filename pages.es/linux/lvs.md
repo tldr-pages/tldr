@@ -24,7 +24,7 @@
 
 `sudo lvs {{[-o|--options]}} +{{nombre_campo}}`
 
-- Suprime linea de encabezado:
+- Suprime línea de encabezado:
 
 `sudo lvs --noheadings`
 

@@ -9,7 +9,7 @@
 
 - Bir dosyadan yeni sır oluşturun:
 
-`docker secret create {{sır_ismi}} {{örnek/dosya}}`
+`docker secret create {{sır_ismi}} {{yol/dosya}}`
 
 - Tüm sırları sırala:
 

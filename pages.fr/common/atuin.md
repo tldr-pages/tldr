@@ -16,11 +16,11 @@
 
 `atuin search {{commande}}`
 
-- Inscrire un compte sur le serveur de synchronisation par défaut :
+- Inscrit un compte sur le serveur de synchronisation par défaut :
 
 `atuin register {{[-u|--username]}} {{nom_utilisateur}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{mot_de_passe}}`
 
-- Connexion au serveur de synchronisation par défaut :
+- Se connecte au serveur de synchronisation par défaut :
 
 `atuin login {{[-u|--username]}} {{nom_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
 

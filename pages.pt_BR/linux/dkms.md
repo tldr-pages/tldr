@@ -13,8 +13,8 @@
 
 - Instala a versão 1.2.1 do módulo acpi_call para o kernel que está rodando atualmente:
 
-`sudo dkms install -m {{acpi_call}} -v {{1.2.1}}`
+`sudo dkms install -m acpi_call -v 1.2.1`
 
 - Remove a versão 1.2.1 do módulo acpi_call de todos os kernels:
 
-`sudo dkms remove -m {{acpi_call}} -v {{1.2.1}} --all`
+`sudo dkms remove -m acpi_call -v 1.2.1 --all`

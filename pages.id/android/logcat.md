@@ -9,7 +9,7 @@
 
 - Simpan log sistem di dalam sebuah file:
 
-`logcat -f {{path/to/file}}`
+`logcat -f {{jalan/menuju/berkas}}`
 
 - Saring informasi log berdasarkan sintaks ekspresi reguler (`regex`) tertentu:
 
@@ -21,4 +21,4 @@
 
 - Tampilkan log untuk (kemasan) aplikasi yang sedang dijalankan:
 
-`logcat --pid $(pidof -s {{nama_kemasan_aplikasi}})`
+`logcat --pid $(pidof -s {{paket}})`

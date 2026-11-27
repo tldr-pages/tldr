@@ -29,7 +29,7 @@
 
 - Tampilkan pesan-pesan log dari aplikasi tertentu (menurut package identifier seperti `com.example.myapp`):
 
-`adb logcat --pid $(adb shell pidof -s {{nama_pengenal_aplikasi}})`
+`adb logcat --pid $(adb shell pidof -s {{paket}})`
 
 - Tampilkan log sistem secara warna-warni (biasanya digunakan untuk menyaring pesan-pesan log):
 

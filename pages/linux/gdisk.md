@@ -4,9 +4,9 @@
 > See also: `cfdisk`, `fdisk`, `parted`.
 > More information: <https://manned.org/gdisk>.
 
-- List partitions:
+- [l]ist partitions:
 
-`sudo gdisk {{[-l|--list]}}`
+`sudo gdisk -l {{/dev/sdX}}`
 
 - Start the interactive partition manipulator:
 

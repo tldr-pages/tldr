@@ -48,5 +48,6 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | tr    | yol/dosya             | yol/dizin                | yol/dosya_veya_dizin                 | paket         | kullanıcı_adı      | şifre             | komut    | port   | değer    |
 | uk    | шлях/до/файлу         | шлях/до/директорії       | шлях/до/файлу_чи_директорії          | пакунок       | ім'я_користувача   |                   |          |        |          |
 | uz    | faylga/yo'l           | katalogga/yo'l           | fayl_yoki_katalogga/yo'l             | paket         | foydalanuvchi_nomi | parol             | buyruq   | port   | qiymat   |
+| vi    | đường_dẫn/đến/tệp     | đường_dẫn/đến/thư_mục    | đường_dẫn/đến/tệp_hoặc_thư_mục       | gói           | tên_người_dùng     | mật_khẩu          | lệnh     | cổng   | giá_trị  |
 | zh    | 路径/到/文件               | 路径/到/目录                  | 路径/到/文件或目录                           | 软件包           | 用户名                | 密码                | 命令       | 端口     | 值        |
 | zh_TW | 路徑/至/檔案               | 路徑/至/目錄                  | 路徑/至/檔案或目錄                           | 套件            | 使用者名稱              | 密碼                | 命令       | 埠      | 值        |

@@ -6,4 +6,4 @@
 
 - Configura una cuenta de administrador:
 
-`username {{admin}} privilege 15 secret {{password}}`
+`username {{admin}} privilege 15 secret {{contraseña}}`

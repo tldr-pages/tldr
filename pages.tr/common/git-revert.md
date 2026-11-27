@@ -3,18 +3,26 @@
 > Öncekilerin etkilerini geri alan yeni bir commit oluştur.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-revert>.
 
-- En son commit'leri geri al:
+- En son commit'i geri al:
 
-`git revert {{@}}`
+`git revert HEAD`
 
 - En son 5. commit'i geri al:
 
-`git revert HEAD~{{4}}`
+`git revert HEAD~4`
+
+- Belirli bir commit'i geri al:
+
+`git revert {{0c01a9}}`
 
 - Birden fazla commit'i geri al:
 
-`git revert {{dal_ismi~5..dal_ismi~2}}`
+`git revert {{dal_ismi~5}}..{{dal_ismi~2}}`
 
 - Yeni commit'ler oluşturma, yalnızca çalışan ağacı değiştir:
 
-`git revert -n {{0c01a9..9a1743}}`
+`git revert {{[-n|--no-commit]}} {{0c01a9}}..{{9a1743}}`
+
+- Birleştirme çakışmasından sonra geri alma (revert) işlemini iptal et:
+
+`git revert --abort`

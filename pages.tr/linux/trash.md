@@ -5,7 +5,7 @@
 
 - Bir dosyayı sil (çöpe gönder):
 
-`trash {{örnek/dosya}}`
+`trash {{yol/dosya}}`
 
 - Çöpteki dosyaları göster:
 
@@ -29,4 +29,4 @@
 
 - Belirtilen konumdaki tüm dosyaları sil:
 
-`trash-rm /{{detaylı/örnek/konum/dosya_veya_dizin}}`
+`trash-rm /{{yol/dosya_veya_dizin}}`

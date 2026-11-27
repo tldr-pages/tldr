@@ -6,27 +6,27 @@
 
 - Wijzig de grootte van alle JPEG-afbeeldingen in de map naar 50% van hun oorspronkelijke grootte:
 
-`magick mogrify -resize {{50%}} {{*.jpg}}`
+`magick mogrify -resize 50% *.jpg`
 
 - Wijzig de grootte van alle afbeeldingen die beginnen met `DSC` naar 800x600:
 
-`magick mogrify -resize {{800x600}} {{DSC*}}`
+`magick mogrify -resize 800x600 DSC*`
 
 - Converteer alle PNG's in de map naar JPEG:
 
-`magick mogrify -format {{jpg}} {{*.png}}`
+`magick mogrify -format jpg *.png`
 
 - Halveer de verzadiging van alle afbeeldingsbestanden in de huidige map:
 
-`magick mogrify -modulate {{100,50}} {{*}}`
+`magick mogrify -modulate 100,50 *`
 
 - Verdubbel de helderheid van alle afbeeldingsbestanden in de huidige map:
 
-`magick mogrify -modulate {{200}} {{*}}`
+`magick mogrify -modulate 200 *`
 
 - Verklein de bestandsgrootte van alle GIF-afbeeldingen in de huidige map door de kwaliteit te verlagen:
 
-`magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
+`magick mogrify -layers 'optimize' -fuzz {{7%}} *.gif`
 
 - Toon de help:
 

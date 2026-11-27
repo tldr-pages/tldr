@@ -21,7 +21,7 @@
 
 - 깊이 3까지의 XML 문서의 정렬된 고유 요소 출력:
 
-`xml {{[el|elements]}} -d{{3}} {{경로/대상/입력.xml|uri}}`
+`xml {{[el|elements]}} -d3 {{경로/대상/입력.xml|uri}}`
 
 - 도움말 표시:
 

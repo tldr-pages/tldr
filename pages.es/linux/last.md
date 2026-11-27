@@ -3,13 +3,13 @@
 > Vea los últimos usuarios conectados.
 > Más información: <https://manned.org/last>.
 
-- Vea la información del último inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, kernel) de todos los usuarios leída de `/var/log/wtmp`:
+- Muestra la información del último inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, kernel) de todos los usuarios leída de `/var/log/wtmp`:
 
 `last`
 
 - Lista la información de inicio de sesión de un usuario específico:
 
-`last {{nombre_de_usuario}}`
+`last {{usuario}}`
 
 - Especifica cuántos de los últimos inicios de sesión mostrar:
 
@@ -21,13 +21,13 @@
 
 - Visualiza todos los inicios de sesión de un usuario específico y muestra la dirección IP en lugar del nombre de host:
 
-`last {{nombre_de_usuario}} {{[-i|--ip]}}`
+`last {{usuario}} {{[-i|--ip]}}`
 
 - Lista la información desde una fecha y hora determinadas:
 
 `last {{[-s|--since]}} {{-7days}}`
 
-- Vea todos los reinicios registrados (es decir, los últimos inicios de sesión del pseudousuario "reboot"):
+- Muestra todos los reinicios registrados (es decir, los últimos inicios de sesión del pseudousuario "reboot"):
 
 `last reboot`
 

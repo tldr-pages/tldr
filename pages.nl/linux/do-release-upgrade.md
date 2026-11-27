@@ -14,3 +14,7 @@
 - Upgrade naar de laatste voorgestelde release:
 
 `sudo do-release-upgrade {{[-p|--proposed]}}`
+
+- Controleer of er een nieuwe distributie-release beschikbaar is, zonder er daadwerkelijk naar te upgraden:
+
+`do-release-upgrade {{[-c|--check-dist-upgrade-only]}}`

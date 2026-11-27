@@ -28,6 +28,6 @@
 
 `pw-metadata {{[-n|--name]}} settings {{0}} log.level 1`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pw-metadata {{[-h|--help]}}`

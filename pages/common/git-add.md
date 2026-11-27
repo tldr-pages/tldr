@@ -7,6 +7,10 @@
 
 `git add {{path/to/file}}`
 
+- Interactively stage parts of files:
+
+`git add {{[-p|--patch]}}`
+
 - Add all files (tracked and untracked):
 
 `git add {{[-A|--all]}}`
@@ -22,10 +26,6 @@
 - Add an ignored file:
 
 `git add {{[-f|--force]}} {{path/to/file}}`
-
-- Interactively stage parts of files:
-
-`git add {{[-p|--patch]}}`
 
 - Interactively stage parts of a given file:
 

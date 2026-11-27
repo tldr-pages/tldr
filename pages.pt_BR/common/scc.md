@@ -31,6 +31,6 @@
 
 `scc {{[-s|--sort]}} {{files|name|lines|blanks|code|comments|complexity}}`
 
-- Mostra a tela de ajuda:
+- Mostra ajuda:
 
 `scc {{[-h|--help]}}`

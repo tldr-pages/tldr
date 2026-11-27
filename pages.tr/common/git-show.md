@@ -33,4 +33,4 @@
 
 - Bir dosyanın belirtilen sürümdeki (örneğin dal, etiket veya commit) içeriğini göster:
 
-`git show {{sürüm}}:{{dosya/konumu}}`
+`git show {{sürüm}}:{{yol/dosya}}`

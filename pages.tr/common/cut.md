@@ -9,11 +9,11 @@
 
 - Belirtilen dosyadaki satırların beşinci ile onuncu arasındaki karakterlerini yazdır:
 
-`cut {{[-c|--characters]}} 5-10 {{dosya/yolu}}`
+`cut {{[-c|--characters]}} 5-10 {{yol/dosya}}`
 
 - Bir dosyadaki satırları bir ayırıcıya göre alanlara böl ve ikinci ile altıncı alanları yazdır (varsayılan ayırıcı `TAB`'dır):
 
-`cut {{[-f|--fields]}} 2,6 {{dosya/yolu}}`
+`cut {{[-f|--fields]}} 2,6 {{yol/dosya}}`
 
 - Satırları belirtilen ayırıcıya göre böl ve ikinci alandan itibaren hepsini yazdır:
 

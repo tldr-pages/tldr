@@ -9,7 +9,7 @@
 
 - localhost의 포트 8080에서 수신 대기:
 
-`waitress-serve --listen={{localhost}}:{{8080}} {{임포트.경로:wsgi_함수}}`
+`waitress-serve --listen=localhost:8080 {{임포트.경로:wsgi_함수}}`
 
 - Unix 소켓에서 waitress 시작:
 
@@ -17,7 +17,7 @@
 
 - 4개의 스레드를 사용하여 요청 처리:
 
-`waitress-serve --threads={{4}} {{임포트.경로:wsgi_함수}}`
+`waitress-serve --threads=4 {{임포트.경로:wsgi_함수}}`
 
 - WSGI 객체를 반환하는 팩토리 메서드 호출:
 
@@ -25,4 +25,4 @@
 
 - HTTPS URL 스킴 사용:
 
-`waitress-serve --url-scheme={{https}} {{임포트.경로:wsgi_함수}}`
+`waitress-serve --url-scheme=https {{임포트.경로:wsgi_함수}}`

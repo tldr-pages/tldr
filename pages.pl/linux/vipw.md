@@ -5,8 +5,8 @@
 
 - Edycja pliku password:
 
-`vipw`
+`sudo vipw`
 
-- Wyświetlenie bieżącej wersji `vipw`:
+- Wyświetl wersję:
 
 `vipw {{[-V|--version]}}`

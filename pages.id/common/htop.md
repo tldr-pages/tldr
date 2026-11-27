@@ -11,7 +11,7 @@
 
 - Mulai `htop` dan tampilkan proses yang dimiliki oleh pengguna tertentu:
 
-`htop {{[-u|--user]}} {{username}}`
+`htop {{[-u|--user]}} {{nama_pengguna}}`
 
 - Tampilkan daftar proses beserta hierarki penugasannya dalam bentuk tampilan pohon untuk menunjukkan relasi proses induk beserta anak-anaknya:
 

@@ -13,7 +13,7 @@
 
 - Lista claves autorizadas para un usuario específico:
 
-`nixos-option users.users.{{nombre_del_usuario}}.openssh.authorizedKeys.{{archivoDeClaves|clave}}`
+`nixos-option users.users.{{usuario}}.openssh.authorizedKeys.{{archivoDeClaves|clave}}`
 
 - Lista todos los constructores remotos:
 
