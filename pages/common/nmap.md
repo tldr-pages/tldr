@@ -33,6 +33,6 @@
 
 `nmap --script "http-*" {{ip_or_host1,ip_or_host2,...}} -p 80,443`
 
-- Attempt evading IDS/IPS detection by using an extremely slow scan (`-T0`), [D]ecoy source addresses, [f]ragmented packets, random data, and other methods:
+- Evade IDS/IPS using a slow SYN scan, 10 random [D]ecoys, source port 53, [f]ragmentation, random data, no DNS or host discovery:
 
-`sudo nmap -T0 -D {{decoy_ip1,decoy_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_or_host}}`
+`sudo nmap -sS -T1 -D RND:{{10}} --source-port {{53}} -f --data-length {{16}} -Pn -n {{ip_or_host}}`
