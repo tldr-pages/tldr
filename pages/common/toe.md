@@ -12,7 +12,7 @@
 
 `toe -a`
 
-- Sort entries and show their database locations:
+- Sort entries by name and identify the terminal database they belong to:
 
 `toe -a -s`
 
