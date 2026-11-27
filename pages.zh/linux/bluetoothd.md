@@ -13,7 +13,7 @@
 
 - 指定一个配置文件启动守护进程（默认是 `/etc/bluetooth/main.conf`）：
 
-`bluetoothd {{[-f|--configfile]}} {{配置文件}}`
+`bluetoothd {{[-f|--configfile]}} {{路径/到/文件}}`
 
 - 启动守护进程并将详细信息输出到标准错误：
 

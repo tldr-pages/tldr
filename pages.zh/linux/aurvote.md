@@ -10,15 +10,15 @@
 
 - 为一个或多个 AUR 包投票：
 
-`aurvote {{package1 package2 ...}}`
+`aurvote {{软件包1 软件包2 ...}}`
 
 - 为一个或多个 AUR 包取消投票：
 
-`aurvote {{[-u|--unvote]}} {{package1 package2 ...}}`
+`aurvote {{[-u|--unvote]}} {{软件包1 软件包2 ...}}`
 
 - 检查一个或多个 AUR 包是否已投票：
 
-`aurvote {{[-c|--check]}} {{package1 package2 ...}}`
+`aurvote {{[-c|--check]}} {{软件包1 软件包2 ...}}`
 
 - 显示帮助：
 

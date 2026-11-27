@@ -13,7 +13,7 @@
 
 - 在指定的目录中构建一个程序：
 
-`ninja -C {{路径}}`
+`ninja -C {{路径/到/目录}}`
 
 - 查看 target（如 `install` 和 `uninstall`）：
 

@@ -29,7 +29,7 @@
 
 - 使用特定的配置文件允许多个单独的 Firefox 实例同时运行：
 
-`firefox --profile {{路径/到/文件夹}} {{https://example.com/}}`
+`firefox --profile {{路径/到/目录}} {{https://example.com/}}`
 
 - 设置 Firefox 为默认浏览器：
 

@@ -25,7 +25,7 @@
 
 - 使用 `pip` 安装包：
 
-`python -m pip install {{包}}`
+`python -m pip install {{软件包}}`
 
 - 互动调试 Python 脚本：
 

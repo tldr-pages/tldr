@@ -21,4 +21,4 @@
 
 - 显示特定包的进程日志：
 
-`logcat --pid $(pidof -s {{包}})`
+`logcat --pid $(pidof -s {{软件包}})`

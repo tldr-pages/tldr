@@ -5,7 +5,7 @@
 
 - 使用密码将一个目录加密为`archive.gpg`：
 
-`gpg-zip {{[-c|--symmetric]}} {{[-o|--output]}} {{archive.gpg}} {{path/to/directory}}`
+`gpg-zip {{[-c|--symmetric]}} {{[-o|--output]}} {{archive.gpg}} {{路径/到/目录}}`
 
 - 将`archive.gpg`解密到同名目录中：
 

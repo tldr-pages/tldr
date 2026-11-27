@@ -13,7 +13,7 @@
 
 - 从文件运行程序：
 
-`sudo bpftrace {{文件}}`
+`sudo bpftrace {{路径/到/文件}}`
 
 - 通过 PID 跟踪程序：
 

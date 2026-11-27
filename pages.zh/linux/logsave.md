@@ -5,7 +5,7 @@
 
 - 使用指定的参数执行命令并将其输出保存到日志文件中：
 
-`logsave {{path/to/logfile}} {{command}}`
+`logsave {{path/to/logfile}} {{命令}}`
 
 - 从标准输入中获取输入并将其保存在日志文件中：
 
@@ -13,8 +13,8 @@
 
 - 将输出追加到日志文件，而不是替换其当前内容：
 
-`logsave -a {{logfile}} {{command}}`
+`logsave -a {{logfile}} {{命令}}`
 
 - 显示详细输出：
 
-`logsave -v {{logfile}} {{command}}`
+`logsave -v {{logfile}} {{命令}}`

@@ -9,7 +9,7 @@
 
 - 在指定目录创建新的问题报告文件（如目录不存在则自动创建）：
 
-`git bugreport {{[-o|--output-directory]}} {{path/to/directory}}`
+`git bugreport {{[-o|--output-directory]}} {{路径/到/目录}}`
 
 - 使用指定格式的时间戳后缀创建问题报告文件（ `strftime` 格式）：
 
