@@ -36,6 +36,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1 # v8.1.3
         with:
+          token: ${{ secrets.PAT }}
           commit-message: "pages.*/: synchronize pages"
           title: "pages.*/: synchronize pages"
           body: "Automated monthly synchronization of translated pages with existing English tldr pages."
