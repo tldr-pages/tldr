@@ -14,7 +14,7 @@
 
 - Copy disk images to a destination directory without converting their formats:
 
-`virt-convert {{path/to/vm.vmx}} --disk-format none --destination {{/tmp}}`
+`virt-convert {{path/to/vm.vmx}} {{[-D|--disk-format]}} none --destination {{/tmp}}`
 
 - Preview the generated libvirt XML without performing the conversion:
 
