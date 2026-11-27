@@ -25,7 +25,7 @@
 
 - Setzte ein Konfigurations-Schlüsselwort dynamisch:
 
-`hyprctl keyword {{keyword}} {{value}}`
+`hyprctl keyword {{keyword}} {{wert}}`
 
 - Zeige Version an:
 

@@ -13,7 +13,7 @@
 
 - Liste die Inhalte eines bestimmten Pakets auf:
 
-`apt-file list {{paketname}}`
+`apt-file list {{paket}}`
 
 - Suche nach Paketen auf die die `regex` zutrifft:
 

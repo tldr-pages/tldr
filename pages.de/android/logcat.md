@@ -21,4 +21,4 @@
 
 - Gib System-Logs für den Prozess eines bestimmten Packets aus:
 
-`logcat --pid $(pidof -s {{packet}})`
+`logcat --pid $(pidof -s {{paket}})`

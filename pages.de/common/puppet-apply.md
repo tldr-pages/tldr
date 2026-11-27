@@ -13,4 +13,4 @@
 
 - Benutze ein bestimmtes Modulverzeichnis und Hiera-Konfigurationsdatei:
 
-`puppet apply --modulepath {{pfad/zu/ordner}} --hiera_config {{pfad/zu/datei}} {{pfad/zu/manifest}}`
+`puppet apply --modulepath {{pfad/zu/verzeichnis}} --hiera_config {{pfad/zu/datei}} {{pfad/zu/manifest}}`

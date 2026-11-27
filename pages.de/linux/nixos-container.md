@@ -17,7 +17,7 @@
 
 - Führe ein Kommando in einem laufenden Container aus:
 
-`sudo nixos-container run {{container_name}} -- {{command}} {{command_arguments}}`
+`sudo nixos-container run {{container_name}} -- {{befehl}} {{command_arguments}}`
 
 - Aktualisiere eine Containerkonfiguration:
 

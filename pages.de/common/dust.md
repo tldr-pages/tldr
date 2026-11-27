@@ -26,7 +26,7 @@
 
 - Alle Dateien und Verzeichnisse mit einem bestimmten Namen ignorieren:
 
-`dust {{[-X|--ignore-directory]}} {{datei_oder_verzeichnis_name}}`
+`dust {{[-X|--ignore-directory]}} {{pfad/zu/datei_oder_verzeichnis}}`
 
 - Keine Prozentbalken und Prozente anzeigen:
 

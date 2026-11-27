@@ -13,7 +13,7 @@
 
 - Liste Authorisierungsschlüssel für einen spezifischen Benutzer:
 
-`nixos-option users.users.{{username}}.openssh.authorizedKeys.{{keyFiles|keys}}`
+`nixos-option users.users.{{benutzername}}.openssh.authorizedKeys.{{keyFiles|keys}}`
 
 - Liste alle Remote-Builder-Maschinen:
 

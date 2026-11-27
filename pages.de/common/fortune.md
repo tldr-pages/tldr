@@ -25,4 +25,4 @@
 
 - Gib ein Zitat von einer durch `fortune -f` aufgelisteten Datenbank-Dateien aus:
 
-`fortune {{dateiname}}`
+`fortune {{pfad/zu/datei}}`

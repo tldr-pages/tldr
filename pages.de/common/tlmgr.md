@@ -6,15 +6,15 @@
 
 - Installiere ein Package und seine Abhängigkeiten:
 
-`tlmgr install {{package}}`
+`tlmgr install {{paket}}`
 
 - Entferne ein Package und seine Abhängigkeiten:
 
-`tlmgr remove {{package}}`
+`tlmgr remove {{paket}}`
 
 - Zeige Informationen über ein Package an:
 
-`tlmgr info {{package}}`
+`tlmgr info {{paket}}`
 
 - Aktualisiere alle Packages:
 
