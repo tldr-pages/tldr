@@ -1,7 +1,7 @@
 # virt-convert
 
 > Convert VMX / OVF to native libvirt guests.
-> See also: `qemu-img`
+> See also: `qemu-img`.
 > More information: <https://manned.org/virt-convert>.
 
 - Convert an OVA archive:
