@@ -10,7 +10,7 @@
 
 - Convert an extracted virtual machine containing .vmx and .vmdk files to qcow2 format:
 
-`virt-convert {{path/to/directory}} --disk-format qcow2`
+`virt-convert {{path/to/directory}} {{[-D|--disk-format]}} qcow2`
 
 - Copy disk images to a destination directory without converting their formats:
 
