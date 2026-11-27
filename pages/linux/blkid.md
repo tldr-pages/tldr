@@ -7,9 +7,17 @@
 
 `sudo blkid`
 
-- List all partitions in a table, including current mountpoints:
+- List all partitions in a user friendly table, including current mountpoints:
 
 `sudo blkid {{[-o|--output]}} list`
+
+- Print only a specific tag:
+
+`sudo blkid {{[-s|--match-tag]}} {{UUID|TYPE|LABEL|...}}`
+
+- List devices with a specific filesystem type:
+
+`sudo blkid {{[-t|--match-token]}} TYPE={{ext4}}`
 
 - Get the UUID of the filesystem on a partition:
 

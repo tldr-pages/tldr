@@ -17,7 +17,7 @@
 
 - Build a UKI including CPU microcode:
 
-`ukify build --linux {{path/to/vmlinuz}} --initrd {{path/to/initrd.img}} --microcode {{path/to/microcode.img}} --cmdline "{{root=UUID=xxxx}}"`
+`ukify build --linux {{path/to/vmlinuz}} --initrd {{path/to/initrd.img}} --cmdline "{{root=UUID=xxxx}} --microcode {{path/to/microcode.img}}"`
 
 - Sign the UKI for Secure Boot:
 

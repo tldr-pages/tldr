@@ -26,7 +26,7 @@
 
 - SSH tunneling: Forward a specific port (`localhost:9999` to `example.org:80`) along with disabling pseudo-[T]ty allocation and executio[N] of remote commands:
 
-`ssh {{username}}@{{remote_host}} -L 9999:{{example.org}}:80 -N -T`
+`ssh {{username}}@{{remote_host}} -L 9999:example.org:80 -N -T`
 
 - SSH [J]umping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 

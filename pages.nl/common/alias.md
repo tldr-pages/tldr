@@ -2,7 +2,7 @@
 
 > Maak een alias aan - woorden die vervangen worden door een commandostring.
 > Aliassen verdwijnen aan het einde van de huidige shellsessie, tenzij ze gedefinieerd zijn in het configuratiebestand van de shell, bijvoorbeeld `~/.bashrc` voor Bash of `~/.zshrc` voor Zsh.
-> Zie ook: `unalias`.
+> Zie ook: `unalias`, `declare`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Toon alle aliassen:
