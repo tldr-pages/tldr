@@ -5,12 +5,12 @@
 
 - Dosyayı dizin indeksinden ve dosya sisteminden sil:
 
-`git rm {{dosya}}`
+`git rm {{yol/dosya}}`
 
 - Dizini sil:
 
-`git rm -r {{dizin}}`
+`git rm -r {{yol/dizin}}`
 
 - Dizin indeksinden dosyayı sil lakin yerelde dosyaya dokunma:
 
-`git rm --cached {{dosya}}`
+`git rm --cached {{yol/dosya}}`

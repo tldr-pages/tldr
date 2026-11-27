@@ -10,7 +10,7 @@
 
 - Bir dosyadan mesaj okuyan bir commit cismi oluştur (`stdin` için `-` ekini kullan):
 
-`git commit-tree {{ağaç}} -F {{örnek/dosya}}`
+`git commit-tree {{ağaç}} -F {{yol/dosya}}`
 
 - GPG anahtarıyla imzalanmış bir commit cismi oluştur:
 

@@ -22,7 +22,7 @@
 
 - Belirtilen dosya ve/veya dizinlerden yeni bir arşiv oluştur:
 
-`atool {{[-a|--add]}} {{yeni_arşiv.zip}} {{dosya1/yolu dosya2/yolu ...}}`
+`atool {{[-a|--add]}} {{yeni_arşiv.zip}} {{yol/dosya1 yol/dosya2 ...}}`
 
 - Bir arşivdeki dosyaları listele ve çıktıyı bir sayfalayıcıdan geçir:
 

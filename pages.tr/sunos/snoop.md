@@ -10,11 +10,11 @@
 
 - Yakalanan paketleri terminalde göstermek yerine bir dosyaya kaydet:
 
-`snoop -o {{dosyaismi}}`
+`snoop -o {{yol/dosya}}`
 
 - Belirtilen dosyadan paketlerin ayrıntılı protokol katman özetini görüntüle:
 
-`snoop -V -i {{dosyaismi}}`
+`snoop -V -i {{yol/dosya}}`
 
 - Host isminden gelen ağ paketlerini yakala ve belirtilen port'a git:
 

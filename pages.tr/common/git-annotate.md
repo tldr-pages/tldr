@@ -7,8 +7,8 @@
 
 - Bir dosyayı, her satırında son commit değeri ve yazarı bulunacak şekilde göster:
 
-`git annotate {{örnek/dosya}}`
+`git annotate {{yol/dosya}}`
 
 - Bir dosyayı, her satırında son commit değeri ve yazarının e-postası bulunacak şekilde göster:
 
-`git annotate {{[-e|--show-email]}} {{örnek/dosya}}`
+`git annotate {{[-e|--show-email]}} {{yol/dosya}}`
