@@ -21,8 +21,8 @@
 
 - Utwórz archiwum z określonym algorytmem kompresji:
 
-`yaa archive -a {{algorytm}} -d {{ścieżka/do/folderu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
+`yaa archive -a {{algorytm}} -d {{ścieżka/do/katalogu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
 
 - Utwórz archiwum o rozmiarze bloku 8 MB:
 
-`yaa archive -b 8m -d {{ścieżka/do/folderu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
+`yaa archive -b 8m -d {{ścieżka/do/katalogu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`

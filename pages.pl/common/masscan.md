@@ -31,8 +31,8 @@
 
 - Skanuj Internet w poszukiwaniu podanego zakresu portów i eksportuj wynik do pliku:
 
-`masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{0-65535}} --output-format {{binary|grepable|json|list|xml}} --output-filename {{path/to/file}}`
+`masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{0-65535}} --output-format {{binary|grepable|json|list|xml}} --output-filename {{ścieżka/do/pliku}}`
 
 - Odczytaj binarny wynik skanu z pliku i wypisz do `stdout`:
 
-`masscan --readscan {{path/to/file}}`
+`masscan --readscan {{ścieżka/do/pliku}}`

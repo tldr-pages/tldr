@@ -13,7 +13,7 @@
 
 - Wyświetl wszystkie systemy plików i ich wykorzystanie dysków zawierające podany plik lub katalog:
 
-`df {{ścieżka/do/pliku_lub_folderu}}`
+`df {{ścieżka/do/pliku_lub_katalogu}}`
 
 - Wyświetl statystyki dotyczące liczby wolnych i wykorzystanych [i]-węzłów:
 

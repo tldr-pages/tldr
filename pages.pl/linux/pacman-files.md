@@ -22,7 +22,7 @@
 
 - Wyświetl pliki należące do podanego pakietu:
 
-`pacman -Fl {{nazwa_pakietu}}`
+`pacman -Fl {{pakiet}}`
 
 - Wyświetl pomoc:
 
