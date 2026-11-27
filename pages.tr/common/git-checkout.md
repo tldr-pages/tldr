@@ -29,8 +29,8 @@
 
 - Sahnelenmemiş değişiklikleri belirtilen dosyaya ayır:
 
-`git checkout {{dosya_ismi}}`
+`git checkout {{yol/dosya}}`
 
 - Mevcut dizindeki bir dosyayı, belirtilen dalda commit edilmiş sürümü ile değiştirin:
 
-`git checkout {{dal_ismi}} -- {{dosya_ismi}}`
+`git checkout {{dal_ismi}} -- {{yol/dosya}}`

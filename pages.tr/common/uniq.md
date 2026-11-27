@@ -7,32 +7,32 @@
 
 - Tüm satırları yalnızca birer kez göster:
 
-`sort {{dosya/yolu}} | uniq`
+`sort {{yol/dosya}} | uniq`
 
 - Yalnızca benzersiz satırları göster:
 
-`sort {{dosya/yolu}} | uniq {{[-u|--unique]}}`
+`sort {{yol/dosya}} | uniq {{[-u|--unique]}}`
 
 - Yalnızca yinelenen satırları göster:
 
-`sort {{dosya/yolu}} | uniq {{[-d|--repeated]}}`
+`sort {{yol/dosya}} | uniq {{[-d|--repeated]}}`
 
 - Tüm satırları büyük/küçük harfe duyarsız şekilde yalnızca birer kez göster:
 
-`sort {{dosya/yolu}} | uniq {{[-i|--ignore-case]}}`
+`sort {{yol/dosya}} | uniq {{[-i|--ignore-case]}}`
 
 - Satırları, kaç kez geçtikleriyle birlikte göster:
 
-`sort {{dosya/yolu}} | uniq {{[-c|--count]}}`
+`sort {{yol/dosya}} | uniq {{[-c|--count]}}`
 
 - Satırları kaç kez geçtikleriyle birlikte, en sık geçenden başlayarak sıralı göster:
 
-`sort {{dosya/yolu}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`
+`sort {{yol/dosya}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`
 
 - Benzersizlik için satırların yalnızca ilk 10 karakterini karşılaştır:
 
-`sort {{dosya/yolu}} | uniq {{[-w|--check-chars]}} 10`
+`sort {{yol/dosya}} | uniq {{[-w|--check-chars]}} 10`
 
 - Benzersizlik için satırların ilk 5 karakterinden sonraki metni karşılaştır:
 
-`sort {{dosya/yolu}} | uniq {{[-s|--skip-chars]}} 5`
+`sort {{yol/dosya}} | uniq {{[-s|--skip-chars]}} 5`

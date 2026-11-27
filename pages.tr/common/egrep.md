@@ -7,32 +7,32 @@
 
 - Bir veya daha fazla kez yinelenen bir karakteri ara:
 
-`egrep '{{a}}+' {{dosya/yolu}}`
+`egrep '{{a}}+' {{yol/dosya}}`
 
 - Bir karakterin sıfır ya da bir kez geçtiği yerleri ara (isteğe bağlı eşleşme):
 
-`egrep '{{a}}?' {{dosya/yolu}}`
+`egrep '{{a}}?' {{yol/dosya}}`
 
 - Bir karakterin art arda 10 kez yinelendiği yerleri ara:
 
-`egrep '{{a}}{10}' {{dosya/yolu}}`
+`egrep '{{a}}{10}' {{yol/dosya}}`
 
 - Bir karakterin art arda 3 ile 7 kez yinelendiği yerleri ara:
 
-`egrep '{{a}}{3,7}' {{dosya/yolu}}`
+`egrep '{{a}}{3,7}' {{yol/dosya}}`
 
 - Listelenen seçeneklerden birini ara:
 
-`egrep '{{kedi}}|{{köpek}}|{{fare}}' {{dosya/yolu}}`
+`egrep '{{kedi}}|{{köpek}}|{{fare}}' {{yol/dosya}}`
 
 - Daha büyük bir kalıbın içinde listelenen seçeneklerden birini ara:
 
-`egrep 'c({{a}}|{{o}}|{{u}})p' {{dosya/yolu}}`
+`egrep 'c({{a}}|{{o}}|{{u}})p' {{yol/dosya}}`
 
 - Bir veya daha fazla kez yinelenen bir karakter grubunu ara:
 
-`egrep '({{aeiou}})+' {{dosya/yolu}}`
+`egrep '({{aeiou}})+' {{yol/dosya}}`
 
 - Standart karakter sınıflarını kullanarak ara (daha fazla bilgi için: <https://www.regular-expressions.info/posixbrackets.html>):
 
-`egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{dosya/yolu}}`
+`egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{yol/dosya}}`

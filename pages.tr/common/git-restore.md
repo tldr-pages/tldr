@@ -6,11 +6,11 @@
 
 - Sahnelenmemiş bir dosyayı mevcut commit'in sürümüne kavuştur:
 
-`git restore {{dosya/konumu}}`
+`git restore {{yol/dosya}}`
 
 - Sahnelenmemiş bir dosyayı belirtilen commit'in sürümüne kavuştur:
 
-`git restore {{[-s|--source]}} {{commit}} {{dosya/konumu}}`
+`git restore {{[-s|--source]}} {{commit}} {{yol/dosya}}`
 
 - İzlenen dosyalardaki sahnelenmemiş tüm değişiklikleri iptal et:
 
@@ -18,7 +18,7 @@
 
 - Bir dosyayı sahnelenmemiş hale getir:
 
-`git restore {{[-S|--staged]}} {{dosya/konumu}}`
+`git restore {{[-S|--staged]}} {{yol/dosya}}`
 
 - Tüm dosyaları sahnelenmemiş hale getir:
 

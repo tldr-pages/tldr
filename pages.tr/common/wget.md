@@ -11,7 +11,7 @@
 
 - Bir URL'nin içeriğini belirtilen dosya adıyla indir (bu örnekte "bar"):
 
-`wget {{[-O|--output-document]}} {{bar}} {{https://example.com/foo}}`
+`wget {{[-O|--output-document]}} {{yol/dosya}} {{https://example.com/foo}}`
 
 - Tek bir web sayfasını ve tüm kaynaklarını (betikler, stil dosyaları, görseller vb.) istekler arasında 3 saniyelik aralıklarla indir:
 
@@ -35,4 +35,4 @@
 
 - Bir metin dosyasında saklanan tüm URL'leri belirtilen dizine indir:
 
-`wget {{[-P|--directory-prefix]}} {{dizin/yolu}} {{[-i|--input-file]}} {{url_listesi.txt}}`
+`wget {{[-P|--directory-prefix]}} {{yol/dizin}} {{[-i|--input-file]}} {{url_listesi.txt}}`

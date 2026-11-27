@@ -5,15 +5,15 @@
 
 - Bir dosyanın içeriğini `stdout`'a yazdır:
 
-`cat {{dosya/yolu}}`
+`cat {{yol/dosya}}`
 
 - Birkaç dosyayı bir çıktı dosyasında birleştir:
 
-`cat {{dosya/yolu1 dosya/yolu2 ...}} >{{çıktı/dosyası/yolu}}`
+`cat {{yol/dosya1 yol/dosya2 ...}} >{{yol/çıktı_dosyası}}`
 
 - Birkaç dosyayı bir çıktı dosyasına ekle:
 
-`cat {{dosya/yolu1 dosya/yolu2 ...}} >>{{çıktı/dosyası/yolu}}`
+`cat {{yol/dosya1 yol/dosya2 ...}} >>{{yol/çıktı_dosyası}}`
 
 - Bir dosyanın içeriğini arabelleğe almadan bir çıktı dosyasına kopyala:
 
@@ -21,4 +21,4 @@
 
 - `stdin`'i bir dosyaya yaz:
 
-`cat - >{{dosya/yolu}}`
+`cat - >{{yol/dosya}}`

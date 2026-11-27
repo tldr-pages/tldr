@@ -5,12 +5,12 @@
 
 - Gereksiz boşlukları dosyadan kırp:
 
-`cat {{örnek/dosya}} | git stripspace`
+`cat {{yol/dosya}} | git stripspace`
 
 - Gereksiz boşlukları ve Git yorumlarını dosyadan kırp:
 
-`cat {{örnek/dosya}} | git stripspace {{[-s|--strip-comments]}}`
+`cat {{yol/dosya}} | git stripspace {{[-s|--strip-comments]}}`
 
 - Bir dosyadaki tüm satırları Git yorumlarına çevir:
 
-`git <{{örnek/dosya}} stripspace {{[-c|--comment-lines]}}`
+`git <{{yol/dosya}} stripspace {{[-c|--comment-lines]}}`

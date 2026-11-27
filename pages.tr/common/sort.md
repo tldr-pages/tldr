@@ -5,19 +5,19 @@
 
 - Bir dosyayı artan sırada sırala:
 
-`sort {{dosya/yolu}}`
+`sort {{yol/dosya}}`
 
 - Bir dosyayı azalan sırada sırala:
 
-`sort {{[-r|--reverse]}} {{dosya/yolu}}`
+`sort {{[-r|--reverse]}} {{yol/dosya}}`
 
 - Bir dosyayı büyük/küçük harfe duyarsız şekilde sırala:
 
-`sort {{[-f|--ignore-case]}} {{dosya/yolu}}`
+`sort {{[-f|--ignore-case]}} {{yol/dosya}}`
 
 - Bir dosyayı alfabetik yerine sayısal sıraya göre sırala:
 
-`sort {{[-n|--numeric-sort]}} {{dosya/yolu}}`
+`sort {{[-n|--numeric-sort]}} {{yol/dosya}}`
 
 - Alan ayırıcı olarak `:` kullanarak `/etc/passwd` dosyasını satırların 3. alanından itibaren sayısal olarak sırala:
 
@@ -29,7 +29,7 @@
 
 - Bir dosyayı yalnızca benzersiz satırları koruyarak sırala:
 
-`sort {{[-u|--unique]}} {{dosya/yolu}}`
+`sort {{[-u|--unique]}} {{yol/dosya}}`
 
 - Bir dosyayı sırala ve çıktıyı belirtilen çıktı dosyasına yaz (bir dosyayı yerinde sıralamak için kullanılabilir):
 
