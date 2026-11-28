@@ -1,7 +1,7 @@
 # kbdinfo
 
 > Display information about keyboard settings and virtual console modes.
-> More information: <https://manned.org/kbdinfo.1>.
+> More information: <https://manned.org/kbdinfo>.
 
 - Show the current virtual console mode:
 
