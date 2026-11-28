@@ -5,25 +5,33 @@
 > Ayrıca bakınız: `cat`.
 > Daha fazla bilgi için: <https://manned.org/bat>.
 
-- Bir dosyanın içeriğini standart çıktıya yazdır:
+- Bir veya daha fazla dosyanın içeriğini biçimlendirerek `stdout`'a yazdır:
 
-`bat {{dosya}}`
+`bat {{yol/dosya1 yol/dosya2 ...}}`
 
 - Birkaç dosyayı hedef dosyada birleştir:
 
-`bat {{dosya1}} {{dosya2}} >{{hedef_dosya}}`
+`bat {{yol/dosya1 yol/dosya2 ...}} >{{yol/hedef_dosya}}`
 
-- Birkaç dosyayı hedef dosyaya ekle:
+- Süslemeleri kaldır ve sayfalamayı devre dışı bırak:
 
-`bat {{dosya1}} {{dosya2}} >>{{hedef_dosya}}`
+`bat {{[-pp|--style plain --pager never]}} {{yol/dosya}}`
 
-- Tüm çıktı satırlarını numaralandır:
+- Belirli bir satırı veya satır aralığını farklı bir arka plan rengiyle vurgula:
 
-`bat {{[-n|--number]}} {{dosya}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{yol/dosya}}`
 
-- Bir JSON dosyasının sözdizimini vurgula:
+- Boşluk, sekme veya yeni satır gibi yazdırılamayan karakterleri göster:
 
-`bat {{[-l|--language]}} json {{dosya.json}}`
+`bat {{[-A|--show-all]}} {{yol/dosya}}`
+
+- Çıktıda satır numaraları dışındaki tüm süslemeleri kaldır:
+
+`bat {{[-n|--number]}} {{yol/dosya}}`
+
+- Dili açıkça belirterek bir JSON dosyasının sözdizimini vurgula:
+
+`bat {{[-l|--language]}} json {{yol/dosya.json}}`
 
 - Desteklenen tüm dilleri görüntüle:
 
