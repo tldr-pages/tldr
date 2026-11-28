@@ -29,4 +29,4 @@
 
 - Get keyboard information from a specific console:
 
-`kbdinfo -C {{/dev/tty1}} {{getmode|gkbmode|gkbmeta|gkbled}}`
+`kbdinfo -C {{/dev/ttyN}} {{getmode|gkbmode|gkbmeta|gkbled}}`
