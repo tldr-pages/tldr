@@ -1,36 +1,36 @@
 # ng
 
-> Angular uygulamaları oluşturup yönetmek için bir Komut Satırı Arayüzü (CLI).
+> Angular uygulamaları oluştur ve yönet.
 > Daha fazla bilgi için: <https://angular.dev/cli>.
 
 - Bir klasörün içinde yeni bir Angular uygulaması oluştur:
 
-`ng new {{proje_ismi}}`
+`ng {{[n|new]}} {{proje_ismi}}`
 
-- Bir uygulamaya yeni bir komponent ekle:
+- Uygulamayı derle ve yerel bir geliştirme sunucusu başlat:
 
-`ng generate component {{komponent_ismi}}`
+`ng {{[s|serve]}}`
 
-- Bir uygulamaya yeni bir sınıf ekle:
+- Yeni bir komponent oluştur:
 
-`ng generate class {{sınıf_ismi}}`
+`ng {{[g|generate]}} {{[c|component]}} {{komponent_ismi}}`
 
-- Bir uygulamaya yeni bir direktif ekle:
+- Bir Angular uygulamasını veya kütüphanesini derle:
 
-`ng generate directive {{direktif_ismi}}`
+`ng {{[b|build]}}`
 
-- Uygulamayı çalıştır ve bir sunucu üzerinden yayınla:
+- Birim testlerini çalıştır:
 
-`ng serve`
+`ng {{[t|test]}}`
 
-- Uygulamayı derle:
+- Mevcut projeye bir paket ekle:
 
-`ng build`
+`ng add {{paket}}`
 
-- Testleri çalıştır:
+- Çalışma alanı bağımlılıklarını güncelle:
 
-`ng test`
+`ng update`
 
-- Angular kurulumunun versiyonunu kontrol et:
+- Sürümü görüntüle:
 
-`ng version`
+`ng {{[v|version]}}`
