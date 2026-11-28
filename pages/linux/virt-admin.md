@@ -11,7 +11,11 @@
 
 `virt-admin {{[-c|--connect]}} {{virtqemud:///system}} version`
 
-- Dispplay information about a specific connected client:
+- Display clients connected to the server:
+
+`virt-admin client-list {{server}}`
+
+- Display information about a specific connected client:
 
 `virt-admin client-info {{server}} {{client_id}}`
 
