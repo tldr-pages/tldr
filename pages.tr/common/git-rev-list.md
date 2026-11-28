@@ -5,16 +5,20 @@
 
 - Mevcut daldaki tüm commit'leri sırala:
 
-`git rev-list {{HEAD}}`
+`git rev-list HEAD`
+
+- Mevcut dalda belirli bir dosyayı değiştiren (ekleyen/düzenleyen/silen) en son commit'i yazdır:
+
+`git rev-list {{[-n|--max-count]}} 1 HEAD -- {{yol/dosya}}`
 
 - Belirtilen daldaki belirtilen tarihten daha yakın olan commit'leri sırala:
 
-`git rev-list --since={{'2019-12-01 00:00:00'}} {{dal_ismi}}`
+`git rev-list --since "{{2019-12-01 00:00:00}}" {{dal_ismi}}`
 
 - Belirtilen commit'deki tüm birleştirme commit'lerini sırala:
 
 `git rev-list --merges {{commit}}`
 
-- Belirtilen etiketten itibaren olan commit sayılarını çıkar:
+- Belirtilen etiketten bu yana yapılan commit sayısını yazdır:
 
-`git rev-list {{tag_name}}..HEAD --count`
+`git rev-list {{etiket_ismi}}..HEAD --count`
