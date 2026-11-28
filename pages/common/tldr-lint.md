@@ -10,7 +10,7 @@
 
 - Ignore specific `tldr-lint` error codes while linting:
 
-`tldr-lint {{[-I|--ignore]}} {{TLDR001,TLDR002,...}}`
+`tldr-lint {{[-I|--ignore]}} {{TLDR001,TLDR002,...}} {{path/to/page_or_directory}}`
 
 - Format a specific page to `stdout`:
 
