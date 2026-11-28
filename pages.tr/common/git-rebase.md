@@ -28,9 +28,9 @@
 
 `git rebase --onto {{yeni_taban}} {{eski_taban}}`
 
-- Son 3 commit'i etkileşimli olmayacak şekilde yeniden uygula:
+- Son 5 commit'i yerinde yeniden uygula ve sıralanmalarına, çıkartılmalarına, birleştirilmelerine veya modifiye edilmelerine izin vermek için duraklat:
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - Herhangi bir çatışmayı çalışan dal sürümünü kurtarmak üzere otomatik olarak çöz (`theirs` argümanı burada ters anlama sahip):
 
