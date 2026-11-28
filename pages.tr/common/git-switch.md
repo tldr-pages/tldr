@@ -1,6 +1,6 @@
 # git switch
 
-> Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır.
+> Git dalları arasında geçiş yap. Git sürümü 2.23+ olmalıdır.
 > Ayrıca bakınız: `git checkout`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-switch>.
 
@@ -27,3 +27,11 @@
 - Bir dala geç ve mevcut dal ile commit'lenmeyen değişiklikleri bu dal ile birleştir:
 
 `git switch {{[-m|--merge]}} {{dal_ismi}}`
+
+- Bir etikete veya commit'e geç:
+
+`git switch {{[-d|--detach]}} {{etiket|commit}}`
+
+- Başka bir uzak bağlantıdaki dala geç:
+
+`git switch {{[-t|--track]}} {{uzak_bağlantı}}/{{dal_ismi}}`
