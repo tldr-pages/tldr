@@ -19,3 +19,7 @@
 - Bir commit'in değişikliklerini, herhangi bir yeni commit oluşturmadan çalışan dizine ekle:
 
 `git cherry-pick {{[-n|--no-commit]}} {{commit}}`
+
+- Commit'in cherry-pick ile alındığını belirtmek için commit mesajına bir satır ekle:
+
+`git cherry-pick -x {{commit}}`
