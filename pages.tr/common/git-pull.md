@@ -11,6 +11,10 @@
 
 `git pull {{[-r|--rebase]}}`
 
-- Belirtilen uzak depodan ve daldan değişiklikleri indir, ve sonra onları HEAD ile birleştir:
+- Belirtilen uzak depodan değişiklikleri indir:
+
+`git pull {{uzak_bağlantı}}`
+
+- Belirtilen uzak depodan ve daldan değişiklikleri indir, ve sonra onları `HEAD` ile birleştir:
 
 `git pull {{uzak_bağlantı}} {{dal}}`
