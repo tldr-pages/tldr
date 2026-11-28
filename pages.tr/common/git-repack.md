@@ -10,3 +10,11 @@
 - Paketlemeden sonra gereksiz nesneleri sil:
 
 `git repack -d`
+
+- Tüm nesneleri tek bir pakette yeniden paketle:
+
+`git repack -a`
+
+- Yeniden paketlemeyi yalnızca yerel nesnelerle sınırla:
+
+`git repack -l`
