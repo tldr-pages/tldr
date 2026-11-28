@@ -26,3 +26,11 @@
 - Yayınlanmış portları içeren yeni bir konteynerde komut çalıştır:
 
 `docker {{[run|container run]}} {{[-p|--publish]}} {{host_portu}}:{{konteyner_portu}} {{imge}} {{komut}}`
+
+- Yeni bir konteynerde imgenin giriş noktasını geçersiz kılarak komut çalıştır:
+
+`docker {{[run|container run]}} --entrypoint {{komut}} {{imge}}`
+
+- Yeni bir konteyneri bir ağa bağlayarak komut çalıştır:
+
+`docker {{[run|container run]}} --network {{ağ_ismi}} {{imge}}`
