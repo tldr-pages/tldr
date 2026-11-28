@@ -21,4 +21,4 @@
 
 - 출력 디렉터리 지정:
 
-`poetry build {{[-o|--output]}} {{경로/대상/디렉터리}}`
+`poetry build {{[-o|--output]}} {{경로/대상/폴더}}`

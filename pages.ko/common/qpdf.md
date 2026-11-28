@@ -25,4 +25,4 @@
 
 - 암호로 보호된 파일의 암호 제거:
 
-`qpdf --password={{암호}} --decrypt {{경로/대상/입력.pdf}} {{경로/대상/출력.pdf}}`
+`qpdf --password={{비밀번호}} --decrypt {{경로/대상/입력.pdf}} {{경로/대상/출력.pdf}}`

@@ -10,11 +10,11 @@
 
 - MySQL 서버에 연결:
 
-`mysqlsh --user {{사용자_명}} --host {{호스트_명}} --port {{포트}}`
+`mysqlsh --user {{사용자_이름}} --host {{호스트_명}} --port {{포트}}`
 
 - 서버에서 SQL 문을 실행하고 종료:
 
-`mysqlsh --user {{사용자_명}} --execute '{{sql_문}}'`
+`mysqlsh --user {{사용자_이름}} --execute '{{sql_문}}'`
 
 - JavaScript 모드로 MySQL Shell 시작:
 

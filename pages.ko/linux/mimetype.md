@@ -17,7 +17,7 @@
 
 - `stdin`의 MIME 유형 결정 (파일명 확인하지 않음):
 
-`{{command}} | mimetype --stdin`
+`{{명령어}} | mimetype --stdin`
 
 - MIME 유형이 결정된 방법에 대한 디버그 정보 표시:
 

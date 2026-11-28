@@ -17,7 +17,7 @@
 
 - 기존 및 새로운 PostgreSQL 포트 지정:
 
-`pg_upgrade {{[-p|--old-port]}} {{port}} {{[-P|--new-port]}} {{port}} {{[-b|--old-bindir]}} {{경로/대상/오래된_bin}} {{[-B|--new-bindir]}} {{경로/대상/새로운_bin}} {{[-d|--old-datadir]}} {{경로/대상/오래된_데이터}} {{[-D|--new-datadir]}} {{경로/대상/새로운_데이터}}`
+`pg_upgrade {{[-p|--old-port]}} {{포트}} {{[-P|--new-port]}} {{포트}} {{[-b|--old-bindir]}} {{경로/대상/오래된_bin}} {{[-B|--new-bindir]}} {{경로/대상/새로운_bin}} {{[-d|--old-datadir]}} {{경로/대상/오래된_데이터}} {{[-D|--new-datadir]}} {{경로/대상/새로운_데이터}}`
 
 - 새로운 클러스터로 파일을 복사하는 대신 하드 링크 사용:
 

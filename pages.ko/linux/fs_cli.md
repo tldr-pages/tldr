@@ -9,7 +9,7 @@
 
 - 원격 FreeSWITCH 서버에 연결:
 
-`fs_cli {{[-H|--host]}} {{호스트}} {{[-P|--port]}} {{port}} {{[-p|--password]}} {{패스워드}}`
+`fs_cli {{[-H|--host]}} {{호스트}} {{[-P|--port]}} {{포트}} {{[-p|--password]}} {{비밀번호}}`
 
 - 단일 FreeSWITCH 명령을 실행한 후 종료:
 

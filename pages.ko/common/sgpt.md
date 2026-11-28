@@ -21,7 +21,7 @@
 
 - `REPL` (Read-eval-print loop) 세션 시작:
 
-`sgpt --repl {{명령}}`
+`sgpt --repl {{명령어}}`
 
 - 도움말 표시:
 

@@ -29,4 +29,4 @@
 
 - 특정 설정 값 설정:
 
-`gh config set {{key}} {{value}}`
+`gh config set {{key}} {{값}}`

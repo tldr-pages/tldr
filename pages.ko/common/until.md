@@ -9,7 +9,7 @@
 
 - SSH 호스트에 연결이 정상적으로 종료될 때까지 연결 시도 반복:
 
-`until ssh {{사용자명}}@{{호스트}}; do sleep {{2}}; done`
+`until ssh {{사용자_이름}}@{{호스트}}; do sleep {{2}}; done`
 
 - systemd 서비스가 활성 상태가 될 때까지 대기:
 

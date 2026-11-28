@@ -26,7 +26,7 @@
 
 - 쓰기 가능한 sandbox 디렉터리로 컨테이너 다운로드:
 
-`apptainer pull --sandbox {{경로/대상/디렉터리}} docker://{{이미지}}:{{태그}}`
+`apptainer pull --sandbox {{경로/대상/폴더}} docker://{{이미지}}:{{태그}}`
 
 - 캐시를 사용하지 않고 컨테이너 다운로드:
 

@@ -17,7 +17,7 @@
 
 - 설정 키에 값을 지정:
 
-`npm {{[c|config]}} set {{키}} {{value}}`
+`npm {{[c|config]}} set {{키}} {{값}}`
 
 - 설정 키 삭제:
 

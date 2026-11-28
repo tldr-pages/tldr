@@ -10,7 +10,7 @@
 
 - 사용자 지정 저장 위치로 모든 패키지 동기화:
 
-`dnf reposync --repoid {{저장소_이름}} {{[-p|--download-path]}} {{경로/대상/디렉터리}}`
+`dnf reposync --repoid {{저장소_이름}} {{[-p|--download-path]}} {{경로/대상/폴더}}`
 
 - 모든 패키지와 메타데이터 동기화:
 

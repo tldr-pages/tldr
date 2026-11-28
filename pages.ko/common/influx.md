@@ -9,7 +9,7 @@
 
 - 특정 사용자 이름으로 연결 (비밀번호를 묻는 메시지가 표시됨):
 
-`influx -username {{사용자명}} -password ""`
+`influx -username {{사용자_이름}} -password ""`
 
 - 특정 호스트에 연결:
 

@@ -17,7 +17,7 @@
 
 - HTTP 기본 또는 다이제스트 인증을 사용하여 지정된 URL에서 단어 목록 출력:
 
-`cewl --auth_type {{basic|digest}} --auth_user {{사용자명}} --auth_pass {{비밀번호}} {{url}}`
+`cewl --auth_type {{basic|digest}} --auth_user {{사용자_이름}} --auth_pass {{비밀번호}} {{url}}`
 
 - 프록시를 통해 지정된 URL에서 단어 목록 출력:
 

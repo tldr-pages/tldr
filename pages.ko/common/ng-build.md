@@ -9,7 +9,7 @@
 
 - 워크스페이스 루트 기준으로 출력 경로 지정:
 
-`ng {{[b|build]}} --output-path {{경로/대상/디렉터리}}`
+`ng {{[b|build]}} --output-path {{경로/대상/폴더}}`
 
 - Ahead-of-Time (AOT) 컴파일 활성화:
 

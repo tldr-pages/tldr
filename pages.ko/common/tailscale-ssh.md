@@ -9,4 +9,4 @@
 
 - Tailscale-SSH가 활성화된 특정 호스트에 SSH 접속:
 
-`tailscale ssh {{사용자명}}@{{호스트}}`
+`tailscale ssh {{사용자_이름}}@{{호스트}}`

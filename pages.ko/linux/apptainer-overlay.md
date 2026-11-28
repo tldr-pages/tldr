@@ -21,7 +21,7 @@
 
 - 레이아웃 내 특정 디렉터리를 포함하는 오버레이 생성:
 
-`apptainer overlay create --create-dir {{경로/대상/디렉터리}} {{경로/대상/오버레이.img}}`
+`apptainer overlay create --create-dir {{경로/대상/폴더}} {{경로/대상/오버레이.img}}`
 
 - 도움말 표시:
 

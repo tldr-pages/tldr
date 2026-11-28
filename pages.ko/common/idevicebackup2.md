@@ -5,11 +5,11 @@
 
 - 지정된 디렉터리에 장치의 백업을 생성:
 
-`idevicebackup2 backup {{경로/대상/디렉터리}}`
+`idevicebackup2 backup {{경로/대상/폴더}}`
 
 - 지정된 디렉터리에서 백업을 복원:
 
-`idevicebackup2 restore {{경로/대상/디렉터리}}`
+`idevicebackup2 restore {{경로/대상/폴더}}`
 
 - 백업 암호화 활성화:
 

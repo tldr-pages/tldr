@@ -9,7 +9,7 @@
 
 - 특정 언어에서 패턴 검색:
 
-`ast-grep run {{[-p|--pattern]}} '{{패턴}}' {{[-l|--lang]}} {{python}} {{경로/대상/디렉터리}}`
+`ast-grep run {{[-p|--pattern]}} '{{패턴}}' {{[-l|--lang]}} {{python}} {{경로/대상/폴더}}`
 
 - 패턴과 일치하는 코드 재작성:
 
@@ -17,11 +17,11 @@
 
 - 설정 파일의 규칙 실행:
 
-`ast-grep scan {{[-r|--rule]}} {{경로/대상/규칙.yml}} {{경로/대상/디렉터리}}`
+`ast-grep scan {{[-r|--rule]}} {{경로/대상/규칙.yml}} {{경로/대상/폴더}}`
 
 - 대화형으로 코드 검색 및 재작성:
 
-`ast-grep run {{[-p|--pattern]}} '{{패턴}}' {{[-i|--interactive]}} {{경로/대상/디렉터리}}`
+`ast-grep run {{[-p|--pattern]}} '{{패턴}}' {{[-i|--interactive]}} {{경로/대상/폴더}}`
 
 - 하위 명령어의 도움말 표시:
 

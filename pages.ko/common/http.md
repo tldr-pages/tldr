@@ -30,7 +30,7 @@
 
 - 지속적인 사용자 정의 헤더, 인증 자격 증명 및 쿠키에 대해 명명된 세션을 사용:
 
-`http --session {{세션_이름|경로/대상/세션.json}} {{[-a|--auth]}} {{사용자명}}:{{비밀번호}} {{https://example.com/auth}} {{API-KEY:xxx}}`
+`http --session {{세션_이름|경로/대상/세션.json}} {{[-a|--auth]}} {{사용자_이름}}:{{비밀번호}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - 양식에 파일을 업로드 (아래 예에서는 양식 필드가 `<input type="file" name="cv" />`라고 가정):
 

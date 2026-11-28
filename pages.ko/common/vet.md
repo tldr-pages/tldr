@@ -13,7 +13,7 @@
 
 - 코드베이스에서 심각도 critical의 취약점이 하나라도 발견되면, 실패하도록 필터를 적용해 검사:
 
-`vet scan {{[-D|--directory]}} {{경로/대상/디렉터리}} --filter 'vulns.critical.exists(p, true)' --filter-fail`
+`vet scan {{[-D|--directory]}} {{경로/대상/폴더}} --filter 'vulns.critical.exists(p, true)' --filter-fail`
 
 - 지정한 오픈 소스 소프트웨어 패키지 악성 코드 검사:
 

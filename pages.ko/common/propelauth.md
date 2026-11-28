@@ -13,7 +13,7 @@
 
 - 애플리케이션에 PropelAuth 인증 설치. (디렉터리를 지정하지 않으면 현재 디렉터리 사용):
 
-`propelauth setup {{[-f|--framework]}} {{경로/대상/디렉터리}}`
+`propelauth setup {{[-f|--framework]}} {{경로/대상/폴더}}`
 
 - PropelAuth에서 CLI로 로그아웃:
 

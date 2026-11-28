@@ -17,8 +17,8 @@
 
 - 지정된 패턴과 일치하는 이름을 가진 파일을 제외한 두 디렉터리를 비교:
 
-`diffoscope --exclude {{패턴}} {{경로/대상/디렉터리1}} {{경로/대상/디렉터리2}}`
+`diffoscope --exclude {{패턴}} {{경로/대상/폴더1}} {{경로/대상/폴더2}}`
 
 - 두 디렉터리를 비교하고 디렉터리 메타데이터가 고려되는지 여부를 제어:
 
-`diffoscope --exclude-directory-metadata {{auto|yes|no|recursive}} {{경로/대상/디렉터리1}} {{경로/대상/디렉터리2}}`
+`diffoscope --exclude-directory-metadata {{auto|yes|no|recursive}} {{경로/대상/폴더1}} {{경로/대상/폴더2}}`

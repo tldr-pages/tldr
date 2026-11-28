@@ -5,7 +5,7 @@
 
 - 사용자명과 비밀번호로 VPN에 연결:
 
-`openfortivpn {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}}`
+`openfortivpn {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}}`
 
 - 특정 구성 파일을 사용하여 VPN에 연결 (`/etc/openfortivpn/config`가 기본값):
 

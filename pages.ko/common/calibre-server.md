@@ -11,8 +11,8 @@
 
 - 다른 포트에서 서버 시작. <http://localhost:port> 에 연결:
 
-`calibre-server --port {{포트번호}}`
+`calibre-server --port {{포트}}`
 
 - 서버를 암호로 보호:
 
-`calibre-server --username {{사용자이름}} --password {{비밀번호}}`
+`calibre-server --username {{사용자_이름}} --password {{비밀번호}}`

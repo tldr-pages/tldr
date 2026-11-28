@@ -13,7 +13,7 @@
 
 - 홈 디렉토리 변경:
 
-`syncthing --home {{디렉토리/경로}}`
+`syncthing --home {{경로/대상/폴더}}`
 
 - 로깅을 증가시켜 Syncthing 실행:
 

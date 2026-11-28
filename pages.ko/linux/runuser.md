@@ -5,11 +5,11 @@
 
 - 다른 사용자로 명령 실행:
 
-`sudo runuser {{사용자}} {{[-c|--command]}} '{{명령}}'`
+`sudo runuser {{사용자}} {{[-c|--command]}} '{{명령어}}'`
 
 - 다른 사용자 및 그룹으로 명령 실행:
 
-`sudo runuser {{사용자}} {{[-g|--group]}} {{그룹}} {{[-c|--command]}} '{{명령}}'`
+`sudo runuser {{사용자}} {{[-g|--group]}} {{그룹}} {{[-c|--command]}} '{{명령어}}'`
 
 - 특정 사용자로 로그인 셸 시작:
 
@@ -21,4 +21,4 @@
 
 - 루트의 전체 환경을 보존 (단, `--login`이 지정되지 않은 경우에만):
 
-`sudo runuser {{사용자}} {{[-p|--preserve-environment]}} {{[-c|--command]}} '{{명령}}'`
+`sudo runuser {{사용자}} {{[-p|--preserve-environment]}} {{[-c|--command]}} '{{명령어}}'`

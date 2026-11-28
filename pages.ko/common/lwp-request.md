@@ -18,7 +18,7 @@
 
 - HTTP 인증으로 요청 만들기:
 
-`lwp-request -C {{사용자이름}}:{{비밀번호}} -m {{METHOD}} {{http://example.com/some/path}}`
+`lwp-request -C {{사용자_이름}}:{{비밀번호}} -m {{METHOD}} {{http://example.com/some/path}}`
 
 - 요청 헤더를 출력하며 요청 만들기:
 

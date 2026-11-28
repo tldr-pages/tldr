@@ -18,4 +18,4 @@
 
 - 이미지를 실시간으로 압축하며 진행률을 표시하고 원격 시스템으로 전송:
 
-`podman save {{이미지:태그}} | zstd {{[-T|--threads]}} 0 --ultra | pv | ssh {{사용자명}}@{{원격_호스트}} podman load`
+`podman save {{이미지:태그}} | zstd {{[-T|--threads]}} 0 --ultra | pv | ssh {{사용자_이름}}@{{원격_호스트}} podman load`

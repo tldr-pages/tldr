@@ -30,4 +30,4 @@
 
 - 설정 옵션 재정의:
 
-`footclient {{[-o|--override]}} {{section}}.{{key}}={{value}}`
+`footclient {{[-o|--override]}} {{section}}.{{key}}={{값}}`

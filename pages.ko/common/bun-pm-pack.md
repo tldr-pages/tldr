@@ -13,7 +13,7 @@
 
 - tarball을 특정 디렉토리에 저장:
 
-`bun pm pack --destination {{경로/대상/디렉토리}}`
+`bun pm pack --destination {{경로/대상/폴더}}`
 
 - tarball 파일명을 지정:
 

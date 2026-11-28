@@ -17,4 +17,4 @@
 
 - 디렉터리의 모든 파일에서 사용되지 않는 변수를 반복적으로 제거하여 각 파일을 덮어씀:
 
-`autoflake --remove-unused-variables --in-place --recursive {{경로/대상/디렉터리}}`
+`autoflake --remove-unused-variables --in-place --recursive {{경로/대상/폴더}}`

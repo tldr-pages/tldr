@@ -13,4 +13,4 @@
 
 - 비대화형으로 관리자 사용자 생성(권장하지 않음):
 
-`register_new_matrix_user --config {{경로/대상/홈서버.yaml}} --user {{사용자명}} --password {{비밀번호}} --admin`
+`register_new_matrix_user --config {{경로/대상/홈서버.yaml}} --user {{사용자_이름}} --password {{비밀번호}} --admin`

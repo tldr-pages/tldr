@@ -21,7 +21,7 @@
 
 - 특정 테스트 디렉토리 실행:
 
-`atoum {{[-d|--directories]}} {{경로/디렉토리명}}`
+`atoum {{[-d|--directories]}} {{경로/대상/폴더}}`
 
 - 특정 namespace 아래 있는 모든 테스트 실행:
 

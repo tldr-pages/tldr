@@ -29,7 +29,7 @@
 
 - HTTP 서버에서 자바스크립트 애플리케이션을 번들링하고 제공:
 
-`esbuild --bundle --serve={{port}} --outfile={{index.js}} {{경로/대상/파일.js}}`
+`esbuild --bundle --serve={{포트}} --outfile={{index.js}} {{경로/대상/파일.js}}`
 
 - 파일 목록을 출력 폴더에 번들링:
 

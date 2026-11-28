@@ -5,12 +5,12 @@
 
 - umask 022로 `/etc/skel`을 기반으로 사용자 홈 디렉토리 생성:
 
-`sudo mkhomedir_helper {{사용자명}}`
+`sudo mkhomedir_helper {{사용자_이름}}`
 
 - 소유자에게 모든 권한(0)을, 그룹에게 읽기 권한(3)을 부여한 umask 037로 `/etc/skel`을 기반으로 사용자 홈 디렉토리 생성:
 
-`sudo mkhomedir_helper {{사용자명}} {{037}}`
+`sudo mkhomedir_helper {{사용자_이름}} {{037}}`
 
 - 사용자 지정 스켈레톤을 기반으로 사용자 홈 디렉토리 생성:
 
-`sudo mkhomedir_helper {{사용자명}} {{umask}} {{경로/대상/스켈레톤_폴더}}`
+`sudo mkhomedir_helper {{사용자_이름}} {{umask}} {{경로/대상/스켈레톤_폴더}}`

@@ -6,27 +6,27 @@
 
 - Go 파일 포맷 적용:
 
-`gofumpt -w {{경로/대상/디렉터리}}`
+`gofumpt -w {{경로/대상/폴더}}`
 
 - `gofumpt` 포맷과 다른 파일 목록([l]ist) 표시:
 
-`gofumpt -l {{경로/대상/디렉터리}}`
+`gofumpt -l {{경로/대상/폴더}}`
 
 - 모든 오류([e]rrors) 보고:
 
-`gofumpt -e {{경로/대상/디렉터리}}`
+`gofumpt -e {{경로/대상/폴더}}`
 
 - 변경 사항([d]iffs) 표시:
 
-`gofumpt -d {{경로/대상/디렉터리}}`
+`gofumpt -d {{경로/대상/폴더}}`
 
 - 더욱 엄격한 규칙으로 Go 파일 포맷:
 
-`gofumpt -extra {{경로/대상/디렉터리}}`
+`gofumpt -extra {{경로/대상/폴더}}`
 
 - 더욱 엄격한 규칙 기준으로 변경 사항([d]iffs) 표시:
 
-`gofumpt -extra -d {{경로/대상/디렉터리}}`
+`gofumpt -extra -d {{경로/대상/폴더}}`
 
 - 도움말 표시:
 

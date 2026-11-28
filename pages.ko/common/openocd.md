@@ -13,7 +13,7 @@
 
 - 22설정 파일 및 서버 시작 시 실행할 명령을 함께 지정하여 보드에 OpenOCD 세션 연결:
 
-`openocd {{[-f|--file]}} {{config_file.cfg}} {{[-c|--command]}} "{{command}}"`
+`openocd {{[-f|--file]}} {{config_file.cfg}} {{[-c|--command]}} "{{명령어}}"`
 
 - 지정한 경로의 설정 파일 경로를 사용:
 

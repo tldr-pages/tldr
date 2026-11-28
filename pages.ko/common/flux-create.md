@@ -9,7 +9,7 @@
 
 - Git 소스의 디렉터리를 동기화하는 Kustomization 리소스 생성:
 
-`flux create kustomization {{kustomization_이름}} --source {{소스_이름}} --path {{경로/대상/디렉터리}}`
+`flux create kustomization {{kustomization_이름}} --source {{소스_이름}} --path {{경로/대상/폴더}}`
 
 - HelmRelease 생성:
 
@@ -17,4 +17,4 @@
 
 - Git 저장소 인증을 위한 Secret 생성:
 
-`flux create secret git {{비밀_이름}} --url {{https://github.com/repository}} --username "{{사용자명}}" --password "{{비밀번호}}"`
+`flux create secret git {{비밀_이름}} --url {{https://github.com/repository}} --username "{{사용자_이름}}" --password "{{비밀번호}}"`

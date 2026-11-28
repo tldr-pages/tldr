@@ -14,4 +14,4 @@
 
 - 특정 명령에 대한 도움말 표시:
 
-`makensis -CMDHELP {{명령}}`
+`makensis -CMDHELP {{명령어}}`

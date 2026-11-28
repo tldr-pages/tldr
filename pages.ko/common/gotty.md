@@ -13,4 +13,4 @@
 
 - 자격 증명으로 공유 (기본 인증):
 
-`gotty {{[-w|--permit-write]}} {{[-c|--credential]}} {{사용자명}}:{{비밀번호}} {{쉘}}`
+`gotty {{[-w|--permit-write]}} {{[-c|--credential]}} {{사용자_이름}}:{{비밀번호}} {{쉘}}`

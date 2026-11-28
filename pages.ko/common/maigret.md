@@ -7,15 +7,15 @@
 
 - Maigret 데이터베이스를 사용하여 하나 이상의 사용자명 검색:
 
-`maigret {{사용자명1 사용자명2 ...}}`
+`maigret {{사용자_이름1 사용자_이름2 ...}}`
 
 - 계정 검색 후 다양한 형식의 보고서 생성:
 
-`maigret {{사용자명}} {{--txt|--csv|--html|--xmind|--pdf|--graph|--json simple|--json ndjson}}`
+`maigret {{사용자_이름}} {{--txt|--csv|--html|--xmind|--pdf|--graph|--json simple|--json ndjson}}`
 
 - 프록시를 통해 검색 요청 전송:
 
-`maigret {{사용자명}} {{[-p|--proxy]}} {{socks5://127.0.0.1:9050|http://127.0.0.1:8080}}`
+`maigret {{사용자_이름}} {{[-p|--proxy]}} {{socks5://127.0.0.1:9050|http://127.0.0.1:8080}}`
 
 - Maigret Web Interface 실행 (기본 포트는 `5000`):
 
@@ -23,12 +23,12 @@
 
 - Maigret 데이터베이스의 상위 N개 사이트만 대상으로 검색:
 
-`maigret {{사용자명}} --top-sites {{500}}`
+`maigret {{사용자_이름}} --top-sites {{500}}`
 
 - Maigret 데이터베이스에 등록된 모든 사이트 검색:
 
-`maigret {{사용자명}} {{[-a|--all-sites]}}`
+`maigret {{사용자_이름}} {{[-a|--all-sites]}}`
 
 - 특정 사이트 대상으로만 검색 (목표가 있거나, 빠른 검색에서 유용):
 
-`maigret {{사용자명}} --site {{twitter}} --site {{github}}`
+`maigret {{사용자_이름}} --site {{twitter}} --site {{github}}`

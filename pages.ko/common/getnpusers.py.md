@@ -14,11 +14,11 @@
 
 - 익명 바인딩이 비활성화된 경우 유효한 자격 증명으로 인증:
 
-`GetNPUsers.py {{도메인}}/{{username}}:{{password}} -usersfile {{경로/대상/사용자_목록}} -dc-ip {{도메인_컨트롤러_ip}}`
+`GetNPUsers.py {{도메인}}/{{사용자_이름}}:{{비밀번호}} -usersfile {{경로/대상/사용자_목록}} -dc-ip {{도메인_컨트롤러_ip}}`
 
 - 비밀번호 대신 pass-the-hash 인증 사용:
 
-`GetNPUsers.py {{도메인}}/{{username}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{경로/대상/사용자_목록}} -dc-ip {{도메인_컨트롤러_ip}}`
+`GetNPUsers.py {{도메인}}/{{사용자_이름}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{경로/대상/사용자_목록}} -dc-ip {{도메인_컨트롤러_ip}}`
 
 - 추가 분석을 위해 출력을 파일로 저장:
 

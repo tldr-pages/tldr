@@ -13,4 +13,4 @@
 
 - 특정 사용자에게 할당된 10개의 종결된 문제를 나열:
 
-`hub issue {{[-s|--state]}} closed {{[-a|--assignee]}} {{사용자명}} {{[-L|--limit]}} 10`
+`hub issue {{[-s|--state]}} closed {{[-a|--assignee]}} {{사용자_이름}} {{[-L|--limit]}} 10`

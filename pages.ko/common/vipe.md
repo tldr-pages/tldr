@@ -5,12 +5,12 @@
 
 - `command1`의 출력을 편집한 후 `command2`로 파이핑:
 
-`{{command1}} | vipe | {{command2}}`
+`{{명령어1}} | vipe | {{명령어2}}`
 
 - 구문 강조를 돕기 위해 지정된 파일 확장자로 임시 파일에 `command1`의 출력을 버퍼링:
 
-`{{command1}} | vipe --suffix {{json}} | {{command2}}`
+`{{명령어1}} | vipe --suffix {{json}} | {{명령어2}}`
 
 - 지정된 텍스트 편집기 사용:
 
-`{{command1}} | EDITOR={{vim}} vipe | {{command2}}`
+`{{명령어1}} | EDITOR={{vim}} vipe | {{명령어2}}`

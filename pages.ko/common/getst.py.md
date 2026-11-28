@@ -6,20 +6,20 @@
 
 - 특정 SPN에 대한 서비스 티켓 요청:
 
-`getST.py {{도메인}}/{{사용자명}}:{{비밀번호}} -spn {{서비스}}/{{대상}}`
+`getST.py {{도메인}}/{{사용자_이름}}:{{비밀번호}} -spn {{서비스}}/{{대상}}`
 
 - NTLM 해시 (pass-the-hash)를 사용하여 티켓 요청:
 
-`getST.py -hashes {{LM_Hash}}:{{NT_Hash}} {{도메인}}/{{사용자명}} -spn {{서비스}}/{{대상}}`
+`getST.py -hashes {{LM_Hash}}:{{NT_Hash}} {{도메인}}/{{사용자_이름}} -spn {{서비스}}/{{대상}}`
 
 - 기존 Kerberos ccache 파일을 사용해 티켓 요청:
 
-`getST.py -no-pass -k {{도메인}}/{{사용자명}} -spn {{서비스}}/{{대상}}`
+`getST.py -no-pass -k {{도메인}}/{{사용자_이름}} -spn {{서비스}}/{{대상}}`
 
 - S4U2Self를 통해 다른 사용자로 가장 (위임 권한 필요) 수행:
 
-`getST.py -k -impersonate {{타겟_사용자}} {{도메인}}/{{사용자명}} -spn {{서비스}}/{{대상}}`
+`getST.py -k -impersonate {{타겟_사용자}} {{도메인}}/{{사용자_이름}} -spn {{서비스}}/{{대상}}`
 
 - 티켓을 강제로 전달 가능 (Bronze Bit):
 
-`getST.py -force-forwardable -k {{도메인}}/{{사용자명}} -spn {{서비스}}/{{대상}}`
+`getST.py -force-forwardable -k {{도메인}}/{{사용자_이름}} -spn {{서비스}}/{{대상}}`

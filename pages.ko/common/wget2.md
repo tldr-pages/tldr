@@ -35,4 +35,4 @@
 
 - HTTP 서버에서 Basic Auth를 사용하여 파일 다운로드 (HTTPS에도 작동):
 
-`wget2 --user {{사용자_명}} --password {{비밀번호}} {{https://example.com}}`
+`wget2 --user {{사용자_이름}} --password {{비밀번호}} {{https://example.com}}`

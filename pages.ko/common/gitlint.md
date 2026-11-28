@@ -13,7 +13,7 @@
 
 - 추가 사용자 정의 규칙이 있는 디렉토리 또는 Python 모듈의 경로 표시:
 
-`gitlint --extra-path {{경로/대상/디렉터리}}`
+`gitlint --extra-path {{경로/대상/폴더}}`
 
 - 특정 CI 작업 시작:
 

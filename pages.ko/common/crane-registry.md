@@ -14,7 +14,7 @@
 
 - blob이 저장될 디렉터리의 경로:
 
-`crane registry serve --disk {{경로/대상/store_dir}}`
+`crane registry serve --disk {{경로/대상/폴더}}`
 
 - 도움말 표시:
 

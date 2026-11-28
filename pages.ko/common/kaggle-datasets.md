@@ -5,7 +5,7 @@
 
 - 특정 사용자 또는 조직이 소유한 모든 데이터셋 목록 표시:
 
-`kaggle {{[d|datasets]}} list --user {{사용자명}}`
+`kaggle {{[d|datasets]}} list --user {{사용자_이름}}`
 
 - 이름으로 데이터셋 검색:
 

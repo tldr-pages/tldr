@@ -10,7 +10,7 @@
 
 - 장치 기능을 가져오려면 사용자 이름과 비밀번호를 제공:
 
-`gnmic {{[-a|--address]}} {{아이피:포트}} {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} capabilities`
+`gnmic {{[-a|--address]}} {{아이피:포트}} {{[-u|--username]}} {{사용자_이름}} {{[-p|--password]}} {{비밀번호}} capabilities`
 
 - 특정 경로에서 장치 상태의 스냅샷을 가져옴:
 

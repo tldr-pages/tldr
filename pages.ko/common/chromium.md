@@ -26,11 +26,11 @@
 
 - 사용자 데이터 디렉토리 지정:
 
-`chromium --user-data-dir={{경로/대상/디렉토리}}`
+`chromium --user-data-dir={{경로/대상/폴더}}`
 
 - CORS 검증 없이 열기 (API 테스트 유용):
 
-`chromium --user-data-dir={{경로/대상/디렉토리}} --disable-web-security`
+`chromium --user-data-dir={{경로/대상/폴더}} --disable-web-security`
 
 - 각 탭에 대해 DevTools 창 열기:
 

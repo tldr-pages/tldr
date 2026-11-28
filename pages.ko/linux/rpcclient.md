@@ -5,19 +5,19 @@
 
 - 원격 호스트에 연결:
 
-`rpcclient {{[-U|--user]}} {{도메인}}\{{사용자명}}%{{비밀번호}} {{ip_address}}`
+`rpcclient {{[-U|--user]}} {{도메인}}\{{사용자_이름}}%{{비밀번호}} {{ip_address}}`
 
 - 비밀번호 없이 도메인에 있는 원격 호스트에 연결:
 
-`rpcclient {{[-U|--user]}} {{사용자명}} {{[-W|--workgroup]}} {{도메인}} {{[-N|--no-pass]}} {{ip_address}}`
+`rpcclient {{[-U|--user]}} {{사용자_이름}} {{[-W|--workgroup]}} {{도메인}} {{[-N|--no-pass]}} {{ip_address}}`
 
 - 비밀번호 해시를 전달하여 원격 호스트에 연결:
 
-`rpcclient {{[-U|--user]}} {{도메인}}\{{사용자명}} --pw-nt-hash {{ip_address}}`
+`rpcclient {{[-U|--user]}} {{도메인}}\{{사용자_이름}} --pw-nt-hash {{ip_address}}`
 
 - 원격 호스트에서 셸 명령 실행:
 
-`rpcclient {{[-U|--user]}} {{도메인}}\{{사용자명}}%{{비밀번호}} {{[-c|--command]}} {{세미콜론_구분_명령들}} {{ip_address}}`
+`rpcclient {{[-U|--user]}} {{도메인}}\{{사용자_이름}}%{{비밀번호}} {{[-c|--command]}} {{세미콜론_구분_명령들}} {{ip_address}}`
 
 - [대화형] 도메인 사용자 표시:
 
@@ -33,4 +33,4 @@
 
 - [대화형] 도메인에 새 사용자 생성:
 
-`createdomuser {{사용자명}}`
+`createdomuser {{사용자_이름}}`

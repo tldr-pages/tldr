@@ -9,15 +9,15 @@
 
 - 특정 chroot에서 명령 실행:
 
-`schroot --chroot {{chroot}} {{명령}}`
+`schroot --chroot {{chroot}} {{명령어}}`
 
 - 특정 chroot에서 옵션과 함께 명령 실행:
 
-`schroot --chroot {{chroot}} {{명령}} -- {{명령_옵션}}`
+`schroot --chroot {{chroot}} {{명령어}} -- {{명령_옵션}}`
 
 - 모든 사용 가능한 chroot에서 명령 실행:
 
-`schroot --all {{명령}}`
+`schroot --all {{명령어}}`
 
 - 특정 사용자로 특정 chroot 내에서 대화형 셸 시작:
 

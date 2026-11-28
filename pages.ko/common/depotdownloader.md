@@ -9,7 +9,7 @@
 
 - 특정 디포(depot)를 지정한 디렉터리에 다운로드:
 
-`depotdownloader -app {{108600}} -depot {{108603}} -dir {{경로/대상/디렉터리}}`
+`depotdownloader -app {{108600}} -depot {{108603}} -dir {{경로/대상/폴더}}`
 
 - Steam 계정을 사용해 다운로드:
 
