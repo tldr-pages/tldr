@@ -15,13 +15,9 @@
 
 `virt-admin client-info {{server}} {{client_id}}`
 
-- Shut down the libvirt daemon gracefully:
+- Instruct the daemon to exit gracefully:
 
 `virt-admin daemon-shutdown`
-
-- Shut down the daemon while preserving running virtual machines:
-
-`virt-admin daemon-shutdown --preserve`
 
 - Display available commands:
 
