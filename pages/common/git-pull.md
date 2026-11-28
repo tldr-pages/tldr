@@ -7,7 +7,7 @@
 
 `git pull`
 
-- Download changes from default remote repository and use fast-forward:
+- Download changes from default remote repository and rebase local commits on top of them:
 
 `git pull {{[-r|--rebase]}}`
 
